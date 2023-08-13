@@ -1,0 +1,261 @@
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	
+	background-color: #9ED6F5;
+}
+
+
+/*Header*/
+/*--------------------------------------------*/
+.header-text{
+	text-align: center;
+
+	margin-top: 2%;
+
+	margin-bottom: 5%;
+	padding: 5px;
+
+}
+
+
+
+.header-text h2{
+	color: wheat;
+	font-size: 40px;
+}
+
+/*---------------------------------------------*/
+
+
+
+/*Main*/
+/*--------------------------------------------*/
+
+
+.main-page{
+	width: 100%;
+	height: auto;
+
+}
+
+.main-page hr{
+	width: 280px;
+	height: 1px;
+	background: #070606;
+}
+
+.main{
+	width: 100%;
+	height: auto;
+}
+
+/*--------------------------------------------*/
+
+.login-form-page{
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	padding: 20px;
+
+	border-radius: 6%;
+	width: 300px;
+	height: 300px;
+	background-color: #FDB993;
+}
+
+
+.login-form-page h2{
+	font-style: italic ;
+	font-size: 25px;
+	text-align: center;
+	padding: 5px;
+	
+}
+
+.login-form {
+	margin-top: 20px;
+	
+
+}
+
+
+
+/*--------------------------------------------*/
+
+.user-nickname {
+	margin-bottom: 10px;
+	padding: 5px;
+	
+	
+}
+
+
+
+#NickName{
+	width: 280px;
+	height: 29px;
+
+	color: black;
+
+	font-style: italic;
+	font-size: 20px;
+
+	border: none;
+	background-color: #FDB993;
+	
+}
+
+#NickName:focus {
+	outline:0;
+	background-color: #FDB993;
+}
+
+
+
+/*--------------------------------------------*/
+
+
+
+.user-password {
+	margin-bottom: 47px;
+	padding: 5px;
+}
+
+#Password{
+	width: 280px;
+	height: 29px;
+
+	color: black;
+
+	font-family: Inter;
+	font-size: 20px;
+
+	border: none;
+	background-color: #FDB993;
+
+}
+
+#Password:focus{
+	outline:0;
+	background-color: #FDB993;
+}
+
+::selection{
+	background: #FDB993;
+ }
+/*--------------------------------------------*/
+
+
+.login-submit {
+	position: relative;
+	margin-bottom: 40px;
+	padding: 5px;
+
+	
+}
+
+#login-form-submit {
+	width: 170px;
+	height: 40px;
+
+	background-color: #E9DFDF;
+	margin-left:55px ;
+	border: none;
+	border-radius:50px ;
+	
+	font-style: italic;
+	font-size: 18px;
+	cursor:pointer;
+	
+}
+
+
+
+
+
+/*---------------------------------------------*/
+
+
+/*Footer*/
+/*--------------------------------------------*/
+
+.footer-text {
+	padding: 5px;
+	text-align: center;
+	font-family: 'Roboto' ,sans-serif 300;
+	font-size: 15px;
+	color: #837777;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+
+@media  screen and  (min-width: 200px) and (max-width:349px) {
+	.main-page hr{
+		width: 230px;
+		
+	
+	}
+
+	.login-form-page{
+		width: 250px;
+		padding: 10px;
+	}
+
+
+	#NickName,#Confirm-Password,#Password,#Email{
+		width: 230px;
+	}
+
+
+	.login-submit {
+		
+		margin-bottom: 30px;
+	
+	
+		
+	}
+
+	#login-form-submit{
+		margin-left: 35px;
+	}
+	
+}
+
+ @media  screen and  (min-width: 350px) and (max-width:450px) {
+
+
+}
+
+@media  screen and  (min-width: 768px) and (max-width:830px) {
+	.header-text{
+
+		margin-top: 10%;
+
+	}
+	
+}
+
+
+@media  screen and  (min-width: 350px) and (max-width:450px) {
+
+	
+}
+
