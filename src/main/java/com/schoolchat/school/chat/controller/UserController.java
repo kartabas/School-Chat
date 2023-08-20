@@ -42,9 +42,11 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public String login(@ModelAttribute UsersModel usersModel){
+    public String login(@ModelAttribute UsersModel usersModel ,Model model){
         System.out.println("login request: "+ usersModel);
         UsersModel authenticated= usersService.authenticate(usersModel.getLogin(), usersModel.getPassword());
+
+        model.addAttribute("userLogin",authenticated.getLogin());
 
         if(authenticated !=null){
             return "personal_page";

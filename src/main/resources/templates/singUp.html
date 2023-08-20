@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta content="width=device-width, initial-scale=1" name="viewport"/>
 	<title>Register Page</title>
 	<link rel="stylesheet" type="text/css" href="../../css/singUP.css">
 	<!-- <link rel="stylesheet" type="text/css" href="../../static/css/singUP.css"> -->
@@ -14,70 +14,65 @@
 
 <body>
 
-	<div class="main-page">
-		<div class="main">
-			<div class="header-text">
-				<h2 class="header-title">School Chat</h2>
-			</div>
+<div class="main-page">
+	<div class="main">
+		<div class="header-text">
+			<h2 class="header-title">School Chat</h2>
+		</div>
 
 
+		<div class="reg-form">
+			<h2 class="form-title">Register</h2>
 
 
+			<form method="post" action="/" th:object="${registerRequest}"  class="register-form">
 
-			<div class="reg-form">
-				<h2 class="form-title">Register</h2>
+				<div class="user-nickname">
+					<input type="text" id="NickName" placeholder="Your nickname" required>
+					<hr>
 
-
-
-				<form method="" action="" class="register-form">
-
-					<div class="user-nickname">
-						<input type="text" id="NickName" placeholder="Your nickname" required>
-						<hr>
-
-					</div>
-
-
-					<div class="user-email">
-
-						<input type="emai" id="Email" placeholder="Email" required>
-						<hr>
-					</div>
-
-					<div class="user-password">
-						<input type="password" id="Password" placeholder="Password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
-						<hr>
-					</div>
-
-					<div class="user-confirm-password">
-						<input type="password" id="Confirm-Password" placeholder="Confirm Password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
-						<hr>
-					</div>
-
-
-
-					<div class="reg-submit">
-						<input type="submit" value="Register" id="reg-form-submit">
-
-					</div>
-
-
-
-				</form>
-
-				<div class="footer-text">
-					<p>Have an Account? <a href="/login">Login Here</a> </p>
-					<!-- <p>Have an Account? <a href="../templates/Login.html">Login Here</a> </p> -->
 				</div>
 
+
+				<div class="user-email">
+
+					<input type="emai" id="Email" placeholder="Email" required>
+					<hr>
+				</div>
+
+				<div class="user-password">
+					<input type="password" id="Password" placeholder="Password"
+						   pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
+					<hr>
+				</div>
+
+				<div class="user-confirm-password">
+					<input type="password" id="Confirm-Password" placeholder="Confirm Password">
+					<!--pattern=pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"-->
+					<hr>
+				</div>
+
+
+				<div class="reg-submit">
+					<input type="submit" value="Register" id="reg-form-submit">
+
+				</div>
+
+
+			</form>
+
+			<div class="footer-text">
+				<p>Have an Account? <a href="/login">Login Here</a></p>
+				<!-- <p>Have an Account? <a href="../templates/Login.html">Login Here</a> </p> -->
 			</div>
 
 		</div>
+
 	</div>
+</div>
 
 
-
-	<noscript>You need to enable JavaScript to run this app.</noscript>
+<noscript>You need to enable JavaScript to run this app.</noscript>
 </body>
 
 </html>
