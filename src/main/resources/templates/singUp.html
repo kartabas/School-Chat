@@ -32,7 +32,7 @@
 				<form method="" action="" class="register-form">
 
 					<div class="user-nickname">
-						<input type="text" id="NickName" placeholder="Your nickname">
+						<input type="text" id="NickName" placeholder="Your nickname" required>
 						<hr>
 
 					</div>
@@ -40,17 +40,17 @@
 
 					<div class="user-email">
 
-						<input type="emai" id="Email" placeholder="Email">
+						<input type="emai" id="Email" placeholder="Email" required>
 						<hr>
 					</div>
 
 					<div class="user-password">
-						<input type="password" id="Password" placeholder="Password">
+						<input type="password" id="Password" placeholder="Password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
 						<hr>
 					</div>
 
 					<div class="user-confirm-password">
-						<input type="password" id="Confirm-Password" placeholder="Confirm Password">
+						<input type="password" id="Confirm-Password" placeholder="Confirm Password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
 						<hr>
 					</div>
 
