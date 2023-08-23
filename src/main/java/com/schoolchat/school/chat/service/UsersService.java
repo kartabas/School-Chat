@@ -20,6 +20,13 @@ public class UsersService {
         if (login == null || password == null) {
             return  null;
         } else {
+
+            if(usersRepository.findFirstByLogin(login).isPresent()){
+                System.out.println("Duplicate login");
+                return null;
+            }
+
+
             UsersModel usersModel = new UsersModel();
 
             usersModel.setLogin(login);
