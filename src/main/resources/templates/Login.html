@@ -31,10 +31,10 @@
 
 
 
-				<form method="post" action="/login" th:object="${loginRequest}"  class="login-form">
+				<form method="post" action="/login"  th:action="@{/login}" th:object="${loginRequest}"  class="login-form">
 
 					<div class="user-nickname">
-						<input type="text" id="NickName" placeholder="Your nickname" required>
+						<input type="text" id="NickName" th:field="*{login}" placeholder="Your nickname" required>
 						<hr>
 
 					</div>
@@ -42,7 +42,7 @@
 
 
 					<div class="user-password">
-						<input type="password" id="Password" placeholder="Password" >
+						<input type="password" id="Password" placeholder="Password" th:field="*{password}" >
 <!--						pattern=pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"-->
 						<hr>
 					</div>

@@ -25,10 +25,10 @@
 			<h2 class="form-title">Register</h2>
 
 
-			<form method="post" action="/" th:object="${registerRequest}"  class="register-form">
+			<form method="post" action="/" th:action="@{/}" th:object="${registerRequest}"  class="register-form">
 
 				<div class="user-nickname">
-					<input type="text" id="NickName" placeholder="Your nickname" required>
+					<input type="text" id="login"  th:field="*{login}" placeholder="Your nickname" required>
 					<hr>
 
 				</div>
@@ -36,18 +36,18 @@
 
 				<div class="user-email">
 
-					<input type="emai" id="Email" placeholder="Email" required>
+					<input type="email" id="email"  th:field="*{email}" placeholder="Email" required>
 					<hr>
 				</div>
 
 				<div class="user-password">
-					<input type="password" id="Password" placeholder="Password"
+					<input type="password" id="password"  th:field="*{password}" placeholder="Password"
 						   pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
 					<hr>
 				</div>
 
 				<div class="user-confirm-password">
-					<input type="password" id="Confirm-Password" placeholder="Confirm Password">
+					<input type="password" id="confirm-password" placeholder="Confirm Password">
 					<!--pattern=pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"-->
 					<hr>
 				</div>

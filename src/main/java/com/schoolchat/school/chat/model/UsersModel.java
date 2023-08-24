@@ -10,7 +10,7 @@ public class UsersModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer id;
+    Integer id ;
 
     String login;
 
@@ -55,6 +55,7 @@ public class UsersModel {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         UsersModel that = (UsersModel) o;
+
         return Objects.equals(id, that.id) && Objects.equals(login, that.login) && Objects.equals(password, that.password) && Objects.equals(email, that.email);
     }
 
