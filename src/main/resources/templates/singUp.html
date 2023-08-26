@@ -5,8 +5,9 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport"/>
 	<title>Register Page</title>
-	<link rel="stylesheet" type="text/css" href="../../css/singUP.css">
-	<!-- <link rel="stylesheet" type="text/css" href="../../static/css/singUP.css"> -->
+	<link rel="stylesheet" type="text/css" href="../static/css/singUP.css">
+		<!--	<link rel="stylesheet" type="text/css" href="../../css/singUP.css">  for java-->
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/singUP.css">  for vs code --> 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -32,6 +33,7 @@
 					<hr>
 
 				</div>
+				
 
 
 				<div class="user-email">
@@ -42,12 +44,12 @@
 
 				<div class="user-password">
 					<input type="password" id="password"  th:field="*{password}" placeholder="Password"
-						   pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
+						   pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
 					<hr>
 				</div>
 
 				<div class="user-confirm-password">
-					<input type="password" id="confirm-password" placeholder="Confirm Password">
+					<input type="password" id="confirm-password" placeholder="Confirm Password" required>
 					<!--pattern=pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"-->
 					<hr>
 				</div>
@@ -62,8 +64,9 @@
 			</form>
 
 			<div class="footer-text">
-				<p>Have an Account? <a href="/login">Login Here</a></p>
-				<!-- <p>Have an Account? <a href="../templates/Login.html">Login Here</a> </p> -->
+				<p>Have an Account? <a href="../templates/Login.html">Login Here</a> </p>
+				<!--<p>Have an Account? <a href="/login">Login Here</a></p>  for java-->
+				<!-- <p>Have an Account? <a href="../templates/Login.html">Login Here</a> </p>  for vs code -->
 			</div>
 
 		</div>
