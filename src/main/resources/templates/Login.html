@@ -24,28 +24,31 @@
 			</div>
 
 
+			<div class="login-form-page " >
+				
 
 
 
-			<div class="login-form-page">
-				<h2 class="form-title">Login</h2>
+				<form method="post" action="/login" th:action="@{/login}" th:object="${loginRequest}" class="login-form " id="login" >
 
+					<h2 class="form-title">Login</h2>
 
-
-				<form method="post" action="/login"  th:action="@{/login}" th:object="${loginRequest}"  class="login-form">
+					<div class="form__message "  ></div>
 
 					<div class="user-nickname">
-						<input type="text" id="NickName" th:field="*{login}" placeholder="Your nickname" required>
-						<hr>
+						<input type="text" id="username" th:field="*{login}" autofocus placeholder="Your nickname"  class="form__input " required>
+
+						<div class="form__input-error-message "></div>
 
 					</div>
 
 
 
 					<div class="user-password">
-						<input type="password" id="Password" placeholder="Password" th:field="*{password}" required>
-<!--						pattern=pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"-->
-						<hr>
+						<input type="password" id="password" autofocus placeholder="Password" th:field="*{password}"  class="form__input " required>
+						<!--						pattern=pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"-->
+						<div class="form__input-error-message "></div>
+
 					</div>
 
 
@@ -53,27 +56,29 @@
 
 
 					<div class="login-submit">
-						<input type="submit" value="Login" id="login-form-submit">
+						<input  type="submit" value="Login" id="login-form-submit" >
 
 					</div>
 
 
 
+					<div class="footer-text">
+						<p>Haven't an Account? <a href="../templates/singUp.html" >Sing Up Here</a> </p>
+						<!--<p>Haven't an Account? <a href="/">Sing Up Here</a> </p>    for java-->
+						<!-- <p>Haven't an Account? <a href="../templates/singUp.html">Sing Up Here</a> </p>   for vs code -->
+
+					</div>
 				</form>
 
-				<div class="footer-text">
-					<p>Haven't an Account? <a href="../templates/singUp.html">Sing Up Here</a> </p>
-					<!--<p>Haven't an Account? <a href="/">Sing Up Here</a> </p>    for java-->
-					<!-- <p>Haven't an Account? <a href="../templates/singUp.html">Sing Up Here</a> </p>   for vs code -->
-				</div>
+			
 
-			</div>
+			</div><!-- /login-form-page-->
 
-		</div>
-	</div>
+		</div><!-- /main-->
+	</div><!-- /main-page-->
 
 
-
+	<script src="../static/js/validationRegPage/validationRegLoginPage.js"></script>
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 </body>
 
