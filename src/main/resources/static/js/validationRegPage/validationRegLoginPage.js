@@ -9,6 +9,7 @@ function setFormMessage(formElement,type,message){
 }
 
 function setInputError(inputElement,message){
+
 	inputElement.classList.add("form__input--error");
 	inputElement.parentElement.querySelector(".form__input-error-message").textContent = message;
 
@@ -22,6 +23,10 @@ function clearInputError(inputElement){
 }
 
 
+
+
+
+
 document.addEventListener("DOMContentLoaded", () =>{
 	const loginForm =document.querySelector("#login");
 	const registerForm =document.querySelector("#register");
@@ -32,27 +37,33 @@ document.addEventListener("DOMContentLoaded", () =>{
 
 		//Perform your AJAX/Fetch login
 
-		setFormMessage(registerForm,"error" , "Invalid username/password comdination!");
+
+
+		let inputValue=document.querySelector("#password").value;
+
+		let inputValueConfirm=document.querySelector("#confirm-password").value;
+
+		let inputElement2 =document.querySelector("#confirm-password");
+		
+
+		if( inputValueConfirm  !=inputValue ){
+			
+			
+			setInputError(inputElement2,"Incorect password!");
+
+		}else{
+			
+			clearInputError(inputElement2);
+		}
+
+		
+		
+
+		
 	});
 
-
-	document.querySelector(".user-nickname").forEach(inputElement => {
-
-		inputElement.addEventListener("blur", e=>{
-
-			if(e.target.id === "#username" && e.target.value.length <10 ){
-				
-				setInputError(inputElement,"Username must be at least 10 characters in length");
-			}
-
-
-		});
-
-		inputElement.addEventListener("input" , e=>{
-			clearInputError(inputElement);
-		});
-
-	});
+	
+	
 
 });
 

@@ -24,19 +24,21 @@
 			</div>
 
 
-			<div class="login-form-page " >
-				
+			<div class="login-form-page ">
 
 
 
-				<form method="post" action="/login" th:action="@{/login}" th:object="${loginRequest}" class="login-form " id="login" >
+
+				<form method="post" action="/login" th:action="@{/login}" th:object="${loginRequest}" class="login-form "
+					id="login">
 
 					<h2 class="form-title">Login</h2>
 
-					<div class="form__message "  ></div>
+					<div class="form__message "></div>
 
 					<div class="user-nickname">
-						<input type="text" id="username" th:field="*{login}" autofocus placeholder="Your nickname"  class="form__input " required>
+						<input type="text" id="username" th:field="*{login}" autofocus placeholder="Your nickname"
+							class="form__input " required>
 
 						<div class="form__input-error-message "></div>
 
@@ -45,7 +47,8 @@
 
 
 					<div class="user-password">
-						<input type="password" id="password" autofocus placeholder="Password" th:field="*{password}"  class="form__input " required>
+						<input type="password" id="password" autofocus placeholder="Password" th:field="*{password}"
+							class="form__input " required>
 						<!--						pattern=pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"-->
 						<div class="form__input-error-message "></div>
 
@@ -56,21 +59,21 @@
 
 
 					<div class="login-submit">
-						<input  type="submit" value="Login" id="login-form-submit" >
+						<input type="submit" value="Login" id="login-form-submit">
 
 					</div>
 
 
 
 					<div class="footer-text">
-						<p>Haven't an Account? <a href="../templates/singUp.html" >Sing Up Here</a> </p>
+						<p>Haven't an Account? <a href="../templates/singUp.html">Sing Up Here</a> </p>
 						<!--<p>Haven't an Account? <a href="/">Sing Up Here</a> </p>    for java-->
 						<!-- <p>Haven't an Account? <a href="../templates/singUp.html">Sing Up Here</a> </p>   for vs code -->
 
 					</div>
 				</form>
 
-			
+
 
 			</div><!-- /login-form-page-->
 
