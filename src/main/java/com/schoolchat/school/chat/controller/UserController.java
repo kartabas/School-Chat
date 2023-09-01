@@ -46,9 +46,10 @@ public class UserController {
         System.out.println("login request: "+ usersModel);
         UsersModel authenticated= usersService.authenticate(usersModel.getLogin(), usersModel.getPassword());
 
-        model.addAttribute("userLogin",authenticated.getLogin());
+        model.addAttribute("userLogin",authenticated);
 
-        if(authenticated !=null){
+        if(authenticated != null){
+
             return "personal_page";
         }else{
             return "error_page";

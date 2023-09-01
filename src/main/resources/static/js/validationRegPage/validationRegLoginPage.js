@@ -1,23 +1,25 @@
+console.log("work");
 
-function setFormMessage(formElement,type,message){
+function setFormMessage(formElement, type, message) {
 	const messageElement = formElement.querySelector(".form__message")
 
-	messageElement.textContent= message;
+	messageElement.textContent = message;
 	messageElement.classList.remove("form__message--success", "form__message--error");
 	messageElement.classList.add(`form__message--${type}`);
 
 }
 
-function setInputError(inputElement,message){
+function setInputError(inputElement, message) {
 
 	inputElement.classList.add("form__input--error");
 	inputElement.parentElement.querySelector(".form__input-error-message").textContent = message;
 
-	
+
 }
 
 
-function clearInputError(inputElement){
+
+function clearInputError(inputElement) {
 	inputElement.classList.remove("form__input--error");
 	inputElement.parentElement.querySelector(".form__input-error-message").textContent = "";
 }
@@ -27,44 +29,87 @@ function clearInputError(inputElement){
 
 
 
-document.addEventListener("DOMContentLoaded", () =>{
-	const loginForm =document.querySelector("#login");
-	const registerForm =document.querySelector("#register");
+
+	const registerForm = document.querySelector("#register");
 
 
-	registerForm.addEventListener("submit" , e =>{
-		e.preventDefault();
-
-		//Perform your AJAX/Fetch login
+	//---------------------------------------------------------------------------------
 
 
+	registerForm.addEventListener("submit", e => {
 
-		let inputValue=document.querySelector("#password").value;
 
-		let inputValueConfirm=document.querySelector("#confirm-password").value;
+		const inputPasswordValue = document.querySelector("#password").value;
+		const inputPassword = document.querySelector("#password");
 
-		let inputElement2 =document.querySelector("#confirm-password");
-		
+		const inputPasswordConfirmValue = document.querySelector("#confirm-password").value;
+		const inputPasswordConfirm = document.querySelector("#confirm-password");
 
-		if( inputValueConfirm  !=inputValue ){
-			
-			
-			setInputError(inputElement2,"Incorect password!");
 
-		}else{
-			
-			clearInputError(inputElement2);
+
+		//Validation for Password
+
+
+
+
+		if (inputPasswordConfirmValue != inputPasswordValue) {
+
+			setInputError(inputPasswordConfirm, "Incorrect confirm-password!");
+			e.preventDefault();
+
+		} else {
+			clearInputError(inputPasswordConfirm);
+
 		}
 
-		
-		
+		//Min 1 special character.
+		const arrayOfSp = ["!", "@", "#", "$", "%", "&", "_", "-"];
+		let specialCharacterCheck = false;
 
-		
+
+		const special = (c) => {
+			return arrayOfSp.find(item => item === c)
+		}
+
+		for (let i = 0; i < inputPasswordValue.length; i++) {
+			const isPresent = special(inputPasswordValue[i]);
+			if (isPresent) {
+				specialCharacterCheck = true;
+				break;
+			}
+		}
+
+
+
+
+
+		//Min 1 special character.
+		if (specialCharacterCheck != true) {
+			setInputError(inputPassword, "Min 1 special character");
+			e.preventDefault();
+
+		} else if (inputPasswordValue.length < 8) {
+			setInputError(inputPassword, "Min 8 characters or more");
+			e.preventDefault();
+
+		} else {
+			clearInputError(inputPassword);
+
+		}
+
+
+		//----------------------------------------------------------------------
+
+
+
+
+
 	});
 
-	
-	
 
-});
+
+
+
+
 
 
