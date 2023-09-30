@@ -51,6 +51,7 @@ public class UserController {
         if(authenticated != null){
 
             return "personal_page";
+
         }else{
             return "error_page";
         }
