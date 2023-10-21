@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../../css/searchPage.css">
+	<title>Search School</title>
+
+</head>
+
+<body>
+	<input id="search" type="text" placeholder="Search term">
+	<div id="matches" style="height:70px; overflow-y:hidden; white-space:pre"  > </div>
+
+
+	 <div class="search" >
+			<span class="search__text" th:text="${school}"></span>
+
+	 </div>
+
+
+	<script href="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
+
+		<script src="../../js/searchScoolSeite/searchSchool.js"></script>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+<!--	<script src="../../static/js/Bibliothek/jquery-3.7.1.min.js"></script>     For vs code -->
+<!--	<script src="../../static/js/searchScoolSeite/searchSchoolSeite.js"></script> -->
+</body>
+
+</html>

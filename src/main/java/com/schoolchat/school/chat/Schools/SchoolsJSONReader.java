@@ -1,4 +1,4 @@
-package com.schoolchat.school.chat.jsonController;
+package com.schoolchat.school.chat.Schools;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -9,16 +9,25 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class JSONReadFromFile {
+
+import com.schoolchat.school.chat.Schools.School;
+
+public class JsonSchoolReadFile {
+
+    public static String asd;
+
 
 
     public static void main(String[] args){
+
         JSONParser jsonParser=new JSONParser();
         try(FileReader reader =new FileReader("/Hard-Project/School-Chat/src/main/resources/bayern.json")){
             Object obj = jsonParser.parse(reader);
             JSONArray schoolList  = (JSONArray) obj;
             //System.out.println(schoolList);
             schoolList.forEach(sch -> parseSchoolObj((JSONObject) sch));
+
+
 
         } catch (FileNotFoundException e) {
 
@@ -31,30 +40,31 @@ public class JSONReadFromFile {
 
 
     }
-    private  static  void parseSchoolObj(JSONObject sch){
+    public    static void  parseSchoolObj(JSONObject sch){
         JSONObject schoolObj =(JSONObject) sch;
 
 
 
 
-        String officialId = (String) schoolObj.get("official_id");
+        String  officialId = (String) schoolObj.get("official_id");
         String address = (String) schoolObj.get("address");
         String schoolType = (String) schoolObj.get("school_type");
         String state = (String) schoolObj.get("state");
 
 
-        if( "684".equals(officialId)){
+       // if( "684".equals(officialId)){
 
-            System.out.println("ID: " + officialId);
-            System.out.println("Address: " + address);
+         //   System.out.println("ID: " + officialId);
+          //  System.out.println("Address: " + address);
 
-            System.out.println("School type: " + schoolType);
-            System.out.println("State: " + state);
-        }
-
-
+          //  System.out.println("School type: " + schoolType);
+          //  System.out.println("State: " + state);
+       // }
 
 
     }
+
+
+
 
 }

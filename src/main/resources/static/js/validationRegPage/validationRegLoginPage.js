@@ -1,4 +1,4 @@
-console.log("work");
+console.log("Validation work");
 
 function setFormMessage(formElement, type, message) {
 	const messageElement = formElement.querySelector(".form__message")

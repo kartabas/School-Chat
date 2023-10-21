@@ -1,0 +1,16 @@
+
+*{
+margin:0;
+padding:0;
+}
+
+.search{
+padding:20px;
+cursor:default;
+
+}
+
+.search__text span{
+    width:500px;
+    height:400px;
+}
