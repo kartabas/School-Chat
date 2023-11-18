@@ -8,14 +8,16 @@ import org.json.simple.parser.ParseException;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
-public class test {
+public class JSON_test {
 
     public static final String JSON_FILE="/Hard-Project/School-Chat/src/main/resources/bayern.json";
+    private List<JSONObject> schoolObjects = new ArrayList<>();
 
 
-
-    public static void main(String[] args){
+    public List<JSONObject> JSON_test(){
 
         JSONParser jsonParser=new JSONParser();
 
@@ -26,8 +28,11 @@ public class test {
 
             JSONArray schoolList  = (JSONArray) obj;
 
-            //System.out.println(schoolList);
-            schoolList.forEach(sch -> parseSchoolObj((JSONObject) sch));
+
+            schoolList.forEach(sch -> {
+                JSONObject schoolObject = (JSONObject) sch;
+                schoolObjects.add(schoolObject);
+            });
 
 
 
@@ -41,30 +46,9 @@ public class test {
         }
 
 
+        return schoolObjects;
     }
-    public    static void  parseSchoolObj(JSONObject sch){
-        JSONObject schoolObj =(JSONObject) sch;
 
-
-
-
-        String  officialId = (String) schoolObj.get("official_id");
-        String address = (String) schoolObj.get("address");
-        String schoolType = (String) schoolObj.get("school_type");
-        String state = (String) schoolObj.get("state");
-
-
-        // if( "684".equals(officialId)){
-
-        //   System.out.println("ID: " + officialId);
-        //  System.out.println("Address: " + address);
-
-        //  System.out.println("School type: " + schoolType);
-        //  System.out.println("State: " + state);
-        // }
-
-
-    }
 
 
 

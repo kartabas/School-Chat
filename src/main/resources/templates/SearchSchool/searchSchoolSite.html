@@ -9,20 +9,34 @@
 </head>
 
 <body>
+
+<form id="searchForm">
 	<input id="search" type="text" placeholder="Search term">
-	<div id="matches" style="height:70px; overflow-y:hidden; white-space:pre"  > </div>
+
+	<button type="submit">Search</button>
+</form>
 
 
-	 <div class="search" >
-			<span class="search__text" th:text="${school}"></span>
-
-	 </div>
+<div id="searchResult"></div>
 
 
-	<script href="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!--	 <div class="search_school" >-->
+<!--		 <ul >-->
+<!--			 <li th:each="school, iterStat: ${schools}" class="json__object" th:if="${iterStat.index < 3}">-->
+<!--				 <p th:text="'ID: ' + ${school.get('official_id')}"></p>-->
+<!--				 <p th:text="'Name: ' + ${school.get('name')}"></p>-->
+<!--				 <p th:text="'Address: ' + ${school.get('address')}"></p>-->
+<!--				 <p th:text="'School type: ' + ${school.get('school_type')}"></p>-->
+<!--				 <p th:text="'State: ' + ${school.get('state')}"></p>-->
+<!--			 </li>-->
+<!--		 </ul>-->
+
+<!--	 </div>-->
+
+
+	
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
-
-		<script src="../../js/searchScoolSeite/searchSchool.js"></script>
+	<script src="../../js/searchScoolSeite/searchSchool.js"></script>
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 <!--	<script src="../../static/js/Bibliothek/jquery-3.7.1.min.js"></script>     For vs code -->
 <!--	<script src="../../static/js/searchScoolSeite/searchSchoolSeite.js"></script> -->

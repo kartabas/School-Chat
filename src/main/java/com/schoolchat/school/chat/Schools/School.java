@@ -1,8 +1,10 @@
-package com.schoolchat.school.chat.SchoolObject;
+package com.schoolchat.school.chat.Schools;
+
+import javax.json.JsonObject;
 
 public class School {
 
-    private int official_id;
+    private String official_id;
     private String id;
     private String name;
     private String schoolType;
@@ -20,11 +22,11 @@ public class School {
 
 
 
-    public int getOfficial_id() {
+    public String getOfficial_id() {
         return official_id;
     }
 
-    public void setOfficial_id(int official_id) {
+    public void setOfficial_id(String official_id) {
         this.official_id = official_id;
     }
 
@@ -121,19 +123,21 @@ public class School {
 @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
-            sb.append("***** Schools Details *****\n");
-            sb.append("ID= "+getId()+"\n");
-            sb.append("Official_id" +getOfficial_id()+"\n");
-            sb.append("Name= "+getName()+"\n");
-            sb.append("Phone Numbers= " + getPhone()+"\n");
-            sb.append("Address= "+getAddress());
-            sb.append("\n*****************************");
+
+
+        sb.append("***** Schools Details *****\n");
+        sb.append("ID= "+getId()+"\n");
+        sb.append("Official_id= " +getOfficial_id()+"\n");
+        sb.append("Name= "+getName()+"\n");
+        sb.append("Phone Numbers= " + getPhone()+"\n");
+        sb.append("Address= "+getAddress());
+        sb.append("\n*****************************");
+
+
 
         return sb.toString();
 
-
 }
-
 
 
 

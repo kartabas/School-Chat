@@ -4,6 +4,7 @@ margin:0;
 padding:0;
 }
 
+
 .search{
 padding:20px;
 cursor:default;
@@ -13,4 +14,17 @@ cursor:default;
 .search__text span{
     width:500px;
     height:400px;
+}
+
+
+.json__object{
+width:55%;
+padding:20px;
+margin-bottom:10px;
+background-color:wheat;
+
+}
+
+.search_school ul {
+list-style: none;
 }
