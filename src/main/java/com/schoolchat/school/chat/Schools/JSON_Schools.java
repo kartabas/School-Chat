@@ -11,13 +11,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JSON_test {
+public class JSON_Schools {
 
-    public static final String JSON_FILE="/Hard-Project/School-Chat/src/main/resources/bayern.json";
+    public static final String JSON_FILE="../School-Chat/src/main/resources/bayern.json";
     private List<JSONObject> schoolObjects = new ArrayList<>();
 
 
-    public List<JSONObject> JSON_test(){
+    public List<JSONObject> JSON_Schools(){
 
         JSONParser jsonParser=new JSONParser();
 
@@ -48,9 +48,6 @@ public class JSON_test {
 
         return schoolObjects;
     }
-
-
-
 
 
 }

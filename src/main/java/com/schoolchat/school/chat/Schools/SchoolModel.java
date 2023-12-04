@@ -1,8 +1,7 @@
 package com.schoolchat.school.chat.Schools;
 
-import javax.json.JsonObject;
 
-public class School {
+public class SchoolModel {
 
     private String official_id;
     private String id;
@@ -125,21 +124,19 @@ public class School {
         StringBuilder sb = new StringBuilder();
 
 
-        sb.append("***** Schools Details *****\n");
+        sb.append("\n***** Schools Details *****\n");
         sb.append("ID= "+getId()+"\n");
         sb.append("Official_id= " +getOfficial_id()+"\n");
         sb.append("Name= "+getName()+"\n");
         sb.append("Phone Numbers= " + getPhone()+"\n");
         sb.append("Address= "+getAddress());
-        sb.append("\n*****************************");
+        sb.append("\n*****************************\n");
 
 
 
         return sb.toString();
 
 }
-
-
 
 
 
