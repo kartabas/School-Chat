@@ -24,12 +24,14 @@
 
 <div id="searchResult" class="search_school">
 	<ul>
-		<li th:each="school, iterStat : ${schools}" th:if="${iterStat.index} lt 5" th:text="${school}"  class="json__object">
-			<p th:text="'ID: ' + ${school.get('id')}"></p>
-			<p th:text="'Name: ' + ${school.get('name')}"></p>
+		<li th:each="school, iterStat : ${schools}" th:if="${iterStat.index} lt 5"   class="json__object">
+			<p th:text="'ID: ' + ${school.id}"></p>
+			<p th:text="'Name: ' + ${school.name}"></p>
+			<p th:text="'State: ' + ${school.state}"></p>
 		</li>
 
 	</ul>
+
 </div>
 
 

@@ -53,8 +53,8 @@ public class SchoolModel {
         this.schoolType = schoolType;
     }
 
-    public String getSchoolTypeEntity() {
-        return schoolTypeEntity;
+    public String getSchoolTypeEntity(String schoolTypeEntity) {
+        return this.schoolTypeEntity;
     }
 
     public void setSchoolTypeEntity(String schoolTypeEntity) {
