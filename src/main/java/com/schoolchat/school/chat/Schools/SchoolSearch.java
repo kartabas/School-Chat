@@ -47,7 +47,7 @@ public class SchoolSearch {
             String fax = (String) school.get("fax");
 
 
-            if (name != null && name.contains(searchName)) {
+            if ((name != null && name.contains(searchName)) && (address != null && address.contains(searchName)) ) {
                 SchoolModel newSchool = new SchoolModel();
 
                 //Добавляю влястивості до класу SchoolModel з кожного знайденого ім'я
