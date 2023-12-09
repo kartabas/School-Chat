@@ -128,7 +128,7 @@ body{
 	max-height: 300px;
 	background-color: blueviolet;
 
-	display: none;
+	/*display: none;*/
 	overflow-y: scroll;
 }
 
