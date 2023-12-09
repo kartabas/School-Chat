@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B0492B0E-2A22-4CA5-97A2-BFFABDBAD2B4</title>
+    <g id="EP-24-Login-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="02-school-selection" transform="translate(-994.000000, -373.000000)" stroke="#919DA6" stroke-width="1.5">
+            <g id="sp_cancelLesson" transform="translate(994.000000, 373.000000)">
+                <g id="remove-circle" transform="translate(2.000000, 2.000000)">
+                    <circle id="Oval" cx="12" cy="11.999" r="11.25"></circle>
+                    <line x1="7.5" y1="16.499" x2="16.5" y2="7.499" id="Path"></line>
+                    <line x1="16.5" y1="16.499" x2="7.5" y2="7.499" id="Path"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

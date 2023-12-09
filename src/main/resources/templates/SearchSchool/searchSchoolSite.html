@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="icon" href="data:;base64,iVBORwOKGO=" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../../css/searchPage.css">
 	<!-- <link rel="stylesheet" type="text/css" href="../../static/css/searchPage.css"> -->
 	<title>Search School</title>
@@ -12,38 +13,63 @@
 
 <body>
 
-<form id="searchForm" th:action="@{/login/search}" th:object="${searchSchoolRequest}" method="post">
-	<input id="searchSchool" type="text" placeholder="Search term" th:field="*{name}" >
-	<input type="submit" value="Search" >
-</form>
+	<div class="header">
+		<div class="logo">Welcome to Student Chat</div>
+	</div>
+
+
+	<div class="main">
+
+		<div class="search-wrapper">
+			<div class="select__search">
+				<div class="search__img"><img src="../../static/fotos/search.svg" alt="search"></div>
+				<form id="searchForm" th:action="@{/login/search}" th:object="${searchSchoolRequest}" method="post">
+
+					<input id="searchSchool" type="text" placeholder="Search school by name" th:field="*{name}" >
+					<!-- <input id="searchButton" type="submit" value="Search"> -->
+					<button id="searchButton" type="submit"><img src="../../static/fotos/submit.png" alt="submit"></button>
+				</form>
+			</div>
+
+
+			<div id="searchResult" class="search_school">
+				<div th:each="school, iterStat : ${schools}" th:if="${iterStat.index} lt 5" class="json__object">
+					<div class="id" th:text="'ID: ' + ${school.id}">BY-684</div>
+					<div class="name" th:text="'Name: ' + ${school.name}">Privates Abendgymnasium Würzburg Service Center
+					</div>
+					<div class="address" th:text="'Strasse: ' + ${school.address}">Weinweg 6 93049 Regensburg</div>
+
+					<!-- <p th:text="'ID: ' + ${school.id}"></p>
+				<p th:text="'Name: ' + ${school.name}"></p>
+				<p th:text="'Strasse: ' + ${school.address}"></p> -->
+				</div>
 
 
 
 
 
 
-<div id="searchResult" class="search_school">
-	<ul>
-		<li th:each="school, iterStat : ${schools}" th:if="${iterStat.index} lt 5"   class="json__object">
-			<p th:text="'ID: ' + ${school.id}"></p>
-			<p th:text="'Name: ' + ${school.name}"></p>
-			<p th:text="'State: ' + ${school.state}"></p>
-		</li>
-
-	</ul>
-
-</div>
+			</div>
+		</div>
 
 
-	
+	</div>
+
+
+
+	<div class="footer">
+
+	</div>
+
+	<!-- 	For java-->
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 	<script src="../../js/searchScoolSeite/searchSchool.js"></script>
 	
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 
-	
-<!--	<script src="../../static/js/Bibliothek/jquery-3.7.1.min.js"></script>     For vs code -->
-<!--	<script src="../../static/js/searchScoolSeite/searchSchool.js"></script> -->
+	<!-- For vs code -->
+	<!-- <script src="../../static/js/Bibliothek/jquery-3.7.1.min.js"></script>
+	<script src="../../static/js/searchScoolSeite/searchSchool.js"></script> -->
 </body>
 
 </html>
