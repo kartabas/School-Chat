@@ -33,41 +33,47 @@ public class SchoolSearch {
     public List<SchoolModel> getAllSchoolsByNameObjeckt(String searchName) {
         List<SchoolModel> schoolList = new ArrayList<>();
 
-        for (JSONObject school : schools) {
-            //Добавляю влястивості до класу SchoolModel
-            String official_id = (String) school.get("official_id");
-            String id = (String) school.get("id");
-            String name = (String) school.get("name");
-            String schoolType = (String) school.get("schoolType");
-            String schoolTypeEntity = (String) school.get("schoolTypeEntity");
-            String address = (String) school.get("address");
-            Boolean fullTimeSchool = (Boolean) school.get("fullTimeSchool");
-            String state = (String) school.get("state");
-            String phone = (String) school.get("phone");
-            String fax = (String) school.get("fax");
+        if(searchName != ""){
+            for (JSONObject school : schools) {
+                //Добавляю влястивості до класу SchoolModel
+                String official_id = (String) school.get("official_id");
+                String id = (String) school.get("id");
+                String name = (String) school.get("name");
+                String schoolType = (String) school.get("schoolType");
+                String schoolTypeEntity = (String) school.get("schoolTypeEntity");
+                String address = (String) school.get("address");
+                Boolean fullTimeSchool = (Boolean) school.get("fullTimeSchool");
+                String state = (String) school.get("state");
+                String phone = (String) school.get("phone");
+                String fax = (String) school.get("fax");
 
 
-            if ((name != null && name.contains(searchName)) && (address != null && address.contains(searchName)) ) {
-                SchoolModel newSchool = new SchoolModel();
+                if ((name != null && name.contains(searchName)) || (address != null && address.contains(searchName)) ) {
+                    SchoolModel newSchool = new SchoolModel();
 
-                //Добавляю влястивості до класу SchoolModel з кожного знайденого ім'я
-                newSchool.setOfficial_id(official_id);
-                newSchool.setId(id);
-                newSchool.setName(name);
-                newSchool.setSchoolType(schoolType);
-                newSchool.setSchoolTypeEntity(schoolTypeEntity);
-                newSchool.setAddress(address);
-                newSchool.setFullTimeSchool(fullTimeSchool);
-                newSchool.setState(state);
-                newSchool.setPhone(phone);
-                newSchool.setFax(fax);
+                    //Добавляю влястивості до класу SchoolModel з кожного знайденого ім'я
+                    newSchool.setOfficial_id(official_id);
+                    newSchool.setId(id);
+                    newSchool.setName(name);
+                    newSchool.setSchoolType(schoolType);
+                    newSchool.setSchoolTypeEntity(schoolTypeEntity);
+                    newSchool.setAddress(address);
+                    newSchool.setFullTimeSchool(fullTimeSchool);
+                    newSchool.setState(state);
+                    newSchool.setPhone(phone);
+                    newSchool.setFax(fax);
 
 
-                schoolList.add(newSchool);
+                    schoolList.add(newSchool);
+                }
             }
+
+            return schoolList;
+
+        }else {
+            return null;
         }
 
-        return schoolList;
     }
 
 

@@ -1,25 +1,29 @@
 
-
+let countClick = 0;
 $(document).ready(function () {
-	let countClick = 0;
+
 	$("#searchButton").click(function () {
 
 		let searchText = $("#searchSchool").val();
 
 		countClick = countClick + 1;
+//		$("#searchResult").css({
+//        	display: "block"
+//        });
+
 		if (countClick < 2) {
-			$("#searchResult").css({
-				display: "block"
-			});
 
-			if (searchText == "" | searchText == null) {
-				$("#searchResult").append("<div class='error'>Your school not found...</div>");
+
+			if (searchText == "" ) {
+
+				$(".error").append("<span>Your school not found...</span>");
 			}
-		} else {
-			$(".error").remove();
-			countClick = 0;
-		}
+            console.log("Your school not found...");
+		}else {
+             $(".error").remove();
 
+            countClick = 0;
+        }
 
 
 	});

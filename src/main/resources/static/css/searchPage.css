@@ -140,15 +140,15 @@ body{
 	max-height: 300px;
 	margin-bottom:22px;
 
-	display: none;
+
 	
 	overflow-y: auto;
 }
 
 .error{
-	position: relative;
-	text-align: center;
 
+	text-align: center;
+    display:block;
 	font-weight: bold;
 
 	padding-left:10px ;
@@ -159,6 +159,7 @@ body{
 
 
 }
+
 
 .json__object {
 	padding-left:20px ;

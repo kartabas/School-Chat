@@ -22,33 +22,31 @@
 
 		<div class="search-wrapper">
 			<div class="select__search">
-				<div class="search__img"><img src="../../static/fotos/search.svg" alt="search"></div>
+				<div class="search__img"><img src="../../fotos/search.svg" alt="search"></div>
 				<form id="searchForm" th:action="@{/login/search}" th:object="${searchSchoolRequest}" method="post">
 
 					<input id="searchSchool" type="text" placeholder="Search school by name or address" th:field="*{name}">
 
-					<!-- <button id="searchButton" type="submit"><img src="../../static/fotos/submit.png" alt="submit"></button> -->
+					 <button id="searchButton" type="submit"><img src="../../fotos/submit.png" alt="submit"></button>
 
 				</form>
-				<button id="searchButton"><img src="../../static/fotos/submit.png"></button>
+<!--				<button id="searchButton"><img src="../../static/fotos/submit.png"></button>-->
 			</div>
 
 
 			<div id="searchResult" class="search_school">
-
-				<!-- <div th:each="school, iterStat : ${schools}"  class="json__object">
+				<div class="error"></div>
+				<div th:each="school, iterStat : ${schools}"  class="json__object">
 					
-					<div class="name" th:text="'Name: ' + ${school.name}">Privates Abendgymnasium Würzburg Service Center
-					</div>
-					<div class="address" th:text="'Strasse: ' + ${school.address}">Weinweg 6 93049 Regensburg</div> -->
+<!--					<div class="name" th:text="'Name: ' + ${school.name}">Privates Abendgymnasium Würzburg Service Center-->
+<!--					</div>-->
+<!--					<div class="address" th:text="'Strasse: ' + ${school.address}">Weinweg 6 93049 Regensburg</div>-->
 
 
 
-
-				
-					<div class="id" th:text="'ID: ' + ${school.id}"></div>
-					<div class="name" th:text="'Name: ' + ${school.name}"></div>
-					<div class="address" th:text="'Strasse: ' + ${school.address}"></div>
+					<div class="name" th:text=" ${school.name}"></div>
+					<div class="address" th:text=" ${school.address}"></div>
+				</div>
 
 			</div>
 
