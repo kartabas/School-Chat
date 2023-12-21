@@ -86,7 +86,10 @@ body{
 
 }
 
-
+.error{
+	border: 2px red solid;
+	
+}
 /*------------------- Form ------------------------------*/
 
 #searchForm{
@@ -141,14 +144,14 @@ body{
 	margin-bottom:22px;
 
 
-	
+	display: none;
 	overflow-y: auto;
 }
 
-.error{
+.noFound{
 
 	text-align: center;
-    display:block;
+   display:block;
 	font-weight: bold;
 
 	padding-left:10px ;
@@ -156,9 +159,9 @@ body{
 	margin-top: 5px;
 	margin-bottom: 10px;
 	padding-top: 10px ;
-
-
 }
+
+
 
 
 .json__object {
@@ -167,9 +170,9 @@ body{
 	margin-top: 5px;
 	margin-bottom: 10px;
 	padding-top: 10px ;
-	/* padding-bottom: 10px ; */
+	padding-bottom: 10px ;
 
-
+	
 }
 
 .json__object:hover{
