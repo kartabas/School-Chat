@@ -1,6 +1,9 @@
+//output objekts all school id
+//console.log(arrayID);
 
 let countClick = 0;
 $(document).ready(function () {
+
 
 	$("#searchButton").click(function (event) {
 
@@ -12,15 +15,15 @@ $(document).ready(function () {
 		});
 
 
-
 		if (countClick < 2) {
-			if (searchText == "") {
-			    event.preventDefault();
-                $(".json__object").remove();
-				$(".search-wrapper").addClass("error");
-                $(".noFound").html("<span>Your school not found...</span>");
-				console.log("Your school not found...");
+			if ( (searchText == "") || (arrayID.length == 0) ) {
 
+				event.preventDefault();
+				$(".json__object").remove();
+				$(".search-wrapper").addClass("error"); 
+				$(".noFound").html("<span>Your school not found...</span>");
+				console.log("Your school not found...");
+                console.log("countClick: "+countClick)
 
 			}
 		} else {
@@ -30,17 +33,13 @@ $(document).ready(function () {
 			countClick = 0;
 		}
 
-		countClick++;
+
+
+	});
 
 
 
 });
-
-
-
-});
-
-
 
 
 
