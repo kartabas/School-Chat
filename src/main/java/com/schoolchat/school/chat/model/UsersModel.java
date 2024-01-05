@@ -18,6 +18,18 @@ public class UsersModel {
 
     String email;
 
+    String schoolId;
+
+    public String getSchoolId() {
+        return schoolId;
+    }
+
+    public void setSchoolId(String schoolId) {
+        this.schoolId = schoolId;
+    }
+
+
+
     public Integer getId() {
         return id;
     }
