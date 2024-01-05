@@ -1,5 +1,7 @@
-package com.schoolchat.school.chat.Schools;
+package com.schoolchat.school.chat.repository;
 
+import com.schoolchat.school.chat.Schools.JSON_Schools;
+import com.schoolchat.school.chat.Schools.SchoolModel;
 import org.json.simple.JSONObject;
 
 import java.util.*;

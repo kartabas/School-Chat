@@ -1,8 +1,7 @@
-//output objekts all school id
-//console.log(arrayID);
 
 let countClick = 0;
 $(document).ready(function () {
+
 
 
 	$("#searchButton").click(function (event) {
@@ -37,6 +36,21 @@ $(document).ready(function () {
 
 	});
 
+
+
+     $('.json__object').click(function() {
+         let nameValue = $(this).find('.name').text();
+         $("#searchSchool").val(nameValue);
+
+     });
+
+    $(".json__object").on("click", function() {
+        // Assuming each div contains its own form, find the form and submit it
+        let form = $(this).closest("#schoolForm");
+        if (form.length > 0) {
+          form.submit();
+        }
+      });
 
 
 });

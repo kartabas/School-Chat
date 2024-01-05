@@ -1,5 +1,6 @@
 package com.schoolchat.school.chat.controller;
 
+import com.schoolchat.school.chat.Schools.SchoolModel;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.service.UsersService;
 
@@ -24,7 +25,7 @@ public class UserController {
     }
 
 
-    @GetMapping("/")
+    @GetMapping("/register")
     public String getRegisterPage(Model model){
         model.addAttribute("registerRequest",new UsersModel());
         return "singUp";
@@ -42,24 +43,26 @@ public class UserController {
 
 
 
-    @PostMapping("/")
-    public String register(@ModelAttribute UsersModel usersModel){
+    @PostMapping("/register")
+    public String register( SchoolModel schoolModel , UsersModel usersModel,Model model ){
         System.out.println("register request: "+ usersModel);
         UsersModel registeredUser= usersService.registerUser(usersModel.getLogin(), usersModel.getPassword(), usersModel.getEmail());
+        model.addAttribute("userSchool",schoolModel);
 
         return registeredUser == null ? "error_page" : "redirect:/login";
     }
 
     @PostMapping("/login")
-    public String login(@ModelAttribute UsersModel usersModel ,Model model){
+    public String login(@ModelAttribute UsersModel usersModel ,Model model ,SchoolModel schoolModel){
         System.out.println("login request: "+ usersModel);
         UsersModel authenticated= usersService.authenticate(usersModel.getLogin(), usersModel.getPassword());
+
 
         model.addAttribute("userLogin",authenticated);
 
         if(authenticated != null){
 
-            return "personal_page";
+            return "redirect:/home";
 
         }else{
            return "error_page";

@@ -4,7 +4,8 @@ package com.schoolchat.school.chat.controller;
 import com.schoolchat.school.chat.Schools.JSON_Schools;
 
 import com.schoolchat.school.chat.Schools.SchoolModel;
-import com.schoolchat.school.chat.Schools.SchoolSearch;
+import com.schoolchat.school.chat.model.UsersModel;
+import com.schoolchat.school.chat.repository.SchoolSearch;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +19,7 @@ import java.util.List;
 public class SchoolController {
 
 
-    @GetMapping("/login/search")
+    @GetMapping("/")
     public String searchSchoolByName(Model model){
         JSON_Schools jsonSchools = new JSON_Schools();
         SchoolSearch schoolSearch =new SchoolSearch();
@@ -31,27 +32,36 @@ public class SchoolController {
 
 
 
-    @PostMapping("/login/search")
-    public String searchSchoolByPost(@ModelAttribute("searchSchoolRequest") SchoolModel schoolModel, Model model) {
-        System.out.println("searchSchoolRequest.name: " + schoolModel.getName());
-        System.out.println("searchSchoolRequest.Id: " + schoolModel.getId());
+    @PostMapping("/")
+    public String searchSchoolByNameAndPost(@ModelAttribute("searchSchoolRequest") SchoolModel schoolModel, Model model) {
+        System.out.println("Search School Work");
         SchoolSearch schoolSearch = new SchoolSearch();
-//Видає всі перевірені ім'я
-//        List<String> schools = schoolSearch.getAllSchoolsByName(schoolModel.getName());
 
-// Видає всі школи як обєкт з даними
+        // Видає всі школи як обєкт з даними
+        //System.out.println("schools: " + schools);
         List<SchoolModel> schools =schoolSearch.getAllSchoolsByNameObjeckt(schoolModel.getName());
 
         model.addAttribute("schools", schools);
-        System.out.println("schools: " + schools);
-
-
 
         return "SearchSchool/searchSchoolSite";
 
     }
 
+    @PostMapping("/app")
+    public String foundSchoolRequest(@ModelAttribute("school") SchoolModel schoolModel, Model model) {
 
+        if (schoolModel.getName() != null) {
+            System.out.println("foundSchoolRequest Work");
+            System.out.println(schoolModel);
+
+            return "redirect:/register";
+        } else {
+            System.out.println("Received null school model");
+
+            return "error_page";
+        }
+
+    }
 
 
 }
