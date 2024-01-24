@@ -4,13 +4,14 @@ package com.schoolchat.school.chat.controller;
 import com.schoolchat.school.chat.Schools.JSON_Schools;
 
 import com.schoolchat.school.chat.Schools.SchoolModel;
-import com.schoolchat.school.chat.model.UsersModel;
+import com.schoolchat.school.chat.model.UserCurrentSchoolModel;
 import com.schoolchat.school.chat.repository.SchoolSearch;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
 
@@ -47,21 +48,35 @@ public class SchoolController {
 
     }
 
-    @PostMapping("/app")
-    public String foundSchoolRequest(@ModelAttribute("school") SchoolModel schoolModel, Model model) {
 
-        if (schoolModel.getName() != null) {
-            System.out.println("foundSchoolRequest Work");
-            System.out.println(schoolModel);
 
-            return "redirect:/register";
-        } else {
-            System.out.println("Received null school model");
 
-            return "error_page";
-        }
+    @GetMapping("/app")
+    public String foundSchool(Model model){
+        SchoolModel currentschoolModel =new SchoolModel();
 
+
+        model.addAttribute("schoolData",currentschoolModel);
+
+
+        return "SearchSchool/searchSchoolSite";
     }
 
+    @PostMapping("/app")
+    public String foundSchoolData(@ModelAttribute("schoolData") UserCurrentSchoolModel userCurrentSchoolModel, Model model, RedirectAttributes redirectAttributes) {
+        //Save current School in userCurrentSchoolModel
+        userCurrentSchoolModel.setCurrentUserSchool(userCurrentSchoolModel.getCurrentSchool());
+
+        redirectAttributes.addFlashAttribute("userCurrentSchoolModel", userCurrentSchoolModel);
+        // Return current School
+        //System.out.println(userCurrentSchoolModel.getCurrentSchool());
+
+        //System.out.println(userCurrentSchoolModel.getAddress());
+
+        model.addAttribute("userCurrentSchoolModel",userCurrentSchoolModel);
+        System.out.println(userCurrentSchoolModel.getAddress());
+        return "redirect:/register";
+
+    }
 
 }

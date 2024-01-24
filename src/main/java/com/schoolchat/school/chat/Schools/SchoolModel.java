@@ -18,7 +18,26 @@ public class SchoolModel {
 
 
 
+    public SchoolModel() {
+        // Default constructor
+    }
 
+    public SchoolModel(String officialId, String id, String name, String schoolType, String address,
+                  Boolean fullTimeSchool, String state, String phone, String fax,
+                  double latitude, double longitude) {
+
+        this.official_id = officialId;
+        this.id = id;
+        this.name = name;
+        this.schoolType = schoolType;
+        this.address = address;
+        this.fullTimeSchool = fullTimeSchool;
+        this.state = state;
+        this.phone = phone;
+        this.fax = fax;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
 
 
     public String getOfficial_id() {
@@ -120,22 +139,21 @@ public class SchoolModel {
 
 
 @Override
-    public String toString(){
-        StringBuilder sb = new StringBuilder();
 
-
-        sb.append("\n***** Schools Details *****\n");
-        sb.append("ID= "+getId()+"\n");
-        sb.append("Official_id= " +getOfficial_id()+"\n");
-        sb.append("Name= "+getName()+"\n");
-        sb.append("Phone Numbers= " + getPhone()+"\n");
-        sb.append("Address= "+getAddress());
-        sb.append("\n*****************************\n");
-
-
-
-        return sb.toString();
-
+public String toString() {
+    return "School{" +
+            "officialId='" + official_id + '\'' +
+            ", id='" + id + '\'' +
+            ", name='" + name + '\'' +
+            ", schoolType='" + schoolType + '\'' +
+            ", address='" + address + '\'' +
+            ", fullTimeSchool='" + fullTimeSchool + '\'' +
+            ", state='" + state + '\'' +
+            ", phone='" + phone + '\'' +
+            ", fax='" + fax + '\'' +
+            ", latitude=" + latitude +
+            ", longitude=" + longitude +
+            '}';
 }
 
 

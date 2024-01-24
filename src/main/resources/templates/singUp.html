@@ -22,7 +22,7 @@
 
 			<div class="header-text">
 				<h2 class="header-title">School Chat</h2>
-				<h5> <span th:text="${userSchool}"></span></h5>
+				<h5 th:text="${userCurrentSchoolModel.address}">  </h5>
 			</div>
 
 
@@ -31,7 +31,7 @@
 
 
 
-				<form method="post" action="/" th:action="@{/}" th:object="${registerRequest}"
+				<form method="post" action="/register" th:action="@{/register}" th:object="${registerRequest}"
 					class="register-form" id="register">
 
 					<h2 class="form-title">Register</h2>

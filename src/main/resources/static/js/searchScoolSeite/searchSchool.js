@@ -44,17 +44,21 @@ $(document).ready(function () {
 
      });
 
-    $(".json__object").on("click", function() {
-        // Assuming each div contains its own form, find the form and submit it
-        let form = $(this).closest("#schoolForm");
-        if (form.length > 0) {
-          form.submit();
-        }
-      });
+$(".json__object").on("click", function() {
+    let index = $(".json__object").index(this);
+
+
+    let currentSchool = Schools[index];
+
+    console.log(currentSchool);
+    //$('#currentSchool').val(currentSchool);
+    $('#currentSchool').val(JSON.stringify(currentSchool) );
+
+    $('#schoolForm').submit();
+});
 
 
 });
-
 
 
 

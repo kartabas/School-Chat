@@ -34,17 +34,24 @@
 
 			</div>
 
-			<form id="schoolForm" action="/app" th:action="@{/app}"  method="post" autocomplete="off">
+			<form id="schoolForm" action="/app" th:action="@{/app}" method="post" th:object="${schoolData}" >
 				<div id="searchResult" class="search_school">
 					<div class="noFound"></div>
 
-					<div th:each="school, iterStat : ${schools}" class="json__object" th:object="${school}">
+					<div th:each="school, iterStat : ${schools} "  class="json__object"  >
 
 						<div class="name" th:text=" ${school.name}" ></div>
 						<div class="address" th:text=" ${school.address}"></div>
 
+
+
+
 					</div>
 				</div>
+				<input id="currentSchool" type="hidden" name="currentSchool"  th:value="${schoolData}"/>
+<!--				<input id="currentSchool" type="hidden" name="currentSchool"-->
+<!--					   th:value="${schoolData.official_id + ',' + schoolData.id + ',' + schoolData.name + ',' + schoolData.schoolType + ',' + schoolData.address + ',' + schoolData.fullTimeSchool + ',' + schoolData.state + ',' + schoolData.phone + ',' + schoolData.fax + ',' + schoolData.latitude + ',' + schoolData.longitude}"/>-->
+
 			</form>
 
 
@@ -73,10 +80,17 @@
 
 	</div>
 
+
+
+	<!-- 	For java-->
+	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
+	<script src="../../js/searchScoolSeite/searchSchool.js"  ></script>
+
 	<script th:inline="javascript">
 	/*<![CDATA[*/
 		let arrayID = [];
 		let Schools = [[${schools}]];
+
 
 		if(Schools != null){
 			Schools.forEach(school => {
@@ -88,13 +102,8 @@
 		}
 
 
-
 	/*]]>*/
 	</script>
-
-	<!-- 	For java-->
-	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
-	<script src="../../js/searchScoolSeite/searchSchool.js" ></script>
 
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 
