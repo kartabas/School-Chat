@@ -69,12 +69,10 @@ public class SchoolController {
 
         redirectAttributes.addFlashAttribute("userCurrentSchoolModel", userCurrentSchoolModel);
         // Return current School
-        //System.out.println(userCurrentSchoolModel.getCurrentSchool());
-
-        //System.out.println(userCurrentSchoolModel.getAddress());
+        // System.out.println(userCurrentSchoolModel.getCurrentSchool());
 
         model.addAttribute("userCurrentSchoolModel",userCurrentSchoolModel);
-        System.out.println(userCurrentSchoolModel.getAddress());
+       // System.out.println(userCurrentSchoolModel.toString());
         return "redirect:/register";
 
     }

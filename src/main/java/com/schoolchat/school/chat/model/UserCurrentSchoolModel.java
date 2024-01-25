@@ -1,6 +1,9 @@
 package com.schoolchat.school.chat.model;
 
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class UserCurrentSchoolModel  {
 
     private String currentSchool;
@@ -80,9 +83,6 @@ public class UserCurrentSchoolModel  {
         this.fax = fax;
     }
 
-
-
-
     public String getCurrentSchool() {
         return currentSchool;
     }
@@ -92,33 +92,35 @@ public class UserCurrentSchoolModel  {
     }
 
     public void setCurrentUserSchool(String currentSchool) {
-        // Split the values using the appropriate delimiter (',' in this case)
-        String[] schoolValues = currentSchool.split(",");
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            JsonNode jsonNode = objectMapper.readTree(currentSchool);
 
-        // Set the properties of the UserCurrentSchoolModel based on the values
-        this.official_id = schoolValues[0];
-        this.id = schoolValues[1];
-        this.name = schoolValues[2];
-        this.schoolType = schoolValues[3];
-        this.address = schoolValues[4];
-        this.state = schoolValues[6];
-        this.phone = schoolValues[7];
-        this.fax = schoolValues[8];
-
+            this.official_id = jsonNode.get("official_id").asText();
+            this.id = jsonNode.get("id").asText();
+            this.name = jsonNode.get("name").asText();
+            this.schoolType = jsonNode.get("schoolType").asText();
+            this.address = jsonNode.get("address").asText();
+            this.state = jsonNode.get("state").asText();
+            this.phone = jsonNode.get("phone").asText();
+            this.fax = jsonNode.get("fax").asText();
+        } catch (Exception e) {
+            e.printStackTrace(); // Handle the exception appropriately
+        }
 
     }
 
     @Override
     public String toString() {
         return "UserCurrentSchoolModel{" +
-                "officialId='" + official_id + '\'' +
-                ", id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", schoolType='" + schoolType + '\'' +
-                ", address='" + address + '\'' +
-                ", state='" + state + '\'' +
-                ", phone='" + phone + '\'' +
-                ", fax='" + fax + '\'';
+                "officialId=" + official_id +
+                ", id=" + id  +
+                ", name=" + name +
+                ", schoolType=" + schoolType +
+                ", address=" + address +
+                ", state=" + state +
+                ", phone=" + phone +
+                ", fax=" + fax +"}";
     }
 
 

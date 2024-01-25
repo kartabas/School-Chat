@@ -68,12 +68,12 @@ public class UsersModel {
         if (o == null || getClass() != o.getClass()) return false;
         UsersModel that = (UsersModel) o;
 
-        return Objects.equals(id, that.id) && Objects.equals(login, that.login) && Objects.equals(password, that.password) && Objects.equals(email, that.email);
+        return Objects.equals(id, that.id) && Objects.equals(login, that.login) && Objects.equals(password, that.password) && Objects.equals(email, that.email) && Objects.equals(schoolId, that.schoolId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, login, password, email);
+        return Objects.hash(id, login, password, email,schoolId);
     }
 
     @Override
@@ -82,6 +82,7 @@ public class UsersModel {
                 "id=" + id +
                 ", login='" + login + '\'' +
                 ", email='" + email + '\'' +
+                ", schoolId='" + schoolId + '\'' +
                 '}';
     }
 }
