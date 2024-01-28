@@ -2,9 +2,11 @@ package com.schoolchat.school.chat.repository;
 
 import com.schoolchat.school.chat.Schools.JSON_Schools;
 import com.schoolchat.school.chat.Schools.SchoolModel;
+
 import org.json.simple.JSONObject;
 
 import java.util.*;
+
 
 public class SchoolSearch {
     JSON_Schools json_schools =new JSON_Schools();
@@ -13,8 +15,8 @@ public class SchoolSearch {
 
 
 
-  public List<JSONObject> getAllSchools(){
-      return schools;
+    public List<JSONObject> getAllSchools(){
+        return schools;
   }
 
     //Шукає ім'я шкіл по веденому name і видає name

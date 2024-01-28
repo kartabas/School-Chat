@@ -19,6 +19,9 @@ public class UserCurrentSchoolModel  {
     private String phone;
     private  String fax;
 
+
+
+
     public String getOfficial_id() {
         return official_id;
     }

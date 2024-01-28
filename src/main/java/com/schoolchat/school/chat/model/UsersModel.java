@@ -1,12 +1,15 @@
 package com.schoolchat.school.chat.model;
 
+
 import jakarta.persistence.*;
 
 import java.util.Objects;
 
+
 @Entity
 @Table(name = "users_table")
 public class UsersModel {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,6 +22,8 @@ public class UsersModel {
     String email;
 
     String schoolId;
+
+
 
     public String getSchoolId() {
         return schoolId;

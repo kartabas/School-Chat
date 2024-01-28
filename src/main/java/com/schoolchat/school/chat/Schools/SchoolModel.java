@@ -1,19 +1,38 @@
 package com.schoolchat.school.chat.Schools;
 
+import jakarta.persistence.*;
 
+//@Entity
+//@Table(name = "Schools")
 public class SchoolModel {
 
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private String global_id;
+
+//    @Column(name = "official_id")
     private String official_id;
+//    @Column(name = "Id")
     private String id;
+//    @Column(name = "name")
     private String name;
+//    @Column(name = "schoolType")
     private String schoolType;
+//    @Column(name = "schoolTypeEntity")
     private String schoolTypeEntity;
+//    @Column(name = "address")
     private String address ;
+//    @Column(name = "fullTimeSchool")
     private Boolean fullTimeSchool;
+//    @Column(name = "state")
     private String state;
+//    @Column(name = "phone")
     private String phone;
+//    @Column(name = "fax")
     private  String fax;
+//    @Column(name = "latitude")
     private double latitude;
+//    @Column(name = "longitude")
     private double longitude;
 
 
