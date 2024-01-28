@@ -16,7 +16,7 @@ public class UsersService {
     }
 
 
-    public UsersModel registerUser(String login ,String password ,String email){
+    public UsersModel registerUser(String login ,String password ,String email,String schoolId ){
         if (login == null || password == null) {
             return  null;
         } else {
@@ -32,6 +32,7 @@ public class UsersService {
             usersModel.setLogin(login);
             usersModel.setPassword(password);
             usersModel.setEmail(email);
+            usersModel.setSchoolId(schoolId);
             return  usersRepository.save(usersModel);
         }
 

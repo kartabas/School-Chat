@@ -4,12 +4,14 @@ package com.schoolchat.school.chat.controller;
 import com.schoolchat.school.chat.Schools.JSON_Schools;
 
 import com.schoolchat.school.chat.Schools.SchoolModel;
-import com.schoolchat.school.chat.Schools.SchoolSearch;
+import com.schoolchat.school.chat.model.UserCurrentSchoolModel;
+import com.schoolchat.school.chat.repository.SchoolSearch;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
 
@@ -18,7 +20,7 @@ import java.util.List;
 public class SchoolController {
 
 
-    @GetMapping("/login/search")
+    @GetMapping("/")
     public String searchSchoolByName(Model model){
         JSON_Schools jsonSchools = new JSON_Schools();
         SchoolSearch schoolSearch =new SchoolSearch();
@@ -31,21 +33,16 @@ public class SchoolController {
 
 
 
-    @PostMapping("/login/search")
-    public String searchSchoolByPost(@ModelAttribute("searchSchoolRequest") SchoolModel schoolModel, Model model) {
-        System.out.println("searchSchoolRequest.name: " + schoolModel.getName());
-        System.out.println("searchSchoolRequest.Id: " + schoolModel.getId());
+    @PostMapping("/")
+    public String searchSchoolByNameAndPost(@ModelAttribute("searchSchoolRequest") SchoolModel schoolModel, Model model) {
+        System.out.println("Search School Work");
         SchoolSearch schoolSearch = new SchoolSearch();
-//Видає всі перевірені ім'я
-//        List<String> schools = schoolSearch.getAllSchoolsByName(schoolModel.getName());
 
-// Видає всі школи як обєкт з даними
+        // Видає всі школи як обєкт з даними
+        //System.out.println("schools: " + schools);
         List<SchoolModel> schools =schoolSearch.getAllSchoolsByNameObjeckt(schoolModel.getName());
 
         model.addAttribute("schools", schools);
-        System.out.println("schools: " + schools);
-
-
 
         return "SearchSchool/searchSchoolSite";
 
@@ -53,5 +50,31 @@ public class SchoolController {
 
 
 
+
+    @GetMapping("/app")
+    public String foundSchool(Model model){
+        SchoolModel currentschoolModel =new SchoolModel();
+
+
+        model.addAttribute("schoolData",currentschoolModel);
+
+
+        return "SearchSchool/searchSchoolSite";
+    }
+
+    @PostMapping("/app")
+    public String foundSchoolData(@ModelAttribute("schoolData") UserCurrentSchoolModel userCurrentSchoolModel, Model model, RedirectAttributes redirectAttributes) {
+        //Save current School in userCurrentSchoolModel
+        userCurrentSchoolModel.setCurrentUserSchool(userCurrentSchoolModel.getCurrentSchool());
+
+        redirectAttributes.addFlashAttribute("userCurrentSchoolModel", userCurrentSchoolModel);
+        // Return current School
+        // System.out.println(userCurrentSchoolModel.getCurrentSchool());
+
+        model.addAttribute("userCurrentSchoolModel",userCurrentSchoolModel);
+       // System.out.println(userCurrentSchoolModel.toString());
+        return "redirect:/register";
+
+    }
 
 }

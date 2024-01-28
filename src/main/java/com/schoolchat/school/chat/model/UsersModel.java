@@ -1,12 +1,15 @@
 package com.schoolchat.school.chat.model;
 
+
 import jakarta.persistence.*;
 
 import java.util.Objects;
 
+
 @Entity
 @Table(name = "users_table")
 public class UsersModel {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,6 +20,20 @@ public class UsersModel {
     String password;
 
     String email;
+
+    String schoolId;
+
+
+
+    public String getSchoolId() {
+        return schoolId;
+    }
+
+    public void setSchoolId(String schoolId) {
+        this.schoolId = schoolId;
+    }
+
+
 
     public Integer getId() {
         return id;
@@ -56,12 +73,12 @@ public class UsersModel {
         if (o == null || getClass() != o.getClass()) return false;
         UsersModel that = (UsersModel) o;
 
-        return Objects.equals(id, that.id) && Objects.equals(login, that.login) && Objects.equals(password, that.password) && Objects.equals(email, that.email);
+        return Objects.equals(id, that.id) && Objects.equals(login, that.login) && Objects.equals(password, that.password) && Objects.equals(email, that.email) && Objects.equals(schoolId, that.schoolId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, login, password, email);
+        return Objects.hash(id, login, password, email,schoolId);
     }
 
     @Override
@@ -70,6 +87,7 @@ public class UsersModel {
                 "id=" + id +
                 ", login='" + login + '\'' +
                 ", email='" + email + '\'' +
+                ", schoolId='" + schoolId + '\'' +
                 '}';
     }
 }
