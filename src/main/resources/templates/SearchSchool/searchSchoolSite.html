@@ -32,7 +32,7 @@
 
 				</form>
 
-			</div>
+			</div><!-- /select__search -->
 
 			<form id="schoolForm" action="/app" th:action="@{/app}" method="post" th:object="${schoolData}" >
 				<div id="searchResult" class="search_school">
@@ -43,11 +43,9 @@
 						<div class="name" th:text=" ${school.name}" ></div>
 						<div class="address" th:text=" ${school.address}"></div>
 
+					</div><!-- /json__object -->
 
-
-
-					</div>
-				</div>
+				</div><!-- search_school -->
 				<input id="currentSchool" type="hidden" name="currentSchool"  th:value="${schoolData}"/>
 <!--				<input id="currentSchool" type="hidden" name="currentSchool"-->
 <!--					   th:value="${schoolData.official_id + ',' + schoolData.id + ',' + schoolData.name + ',' + schoolData.schoolType + ',' + schoolData.address + ',' + schoolData.fullTimeSchool + ',' + schoolData.state + ',' + schoolData.phone + ',' + schoolData.fax + ',' + schoolData.latitude + ',' + schoolData.longitude}"/>-->
@@ -55,29 +53,26 @@
 			</form>
 
 
+		</div><!-- /search-wrapper -->
 
 
-
-
-
-
-			</div>
-
-
-
-
-
-
-		</div>
-	</div>
-
-
-	</div>
-
+	</div><!-- /main -->
 
 
 	<div class="footer">
+		<div class="footer__middle__block">
+			<div class="footer__block__or">
+				<span>OR</span>
+			</div>
+			<div class="footer__block__login__tr">
+				<div class="footer__block__login">
+					<div class="footer__block__login__text">
+						<p>Have an Account? <a href="/login">Login Here</a></p>
+					</div>
+				</div>
+			</div>
 
+		</div>
 	</div>
 
 

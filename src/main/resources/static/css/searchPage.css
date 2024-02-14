@@ -90,6 +90,18 @@ body{
 	border: 2px red solid;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
 /*------------------- Form ------------------------------*/
 
 #searchForm{
@@ -198,6 +210,97 @@ body{
    font-size: 14px;
    letter-spacing: 0px;
    line-height: 19px;
+}
+
+
+/*------------------- Footer  ---------------------------*/
+
+.footer{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.footer__middle__block{
+    width:35%;
+    height:auto;
+
+    text-align:center;
+    padding:15px;
+    margin:20px 0 15px 0 ;
+}
+
+.footer__block__or{
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer__block__or span{
+    padding: 7px;
+    font-size: 17px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer__block__or:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.footer__block__login__tr{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.footer__block__login{
+    width:250px;
+    display:flex;
+    align-items:center;
+    border:2px solid black;
+    border-radius:20px ;
+
+
+    padding:5px;
+    margin:15px 0 15px 0 ;
+
+    background-color:white;
+}
+
+.footer__block__login__text{
+    padding:15px;
+}
+
+/*---------------------------------------------*/
+
+@media  screen and  (min-width: 200px) and (max-width:349px) {
+    .footer__middle__block{
+        width:auto;
+    }
+}
+
+ @media  screen and  (min-width: 350px) and (max-width:765px) {
+    .footer__middle__block{
+        width:auto;
+    }
+
+}
+
+@media  screen and  (min-width: 768px) and (max-width:830px) {
+    .footer__middle__block{
+        width:auto;
+    }
+
 }
 
 
