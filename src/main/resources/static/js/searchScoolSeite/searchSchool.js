@@ -1,24 +1,27 @@
 
+
+
 let countClick = 0;
 $(document).ready(function () {
 
 
 
 	$("#searchButton").click(function (event) {
-
-		let searchText = $("#searchSchool").val();
-
+        let searchText = $("#searchSchool").val();
 		countClick = countClick + 1;
+
 		$(".search_school").css({
 			display: "block"
 		});
 
 
 		if (countClick < 2) {
+
 			if ( (searchText == "") || (arrayID.length == 0) ) {
 
 				event.preventDefault();
 				$(".json__object").remove();
+
 				$(".search-wrapper").addClass("error"); 
 				$(".noFound").html("<span>Your school not found...</span>");
 				console.log("Your school not found...");
@@ -27,14 +30,19 @@ $(document).ready(function () {
 			}
 		} else {
 
-			$(".noFound span").remove();
+
+            $(".noFound span").remove();
 			$(".search-wrapper").removeClass("error");
+
 			countClick = 0;
 		}
 
 
 
+
 	});
+
+
 
 
 
@@ -44,18 +52,21 @@ $(document).ready(function () {
 
      });
 
-$(".json__object").on("click", function() {
-    let index = $(".json__object").index(this);
+    $(".json__object").on("click", function() {
+        let index = $(".json__object").index(this);
 
 
-    let currentSchool = Schools[index];
+        let currentSchool = Schools[index];
 
-    console.log(currentSchool);
-    //$('#currentSchool').val(currentSchool);
-    $('#currentSchool').val(JSON.stringify(currentSchool) );
+        console.log(currentSchool);
+        //$('#currentSchool').val(currentSchool);
+        $('#currentSchool').val(JSON.stringify(currentSchool) );
 
-    $('#schoolForm').submit();
-});
+        $('#schoolForm').submit();
+    });
+
+
+
 
 
 });

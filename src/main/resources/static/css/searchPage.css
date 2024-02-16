@@ -34,6 +34,7 @@ body{
 
 .main{
 	width: 100%;
+
 	display: flex;
 	justify-content: center;
 
@@ -47,6 +48,10 @@ body{
 .search-wrapper {
 	width: 100%;
 	max-width: 500px;
+	min-height:60px;
+    height:auto;
+
+
 	display: flex;
 	flex-direction: column;
 
@@ -64,14 +69,20 @@ body{
 	
 
 }
+
+
 .search-wrapper .select__search{
+
 	padding-left: 16px;
 	padding-right: 16px;
 }
 
 
+
+
 .select__search{
 	width: 100%;
+
 	display: flex;
 	flex-direction: row;
 	
@@ -91,22 +102,16 @@ body{
 	
 }
 
-
-
-
-
-
-
-
-
-
+.sl{
+    height:auto;
+}
 
 
 /*------------------- Form ------------------------------*/
 
 #searchForm{
 	width: 100%;
-	
+	height:auto;
 
 	font-size: 0;
 	cursor: pointer;
@@ -150,12 +155,14 @@ body{
 
 /*-------------------Search Wrapper---------------------------*/
 
+#schoolForm{
+    display:none;
+}
+
 .search_school{
 	width: 100%;
 	max-height: 300px;
 	margin-bottom:22px;
-
-
 
 	overflow-y: auto;
 }
@@ -287,6 +294,10 @@ body{
     .footer__middle__block{
         width:auto;
     }
+    .json__object .name{
+        word-wrap: break-word;
+        word-break: break-word;
+    }
 }
 
  @media  screen and  (min-width: 350px) and (max-width:765px) {
@@ -294,6 +305,10 @@ body{
         width:auto;
     }
 
+    .json__object .name{
+        word-wrap: break-word;
+        word-break: break-word;
+    }
 }
 
 @media  screen and  (min-width: 768px) and (max-width:830px) {
