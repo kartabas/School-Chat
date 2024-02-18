@@ -33,7 +33,7 @@ public class HomeController {
 
         model.addAttribute("userLogin",usersModel);
 
-        return "personal_page";
+        return "home";
     }
 
 
