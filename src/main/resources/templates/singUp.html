@@ -13,6 +13,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 
 			<div class="header-text">
 				<h2 class="header-title">School Chat</h2>
-				<h5 th:text="${userCurrentSchoolModel.name}"  ></h5>
+
 			</div>
 
 
@@ -31,8 +32,8 @@
 				<form method="post" action="/register" th:action="@{/register}" th:object="${registerRequest}"
 					class="register-form" id="register">
 
-					<h2 class="form-title">Register</h2>
-
+					<h2 class="form-title">Register to </h2>
+					<h5 class="school__name" th:text="${userCurrentSchoolModel.name}"  ></h5>
 					<div class="form__message  "></div>
 
 <!--					Save current School id and request in usersModel -->
@@ -79,7 +80,8 @@
 
 
 					<div class="footer-text">
-						<p>Have an Account? <a href="/login">Login Here</a></p>
+						<p style="margin-bottom:4px;">Have an Account? <a href="/login">Login Here</a></p>
+						<p>Back to search school --> <a href="/">Search School</a></p>
 					</div>
 
 				</form>
