@@ -1,38 +1,39 @@
 package com.schoolchat.school.chat.Schools;
 
+import com.schoolchat.school.chat.model.UserCurrentSchoolModel;
 import jakarta.persistence.*;
 
-//@Entity
-//@Table(name = "Schools")
-public class SchoolModel {
+import static org.hibernate.internal.util.config.ConfigurationHelper.extractValue;
 
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String global_id;
 
-//    @Column(name = "official_id")
+public class SchoolModel extends  UserCurrentSchoolModel {
+
+
+    //private String global_id;
+
+
     private String official_id;
-//    @Column(name = "Id")
+
     private String id;
-//    @Column(name = "name")
+
     private String name;
-//    @Column(name = "schoolType")
+
     private String schoolType;
-//    @Column(name = "schoolTypeEntity")
+
     private String schoolTypeEntity;
-//    @Column(name = "address")
+
     private String address ;
-//    @Column(name = "fullTimeSchool")
+
     private Boolean fullTimeSchool;
-//    @Column(name = "state")
+
     private String state;
-//    @Column(name = "phone")
+
     private String phone;
-//    @Column(name = "fax")
+
     private  String fax;
-//    @Column(name = "latitude")
+
     private double latitude;
-//    @Column(name = "longitude")
+
     private double longitude;
 
 
@@ -40,6 +41,28 @@ public class SchoolModel {
     public SchoolModel() {
         // Default constructor
     }
+
+    public SchoolModel(String inputSchool) {
+
+        this.official_id = extractValue(inputSchool, "officialId");
+        this.id =extractValue(inputSchool, "id");
+        this.name = extractValue(inputSchool, "name");
+        this.address = extractValue(inputSchool, "address");
+        this.state =extractValue(inputSchool, "state");
+        this.phone = extractValue(inputSchool, "phone");
+        this.fax =extractValue(inputSchool, "fax");
+
+    }
+
+    private String extractValue(String text, String key) {
+        String start = key + "='";
+        int startIndex = text.indexOf(start) + start.length();
+        int endIndex = text.indexOf("'", startIndex);
+        return text.substring(startIndex, endIndex);
+    }
+
+
+
 
     public SchoolModel(String officialId, String id, String name, String schoolType, String address,
                   Boolean fullTimeSchool, String state, String phone, String fax,
@@ -160,7 +183,7 @@ public class SchoolModel {
 @Override
 
 public String toString() {
-    return "School{" +
+    return "{" +
             "officialId='" + official_id + '\'' +
             ", id='" + id + '\'' +
             ", name='" + name + '\'' +

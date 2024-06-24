@@ -71,6 +71,10 @@ public class SchoolController {
         // Return current School
         // System.out.println(userCurrentSchoolModel.getCurrentSchool());
 
+       // System.out.println("foundSchoolData: "+userCurrentSchoolModel.toString());
+
+
+
         model.addAttribute("userCurrentSchoolModel",userCurrentSchoolModel);
        // System.out.println(userCurrentSchoolModel.toString());
         return "redirect:/register";

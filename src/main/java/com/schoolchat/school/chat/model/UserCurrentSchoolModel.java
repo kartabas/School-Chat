@@ -3,6 +3,8 @@ package com.schoolchat.school.chat.model;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.schoolchat.school.chat.Schools.SchoolModel;
+import org.springframework.scheduling.annotation.Scheduled;
 
 public class UserCurrentSchoolModel  {
 
@@ -18,7 +20,34 @@ public class UserCurrentSchoolModel  {
     private String state;
     private String phone;
     private  String fax;
+    private Boolean fullTimeSchool;
+    private double latitude;
+    private double longitude;
 
+
+    public Boolean getFullTimeSchool() {
+        return fullTimeSchool;
+    }
+
+    public void setFullTimeSchool(Boolean fullTimeSchool) {
+        this.fullTimeSchool = fullTimeSchool;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
 
 
 
@@ -107,11 +136,20 @@ public class UserCurrentSchoolModel  {
             this.state = jsonNode.get("state").asText();
             this.phone = jsonNode.get("phone").asText();
             this.fax = jsonNode.get("fax").asText();
+            this.fullTimeSchool = Boolean.valueOf(jsonNode.get("fullTimeSchool").asText());
+            this.latitude = Double.parseDouble(jsonNode.get("latitude").asText());;
+            this.longitude= Double.parseDouble(jsonNode.get("longitude").asText());;
+
+
+
         } catch (Exception e) {
             e.printStackTrace(); // Handle the exception appropriately
         }
 
     }
+
+
+
 
     @Override
     public String toString() {

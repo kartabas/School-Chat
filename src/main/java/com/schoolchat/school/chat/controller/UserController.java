@@ -1,6 +1,7 @@
 package com.schoolchat.school.chat.controller;
 
 
+import com.schoolchat.school.chat.Schools.SchoolModel;
 import com.schoolchat.school.chat.model.UserCurrentSchoolModel;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.service.UsersService;
@@ -31,9 +32,28 @@ public class UserController {
     @GetMapping("/register")
     public String getRegisterPage( Model model ,UserCurrentSchoolModel userCurrentSchoolModel ){
         UsersModel usersModel = new UsersModel();
+
         usersModel.setSchoolId(userCurrentSchoolModel.getId());
        // usersModel.setCurrentSchoolData(userCurrentSchoolModel);
 
+       // System.out.println("getRegisterPage: "+userCurrentSchoolModel.toString());
+
+        SchoolModel schoolModel = new SchoolModel(
+                userCurrentSchoolModel.getOfficial_id(),
+                userCurrentSchoolModel.getId(),
+                userCurrentSchoolModel.getName(),
+                userCurrentSchoolModel.getSchoolType(),
+                userCurrentSchoolModel.getAddress(),
+                userCurrentSchoolModel.getFullTimeSchool(),
+                userCurrentSchoolModel.getState(),
+                userCurrentSchoolModel.getPhone(),
+                userCurrentSchoolModel.getFax(),
+                userCurrentSchoolModel.getLatitude(),
+                userCurrentSchoolModel.getLongitude()
+        );
+
+
+        System.out.println(schoolModel.toString());
         model.addAttribute("userCurrentSchoolModel",userCurrentSchoolModel);
         model.addAttribute("registerRequest",usersModel);
 
