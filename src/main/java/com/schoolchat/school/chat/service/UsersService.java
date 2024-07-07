@@ -11,7 +11,7 @@ public class UsersService {
     @Autowired
     private UsersRepository usersRepository;
 
-    public UsersService(UsersRepository usersRepository) {
+    public UsersService() {
         this.usersRepository = usersRepository;
     }
 
@@ -43,4 +43,13 @@ public class UsersService {
         return usersRepository.findByLoginAndPassword(login,password).orElse(null);
 
     }
+
+    public UsersModel getUser(Integer id) {
+        return usersRepository.findById(id).orElse(null);
+    }
+
+
+//    public List<UsersModel> getUserbyId(Long id){
+//        return (List<UsersModel>) usersRepository.getReferenceById(id);
+//    }
 }

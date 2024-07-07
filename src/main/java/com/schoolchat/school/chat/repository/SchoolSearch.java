@@ -4,6 +4,8 @@ import com.schoolchat.school.chat.Schools.JSON_Schools;
 import com.schoolchat.school.chat.Schools.SchoolModel;
 
 import org.json.simple.JSONObject;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 
@@ -51,7 +53,7 @@ public class SchoolSearch {
                 String fax = (String) school.get("fax");
 
 
-                if ((id != null && id.contains(inputID))  ) {
+                if (((id != null) && id.contains(inputID))) {
                     SchoolModel newSchool = new SchoolModel();
 
                     //Добавляю влястивості до класу SchoolModel з кожного знайденого ім'я
@@ -75,7 +77,8 @@ public class SchoolSearch {
             return schoolList;
 
         }else {
-            return null;
+           return  null;
+
         }
 
     }
