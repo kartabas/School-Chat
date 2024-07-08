@@ -25,7 +25,7 @@ import java.util.List;
 @Controller
 @RequiredArgsConstructor
 public class SchoolController extends HttpServlet {
-//    private  UsersRepository usersRepository;
+
     private static final long serialVersionUID = 1L;
     private UsersModel usersModel;
     @Autowired
@@ -44,10 +44,6 @@ public class SchoolController extends HttpServlet {
         return "SearchSchool/searchSchoolSite";
     }
 
-    @GetMapping("/api")
-    public String setIdUser(){
-        return "redirect:/api/1";
-    }
 
 
     @PostMapping("/")
@@ -90,7 +86,8 @@ public class SchoolController extends HttpServlet {
     }
 
     @PostMapping("/app")
-    public String foundSchoolData(@ModelAttribute("schoolData") UserCurrentSchoolModel userCurrentSchoolModel, Model model, RedirectAttributes redirectAttributes) {
+    public String foundSchoolData(@ModelAttribute("schoolData") UserCurrentSchoolModel userCurrentSchoolModel, Model model, RedirectAttributes redirectAttributes, HttpServletRequest request) {
+        HttpSession session = request.getSession();
         //Save current School in userCurrentSchoolModel
         userCurrentSchoolModel.setCurrentUserSchool(userCurrentSchoolModel.getCurrentSchool());
 
