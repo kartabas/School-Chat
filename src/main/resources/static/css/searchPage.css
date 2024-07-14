@@ -93,7 +93,7 @@ body{
 
 	display: flex;
 	vertical-align: middle;
-	padding-right: 5px;
+	padding-right: 20px;
 	margin-left: 0;
 
 }
@@ -144,6 +144,7 @@ body{
 	padding: 0;
 
 	cursor: pointer;
+	margin-left: 16px;
 
  }
  
