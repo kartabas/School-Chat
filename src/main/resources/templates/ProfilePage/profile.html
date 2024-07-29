@@ -240,12 +240,12 @@
 				<div class="main__edit__profile">
 					<a name="editProfile" id="editProfile" class="btn btn-primary btn-lg" href="/profile/edit"
 						role="button">Edit profile</a>
-				</div>
+				</div><!--main__edit__profile-->
 
 
 				<div class="main_profile_avatar">
 					<img src="../../static/fotos/6SLzBEY.webp" alt="avatar" class="avatar__image">
-				</div>
+				</div><!--main_profile_avatar-->
 
 				<div class="main__profile__content">
 					<div class="profile__content__username">
@@ -256,18 +256,236 @@
 						<h5>School name</h5>
 					</div>
 
+				</div><!--main__profile__content-->
 
 
 
-				</div>
+				<div class="posts__container">
+
+					<div class="post__box">
+
+						<div class="post__header__container">
+
+							<div class="post__avatar">
+								<img src="../../static/fotos/6SLzBEY.webp"
+									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
+							</div>
+
+							<div class="post__nickname">
+								<h6 th:text="${userLogin.login}">mdn</h6>
+							</div>
+
+							<div class="post__ellipses  ">
+								<button class="btn btn-lg"><img src="../../static/fotos/profile/ellipsis.png" alt=""></button>
+							</div>
+
+						</div><!--post__header__container-->
 
 
-				<input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png" />
-			</div>
+						<div class="post__text">
+							<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe porro expedita minima
+								eligendi harum perferendis culpa, quibusdam molestias iste natus tempora tenetur blanditiis
+								aliquid eaque omnis impedit adipisci animi.</h5>
+						</div>
+						<div class="post__fotos">
+							<img src="../../static/fotos/profile/web-application.png"
+								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+								alt="">
+						</div>
+						<div class="post__time">
+							<p class="post__time__text">00:39 , 29.07.2024 </p>
+						</div>
+						<hr>
+						<div class="under__posts__details">
+							<ul class="nav justify-content-left">
+								<li class="nav-item">
+									<p class="fa fa-paragraph me-5">100 Retweets</p>
+								</li>
+								<li class="nav-item">
+									<p class="fa fa-paragraph me-5">2 Quote Tweets</p>
+								</li>
+								<li class="nav-item">
+									<p class="fa fa-paragraph me-5">1,5 K Likes</p>
+								</li>
+							</ul>
+						</div><!--under__posts__details-->
+						<hr>
+						<div class="under__posts__elements ">
+							<ul class="nav justify-content-let">
+								<li class="nav-item me-4">
+									<button class="nav-link active" href="#"><img src="../../static/fotos/profile/Comment.png"
+											alt=""> 123</button>
+								</li>
+								<li class="nav-item me-4">
+									<button class="nav-link" href="#"><img src="../../static/fotos/profile/Retweet.png" alt="">
+										456</button>
+								</li>
+								<li class="nav-item me-4">
+									<button class="nav-link " href="#"><img src="../../static/fotos/profile/DefaultLike.png"
+											alt=""> 789</button>
+								</li>
+								<li class="nav-item me-6">
+									<button class="nav-link " href="#"><img src="../../static/fotos/profile/Share.png"
+											alt=""></button>
+								</li>
+							</ul>
+						</div><!--under__posts__elements-->
+
+
+					</div><!--post__box-->
+
+					<div class="post__box">
+
+						<div class="post__header__container">
+
+							<div class="post__avatar">
+								<img src="../../static/fotos/6SLzBEY.webp"
+									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
+							</div>
+
+							<div class="post__nickname">
+								<h6 th:text="${userLogin.login}">mdn</h6>
+							</div>
+
+							<div class="post__ellipses  ">
+								<button class="btn btn-lg"><img src="../../static/fotos/profile/ellipsis.png" alt=""></button>
+							</div>
+
+						</div><!--post__header__container-->
+
+
+						<div class="post__text">
+							<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe porro expedita minima
+								eligendi harum perferendis culpa, quibusdam molestias iste natus tempora tenetur blanditiis
+								aliquid eaque omnis impedit adipisci animi.</h5>
+						</div>
+						<div class="post__fotos">
+							<img src="../../static/fotos/profile/web-application.png"
+								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+								alt="">
+						</div>
+						<div class="post__time">
+							<p class="post__time__text">00:39 , 29.07.2024 </p>
+						</div>
+						<hr>
+						<div class="under__posts__details">
+							<ul class="nav justify-content-left">
+								<li class="nav-item">
+									<p class="fa fa-paragraph me-5">100 Retweets</p>
+								</li>
+								<li class="nav-item">
+									<p class="fa fa-paragraph me-5">2 Quote Tweets</p>
+								</li>
+								<li class="nav-item">
+									<p class="fa fa-paragraph me-5">1,5 K Likes</p>
+								</li>
+							</ul>
+						</div><!--under__posts__details-->
+						<hr>
+						<div class="under__posts__elements ">
+							<ul class="nav justify-content-let">
+								<li class="nav-item me-4">
+									<button class="nav-link active" href="#"><img src="../../static/fotos/profile/Comment.png"
+											alt=""> 123</button>
+								</li>
+								<li class="nav-item me-4">
+									<button class="nav-link" href="#"><img src="../../static/fotos/profile/Retweet.png" alt="">
+										456</button>
+								</li>
+								<li class="nav-item me-4">
+									<button class="nav-link " href="#"><img src="../../static/fotos/profile/DefaultLike.png"
+											alt=""> 789</button>
+								</li>
+								<li class="nav-item me-6">
+									<button class="nav-link " href="#"><img src="../../static/fotos/profile/Share.png"
+											alt=""></button>
+								</li>
+							</ul>
+						</div><!--under__posts__elements-->
+
+
+					</div><!--post__box-->
+
+					<div class="post__box">
+
+						<div class="post__header__container">
+
+							<div class="post__avatar">
+								<img src="../../static/fotos/6SLzBEY.webp"
+									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
+							</div>
+
+							<div class="post__nickname">
+								<h6 th:text="${userLogin.login}">mdn</h6>
+							</div>
+
+							<div class="post__ellipses  ">
+								<button class="btn btn-lg"><img src="../../static/fotos/profile/ellipsis.png" alt=""></button>
+							</div>
+
+						</div><!--post__header__container-->
+
+
+						<div class="post__text">
+							<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe porro expedita minima
+								eligendi harum perferendis culpa, quibusdam molestias iste natus tempora tenetur blanditiis
+								aliquid eaque omnis impedit adipisci animi.</h5>
+						</div>
+						<div class="post__fotos">
+							<img src="../../static/fotos/profile/web-application.png"
+								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+								alt="">
+						</div>
+						<div class="post__time">
+							<p class="post__time__text">00:39 , 29.07.2024 </p>
+						</div>
+						<hr>
+						<div class="under__posts__details">
+							<ul class="nav justify-content-left">
+								<li class="nav-item">
+									<p class="fa fa-paragraph me-5">100 Retweets</p>
+								</li>
+								<li class="nav-item">
+									<p class="fa fa-paragraph me-5">2 Quote Tweets</p>
+								</li>
+								<li class="nav-item">
+									<p class="fa fa-paragraph me-5">1,5 K Likes</p>
+								</li>
+							</ul>
+						</div><!--under__posts__details-->
+						<hr>
+						<div class="under__posts__elements ">
+							<ul class="nav justify-content-let">
+								<li class="nav-item me-4">
+									<button class="nav-link active" href="#"><img src="../../static/fotos/profile/Comment.png"
+											alt=""> 123</button>
+								</li>
+								<li class="nav-item me-4">
+									<button class="nav-link" href="#"><img src="../../static/fotos/profile/Retweet.png" alt="">
+										456</button>
+								</li>
+								<li class="nav-item me-4">
+									<button class="nav-link " href="#"><img src="../../static/fotos/profile/DefaultLike.png"
+											alt=""> 789</button>
+								</li>
+								<li class="nav-item me-6">
+									<button class="nav-link " href="#"><img src="../../static/fotos/profile/Share.png"
+											alt=""></button>
+								</li>
+							</ul>
+						</div><!--under__posts__elements-->
+
+
+					</div><!--post__box-->
+
+					
+				</div><!--posts__container-->
+
+			</div><!--main__profile_container-->
 
 
 
-		</div>
+		</div><!--maim__container-->
 		<!-------------------- Main ------------------------------------------------>
 
 
