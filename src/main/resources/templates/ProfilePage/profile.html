@@ -128,6 +128,7 @@
 		</symbol>
 
 
+		 
 	</svg>
 
 	<!--------------------Sidedar------------------------------------------------>
@@ -159,55 +160,31 @@
 						<svg class="bi pe-none me-2 " width="50px" height="50px" style="font-size: 25px; padding-right:0px;">
 							<use xlink:href="#home" />
 						</svg>
-						<span class="sidebar__text">Home</span>
+						<span class="sidebar__text">Main Chat</span>
 					</a>
 				</li>
-				<li>
-					<a href="#" class="nav-link link-body-emphasis ">
-						<svg class="bi pe-none me-2 " width="16" height="16" style="font-size: 25px;">
-							<use xlink:href="#speedometer2" />
-						</svg>
-						<span class="sidebar__text">Dashboard</span>
 
-					</a>
-				</li>
 				<li>
 					<a href="#" class="nav-link link-body-emphasis">
-						<svg class="bi pe-none me-2" width="16" height="16" style="font-size: 25px;">
-							<use xlink:href="#table" />
-						</svg>
-						<span class="sidebar__text">Orders</span>
+						<svg class=" text-gray-800 dark:text-white" width="30px" height="30px" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z"/>
+						 </svg>
+						<span class="sidebar__text">Global Chat</span>
 
 					</a>
 				</li>
-				<li>
-					<a href="#" class="nav-link link-body-emphasis">
-						<svg class="bi pe-none me-2" width="16" height="16" style="font-size: 25px;">
-							<use xlink:href="#grid" />
-						</svg>
-						<span class="sidebar__text">Products</span>
 
-					</a>
-				</li>
-				<li>
-					<a href="#" class="nav-link link-body-emphasis">
-						<svg class="bi pe-none me-2" width="16" height="16" style="font-size: 25px;">
-							<use xlink:href="#people-circle" />
-						</svg>
-						<span class="sidebar__text">Customers</span>
 
-					</a>
-				</li>
 			</ul>
 			<hr>
 			<div class="dropdown">
 				<a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle "
 					data-bs-toggle="dropdown" aria-expanded="false">
-					<img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+					<img src="../../static/fotos/profile/userIcon.png" alt="" width="32" height="32"
+						class="rounded-circle me-2">
 					<strong class="sidebar__text" th:text="${userLogin.login}" style="overflow:hidden;">mdn</strong>
 				</a>
 				<ul class="dropdown-menu text-small shadow">
-					<li><a class="dropdown-item" href="#">New project...</a></li>
 					<li><a class="dropdown-item" href="/settings">Settings</a></li>
 					<li><a class="dropdown-item" href="/profile">Profile</a></li>
 					<li>
@@ -244,16 +221,16 @@
 
 
 				<div class="main_profile_avatar">
-					<img src="../../static/fotos/6SLzBEY.webp" alt="avatar" class="avatar__image">
+					<img src="../../static/fotos/profile/userIcon.png" alt="avatar" class="avatar__image">
 				</div><!--main_profile_avatar-->
 
 				<div class="main__profile__content">
 					<div class="profile__content__username">
-						<h2>Username</h2>
+						<h2 th:text="${userLogin.login}">Username</h2>
 					</div>
 
 					<div class="profile__content__schoolName">
-						<h5>School name</h5>
+						<h5 th:text="${userCurrentSchoolModel.name}">School name</h5>
 					</div>
 
 				</div><!--main__profile__content-->
@@ -267,7 +244,7 @@
 						<div class="post__header__container">
 
 							<div class="post__avatar">
-								<img src="../../static/fotos/6SLzBEY.webp"
+								<img src="../../static/fotos/profile/userIcon.png"
 									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
 							</div>
 
@@ -276,7 +253,22 @@
 							</div>
 
 							<div class="post__ellipses  ">
-								<button class="btn btn-lg"><img src="../../static/fotos/profile/ellipsis.png" alt=""></button>
+
+								<div class="dropdown open">
+									<button class="btn btn-sm  " type="button" id="triggerId" data-bs-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false" style="border: none;  ">
+										<img src="../../static/fotos/profile/ellipsis.png" alt="">
+									</button>
+									<div class="dropdown-menu" aria-labelledby="triggerId">
+										<a class="dropdown-item" href="#">Delete</a>
+										<a class="dropdown-item" href="#">Edit</a>
+										<div class="dropdown-divider"></div>
+
+									</div>
+								</div>
+
+
+
 							</div>
 
 						</div><!--post__header__container-->
@@ -295,30 +287,12 @@
 						<div class="post__time">
 							<p class="post__time__text">00:39 , 29.07.2024 </p>
 						</div>
-						<hr>
-						<div class="under__posts__details">
-							<ul class="nav justify-content-left">
-								<li class="nav-item">
-									<p class="fa fa-paragraph me-5">100 Retweets</p>
-								</li>
-								<li class="nav-item">
-									<p class="fa fa-paragraph me-5">2 Quote Tweets</p>
-								</li>
-								<li class="nav-item">
-									<p class="fa fa-paragraph me-5">1,5 K Likes</p>
-								</li>
-							</ul>
-						</div><!--under__posts__details-->
-						<hr>
+
 						<div class="under__posts__elements ">
 							<ul class="nav justify-content-let">
 								<li class="nav-item me-4">
 									<button class="nav-link active" href="#"><img src="../../static/fotos/profile/Comment.png"
 											alt=""> 123</button>
-								</li>
-								<li class="nav-item me-4">
-									<button class="nav-link" href="#"><img src="../../static/fotos/profile/Retweet.png" alt="">
-										456</button>
 								</li>
 								<li class="nav-item me-4">
 									<button class="nav-link " href="#"><img src="../../static/fotos/profile/DefaultLike.png"
@@ -339,7 +313,7 @@
 						<div class="post__header__container">
 
 							<div class="post__avatar">
-								<img src="../../static/fotos/6SLzBEY.webp"
+								<img src="../../static/fotos/profile/userIcon.png"
 									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
 							</div>
 
@@ -348,7 +322,22 @@
 							</div>
 
 							<div class="post__ellipses  ">
-								<button class="btn btn-lg"><img src="../../static/fotos/profile/ellipsis.png" alt=""></button>
+
+								<div class="dropdown open">
+									<button class="btn btn-sm  " type="button" id="triggerId" data-bs-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false" style="border: none;  ">
+										<img src="../../static/fotos/profile/ellipsis.png" alt="">
+									</button>
+									<div class="dropdown-menu" aria-labelledby="triggerId">
+										<a class="dropdown-item" href="#">Delete</a>
+										<a class="dropdown-item" href="#">Edit</a>
+										<div class="dropdown-divider"></div>
+
+									</div>
+								</div>
+
+
+
 							</div>
 
 						</div><!--post__header__container-->
@@ -367,30 +356,12 @@
 						<div class="post__time">
 							<p class="post__time__text">00:39 , 29.07.2024 </p>
 						</div>
-						<hr>
-						<div class="under__posts__details">
-							<ul class="nav justify-content-left">
-								<li class="nav-item">
-									<p class="fa fa-paragraph me-5">100 Retweets</p>
-								</li>
-								<li class="nav-item">
-									<p class="fa fa-paragraph me-5">2 Quote Tweets</p>
-								</li>
-								<li class="nav-item">
-									<p class="fa fa-paragraph me-5">1,5 K Likes</p>
-								</li>
-							</ul>
-						</div><!--under__posts__details-->
-						<hr>
+
 						<div class="under__posts__elements ">
 							<ul class="nav justify-content-let">
 								<li class="nav-item me-4">
 									<button class="nav-link active" href="#"><img src="../../static/fotos/profile/Comment.png"
 											alt=""> 123</button>
-								</li>
-								<li class="nav-item me-4">
-									<button class="nav-link" href="#"><img src="../../static/fotos/profile/Retweet.png" alt="">
-										456</button>
 								</li>
 								<li class="nav-item me-4">
 									<button class="nav-link " href="#"><img src="../../static/fotos/profile/DefaultLike.png"
@@ -405,13 +376,12 @@
 
 
 					</div><!--post__box-->
-
 					<div class="post__box">
 
 						<div class="post__header__container">
 
 							<div class="post__avatar">
-								<img src="../../static/fotos/6SLzBEY.webp"
+								<img src="../../static/fotos/profile/userIcon.png"
 									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
 							</div>
 
@@ -420,7 +390,22 @@
 							</div>
 
 							<div class="post__ellipses  ">
-								<button class="btn btn-lg"><img src="../../static/fotos/profile/ellipsis.png" alt=""></button>
+
+								<div class="dropdown open">
+									<button class="btn btn-sm  " type="button" id="triggerId" data-bs-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false" style="border: none;  ">
+										<img src="../../static/fotos/profile/ellipsis.png" alt="">
+									</button>
+									<div class="dropdown-menu" aria-labelledby="triggerId">
+										<a class="dropdown-item" href="#">Delete</a>
+										<a class="dropdown-item" href="#">Edit</a>
+										<div class="dropdown-divider"></div>
+
+									</div>
+								</div>
+
+
+
 							</div>
 
 						</div><!--post__header__container-->
@@ -439,30 +424,12 @@
 						<div class="post__time">
 							<p class="post__time__text">00:39 , 29.07.2024 </p>
 						</div>
-						<hr>
-						<div class="under__posts__details">
-							<ul class="nav justify-content-left">
-								<li class="nav-item">
-									<p class="fa fa-paragraph me-5">100 Retweets</p>
-								</li>
-								<li class="nav-item">
-									<p class="fa fa-paragraph me-5">2 Quote Tweets</p>
-								</li>
-								<li class="nav-item">
-									<p class="fa fa-paragraph me-5">1,5 K Likes</p>
-								</li>
-							</ul>
-						</div><!--under__posts__details-->
-						<hr>
+
 						<div class="under__posts__elements ">
 							<ul class="nav justify-content-let">
 								<li class="nav-item me-4">
 									<button class="nav-link active" href="#"><img src="../../static/fotos/profile/Comment.png"
 											alt=""> 123</button>
-								</li>
-								<li class="nav-item me-4">
-									<button class="nav-link" href="#"><img src="../../static/fotos/profile/Retweet.png" alt="">
-										456</button>
 								</li>
 								<li class="nav-item me-4">
 									<button class="nav-link " href="#"><img src="../../static/fotos/profile/DefaultLike.png"
@@ -478,7 +445,9 @@
 
 					</div><!--post__box-->
 
-					
+
+
+
 				</div><!--posts__container-->
 
 			</div><!--main__profile_container-->

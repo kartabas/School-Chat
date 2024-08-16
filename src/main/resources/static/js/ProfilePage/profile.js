@@ -9,15 +9,15 @@ $(document).ready(function () {
 	);
 
 
+	$("#triggerId").hover(
+		function () {
+			$(this).addClass("btn-primary");
+		},
+		function () {
+			$(this).removeClass("btn-primary");
+		}
+	);
 
-	$("#profile_pic").change(function () {
-		var file = this.files[0];
-		var url = URL.createObjectURL(file);
-
-		alert(url);
-		$(".main__background_container").css("background", "url(" + url + ") no-repeat");
-
-	});
 
 
 });

@@ -13,7 +13,105 @@ main {
 	max-height: 100vh;
 	overflow-x: auto;
 	overflow-y: hidden;
+	
 }
+
+
+
+
+.main__container{
+	width: 100%;
+	height: 100%;
+	background-color:#6528e6;
+
+	overflow-x: hidden;
+}
+
+
+.main__posts__container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	background-color: red;
+}
+
+
+
+.post__box{
+	width: 850px;
+	height: auto;
+	
+	margin: 5px;
+	padding: 15px;
+	margin-bottom: 10px;
+
+	background-color: blue;
+}
+
+
+.post__header__container{
+	width: 100%;
+	display: flex;
+
+	flex-direction: row;
+}
+
+.post__nickname{
+	position: relative;
+
+	align-content: center;
+	margin-left: 10px;
+}
+
+
+.post__fotos img{
+	width: 650px;
+	
+}
+
+.post__text{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.post__ellipses{
+	width: 100%;
+	display: flex;
+	justify-content: right;
+
+	padding: 5px;
+}
+
+.post__ellipses img{
+	width: 35px;
+}
+
+
+
+.post__time{
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+
+
+
+
+
+
+.under__posts__elements{
+	width: 100%;
+	display: flex;
+	
+	
+
+}
+
+
 
 .dropdown-toggle {
 	outline: 0;

@@ -9,4 +9,17 @@ $(document).ready(function () {
 	);
 
 
+	
+	
+		$("#triggerId").hover(
+			function () {
+				$(this).addClass("btn-primary");
+			},
+			function () {
+				$(this).removeClass("btn-primary");
+			}
+		);
+	
+
+
 });
