@@ -105,13 +105,13 @@ hr{
 .main_profile_avatar{
 	height: 100px;
 	position: relative;
-	top: -90px;
+	top: -70px;
 	left: 20px;
 }
 
 .avatar__image {
-	width: 180px;
-	height: 180px;
+	width: 120px;
+	height: 120px;
 	border-radius: 50%;
 }
 
@@ -130,7 +130,10 @@ hr{
 	flex-direction: column;
 	padding: 10px;
 	margin-top: 5px;
-	background-color: red;
+
+	
+
+	
 
 }
 
@@ -138,12 +141,14 @@ hr{
 .post__box{
 	width: 850px;
 	height: auto;
-	
+	border-radius: 20px;
+
 	margin: 5px;
 	padding: 15px;
 	margin-bottom: 15px;
+	border: 2px solid #0084b4;
 
-	background-color: blue;
+	
 }
 
 
@@ -198,8 +203,19 @@ hr{
 
 .under__posts__elements{
 	width: 100%;
+	
 	display: flex;
 	
-	
+	border-radius:15px ;
+	background-color: #ffffff;
 
 }
+
+
+.under__posts__elements .nav-link:hover {
+	transform: scale(1.05);
+
+}
+
+
+

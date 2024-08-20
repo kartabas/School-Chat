@@ -48,7 +48,7 @@
 			width: 100%;
 			height: 100%;
 
-			background-color: red;
+			background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 
 		}
 
@@ -57,7 +57,7 @@
 			height: 30%;
 			background-image: url(../../static/fotos/6SLzBEY.webp);
 			background-repeat: no-repeat;
-			background-color: blue;
+			background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 		}
 
 		.main__profile_container {
@@ -65,7 +65,7 @@
 			height: 100%;
 			padding: 10px;
 
-			background-color: purple;
+			background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 		}
 	</style>
 </head>
@@ -128,7 +128,7 @@
 		</symbol>
 
 
-		 
+
 	</svg>
 
 	<!--------------------Sidedar------------------------------------------------>
@@ -166,9 +166,11 @@
 
 				<li>
 					<a href="#" class="nav-link link-body-emphasis">
-						<svg class=" text-gray-800 dark:text-white" width="30px" height="30px" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z"/>
-						 </svg>
+						<svg class=" text-gray-800 dark:text-white" width="30px" height="30px" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+								d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z" />
+						</svg>
 						<span class="sidebar__text">Global Chat</span>
 
 					</a>
@@ -255,8 +257,9 @@
 							<div class="post__ellipses  ">
 
 								<div class="dropdown open">
-									<button class="btn btn-sm  " type="button" id="triggerId" data-bs-toggle="dropdown"
-										aria-haspopup="true" aria-expanded="false" style="border: none;  ">
+									<button class="triggerIdButton btn btn-sm  " type="button" id="triggerId"
+										data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+										style="border: none;  ">
 										<img src="../../static/fotos/profile/ellipsis.png" alt="">
 									</button>
 									<div class="dropdown-menu" aria-labelledby="triggerId">
@@ -295,18 +298,22 @@
 											alt=""> 123</button>
 								</li>
 								<li class="nav-item me-4">
-									<button class="nav-link " href="#"><img src="../../static/fotos/profile/DefaultLike.png"
-											alt=""> 789</button>
+									<button class="defaultLike nav-link " href="#" >
+										<img src="../../static/fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg">
+
+										789</button>
 								</li>
 								<li class="nav-item me-6">
 									<button class="nav-link " href="#"><img src="../../static/fotos/profile/Share.png"
 											alt=""></button>
+
 								</li>
 							</ul>
 						</div><!--under__posts__elements-->
 
 
 					</div><!--post__box-->
+
 
 					<div class="post__box">
 
@@ -324,8 +331,9 @@
 							<div class="post__ellipses  ">
 
 								<div class="dropdown open">
-									<button class="btn btn-sm  " type="button" id="triggerId" data-bs-toggle="dropdown"
-										aria-haspopup="true" aria-expanded="false" style="border: none;  ">
+									<button class="triggerIdButton btn btn-sm  " type="button" id="triggerId"
+										data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+										style="border: none;  ">
 										<img src="../../static/fotos/profile/ellipsis.png" alt="">
 									</button>
 									<div class="dropdown-menu" aria-labelledby="triggerId">
@@ -364,8 +372,10 @@
 											alt=""> 123</button>
 								</li>
 								<li class="nav-item me-4">
-									<button class="nav-link " href="#"><img src="../../static/fotos/profile/DefaultLike.png"
-											alt=""> 789</button>
+									<button class=" defaultLike nav-link " href="#" >
+										<img src="../../static/fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg">
+
+										789</button>
 								</li>
 								<li class="nav-item me-6">
 									<button class="nav-link " href="#"><img src="../../static/fotos/profile/Share.png"
@@ -376,74 +386,8 @@
 
 
 					</div><!--post__box-->
-					<div class="post__box">
-
-						<div class="post__header__container">
-
-							<div class="post__avatar">
-								<img src="../../static/fotos/profile/userIcon.png"
-									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
-							</div>
-
-							<div class="post__nickname">
-								<h6 th:text="${userLogin.login}">mdn</h6>
-							</div>
-
-							<div class="post__ellipses  ">
-
-								<div class="dropdown open">
-									<button class="btn btn-sm  " type="button" id="triggerId" data-bs-toggle="dropdown"
-										aria-haspopup="true" aria-expanded="false" style="border: none;  ">
-										<img src="../../static/fotos/profile/ellipsis.png" alt="">
-									</button>
-									<div class="dropdown-menu" aria-labelledby="triggerId">
-										<a class="dropdown-item" href="#">Delete</a>
-										<a class="dropdown-item" href="#">Edit</a>
-										<div class="dropdown-divider"></div>
-
-									</div>
-								</div>
 
 
-
-							</div>
-
-						</div><!--post__header__container-->
-
-
-						<div class="post__text">
-							<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe porro expedita minima
-								eligendi harum perferendis culpa, quibusdam molestias iste natus tempora tenetur blanditiis
-								aliquid eaque omnis impedit adipisci animi.</h5>
-						</div>
-						<div class="post__fotos">
-							<img src="../../static/fotos/profile/web-application.png"
-								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-								alt="">
-						</div>
-						<div class="post__time">
-							<p class="post__time__text">00:39 , 29.07.2024 </p>
-						</div>
-
-						<div class="under__posts__elements ">
-							<ul class="nav justify-content-let">
-								<li class="nav-item me-4">
-									<button class="nav-link active" href="#"><img src="../../static/fotos/profile/Comment.png"
-											alt=""> 123</button>
-								</li>
-								<li class="nav-item me-4">
-									<button class="nav-link " href="#"><img src="../../static/fotos/profile/DefaultLike.png"
-											alt=""> 789</button>
-								</li>
-								<li class="nav-item me-6">
-									<button class="nav-link " href="#"><img src="../../static/fotos/profile/Share.png"
-											alt=""></button>
-								</li>
-							</ul>
-						</div><!--under__posts__elements-->
-
-
-					</div><!--post__box-->
 
 
 
