@@ -52,13 +52,26 @@ $(document).ready(function () {
 		
 		if (clickCountLike < 1) {
 			$(".defaultLikeImg", this).attr("src", "../static/fotos/profile/SelectedLike.png");
+			$(this).css("color","red");
 			 clickCountLike = 1;
 		} else {
 			$(".defaultLikeImg", this).attr("src", "../static/fotos/profile/defaultLike.png");
+			$(this).css("color","black");
 			 clickCountLike = 0;
 		}
 
 		$(this).data("clickCountLike", clickCountLike);
   });
+
+
+  $('#sent_post_meassageInput').on('input', function() {
+	
+	$(this).css('height', 'auto');
+	
+	$(this).css('height', this.scrollHeight + 'px');
+	//console.log("this.scrollHeight "+this.scrollHeight );
+ });
+
+
 
 });
