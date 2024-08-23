@@ -41,6 +41,9 @@
 		}
 
 		/*--------------------Sidedar---------------------*/
+
+
+
 	</style>
 
 </head>
@@ -155,6 +158,7 @@
 					<img src="../static/fotos/profile/userIcon.png" alt="" width="32" height="32"
 						class="rounded-circle me-2">
 					<strong class="sidebar__text" th:text="${userLogin.login}" style="overflow:hidden;">mdn</strong>
+					<input type="hidden" name="username_sidebar" id="username_sidebar" th:text="${userLogin.login}">
 				</a>
 				<ul class="dropdown-menu text-small shadow">
 					<li><a class="dropdown-item" href="/settings">Settings</a></li>
@@ -219,9 +223,10 @@
 							</div>
 							<div class="sent_post_elements">
 								<div class="sent_post_elements_icons">
-									<div class="sent_post_elements_img">
+									<div class="sent_post_elements_img" >
+
 										<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
+											xmlns="http://www.w3.org/2000/svg" type="file" class="dfdfasdfasd">
 											<mask id="mask0_11_1686" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
 												width="24" height="24">
 												<rect width="24" height="24" fill="#C4C4C4" />
@@ -237,9 +242,16 @@
 										</svg>
 
 									</div>
+
+									<input type="file" id="sent_post_elements_img_fileInput"
+										name="sent_post_elements_img_fileInput" multiple accept="image/png, image/jpeg"
+										style="display:none"> <!--INPUT IMAGES -->
+
+
 									<div class="sent_post_elements_gif">
 										<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
+											xmlns="http://www.w3.org/2000/svg" class="text-gray-800 dark:text-white">
+
 											<mask id="mask0_11_1685" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
 												width="24" height="24">
 												<rect width="24" height="24" fill="#C4C4C4" />
@@ -257,7 +269,7 @@
 									</div>
 									<div class="sent_post_elements_smile">
 										<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
+											xmlns="http://www.w3.org/2000/svg" class="text-gray-800 dark:text-white">
 											<mask id="mask0_11_1683" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
 												width="24" height="24">
 												<rect width="24" height="24" fill="#C4C4C4" />
@@ -283,7 +295,8 @@
 
 
 								<div class="sent_post_elements_block">
-									<button class="btn btn-primary" type="submit" >Sent</button>
+									<button class=" btn btn-primary" type="submit"
+										id="sent_post_elements_block_button">Sent</button>
 								</div>
 							</div>
 
@@ -656,6 +669,7 @@
 
 	<script src="../static/js/Bibliothek/jquery-3.7.1.min.js"></script>
 	<script src="../static/js/home.js"></script>
+	<script src="../static/js/homeSentMeassage.js"></script>
 
 	<!--------------------Sidedar------------------------------------------------>
 	<script>
