@@ -19,7 +19,7 @@ main {
 	
 }
 
-[data-bs-theme=dark] .sent_post_elements_icons path {
+[data-bs-theme=dark] .send_post_elements_icons path {
 	fill: white;
 }
 
@@ -48,7 +48,7 @@ main {
 
 
 
-.sent_post_container{
+.send_post_container{
 	width: 100%;
 	min-height: 130px;
 	max-height: auto;
@@ -59,7 +59,7 @@ main {
 	
 }
 
-.sent_post_block {
+.send_post_block {
 	width: 70%;
 	min-height: 100%;
 	max-height: auto;
@@ -74,7 +74,7 @@ main {
 }
 
 
-.sent_post_avatar_side {
+.send_post_avatar_side {
 	width: 10%;
 	height:auto;
 	
@@ -83,7 +83,7 @@ main {
 	background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.sent_post_avatar_side img{
+.send_post_avatar_side img{
 	width: 65px;
 	height: 65px;
 	padding: 5px;
@@ -93,12 +93,12 @@ main {
 	
 }
 
-.sent_post_block_message{
+.send_post_block_message{
 	width: 90%;
 	
 }
 
-.sent_post_meassage {
+.send_post_meassage {
 	width: 100%;
 	min-height: 85px;
 	max-height:auto ;
@@ -115,7 +115,7 @@ main {
 
 
 
-#sent_post_meassageInput {
+#send_post_meassageInput {
 	width: 100% ; 
 	height:auto;
 	min-height: 60px;
@@ -152,7 +152,7 @@ main {
 	font-size: 0.875rem;
  }
 
-.sent_post_elements {
+.send_post_elements {
 	width: 100%;
 	height: 50px;
 
@@ -167,38 +167,38 @@ main {
 	padding: 5px;
 }
 
-.sent_post_elements_icons{
+.send_post_elements_icons{
 	display: flex;
 	justify-content: left;
 }
 
 
-.sent_post_elements_img {
+.send_post_elements_img {
 	z-index: 3;
 	padding: 8px;
 	cursor: pointer;
 }
-.sent_post_elements_img:hover {
+.send_post_elements_img:hover {
 	z-index: 0;
 	border-radius: 25px;
 	background-color: rgba(255, 255, 255, 0.1);
 }
-.sent_post_elements_gif {
+.send_post_elements_gif {
 	padding: 8px;
 	cursor: pointer;
 }
 
-.sent_post_elements_gif:hover {
+.send_post_elements_gif:hover {
 	z-index: 0;
 	border-radius: 25px;
 	background-color:  rgba(255, 255, 255, 0.1);
 }
-.sent_post_elements_smile {
+.send_post_elements_smile {
 	padding: 8px;
 	cursor: pointer;
 }
 
-.sent_post_elements_smile:hover {
+.send_post_elements_smile:hover {
 	z-index: 0;
 	border-radius: 25px;
 	background-color:  rgba(255, 255, 255, 0.1);
@@ -209,7 +209,7 @@ main {
 
 
 
-.sent_post_elements_block{
+.send_post_elements_block{
 	
 	display: flex;
 	justify-content: right;
@@ -218,7 +218,7 @@ main {
 
 
 
-.sent_post_elements_images img{
+.send_post_elements_images img{
 	min-width:300px ;
 	max-width: 70%;
 	height: auto;
