@@ -11,6 +11,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.nio.charset.StandardCharsets;
+
 public class JSON_Schools {
 
     public static final String JSON_FILE="../School-Chat/src/main/resources/bayern.json";

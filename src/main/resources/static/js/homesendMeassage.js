@@ -9,7 +9,7 @@ $(document).ready(function () {
 		<div class="post__box">
 			  <div class="post__header__container">
 					 <div class="post__avatar">
-							 <img src="../static/fotos/profile/userIcon.png" style="width: 49px; height: 49px; border-radius: 50%;" alt="">
+							 <img src="../../fotos/profile/userIcon.png" style="width: 49px; height: 49px; border-radius: 50%;" alt="">
 					 </div>
 					 <div class="post__nickname">
 							 <h6>${meassageArray[1]}</h6>
@@ -17,7 +17,7 @@ $(document).ready(function () {
 					 <div class="post__ellipses">
 							 <div class="dropdown open">
 									<button class="triggerIdButton btn btn-sm" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border: none;">
-										  <img src="../static/fotos/profile/ellipsis.png" alt="">
+										  <img src="../../fotos/profile/ellipsis.png" alt="">
 									</button>
 									<div class="dropdown-menu" aria-labelledby="triggerId">
 										  <a class="dropdown-item" href="#">Report</a>
@@ -42,13 +42,13 @@ $(document).ready(function () {
 			  <div class="under__posts__elements">
 					 <ul class="nav justify-content-let">
 							 <li class="nav-item me-4">
-									<button class="nav-link active" href="#"><img src="../static/fotos/profile/Comment.png" alt=""> 0</button>
+									<button class="nav-link active" href="#"><img src="../../fotos/profile/Comment.png" alt=""> 0</button>
 							 </li>
 							 <li class="nav-item me-4">
-									<button class="defaultLike nav-link" href="#"><img src="../static/fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg"> 0</button>
+									<button class="defaultLike nav-link" href="#"><img src="../../fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg"> 0</button>
 							 </li>
 							 <li class="nav-item me-6">
-									<button class="nav-link" href="#"><img src="../static/fotos/profile/Share.png" alt=""></button>
+									<button class="nav-link" href="#"><img src="../../fotos/profile/Share.png" alt=""></button>
 							 </li>
 					 </ul>
 			  </div><!-- under__posts__elements -->
@@ -66,10 +66,10 @@ $(document).ready(function () {
 
 	$("#send_post_elements_block_button").click(function () {
 		let meassageArray = [];
-
+	
 
 		let meassage = $("#send_post_meassageInput").val();
-		let nickname = $("#username_sidebar").val();
+		let nickname = $(".sidebar__text__nickname ").text();
 
 
 
@@ -91,7 +91,7 @@ $(document).ready(function () {
 				}
 
 				reader.readAsDataURL(file)
-
+				
 			}
 
 			console.log("Send meassageArray:" + meassageArray);

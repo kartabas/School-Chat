@@ -28,12 +28,13 @@ $(document).ready(function () {
 	$(".defaultLike", this).click(function () {
 
 		if (clickCountLike < 1) {
-			$(".defaultLikeImg", this).attr("src", "../static/fotos/profile/SelectedLike.png");
+			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/SelectedLike.png");
+																
 			console.log("Click", clickCountLike);
 
 			clickCountLike++;
 		} else {
-			$(".defaultLikeImg", this).attr("src", "../static/fotos/profile/defaultLike.png");
+			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/defaultLike.png");
 			console.log("Click ", clickCountLike);
 
 			clickCountLike = 0;
@@ -51,11 +52,11 @@ $(document).ready(function () {
 		console.log($(this).data("clickCountLike"));
 
 		if (clickCountLike < 1) {
-			$(".defaultLikeImg", this).attr("src", "../static/fotos/profile/SelectedLike.png");
+			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/SelectedLike.png");
 			$(this).css("color", "red");
 			clickCountLike = 1;
 		} else {
-			$(".defaultLikeImg", this).attr("src", "../static/fotos/profile/defaultLike.png");
+			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/defaultLike.png");
 			$(this).css("color", "black");
 			clickCountLike = 0;
 		}

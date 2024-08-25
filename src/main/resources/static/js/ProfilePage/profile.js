@@ -31,10 +31,10 @@ $(document).ready(function () {
 		console.log($(this).data("clickCountLike"));
 		
 		if (clickCountLike < 1) {
-			$(".defaultLikeImg", this).attr("src", "../../static/fotos/profile/SelectedLike.png");
+			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
 			 clickCountLike = 1;
 		} else {
-			$(".defaultLikeImg", this).attr("src", "../../static/fotos/profile/defaultLike.png");
+			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
 			 clickCountLike = 0;
 		}
 
