@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import com.schoolchat.school.chat.Schools.SchoolModel;
 import com.schoolchat.school.chat.model.UsersModel;
@@ -15,6 +16,11 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
 
 @Controller
 public class ProfilController extends HttpServlet {
@@ -63,4 +69,17 @@ public class ProfilController extends HttpServlet {
 		}
 
 	}
+
+
+	@GetMapping("/profile/{id}")
+	public @ResponseBody UsersModel getProfilePageById(@PathVariable Integer id, Model model, HttpServletRequest request, HttpServletResponse response) {
+		UsersModel usersModel = usersService.getUser(id);
+		return usersModel;
+	
+	}
+
+
+
+
+
 }
