@@ -1,16 +1,118 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
-    <title>Error Page</title>
-</head>
-<body>
 
-<h1>You entered incorrect data! Please retry your action again. </h1>
-<a href="/register">Register page</a>
-<hr>
-<a href="/login">Login page</a>
-<hr>
-<a href="/">Search Page</a>
+<head>
+	<meta charset="UTF-8">
+	<title>Error Page</title>
+</head>
+
+<style>
+	html {
+		height: 100%;
+	}
+
+	body {
+		height: 100%;
+		background: url("../fotos/6SLzBEY.webp") no-repeat left top;
+		background-size: cover;
+		overflow: hidden;
+
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+	.text h1 {
+		color: #011718;
+		margin-top: -200px;
+		font-size: 15em;
+		text-align: center;
+		text-shadow: -5px 5px 0px rgba(0, 0, 0, 0.7), -10px 10px 0px rgba(0, 0, 0, 0.4), -15px 15px 0px rgba(0, 0, 0, 0.2);
+		font-family: monospace;
+		font-weight: bold;
+	}
+
+	.text h2 {
+		color: black;
+		font-size: 5em;
+		text-shadow: -5px 5px 0px rgba(0, 0, 0, 0.7);
+		text-align: center;
+		margin-top: -150px;
+		font-family: monospace;
+		font-weight: bold;
+	}
+
+	.text h3 {
+		color: white;
+		margin-left: 30px;
+		font-size: 2em;
+		text-shadow: -5px 5px 0px rgba(0, 0, 0, 0.7);
+		margin-top: -40px;
+		font-family: monospace;
+		font-weight: bold;
+	}
+
+
+	.button__to_home {
+		width: 250px;
+		height: 55px;
+		display: flex;
+		justify-content: center;
+		
+		
+		cursor: pointer;
+		border-radius: 10px;
+		padding: 15px;
+
+		text-align: center;
+		border: none;
+
+		box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.7);
+
+
+
+	}
+
+	.button__to_home:hover {
+		transform: scale(0.97);
+	}
+
+	.button__to_home span {
+		color: rgba(0, 0, 0, 0.7);
+
+		font-size: 2em;
+
+		font-family: monospace;
+		font-weight: bold;
+	}
+	.text  a{
+		width: 250px;
+		display: flex;
+		margin: auto;
+		justify-content: center;
+		text-decoration: none;
+	}
+
+</style>
+
+<body>
+	
+
+	<div class="text">
+		<h1>404</h1>
+		<h2>Uh, Ohh</h2>
+		<h3>Sorry we cant find what you are looking for 'cuz its so dark in here</h3>
+		<a href="/"><button class="button__to_home">
+				<span>GO TO HOME PAGE</span>
+			</button></a>
+	</div>
+
+
 </body>
+
+<script src="../js/Bibliothek/jquery-3.7.1.min.js"></script>
+
+
 </html>

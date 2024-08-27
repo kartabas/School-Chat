@@ -12,5 +12,9 @@ public interface UsersRepository  extends JpaRepository<UsersModel,Integer> {
 
 
     Optional<UsersModel> findFirstByLogin(String login);
+    Optional<UsersModel> findById(long id);
 
+    Optional<UsersModel> findAllById(Integer id);
+
+    Optional<UsersModel> readAllById(int i);
 }

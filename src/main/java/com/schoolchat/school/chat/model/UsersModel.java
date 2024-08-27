@@ -10,7 +10,7 @@ import java.util.Objects;
 @Table(name = "users_table")
 public class UsersModel {
 
-
+	 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id ;

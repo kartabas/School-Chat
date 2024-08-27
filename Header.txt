@@ -20,3 +20,18 @@ git push -f origin  9756c39:main
 git reset --hard 9756c39
 
 
+//Слить branch з main
+
+git checkout master
+git pull origin master
+git merge test
+git push origin master
+
+//Docker start Console from image
+docker inspect school-chat-redis-1
+
+//Start and build app
+docker-compose up --build
+
+//Download  image from Docker Hub
+docker push kartabas/myapp:tagname

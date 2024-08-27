@@ -72,7 +72,7 @@ body{
 .reg-form{
 	position: absolute;
 
-	top: 50%;
+	top: 52%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 
@@ -96,6 +96,18 @@ body{
 	padding: 5px;
 	
 }
+
+.school__name{
+    width:auto;
+    height:45px;
+    overflow:hidden;
+    text-align:center;
+    padding:5px;
+    font-size:20px;
+    font-family:"Fredoka", sans-serif;
+    font-weight:500;
+}
+
 
 .register-form {
 	margin-top: 20px;
@@ -276,7 +288,7 @@ body{
  /*--------------------------------------------*/
 .reg-submit {
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	padding: 5px;
 
 	
@@ -366,7 +378,7 @@ body{
 
 	.reg-submit {
 		
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	
 	
 		
@@ -386,18 +398,14 @@ body{
 
 }
 
-@media  screen and  (min-width: 768px) and (max-width:830px) {
-	.header-text{
-
-		margin-top: 10%;
-
+@media  screen and  (min-width: 765px) and (max-width:830px) {
+    .reg-form{
+        top:54%;
+    }
+	.reg-submit{
+	    margin-bottom:2px;
 	}
 	
 }
 
-
-@media  screen and  (min-width: 350px) and (max-width:450px) {
-
-	
-}
 
