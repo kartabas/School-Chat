@@ -183,7 +183,6 @@ public class SchoolModel extends  UserCurrentSchoolModel {
 
 
 @Override
-
 public String toString() {
     return "{" +
             "officialId='" + official_id + '\'' +
