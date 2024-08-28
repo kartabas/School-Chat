@@ -3,7 +3,7 @@ package com.schoolchat.school.chat.controller;
 
 
 
-import com.schoolchat.school.chat.Schools.SchoolModel;
+import com.schoolchat.school.chat.model.SchoolModel;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.repository.SchoolSearch;
 import com.schoolchat.school.chat.service.UsersService;

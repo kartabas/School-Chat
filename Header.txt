@@ -35,3 +35,11 @@ docker-compose up --build
 
 //Download  image from Docker Hub
 docker push kartabas/myapp:tagname
+
+
+
+//Database connect
+localhost
+postgres
+admin
+5432

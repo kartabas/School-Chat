@@ -1,6 +1,7 @@
-package com.schoolchat.school.chat.model;
+package com.schoolchat.school.chat.model.homeModels;
 
-import com.schoolchat.school.chat.Schools.SchoolModel;
+import com.schoolchat.school.chat.model.SchoolModel;
+import com.schoolchat.school.chat.model.UsersModel;
 
 import jakarta.persistence.*;
 
@@ -15,17 +16,21 @@ public class PostModel {
 	private Integer post_id ;
 
 
-	// @ManyToOne
-	@Column(name =  "school_Id")
-	private String school_Id;
+
+	
+	@Column(name = "fk_school_id")
+	private String school_id;
 
 	@ManyToOne()
 	@JoinColumn(name = "fk_user_id")
 	UsersModel usersModel;
 
-	// @ManyToOne
-	@Column(name = "fk_profile_id")
-	private Integer profile_id;
+
+
+	@ManyToOne
+	@JoinColumn(name = "fk_profile_id")
+	ProfileModel profileModel;
+	
 
 
 	private String meassage;

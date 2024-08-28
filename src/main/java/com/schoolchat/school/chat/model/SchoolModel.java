@@ -1,6 +1,5 @@
-package com.schoolchat.school.chat.Schools;
+package com.schoolchat.school.chat.model;
 
-import com.schoolchat.school.chat.model.UserCurrentSchoolModel;
 import jakarta.persistence.*;
 
 

@@ -1,7 +1,7 @@
 package com.schoolchat.school.chat.repository;
 
-import com.schoolchat.school.chat.Schools.JSON_Schools;
-import com.schoolchat.school.chat.Schools.SchoolModel;
+import com.schoolchat.school.chat.model.SchoolModel;
+import com.schoolchat.school.chat.schoolService.JSON_Schools;
 
 import org.json.simple.JSONObject;
 import org.springframework.stereotype.Repository;
