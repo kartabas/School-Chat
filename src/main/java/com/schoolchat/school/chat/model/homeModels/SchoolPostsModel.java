@@ -9,16 +9,16 @@ import jakarta.persistence.*;
 @Table(name = "school_posts_table")
 public class SchoolPostsModel {
 
-
+	@Column(name = "school_post_id")
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer school_post_id ;
+ 	Integer schoolPostId ;
 
 	
 
 
 	@Column(name = "school_id" )
-	private String school_id;
+	String schoolId;
 
 
 
@@ -26,29 +26,29 @@ public class SchoolPostsModel {
 	@JoinColumn(name = "fk_post_id")
 	PostModel postModel;
 
-	@OneToOne
+	@ManyToOne
 	@JoinColumn(name = "fk_user_id")
 	UsersModel usersModel;
 
 
 
 	public Integer getSchool_post_id() {
-		return school_post_id;
+		return schoolPostId;
 	}
-	public void setSchool_post_id(Integer school_post_id) {
-		this.school_post_id = school_post_id;
+	public void setSchool_post_id(Integer schoolPostId) {
+		this.schoolPostId = schoolPostId;
 	}
 
 
-	public PostModel getPostModel() {
-		return postModel;
+	public Integer getPostModel() {
+		return postModel.getPostId();
 	}
 	public void setPostModel(PostModel postModel) {
 		this.postModel = postModel;
 	}
 
-	public UsersModel getUsersModel() {
-		return usersModel;
+	public Integer getUsersModel() {
+		return usersModel.getId();
 
 	}
 	public void setUsersModel(UsersModel usersModel) {
@@ -57,7 +57,7 @@ public class SchoolPostsModel {
 
 
 	public String toString() {
-		return "SchoolPostsModel [school_id=" + school_post_id + ", postModel=" + postModel + ", usersModel=" + usersModel
+		return "SchoolPostsModel [school_id=" + schoolPostId + ", postModel=" + postModel + ", usersModel=" + usersModel
 				+ "]";
 	}
 

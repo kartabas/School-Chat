@@ -1,10 +1,10 @@
 package com.schoolchat.school.chat.controller;
 
 
-import com.schoolchat.school.chat.model.SchoolModel;
-import com.schoolchat.school.chat.model.UserCurrentSchoolModel;
 import com.schoolchat.school.chat.model.UsersModel;
-import com.schoolchat.school.chat.repository.SchoolSearch;
+import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
+import com.schoolchat.school.chat.model.schoolModels.UserCurrentSchoolModel;
+import com.schoolchat.school.chat.repository.schoolRepository.SchoolSearch;
 import com.schoolchat.school.chat.schoolService.JSON_Schools;
 import com.schoolchat.school.chat.service.UsersService;
 import jakarta.servlet.http.HttpServlet;

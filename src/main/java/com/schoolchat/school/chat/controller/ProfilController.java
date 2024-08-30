@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.schoolchat.school.chat.model.SchoolModel;
 import com.schoolchat.school.chat.model.UsersModel;
-import com.schoolchat.school.chat.repository.SchoolSearch;
+import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
+import com.schoolchat.school.chat.repository.schoolRepository.SchoolSearch;
 import com.schoolchat.school.chat.service.UsersService;
 
 import jakarta.servlet.http.HttpServlet;

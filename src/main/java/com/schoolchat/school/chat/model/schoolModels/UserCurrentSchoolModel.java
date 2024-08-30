@@ -1,4 +1,4 @@
-package com.schoolchat.school.chat.model;
+package com.schoolchat.school.chat.model.schoolModels;
 
 
 import com.fasterxml.jackson.databind.JsonNode;

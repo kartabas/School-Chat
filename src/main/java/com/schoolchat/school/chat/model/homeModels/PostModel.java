@@ -1,7 +1,7 @@
 package com.schoolchat.school.chat.model.homeModels;
 
-import com.schoolchat.school.chat.model.SchoolModel;
 import com.schoolchat.school.chat.model.UsersModel;
+import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 
 import jakarta.persistence.*;
 
@@ -11,66 +11,60 @@ import jakarta.persistence.*;
 public class PostModel {
 
 
+	@Column(name = "post_id")
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer post_id ;
+	Integer postId;
 
 
 
 	
 	@Column(name = "fk_school_id")
-	private String school_id;
+	String schoolId;
 
-	@ManyToOne()
+	@ManyToOne
 	@JoinColumn(name = "fk_user_id")
 	UsersModel usersModel;
 
 
 
-	@ManyToOne
-	@JoinColumn(name = "fk_profile_id")
-	ProfileModel profileModel;
+	// @ManyToOne
+	// @JoinColumn(name = "fk_profile_id")
+	// ProfileModel profileModel;
+	@Column(name = "meassage")
+	String meassage;
 	
-
-
-	private String meassage;
-	
-	private String sendTime;
-
+	@Column(name = "send_time")
+	String sendTime;
 
 	@Column(name = "post_images")
-	@Lob
-	@Basic(fetch = FetchType.LAZY)
-	private byte[] postImage;
+	String postImage ;
 
 	
 
 
-	public PostModel() {
-		
+
+
+	public Integer getPostId() {
+		return postId;
+	}
+	public void setPostId(Integer postId) {
+		this.postId = postId;
 	}
 
-
-	public Integer getPost_id() {
-		return post_id;
+	public String getSchoolId() {
+		return schoolId;
 	}
-	public void setPost_id(Integer post_id) {
-		this.post_id = post_id;
+	public void setSchoolId(String schoolId) {
+		this.schoolId = schoolId;
+	}
+	public Integer getUsersModel() {
+		return usersModel.getId();
+	}
+	public void setUsersModel(UsersModel usersModel) {
+		this.usersModel = usersModel;
 	}
 
-
-	// public UsersModel getUsersModel() {
-	// 	return usersModel;
-	// }
-	// public void setUsersModel(UsersModel usersModel) {
-	// 	this.usersModel = usersModel;
-	//}
-	// public SchoolModel getSchoolModel() {
-	// 	return schoolModel;
-	// }
-	// public void setSchoolModel(SchoolModel schoolModel) {
-	// 	this.schoolModel = schoolModel;
-	// }
 	public String getMeassage() {
 		return meassage;
 	}
@@ -85,21 +79,18 @@ public class PostModel {
 	}		
 
 
-	public byte[] getPostImage() {
+	public String getPostImage() {
 		return postImage;
 	}
-	public void setPostImage(byte[] postImage) {
+	public void setPostImage(String postImage) {
 		this.postImage = postImage;
 	}
 
-	// public String toString() {
-	// 	return "PostModel [post_id=" + post_id + ", schoolModel=" + schoolModel + ", usersModel=" + usersModel
-	// 			+ ", meassage=" + meassage + ", sendTime=" + sendTime + ", postModel=" + postModel + "]";
-	// }
+
 
 	@Override
 		public String toString() {
-		return "PostModel [post_id=" + post_id + ", schoolModel=" + ", usersModel=" 
+		return "PostModel [postId=" + postId + ", schoolModel=" + ", usersModel=" 
 				+ ", meassage=" + meassage + ", sendTime=" + sendTime + ", postModel="  + "]";
 	}
 	
