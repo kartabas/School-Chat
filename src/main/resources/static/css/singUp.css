@@ -27,6 +27,8 @@ body{
 
 	margin-bottom: 5%;
 	padding: 5px;
+	position: relative;
+	z-index: 100;
 
 }
 
@@ -99,7 +101,8 @@ body{
 
 .school__name{
     width:auto;
-    height:45px;
+    min-height:45px;
+	 max-height:auto;
     overflow:hidden;
     text-align:center;
     padding:5px;

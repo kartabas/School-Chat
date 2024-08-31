@@ -71,12 +71,12 @@ public class ProfilController extends HttpServlet {
 	}
 
 
-	@GetMapping("/profile/{id}")
-	public @ResponseBody UsersModel getProfilePageById(@PathVariable Integer id, Model model, HttpServletRequest request, HttpServletResponse response) {
-		UsersModel usersModel = usersService.getUser(id);
-		return usersModel;
+	// @GetMapping("/profile/{id}")
+	// public @ResponseBody UsersModel getProfilePageById(@PathVariable Integer id, Model model, HttpServletRequest request, HttpServletResponse response) {
+	// 	UsersModel usersModel = usersService.getUser(id);
+	// 	return usersModel;
 	
-	}
+	// }
 
 
 

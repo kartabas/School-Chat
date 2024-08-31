@@ -10,7 +10,7 @@ import com.schoolchat.school.chat.model.homeModels.ProfileModel;
 import com.schoolchat.school.chat.service.homeService.ProfileService;
 
 @RestController
-@RequestMapping("/info")
+@RequestMapping("/profile")
 public class ProfileInfoController {
 
 	@Autowired

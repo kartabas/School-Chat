@@ -27,4 +27,6 @@ public class SchoolPostController {
 		return schoolPost;
 	}
 
+	
+
 }

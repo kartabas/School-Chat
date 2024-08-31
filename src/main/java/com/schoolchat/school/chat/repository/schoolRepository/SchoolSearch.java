@@ -112,7 +112,7 @@ public class SchoolSearch {
 					newSchool.setState(state);
 					newSchool.setPhone(phone);
 					newSchool.setFax(fax);
-					System.out.println(name);
+					// System.out.println(name);
 					schoolList.add(newSchool);
 				}
 			}

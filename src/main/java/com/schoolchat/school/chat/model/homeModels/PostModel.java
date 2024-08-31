@@ -93,5 +93,6 @@ public class PostModel {
 		return "PostModel [postId=" + postId + ", schoolModel=" + ", usersModel=" 
 				+ ", meassage=" + meassage + ", sendTime=" + sendTime + ", postModel="  + "]";
 	}
+
 	
 }
