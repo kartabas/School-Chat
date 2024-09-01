@@ -1,6 +1,10 @@
 package com.schoolchat.school.chat.service.homeService;
 
+import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
@@ -52,6 +56,18 @@ public class PostService {
 			System.err.println("Error: " + e.getMessage());
 			return null;
 		}
+	}
+
+
+
+	public List<PostModel> getPostUserList(UsersModel userId) {
+		return  postRepository.findByUsersModel(userId);
+		
+	}
+
+
+	public List<PostModel> getAllPosts() {
+		return (List<PostModel>) postRepository.findAll();
 	}
 
 }
