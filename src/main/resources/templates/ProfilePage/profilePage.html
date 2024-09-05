@@ -167,7 +167,7 @@
 				<li>
 					<a href="#" class="nav-link link-body-emphasis">
 						<svg class=" text-gray-800 dark:text-white" width="30px" height="30px" aria-hidden="true"
-							xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24">
+							xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
 							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
 								d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z" />
 						</svg>
@@ -182,9 +182,9 @@
 			<div class="dropdown">
 				<a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle "
 					data-bs-toggle="dropdown" aria-expanded="false">
-					<img src="../../../fotos/profile/userIcon.png" alt="" width="32" height="32"
-						class="rounded-circle me-2">
-					<strong class="sidebar__text" th:text="${userLogin.login}" style="overflow:hidden;">mdn</strong>
+					<img src="../../../fotos/profile/userIcon.png" alt="" width="32" height="32" class="rounded-circle me-2">
+					<strong class="sidebar__text sidebar__text__nickname" th:text="${userLogin.login}"
+						style="overflow:hidden;">mdn</strong>
 				</a>
 				<ul class="dropdown-menu text-small shadow">
 					<li><a class="dropdown-item" href="/settings">Settings</a></li>
@@ -192,7 +192,7 @@
 					<li>
 						<hr class="dropdown-divider">
 					</li>
-					<li><a class="dropdown-item" href="#">Sign out</a></li>
+					<li><a class="dropdown-item" href="/">Sign out</a></li>
 				</ul>
 			</div>
 		</div>
@@ -241,6 +241,7 @@
 
 				<div class="posts__container">
 
+
 					<div class="post__box">
 
 						<div class="post__header__container">
@@ -269,9 +270,6 @@
 
 									</div>
 								</div>
-
-
-
 							</div>
 
 						</div><!--post__header__container-->
@@ -298,7 +296,7 @@
 											alt=""> 123</button>
 								</li>
 								<li class="nav-item me-4">
-									<button class="defaultLike nav-link " href="#" >
+									<button class="defaultLike nav-link " href="#">
 										<img src="../../../fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg">
 
 										789</button>
@@ -372,7 +370,7 @@
 											alt=""> 123</button>
 								</li>
 								<li class="nav-item me-4">
-									<button class=" defaultLike nav-link " href="#" >
+									<button class=" defaultLike nav-link " href="#">
 										<img src="../../../fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg">
 
 										789</button>
@@ -472,9 +470,19 @@
 
 
 	<script src="../../../js/Bibliothek/jquery-3.7.1.min.js"></script>
+
+	<script th:inline="javascript" >
+		let userNickname =/*[[${userLogin.getLogin()}]]*/ {};
+
+	</script>
+	<script src="../../../js/ProfilePage/profileDataUser.js"></script>
+
 	<script src="../../../js/ProfilePage/profile.js"></script>
+	<script src="../../../js/ProfilePage/profilePosts.js"></script>
 
 	<!--------------------Sidedar------------------------------------------------>
+
+
 	<script>
 
 		(() => {

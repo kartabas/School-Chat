@@ -54,7 +54,7 @@ $(document).ready(function () {
 			  </div><!-- under__posts__elements -->
 		</div><!-- post__box -->
 		`;
-
+		
 		$(".main__posts__container").prepend(newPostBlock);
 
 	}
@@ -88,6 +88,7 @@ $(document).ready(function () {
 				reader.onload = function (e) {
 					imgUrl = e.target.result
 					createPostBlock(meassageArray, imgUrl);
+				
 				}
 
 				reader.readAsDataURL(file)
@@ -95,7 +96,7 @@ $(document).ready(function () {
 			}
 
 			console.log("Send meassageArray:" + meassageArray);
-
+			
 			$(".send_post_meassage textarea").css("border", "2px solid #ddd");
 
 
