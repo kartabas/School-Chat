@@ -1,7 +1,6 @@
+const postsApiUrl = 'http://localhost:8080/home/allpostsperschool';
+const usersApiUrl = 'http://localhost:8080/home/alluserposts/';
 
-// console.log("userNickname2: " + userNickname);
-const postsApiUrl = 'http://localhost:8080/profile/usersposts';
-const usersApiUrl = 'http://localhost:8080/profile/userinfo/';
 
 async function getUserNickname(userId) {
 	try {
@@ -25,7 +24,6 @@ $(document).ready(function () {
 		let postImage = post.postImage;
 		let sendTime = post.sendTime;
 		let userNickname = await getUserNickname(post.usersModel);
-		
 
 		let newPostBlock = `
 		<div class="post__box">
@@ -36,21 +34,17 @@ $(document).ready(function () {
 					 <div class="post__nickname">
 							 <h6  >${userNickname}</h6>
 					 </div>
-					 	<div class="post__ellipses  ">
-
-							<div class="dropdown open">
-								<button class="triggerIdButton btn btn-sm  " type="button" id="triggerId"
-									data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-									style="border: none;  ">
-									<img src="../../../fotos/profile/ellipsis.png" alt="">
-								</button>
-								<div class="dropdown-menu" aria-labelledby="triggerId">
-									<a class="dropdown-item" href="#">Delete</a>
-									<a class="dropdown-item" href="#">Edit</a>
-									<div class="dropdown-divider"></div>
-								</div>
-							</div>
-						</div>
+					 <div class="post__ellipses">
+							 <div class="dropdown open">
+									<button class="triggerIdButton btn btn-sm" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border: none;">
+										  <img src="../../fotos/profile/ellipsis.png" alt="">
+									</button>
+									<div class="dropdown-menu" aria-labelledby="triggerId">
+										  <a class="dropdown-item" href="#">Report</a>
+										  <div class="dropdown-divider"></div>
+									</div>
+							 </div>
+					 </div>
 			  </div><!-- post__header__container -->
 	
 			  <div class="post__text">
@@ -80,7 +74,7 @@ $(document).ready(function () {
 			  </div><!-- under__posts__elements -->
 		</div><!-- post__box -->
 		`;
-		$(".posts__container").prepend(newPostBlock);
+		$(".main__posts__container").prepend(newPostBlock);
 
 	}
 
@@ -91,8 +85,8 @@ $(document).ready(function () {
 		.then(data => {
 			console.log(data);
 
-			
-			
+
+
 			data.forEach(post => {
 				createPostBlock(post)
 				console.log(post);

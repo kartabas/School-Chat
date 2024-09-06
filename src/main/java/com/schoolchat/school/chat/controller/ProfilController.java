@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -93,6 +94,14 @@ public class ProfilController extends HttpServlet {
 			return postService.getPostUserList(usersModel);
 		}
 		return null;
+	}
+
+	@GetMapping("/userinfo/{id}")
+	@ResponseBody
+	public UsersModel getAllUserPosts(@PathVariable Integer id) {
+
+		return (UsersModel) usersService.getUser(id);
+
 	}
 
 }

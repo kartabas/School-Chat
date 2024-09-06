@@ -3,6 +3,10 @@ package com.schoolchat.school.chat.service.homeService;
 import java.util.List;
 import java.util.Optional;
 
+import javax.sql.rowset.serial.SerialBlob;
+
+import com.mysql.cj.jdbc.Blob;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -43,7 +47,7 @@ public class PostService {
 			postModel.setSchoolId(schoolId);
 			postModel.setUsersModel(userId);
 			postModel.setMeassage(message); 
-			postModel.setTime(sendTime);
+			postModel.setSendTime(sendTime);
 			postModel.setPostImage(postImage);
 
 			

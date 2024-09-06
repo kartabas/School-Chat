@@ -2,12 +2,15 @@ package com.schoolchat.school.chat.controller.restController;
 
 import java.util.List;
 
+import javax.sql.rowset.serial.SerialBlob;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.mysql.cj.jdbc.Blob;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.service.homeService.PostService;
@@ -37,7 +40,6 @@ public class PostController {
 	// return ResponseEntity.ok(posts);
 	// }
 
-
 	// Save post in database for user
 	@GetMapping
 	public String getUserbyId(HttpServletRequest request, HttpServletResponse response) {
@@ -46,7 +48,7 @@ public class PostController {
 		if (session != null) {
 			UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
 
-			PostModel postModel= postService.saveUserPost(usersModel.getSchoolId(), usersModel, "Img", "22:38", "LOL");
+			PostModel postModel = postService.saveUserPost(usersModel.getSchoolId(), usersModel, "Img", "22:38", "LOL");
 
 			schoolPostService.savePostInUserSchool(usersModel.getSchoolId(), postModel, usersModel);
 			System.out.println("Post save in database!!!");
@@ -57,14 +59,12 @@ public class PostController {
 		}
 	}
 
-
 	// @GetMapping("/{id}")
 	// public PostModel getUserbyId(@PathVariable Integer id) {
 	// PostModel post = postService.getPost(id);
 	// System.out.println(post);
 	// return post;
 	// }
-
 
 	// Show all post of user
 	@GetMapping("/usersposts")
@@ -78,8 +78,6 @@ public class PostController {
 		return null;
 	}
 
-
-
 	@GetMapping("/allposts")
 	@ResponseBody
 	public List<PostModel> getAllPosts() {
@@ -87,8 +85,4 @@ public class PostController {
 		return (List<PostModel>) postService.getAllPosts();
 	}
 
-
-	
-
-	
 }

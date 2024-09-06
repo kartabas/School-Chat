@@ -3,6 +3,7 @@ package com.schoolchat.school.chat.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -107,7 +108,7 @@ public class HomeController extends HttpServlet {
 	// 	return schoolPostService.getAllSchoolPosts(usersModel.getSchoolId());
 	// }
 
-	@GetMapping("/allposts")
+	@GetMapping("/allpostsperschool")
 	@ResponseBody	
 	public List<PostModel> getAllPostsPerSchool(HttpServletRequest request, HttpServletResponse response) {
 
@@ -116,6 +117,13 @@ public class HomeController extends HttpServlet {
 		return postService.getAllSchoolPosts(usersModel.getSchoolId());
 	}
 
+	@GetMapping("/alluserposts/{id}")
+	@ResponseBody
+	public UsersModel getAllUserPosts( @PathVariable Integer id) {
+
+		return (UsersModel) usersService.getUser(id);
+
+	}
 
 
 	@GetMapping("/error")

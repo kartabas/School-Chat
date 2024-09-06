@@ -25,4 +25,6 @@ public interface PostRepository extends JpaRepository<PostModel, Integer> {
 
 	Optional<PostModel> findByPostIdAndUsersModel(Integer postId, UsersModel usersModel);
 
+	
+
 }
