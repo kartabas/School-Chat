@@ -14,10 +14,12 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
+import com.schoolchat.school.chat.model.homeModels.SchoolPostsModel;
 import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.repository.schoolRepository.SchoolSearch;
 import com.schoolchat.school.chat.service.UsersService;
 import com.schoolchat.school.chat.service.homeService.PostService;
+import com.schoolchat.school.chat.service.homeService.SchoolPostService;
 
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -36,6 +38,9 @@ public class HomeController extends HttpServlet {
 
 	@Autowired
 	private final PostService postService;
+
+	@Autowired
+	private SchoolPostService schoolPostService;
 
 	private Integer count = 0;
 
@@ -93,6 +98,23 @@ public class HomeController extends HttpServlet {
 		return "redirect:/home";
 	}
 
+	// @GetMapping("/allposts")
+	// @ResponseBody	
+	// public List<SchoolPostsModel> getAllPostsPerSchool(HttpServletRequest request, HttpServletResponse response) {
+
+	// 	HttpSession session = request.getSession();
+	// 	UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
+	// 	return schoolPostService.getAllSchoolPosts(usersModel.getSchoolId());
+	// }
+
+	@GetMapping("/allposts")
+	@ResponseBody	
+	public List<PostModel> getAllPostsPerSchool(HttpServletRequest request, HttpServletResponse response) {
+
+		HttpSession session = request.getSession();
+		UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
+		return postService.getAllSchoolPosts(usersModel.getSchoolId());
+	}
 
 
 

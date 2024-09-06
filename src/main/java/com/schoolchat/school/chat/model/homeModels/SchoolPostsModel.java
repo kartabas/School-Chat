@@ -22,6 +22,9 @@ public class SchoolPostsModel {
 
 
 
+
+
+
 	@ManyToOne
 	@JoinColumn(name = "fk_post_id")
 	PostModel postModel;
@@ -31,13 +34,21 @@ public class SchoolPostsModel {
 	UsersModel usersModel;
 
 
+	
 
-	public Integer getSchool_post_id() {
+	public Integer getSchoolPostId() {
 		return schoolPostId;
 	}
-	public void setSchool_post_id(Integer schoolPostId) {
+	public void setSchoolPostId(Integer schoolPostId) {
 		this.schoolPostId = schoolPostId;
 	}
+	public String getSchoolId() {
+		return schoolId;
+	}
+	public void setSchoolId(String schoolId) {
+		this.schoolId = schoolId;
+	}
+
 
 
 	public Integer getPostModel() {

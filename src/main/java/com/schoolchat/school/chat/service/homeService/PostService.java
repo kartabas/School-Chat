@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
+import com.schoolchat.school.chat.model.homeModels.SchoolPostsModel;
 import com.schoolchat.school.chat.repository.homeRepository.PostRepository;
 
 @Service
@@ -58,6 +59,13 @@ public class PostService {
 		}
 	}
 
+	public PostModel getLastPostModel(UsersModel userId) {
+
+		return (PostModel) postRepository.findByUsersModel(userId);
+	}
+
+
+
 
 
 	public List<PostModel> getPostUserList(UsersModel userId) {
@@ -69,5 +77,10 @@ public class PostService {
 	public List<PostModel> getAllPosts() {
 		return (List<PostModel>) postRepository.findAll();
 	}
+
+		public List<PostModel> getAllSchoolPosts(String schoolId) {
+		return postRepository.findBySchoolId(schoolId);
+	}
+
 
 }

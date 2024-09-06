@@ -1,6 +1,7 @@
 package com.schoolchat.school.chat.repository.homeRepository;
 
 import java.lang.StackWalker.Option;
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -13,4 +14,7 @@ public interface SchoolPostRepository extends JpaRepository<SchoolPostsModel, In
 
 
 	Optional<SchoolPostsModel> findBySchoolPostId(Integer schoolPostId);
+
+	List<SchoolPostsModel> findBySchoolId(String schoolId);
+	
 }
