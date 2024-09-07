@@ -119,9 +119,9 @@ public class HomeController extends HttpServlet {
 
 	@GetMapping("/alluserposts/{id}")
 	@ResponseBody
-	public UsersModel getAllUserPosts( @PathVariable Integer id) {
-
-		return (UsersModel) usersService.getUser(id);
+	public String getAllUserPosts( @PathVariable Integer id) {
+		UsersModel usersModel = usersService.getUser(id);
+		return usersModel.getLogin();
 
 	}
 

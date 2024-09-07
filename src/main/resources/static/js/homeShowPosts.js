@@ -5,9 +5,9 @@ const usersApiUrl = 'http://localhost:8080/home/alluserposts/';
 async function getUserNickname(userId) {
 	try {
 		const response = await fetch(usersApiUrl + userId);
-		const dataUser = await response.json();
-		console.log(dataUser);
-		return dataUser.login;
+		const dataUserLogin = await response.text();
+		console.log(dataUserLogin);
+		return dataUserLogin;
 	} catch (error) {
 		console.error('Error fetching data:', error);
 		// Handle the error appropriately, maybe return a default value or throw an error

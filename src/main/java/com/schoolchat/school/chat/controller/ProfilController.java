@@ -98,9 +98,10 @@ public class ProfilController extends HttpServlet {
 
 	@GetMapping("/userinfo/{id}")
 	@ResponseBody
-	public UsersModel getAllUserPosts(@PathVariable Integer id) {
+	public String getAllUserPosts(@PathVariable Integer id) {
 
-		return (UsersModel) usersService.getUser(id);
+		UsersModel usersModel = usersService.getUser(id);
+		return usersModel.getLogin();
 
 	}
 
