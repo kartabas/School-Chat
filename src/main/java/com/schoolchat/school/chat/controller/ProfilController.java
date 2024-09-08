@@ -8,15 +8,19 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
+import com.schoolchat.school.chat.model.homeModels.ProfileModel;
 import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.repository.schoolRepository.SchoolSearch;
 import com.schoolchat.school.chat.service.UsersService;
 import com.schoolchat.school.chat.service.homeService.PostService;
+import com.schoolchat.school.chat.service.homeService.ProfileService;
 
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -34,6 +38,9 @@ public class ProfilController extends HttpServlet {
 	@Autowired
 	private final PostService postService;
 
+	@Autowired
+	private ProfileService profileService;
+
 	public ProfilController(UsersService usersService) {
 		this.usersService = usersService;
 		this.postService = new PostService();
@@ -49,8 +56,11 @@ public class ProfilController extends HttpServlet {
 				usersModel = (UsersModel) session.getAttribute("userLogin");
 
 			}
-
+			System.out.println();
+			System.out.println("---------------ProfileController.java------------------------------");
 			System.out.println(usersModel);
+			System.out.println("-------------------------------------------------------------------");
+			System.out.println();
 
 			SchoolSearch schoolSearch = new SchoolSearch();
 			String school = schoolSearch.getAllSchoolsByOfficialId(usersModel.getSchoolId()).toString();
@@ -102,6 +112,82 @@ public class ProfilController extends HttpServlet {
 
 		UsersModel usersModel = usersService.getUser(id);
 		return usersModel.getLogin();
+
+	}
+
+	@GetMapping("/profileinfoavatar")
+	@ResponseBody
+	public ProfileModel getProfileInfoAvatar(HttpServletRequest request, HttpServletResponse response) {
+		HttpSession session = request.getSession();
+		if (session != null) {
+			UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
+			return (ProfileModel) profileService.getProfileByUserIModel(usersModel);
+		}
+		return null;
+	}
+
+	@PutMapping("/updateprofile")
+	public String saveProfileData(@RequestBody ProfileModel profileModelData, HttpServletRequest request,
+			HttpServletResponse response) {
+		HttpSession session = request.getSession();
+		if (session != null) {
+			UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
+
+			ProfileModel profileModel = profileService.getUserModelByIdCheck(profileModelData);
+			// if (profileModelData.getProfileBackground() == null || profileModelData.getProfileBackground().length() == 0) {
+			// 	ProfileModel profileModelBackground = (ProfileModel) session.getAttribute("profileModel");
+			// 	profileModel.setProfileBackground(profileModelBackground.getProfileBackground());
+
+			// }
+
+			// if (profileModelData.getProfileImage() == null || profileModelData.getProfileImage().length() == 0) {
+			// 	ProfileModel profileModelImage = (ProfileModel) session.getAttribute("profileModel");
+			// 	profileModel.setProfileImage(profileModelImage.getProfileImage());
+
+			// }
+
+			// if (profileModelData.getProfileBiography() == null || profileModelData.getProfileBiography().length() == 0) {
+			// 	ProfileModel profileModelBiography = (ProfileModel) session.getAttribute("profileModel");
+			// 	profileModel.setProfileBiography(profileModelBiography.getProfileBiography());
+			// }
+
+			// if (profileModelData != null) {
+				profileModel.setUsersModel(usersModel);
+				profileModel.setProfileBiography(profileModelData.getProfileBiography());
+				profileModel.setProfileBackground(profileModelData.getProfileBackground());
+				profileModel.setProfileImage(profileModelData.getProfileImage());
+			// }
+
+			profileService.updateProfileModel(profileModel);
+
+			// ProfileModel profileModel = new ProfileModel();
+			// profileModel.setUsersModel(usersModel);
+			// profileModel.setProfileBiography(profileModelData.getProfileBiography());
+			// profileModel.setProfileBackground(profileModelData.getProfileBackground());
+			// profileModel.setProfileImage(profileModelData.getProfileImage());
+
+			// profileService.savProfileModel(profileModel);
+
+			session.setAttribute("profileModel", profileModel);
+			return "redirect:/profile";
+		}
+		return "redirect:/profile";
+
+	}
+
+	@GetMapping("/{id}")
+	@ResponseBody
+	public ProfileModel getUserProfileData(@PathVariable Integer id, HttpServletRequest request,
+			HttpServletResponse response) {
+		HttpSession session = request.getSession();
+		if (session != null) {
+			UsersModel usersModel = usersService.getUser(id);
+			ProfileModel profileModel = profileService.getProfileByUserIModel(usersModel);
+
+			return profileModel;
+		} else {
+			return null;
+		}
 
 	}
 

@@ -1,21 +1,21 @@
 package com.schoolchat.school.chat.controller;
 
-
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
-import com.schoolchat.school.chat.model.homeModels.SchoolPostsModel;
 import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.repository.schoolRepository.SchoolSearch;
 import com.schoolchat.school.chat.service.UsersService;
@@ -31,8 +31,6 @@ import jakarta.servlet.http.HttpSession;
 @RequestMapping("/home")
 public class HomeController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
-
 
 	@Autowired
 	private final UsersService usersService;
@@ -100,16 +98,17 @@ public class HomeController extends HttpServlet {
 	}
 
 	// @GetMapping("/allposts")
-	// @ResponseBody	
-	// public List<SchoolPostsModel> getAllPostsPerSchool(HttpServletRequest request, HttpServletResponse response) {
+	// @ResponseBody
+	// public List<SchoolPostsModel> getAllPostsPerSchool(HttpServletRequest
+	// request, HttpServletResponse response) {
 
-	// 	HttpSession session = request.getSession();
-	// 	UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
-	// 	return schoolPostService.getAllSchoolPosts(usersModel.getSchoolId());
+	// HttpSession session = request.getSession();
+	// UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
+	// return schoolPostService.getAllSchoolPosts(usersModel.getSchoolId());
 	// }
 
 	@GetMapping("/allpostsperschool")
-	@ResponseBody	
+	@ResponseBody
 	public List<PostModel> getAllPostsPerSchool(HttpServletRequest request, HttpServletResponse response) {
 
 		HttpSession session = request.getSession();
@@ -119,12 +118,31 @@ public class HomeController extends HttpServlet {
 
 	@GetMapping("/alluserposts/{id}")
 	@ResponseBody
-	public String getAllUserPosts( @PathVariable Integer id) {
+	public String getAllUserPosts(@PathVariable Integer id) {
 		UsersModel usersModel = usersService.getUser(id);
 		return usersModel.getLogin();
 
 	}
 
+	@PostMapping("/savepost")
+	public String savePostMain(@RequestBody PostModel sendPostModel, HttpServletRequest request,
+			HttpServletResponse response) {
+		System.out.println("savePostMain: " + sendPostModel.getMeassage());
+		HttpSession session = request.getSession();
+		if (session != null) {
+			UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
+
+			PostModel postModel = postService.saveUserPost(usersModel.getSchoolId(), usersModel,
+					sendPostModel.getMeassage(), sendPostModel.getSendTime(), sendPostModel.getPostImage());
+
+			schoolPostService.savePostInUserSchool(usersModel.getSchoolId(), postModel, usersModel);
+			System.out.println("Post save in database!!!");
+
+			return "redirect:/home";
+		} else {
+			return "error_page";
+		}
+	}
 
 	@GetMapping("/error")
 	public String getErrorPage() {

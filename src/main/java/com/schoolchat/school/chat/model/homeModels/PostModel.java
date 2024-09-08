@@ -41,7 +41,7 @@ public class PostModel {
 	String sendTime;
 
 
-	@Column(name = "post_image")
+	@Column(name = "post_image", columnDefinition = "TEXT")
 	String  postImage;
 
 

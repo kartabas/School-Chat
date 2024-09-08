@@ -68,13 +68,13 @@ $(document).ready(function () {
 			  <div class="under__posts__elements">
 					 <ul class="nav justify-content-let">
 							 <li class="nav-item me-4">
-									<button class="nav-link active" href="#"><img src="../../fotos/profile/Comment.png" alt=""> 0</button>
+									<button class="nav-link active" href="#"><img src="../../../fotos/profile/Comment.png" alt=""> 0</button>
 							 </li>
 							 <li class="nav-item me-4">
-									<button class="defaultLike nav-link" href="#"><img src="../../fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg"> 0</button>
+									<button class="defaultLike nav-link" href="#"><img src="../../../fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg"> 0</button>
 							 </li>
 							 <li class="nav-item me-6">
-									<button class="nav-link" href="#"><img src="../../fotos/profile/Share.png" alt=""></button>
+									<button class="nav-link" href="#"><img src="../../../fotos/profile/Share.png" alt=""></button>
 							 </li>
 					 </ul>
 			  </div><!-- under__posts__elements -->

@@ -98,6 +98,7 @@ hr{
 
 
 .main__profile_container{
+	
 	height: auto;
 }
 
@@ -115,11 +116,111 @@ hr{
 	border-radius: 50%;
 }
 
+.main__edit__profile_container{
+	width: 100%;
+	height: auto;
 
-.main__edit__profile{
+	
+}
+
+.main__edit__profile_button{
+	z-index: 100;
+	
 	position: relative;
 	float: right;
+	cursor: pointer;
 }
+
+#editProfile{
+	
+	display: block;
+
+	
+}
+
+
+.update__profile__panel{
+	width: 1200px;
+	height: 700px;
+	position: absolute;
+
+	padding: 5px;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: red;
+	z-index: 10000;
+	overflow-y: scroll;
+	display: none;
+}
+
+
+
+.update__profile__close {
+	display: flex;
+	justify-content: end;
+	cursor: pointer;
+
+}
+.update__profile__close img{
+	width: 30px;
+}
+
+
+
+.update__profile__background  {
+	width: 100%;
+	min-height: 50px;
+	height: auto;
+	display: block;
+	background-color: #0084b4;
+}
+
+.show_update__profile__background{
+	position: relative;
+	z-index: 100;
+	top: -50px;
+	left:45%;
+}
+
+.show_update__profile__background img{
+	width: 400px;
+	height: auto;
+}
+
+.update__profile__avatar {
+	width: 100%;
+	min-height: 50px;
+	height: auto;
+	display: block;
+	background-color: purple;
+}
+.show_update__profile__avatar {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.show_update__profile__avatar img{
+	width: 150px;
+	height: 150px;
+
+	border-radius: 45%;
+}
+
+.update__profile__bio {
+	
+	height: auto;
+	display: block;
+}
+
+
+.update__profile__send{
+
+}
+
+/*------------------------Avatar------------------------------*/
 
 
 .posts__container{

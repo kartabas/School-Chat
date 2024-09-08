@@ -21,6 +21,9 @@
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
 
+	<script src="../../../js/Bibliothek/jquery-3.7.1.min.js"></script>
+	<script src="../../../js/ProfilePage/profile.js"></script>
+
 	<style>
 		/*--------------------Sidedar---------------------*/
 		main {
@@ -52,12 +55,17 @@
 
 		}
 
-		.main__background_container {
-			width: 100%;
-			height: 30%;
-			background-image: url(../../../fotos/6SLzBEY.webp);
-			background-repeat: no-repeat;
+		.main__background_container img {
+
+
+
 			background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+		}
+
+		.main__background_container img {
+			width: 100%;
+			object-fit: cover;
+			height: 300px;
 		}
 
 		.main__profile_container {
@@ -198,6 +206,40 @@
 		</div>
 
 		<!--------------------Sidedar------------------------------------------------>
+		<div class="update__profile__panel">
+			<div class="update__profile__close">
+				<img src="../../../fotos/profile/close.png" alt="Close">
+			</div>
+			<div class="update__profile__background">
+				<div class="update__profile__background_title">Update background image</div>
+				<button class="update__profile__background_btn btn btn-primary">Choose new background image</button>
+				<div class="show_update__profile__background"></div>
+
+				<input type="file" id="update__profile__background_img_fileInput"
+					name="update__profile__background_img_fileInput" multiple accept="image/png, image/jpeg"
+					style="display:none">
+			</div>
+
+			<div class="update__profile__avatar">
+				<div class="update__profile__avatar_title">Update avatar image</div>
+				<button class="update__profile__avatar_btn btn btn-primary">Choose new avatar image</button>
+				<div class="show_update__profile__avatar"></div>
+				<input type="file" id="update__profile__avatar_img_fileInput" name="update__profile__avatar_img_fileInput"
+					multiple accept="image/png, image/jpeg" style="display:none">
+			</div>
+			<div class="update__profile__bio">
+				<div class="update__profile__bio_title">Update your bio </div>
+				<textarea name="update__profile__bio_img" id="update__profile__bio_img_fileInput" cols="100" rows="10"
+					placeholder="Write about you here...."
+					style="color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;" autofocus
+					maxlength="1000"></textarea>
+
+			</div>
+
+			<div class="update__profile__send">
+				<button class="update__profile__send_btn btn btn-primary">Update profile data</button>
+			</div>
+		</div>
 
 		<!-------------------- Main ------------------------------------------------>
 		<div class="maim__container p-3">
@@ -212,14 +254,20 @@
 
 
 			<div class="main__background_container">
-
+				<img src="../../../fotos/profile/web-application.png" alt="">
 			</div>
 
 			<div class="main__profile_container container">
-				<div class="main__edit__profile">
-					<a name="editProfile" id="editProfile" class="btn btn-primary btn-lg" href="/profile/edit"
-						role="button">Edit profile</a>
-				</div><!--main__edit__profile-->
+				<div class="main__edit__profile_container">
+
+					<div class="main__edit__profile_button ">
+						<span id="editProfile" class="btn btn-primary btn-lg  ">Edit profile</span>
+					</div><!--main__edit__profile-->
+
+				</div><!--main__edit__profile_container-->
+
+
+
 
 
 				<div class="main_profile_avatar">
@@ -235,160 +283,13 @@
 						<h5 th:text="${userCurrentSchoolModel.name}">School name</h5>
 					</div>
 
+					<div class="profile__content__bio">
+						
+					</div>
+
 				</div><!--main__profile__content-->
 
-
-
 				<div class="posts__container">
-
-
-					<div class="post__box">
-
-						<div class="post__header__container">
-
-							<div class="post__avatar">
-								<img src="../../../fotos/profile/userIcon.png"
-									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
-							</div>
-
-							<div class="post__nickname">
-								<h6 th:text="${userLogin.login}">mdn</h6>
-							</div>
-
-							<div class="post__ellipses  ">
-
-								<div class="dropdown open">
-									<button class="triggerIdButton btn btn-sm  " type="button" id="triggerId"
-										data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-										style="border: none;  ">
-										<img src="../../../fotos/profile/ellipsis.png" alt="">
-									</button>
-									<div class="dropdown-menu" aria-labelledby="triggerId">
-										<a class="dropdown-item" href="#">Delete</a>
-										<a class="dropdown-item" href="#">Edit</a>
-										<div class="dropdown-divider"></div>
-
-									</div>
-								</div>
-							</div>
-
-						</div><!--post__header__container-->
-
-
-						<div class="post__text">
-							<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe porro expedita minima
-								eligendi harum perferendis culpa, quibusdam molestias iste natus tempora tenetur blanditiis
-								aliquid eaque omnis impedit adipisci animi.</h5>
-						</div>
-						<div class="post__fotos">
-							<img src="../../../fotos/profile/web-application.png"
-								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-								alt="">
-						</div>
-						<div class="post__time">
-							<p class="post__time__text">00:39 , 29.07.2024 </p>
-						</div>
-
-						<div class="under__posts__elements ">
-							<ul class="nav justify-content-let">
-								<li class="nav-item me-4">
-									<button class="nav-link active" href="#"><img src="../../../fotos/profile/Comment.png"
-											alt=""> 123</button>
-								</li>
-								<li class="nav-item me-4">
-									<button class="defaultLike nav-link " href="#">
-										<img src="../../../fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg">
-
-										789</button>
-								</li>
-								<li class="nav-item me-6">
-									<button class="nav-link " href="#"><img src="../../../fotos/profile/Share.png"
-											alt=""></button>
-
-								</li>
-							</ul>
-						</div><!--under__posts__elements-->
-
-
-					</div><!--post__box-->
-
-
-					<div class="post__box">
-
-						<div class="post__header__container">
-
-							<div class="post__avatar">
-								<img src="../../../fotos/profile/userIcon.png"
-									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
-							</div>
-
-							<div class="post__nickname">
-								<h6 th:text="${userLogin.login}">mdn</h6>
-							</div>
-
-							<div class="post__ellipses  ">
-
-								<div class="dropdown open">
-									<button class="triggerIdButton btn btn-sm  " type="button" id="triggerId"
-										data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-										style="border: none;  ">
-										<img src="../../../fotos/profile/ellipsis.png" alt="">
-									</button>
-									<div class="dropdown-menu" aria-labelledby="triggerId">
-										<a class="dropdown-item" href="#">Delete</a>
-										<a class="dropdown-item" href="#">Edit</a>
-										<div class="dropdown-divider"></div>
-
-									</div>
-								</div>
-
-
-
-							</div>
-
-						</div><!--post__header__container-->
-
-
-						<div class="post__text">
-							<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe porro expedita minima
-								eligendi harum perferendis culpa, quibusdam molestias iste natus tempora tenetur blanditiis
-								aliquid eaque omnis impedit adipisci animi.</h5>
-						</div>
-						<div class="post__fotos">
-							<img src="../../../fotos/profile/web-application.png"
-								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-								alt="">
-						</div>
-						<div class="post__time">
-							<p class="post__time__text">00:39 , 29.07.2024 </p>
-						</div>
-
-						<div class="under__posts__elements ">
-							<ul class="nav justify-content-let">
-								<li class="nav-item me-4">
-									<button class="nav-link active" href="#"><img src="../../../fotos/profile/Comment.png"
-											alt=""> 123</button>
-								</li>
-								<li class="nav-item me-4">
-									<button class=" defaultLike nav-link " href="#">
-										<img src="../../../fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg">
-
-										789</button>
-								</li>
-								<li class="nav-item me-6">
-									<button class="nav-link " href="#"><img src="../../../fotos/profile/Share.png"
-											alt=""></button>
-								</li>
-							</ul>
-						</div><!--under__posts__elements-->
-
-
-					</div><!--post__box-->
-
-
-
-
-
 
 				</div><!--posts__container-->
 
@@ -469,16 +370,18 @@
 	<!--------------------Sidedar------------------------------------------------>
 
 
-	<script src="../../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 
-	<script th:inline="javascript" >
+
+	<script th:inline="javascript">
+		let usersModel =/*[[${userLogin}]]*/ {};
 		let userNickname =/*[[${userLogin.getLogin()}]]*/ {};
 
 	</script>
 	<script src="../../../js/ProfilePage/profileDataUser.js"></script>
 
-	<script src="../../../js/ProfilePage/profile.js"></script>
 	<script src="../../../js/ProfilePage/profilePosts.js"></script>
+	<script src="../../../js/ProfilePage/editProfile.js"></script>
+	<script src="../../../js/ProfilePage/profileData.js"></script>
 
 	<!--------------------Sidedar------------------------------------------------>
 

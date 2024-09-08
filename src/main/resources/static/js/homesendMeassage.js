@@ -1,8 +1,11 @@
+const postSendPost = 'http://localhost:8080/home/savepost';
+
+
 $(document).ready(function () {
 	let mysendImages = [];
 
 
-	function createPostBlock(meassageArray, imgUrl) {
+	async function createPostBlock(meassageArray) {
 		$(".send_post_meassage textarea").css("border", "2px solid #ddd");
 
 		let newPostBlock = `
@@ -12,7 +15,7 @@ $(document).ready(function () {
 							 <img src="../../fotos/profile/userIcon.png" style="width: 49px; height: 49px; border-radius: 50%;" alt="">
 					 </div>
 					 <div class="post__nickname">
-							 <h6>${meassageArray[1]}</h6>
+							 <h6 >${meassageArray[1]}</h6>
 					 </div>
 					 <div class="post__ellipses">
 							 <div class="dropdown open">
@@ -28,15 +31,15 @@ $(document).ready(function () {
 			  </div><!-- post__header__container -->
 
 			  <div class="post__text">
-					 <h5>${meassageArray[0]}</h5>
+					 <h5 th:field="*{meassage}">${meassageArray[0]}</h5>
 			  </div>
 			  
 			  <div class="post__fotos">
-					${imgUrl ? `<img src="${imgUrl}" alt="Image" />` : ""}
+					<img src="${meassageArray[4]}" alt="Image"  th:field="*{postImage}">
 			  </div>
 			  
 			  <div class="post__time">
-					 <p class="post__time__text">${new Date().toLocaleTimeString()}, ${new Date().toLocaleDateString()}</p>
+					 <p class="post__time__text" th:field="*{sendTime}">${meassageArray[3]}</p>
 			  </div>
 			  
 			  <div class="under__posts__elements">
@@ -54,8 +57,30 @@ $(document).ready(function () {
 			  </div><!-- under__posts__elements -->
 		</div><!-- post__box -->
 		`;
-		
+
 		$(".main__posts__container").prepend(newPostBlock);
+
+		// JavaScript code to send data to the Java backend
+		const dataToSend = {
+			meassage: meassageArray[0],
+			sendTime: meassageArray[3],
+			postImage: meassageArray[4],
+		};
+
+		fetch(postSendPost, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify(dataToSend),
+		})
+			.then(response => response.json())
+			.then(data => {
+				console.log('Success:', data);
+			})
+			.catch(error => {
+				console.error('Error:', error);
+			});
 
 	}
 
@@ -66,7 +91,7 @@ $(document).ready(function () {
 
 	$("#send_post_elements_block_button").click(function () {
 		let meassageArray = [];
-	
+
 
 		let meassage = $("#send_post_meassageInput").val();
 		let nickname = $(".sidebar__text__nickname ").text();
@@ -75,10 +100,11 @@ $(document).ready(function () {
 
 		let imgUrl = "";
 		if (meassage.length != 0 && meassage != " ") {
-
+			let sendTime = new Date().toLocaleTimeString() + " " + new Date().toLocaleDateString();
 			meassageArray.push(meassage);
 			meassageArray.push(nickname);
 			meassageArray.push(mysendImages);
+			meassageArray.push(sendTime);
 
 			const file = meassageArray[2][0];
 
@@ -87,16 +113,18 @@ $(document).ready(function () {
 
 				reader.onload = function (e) {
 					imgUrl = e.target.result
-					createPostBlock(meassageArray, imgUrl);
-				
+					meassageArray.push(imgUrl);
+					createPostBlock(meassageArray);
+
+					// console.log("Meassage:" + meassageArray[4]);
 				}
 
 				reader.readAsDataURL(file)
-				
+
 			}
 
-			console.log("Send meassageArray:" + meassageArray);
-			
+
+
 			$(".send_post_meassage textarea").css("border", "2px solid #ddd");
 
 
@@ -110,7 +138,7 @@ $(document).ready(function () {
 			alert("Meassage is empty!!!");
 
 		}
-		console.log("Meassage lenth:" + meassage.length);
+
 
 	});
 
