@@ -153,7 +153,7 @@
 			<div class="dropdown">
 				<a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle "
 					data-bs-toggle="dropdown" aria-expanded="false">
-					<img src="../../fotos/profile/userIcon.png" alt="" width="32" height="32" class="rounded-circle me-2">
+					<img src="../../fotos/profile/userIcon.png" alt="" width="32" height="32" class="avatar rounded-circle me-2">
 					<strong class=" sidebar__text sidebar__text__nickname" th:text="${userLogin.login}"
 						style="overflow:hidden;"></strong>
 					<!-- <input type="hidden" name="username_sidebar" id="username_sidebar" th:text="${userLogin.login}"> -->
@@ -199,7 +199,7 @@
 
 					<div class="send_post_block">
 						<div class="send_post_avatar_side">
-							<img src="../../fotos/profile/userIcon.png" alt="">
+							<img class="avatar" src="../../fotos/profile/userIcon.png" alt="">
 						</div>
 						<div class="send_post_block_message">
 							<div class="send_post_meassage">
@@ -385,6 +385,7 @@
 
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 	<script th:inline="javascript">
+		let usersModel =/*[[${userLogin}]]*/ {};
 		// let userNickname =/*[[${userLogin.getLogin()}]]*/ {};
 
 	</script>
@@ -392,6 +393,8 @@
 	<script src="../../js/homesendMeassage.js"></script>
 
 	<script src="../../js/homeShowPosts.js"></script>
+
+	<script src="../../js/homeShowAvatar.js"></script>
 
 	<!--------------------Sidedar------------------------------------------------>
 	<script>

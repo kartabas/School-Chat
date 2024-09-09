@@ -134,28 +134,34 @@ public class ProfilController extends HttpServlet {
 			UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
 
 			ProfileModel profileModel = profileService.getUserModelByIdCheck(profileModelData);
-			// if (profileModelData.getProfileBackground() == null || profileModelData.getProfileBackground().length() == 0) {
-			// 	ProfileModel profileModelBackground = (ProfileModel) session.getAttribute("profileModel");
-			// 	profileModel.setProfileBackground(profileModelBackground.getProfileBackground());
+			// if (profileModelData.getProfileBackground() == null ||
+			// profileModelData.getProfileBackground().length() == 0) {
+			// ProfileModel profileModelBackground = (ProfileModel)
+			// session.getAttribute("profileModel");
+			// profileModel.setProfileBackground(profileModelBackground.getProfileBackground());
 
 			// }
 
-			// if (profileModelData.getProfileImage() == null || profileModelData.getProfileImage().length() == 0) {
-			// 	ProfileModel profileModelImage = (ProfileModel) session.getAttribute("profileModel");
-			// 	profileModel.setProfileImage(profileModelImage.getProfileImage());
+			// if (profileModelData.getProfileImage() == null ||
+			// profileModelData.getProfileImage().length() == 0) {
+			// ProfileModel profileModelImage = (ProfileModel)
+			// session.getAttribute("profileModel");
+			// profileModel.setProfileImage(profileModelImage.getProfileImage());
 
 			// }
 
-			// if (profileModelData.getProfileBiography() == null || profileModelData.getProfileBiography().length() == 0) {
-			// 	ProfileModel profileModelBiography = (ProfileModel) session.getAttribute("profileModel");
-			// 	profileModel.setProfileBiography(profileModelBiography.getProfileBiography());
+			// if (profileModelData.getProfileBiography() == null ||
+			// profileModelData.getProfileBiography().length() == 0) {
+			// ProfileModel profileModelBiography = (ProfileModel)
+			// session.getAttribute("profileModel");
+			// profileModel.setProfileBiography(profileModelBiography.getProfileBiography());
 			// }
 
 			// if (profileModelData != null) {
-				profileModel.setUsersModel(usersModel);
-				profileModel.setProfileBiography(profileModelData.getProfileBiography());
-				profileModel.setProfileBackground(profileModelData.getProfileBackground());
-				profileModel.setProfileImage(profileModelData.getProfileImage());
+			profileModel.setUsersModel(usersModel);
+			profileModel.setProfileBiography(profileModelData.getProfileBiography());
+			profileModel.setProfileBackground(profileModelData.getProfileBackground());
+			profileModel.setProfileImage(profileModelData.getProfileImage());
 			// }
 
 			profileService.updateProfileModel(profileModel);
@@ -183,8 +189,13 @@ public class ProfilController extends HttpServlet {
 		if (session != null) {
 			UsersModel usersModel = usersService.getUser(id);
 			ProfileModel profileModel = profileService.getProfileByUserIModel(usersModel);
+			if (profileModel == null) {
+				return new ProfileModel("../../../fotos/profile/userIcon.png",
+						"../../../fotos/profile/web-application.png", " ");
+			} else {
+				return profileModel;
+			}
 
-			return profileModel;
 		} else {
 			return null;
 		}

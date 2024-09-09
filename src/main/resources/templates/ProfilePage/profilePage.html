@@ -23,7 +23,14 @@
 
 	<script src="../../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 	<script src="../../../js/ProfilePage/profile.js"></script>
+	<script th:inline="javascript">
+		let usersModel =/*[[${userLogin}]]*/ {};
+		let userNickname =/*[[${userLogin.getLogin()}]]*/ {};
 
+	</script>
+	<script src="../../../js/ProfilePage/profileDataUser.js"></script>
+
+	<script src="../../../js/ProfilePage/profilePosts.js"></script>
 	<style>
 		/*--------------------Sidedar---------------------*/
 		main {
@@ -74,6 +81,16 @@
 			padding: 10px;
 
 			background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+		}
+
+
+		.alert {
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 150;
+			display: none;
 		}
 	</style>
 </head>
@@ -190,7 +207,8 @@
 			<div class="dropdown">
 				<a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle "
 					data-bs-toggle="dropdown" aria-expanded="false">
-					<img src="../../../fotos/profile/userIcon.png" alt="" width="32" height="32" class="rounded-circle me-2">
+					<img src="../../../fotos/profile/userIcon.png" alt="" width="32" height="32"
+						class="avatar rounded-circle me-2">
 					<strong class="sidebar__text sidebar__text__nickname" th:text="${userLogin.login}"
 						style="overflow:hidden;">mdn</strong>
 				</a>
@@ -239,7 +257,18 @@
 			<div class="update__profile__send">
 				<button class="update__profile__send_btn btn btn-primary">Update profile data</button>
 			</div>
+
+			<div class="alert alert-success" role="alert">
+				<h4 class="alert-heading">Well done!</h4>
+				<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit
+					longer
+					so that you can see how spacing within an alert works with this kind of content.</p>
+				<hr>
+				<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+			</div>
 		</div>
+
+
 
 		<!-------------------- Main ------------------------------------------------>
 		<div class="maim__container p-3">
@@ -284,7 +313,7 @@
 					</div>
 
 					<div class="profile__content__bio">
-						
+
 					</div>
 
 				</div><!--main__profile__content-->
@@ -372,16 +401,10 @@
 
 
 
-	<script th:inline="javascript">
-		let usersModel =/*[[${userLogin}]]*/ {};
-		let userNickname =/*[[${userLogin.getLogin()}]]*/ {};
 
-	</script>
-	<script src="../../../js/ProfilePage/profileDataUser.js"></script>
-
-	<script src="../../../js/ProfilePage/profilePosts.js"></script>
 	<script src="../../../js/ProfilePage/editProfile.js"></script>
 	<script src="../../../js/ProfilePage/profileData.js"></script>
+	<script src="../../../js/ProfilePage/profileShowAvatar.js"></script>
 
 	<!--------------------Sidedar------------------------------------------------>
 

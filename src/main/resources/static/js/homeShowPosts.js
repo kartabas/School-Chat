@@ -1,12 +1,12 @@
 const postsApiUrl = 'http://localhost:8080/home/allpostsperschool';
 const usersApiUrl = 'http://localhost:8080/home/alluserposts/';
-
+const getProfileData = 'http://localhost:8080/home/profileinfo/';
 
 async function getUserNickname(userId) {
 	try {
 		const response = await fetch(usersApiUrl + userId);
 		const dataUserLogin = await response.text();
-		console.log(dataUserLogin);
+		// console.log(dataUserLogin);
 		return dataUserLogin;
 	} catch (error) {
 		console.error('Error fetching data:', error);
@@ -15,11 +15,37 @@ async function getUserNickname(userId) {
 	}
 }
 
+async function getProfileAvatar(userId) {
+
+	try {
+		const response = await fetch(getProfileData + userId);
+		const dataProfileImg = await response.text();
+
+		if (dataProfileImg === " " || dataProfileImg == "" || dataProfileImg == null) {
+			// console.log("dataProfileImg: " + null);
+			return null;
+
+		} else {
+			// console.log("dataProfileImg: " + dataProfileImg);
+			return dataProfileImg;
+		}
+
+
+	} catch (error) {
+		console.error('Error fetching data:', error);
+		// Handle the error appropriately, maybe return a default value or throw an error
+		return null;
+	}
+
+}
+
+
+
 
 $(document).ready(function () {
 
 
-	async function createPostBlock(post) {
+	async function createPostBlock(post, dataProfileImg) {
 		let meassage = post.meassage;
 		let postImage = post.postImage;
 		let sendTime = post.sendTime;
@@ -29,7 +55,7 @@ $(document).ready(function () {
 		<div class="post__box">
 			  <div class="post__header__container">
 					 <div class="post__avatar">
-							 <img src="../../fotos/profile/userIcon.png" style="width: 49px; height: 49px; border-radius: 50%;" alt="">
+							 <img src="${dataProfileImg}" style="width: 49px; height: 49px; border-radius: 50%;" alt="">
 					 </div>
 					 <div class="post__nickname">
 							 <h6  >${userNickname}</h6>
@@ -81,15 +107,28 @@ $(document).ready(function () {
 
 
 	fetch(postsApiUrl)
-		.then(response => response.json())
+		.then(response => {
+			if (!response.ok) {
+				throw new Error(`HTTP error! Status: ${response.status}`);
+			}
+			return response.json();
+		})
 		.then(data => {
 			console.log(data);
 
-
-
 			data.forEach(post => {
-				createPostBlock(post)
-				console.log(post);
+				let dataProfileImg = getProfileAvatar(post.usersModel);
+				let defaultLinkAvatar = '../../fotos/profile/userIcon.png';
+				dataProfileImg.then(dataProfileImg => {
+					if (dataProfileImg == null || dataProfileImg == " " || dataProfileImg == "" ) {
+						createPostBlock(post, defaultLinkAvatar);
+
+					}else {
+						createPostBlock(post, dataProfileImg);
+					}
+					
+				});
+				// createPostBlock(post, defaultLinkAvatar);
 			});
 		})
 		.catch(error => console.error('Error fetching data:', error));

@@ -167,7 +167,7 @@ $(document).ready(function () {
 
 
 		let file = event.target.files[0];
-		console.log(file);
+		// console.log(file);
 
 		if (file) {
 			mysendImages.push(file);
@@ -181,7 +181,7 @@ $(document).ready(function () {
 	});
 
 
-	console.log(mysendImages);
+	// console.log(mysendImages);
 
 
 

@@ -16,10 +16,12 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
+import com.schoolchat.school.chat.model.homeModels.ProfileModel;
 import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.repository.schoolRepository.SchoolSearch;
 import com.schoolchat.school.chat.service.UsersService;
 import com.schoolchat.school.chat.service.homeService.PostService;
+import com.schoolchat.school.chat.service.homeService.ProfileService;
 import com.schoolchat.school.chat.service.homeService.SchoolPostService;
 
 import jakarta.servlet.http.HttpServlet;
@@ -40,6 +42,9 @@ public class HomeController extends HttpServlet {
 
 	@Autowired
 	private SchoolPostService schoolPostService;
+
+	@Autowired
+	private ProfileService profileService;
 
 	private Integer count = 0;
 
@@ -142,6 +147,26 @@ public class HomeController extends HttpServlet {
 		} else {
 			return "error_page";
 		}
+	}
+
+	@GetMapping("/profileinfo/{id}")
+	@ResponseBody
+	public String getUserProfileData(@PathVariable Integer id, HttpServletRequest request,
+			HttpServletResponse response) {
+		HttpSession session = request.getSession();
+		if (session != null) {
+			UsersModel usersModel = usersService.getUser(id);
+			ProfileModel profileModel = profileService.getProfileByUserIModel(usersModel);
+			if (profileModel == null) {
+				return null;
+			} else {
+				return profileModel.getProfileImage();
+			}
+
+		} else {
+			return null;
+		}
+
 	}
 
 	@GetMapping("/error")

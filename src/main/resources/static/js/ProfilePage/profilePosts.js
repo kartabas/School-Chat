@@ -20,18 +20,18 @@ async function getUserNickname(userId) {
 $(document).ready(function () {
 
 
-	async function createPostBlock(post) {
+	async function createPostBlock(post, dataProfileImg) {
 		let meassage = post.meassage;
 		let postImage = post.postImage;
 		let sendTime = post.sendTime;
 		let userNickname = await getUserNickname(post.usersModel);
-		
+
 
 		let newPostBlock = `
 		<div class="post__box">
 			  <div class="post__header__container">
 					 <div class="post__avatar">
-							 <img src="../../fotos/profile/userIcon.png" style="width: 49px; height: 49px; border-radius: 50%;" alt="">
+							 <img class="avatarImg" src="${dataProfileImg.profileImage}" style="width: 49px; height: 49px; border-radius: 50%;" alt="">
 					 </div>
 					 <div class="post__nickname">
 							 <h6  >${userNickname}</h6>
@@ -91,12 +91,21 @@ $(document).ready(function () {
 		.then(data => {
 			console.log(data);
 
-			
-			
+
 			data.forEach(post => {
-				createPostBlock(post)
-				console.log(post);
+				fetch(getProfileDataAvatar + post.usersModel)
+					.then(response => response.json())
+					.then(dataProfileImg => {
+						createPostBlock(post, dataProfileImg)
+						console.log(post);
+
+					})
+					.catch(error => console.error('Error fetching data:', error));
 			});
+
+
+
+
 		})
 		.catch(error => console.error('Error fetching data:', error));
 

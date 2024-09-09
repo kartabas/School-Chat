@@ -30,11 +30,18 @@ public class ProfileModel {
 	@Column(name = "profile_background", columnDefinition = "TEXT")
 	String profileBackground;
 
-	@Column(name = "profile_biography",columnDefinition = "TEXT")
+	@Column(name = "profile_biography", columnDefinition = "TEXT")
 	String profileBiography;
 
 	public ProfileModel() {
 
+	}
+
+	public ProfileModel(String profileImage, String profileBackground,
+			String profileBiography) {
+		this.profileImage = profileImage;
+		this.profileBackground = profileBackground;
+		this.profileBiography = profileBiography;
 	}
 
 	public void setProfileId(Integer profileId) {
@@ -82,8 +89,9 @@ public class ProfileModel {
 	}
 
 	public String toString() {
-		return "ProfileModel [profileId=" + profileId + ", usersModel=" + usersModel + ", profileBiography=" + profileBiography+ ", profileImage=" + profileImage
-				+ ", profileBackground=" + profileBackground  + "]";
+		return "ProfileModel [profileId=" + profileId + ", usersModel=" + usersModel + ", profileBiography="
+				+ profileBiography + ", profileImage=" + profileImage
+				+ ", profileBackground=" + profileBackground + "]";
 	}
 
 }

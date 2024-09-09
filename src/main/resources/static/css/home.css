@@ -78,6 +78,7 @@ main {
 	width: 10%;
 	height:auto;
 	
+
 	display: flex;
 	justify-content: left;
 	background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
@@ -87,6 +88,7 @@ main {
 	width: 65px;
 	height: 65px;
 	padding: 5px;
+	border-radius: 50%;
 	position: relative;
 	margin: auto;
 	top: -30px;

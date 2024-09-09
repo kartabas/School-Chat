@@ -90,29 +90,46 @@ $(document).ready(function () {
 		console.log("Update Profile Background:" + myUpdateAvatarImg);
 
 		if (myUpdateAvatarImg) {
-
 			const reader = new FileReader();
 
 			reader.onload = function (e) {
-				imgUrl = e.target.result
-				updateProfileArray[1] = (imgUrl);
+				const imgUrl = e.target.result;
 
+				// Create an image element to draw on the canvas
+				const img = new Image();
+				img.src = imgUrl;
 
+				img.onload = function () {
+					// Create a canvas element
+					const canvas = document.createElement('canvas');
+					const ctx = canvas.getContext('2d');
 
-			}
+					// Set canvas size to 100x100
+					canvas.width = 300;
+					canvas.height = 300;
+
+					// Draw the image on the canvas with the new size
+					ctx.drawImage(img, 0, 0, 300, 300);
+
+					// Convert the resized image to a data URL
+					const resizedImgUrl = canvas.toDataURL('image/png');
+
+					// Save the resized image URL
+					updateProfileArray[1] = resizedImgUrl;
+
+					// Create an image element to display the resized image
+					const resizedImg = document.createElement('img');
+					resizedImg.src = resizedImgUrl;
+					$(resizedImg).appendTo(".show_update__profile__avatar");
+
+					console.log("Resized Image URL saved to updateProfileArray[1]:", updateProfileArray[1]);
+				};
+			};
 
 			reader.readAsDataURL(myUpdateAvatarImg);
-
-
-
-			const img = document.createElement('img');
-			img.src = URL.createObjectURL(myUpdateAvatarImg);
-			$(img).appendTo(".show_update__profile__avatar");
-
 		}
-
-
 	});
+
 
 
 	//---------------------------------------------------------------------
@@ -144,18 +161,18 @@ $(document).ready(function () {
 
 
 
-				if(updateProfileArray[0] == null){
+				if (updateProfileArray[0] == null) {
 					updateProfileArray[0] = profileDatatArray[0];
 
 				}
 
 
-				if(updateProfileArray[1] == null){
+				if (updateProfileArray[1] == null) {
 					updateProfileArray[1] = profileDatatArray[1];
 
 				}
 
-				if(updateProfileArray[2].length == 0){
+				if (updateProfileArray[2].length == 0) {
 					updateProfileArray[2] = profileDatatArray[2];
 				}
 
@@ -169,8 +186,10 @@ $(document).ready(function () {
 				}
 				console.log(updateProfileArray);
 				editProfile(updateProfileArray, editProfileAPI, updateDatasend);
-				
-
+				$(".alert").alert().css("display", "block");
+				setTimeout(function () {
+					$(".alert").fadeOut(500);
+				}, 1500);
 			})
 			.catch(error => console.error('Error fetching data:', error));
 
