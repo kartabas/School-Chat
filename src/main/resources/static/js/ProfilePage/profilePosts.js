@@ -90,7 +90,12 @@ $(document).ready(function () {
 		.then(response => response.json())
 		.then(data => {
 			console.log(data);
+			// console.log(data.length);
 
+			if (data.length == 0) {
+
+				$(".posts__container").prepend('<h1 class="text-center">No posts yet</h1>');
+			}
 
 			data.forEach(post => {
 				fetch(getProfileDataAvatar + post.usersModel)

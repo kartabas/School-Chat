@@ -1,20 +1,13 @@
 package com.schoolchat.school.chat.service.homeService;
 
 import java.util.List;
-import java.util.Optional;
-
-import javax.sql.rowset.serial.SerialBlob;
-
-import com.mysql.cj.jdbc.Blob;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
-import com.schoolchat.school.chat.model.homeModels.SchoolPostsModel;
 import com.schoolchat.school.chat.repository.homeRepository.PostRepository;
 
 @Service
@@ -35,6 +28,7 @@ public class PostService {
 		return postRepository.findById(id).orElse(null);
 	}
 
+	// Save Post Servise
 	public PostModel saveUserPost(String schoolId, UsersModel userId, String message, String sendTime,
 			String postImage) {
 		if (schoolId == null || userId == null) {
@@ -46,18 +40,17 @@ public class PostService {
 
 			postModel.setSchoolId(schoolId);
 			postModel.setUsersModel(userId);
-			postModel.setMeassage(message); 
+			postModel.setMeassage(message);
 			postModel.setSendTime(sendTime);
 			postModel.setPostImage(postImage);
 
-			
 			return postRepository.save(postModel);
 		} catch (DataIntegrityViolationException e) {
-		
+
 			System.err.println("Error in create new post: " + e.getMessage());
 			return null;
 		} catch (Exception e) {
-			
+
 			System.err.println("Error: " + e.getMessage());
 			return null;
 		}
@@ -68,23 +61,40 @@ public class PostService {
 		return (PostModel) postRepository.findByUsersModel(userId);
 	}
 
-
-
-
-
+	// Show all post of user
 	public List<PostModel> getPostUserList(UsersModel userId) {
-		return  postRepository.findByUsersModel(userId);
-		
+		return postRepository.findByUsersModel(userId);
+
 	}
 
-
+	// Show all post
 	public List<PostModel> getAllPosts() {
 		return (List<PostModel>) postRepository.findAll();
 	}
 
-		public List<PostModel> getAllSchoolPosts(String schoolId) {
+	// Show all post of school
+	public List<PostModel> getAllSchoolPosts(String schoolId) {
 		return postRepository.findBySchoolId(schoolId);
 	}
 
+	// Update Post
+	public PostModel updatePost(Integer id, String message, String sendTime, String postImage) {
+
+		PostModel postModel = postRepository.findById(id).orElse(null);
+		postModel.setMeassage(message);
+		postModel.setSendTime(sendTime);
+		postModel.setPostImage(postImage);
+		return postRepository.save(postModel);
+	}
+
+	// Delete Post
+	public void deleteByPostId(Integer postId) {
+		postRepository.deleteByPostId(postId);
+	}
+
+	public PostModel updatePostModel(PostModel postModel) {
+		return postRepository.save(postModel);
+
+	}
 
 }

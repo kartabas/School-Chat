@@ -17,7 +17,9 @@ public interface ProfileRepository extends JpaRepository<ProfileModel, Integer> 
 	ProfileModel findByUsersModel(UsersModel usersModel);
 
 	
-	
 
+	
+	
+	
 
 }

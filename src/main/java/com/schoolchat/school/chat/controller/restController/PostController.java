@@ -2,15 +2,16 @@ package com.schoolchat.school.chat.controller.restController;
 
 import java.util.List;
 
-import javax.sql.rowset.serial.SerialBlob;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.mysql.cj.jdbc.Blob;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.service.homeService.PostService;
@@ -65,6 +66,40 @@ public class PostController {
 	// System.out.println(post);
 	// return post;
 	// }
+
+	// TODO: Update post make to end
+	@PutMapping("/updatepost/{id}")
+	public String updatePostData(@PathVariable Integer id, @RequestBody PostModel postModel, HttpServletRequest request,
+			HttpServletResponse response) {
+		HttpSession session = request.getSession();
+		if (session != null) {
+			UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
+
+			PostModel updatedpostModel = postService.getPost(id);
+
+			updatedpostModel.setMeassage(postModel.getMeassage());
+			updatedpostModel.setSendTime(postModel.getSendTime());
+			updatedpostModel.setPostImage(postModel.getPostImage());
+
+			postService.updatePostModel(updatedpostModel);
+
+			session.setAttribute("profileModel", updatedpostModel);
+			return "redirect:/profile";
+		}
+		return "redirect:/profile";
+
+	}
+
+
+
+	//TODO: Delete post test
+	@DeleteMapping("/deletepost/{id}")
+	@ResponseBody
+	public String deletePost(@PathVariable Integer id) {
+		PostModel postModel = postService.getPost(id);
+		postService.deleteByPostId(postModel.getPostId());
+		return "redirect:/profile";
+	}
 
 	// Show all post of user
 	@GetMapping("/usersposts")

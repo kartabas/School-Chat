@@ -134,45 +134,14 @@ public class ProfilController extends HttpServlet {
 			UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
 
 			ProfileModel profileModel = profileService.getUserModelByIdCheck(profileModelData);
-			// if (profileModelData.getProfileBackground() == null ||
-			// profileModelData.getProfileBackground().length() == 0) {
-			// ProfileModel profileModelBackground = (ProfileModel)
-			// session.getAttribute("profileModel");
-			// profileModel.setProfileBackground(profileModelBackground.getProfileBackground());
 
-			// }
-
-			// if (profileModelData.getProfileImage() == null ||
-			// profileModelData.getProfileImage().length() == 0) {
-			// ProfileModel profileModelImage = (ProfileModel)
-			// session.getAttribute("profileModel");
-			// profileModel.setProfileImage(profileModelImage.getProfileImage());
-
-			// }
-
-			// if (profileModelData.getProfileBiography() == null ||
-			// profileModelData.getProfileBiography().length() == 0) {
-			// ProfileModel profileModelBiography = (ProfileModel)
-			// session.getAttribute("profileModel");
-			// profileModel.setProfileBiography(profileModelBiography.getProfileBiography());
-			// }
-
-			// if (profileModelData != null) {
 			profileModel.setUsersModel(usersModel);
 			profileModel.setProfileBiography(profileModelData.getProfileBiography());
 			profileModel.setProfileBackground(profileModelData.getProfileBackground());
 			profileModel.setProfileImage(profileModelData.getProfileImage());
-			// }
 
 			profileService.updateProfileModel(profileModel);
 
-			// ProfileModel profileModel = new ProfileModel();
-			// profileModel.setUsersModel(usersModel);
-			// profileModel.setProfileBiography(profileModelData.getProfileBiography());
-			// profileModel.setProfileBackground(profileModelData.getProfileBackground());
-			// profileModel.setProfileImage(profileModelData.getProfileImage());
-
-			// profileService.savProfileModel(profileModel);
 
 			session.setAttribute("profileModel", profileModel);
 			return "redirect:/profile";

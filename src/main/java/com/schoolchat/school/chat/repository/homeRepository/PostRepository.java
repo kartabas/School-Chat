@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
-import com.schoolchat.school.chat.model.homeModels.SchoolPostsModel;
 
 @Repository
 public interface PostRepository extends JpaRepository<PostModel, Integer> {
@@ -21,10 +20,14 @@ public interface PostRepository extends JpaRepository<PostModel, Integer> {
 
 	List<PostModel> findByUsersModel(UsersModel usersModel);
 
+
+
+	void deleteByPostId(Integer postId);
+
 	List<PostModel> findBySchoolId(String schoolId);
 
 	Optional<PostModel> findByPostIdAndUsersModel(Integer postId, UsersModel usersModel);
 
-	
+
 
 }
