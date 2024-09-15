@@ -24,7 +24,8 @@ $(document).ready(function () {
 
 
 
-
+//-------------------------------Like-----------------------------
+//TODO: Likes and Dislikes are not working fix this
 	$(document).on('click', '#defaultLike', function () {
 		if ($(this).data('clickCountLike') === undefined) {
 			$(this).data('clickCountLike', 0);
@@ -37,18 +38,20 @@ $(document).ready(function () {
 
 			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
 			clickCountLike = 1;
-			$("#defaultLike span").html($("#defaultLike span").val() + clickCountLike);
+			$("#defaultLike span",this).html($("#defaultLike span",this).val() + clickCountLike);
 		} else {
 
 			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
 			clickCountLike = 0;
-			$("#defaultLike span").html($("#defaultLike span").val() - clickCountLike);
+			$("#defaultLike span",this).html($("#defaultLike span",this).val() - clickCountLike);
 		}
 
 
 		$(this).data('clickCountLike', clickCountLike);
 		// console.log("Click count after: " + clickCountLike);
 	});
+
+	//-------------------------------Like-----------------------------
 
 
 	$('#sent_post_meassageInput').on('input', function () {

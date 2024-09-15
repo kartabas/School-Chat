@@ -215,49 +215,56 @@
 		</div>
 
 		<!--------------------Sidedar------------------------------------------------>
-		<div class="update__profile__panel">
-			<div class="update__profile__close">
-				<img src="../../../fotos/profile/close.png" alt="Close">
-			</div>
-			<div class="update__profile__background">
-				<div class="update__profile__background_title">Update background image</div>
-				<button class="update__profile__background_btn btn btn-primary">Choose new background image</button>
-				<div class="show_update__profile__background"></div>
+		<div class="update__profile__panel_background">
+			<div class="update__profile__panel">
+				<div class="update__profile__close">
+					<div class="update__profile__close_btn">
+						<img src="../../../fotos/profile/close.png" alt="Close">
+					</div>
 
-				<input type="file" id="update__profile__background_img_fileInput"
-					name="update__profile__background_img_fileInput" multiple accept="image/png, image/jpeg"
-					style="display:none">
-			</div>
+				</div>
+				<div class="update__profile__background">
+					<div class="update__profile__background_title">Update background image</div>
+					<button class="update__profile__background_btn btn btn-primary">Choose new background image</button>
+					<div class="show_update__profile__background"></div>
 
-			<div class="update__profile__avatar">
-				<div class="update__profile__avatar_title">Update avatar image</div>
-				<button class="update__profile__avatar_btn btn btn-primary">Choose new avatar image</button>
-				<div class="show_update__profile__avatar"></div>
-				<input type="file" id="update__profile__avatar_img_fileInput" name="update__profile__avatar_img_fileInput"
-					multiple accept="image/png, image/jpeg" style="display:none">
-			</div>
-			<div class="update__profile__bio">
-				<div class="update__profile__bio_title">Update your bio </div>
-				<textarea name="update__profile__bio_img" id="update__profile__bio_img_fileInput" cols="100" rows="10"
-					placeholder="Write about you here...."
-					style="color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;" autofocus
-					maxlength="1000"></textarea>
+					<input type="file" id="update__profile__background_img_fileInput"
+						name="update__profile__background_img_fileInput" multiple accept="image/png, image/jpeg"
+						style="display:none">
+				</div>
 
-			</div>
+				<div class="update__profile__avatar">
+					<div class="update__profile__avatar_title">Update avatar image</div>
+					<button class="update__profile__avatar_btn btn btn-primary">Choose new avatar image</button>
+					<div class="show_update__profile__avatar"></div>
+					<input type="file" id="update__profile__avatar_img_fileInput"
+						name="update__profile__avatar_img_fileInput" multiple accept="image/png, image/jpeg"
+						style="display:none">
+				</div>
+				<div class="update__profile__bio">
+					<div class="update__profile__bio_title">Update your bio </div>
+					<textarea name="update__profile__bio_img" id="update__profile__bio_img_fileInput" cols="100" rows="5"
+						placeholder="Write about you here...."
+						style="color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;" autofocus
+						maxlength="1000"></textarea>
 
-			<div class="update__profile__send">
-				<button class="update__profile__send_btn btn btn-primary">Update profile data</button>
-			</div>
+				</div>
 
-			<div class="alert alert-success" role="alert">
-				<h4 class="alert-heading">Well done!</h4>
-				<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit
-					longer
-					so that you can see how spacing within an alert works with this kind of content.</p>
-				<hr>
-				<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+				<div class="update__profile__send">
+					<button class="update__profile__send_btn btn btn-primary">Update profile data</button>
+				</div>
+
+				<div class="alert alert-success" role="alert">
+					<h4 class="alert-heading">Well done!</h4>
+					<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit
+						longer
+						so that you can see how spacing within an alert works with this kind of content.</p>
+					<hr>
+					<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+				</div>
 			</div>
 		</div>
+
 
 
 
@@ -395,9 +402,6 @@
 	<script th:inline="javascript">
 		let usersModel =/*[[${userLogin}]]*/ {};
 		let userNickname =/*[[${userLogin.getLogin()}]]*/ {};
-
-
-
 
 
 	</script>

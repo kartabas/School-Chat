@@ -10,11 +10,6 @@ let updateProfileArray = [];
 
 
 function editProfile(updateProfileArray, editProfileAPI, updateDatasend) {
-
-
-
-
-
 	fetch(editProfileAPI, {
 		method: 'PUT',
 		headers: {
@@ -32,6 +27,8 @@ function editProfile(updateProfileArray, editProfileAPI, updateDatasend) {
 }
 
 
+
+
 $(document).ready(function () {
 
 	let myUpdateBackroundImg;
@@ -40,7 +37,11 @@ $(document).ready(function () {
 
 	//----------------------Background Image----------------------
 	$('.update__profile__background_btn').on('click', function () {
+		$(".show_update__profile__background").find("img").remove();
+
+		$('#update__profile__background_img_fileInput').val('');
 		$('#update__profile__background_img_fileInput').click();
+
 	});
 
 	$('#update__profile__background_img_fileInput').on("change", function (event) {
@@ -65,10 +66,14 @@ $(document).ready(function () {
 			reader.readAsDataURL(myUpdateBackroundImg);
 
 
-			const img = document.createElement('img');
+			let img = document.createElement('img');
 			img.src = URL.createObjectURL(myUpdateBackroundImg);
 			$(img).appendTo(".show_update__profile__background");
 
+
+			img.onload = function () {
+				URL.revokeObjectURL(img.src);
+			};
 
 		}
 
@@ -80,6 +85,9 @@ $(document).ready(function () {
 
 	//-------------------------------------------Avatar Image---------------------------
 	$('.update__profile__avatar_btn').on('click', function () {
+		$(".show_update__profile__avatar").find("img").remove();
+
+		$('#update__profile__avatar_img_fileInput').val('');
 		$('#update__profile__avatar_img_fileInput').click();
 	});
 
@@ -132,17 +140,17 @@ $(document).ready(function () {
 
 
 
-	//---------------------------------------------------------------------
+	//-----------------------------Update Profile----------------------------------------
 
 	$("#editProfile").click(function () {
+		$(".update__profile__panel_background").css("display", "block");
 		$(".update__profile__panel").css("display", "block");
-
 	});
 
 
-	$(".update__profile__close").click(function () {
+	$(".update__profile__close_btn").click(function () {
 		$(".update__profile__panel").css("display", "none");
-
+		$(".update__profile__panel_background").css("display", "none");
 	});
 
 

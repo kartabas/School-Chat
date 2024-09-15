@@ -32,12 +32,12 @@ $(document).ready(function () {
 
 			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
 			clickCountLike = 1;
-			$("#defaultLike span").html($("#defaultLike span").val() + clickCountLike);
+			$("#defaultLike span",this).html($("#defaultLike span",this).val() + clickCountLike);
 		} else {
 
 			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
 			clickCountLike = 0;
-			$("#defaultLike span").html($("#defaultLike span").val() - clickCountLike);
+			$("#defaultLike span",this).html($("#defaultLike span",this).val() - clickCountLike);
 		}
 
 
