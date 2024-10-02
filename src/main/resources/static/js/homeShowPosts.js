@@ -52,7 +52,8 @@ $(document).ready(function () {
 		let userNickname = await getUserNickname(post.usersModel);
 
 		let newPostBlock = `
-		<div class="post__box">
+		<div class="post__box" >
+			 <input type="hidden" value="${post.postId}" class="postId">
 			  <div class="post__header__container">
 					 <div class="post__avatar">
 							 <img src="${dataProfileImg}" style="width: 49px; height: 49px; border-radius: 50%;" alt="">
