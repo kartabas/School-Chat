@@ -210,12 +210,29 @@ hr{
 
 
 .update__profile__background  {
-	width: 100%;
+	width: 90%;
 	min-height: 50px;
 	padding: 10px;
 	height: auto;
 	display: block;
-	/* background-color: #0084b4; */
+
+	margin-left: 10px;
+	margin-right: 10px;
+
+	margin-top: 20px;
+	margin-bottom: 15px;
+
+	border-radius: 15px;
+
+	-webkit-box-shadow: -2px -1px 18px 3px rgba(125,134,255,1);
+	-moz-box-shadow: -2px -1px 18px 3px rgba(125,134,255,1);
+	box-shadow: -2px -1px 18px 3px rgba(125,134,255,1);
+
+	/* background-color: wheat; */
+}
+
+.update__profile__background_title{
+	margin-bottom: 10px;
 }
 
 .show_update__profile__background{
@@ -231,15 +248,34 @@ hr{
 	height: auto;
 }
 
+
+
 .update__profile__avatar {
-	width: 100%;
+	width: 90%;
 	min-height: 50px;
 	padding: 10px;
 
+	margin-left: 10px;
+	margin-right: 10px;
+
+	margin-top: 30px;
+	margin-bottom: 15px;
+
+	border-radius: 15px;
+
 	height: auto;
 	display: block;
-	background-color: purple;
+
+	-webkit-box-shadow: -2px -1px 18px 3px rgba(220,100,250,1);
+	-moz-box-shadow: -2px -1px 18px 3px rgba(220,100,250,1);
+	box-shadow: -2px -1px 18px 3px rgba(220,100,250,1);
+	/* background-color: purple; */
 }
+
+.update__profile__avatar_title{
+	margin-bottom: 10px;
+}
+
 .show_update__profile__avatar {
 	display: flex;
 	justify-content: center;
@@ -253,15 +289,36 @@ hr{
 	border-radius: 50%;
 }
 
+
+
+
 .update__profile__bio {
+	width: 90%;
 	padding: 10px;
-	background-color: #0084b4;
+	/* background-color: #0084b4; */
 	height: auto;
 	display: block;
+
+	margin-left: 10px;
+	margin-right: 10px;
+
+	margin-top: 30px;
+	margin-bottom: 15px;
+
+	border-radius: 15px;
+
+	-webkit-box-shadow: -2px -1px 18px 3px rgba(140,250,100,1);
+	-moz-box-shadow: -2px -1px 18px 3px rgba(140,250,100,1);
+	box-shadow: -2px -1px 18px 3px rgba(140,250,100,1);
+
 
 
 }
 
+
+.update__profile__bio_title{
+	margin-bottom:10px ;
+}
 .update__profile__bio textarea{
 	font-family: "Playwrite GB S", cursive;
 	font-optical-sizing: auto;
