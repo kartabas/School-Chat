@@ -1,6 +1,7 @@
 package com.schoolchat.school.chat.service.homeService;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -51,5 +52,20 @@ public class SchoolPostService {
 	public List<SchoolPostsModel> getAllSchoolPosts(String schoolId) {
 		return schoolPostRepository.findBySchoolId(schoolId);
 	}
+
+
+
+	public SchoolPostsModel getPostByPostModel(PostModel postModel) {
+		return   schoolPostRepository.findByPostModel(postModel);
+  }
+
+
+	public void deleteBySchoolPostId(Integer schoolPostsModel) {
+		schoolPostRepository.deleteBySchoolPostId(schoolPostsModel);
+
+
+	}
+
+
 
 }

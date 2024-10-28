@@ -135,7 +135,7 @@ $(document).ready(function () {
 		} else {
 
 			$(".send_post_meassage textarea").css("border", "2px solid red");
-			alert("Meassage is empty!!!");
+			// alert("Meassage is empty!!!");
 
 		}
 

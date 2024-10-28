@@ -7,6 +7,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.model.homeModels.SchoolPostsModel;
 
 @Repository
@@ -15,6 +16,12 @@ public interface SchoolPostRepository extends JpaRepository<SchoolPostsModel, In
 
 	Optional<SchoolPostsModel> findBySchoolPostId(Integer schoolPostId);
 
+	SchoolPostsModel findByPostModel(PostModel postModel);
+
+
+
 	List<SchoolPostsModel> findBySchoolId(String schoolId);
+
+	void deleteBySchoolPostId(Integer schoolPostsModel);
 	
 }

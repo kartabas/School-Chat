@@ -46,8 +46,8 @@ $(document).ready(function () {
 									<img src="../../../fotos/profile/ellipsis.png" alt="">
 								</button>
 								<div class="dropdown-menu" aria-labelledby="triggerId">
-									<a class="dropdown-item" href="#">Delete</a>
-									<a class="dropdown-item" href="#">Edit</a>
+									<span class="deletePost dropdown-item">Delete</span>
+									<span class="editPost dropdown-item" >Edit</span>
 									<div class="dropdown-divider"></div>
 								</div>
 							</div>

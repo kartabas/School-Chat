@@ -3,8 +3,10 @@ package com.schoolchat.school.chat.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.crossstore.ChangeSetPersister.NotFoundException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,16 +18,19 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.model.homeModels.ProfileModel;
+import com.schoolchat.school.chat.model.homeModels.SchoolPostsModel;
 import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.repository.schoolRepository.SchoolSearch;
 import com.schoolchat.school.chat.service.UsersService;
 import com.schoolchat.school.chat.service.homeService.PostService;
 import com.schoolchat.school.chat.service.homeService.ProfileService;
+import com.schoolchat.school.chat.service.homeService.SchoolPostService;
 
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import jakarta.transaction.Transactional;
 
 @Controller
 @RequestMapping("/profile")
@@ -36,10 +41,14 @@ public class ProfilController extends HttpServlet {
 	private final UsersService usersService;
 
 	@Autowired
+
 	private final PostService postService;
 
 	@Autowired
 	private ProfileService profileService;
+
+	@Autowired
+	private SchoolPostService schoolPostService;
 
 	public ProfilController(UsersService usersService) {
 		this.usersService = usersService;
@@ -142,7 +151,6 @@ public class ProfilController extends HttpServlet {
 
 			profileService.updateProfileModel(profileModel);
 
-
 			session.setAttribute("profileModel", profileModel);
 			return "redirect:/profile";
 		}
@@ -169,6 +177,23 @@ public class ProfilController extends HttpServlet {
 			return null;
 		}
 
+	}
+
+	@Transactional
+	@DeleteMapping("/deletepost/{id}")
+	// @ResponseBody
+	public String deletePost(@PathVariable Integer id) {
+		PostModel postModel = postService.getPost(id);
+		if (postModel == null) {
+			return "redirect:/profile";
+		}
+
+		SchoolPostsModel schoolPostsModel = schoolPostService.getPostByPostModel(postModel);
+		schoolPostService.deleteBySchoolPostId(schoolPostsModel.getSchoolPostId());
+
+		postService.deleteByPostId(postModel.getPostId());
+		System.out.println("Post was deleted: " + postModel.getPostId());
+		return "redirect:/profile";
 	}
 
 }
