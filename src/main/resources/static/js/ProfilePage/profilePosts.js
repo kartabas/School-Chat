@@ -59,7 +59,7 @@ $(document).ready(function () {
 			  </div>
 			  
 			  <div class="post__fotos">
-					<img src="${postImage}">
+					<img class="post__fotos__img" src="${postImage}">
 			  </div>
 			  
 			  <div class="post__time">
