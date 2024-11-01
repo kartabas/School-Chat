@@ -403,7 +403,8 @@ hr{
 
 .post__fotos img{
 	width: 650px;
-	
+	position: relative;
+	z-index: 100;
 }
 
 
@@ -451,7 +452,6 @@ hr{
 
 .under__posts__elements .nav-link:hover {
 	transform: scale(1.05);
-
 }
 
 .post__fotosUploadImg{
@@ -465,6 +465,15 @@ hr{
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
+	z-index: 105;
+
+}
+
+
+#postText{
+
+	overflow-y: auto; 
+	max-height: auto;
 
 }
 
@@ -476,4 +485,15 @@ hr{
 	color: white;
 }
 
+
+#savePost {
+	margin: 5px !important;
+	padding: 5px !important;
+}
+
+
+#cancelUpdatePost {
+	margin: 5px !important;
+	padding: 5px !important;
+}
 

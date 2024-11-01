@@ -18,9 +18,13 @@ $(document).ready(function () {
 			}
 		});
 
-		$('.post__box').remove();
-		$(".posts__container").prepend('<h1 class="text-center">No posts yet</h1>');
+		$(this).closest('.post__box').remove();
 
+
+
+		if ($(".posts__container").find(".post__box").length == 0) {
+			$(".posts__container").prepend('<h1 class="text-center">No posts yet</h1>');
+		}
 
 
 	});

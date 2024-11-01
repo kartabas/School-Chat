@@ -24,8 +24,8 @@ $(document).ready(function () {
 
 
 
-//-------------------------------Like-----------------------------
-//TODO: Likes and Dislikes are not working fix this
+	//-------------------------------Like-----------------------------
+	//TODO: Likes and Dislikes are not working fix this
 	$(document).on('click', '#defaultLike', function () {
 		if ($(this).data('clickCountLike') === undefined) {
 			$(this).data('clickCountLike', 0);
@@ -38,12 +38,12 @@ $(document).ready(function () {
 
 			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
 			clickCountLike = 1;
-			$("#defaultLike span",this).html($("#defaultLike span",this).val() + clickCountLike);
+			$("#defaultLike span", this).html($("#defaultLike span", this).val() + clickCountLike);
 		} else {
 
 			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
 			clickCountLike = 0;
-			$("#defaultLike span",this).html($("#defaultLike span",this).val() - clickCountLike);
+			$("#defaultLike span", this).html($("#defaultLike span", this).val() - clickCountLike);
 		}
 
 
@@ -104,5 +104,13 @@ $(document).ready(function () {
 
 	});
 
+
+	$("#send_post_meassageInput").each(function () {
+		this.style.height = this.scrollHeight + "px";
+		this.style.overflowY = "hidden";
+	}).on("input", function () {
+		this.style.height = "auto";
+		this.style.height = this.scrollHeight + "px";
+	});
 
 });
