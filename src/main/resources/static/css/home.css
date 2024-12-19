@@ -267,6 +267,7 @@ main {
 .post__text{
 	padding-top: 10px;
 	padding-bottom: 10px;
+	word-wrap: break-word;
 }
 
 .post__ellipses{

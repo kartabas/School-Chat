@@ -90,6 +90,8 @@ $(document).ready(function () {
 
 
 	$("#send_post_elements_block_button").click(function () {
+
+
 		let meassageArray = [];
 
 
@@ -97,47 +99,54 @@ $(document).ready(function () {
 		let nickname = $(".sidebar__text__nickname ").text();
 
 
-
 		let imgUrl = "";
 		if (meassage.length != 0 && meassage != " ") {
+			$(".send_post_meassage textarea").css("border", "1px solid #ddd");
 			let sendTime = new Date().toLocaleTimeString() + " " + new Date().toLocaleDateString();
 			meassageArray.push(meassage);
 			meassageArray.push(nickname);
 			meassageArray.push(mysendImages);
 			meassageArray.push(sendTime);
 
-			const file = meassageArray[2][0];
 
-			if (file) {
-				const reader = new FileReader();
+			if (meassageArray[2][0] == null) {
+				alert("No image selected");
 
-				reader.onload = function (e) {
-					imgUrl = e.target.result
-					meassageArray.push(imgUrl);
-					createPostBlock(meassageArray);
+			} else {
+				const file = meassageArray[2][0];
 
-					// console.log("Meassage:" + meassageArray[4]);
+				if (file) {
+					const reader = new FileReader();
+
+					reader.onload = function (e) {
+						imgUrl = e.target.result
+						meassageArray.push(imgUrl);
+						createPostBlock(meassageArray);
+
+						// console.log("Meassage:" + meassageArray[4]);
+					}
+
+					reader.readAsDataURL(file)
+
 				}
 
-				reader.readAsDataURL(file)
+				$(".send_post_meassage textarea").css("border", "2px solid #ddd");
+
+
+				$("#send_post_meassageInput").val('');
+				$(".send_post_elements_images").empty();
+				mysendImages = [];
 
 			}
 
-
-
-			$(".send_post_meassage textarea").css("border", "2px solid #ddd");
-
-
-			$("#send_post_meassageInput").val('');
-			$(".send_post_elements_images").empty();
-			mysendImages = [];
-
 		} else {
-
 			$(".send_post_meassage textarea").css("border", "2px solid red");
 			// alert("Meassage is empty!!!");
 
 		}
+
+
+
 
 
 	});
