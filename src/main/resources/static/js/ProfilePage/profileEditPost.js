@@ -170,6 +170,12 @@ $(document).ready(function () {
 			currentPost.find(".under__posts__elements").css("display", "block");
 
 
+
+			$(".alert__update__post").fadeIn(500);
+			setTimeout(function () {
+				$(".alert__update__post").fadeOut(500);
+			}, 1000);
+
 		});
 
 

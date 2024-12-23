@@ -498,3 +498,7 @@ hr{
 	padding: 5px !important;
 }
 
+
+.alert__update__post{
+	z-index: 120;
+}
