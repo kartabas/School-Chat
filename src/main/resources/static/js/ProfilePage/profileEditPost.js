@@ -2,7 +2,7 @@ const updatePost = 'http://localhost:8080/profile/updatepost/';
 
 $(document).ready(function () {
 	let isClicked = false;
-	
+
 
 
 
@@ -10,6 +10,8 @@ $(document).ready(function () {
 		e.preventDefault();
 		let isClicked = false;
 		let oldTextPost = $(this).closest('.post__box').find('.post__text').text();
+		let currentPostImg = $(this).closest('.post__box').find('.post__fotos__img').attr("src");
+
 		let postUpdateInputImg;
 		let postUpdateData = [];
 
@@ -107,7 +109,9 @@ $(document).ready(function () {
 		});
 
 		$("#cancelUpdatePost").click(function () {
-			$(".post__text").html(oldTextPost);
+			$(".post__text").html("<h5>" + oldTextPost + "</h5>");
+
+
 			$("#postText").remove();
 			$(".post__fotosUploadImg").remove();
 			currentPost.find(".post__fotos").hover(function () {
@@ -120,13 +124,28 @@ $(document).ready(function () {
 		});
 
 
+
 		$("#savePost").click(function () {
+			if (postUpdateData[0] == " " || postUpdateData[0] == null) {
+				postUpdateData[0] = currentPostImg;
+
+			}
+
+			// alert("postUpdateData[0]: " + postUpdateData[0]);
 
 
 			//Post Text update
 			let postText = currentPost.find('#postText').val();
 			currentPost.find(".post__text").append("<h5>" + postText + "</h5>");
-			postUpdateData.push(postText);
+
+
+			if (postText == "") {
+				postUpdateData[1] = oldTextPost;
+				currentPost.find(".post__text").append("<h5>" + oldTextPost + "</h5>");
+			} else {
+				postUpdateData.push(postText);
+			}
+			// alert("postUpdateData[1]: " + postUpdateData[1]);
 
 			let updatePostTime = new Date().toLocaleTimeString() + " " + new Date().toLocaleDateString();
 			postUpdateData.push(updatePostTime);
