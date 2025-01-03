@@ -404,7 +404,7 @@ hr{
 .post__fotos img{
 	width: 650px;
 	position: relative;
-	z-index: 100;
+	z-index: 70;
 }
 
 

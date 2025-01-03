@@ -101,7 +101,11 @@ $(document).ready(function () {
 			  </div><!-- under__posts__elements -->
 		</div><!-- post__box -->
 		`;
-		$(".main__posts__container").prepend(newPostBlock);
+
+
+		// $(".main__posts__container").prepend(newPostBlock);
+		$(".main__posts__container").append(newPostBlock);
+
 
 	}
 
@@ -115,19 +119,38 @@ $(document).ready(function () {
 			return response.json();
 		})
 		.then(data => {
+			data.sort((a, b) => {
+				let [timeA, dateA] = a.sendTime.split(" ");
+				let [timeB, dateB] = b.sendTime.split(" ");
+
+				dateA = dateA.split('.').reverse().join('-');
+				dateB = dateB.split('.').reverse().join('-');
+
+				let fullDateA = new Date(`${dateA}T${timeA}`);
+				let fullDateB = new Date(`${dateB}T${timeB}`);
+
+				return fullDateA - fullDateB;
+			});
+
 			console.log(data);
+			// data.forEach(post => {
+			// 	console.log(post.sendTime);
+			// });
+
 
 			data.forEach(post => {
 				let dataProfileImg = getProfileAvatar(post.usersModel);
 				let defaultLinkAvatar = '../../fotos/profile/userIcon.png';
 				dataProfileImg.then(dataProfileImg => {
-					if (dataProfileImg == null || dataProfileImg == " " || dataProfileImg == "" ) {
+
+					if (dataProfileImg == null || dataProfileImg == " " || dataProfileImg == "") {
+
 						createPostBlock(post, defaultLinkAvatar);
 
-					}else {
+					} else {
 						createPostBlock(post, dataProfileImg);
 					}
-					
+
 				});
 				// createPostBlock(post, defaultLinkAvatar);
 			});

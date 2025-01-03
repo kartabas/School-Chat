@@ -118,7 +118,17 @@ public class HomeController extends HttpServlet {
 
 		HttpSession session = request.getSession();
 		UsersModel usersModel = (UsersModel) session.getAttribute("userLogin");
+
+		// List<PostModel> sortedPosts =
+		// postService.getAllSchoolPosts(usersModel.getSchoolId()).stream()
+		// .sorted(Comparator.comparing(PostModel::getSendTime).reversed())
+		// .collect(Collectors.toList());
+
+		// System.out.println("All posts per school (HomeController): " + sortedPosts);
+
 		return postService.getAllSchoolPosts(usersModel.getSchoolId());
+		// return sortedPosts;
+
 	}
 
 	@GetMapping("/alluserposts/{id}")
