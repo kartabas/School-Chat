@@ -451,6 +451,7 @@ hr{
 }
 
 
+
 .under__posts__elements .nav-link:hover {
 	transform: scale(1.05);
 }
@@ -501,4 +502,21 @@ hr{
 
 .alert__update__post{
 	z-index: 120;
+}
+
+
+.comment__box{
+	width: 95%;
+	height: 75%;
+
+	justify-content: middle;
+	position: absolute;
+	top: 55px;
+
+	display: none;
+	z-index: 150;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding: 5px;	
+	background-color: aqua;
 }

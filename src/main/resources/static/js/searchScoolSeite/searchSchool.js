@@ -56,7 +56,7 @@ $(document).ready(function () {
 		let index = $(".json__object").index(this);
 
 
-		let currentSchool = Schools[index];
+		let currentSchool = schools[index];
 
 		console.log(currentSchool);
 		//$('#currentSchool').val(currentSchool);
