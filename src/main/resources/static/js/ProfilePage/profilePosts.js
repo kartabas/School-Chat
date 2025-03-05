@@ -69,7 +69,7 @@ $(document).ready(function () {
 			  <div class="under__posts__elements">
 					 <ul class="nav justify-content-let">
 							 <li class="nav-item me-4">
-									<button class="nav-link btn active"  id="sendCommentBtn"><img src="../../../fotos/profile/Comment.png" alt="icon"><span class="commentCount">0</span></button>
+									<button class="nav-link btn  showCommentsBtn"  ><img src="../../../fotos/profile/Comment.png" alt="icon"><span class="commentCount">0</span></button>
 							 </li>
 							 <li class="nav-item me-4">
 									<button class="nav-link" id="defaultLike"><img src="../../../fotos/profile/DefaultLike.png" alt="icon" class="defaultLikeImg"><span>0</span></button>
