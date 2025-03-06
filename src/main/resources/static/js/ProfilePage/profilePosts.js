@@ -136,7 +136,7 @@ $(document).ready(function () {
 																						<!-- Comment 2 -->
 												<div class="comment-box">
 													<div class="d-flex gap-3">
-														<img src="https://randomuser.me/api/portraits/men/9.jpg" alt="User Avatar" class="user-avatar">
+														<img src="${dataProfileImg.profileImage}" alt="User Avatar" class="user-avatar">
 														<div class="flex-grow-1">
 																<div class="d-flex justify-content-between align-items-center mb-2">
 																	<h6 class="mb-0">Mike Johnson</h6>
