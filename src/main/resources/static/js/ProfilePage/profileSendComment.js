@@ -35,8 +35,15 @@ $(document).ready(function () {
 
 
 
+	//TODO comments show for all posts
+
 
 	$(document).on("click", ".comment__box__button", function () {
+
+		let postBox = $(this).closest(".post__box");
+		postId = postBox.find(".postId").val();
+
+
 		let commentText = $(this).closest(".comment__box").find(".comment__box__input__text").val();
 		console.log("commentText: " + commentText);
 
@@ -44,16 +51,17 @@ $(document).ready(function () {
 
 		if (commentText == " " || commentText.length == 0 || commentText == null) {
 
-			$(this).closest(".comment__box").find(".comment__box__input__text").attr("placeholder", "Please enter a comment");
+			$(this).closest(".comment__box").find(".comment__box__input__text").attr("placeholder", "Please enter a comment...");
 
 
 		} else {
 
 			$(this).closest(".post__box").find(".commentCount").text(++commentCount);
 
-			let postId = $(this).closest(".post__box").find(".postId").val();
+			postId = $(this).closest(".post__box").find(".postId").val();
 			console.log("postId: " + postId);
-			$(".comments-list").append(`
+
+			$(this).closest(".post__box").find(".comments-list").append(`
 				<div class="comment-box">
 					<div class="d-flex gap-3">
 						<img src="https://randomuser.me/api/portraits/men/9.jpg" alt="User Avatar" class="user-avatar">
