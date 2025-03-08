@@ -79,93 +79,34 @@ $(document).ready(function () {
 							 </li>
 					 </ul>
 			  </div><!-- under__posts__elements -->
-			  <div class="comment__box">
+			  	<div class="comment__box">
 
 						<div class="container">
 							<div class="comment-section">
 
 
-								<!-- Comments List -->
-										<div class="comments-list">
+									<!-- Comments List -->
+									<div class="comments-list">
 
-												<!-- Comment 2 -->
-												<div class="comment-box">
-													<div class="d-flex gap-3">
-														<img src="https://randomuser.me/api/portraits/men/9.jpg" alt="User Avatar" class="user-avatar">
-														<div class="flex-grow-1">
-																<div class="d-flex justify-content-between align-items-center mb-2">
-																	<h6 class="mb-0">Mike Johnson</h6>
-																	<span class="comment-time">3 hours ago</span>
+												</div>
+
+												<!-- New Comment Form -->
+												<div class="mb-4">
+														<div class="d-flex gap-3">
+															<img src="${dataProfileImg.profileImage}" alt="User Avatar" class="user-avatar">
+															<div class="flex-grow-1">
+																<textarea class="form-control comment-input comment__box__input__text" rows="1" placeholder="Write a comment..."></textarea>
+																<div class="mt-3 text-end">
+																		<button class="btn btn-comment comment__box__button text-white">Post Comment</button>
 																</div>
-																<p class="mb-2 comment__meassage" >Great discussion everyone! I'd like to add that this topic has many
-																	interesting aspects we could explore further.</p>
+															</div>
 														</div>
-													</div>
 												</div>
 												
-																								<!-- Comment 2 -->
-												<div class="comment-box">
-													<div class="d-flex gap-3">
-														<img src="https://randomuser.me/api/portraits/men/9.jpg" alt="User Avatar" class="user-avatar">
-														<div class="flex-grow-1">
-																<div class="d-flex justify-content-between align-items-center mb-2">
-																	<h6 class="mb-0">Mike Johnson</h6>
-																	<span class="comment-time">3 hours ago</span>
-																</div>
-																<p class="mb-2 comment__meassage" >Great discussion everyone! I'd like to add that this topic has many
-																	interesting aspects we could explore further.</p>
-														</div>
-													</div>
-												</div>
-
-																						<!-- Comment 2 -->
-												<div class="comment-box">
-													<div class="d-flex gap-3">
-														<img src="https://randomuser.me/api/portraits/men/9.jpg" alt="User Avatar" class="user-avatar">
-														<div class="flex-grow-1">
-																<div class="d-flex justify-content-between align-items-center mb-2">
-																	<h6 class="mb-0">Mike Johnson</h6>
-																	<span class="comment-time">3 hours ago</span>
-																</div>
-																<p class="mb-2 comment__meassage" >Great discussion everyone! I'd like to add that this topic has many
-																	interesting aspects we could explore further.</p>
-														</div>
-													</div>
-												</div>
-
-																						<!-- Comment 2 -->
-												<div class="comment-box">
-													<div class="d-flex gap-3">
-														<img src="${dataProfileImg.profileImage}" alt="User Avatar" class="user-avatar">
-														<div class="flex-grow-1">
-																<div class="d-flex justify-content-between align-items-center mb-2">
-																	<h6 class="mb-0">Mike Johnson</h6>
-																	<span class="comment-time">3 hours ago</span>
-																</div>
-																<p class="mb-2 comment__meassage" >Great discussion everyone! I'd like to add that this topic has many
-																	interesting aspects we could explore further.</p>
-														</div>
-													</div>
-												</div>
-										</div>
-
-								<!-- New Comment Form -->
-								<div class="mb-4">
-										<div class="d-flex gap-3">
-											<img src="${dataProfileImg.profileImage}" alt="User Avatar" class="user-avatar">
-											<div class="flex-grow-1">
-												<textarea class="form-control comment-input comment__box__input__text" rows="1" placeholder="Write a comment..."></textarea>
-												<div class="mt-3 text-end">
-														<button class="btn btn-comment comment__box__button text-white">Post Comment</button>
-												</div>
-											</div>
-										</div>
-								</div>
-								
+									</div>
 							</div>
-						</div>
-				</div> 
-			  </div>
+						</div> 
+
 		</div><!-- post__box -->
 		`;
 		$(".posts__container").prepend(newPostBlock);

@@ -89,7 +89,7 @@ $(document).ready(function () {
 			  <div class="under__posts__elements">
 					 <ul class="nav justify-content-let">
 							 <li class="nav-item me-4">
-									<button class="nav-link active" ><img src="../../fotos/profile/Comment.png" alt="icon">0</button>
+									<button class="nav-link showCommentsBtn" ><img src="../../fotos/profile/Comment.png" alt="icon"><span class="commentCount">0</span></button>
 							 </li>
 							 <li class="nav-item me-4">
 									<button class="nav-link" id="defaultLike"><img src="../../fotos/profile/DefaultLike.png" alt="icon" class="defaultLikeImg"><span>0</span></button>
@@ -99,6 +99,30 @@ $(document).ready(function () {
 							 </li>
 					 </ul>
 			  </div><!-- under__posts__elements -->
+			  //TODO fix comment show on home page
+			  	<div class="comment__box">
+
+						<div class="container">
+							<div class="comment-section">
+									<!-- Comments List -->
+									<div class="comments-list"></div>
+
+										<!-- New Comment Form -->
+										<div class="mb-4">
+												<div class="d-flex gap-3">
+													<img src="${dataProfileImg.profileImage}" alt="User Avatar" class="user-avatar">
+													<div class="flex-grow-1">
+														<textarea class="form-control comment-input comment__box__input__text" rows="1" placeholder="Write a comment..."></textarea>
+														<div class="mt-3 text-end">
+																<button class="btn btn-comment comment__box__button text-white">Post Comment</button>
+														</div>
+													</div>
+												</div>
+										</div>
+												
+									</div>
+							</div>
+			  	</div>  <!-- comment__box -->
 		</div><!-- post__box -->
 		`;
 

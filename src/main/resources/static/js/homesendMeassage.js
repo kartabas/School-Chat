@@ -55,6 +55,7 @@ $(document).ready(function () {
 							 </li>
 					 </ul>
 			  </div><!-- under__posts__elements -->
+			  
 		</div><!-- post__box -->
 		`;
 
@@ -72,7 +73,7 @@ $(document).ready(function () {
 			headers: {
 				'Content-Type': 'application/json',
 			},
-			body: JSON.stringify(dataToSend),
+			body:  JSON.stringify(dataToSend),
 		})
 			.then(response => response.json())
 			.then(data => {

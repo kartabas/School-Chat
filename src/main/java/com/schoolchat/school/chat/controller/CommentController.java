@@ -8,12 +8,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.CommentModels.CommentModel;
-import com.schoolchat.school.chat.model.homeModels.ProfileModel;
 import com.schoolchat.school.chat.repository.CommentRepository.CommentRepository;
 import com.schoolchat.school.chat.service.CommentService.CommentService;
 
@@ -23,7 +24,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 @Controller
-@RequestMapping({ "/profile/comment", "/home/comment"})
+@RequestMapping({ "/profile/comment", "/home/comment" })
 public class CommentController extends HttpServlet {
 	@Autowired
 	private CommentService commentService;
@@ -51,25 +52,30 @@ public class CommentController extends HttpServlet {
 	@GetMapping("/postcomments/{postId}")
 	@ResponseBody
 	public List<CommentModel> getCommentsUnderPost(@PathVariable Long postId) {
-		if(commentService.getListCommentsUnderPost(postId) == null) {
+		if (commentService.getListCommentsUnderPost(postId) == null) {
 			return null;
 
 		}
 		return commentService.getListCommentsUnderPost(postId);
 	}
 
-	@GetMapping("/save")
-	public CommentModel saveComment(Long postId, ProfileModel profileModel, String message,
-			String sendTime, HttpServletRequest request, HttpServletResponse response) {
+	@PostMapping("/savecomment")
+	public ResponseEntity<?> saveComment(@RequestBody CommentModel sendComment, HttpServletRequest request,
+			HttpServletResponse response) {
+		System.out.println("saveComment: " + sendComment.getCommentMessage());
 
 		HttpSession session = request.getSession();
 		if (session != null) {
 			UsersModel userId = (UsersModel) session.getAttribute("userLogin");
+			commentService.saveUserComment(sendComment.getPostId(), userId,
+					sendComment.getProfileModel(),
+					sendComment.getCommentMessage(), sendComment.getCommentTime());
+			return ResponseEntity.ok().build();
 
-			return commentService.saveUserComment(postId, userId, profileModel, message, sendTime);
 		} else {
-			return null;
+			return ResponseEntity.badRequest().build();
 		}
+
 	}
 
 	@DeleteMapping("/delete/{id}")

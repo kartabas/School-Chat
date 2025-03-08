@@ -1,9 +1,9 @@
-const allCommentsUnderPost = "http://localhost:8080/profile/comment/postcomments/"; // Must post ID be added to the end of the URL
+const allCommentsUnderPost = "http://localhost:8080/home/comment/postcomments/"; // Must post ID be added to the end of the URL
 
-const saveCommentUnderPost = "http://localhost:8080/profile/comment/savecomment";
+const saveCommentUnderPost = "http://localhost:8080/home/comment/savecomment";
 const profileAccountInfo = "http://localhost:8080/profile/"; // Must user ID be added to the end of the URL
 
-const deleteCemmentUnderPost = "http://localhost:8080/profile/comment/delete/"; // Must comment ID be added to the end of the URL
+const deleteCemmentUnderPost = "http://localhost:8080/home/comment/delete/"; // Must comment ID be added to the end of the URL
 
 let clickCommentPanelCount = 0;
 let commentCount;
