@@ -153,7 +153,8 @@
 			<div class="dropdown">
 				<a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle "
 					data-bs-toggle="dropdown" aria-expanded="false">
-					<img src="../../fotos/profile/userIcon.png" alt="" width="32" height="32" class="avatar rounded-circle me-2">
+					<img src="../../fotos/profile/userIcon.png" alt="" width="32" height="32"
+						class="avatar rounded-circle me-2">
 					<strong class=" sidebar__text sidebar__text__nickname" th:text="${userLogin.login}"
 						style="overflow:hidden;"></strong>
 					<!-- <input type="hidden" name="username_sidebar" id="username_sidebar" th:text="${userLogin.login}"> -->
@@ -203,7 +204,7 @@
 						</div>
 						<div class="send_post_block_message">
 							<div class="send_post_meassage">
-								
+
 								<textarea name="send_post_meassage" id="send_post_meassageInput" cols="auto" rows="auto"
 									placeholder="What's happening....."
 									style="color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;" autofocus
@@ -243,7 +244,7 @@
 									<input type="file" id="send_post_elements_img_fileInput"
 										name="send_post_elements_img_fileInput" multiple accept="image/png, image/jpeg"
 										style="display:none"> <!--INPUT IMAGES -->
-										<!--Todo fix bags with gif and mp4-->
+									<!--Todo fix bags with gif and mp4-->
 
 									<div class="send_post_elements_gif">
 										<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -387,7 +388,6 @@
 	<script th:inline="javascript">
 		let usersModel =/*[[${userLogin}]]*/ {};
 		// let userNickname =/*[[${userLogin.getLogin()}]]*/ {};
-
 	</script>
 	<script src="../../js/home.js"></script>
 	<script src="../../js/homesendMeassage.js"></script>
@@ -395,7 +395,9 @@
 	<script src="../../js/homeShowPosts.js"></script>
 
 	<script src="../../js/homeShowAvatar.js"></script>
+
 	<script src="../../js/homeSendComment.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 
 	<!--------------------Sidedar------------------------------------------------>
 	<script>

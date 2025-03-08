@@ -50,6 +50,7 @@ $(document).ready(function () {
 		let postImage = post.postImage;
 		let sendTime = post.sendTime;
 		let userNickname = await getUserNickname(post.usersModel);
+		let userAvatar = await getProfileAvatar(usersModel.id);
 
 		let newPostBlock = `
 		<div class="post__box" >
@@ -99,7 +100,7 @@ $(document).ready(function () {
 							 </li>
 					 </ul>
 			  </div><!-- under__posts__elements -->
-			  //TODO fix comment show on home page
+			  
 			  	<div class="comment__box">
 
 						<div class="container">
@@ -110,7 +111,7 @@ $(document).ready(function () {
 										<!-- New Comment Form -->
 										<div class="mb-4">
 												<div class="d-flex gap-3">
-													<img src="${dataProfileImg.profileImage}" alt="User Avatar" class="user-avatar">
+													<img src="${userAvatar}" alt="User Avatar" class="user-avatar">
 													<div class="flex-grow-1">
 														<textarea class="form-control comment-input comment__box__input__text" rows="1" placeholder="Write a comment..."></textarea>
 														<div class="mt-3 text-end">
