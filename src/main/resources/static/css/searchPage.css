@@ -159,6 +159,7 @@ body{
 
 #schoolForm{
     display:none;
+	 width: 100%;
 }
 
 .search_school{
@@ -197,7 +198,7 @@ body{
 	padding-bottom: 10px ;
 	position:relative;
     z-index:4;
-	
+	cursor: pointer;
 }
 
 .json__object:hover{

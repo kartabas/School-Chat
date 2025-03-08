@@ -1,7 +1,7 @@
-package com.schoolchat.school.chat.repository;
+package com.schoolchat.school.chat.repository.schoolRepository;
 
-import com.schoolchat.school.chat.Schools.JSON_Schools;
-import com.schoolchat.school.chat.Schools.SchoolModel;
+import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
+import com.schoolchat.school.chat.schoolService.JSON_Schools;
 
 import org.json.simple.JSONObject;
 import org.springframework.stereotype.Repository;
@@ -112,7 +112,7 @@ public class SchoolSearch {
 					newSchool.setState(state);
 					newSchool.setPhone(phone);
 					newSchool.setFax(fax);
-					System.out.println(name);
+					// System.out.println(name);
 					schoolList.add(newSchool);
 				}
 			}

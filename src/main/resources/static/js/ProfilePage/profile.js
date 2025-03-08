@@ -20,26 +20,31 @@ $(document).ready(function () {
 
 
 
-	$(".defaultLike").each(function () {
-		
-		$(this).data("clickCountLike", 0);
-  });
-
-  $(".defaultLike").click(function () {
-		
-		let clickCountLike = $(this).data("clickCountLike");
-		console.log($(this).data("clickCountLike"));
-		
-		if (clickCountLike < 1) {
-			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
-			 clickCountLike = 1;
-		} else {
-			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
-			 clickCountLike = 0;
+	$(document).on('click', '#defaultLike', function () {
+		if ($(this).data('clickCountLike') === undefined) {
+			$(this).data('clickCountLike', 0);
 		}
 
-		$(this).data("clickCountLike", clickCountLike);
-  });
+		let clickCountLike = $(this).data('clickCountLike');
+
+		
+		if (clickCountLike < 1) {
+
+			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
+			clickCountLike = 1;
+			$("#defaultLike span",this).html($("#defaultLike span",this).val() + clickCountLike);
+		} else {
+
+			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
+			clickCountLike = 0;
+			$("#defaultLike span",this).html($("#defaultLike span",this).val() - clickCountLike);
+		}
+
+
+		$(this).data('clickCountLike', clickCountLike);
+		console.log("Click count after: " + clickCountLike);
+	});
+
 
 
 

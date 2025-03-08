@@ -1,4 +1,4 @@
-package com.schoolchat.school.chat.Schools;
+package com.schoolchat.school.chat.schoolService;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

@@ -1,10 +1,10 @@
-package com.schoolchat.school.chat.Schools;
+package com.schoolchat.school.chat.model.schoolModels;
 
-import com.schoolchat.school.chat.model.UserCurrentSchoolModel;
 import jakarta.persistence.*;
 
 
 import java.nio.charset.StandardCharsets;
+
 import static org.hibernate.internal.util.config.ConfigurationHelper.extractValue;
 
 

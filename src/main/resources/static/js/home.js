@@ -23,46 +23,35 @@ $(document).ready(function () {
 
 
 
-	let clickCountLike = 0;
 
-	$(".defaultLike", this).click(function () {
-
-		if (clickCountLike < 1) {
-			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/SelectedLike.png");
-																
-			console.log("Click", clickCountLike);
-
-			clickCountLike++;
-		} else {
-			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/defaultLike.png");
-			console.log("Click ", clickCountLike);
-
-			clickCountLike = 0;
+	//-------------------------------Like-----------------------------
+	//TODO: Likes and Dislikes are not working fix this
+	$(document).on('click', '#defaultLike', function () {
+		if ($(this).data('clickCountLike') === undefined) {
+			$(this).data('clickCountLike', 0);
 		}
-	});
 
-	$(".defaultLike").each(function () {
+		let clickCountLike = $(this).data('clickCountLike');
 
-		$(this).data("clickCountLike", 0);
-	});
-
-	$(".defaultLike").click(function () {
-
-		let clickCountLike = $(this).data("clickCountLike");
-		console.log($(this).data("clickCountLike"));
 
 		if (clickCountLike < 1) {
-			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/SelectedLike.png");
-			$(this).css("color", "red");
+
+			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
 			clickCountLike = 1;
+			$("#defaultLike span", this).html($("#defaultLike span", this).val() + clickCountLike);
 		} else {
-			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/defaultLike.png");
-			$(this).css("color", "black");
+
+			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
 			clickCountLike = 0;
+			$("#defaultLike span", this).html($("#defaultLike span", this).val() - clickCountLike);
 		}
 
-		$(this).data("clickCountLike", clickCountLike);
+
+		$(this).data('clickCountLike', clickCountLike);
+		// console.log("Click count after: " + clickCountLike);
 	});
+
+	//-------------------------------Like-----------------------------
 
 
 	$('#sent_post_meassageInput').on('input', function () {
@@ -115,5 +104,13 @@ $(document).ready(function () {
 
 	});
 
+
+	$("#send_post_meassageInput").each(function () {
+		this.style.height = this.scrollHeight + "px";
+		this.style.overflowY = "hidden";
+	}).on("input", function () {
+		this.style.height = "auto";
+		this.style.height = this.scrollHeight + "px";
+	});
 
 });

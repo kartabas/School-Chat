@@ -78,6 +78,7 @@ main {
 	width: 10%;
 	height:auto;
 	
+
 	display: flex;
 	justify-content: left;
 	background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
@@ -87,6 +88,7 @@ main {
 	width: 65px;
 	height: 65px;
 	padding: 5px;
+	border-radius: 50%;
 	position: relative;
 	margin: auto;
 	top: -30px;
@@ -121,15 +123,15 @@ main {
 	min-height: 60px;
 	text-align: left;
 	
-
+	overflow-y: hidden;
+	resize: none;
 	
 	border-radius: 8px;
 	border: 1px solid #ddd;
 	padding: 0.5rem;
 	
 	box-shadow: inset 0 0 0.25rem #ddd;
-	overflow-y: hidden;
-	resize: none;
+
 
 	&:focus {
 		outline: none;
@@ -230,6 +232,7 @@ main {
 
 
 .post__box{
+	position: relative;
 	width: 850px;
 	height: auto;
 	border-radius: 20px;
@@ -265,6 +268,7 @@ main {
 .post__text{
 	padding-top: 10px;
 	padding-bottom: 10px;
+	word-wrap: break-word;
 }
 
 .post__ellipses{
@@ -367,4 +371,137 @@ main {
 
 .bd-mode-toggle .dropdown-menu .active .bi {
 	display: block !important;
+}
+
+
+
+/*---------------------------------------------------Comment section--------------------------------------------*/
+/*TODO comment fix on home page*/
+.post__box .comment__box{
+	width: 95%;
+	height: 76%;
+
+	justify-content: middle;
+	position: absolute;
+	top: 55px;
+
+	display: none;
+	z-index: 150;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding: 5px;	
+	background-color: white;
+	border: white 2px solid;
+	border-radius: 15px;
+
+	overflow-y: scroll;
+}
+
+
+
+
+
+
+
+.comment-section {
+	
+	max-height: 100%;
+	
+	padding: 20px;
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-bg);
+	border-radius: 15px;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.comment-box {
+	
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	transition: transform 0.2s;
+	border: 1px solid #e9ecef;
+}
+
+[data-bs-theme="dark"] .comment-section h6 {
+	color: white;
+
+}
+
+[data-bs-theme="dark"] .comment-section p {
+	color: white;
+
+}
+
+
+[data-bs-theme="light"] .comment-section h6  {
+	color: black;
+}
+
+[data-bs-theme="light"] .comment-section p  {
+	color: black;
+}
+
+.comment-box:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-avatar {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.comment-input {
+	border-radius: 20px;
+	padding: 15px 20px;
+	border: 2px solid #e9ecef;
+	transition: all 0.3s;
+}
+
+.comment-input:focus {
+	box-shadow: none;
+	border-color: #86b7fe;
+}
+
+.btn-comment {
+	border-radius: 20px;
+	padding: 8px 25px;
+	background: #0d6efd;
+	border: none;
+	transition: all 0.3s;
+}
+
+.btn-comment:hover {
+	background: #0b5ed7;
+	transform: translateY(-1px);
+}
+
+.comment-actions {
+	font-size: 0.9rem;
+}
+
+.comment-actions a {
+	color: #6c757d;
+	text-decoration: none;
+	margin-right: 15px;
+	transition: color 0.2s;
+}
+
+.comment-actions a:hover {
+	color: #0d6efd;
+}
+
+.comment-time {
+	color: #adb5bd;
+	font-size: 0.85rem;
+}
+
+
+.comment__meassage{
+
+	
 }

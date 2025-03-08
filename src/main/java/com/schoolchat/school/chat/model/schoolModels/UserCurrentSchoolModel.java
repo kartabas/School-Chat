@@ -1,9 +1,9 @@
-package com.schoolchat.school.chat.model;
+package com.schoolchat.school.chat.model.schoolModels;
 
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.schoolchat.school.chat.Schools.SchoolModel;
+
 import org.springframework.scheduling.annotation.Scheduled;
 
 public class UserCurrentSchoolModel  {

@@ -7,6 +7,11 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+		rel="stylesheet">
+
 
 	<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 	<link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
@@ -20,6 +25,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
+
+
 
 	<style>
 		/*--------------------Sidedar---------------------*/
@@ -52,12 +59,17 @@
 
 		}
 
-		.main__background_container {
-			width: 100%;
-			height: 30%;
-			background-image: url(../../../fotos/6SLzBEY.webp);
-			background-repeat: no-repeat;
+		.main__background_container img {
+
+
+
 			background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+		}
+
+		.main__background_container img {
+			width: 100%;
+			object-fit: cover;
+			height: 300px;
 		}
 
 		.main__profile_container {
@@ -66,6 +78,16 @@
 			padding: 10px;
 
 			background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+		}
+
+
+		.alert {
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 150;
+			display: none;
 		}
 	</style>
 </head>
@@ -136,6 +158,9 @@
 
 
 	<main class="d-flex flex-nowrap">
+
+
+
 		<!--------------------Sidedar------------------------------------------------>
 		<div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary col-auto  collapse collapse-horizontal  sidebar"
 			id="mySidebar" style="width: 280px; min-width:79px; ">
@@ -167,7 +192,7 @@
 				<li>
 					<a href="#" class="nav-link link-body-emphasis">
 						<svg class=" text-gray-800 dark:text-white" width="30px" height="30px" aria-hidden="true"
-							xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24">
+							xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
 							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
 								d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z" />
 						</svg>
@@ -183,8 +208,9 @@
 				<a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle "
 					data-bs-toggle="dropdown" aria-expanded="false">
 					<img src="../../../fotos/profile/userIcon.png" alt="" width="32" height="32"
-						class="rounded-circle me-2">
-					<strong class="sidebar__text" th:text="${userLogin.login}" style="overflow:hidden;">mdn</strong>
+						class="avatar rounded-circle me-2">
+					<strong class="sidebar__text sidebar__text__nickname" th:text="${userLogin.login}"
+						style="overflow:hidden;">mdn</strong>
 				</a>
 				<ul class="dropdown-menu text-small shadow">
 					<li><a class="dropdown-item" href="/settings">Settings</a></li>
@@ -192,12 +218,64 @@
 					<li>
 						<hr class="dropdown-divider">
 					</li>
-					<li><a class="dropdown-item" href="#">Sign out</a></li>
+					<li><a class="dropdown-item" href="/">Sign out</a></li>
 				</ul>
 			</div>
 		</div>
 
 		<!--------------------Sidedar------------------------------------------------>
+		<div class="update__profile__panel_background">
+			<div class="update__profile__panel">
+				<div class="update__profile__close">
+					<div class="update__profile__close_btn">
+						<img src="../../../fotos/profile/close.png" alt="Close">
+					</div>
+
+				</div>
+				<div class="update__profile__background">
+					<div class="update__profile__background_title">Update background image</div>
+					<button class="update__profile__background_btn btn btn-primary">Choose new background image</button>
+					<div class="show_update__profile__background"></div>
+
+					<input type="file" id="update__profile__background_img_fileInput"
+						name="update__profile__background_img_fileInput" multiple accept="image/png, image/jpeg"
+						style="display:none">
+				</div>
+
+				<div class="update__profile__avatar">
+					<div class="update__profile__avatar_title">Update avatar image</div>
+					<button class="update__profile__avatar_btn btn btn-primary">Choose new avatar image</button>
+					<div class="show_update__profile__avatar"></div>
+					<input type="file" id="update__profile__avatar_img_fileInput"
+						name="update__profile__avatar_img_fileInput" multiple accept="image/png, image/jpeg"
+						style="display:none">
+				</div>
+				<div class="update__profile__bio">
+					<div class="update__profile__bio_title">Update your bio </div>
+					<textarea name="update__profile__bio_img" id="update__profile__bio_img_fileInput" cols="100" rows="5"
+						placeholder="Write about you here...."
+						style="color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;" autofocus
+						maxlength="1000"></textarea>
+
+				</div>
+
+				<div class="update__profile__send">
+					<button class="update__profile__send_btn btn btn-primary">Update profile data</button>
+				</div>
+
+				<div class="alert alert-success" role="alert">
+					<h4 class="alert-heading">Well done!</h4>
+					<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit
+						longer
+						so that you can see how spacing within an alert works with this kind of content.</p>
+					<hr>
+					<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+				</div>
+			</div>
+		</div>
+
+
+
 
 		<!-------------------- Main ------------------------------------------------>
 		<div class="maim__container p-3">
@@ -212,14 +290,20 @@
 
 
 			<div class="main__background_container">
-
+				<img src="../../../fotos/profile/web-application.png" alt="">
 			</div>
 
 			<div class="main__profile_container container">
-				<div class="main__edit__profile">
-					<a name="editProfile" id="editProfile" class="btn btn-primary btn-lg" href="/profile/edit"
-						role="button">Edit profile</a>
-				</div><!--main__edit__profile-->
+				<div class="main__edit__profile_container">
+
+					<div class="main__edit__profile_button ">
+						<span id="editProfile" class="btn btn-primary btn-lg  ">Edit profile</span>
+					</div><!--main__edit__profile-->
+
+				</div><!--main__edit__profile_container-->
+
+
+
 
 
 				<div class="main_profile_avatar">
@@ -235,160 +319,13 @@
 						<h5 th:text="${userCurrentSchoolModel.name}">School name</h5>
 					</div>
 
+					<div class="profile__content__bio">
+
+					</div>
+
 				</div><!--main__profile__content-->
 
-
-
 				<div class="posts__container">
-
-					<div class="post__box">
-
-						<div class="post__header__container">
-
-							<div class="post__avatar">
-								<img src="../../../fotos/profile/userIcon.png"
-									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
-							</div>
-
-							<div class="post__nickname">
-								<h6 th:text="${userLogin.login}">mdn</h6>
-							</div>
-
-							<div class="post__ellipses  ">
-
-								<div class="dropdown open">
-									<button class="triggerIdButton btn btn-sm  " type="button" id="triggerId"
-										data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-										style="border: none;  ">
-										<img src="../../../fotos/profile/ellipsis.png" alt="">
-									</button>
-									<div class="dropdown-menu" aria-labelledby="triggerId">
-										<a class="dropdown-item" href="#">Delete</a>
-										<a class="dropdown-item" href="#">Edit</a>
-										<div class="dropdown-divider"></div>
-
-									</div>
-								</div>
-
-
-
-							</div>
-
-						</div><!--post__header__container-->
-
-
-						<div class="post__text">
-							<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe porro expedita minima
-								eligendi harum perferendis culpa, quibusdam molestias iste natus tempora tenetur blanditiis
-								aliquid eaque omnis impedit adipisci animi.</h5>
-						</div>
-						<div class="post__fotos">
-							<img src="../../../fotos/profile/web-application.png"
-								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-								alt="">
-						</div>
-						<div class="post__time">
-							<p class="post__time__text">00:39 , 29.07.2024 </p>
-						</div>
-
-						<div class="under__posts__elements ">
-							<ul class="nav justify-content-let">
-								<li class="nav-item me-4">
-									<button class="nav-link active" href="#"><img src="../../../fotos/profile/Comment.png"
-											alt=""> 123</button>
-								</li>
-								<li class="nav-item me-4">
-									<button class="defaultLike nav-link " href="#" >
-										<img src="../../../fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg">
-
-										789</button>
-								</li>
-								<li class="nav-item me-6">
-									<button class="nav-link " href="#"><img src="../../../fotos/profile/Share.png"
-											alt=""></button>
-
-								</li>
-							</ul>
-						</div><!--under__posts__elements-->
-
-
-					</div><!--post__box-->
-
-
-					<div class="post__box">
-
-						<div class="post__header__container">
-
-							<div class="post__avatar">
-								<img src="../../../fotos/profile/userIcon.png"
-									style="width: 49px; height: 49px; border-radius: 50%;" alt="">
-							</div>
-
-							<div class="post__nickname">
-								<h6 th:text="${userLogin.login}">mdn</h6>
-							</div>
-
-							<div class="post__ellipses  ">
-
-								<div class="dropdown open">
-									<button class="triggerIdButton btn btn-sm  " type="button" id="triggerId"
-										data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-										style="border: none;  ">
-										<img src="../../../fotos/profile/ellipsis.png" alt="">
-									</button>
-									<div class="dropdown-menu" aria-labelledby="triggerId">
-										<a class="dropdown-item" href="#">Delete</a>
-										<a class="dropdown-item" href="#">Edit</a>
-										<div class="dropdown-divider"></div>
-
-									</div>
-								</div>
-
-
-
-							</div>
-
-						</div><!--post__header__container-->
-
-
-						<div class="post__text">
-							<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe porro expedita minima
-								eligendi harum perferendis culpa, quibusdam molestias iste natus tempora tenetur blanditiis
-								aliquid eaque omnis impedit adipisci animi.</h5>
-						</div>
-						<div class="post__fotos">
-							<img src="../../../fotos/profile/web-application.png"
-								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-								alt="">
-						</div>
-						<div class="post__time">
-							<p class="post__time__text">00:39 , 29.07.2024 </p>
-						</div>
-
-						<div class="under__posts__elements ">
-							<ul class="nav justify-content-let">
-								<li class="nav-item me-4">
-									<button class="nav-link active" href="#"><img src="../../../fotos/profile/Comment.png"
-											alt=""> 123</button>
-								</li>
-								<li class="nav-item me-4">
-									<button class=" defaultLike nav-link " href="#" >
-										<img src="../../../fotos/profile/DefaultLike.png" alt="" class="defaultLikeImg">
-
-										789</button>
-								</li>
-								<li class="nav-item me-6">
-									<button class="nav-link " href="#"><img src="../../../fotos/profile/Share.png"
-											alt=""></button>
-								</li>
-							</ul>
-						</div><!--under__posts__elements-->
-
-
-					</div><!--post__box-->
-
-
-
 
 
 
@@ -451,6 +388,10 @@
 				</li>
 			</ul>
 		</div>
+		<div class="alert__update__post alert alert-success" role="alert">
+			<h4 class="alert-heading">Success!</h4>
+			<p>Post was successfully updated.</p>
+		</div>
 
 		<!--------------------Sidedar------------------------------------------------>
 	</main>
@@ -473,8 +414,29 @@
 
 	<script src="../../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 	<script src="../../../js/ProfilePage/profile.js"></script>
+	<script th:inline="javascript">
+		let usersModel =/*[[${userLogin}]]*/ {};
+		let userNickname =/*[[${userLogin.getLogin()}]]*/ {};
 
+
+	</script>
+	<script src="../../../js/ProfilePage/profileDataUser.js"></script>
+
+	<script src="../../../js/ProfilePage/profilePosts.js"></script>
+
+
+
+
+	<script src="../../../js/ProfilePage/editProfile.js"></script>
+	<script src="../../../js/ProfilePage/profileData.js"></script>
+	<script src="../../../js/ProfilePage/profileShowAvatar.js"></script>
+	<script src="../../../js/ProfilePage/profileDeletePost.js"></script>
+	<script src="../../../js/ProfilePage/profileEditPost.js"></script>
+	<script src="../../../js/ProfilePage/profileSendComment.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 	<!--------------------Sidedar------------------------------------------------>
+
+
 	<script>
 
 		(() => {

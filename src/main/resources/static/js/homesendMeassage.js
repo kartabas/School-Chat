@@ -1,8 +1,11 @@
+const postSendPost = 'http://localhost:8080/home/savepost';
+
+
 $(document).ready(function () {
 	let mysendImages = [];
 
 
-	function createPostBlock(meassageArray, imgUrl) {
+	async function createPostBlock(meassageArray) {
 		$(".send_post_meassage textarea").css("border", "2px solid #ddd");
 
 		let newPostBlock = `
@@ -12,7 +15,7 @@ $(document).ready(function () {
 							 <img src="../../fotos/profile/userIcon.png" style="width: 49px; height: 49px; border-radius: 50%;" alt="">
 					 </div>
 					 <div class="post__nickname">
-							 <h6>${meassageArray[1]}</h6>
+							 <h6 >${meassageArray[1]}</h6>
 					 </div>
 					 <div class="post__ellipses">
 							 <div class="dropdown open">
@@ -28,15 +31,15 @@ $(document).ready(function () {
 			  </div><!-- post__header__container -->
 
 			  <div class="post__text">
-					 <h5>${meassageArray[0]}</h5>
+					 <h5 th:field="*{meassage}">${meassageArray[0]}</h5>
 			  </div>
 			  
 			  <div class="post__fotos">
-					${imgUrl ? `<img src="${imgUrl}" alt="Image" />` : ""}
+					<img src="${meassageArray[4]}" alt="Image"  th:field="*{postImage}">
 			  </div>
 			  
 			  <div class="post__time">
-					 <p class="post__time__text">${new Date().toLocaleTimeString()}, ${new Date().toLocaleDateString()}</p>
+					 <p class="post__time__text" th:field="*{sendTime}">${meassageArray[3]}</p>
 			  </div>
 			  
 			  <div class="under__posts__elements">
@@ -52,10 +55,33 @@ $(document).ready(function () {
 							 </li>
 					 </ul>
 			  </div><!-- under__posts__elements -->
+			  
 		</div><!-- post__box -->
 		`;
 
 		$(".main__posts__container").prepend(newPostBlock);
+
+		// JavaScript code to send data to the Java backend
+		const dataToSend = {
+			meassage: meassageArray[0],
+			sendTime: meassageArray[3],
+			postImage: meassageArray[4],
+		};
+
+		fetch(postSendPost, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body:  JSON.stringify(dataToSend),
+		})
+			.then(response => response.json())
+			.then(data => {
+				console.log('Success:', data);
+			})
+			.catch(error => {
+				console.error('Error:', error);
+			});
 
 	}
 
@@ -65,51 +91,64 @@ $(document).ready(function () {
 
 
 	$("#send_post_elements_block_button").click(function () {
+
+
 		let meassageArray = [];
-	
+
 
 		let meassage = $("#send_post_meassageInput").val();
 		let nickname = $(".sidebar__text__nickname ").text();
 
 
-
 		let imgUrl = "";
 		if (meassage.length != 0 && meassage != " ") {
-
+			$(".send_post_meassage textarea").css("border", "1px solid #ddd");
+			let sendTime = new Date().toLocaleTimeString() + " " + new Date().toLocaleDateString();
 			meassageArray.push(meassage);
 			meassageArray.push(nickname);
 			meassageArray.push(mysendImages);
+			meassageArray.push(sendTime);
 
-			const file = meassageArray[2][0];
 
-			if (file) {
-				const reader = new FileReader();
+			if (meassageArray[2][0] == null) {
+				alert("No image selected");
 
-				reader.onload = function (e) {
-					imgUrl = e.target.result
-					createPostBlock(meassageArray, imgUrl);
+			} else {
+				const file = meassageArray[2][0];
+
+				if (file) {
+					const reader = new FileReader();
+
+					reader.onload = function (e) {
+						imgUrl = e.target.result
+						meassageArray.push(imgUrl);
+						createPostBlock(meassageArray);
+
+						// console.log("Meassage:" + meassageArray[4]);
+					}
+
+					reader.readAsDataURL(file)
+
 				}
 
-				reader.readAsDataURL(file)
-				
+				$(".send_post_meassage textarea").css("border", "2px solid #ddd");
+
+
+				$("#send_post_meassageInput").val('');
+				$(".send_post_elements_images").empty();
+				mysendImages = [];
+
 			}
 
-			console.log("Send meassageArray:" + meassageArray);
-
-			$(".send_post_meassage textarea").css("border", "2px solid #ddd");
-
-
-			$("#send_post_meassageInput").val('');
-			$(".send_post_elements_images").empty();
-			mysendImages = [];
-
 		} else {
-
 			$(".send_post_meassage textarea").css("border", "2px solid red");
-			alert("Meassage is empty!!!");
+			// alert("Meassage is empty!!!");
 
 		}
-		console.log("Meassage lenth:" + meassage.length);
+
+
+
+
 
 	});
 
@@ -138,7 +177,7 @@ $(document).ready(function () {
 
 
 		let file = event.target.files[0];
-		console.log(file);
+		// console.log(file);
 
 		if (file) {
 			mysendImages.push(file);
@@ -152,7 +191,8 @@ $(document).ready(function () {
 	});
 
 
-	console.log(mysendImages);
+
+	// console.log(mysendImages);
 
 
 

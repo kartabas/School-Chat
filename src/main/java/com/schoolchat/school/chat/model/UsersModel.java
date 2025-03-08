@@ -21,6 +21,8 @@ public class UsersModel {
 
     String email;
 
+	 
+	 @Column(name="school_id")
     String schoolId;
 
 

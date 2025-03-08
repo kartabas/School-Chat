@@ -79,33 +79,39 @@
 
 
 
-	<!-- 	For java-->
-	<!-- <script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script> -->
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
-	<script src="../../js/searchScoolSeite/searchSchoolSettings.js"></script>
-	<script src="../../js/searchScoolSeite/searchSchool.js"></script>
 
 	<script th:inline="javascript">
 		/*<![CDATA[*/
 		let arrayID = 0;
-		let Schools = [[${schools}]];
+		let schools = [[${ schools }]];
 
 
-		if (Schools != null) {
+		if (schools.length > 0) {
 			arrayID = 1;
+			// alert("Schools found: " + schools.length);
+			// $(".noFound span").remove();
+
+
+			console.log(schools + " found");
 		} else {
 			arrayID = 0;
+			$(".search-wrapper").addClass("error");
+			$(".noFound").html("<span>Your school not found...</span>");
+			console.log(schools + " no found");
 		}
 
 
 		/*]]>*/
 	</script>
 
+	<script src="../../js/searchScoolSeite/searchSchool.js"></script>
+	<script src="../../js/searchScoolSeite/searchSchoolSettings.js"></script>
+
+
+
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 
-	<!-- For vs code -->
-	<!-- <script src="../../static/js/Bibliothek/jquery-3.7.1.min.js"></script>
-	<script src="../../static/js/searchScoolSeite/searchSchool.js"></script> -->
 </body>
 
 </html>
