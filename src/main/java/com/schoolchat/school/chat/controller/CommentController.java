@@ -17,6 +17,7 @@ import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.CommentModels.CommentModel;
 import com.schoolchat.school.chat.repository.CommentRepository.CommentRepository;
 import com.schoolchat.school.chat.service.CommentService.CommentService;
+import com.schoolchat.school.chat.service.homeService.PostService;
 
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -28,6 +29,9 @@ import jakarta.servlet.http.HttpSession;
 public class CommentController extends HttpServlet {
 	@Autowired
 	private CommentService commentService;
+
+	@Autowired
+	private PostService postService;
 
 	@Autowired
 	private CommentRepository commentRepository;
@@ -51,12 +55,23 @@ public class CommentController extends HttpServlet {
 
 	@GetMapping("/postcomments/{postId}")
 	@ResponseBody
-	public List<CommentModel> getCommentsUnderPost(@PathVariable Long postId) {
+	public List<CommentModel> getCommentsUnderPost(@PathVariable Integer postId) {
 		if (commentService.getListCommentsUnderPost(postId) == null) {
 			return null;
 
 		}
 		return commentService.getListCommentsUnderPost(postId);
+	}
+
+	@GetMapping("/postcountcomments/{postId}")
+	@ResponseBody
+	public int getListCommentsUnderPost(@PathVariable Integer postId, HttpServletRequest request,
+			HttpServletResponse response) {
+		HttpSession session = request.getSession();
+		if (session != null) {
+			return postService.getCountCommentUnderPost(postId);
+		}
+		return 0;
 	}
 
 	@PostMapping("/savecomment")

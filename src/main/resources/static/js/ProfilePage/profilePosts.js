@@ -2,6 +2,7 @@
 // console.log("userNickname2: " + userNickname);
 const postsApiUrl = 'http://localhost:8080/profile/usersposts';
 const usersApiUrl = 'http://localhost:8080/profile/userinfo/';
+const getCountComments = 'http://localhost:8080/profile/comment/postcountcomments/';
 
 async function getUserNickname(userId) {
 	try {
@@ -25,7 +26,7 @@ $(document).ready(function () {
 		let postImage = post.postImage;
 		let sendTime = post.sendTime;
 		let userNickname = await getUserNickname(post.usersModel);
-
+		let commentCount = post.commentCount;
 
 		let newPostBlock = `
 		<div class="post__box">
@@ -69,8 +70,14 @@ $(document).ready(function () {
 			  <div class="under__posts__elements">
 					 <ul class="nav justify-content-let">
 							 <li class="nav-item me-4">
-									<button class="nav-link btn  showCommentsBtn"  ><img src="../../../fotos/profile/Comment.png" alt="icon"><span class="commentCount">0</span></button>
-							 </li>
+									<button class="nav-link btn  showCommentsBtn"  ><img src="../../../fotos/profile/Comment.png" alt="icon"><span class="commentCount" id="changeCommentCount">${
+										await fetch(getCountComments + post.postId)
+										.then(response => response.json())
+										.then(data => {
+											//console.log(data);
+											return data;
+										})}</span></button>
+										</li>
 							 <li class="nav-item me-4">
 									<button class="nav-link" id="defaultLike"><img src="../../../fotos/profile/DefaultLike.png" alt="icon" class="defaultLikeImg"><span>0</span></button>
 							 </li>
