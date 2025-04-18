@@ -74,7 +74,7 @@ $(document).ready(function () {
 
 
 	$(document).on("click", ".comment__box__button", function () {
-		$(this).closest(".comment__box").find(".comments-list").removeClass(".text-center");
+		
 		let commentArray = [];
 		let postBox = $(this).closest(".post__box");
 		let postId = postBox.find(".postId").val();
@@ -82,6 +82,11 @@ $(document).ready(function () {
 		let commentText = $(this).closest(".comment__box").find(".comment__box__input__text").val();
 		console.log("commentText: " + commentText);
 
+
+		postBox.find(".comments-list").empty();
+		console.log("text-center  was removed");
+
+		
 		commentArray.push(postId);
 		
 		fetch(profileAccountInfo + usersModel.id)

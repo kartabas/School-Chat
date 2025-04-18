@@ -82,6 +82,9 @@ $(document).ready(function () {
 		let commentText = $(this).closest(".comment__box").find(".comment__box__input__text").val();
 		console.log("commentText: " + commentText);
 
+		postBox.find(".comments-list").empty();
+		console.log("text-center  was removed");
+
 		commentArray.push(postId);
 
 		fetch(profileAccountInfo + usersModel.id)
