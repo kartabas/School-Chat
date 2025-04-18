@@ -33,7 +33,7 @@ $(document).ready(function () {
 				.then(response => response.json())
 				.then(data => {
 					console.log(data);
-					//TODO fix this after sending comments
+					
 					if (data.length == 0) {
 						postBox.find(".comments-list").append('<h1 class="text-center" style=" color: white;">No comments yet</h1>');
 					}
