@@ -71,6 +71,7 @@ $(document).ready(function () {
 	//-----------------------------------------------------------------------------------------------------------------------
 	// Region selector
 	const regions = [
+		"Alle Bundesländer",
 		"Baden-Württemberg",
 		"Bayern",
 		"Berlin",

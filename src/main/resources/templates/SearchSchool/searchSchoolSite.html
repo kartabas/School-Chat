@@ -149,7 +149,7 @@
 
 	<div class="region-selector">
 		<div class="region-selector-header" id="region-selector-toggle">
-			<div class="selected-region placeholder">Select a region</div>
+			<div class="selected-region placeholder " >Select a region</div>
 			<svg class="dropdown-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 				stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 				<polyline points="6 9 12 15 18 9"></polyline>
@@ -245,16 +245,16 @@
 	<script th:inline="javascript">
 		/*<![CDATA[*/
 		let arrayID = 0;
-		let schools = [[${ schools }]];
+		let schools =  /*[[${schools}]]*/[];
 
-
+		console.log(schools);;
 		if (schools.length > 0) {
 			arrayID = 1;
 			// alert("Schools found: " + schools.length);
 			// $(".noFound span").remove();
 
 
-			console.log(schools + " found");
+			//console.log(schools + " found");
 		} else {
 			arrayID = 0;
 			$(".search-wrapper").addClass("error");
