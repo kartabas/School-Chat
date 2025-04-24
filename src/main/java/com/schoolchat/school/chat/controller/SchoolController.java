@@ -34,12 +34,24 @@ public class SchoolController extends HttpServlet {
 	private UsersService usersService;
 
 	@GetMapping("/")
-	public String searchSchoolByName(Model model) {
+	public String searchSchoolByName(@ModelAttribute("region") String selectedRegionName, Model model,
+			HttpServletRequest request, HttpServletResponse response) {
+		HttpSession session = request.getSession();
 
-		JSON_Schools jsonSchools = new JSON_Schools();
+		if (selectedRegionName == null || selectedRegionName.isEmpty()) {
+
+			selectedRegionName = "bayern";
+			
+		}
+		JSON_Schools jsonSchools = new JSON_Schools(selectedRegionName);
+
 		SchoolSearch schoolSearch = new SchoolSearch();
+		System.out.println("region: " + selectedRegionName);
+		System.out.println("selectedRegionName: " + jsonSchools.getJSON_FILE());
 
-		model.addAttribute("JSON_file", jsonSchools.JSON_FILE);
+		session.setAttribute("jsonSchools", jsonSchools.getJSON_FILE());
+		model.addAttribute("JSON_file", jsonSchools);
+
 		model.addAttribute("searchSchoolRequest", new SchoolModel());
 
 		return "SearchSchool/searchSchoolSite";
@@ -48,10 +60,13 @@ public class SchoolController extends HttpServlet {
 	@PostMapping("/")
 	public String searchSchoolByNameAndPost(@ModelAttribute("searchSchoolRequest") SchoolModel schoolModel, Model model,
 			HttpServletRequest request, HttpServletResponse response) {
-				
+
 		HttpSession session = request.getSession();
 		System.out.println("Search School Work");
-		SchoolSearch schoolSearch = new SchoolSearch();
+		System.out.println("jsonRegionValue: " + session.getAttribute("jsonSchools"));
+		// TODO fix this code
+		SchoolSearch schoolSearch = new SchoolSearch((String) session.getAttribute("jsonSchools"));
+		// SchoolSearch schoolSearch = new SchoolSearch();
 
 		// Видає всі школи як обєкт з даними
 		// System.out.println("schools: " + schools);
@@ -60,7 +75,7 @@ public class SchoolController extends HttpServlet {
 		model.addAttribute("schools", schools);
 
 		return "SearchSchool/searchSchoolSite";
-
+		
 	}
 
 	@GetMapping("/user/{id}")

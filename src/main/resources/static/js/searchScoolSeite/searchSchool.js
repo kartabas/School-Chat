@@ -1,6 +1,4 @@
 
-
-
 let countClick = 0;
 $(document).ready(function () {
 
@@ -35,6 +33,7 @@ $(document).ready(function () {
 			$(".search-wrapper").removeClass("error");
 
 			countClick = 0;
+
 		}
 
 
@@ -68,6 +67,7 @@ $(document).ready(function () {
 
 
 
+
 	//-----------------------------------------------------------------------------------------------------------------------
 	// Region selector
 	const regions = [
@@ -91,8 +91,16 @@ $(document).ready(function () {
 	];
 
 
+
+	//TODO bag with region will show bayern
 	//Selected region
-	let selectedRegion = null;
+	let selectedRegion;
+	// if (history.state == null) {
+	// 	$('.selected-region').addClass('placeholder');
+	// } else {
+	// 	$('.selected-region').text(history.state).removeClass('placeholder');
+	// }
+
 
 	// Add region in the list
 	function renderRegions(regionList) {
@@ -151,11 +159,11 @@ $(document).ready(function () {
 	});
 
 	// Select region from the list
-	$(document).on('click', '.region-item', function () {
+	$(document).on('click', '.region-item', function (e) {
 		const region = $(this).data('region');
 
 		//Update selected region
-		selectedRegion = region;
+		selectedRegion = region.toLowerCase();
 
 		// Update the displayed region name
 		$('.selected-region').text(region).removeClass('placeholder');
@@ -164,15 +172,38 @@ $(document).ready(function () {
 		$('.dropdown-panel').slideUp(200);
 		$('.dropdown-icon').removeClass('open');
 
+		history.replaceState(region, null, null);
 
-		console.log("Вибраний регіон:", selectedRegion);
+		// URLSearch = new URL(window.location.href);
+		// URLSearch.searchParams.set('region', selectedRegion.toLowerCase());
+		// window.location.href = URLSearch.href;
+
+
+
+		let selectedRegionNameValue = selectedRegion.toLowerCase();
+		$.ajax({
+			url: 'http://localhost:8080/',
+			type: 'GET',
+			data: {
+				region: selectedRegionNameValue
+			}
+		}).done(function (response) {
+			console.log("selectedRegionName okey: ", selectedRegionNameValue);
+
+		})
+			.fail(function (error) {
+				console.error(error);
+			});
+
+
 
 
 		renderRegions(regions);
+
+
 	});
 
 	//-----------------------------------------------------------------------------------------------------------------------
-
 
 });
 

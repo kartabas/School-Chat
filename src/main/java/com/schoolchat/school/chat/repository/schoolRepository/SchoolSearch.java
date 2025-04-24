@@ -1,17 +1,26 @@
 package com.schoolchat.school.chat.repository.schoolRepository;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONObject;
+
 import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.schoolService.JSON_Schools;
 
-import org.json.simple.JSONObject;
-import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
-import java.nio.charset.StandardCharsets;
-
-import java.util.*;
-
 public class SchoolSearch {
 	JSON_Schools json_schools = new JSON_Schools();
+
+	public SchoolSearch() {
+
+	}
+
+	public SchoolSearch(String selectedRegionValue) {
+		this.json_schools.setJSON_FILEValue(selectedRegionValue);
+
+	}
+	
+
 	List<JSONObject> schools = json_schools.JSON_Schools();
 
 	public List<JSONObject> getAllSchools() {
@@ -33,16 +42,20 @@ public class SchoolSearch {
 	}
 
 	public List<SchoolModel> getAllSchoolsByOfficialId(String inputID) {
+
 		List<SchoolModel> schoolList = new ArrayList<>();
 
-		if (inputID != "") {
+		if (inputID != "" && inputID.contains("BY") || inputID.contains("BE") || inputID.contains("BW") ||
+				inputID.contains("HH") || inputID.contains("BB") || inputID.contains("HB") || inputID.contains("NI") ||
+				inputID.contains("HE") || inputID.contains("MV") || inputID.contains("NRW") || inputID.contains("RP") ||
+				inputID.contains("SL") || inputID.contains("ST") || inputID.contains("SN") || inputID.contains("SH")
+				|| inputID.contains("TH")) {
 			for (JSONObject school : schools) {
 				// Добавляю влястивості до класу SchoolModel
 				String official_id = (String) school.get("official_id");
 				String id = (String) school.get("id");
 
 				String name = (String) school.get("name");
-				
 
 				String schoolType = (String) school.get("schoolType");
 				String schoolTypeEntity = (String) school.get("schoolTypeEntity");
@@ -66,7 +79,7 @@ public class SchoolSearch {
 					newSchool.setState(state);
 					newSchool.setPhone(phone);
 					newSchool.setFax(fax);
-					
+
 					schoolList.add(newSchool);
 				}
 			}

@@ -1,55 +1,72 @@
 package com.schoolchat.school.chat.schoolService;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import java.nio.charset.StandardCharsets;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 public class JSON_Schools {
 
-    public static final String JSON_FILE="../School-Chat/src/main/resources/bayern.json";
-    private List<JSONObject> schoolObjects = new ArrayList<>();
+	public String JSON_FILE = "../School-Chat/src/main/resources/bayern.json";
 
+	private List<JSONObject> schoolObjects = new ArrayList<>();
 
-    public List<JSONObject> JSON_Schools(){
+	public JSON_Schools(String selectedRegion) {
+		this.setJSON_FILE(selectedRegion);
+	}
 
-        JSONParser jsonParser=new JSONParser();
+	public JSON_Schools() {
+		// this.JSON_FILE = "../School-Chat/src/main/resources/bayern.json";
+		this.JSON_FILE = this.JSON_FILE;
+	}
 
+	public List<JSONObject> JSON_Schools() {
 
-        try(FileReader reader =new FileReader(JSON_FILE)){
+		JSONParser jsonParser = new JSONParser();
 
-            Object obj = jsonParser.parse(reader);
+		try (FileReader reader = new FileReader(JSON_FILE)) {
 
-            JSONArray schoolList  = (JSONArray) obj;
+			Object obj = jsonParser.parse(reader);
 
+			JSONArray schoolList = (JSONArray) obj;
 
-            schoolList.forEach(sch -> {
-                JSONObject schoolObject = (JSONObject) sch;
-                schoolObjects.add(schoolObject);
-            });
+			schoolList.forEach(sch -> {
+				JSONObject schoolObject = (JSONObject) sch;
+				schoolObjects.add(schoolObject);
+			});
 
+		} catch (FileNotFoundException e) {
 
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
 
-        } catch (FileNotFoundException e) {
+		return schoolObjects;
+	}
 
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+	public String getJSON_FILE() {
+		return this.JSON_FILE;
+	}
 
+	// public List<JSONObject> getSchoolObjects() {
+	// return JSON_Schools.JSON_Schools();
+	// }
 
-        return schoolObjects;
-    }
+	public void setJSON_FILE(String region) {
+		this.JSON_FILE = "../School-Chat/src/main/resources/" + region + ".json";
+	}
 
+	public void setJSON_FILEValue(String JSON_FILE) {
+		this.JSON_FILE = JSON_FILE;
+	}
 
 }

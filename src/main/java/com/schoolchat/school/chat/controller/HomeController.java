@@ -61,15 +61,22 @@ public class HomeController extends HttpServlet {
 
 		if (session != null) {
 
-			if (usersModel.getId() == null) {
+			if (usersModel.getId() == null ) {
 				usersModel = (UsersModel) session.getAttribute("userLogin");
 
 			}
 
-			System.out.println(usersModel);
+			System.out.println("HomeController usersModel:  "+usersModel);
+
+
+			//TODO fix this part
 
 			SchoolSearch schoolSearch = new SchoolSearch();
 			String school = schoolSearch.getAllSchoolsByOfficialId(usersModel.getSchoolId()).toString();
+
+
+
+
 			SchoolModel userSchoolModel = new SchoolModel(school);
 
 			System.out.println("userSchoolModel:" + usersModel);

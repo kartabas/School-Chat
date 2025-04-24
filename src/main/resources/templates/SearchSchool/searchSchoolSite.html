@@ -149,7 +149,7 @@
 
 	<div class="region-selector">
 		<div class="region-selector-header" id="region-selector-toggle">
-			<div class="selected-region placeholder " >Select a region</div>
+			<div class="selected-region placeholder ">Select a region</div>
 			<svg class="dropdown-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 				stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 				<polyline points="6 9 12 15 18 9"></polyline>
@@ -188,11 +188,11 @@
 					autocomplete="off">
 
 					<input id="searchSchool" class="searchSchool" type="text"
-						placeholder="Search school by name or postal code or city" th:field="*{name}" autocomplete="off"
+						placeholder="Search school by name or postal code or city" th:field="*{name}" autocomplete="on"
 						required>
 
-					<button class="searchButton" id="searchButton" type="submit"><img src="../../fotos/submit.png"
-							alt="submit"></button>
+					<button class="searchButton" id="searchButton"><img src="../../fotos/submit.png" alt="submit"
+							type="submit"></button>
 
 				</form>
 
@@ -242,12 +242,43 @@
 
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 
+	<script>
+		$(document).ready(function () {
+			$('#searchForm').submit(function (event) {
+				event.preventDefault(); // Stop normal form submission
+				let searchSchoolRequest = $(this).serialize();
+				$.ajax({
+					url: "http://localhost:8080/",
+					type: 'POST',
+					data: searchSchoolRequest,
+					success: function (response) {
+						let parsedResponse = $('<div>').html(response);
+						let searchResult = parsedResponse.find('#searchResult');
+
+						//TODO fis this  !!!
+						// Update only #searchResult on the current page
+						$('#searchResult').empty(); // Clear previous results
+						$('#searchResult').html(searchResult.html());
+
+						// Optionally, clear input field
+						//$("#searchSchool").val('');
+
+						console.log(searchResult.html());
+						$("#schoolForm").css("display", "block"); // Show the form with search results
+					},
+					error: function (xhr, status, error) {
+						alert("An error occurred: " + error);
+					}
+				});
+			});
+		});
+	</script>
 	<script th:inline="javascript">
 		/*<![CDATA[*/
 		let arrayID = 0;
 		let schools =  /*[[${schools}]]*/[];
 
-		console.log(schools);;
+		console.log(schools);
 		if (schools.length > 0) {
 			arrayID = 1;
 			// alert("Schools found: " + schools.length);
@@ -265,6 +296,7 @@
 
 		/*]]>*/
 	</script>
+
 
 	<script src="../../js/searchScoolSeite/searchSchool.js"></script>
 	<script src="../../js/searchScoolSeite/searchSchoolSettings.js"></script>
