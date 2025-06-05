@@ -10,18 +10,19 @@ import com.schoolchat.school.chat.schoolService.JSON_Schools;
 
 public class SchoolSearch {
 	JSON_Schools json_schools = new JSON_Schools();
+	List<JSONObject> schools = json_schools.JSON_Schools();
 
 	public SchoolSearch() {
 
 	}
 
-	public SchoolSearch(String selectedRegionValue) {
-		this.json_schools.setJSON_FILEValue(selectedRegionValue);
-
+	public SchoolSearch(List<JSONObject> schools) {
+		this.schools = schools;
+		//System.out.println("Search School region: " + this.json_schools.getJSON_FILE());
 	}
 	
 
-	List<JSONObject> schools = json_schools.JSON_Schools();
+	
 
 	public List<JSONObject> getAllSchools() {
 		return schools;

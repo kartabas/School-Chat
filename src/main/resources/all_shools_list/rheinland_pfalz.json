@@ -9,8 +9,8 @@
 		"name": "Don-Bosco-Schule",
 		"official_id": "31327",
 		"phone": "(02641)34778",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -23,8 +23,8 @@
 		"name": "Levana-Schule",
 		"official_id": "31687",
 		"phone": "(02641)36611",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -37,8 +37,8 @@
 		"name": "Burgweg-Schule",
 		"official_id": "30622",
 		"phone": "(02636)929590",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -51,8 +51,8 @@
 		"name": "Janusz-Korczak-Schule",
 		"official_id": "30605",
 		"phone": "(02642)9790-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -65,8 +65,8 @@
 		"name": "Maximilian-Kolbe-Schule",
 		"official_id": "31344",
 		"phone": "(02741)22391",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -76,15 +76,15 @@
 		"id": "RP-31224",
 		"lat": 50.788676,
 		"lon": 7.720588,
-		"name": "Förderschule am Alserberg",
+		"name": "Foerderschule am Alserberg",
 		"official_id": "31224",
 		"phone": "(02742)3642",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Böhmer-Str. 14, 57537 Wissen",
+		"address": "Boehmer-Str. 14, 57537 Wissen",
 		"fax": "(02742)910704",
 		"full_time_school": true,
 		"id": "RP-31357",
@@ -93,8 +93,8 @@
 		"name": "Wilhelm-Busch-Schule",
 		"official_id": "31357",
 		"phone": "(02742)910703",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -104,11 +104,11 @@
 		"id": "RP-31270",
 		"lat": 49.743913,
 		"lon": 8.113122,
-		"name": "Löwenschule Alzey",
+		"name": "Loewenschule Alzey",
 		"official_id": "31270",
 		"phone": "(06731)990950",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -121,8 +121,8 @@
 		"name": "Volkerschule",
 		"official_id": "31447",
 		"phone": "(06731)7168",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -135,12 +135,12 @@
 		"name": "Wonnegauschule",
 		"official_id": "31673",
 		"phone": "(06242)7997",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Schloßmühle, 67317 Altleiningen",
+		"address": "Schlossmuehle, 67317 Altleiningen",
 		"fax": "(06356)963625",
 		"full_time_school": true,
 		"id": "RP-30289",
@@ -149,26 +149,26 @@
 		"name": "Heimschule St. Rafael",
 		"official_id": "30289",
 		"phone": "(06356)963670",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Sägmühle 4, 67098 Bad Dürkheim",
+		"address": "Saegmuehle 4, 67098 Bad Duerkheim",
 		"fax": "(06322)938292",
 		"full_time_school": true,
 		"id": "RP-30335",
 		"lat": 49.468377,
 		"lon": 8.178914,
-		"name": "Siegmund-Crämer-Schule",
+		"name": "Siegmund-Craemer-Schule",
 		"official_id": "30335",
 		"phone": "(06322)938290",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Friedelsheimerstr. 18, 67098 Bad Dürkheim",
+		"address": "Friedelsheimerstr. 18, 67098 Bad Duerkheim",
 		"fax": "(06322)947299",
 		"full_time_school": true,
 		"id": "RP-31014",
@@ -177,12 +177,12 @@
 		"name": "Limburgschule",
 		"official_id": "31014",
 		"phone": "(06322)947272",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Westring 62, 67269 Grünstadt",
+		"address": "Westring 62, 67269 Gruenstadt",
 		"fax": "(06359)92217",
 		"full_time_school": true,
 		"id": "RP-30515",
@@ -191,26 +191,26 @@
 		"name": "Hans-Zulliger-Schule",
 		"official_id": "30515",
 		"phone": "(06359)2777",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Jahnstr. 2, 67269 Grünstadt",
+		"address": "Jahnstr. 2, 67269 Gruenstadt",
 		"fax": "(06359)968415",
 		"full_time_school": true,
 		"id": "RP-31464",
 		"lat": 49.572089,
 		"lon": 8.163568,
-		"name": "Käthe-Kollwitz-Schule",
+		"name": "Kaethe-Kollwitz-Schule",
 		"official_id": "31464",
 		"phone": "(06359)96840",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Meckenheimer Str. 10, 67454 Haßloch",
+		"address": "Meckenheimer Str. 10, 67454 Hassloch",
 		"fax": "(06324)82336",
 		"full_time_school": true,
 		"id": "RP-31027",
@@ -219,8 +219,8 @@
 		"name": "Gottlieb-Wenz-Schule",
 		"official_id": "31027",
 		"phone": "(06324)2121",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -233,8 +233,8 @@
 		"name": "Bethesda Schule",
 		"official_id": "30109",
 		"phone": "(0671)6053352",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -247,8 +247,8 @@
 		"name": "Schule am Ellerbach",
 		"official_id": "30649",
 		"phone": "(0671)2984450",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -261,8 +261,8 @@
 		"name": "Don-Bosco-Schule",
 		"official_id": "31690",
 		"phone": "(0671)32211",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -272,11 +272,11 @@
 		"id": "RP-30652",
 		"lat": 49.784875,
 		"lon": 7.476871,
-		"name": "Wilhelm-Dröscher-Schule",
+		"name": "Wilhelm-Droescher-Schule",
 		"official_id": "30652",
 		"phone": "(06752)2046",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -289,12 +289,12 @@
 		"name": "Bodelschwingh Schule",
 		"official_id": "30082",
 		"phone": "(06753)10298",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 2, 55596 Schloßböckelheim",
+		"address": "Schulstr. 2, 55596 Schlossboeckelheim",
 		"fax": "(06758)804350",
 		"full_time_school": true,
 		"id": "RP-30665",
@@ -303,8 +303,8 @@
 		"name": "Burgschule",
 		"official_id": "30665",
 		"phone": "(06758)1345",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -317,8 +317,8 @@
 		"name": "Burg-Landshut-Schule",
 		"official_id": "30889",
 		"phone": "(06531)3939",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -331,8 +331,8 @@
 		"name": "Rosenberg-Schule",
 		"official_id": "31627",
 		"phone": "(06531)9719210",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -345,8 +345,8 @@
 		"name": "Martin-Luther-King-Schule",
 		"official_id": "31210",
 		"phone": "(06541)816730",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -356,11 +356,11 @@
 		"id": "RP-30305",
 		"lat": 49.98694,
 		"lon": 6.88972,
-		"name": "Maria-Grünewald-Schule",
+		"name": "Maria-Gruenewald-Schule",
 		"official_id": "30305",
 		"phone": "(06571)695302",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -373,8 +373,8 @@
 		"name": "Liesertal-Schule",
 		"official_id": "30893",
 		"phone": "(06571)91570",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -384,15 +384,15 @@
 		"id": "RP-30683",
 		"lat": 49.646273,
 		"lon": 7.173579,
-		"name": "Förderschule",
+		"name": "Foerderschule",
 		"official_id": "30683",
 		"phone": "(06782)2188",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Auf Weißborr 15, 55743 Idar-Oberstein",
+		"address": "Auf Weissborr 15, 55743 Idar-Oberstein",
 		"fax": "(06781)450362",
 		"full_time_school": true,
 		"id": "RP-30395",
@@ -401,8 +401,8 @@
 		"name": "Peter-Caesar-Schule",
 		"official_id": "30395",
 		"phone": "(06781)27842",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -412,11 +412,11 @@
 		"id": "RP-31360",
 		"lat": 49.718755,
 		"lon": 7.389442,
-		"name": "Förderschule",
+		"name": "Foerderschule",
 		"official_id": "31360",
 		"phone": "(06784)8915",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -426,11 +426,11 @@
 		"id": "RP-31870",
 		"lat": 49.718755,
 		"lon": 7.389442,
-		"name": "Förderschule",
+		"name": "Foerderschule",
 		"official_id": "31870",
 		"phone": "(06784)2372",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -443,12 +443,12 @@
 		"name": "Astrid-Lindgren-Schule",
 		"official_id": "30382",
 		"phone": "02671/987110",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "St. Martin-Str. 33, 56761 Düngenheim",
+		"address": "St. Martin-Str. 33, 56761 Duengenheim",
 		"fax": "(02653)598281",
 		"full_time_school": true,
 		"id": "RP-31704",
@@ -457,8 +457,8 @@
 		"name": "St. Martin-Heimschule",
 		"official_id": "31704",
 		"phone": "(02653)598190",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -471,8 +471,8 @@
 		"name": "Pommerbachschule",
 		"official_id": "30709",
 		"phone": "(02653)6631",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -485,8 +485,8 @@
 		"name": "Mathilde-Hitzfeld-Schule",
 		"official_id": "31030",
 		"phone": "(06352)1262",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -499,26 +499,26 @@
 		"name": "Herman-Nohl-Schule",
 		"official_id": "31747",
 		"phone": "(06352)408112",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Mühlackerweg 25a, 67806 Rockenhausen",
+		"address": "Muehlackerweg 25a, 67806 Rockenhausen",
 		"fax": "(06361)994870",
 		"full_time_school": true,
 		"id": "RP-31057",
 		"lat": 49.624818,
 		"lon": 7.822076,
-		"name": "Förderschule",
+		"name": "Foerderschule",
 		"official_id": "31057",
 		"phone": "(06361)5562",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Kölner Str. 14, 54634 Bitburg",
+		"address": "Koelner Str. 14, 54634 Bitburg",
 		"fax": "(06561)961420",
 		"full_time_school": true,
 		"id": "RP-30469",
@@ -527,8 +527,8 @@
 		"name": "St. Martin-Schule",
 		"official_id": "30469",
 		"phone": "(06561)96140",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -541,12 +541,12 @@
 		"name": "Maximin-Schule",
 		"official_id": "31390",
 		"phone": "(06561)94478-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Kolpingstr. 30, 54595 Prüm",
+		"address": "Kolpingstr. 30, 54595 Pruem",
 		"fax": "(06551)9516-40",
 		"full_time_school": true,
 		"id": "RP-31927",
@@ -555,8 +555,8 @@
 		"name": "Astrid-Lindgren-Schule",
 		"official_id": "31927",
 		"phone": "(06551)9516-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -569,8 +569,8 @@
 		"name": "Augustin-Violet-Schule",
 		"official_id": "30019",
 		"phone": "(06233)49090",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -583,8 +583,8 @@
 		"name": "Albert-Schweitzer-Schule",
 		"official_id": "30948",
 		"phone": "(06233)220439",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -597,8 +597,8 @@
 		"name": "Tom-Mutters-Schule",
 		"official_id": "31644",
 		"phone": "(06233)298484",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -611,12 +611,12 @@
 		"name": "Neumayer-Schule",
 		"official_id": "31810",
 		"phone": "(06233)21070",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Am Römerweg 2a, 76726 Germersheim",
+		"address": "Am Roemerweg 2a, 76726 Germersheim",
 		"fax": "(07274)3096",
 		"full_time_school": true,
 		"id": "RP-31943",
@@ -625,22 +625,22 @@
 		"name": "Nardini-/Bienwald Schule",
 		"official_id": "31943",
 		"phone": "(07274)3095",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 16, 76761 Rülzheim",
+		"address": "Schulstr. 16, 76761 Ruelzheim",
 		"fax": "(07272)919050",
 		"full_time_school": true,
 		"id": "RP-31600",
 		"lat": 49.148742,
 		"lon": 8.287198,
-		"name": "Förderschule",
+		"name": "Foerderschule",
 		"official_id": "31600",
 		"phone": "(07272)6413",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -653,8 +653,8 @@
 		"name": "Schule am Beilstein",
 		"official_id": "30485",
 		"phone": "(0631)3402552",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -667,8 +667,8 @@
 		"name": "Fritz-Walter-Schule",
 		"official_id": "31417",
 		"phone": "(0631)3505823",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -681,8 +681,8 @@
 		"name": "Hans-Zulliger-Schule",
 		"official_id": "31480",
 		"phone": "(06303)983443",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -692,11 +692,11 @@
 		"id": "RP-30575",
 		"lat": 49.41476,
 		"lon": 7.58046,
-		"name": "Förderschule",
+		"name": "Foerderschule",
 		"official_id": "30575",
 		"phone": "(06371)934263",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -709,8 +709,8 @@
 		"name": "Jakob-Weber-Schule",
 		"official_id": "31087",
 		"phone": "(06371)618160",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -723,8 +723,8 @@
 		"name": "Schule am Bienhorntal",
 		"official_id": "30409",
 		"phone": "(0261)79851",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -737,8 +737,8 @@
 		"name": "Hans-Zulliger-Schule",
 		"official_id": "30593",
 		"phone": "(0261) 96 35 810",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -751,8 +751,8 @@
 		"name": "Diesterweg-Schule",
 		"official_id": "31300",
 		"phone": "(0261)34160",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -765,8 +765,8 @@
 		"name": "Jakob-Muth-Schule",
 		"official_id": "30532",
 		"phone": "(06381)42864200",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -779,8 +779,8 @@
 		"name": "Jakob-Muth-Schule",
 		"official_id": "31090",
 		"phone": "(06381)42864-100",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -793,8 +793,8 @@
 		"name": "Janusz-Korczak-Schule",
 		"official_id": "31720",
 		"phone": "(06382)993689",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -807,8 +807,8 @@
 		"name": "Jakob-Reeb-Schule",
 		"official_id": "30095",
 		"phone": "(06341)9841300",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -821,8 +821,8 @@
 		"name": "St. Paulusstift",
 		"official_id": "30562",
 		"phone": "(06341)599441",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -835,12 +835,12 @@
 		"name": "Nordringschule",
 		"official_id": "30953",
 		"phone": "(06341)83102",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Münchener Str. 11, 76829 Landau in der Pfalz",
+		"address": "Muenchener Str. 11, 76829 Landau in der Pfalz",
 		"fax": "(06341)5 59 00 20",
 		"full_time_school": true,
 		"id": "RP-31807",
@@ -849,8 +849,8 @@
 		"name": "Paul-Moor-Schule",
 		"official_id": "31807",
 		"phone": "(06341)50324",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -863,12 +863,12 @@
 		"name": "Georgens-Schule",
 		"official_id": "30052",
 		"phone": "(0621)504401210",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Rheingönheimer Str. 103, 67065 Ludwigshafen am Rhein",
+		"address": "Rheingoenheimer Str. 103, 67065 Ludwigshafen am Rhein",
 		"fax": "(0621)504423997",
 		"full_time_school": false,
 		"id": "RP-31540",
@@ -877,8 +877,8 @@
 		"name": "Schillerschule",
 		"official_id": "31540",
 		"phone": "(0621)504423920",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -891,8 +891,8 @@
 		"name": "Schloss-Schule",
 		"official_id": "31554",
 		"phone": "(0621)504401710",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -905,8 +905,8 @@
 		"name": "Schule an der Blies",
 		"official_id": "31583",
 		"phone": "(0621)504420720",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -916,11 +916,11 @@
 		"id": "RP-31793",
 		"lat": 49.485476,
 		"lon": 8.362874,
-		"name": "Förderschule",
+		"name": "Foerderschule",
 		"official_id": "31793",
 		"phone": "(0621)67005171",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -933,8 +933,8 @@
 		"name": "Peter-Jordan-Schule",
 		"official_id": "30245",
 		"phone": "(06131)324732",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -944,11 +944,11 @@
 		"id": "RP-30979",
 		"lat": 49.976554,
 		"lon": 8.264675,
-		"name": "Windmühlenschule",
+		"name": "Windmuehlenschule",
 		"official_id": "30979",
 		"phone": "(06131)53966",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -961,8 +961,8 @@
 		"name": "Astrid-Lindgren-Schule",
 		"official_id": "31717",
 		"phone": "(06131)324726",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -975,8 +975,8 @@
 		"name": "Rhein-Nahe-Schule",
 		"official_id": "31134",
 		"phone": "(06721)408780",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -989,8 +989,8 @@
 		"name": "Albert-Schweitzer-Schule",
 		"official_id": "31147",
 		"phone": "(06132)4354710",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1003,8 +1003,8 @@
 		"name": "Selztalschule",
 		"official_id": "31150",
 		"phone": "(06136)2395",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1014,11 +1014,11 @@
 		"id": "RP-31314",
 		"lat": 49.902521,
 		"lon": 8.194667,
-		"name": "Förderschule",
+		"name": "Foerderschule",
 		"official_id": "31314",
 		"phone": "(06136)75890",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1031,8 +1031,8 @@
 		"name": "Landskronschule",
 		"official_id": "31164",
 		"phone": "(06133)92430",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1045,12 +1045,12 @@
 		"name": "Elisabethen-Schule",
 		"official_id": "30559",
 		"phone": "(06701)200750",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Taubentränke, 56626 Andernach",
+		"address": "Taubentraenke, 56626 Andernach",
 		"fax": "(02632)987470-20",
 		"full_time_school": true,
 		"id": "RP-30725",
@@ -1059,8 +1059,8 @@
 		"name": "Elisabethschule",
 		"official_id": "30725",
 		"phone": "(02632)987470-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1073,8 +1073,8 @@
 		"name": "Theodor-Heuss-Schule",
 		"official_id": "30768",
 		"phone": "(02622)904980",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1087,8 +1087,8 @@
 		"name": "Anne-Frank-Schule",
 		"official_id": "30773",
 		"phone": "(02637)940234",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1101,8 +1101,8 @@
 		"name": "Genoveva-Schule",
 		"official_id": "30439",
 		"phone": "(02651)900513",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1115,8 +1115,8 @@
 		"name": "Elisabeth-Schule",
 		"official_id": "30742",
 		"phone": "(02651)900516",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1129,8 +1129,8 @@
 		"name": "Schule im Bernardshof",
 		"official_id": "31900",
 		"phone": "02651)8008-80/81",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1140,11 +1140,11 @@
 		"id": "RP-30322",
 		"lat": 50.285528,
 		"lon": 7.458622,
-		"name": "Herz-Jesu-Haus Kühr",
+		"name": "Herz-Jesu-Haus Kuehr",
 		"official_id": "30322",
 		"phone": "(02607)69176",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1157,12 +1157,12 @@
 		"name": "Stephanus-Schule",
 		"official_id": "30755",
 		"phone": "(02654)8817750",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Wiesenstr. 17, 67433 Neustadt an der Weinstraße",
+		"address": "Wiesenstr. 17, 67433 Neustadt an der Weinstrasse",
 		"fax": "(06321)921842",
 		"full_time_school": true,
 		"id": "RP-30983",
@@ -1171,12 +1171,12 @@
 		"name": "Schubert-Schule",
 		"official_id": "30983",
 		"phone": "(06321)921841",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Laurentiusstraße 1, 53567 Asbach",
+		"address": "Laurentiusstrasse 1, 53567 Asbach",
 		"fax": "(02683)94050-20",
 		"full_time_school": true,
 		"id": "RP-30786",
@@ -1185,8 +1185,8 @@
 		"name": "Albert-Schweitzer-Schule",
 		"official_id": "30786",
 		"phone": "(02683-940500",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1196,11 +1196,11 @@
 		"id": "RP-30185",
 		"lat": 50.454266,
 		"lon": 7.434007,
-		"name": "Landesschule für Blinde und",
+		"name": "Landesschule fuer Blinde und",
 		"official_id": "30185",
 		"phone": "(02631)970-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1210,11 +1210,11 @@
 		"id": "RP-30199",
 		"lat": 50.423841,
 		"lon": 7.471375,
-		"name": "Landesschule für Gehörlose und",
+		"name": "Landesschule fuer Gehoerlose und",
 		"official_id": "30199",
 		"phone": "(02631)3426-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1227,8 +1227,8 @@
 		"name": "Paul-Schneider-Schule",
 		"official_id": "30229",
 		"phone": "(02631)40130-35",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1241,8 +1241,8 @@
 		"name": "Christiane-Herzog-Schule",
 		"official_id": "30379",
 		"phone": "(02622)705-153",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1255,8 +1255,8 @@
 		"name": "Carl-Orff-Schule",
 		"official_id": "30442",
 		"phone": "(02622)3244",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1269,8 +1269,8 @@
 		"name": "Kinzing-Schule",
 		"official_id": "30802",
 		"phone": "(02631)96600",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1280,11 +1280,11 @@
 		"id": "RP-31194",
 		"lat": 50.447853,
 		"lon": 7.423946,
-		"name": "Brüder-Grimm-Schule",
+		"name": "Brueder-Grimm-Schule",
 		"official_id": "31194",
 		"phone": "(02631)975700",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1297,8 +1297,8 @@
 		"name": "Gustav-W.-Heinemann-Schule",
 		"official_id": "30815",
 		"phone": "(02684)950600",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1311,8 +1311,8 @@
 		"name": "Maximilian-Kolbe-Schule",
 		"official_id": "30799",
 		"phone": "(02635)911030",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1325,8 +1325,8 @@
 		"name": "Pirminiusschule",
 		"official_id": "30498",
 		"phone": "(06331)64605",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1339,8 +1339,8 @@
 		"name": "Matzenbergschule",
 		"official_id": "31420",
 		"phone": "(06331)24050",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1353,8 +1353,8 @@
 		"name": "Helene-Pagés-Schule",
 		"official_id": "31374",
 		"phone": "(06742)801590",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1367,22 +1367,22 @@
 		"name": "Theodor-Heuss-Schule",
 		"official_id": "30455",
 		"phone": "(06762)8551",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Herzog-Reichard-Str. 9, 55469 Simmern/ Hunsrück",
+		"address": "Herzog-Reichard-Str. 9, 55469 Simmern/ Hunsrueck",
 		"fax": "(06761)91618-13",
 		"full_time_school": true,
 		"id": "RP-30845",
 		"lat": 49.983383,
 		"lon": 7.516244,
-		"name": "Hunsrückschule",
+		"name": "Hunsrueckschule",
 		"official_id": "30845",
 		"phone": "(06761)91618-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1395,12 +1395,12 @@
 		"name": "Freiherr-vom-Stein-Schule",
 		"official_id": "30858",
 		"phone": "(02621)92170",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 18, 56355 Nastätten",
+		"address": "Schulstr. 18, 56355 Nastaetten",
 		"fax": "(06772)953415",
 		"full_time_school": true,
 		"id": "RP-30863",
@@ -1409,26 +1409,26 @@
 		"name": "Taunusschule",
 		"official_id": "30863",
 		"phone": "(06772)1707",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Erich Kästner-Str. 5, 56379 Singhofen",
+		"address": "Erich Kaestner-Str. 5, 56379 Singhofen",
 		"fax": "(02604)943715",
 		"full_time_school": true,
 		"id": "RP-31780",
 		"lat": 50.276558,
 		"lon": 7.832303,
-		"name": "Erich Kästner-Schule",
+		"name": "Erich Kaestner-Schule",
 		"official_id": "31780",
 		"phone": "(02604)9437-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Erich-Kästner-Str. 7, 56379 Singhofen",
+		"address": "Erich-Kaestner-Str. 7, 56379 Singhofen",
 		"fax": "(02604)9437-19",
 		"full_time_school": true,
 		"id": "RP-31853",
@@ -1437,12 +1437,12 @@
 		"name": "Oranienschule",
 		"official_id": "31853",
 		"phone": "(02604)9437-12",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Jägerstr. 18, 67105 Schifferstadt",
+		"address": "Jaegerstr. 18, 67105 Schifferstadt",
 		"fax": "06235/490484",
 		"full_time_school": true,
 		"id": "RP-31120",
@@ -1451,8 +1451,8 @@
 		"name": "Salierschule",
 		"official_id": "31120",
 		"phone": "06235/49049",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1465,8 +1465,8 @@
 		"name": "Johann-Heinrich-Pestalozzi",
 		"official_id": "30049",
 		"phone": "(06232)539985",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1479,8 +1479,8 @@
 		"name": "Schule im Erlich",
 		"official_id": "30996",
 		"phone": "(06232)635372",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1493,8 +1493,8 @@
 		"name": "Staufer-Schulzentrum",
 		"official_id": "31117",
 		"phone": "(06346)965120",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1507,8 +1507,8 @@
 		"name": "Altenbergschule",
 		"official_id": "31510",
 		"phone": "(06343)8176",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1521,12 +1521,12 @@
 		"name": "St. Laurentius-Schule",
 		"official_id": "30065",
 		"phone": "(07276)970140",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Schöndorfer Str. 2, 54292 Trier",
+		"address": "Schoendorfer Str. 2, 54292 Trier",
 		"fax": "(0651)140451",
 		"full_time_school": false,
 		"id": "RP-30139",
@@ -1535,8 +1535,8 @@
 		"name": "Privatschule St. Josef",
 		"official_id": "30139",
 		"phone": "(0651)28421",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1546,11 +1546,11 @@
 		"id": "RP-30202",
 		"lat": 49.739139,
 		"lon": 6.691777,
-		"name": "Wilhelm-Hubert-Cüppers-Schule",
+		"name": "Wilhelm-Hubert-Cueppers-Schule",
 		"official_id": "30202",
 		"phone": "(0651)910350",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1563,8 +1563,8 @@
 		"name": "Porta-Nigra-Schule",
 		"official_id": "31630",
 		"phone": "(0651)28011",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1577,8 +1577,8 @@
 		"name": "Treverer-Schule",
 		"official_id": "31777",
 		"phone": "(0651)32850",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1591,8 +1591,8 @@
 		"name": "Medard-Schule Trier",
 		"official_id": "31930",
 		"phone": "(0651)993796810",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1605,8 +1605,8 @@
 		"name": "St. Martinus-Schule",
 		"official_id": "30922",
 		"phone": "(06503)7606",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1619,8 +1619,8 @@
 		"name": "Levana-Schule",
 		"official_id": "30472",
 		"phone": "(06502)930920",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1633,8 +1633,8 @@
 		"name": "Meulenwald-Schule",
 		"official_id": "30876",
 		"phone": "(06502)910950",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1647,8 +1647,8 @@
 		"name": "Valdocco-Schule",
 		"official_id": "31914",
 		"phone": "(06506)899116",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1661,8 +1661,8 @@
 		"name": "Don Bosco-Schule",
 		"official_id": "31404",
 		"phone": "(06501)16432",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1675,8 +1675,8 @@
 		"name": "St. Laurentius-Schule",
 		"official_id": "30905",
 		"phone": "(06592)980113",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1686,11 +1686,11 @@
 		"id": "RP-31897",
 		"lat": 50.217001,
 		"lon": 6.661972,
-		"name": "Hubertus-Rader-Förderzentrum",
+		"name": "Hubertus-Rader-Foerderzentrum",
 		"official_id": "31897",
 		"phone": "(06591)4177",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1703,8 +1703,8 @@
 		"name": "Michael-Ende-Schule",
 		"official_id": "30829",
 		"phone": "(02661)91080",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1717,12 +1717,12 @@
 		"name": "Burggarten-Schule",
 		"official_id": "30832",
 		"phone": "(02662)7771",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Lohmühle 2a, 57627 Hachenburg",
+		"address": "Lohmuehle 2a, 57627 Hachenburg",
 		"fax": "(02662)942231",
 		"full_time_school": true,
 		"id": "RP-31867",
@@ -1731,26 +1731,26 @@
 		"name": "Schule am Rothenberg",
 		"official_id": "31867",
 		"phone": "(02662)939457",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Zehntgrafstr. 14, 56462 Höhn",
+		"address": "Zehntgrafstr. 14, 56462 Hoehn",
 		"fax": "(02661)988340",
 		"full_time_school": true,
 		"id": "RP-31837",
 		"lat": 50.615691,
 		"lon": 7.983244,
-		"name": "Wilhelm-Albrecht-Schule Höhn",
+		"name": "Wilhelm-Albrecht-Schule Hoehn",
 		"official_id": "31837",
 		"phone": "(02661)98830",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Rathausstr. 131, 56203 Höhr-Grenzhausen",
+		"address": "Rathausstr. 131, 56203 Hoehr-Grenzhausen",
 		"fax": "(02624)954420",
 		"full_time_school": true,
 		"id": "RP-30155",
@@ -1759,8 +1759,8 @@
 		"name": "Schiller-Schule",
 		"official_id": "30155",
 		"phone": "(02624)95440",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1773,12 +1773,12 @@
 		"name": "Berggarten-Schule",
 		"official_id": "31824",
 		"phone": "(02623)5524",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Königsberger Str., 56457 Westerburg",
+		"address": "Koenigsberger Str., 56457 Westerburg",
 		"fax": "(02663)943511",
 		"full_time_school": true,
 		"id": "RP-30172",
@@ -1787,8 +1787,8 @@
 		"name": "Friedrich-Schweitzer-Schule",
 		"official_id": "30172",
 		"phone": "(02663)94350",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1801,12 +1801,12 @@
 		"name": "Katharina-Kasper-Schule",
 		"official_id": "30142",
 		"phone": "(02602)6340",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Elisabeth-Groß-Platz 1, 67547 Worms",
+		"address": "Elisabeth-Gross-Platz 1, 67547 Worms",
 		"fax": "(06241)411932",
 		"full_time_school": true,
 		"id": "RP-31001",
@@ -1815,12 +1815,12 @@
 		"name": "Geschwister-Scholl-Schule",
 		"official_id": "31001",
 		"phone": "(06241)88329",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Schulacker 12, 66482 Zweibrücken",
+		"address": "Schulacker 12, 66482 Zweibruecken",
 		"fax": "(06332)8707-22",
 		"full_time_school": true,
 		"id": "RP-30352",
@@ -1829,12 +1829,12 @@
 		"name": "Mauritius-Schule",
 		"official_id": "30352",
 		"phone": "(06332)8707-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
-		"address": "Canadastr. 25, 66482 Zweibrücken",
+		"address": "Canadastr. 25, 66482 Zweibruecken",
 		"fax": "(06332)9701011",
 		"full_time_school": false,
 		"id": "RP-31434",
@@ -1843,8 +1843,8 @@
 		"name": "Canadaschule",
 		"official_id": "31434",
 		"phone": "(06332)970100",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "RP"
 	},
 	{
@@ -1890,7 +1890,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Konrad-Adenauer-Straße 14 - 16, 67433 Neustadt an der Weinstraße",
+		"address": "Konrad-Adenauer-Strasse 14 - 16, 67433 Neustadt an der Weinstrasse",
 		"fax": "(06321)5790410",
 		"full_time_school": false,
 		"id": "RP-79081",
@@ -1974,7 +1974,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kesslinger Str. 8, 53506 Ahrbrück",
+		"address": "Kesslinger Str. 8, 53506 Ahrbrueck",
 		"fax": "(02643)940123",
 		"full_time_school": false,
 		"id": "RP-11739",
@@ -2086,7 +2086,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Quellenstr. 15, 56656 Brohl-Lützing",
+		"address": "Quellenstr. 15, 56656 Brohl-Luetzing",
 		"fax": "(02633)440217",
 		"full_time_school": false,
 		"id": "RP-12630",
@@ -2114,7 +2114,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Römerstr., 53507 Dernau",
+		"address": "Roemerstr., 53507 Dernau",
 		"fax": "(02643)902662",
 		"full_time_school": false,
 		"id": "RP-26357",
@@ -2128,7 +2128,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Grünstr. 9, 53501 Grafschaft",
+		"address": "Gruenstr. 9, 53501 Grafschaft",
 		"fax": "(02225)707606",
 		"full_time_school": false,
 		"id": "RP-21955",
@@ -2184,7 +2184,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "In der Hohl 16, 56651 Niederdürenbach",
+		"address": "In der Hohl 16, 56651 Niederduerenbach",
 		"fax": "(02636)800495",
 		"full_time_school": false,
 		"id": "RP-15933",
@@ -2400,7 +2400,7 @@
 		"id": "RP-14176",
 		"lat": 50.690079,
 		"lon": 7.650764,
-		"name": "Erich-Kästner-Schule",
+		"name": "Erich-Kaestner-Schule",
 		"official_id": "14176",
 		"phone": "(02681)6148",
 		"school_type": "Grundschule",
@@ -2534,7 +2534,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Südstr. 1, 57632 Flammersfeld",
+		"address": "Suedstr. 1, 57632 Flammersfeld",
 		"fax": "(02685)989657",
 		"full_time_school": false,
 		"id": "RP-13261",
@@ -2624,7 +2624,7 @@
 		"id": "RP-14025",
 		"lat": 50.596117,
 		"lon": 7.524959,
-		"name": "Glück auf!-Schule",
+		"name": "Glueck auf!-Schule",
 		"official_id": "14025",
 		"phone": "(02687)929183",
 		"school_type": "Grundschule",
@@ -2736,7 +2736,7 @@
 		"id": "RP-10105",
 		"lat": 50.711513,
 		"lon": 7.550318,
-		"name": "Bürgerm.-Raiffeisen-Schule",
+		"name": "Buergerm.-Raiffeisen-Schule",
 		"official_id": "10105",
 		"phone": "(02686)295",
 		"school_type": "Grundschule",
@@ -2814,7 +2814,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulgässchen 7, 55232 Alzey",
+		"address": "Schulgaesschen 7, 55232 Alzey",
 		"fax": "(06731)999957",
 		"full_time_school": false,
 		"id": "RP-21188",
@@ -2884,7 +2884,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kämmerergasse 12, 67596 Dittelsheim-Heßloch",
+		"address": "Kaemmerergasse 12, 67596 Dittelsheim-Hessloch",
 		"fax": "(06244)907758",
 		"full_time_school": false,
 		"id": "RP-12943",
@@ -2912,13 +2912,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Nackerstr. 22, 55234 Erbes-Büdesheim",
+		"address": "Nackerstr. 22, 55234 Erbes-Buedesheim",
 		"fax": "(06731)999613",
 		"full_time_school": false,
 		"id": "RP-21432",
 		"lat": 49.754494,
 		"lon": 8.028658,
-		"name": "Grundschule Erbes-Büdesheim",
+		"name": "Grundschule Erbes-Buedesheim",
 		"official_id": "21432",
 		"phone": "(06731)908321",
 		"school_type": "Grundschule",
@@ -3136,13 +3136,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Eleonorenstr. 83, 55597 Wöllstein",
+		"address": "Eleonorenstr. 83, 55597 Woellstein",
 		"fax": "(06703)690",
 		"full_time_school": true,
 		"id": "RP-27065",
 		"lat": 49.810114,
 		"lon": 7.950726,
-		"name": "Grundschule Wöllstein",
+		"name": "Grundschule Woellstein",
 		"official_id": "27065",
 		"phone": "(06703)301425",
 		"school_type": "Grundschule",
@@ -3150,7 +3150,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Obere Schulstr. 16, 55286 Wörrstadt",
+		"address": "Obere Schulstr. 16, 55286 Woerrstadt",
 		"fax": "(06732)951426",
 		"full_time_school": true,
 		"id": "RP-24961",
@@ -3178,7 +3178,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulplatz 7, 67098 Bad Dürkheim",
+		"address": "Schulplatz 7, 67098 Bad Duerkheim",
 		"fax": "(06322)980686",
 		"full_time_school": false,
 		"id": "RP-12001",
@@ -3192,7 +3192,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bürgermeister-Gropp-Str. 69, 67098 Bad Dürkheim",
+		"address": "Buergermeister-Gropp-Str. 69, 67098 Bad Duerkheim",
 		"fax": "(06322)793690",
 		"full_time_school": false,
 		"id": "RP-12014",
@@ -3206,7 +3206,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Eduard-Jost-Str. 24, 67098 Bad Dürkheim",
+		"address": "Eduard-Jost-Str. 24, 67098 Bad Duerkheim",
 		"fax": "(06322)4001",
 		"full_time_school": true,
 		"id": "RP-21278",
@@ -3220,7 +3220,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wellsring 182, 67098 Bad Dürkheim",
+		"address": "Wellsring 182, 67098 Bad Duerkheim",
 		"fax": "(06322)989554",
 		"full_time_school": true,
 		"id": "RP-24751",
@@ -3234,13 +3234,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Pestalozzistr. 10, 67278 Bockenheim an der Weinstraße",
+		"address": "Pestalozzistr. 10, 67278 Bockenheim an der Weinstrasse",
 		"fax": "(06359)949844",
 		"full_time_school": false,
 		"id": "RP-25888",
 		"lat": 49.60472,
 		"lon": 8.1825,
-		"name": "Jakob Böshenz-Schule",
+		"name": "Jakob Boeshenz-Schule",
 		"official_id": "25888",
 		"phone": "(06359)4111",
 		"school_type": "Grundschule",
@@ -3360,13 +3360,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Langgasse 74, 67269 Grünstadt",
+		"address": "Langgasse 74, 67269 Gruenstadt",
 		"fax": "(06359)808548",
 		"full_time_school": false,
 		"id": "RP-14115",
 		"lat": 49.581344,
 		"lon": 8.160473,
-		"name": "Grundschule I Grünstadt",
+		"name": "Grundschule I Gruenstadt",
 		"official_id": "14115",
 		"phone": "(06359)960242",
 		"school_type": "Grundschule",
@@ -3374,7 +3374,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Südring 7, 67269 Grünstadt",
+		"address": "Suedring 7, 67269 Gruenstadt",
 		"fax": "(06359)937735",
 		"full_time_school": true,
 		"id": "RP-14163",
@@ -3388,13 +3388,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Krummlandweg, 67269 Grünstadt",
+		"address": "Krummlandweg, 67269 Gruenstadt",
 		"fax": "(06359)209574",
 		"full_time_school": false,
 		"id": "RP-26840",
 		"lat": 49.5505301,
 		"lon": 8.1535993,
-		"name": "Grundschule III Grünstadt",
+		"name": "Grundschule III Gruenstadt",
 		"official_id": "26840",
 		"phone": "(06359)209573",
 		"school_type": "Grundschule",
@@ -3402,7 +3402,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Martin-Luther-Str. 25, 67454 Haßloch",
+		"address": "Martin-Luther-Str. 25, 67454 Hassloch",
 		"fax": "(06324)925125",
 		"full_time_school": true,
 		"id": "RP-10331",
@@ -3416,7 +3416,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schillerstr. 1a, 67454 Haßloch",
+		"address": "Schillerstr. 1a, 67454 Hassloch",
 		"fax": "(06324)925225",
 		"full_time_school": false,
 		"id": "RP-11319",
@@ -3430,7 +3430,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Siemensstr. 2a, 67454 Haßloch",
+		"address": "Siemensstr. 2a, 67454 Hassloch",
 		"fax": "06324-7080871",
 		"full_time_school": true,
 		"id": "RP-27245",
@@ -3472,7 +3472,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kleinkarlbacher Str. 2, 67281 Kirchheim an der Weinstraße",
+		"address": "Kleinkarlbacher Str. 2, 67281 Kirchheim an der Weinstrasse",
 		"fax": "(06359)924269",
 		"full_time_school": false,
 		"id": "RP-25845",
@@ -3492,7 +3492,7 @@
 		"id": "RP-25858",
 		"lat": 49.540868,
 		"lon": 8.155132,
-		"name": "Grundschule Burgenländchen",
+		"name": "Grundschule Burgenlaendchen",
 		"official_id": "25858",
 		"phone": "(06359)3135",
 		"school_type": "Grundschule",
@@ -3598,7 +3598,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hinterm Graben 3, 67157 Wachenheim an der Weinstraße",
+		"address": "Hinterm Graben 3, 67157 Wachenheim an der Weinstrasse",
 		"fax": "(06322)7910134",
 		"full_time_school": true,
 		"id": "RP-26837",
@@ -3640,7 +3640,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Neumayerstraße 27, 67273 Weisenheim am Berg",
+		"address": "Neumayerstrasse 27, 67273 Weisenheim am Berg",
 		"fax": "(06353)507828",
 		"full_time_school": false,
 		"id": "RP-27274",
@@ -3688,7 +3688,7 @@
 		"id": "RP-16037",
 		"lat": 49.849603,
 		"lon": 7.856004,
-		"name": "Grundschule Hofgartenstraße",
+		"name": "Grundschule Hofgartenstrasse",
 		"official_id": "16037",
 		"phone": "(0671)26119",
 		"school_type": "Grundschule",
@@ -3730,7 +3730,7 @@
 		"id": "RP-17616",
 		"lat": 49.830889,
 		"lon": 7.875765,
-		"name": "Grundschule Kleiststraße",
+		"name": "Grundschule Kleiststrasse",
 		"official_id": "17616",
 		"phone": "(0671)61362",
 		"school_type": "Grundschule",
@@ -3738,13 +3738,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Ringstr. 23, 55583 Bad Münster am Stein-Ebernburg",
+		"address": "Ringstr. 23, 55583 Bad Muenster am Stein-Ebernburg",
 		"fax": "03212-1144989",
 		"full_time_school": true,
 		"id": "RP-12057",
 		"lat": 49.816533,
 		"lon": 7.846216,
-		"name": "GS Bad Münster a. Stein-Ebernb",
+		"name": "GS Bad Muenster a. Stein-Ebernb",
 		"official_id": "12057",
 		"phone": "(06708)2102",
 		"school_type": "Grundschule",
@@ -3752,7 +3752,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Münchwiesen 41, 55566 Bad Sobernheim",
+		"address": "Muenchwiesen 41, 55566 Bad Sobernheim",
 		"fax": "(06751)8555914",
 		"full_time_school": true,
 		"id": "RP-24151",
@@ -3794,7 +3794,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Fröbelstr. 1, 67824 Feilbingert",
+		"address": "Froebelstr. 1, 67824 Feilbingert",
 		"fax": "(06708) 616765",
 		"full_time_school": false,
 		"id": "RP-13244",
@@ -3822,13 +3822,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 1, 55546 Fürfeld",
+		"address": "Schulstr. 1, 55546 Fuerfeld",
 		"fax": "(06709)911947",
 		"full_time_school": false,
 		"id": "RP-13378",
 		"lat": 49.774947,
 		"lon": 7.893176,
-		"name": "Grundschule Fürfeld",
+		"name": "Grundschule Fuerfeld",
 		"official_id": "13378",
 		"phone": "(06709)318",
 		"school_type": "Grundschule",
@@ -3884,7 +3884,7 @@
 		"id": "RP-25798",
 		"lat": 49.822019,
 		"lon": 7.432594,
-		"name": "Lützelsoonschule",
+		"name": "Luetzelsoonschule",
 		"official_id": "25798",
 		"phone": "(06752)8991",
 		"school_type": "Grundschule",
@@ -3892,7 +3892,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Königsberger Str. 80, 55606 Kirn",
+		"address": "Koenigsberger Str. 80, 55606 Kirn",
 		"fax": "(06752)943759",
 		"full_time_school": false,
 		"id": "RP-26540",
@@ -3920,7 +3920,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schützenstr. 3, 55450 Langenlonsheim",
+		"address": "Schuetzenstr. 3, 55450 Langenlonsheim",
 		"fax": "(06704)961622",
 		"full_time_school": false,
 		"id": "RP-15050",
@@ -3934,7 +3934,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Präses-Held-Str. 7, 55590 Meisenheim",
+		"address": "Praeses-Held-Str. 7, 55590 Meisenheim",
 		"fax": "(06753)2519",
 		"full_time_school": true,
 		"id": "RP-15483",
@@ -4004,7 +4004,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Rüdesheimer Str. 10, 55595 Roxheim",
+		"address": "Ruedesheimer Str. 10, 55595 Roxheim",
 		"fax": "(0671)9799151",
 		"full_time_school": false,
 		"id": "RP-16865",
@@ -4018,7 +4018,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr., 55593 Rüdesheim",
+		"address": "Schulstr., 55593 Ruedesheim",
 		"fax": "(0671)2985795",
 		"full_time_school": true,
 		"id": "RP-23173",
@@ -4032,13 +4032,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr., 55452 Rümmelsheim",
+		"address": "Schulstr., 55452 Ruemmelsheim",
 		"fax": "(06721)4902820",
 		"full_time_school": true,
 		"id": "RP-16907",
 		"lat": 49.9342567,
 		"lon": 7.8567092,
-		"name": "Grundschule Rümmelsheim",
+		"name": "Grundschule Ruemmelsheim",
 		"official_id": "16907",
 		"phone": "(06721)42772",
 		"school_type": "Grundschule",
@@ -4066,7 +4066,7 @@
 		"id": "RP-24931",
 		"lat": 49.964278,
 		"lon": 7.720234,
-		"name": "Grundschule Dörrebach-",
+		"name": "Grundschule Doerrebach-",
 		"official_id": "24931",
 		"phone": "(06724)3614",
 		"school_type": "Grundschule",
@@ -4116,13 +4116,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 6, 55596 Waldböckelheim",
+		"address": "Schulstr. 6, 55596 Waldboeckelheim",
 		"fax": "(06758)969954",
 		"full_time_school": false,
 		"id": "RP-26957",
 		"lat": 49.81494,
 		"lon": 7.719451,
-		"name": "Grundschule Waldböckelheim",
+		"name": "Grundschule Waldboeckelheim",
 		"official_id": "26957",
 		"phone": "(06758)7912",
 		"school_type": "Grundschule",
@@ -4242,13 +4242,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schladter Str. 45, 54534 Großlittgen",
+		"address": "Schladter Str. 45, 54534 Grosslittgen",
 		"fax": "(06575)903655",
 		"full_time_school": false,
 		"id": "RP-13558",
 		"lat": 50.028236,
 		"lon": 6.802284,
-		"name": "Grundschule Großlittgen",
+		"name": "Grundschule Grosslittgen",
 		"official_id": "13558",
 		"phone": "(06575)4738",
 		"school_type": "Grundschule",
@@ -4340,13 +4340,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulweg 1, 54536 Kröv",
+		"address": "Schulweg 1, 54536 Kroev",
 		"fax": "06541-815802",
 		"full_time_school": false,
 		"id": "RP-25365",
 		"lat": 49.97838,
 		"lon": 7.08608,
-		"name": "Grundschule St. Remigius Kröv",
+		"name": "Grundschule St. Remigius Kroev",
 		"official_id": "25365",
 		"phone": "(06541)6884",
 		"school_type": "Grundschule",
@@ -4508,13 +4508,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulweg 4, 54486 Mülheim (Mosel)",
+		"address": "Schulweg 4, 54486 Muelheim (Mosel)",
 		"fax": "(06534)949822",
 		"full_time_school": true,
 		"id": "RP-15663",
 		"lat": 49.910332,
 		"lon": 7.007084,
-		"name": "Grundschule Mülheim",
+		"name": "Grundschule Muelheim",
 		"official_id": "15663",
 		"phone": "(06534)777",
 		"school_type": "Grundschule",
@@ -4682,7 +4682,7 @@
 		"id": "RP-18486",
 		"lat": 49.987334,
 		"lon": 6.89438,
-		"name": "Grundschule Friedrichstraße",
+		"name": "Grundschule Friedrichstrasse",
 		"official_id": "18486",
 		"phone": "(06571)5119",
 		"school_type": "Grundschule",
@@ -4732,7 +4732,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Im Brühl 7, 55774 Baumholder",
+		"address": "Im Bruehl 7, 55774 Baumholder",
 		"fax": "(06783)981131",
 		"full_time_school": false,
 		"id": "RP-11172",
@@ -4746,7 +4746,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "An den Gerbhäusern, 55765 Birkenfeld",
+		"address": "An den Gerbhaeusern, 55765 Birkenfeld",
 		"fax": "(06782)995858",
 		"full_time_school": true,
 		"id": "RP-12420",
@@ -4760,13 +4760,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 12, 55767 Brücken",
+		"address": "Schulstr. 12, 55767 Bruecken",
 		"fax": "(06782)981763",
 		"full_time_school": false,
 		"id": "RP-25785",
 		"lat": 49.637257,
 		"lon": 7.106645,
-		"name": "Grundschule Brücken",
+		"name": "Grundschule Bruecken",
 		"official_id": "25785",
 		"phone": "(06782)5377",
 		"school_type": "Grundschule",
@@ -4802,13 +4802,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 13, 55768 Hoppstädten-Weiersbach",
+		"address": "Schulstr. 13, 55768 Hoppstaedten-Weiersbach",
 		"fax": "(06782)988537",
 		"full_time_school": false,
 		"id": "RP-25802",
 		"lat": 49.617823,
 		"lon": 7.194263,
-		"name": "Grundschule Hoppstädten-",
+		"name": "Grundschule Hoppstaedten-",
 		"official_id": "25802",
 		"phone": "(06782)2566",
 		"school_type": "Grundschule",
@@ -4830,7 +4830,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wüstenfeldstraße 50, 55743 Idar-Oberstein",
+		"address": "Wuestenfeldstrasse 50, 55743 Idar-Oberstein",
 		"fax": "(06781)64789",
 		"full_time_school": true,
 		"id": "RP-11305",
@@ -4850,7 +4850,7 @@
 		"id": "RP-13514",
 		"lat": 49.721902,
 		"lon": 7.335967,
-		"name": "Grundschule Göttschied",
+		"name": "Grundschule Goettschied",
 		"official_id": "13514",
 		"phone": "(06781)64760",
 		"school_type": "Grundschule",
@@ -4872,7 +4872,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Pestalozzistraße 2, 55743 Idar-Oberstein",
+		"address": "Pestalozzistrasse 2, 55743 Idar-Oberstein",
 		"fax": "06783-6473",
 		"full_time_school": true,
 		"id": "RP-20707",
@@ -4956,7 +4956,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlenstr. 5, 56859 Alf",
+		"address": "Muehlenstr. 5, 56859 Alf",
 		"fax": "(06542)961828",
 		"full_time_school": false,
 		"id": "RP-11768",
@@ -5012,13 +5012,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 2, 56823 Büchel",
+		"address": "Schulstr. 2, 56823 Buechel",
 		"fax": "(02678)953651",
 		"full_time_school": false,
 		"id": "RP-12690",
 		"lat": 50.173256,
 		"lon": 7.083298,
-		"name": "Grundschule Büchel",
+		"name": "Grundschule Buechel",
 		"official_id": "12690",
 		"phone": "(02678)228",
 		"school_type": "Grundschule",
@@ -5068,7 +5068,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "St. Martin-Str. 33, 56761 Düngenheim",
+		"address": "St. Martin-Str. 33, 56761 Duengenheim",
 		"fax": "[02653] 598 279",
 		"full_time_school": false,
 		"id": "RP-27184",
@@ -5130,7 +5130,7 @@
 		"id": "RP-20617",
 		"lat": 50.2328441,
 		"lon": 7.1398609,
-		"name": "Kurfürst-Balduin-Schule",
+		"name": "Kurfuerst-Balduin-Schule",
 		"official_id": "20617",
 		"phone": "(02653)8911",
 		"school_type": "Grundschule",
@@ -5194,7 +5194,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bergstraße 2a, 56759 Masburg",
+		"address": "Bergstrasse 2a, 56759 Masburg",
 		"fax": "(02653)910943",
 		"full_time_school": false,
 		"id": "RP-15380",
@@ -5222,13 +5222,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Görresstr. 38, 56254 Müden (Mosel)",
+		"address": "Goerresstr. 38, 56254 Mueden (Mosel)",
 		"fax": "(02672)911813",
 		"full_time_school": false,
 		"id": "RP-24658",
 		"lat": 50.186399,
 		"lon": 7.344161,
-		"name": "Grundschule Müden",
+		"name": "Grundschule Mueden",
 		"official_id": "24658",
 		"phone": "(02672)911812",
 		"school_type": "Grundschule",
@@ -5236,13 +5236,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bahnhofstr. 2, 56862 Pünderich",
+		"address": "Bahnhofstr. 2, 56862 Puenderich",
 		"fax": "(06542)961698",
 		"full_time_school": false,
 		"id": "RP-12627",
 		"lat": 50.041203,
 		"lon": 7.126993,
-		"name": "Grundschule Briedel-Pünderich",
+		"name": "Grundschule Briedel-Puenderich",
 		"official_id": "12627",
 		"phone": "(06542)21080",
 		"school_type": "Grundschule",
@@ -5264,7 +5264,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Plänterstr. 42, 56856 Zell (Mosel)",
+		"address": "Plaenterstr. 42, 56856 Zell (Mosel)",
 		"fax": "(06542)901538",
 		"full_time_school": true,
 		"id": "RP-18589",
@@ -5334,13 +5334,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Jahnstr. 1, 67307 Göllheim",
+		"address": "Jahnstr. 1, 67307 Goellheim",
 		"fax": "(06351)1225718",
 		"full_time_school": true,
 		"id": "RP-26780",
 		"lat": 49.588215,
 		"lon": 8.045615,
-		"name": "Schule am Königspfad",
+		"name": "Schule am Koenigspfad",
 		"official_id": "26780",
 		"phone": "(06351)122570",
 		"school_type": "Grundschule",
@@ -5418,7 +5418,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Ringstr. 23, 67728 Münchweiler an der Alsenz",
+		"address": "Ringstr. 23, 67728 Muenchweiler an der Alsenz",
 		"fax": "(06302)982676",
 		"full_time_school": false,
 		"id": "RP-15676",
@@ -5432,7 +5432,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr.4, 67822 Münsterappel",
+		"address": "Schulstr.4, 67822 Muensterappel",
 		"fax": "06362-994966",
 		"full_time_school": false,
 		"id": "RP-24105",
@@ -5474,7 +5474,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Brühlgasse 21, 67806 Rockenhausen",
+		"address": "Bruehlgasse 21, 67806 Rockenhausen",
 		"fax": "(06361)924118",
 		"full_time_school": true,
 		"id": "RP-16744",
@@ -5544,7 +5544,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Zeller Straße 3, 67308 Zellertal",
+		"address": "Zeller Strasse 3, 67308 Zellertal",
 		"fax": "(06355)9539318",
 		"full_time_school": false,
 		"id": "RP-11755",
@@ -5578,7 +5578,7 @@
 		"id": "RP-24271",
 		"lat": 49.94306,
 		"lon": 6.40083,
-		"name": "Prümtal-Grundschule",
+		"name": "Pruemtal-Grundschule",
 		"official_id": "24271",
 		"phone": "(06527)93111",
 		"school_type": "Grundschule",
@@ -5586,7 +5586,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Ließemer Str. 5, 54636 Bickendorf",
+		"address": "Liessemer Str. 5, 54636 Bickendorf",
 		"fax": "(06569)963138",
 		"full_time_school": false,
 		"id": "RP-24285",
@@ -5620,7 +5620,7 @@
 		"id": "RP-12477",
 		"lat": 49.972346,
 		"lon": 6.52575,
-		"name": "Grundschule Bitburg-Süd",
+		"name": "Grundschule Bitburg-Sued",
 		"official_id": "12477",
 		"phone": "(06561)693890",
 		"school_type": "Grundschule",
@@ -5628,13 +5628,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Prümer Str., 54634 Bitburg",
+		"address": "Pruemer Str., 54634 Bitburg",
 		"fax": "(06561)949015",
 		"full_time_school": true,
 		"id": "RP-20500",
 		"lat": 49.977254,
 		"lon": 6.519765,
-		"name": "Bischöfliche Grundschule",
+		"name": "Bischoefliche Grundschule",
 		"official_id": "20500",
 		"phone": "(06561)949010",
 		"school_type": "Grundschule",
@@ -5642,7 +5642,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Im Gäßchen 6, 54608 Bleialf",
+		"address": "Im Gaesschen 6, 54608 Bleialf",
 		"fax": "(06555)900 93-20",
 		"full_time_school": true,
 		"id": "RP-12493",
@@ -5740,13 +5740,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Gaytalstr. 43, 54675 Körperich",
+		"address": "Gaytalstr. 43, 54675 Koerperich",
 		"fax": "(06566)961309",
 		"full_time_school": false,
 		"id": "RP-17346",
 		"lat": 49.924419,
 		"lon": 6.256702,
-		"name": "Grundschule Körperich",
+		"name": "Grundschule Koerperich",
 		"official_id": "17346",
 		"phone": "(06566)961300",
 		"school_type": "Grundschule",
@@ -5768,7 +5768,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Grenzstr. 11, 54617 Lützkampen",
+		"address": "Grenzstr. 11, 54617 Luetzkampen",
 		"fax": "(06559)900876",
 		"full_time_school": false,
 		"id": "RP-17449",
@@ -5844,7 +5844,7 @@
 		"id": "RP-16521",
 		"lat": 49.904136,
 		"lon": 6.631103,
-		"name": "Grundschule St. Cäcilia",
+		"name": "Grundschule St. Caecilia",
 		"official_id": "16521",
 		"phone": "(06562)8482",
 		"school_type": "Grundschule",
@@ -5866,7 +5866,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kalvarienbergstr. 26, 54595 Prüm",
+		"address": "Kalvarienbergstr. 26, 54595 Pruem",
 		"fax": "(06551)956720",
 		"full_time_school": false,
 		"id": "RP-16534",
@@ -5894,7 +5894,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "An der Schule 1, 54614 Schönecken",
+		"address": "An der Schule 1, 54614 Schoenecken",
 		"fax": "(06553)926220",
 		"full_time_school": false,
 		"id": "RP-11095",
@@ -6068,7 +6068,7 @@
 		"id": "RP-13304",
 		"lat": 49.551323,
 		"lon": 8.377967,
-		"name": "Grundschule Mörsch",
+		"name": "Grundschule Moersch",
 		"official_id": "13304",
 		"phone": "(06233)61439",
 		"school_type": "Grundschule",
@@ -6202,7 +6202,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Römerweg 2, 76726 Germersheim",
+		"address": "Roemerweg 2, 76726 Germersheim",
 		"fax": "(07274)702577",
 		"full_time_school": true,
 		"id": "RP-27231",
@@ -6230,7 +6230,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Feigenberg 16, 76770 Hatzenbühl",
+		"address": "Feigenberg 16, 76770 Hatzenbuehl",
 		"fax": "(07275) 617437",
 		"full_time_school": true,
 		"id": "RP-24568",
@@ -6244,13 +6244,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kirchstr. 7, 76771 Hördt",
+		"address": "Kirchstr. 7, 76771 Hoerdt",
 		"fax": "(07272)959472",
 		"full_time_school": false,
 		"id": "RP-25739",
 		"lat": 49.162784,
 		"lon": 8.327724,
-		"name": "Grundschule Hördt",
+		"name": "Grundschule Hoerdt",
 		"official_id": "25739",
 		"phone": "(07272)71001",
 		"school_type": "Grundschule",
@@ -6356,7 +6356,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "In der Wörthenlache, 76776 Neuburg am Rhein",
+		"address": "In der Woerthenlache, 76776 Neuburg am Rhein",
 		"fax": "(07273)918202",
 		"full_time_school": false,
 		"id": "RP-15783",
@@ -6412,13 +6412,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 15, 76761 Rülzheim",
+		"address": "Schulstr. 15, 76761 Ruelzheim",
 		"fax": "7272959480",
 		"full_time_school": false,
 		"id": "RP-16895",
 		"lat": 49.151048,
 		"lon": 8.288232,
-		"name": "Grundschule Rülzheim",
+		"name": "Grundschule Ruelzheim",
 		"official_id": "16895",
 		"phone": "(07272)8909",
 		"school_type": "Grundschule",
@@ -6482,13 +6482,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Turmstr. 2, 76744 Wörth am Rhein",
+		"address": "Turmstr. 2, 76744 Woerth am Rhein",
 		"fax": "-",
 		"full_time_school": false,
 		"id": "RP-12704",
 		"lat": 49.021338,
 		"lon": 8.172471,
-		"name": "Grundschule Büchelberg",
+		"name": "Grundschule Buechelberg",
 		"official_id": "12704",
 		"phone": "(07277)260",
 		"school_type": "Grundschule",
@@ -6496,7 +6496,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Tullastr. 17, 76744 Wörth am Rhein",
+		"address": "Tullastr. 17, 76744 Woerth am Rhein",
 		"fax": "(07271)131 377",
 		"full_time_school": true,
 		"id": "RP-15423",
@@ -6510,7 +6510,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hauptstr. 85, 76744 Wörth am Rhein",
+		"address": "Hauptstr. 85, 76744 Woerth am Rhein",
 		"fax": "(07271)1319290",
 		"full_time_school": false,
 		"id": "RP-16940",
@@ -6524,7 +6524,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Königstr. 1, 76744 Wörth am Rhein",
+		"address": "Koenigstr. 1, 76744 Woerth am Rhein",
 		"fax": "(07271)131543",
 		"full_time_school": false,
 		"id": "RP-18516",
@@ -6538,7 +6538,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Zeisigweg, 76744 Wörth am Rhein",
+		"address": "Zeisigweg, 76744 Woerth am Rhein",
 		"fax": "(07271)131524",
 		"full_time_school": false,
 		"id": "RP-25109",
@@ -6628,7 +6628,7 @@
 		"id": "RP-11498",
 		"lat": 49.44123,
 		"lon": 7.763579,
-		"name": "Röhmschule",
+		"name": "Roehmschule",
 		"official_id": "11498",
 		"phone": "(0631)10833",
 		"school_type": "Grundschule",
@@ -6636,7 +6636,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Julius-Küchler-Str. 1-3, 67659 Kaiserslautern",
+		"address": "Julius-Kuechler-Str. 1-3, 67659 Kaiserslautern",
 		"fax": "(0631)37100596",
 		"full_time_school": false,
 		"id": "RP-11529",
@@ -6726,7 +6726,7 @@
 		"id": "RP-12087",
 		"lat": 49.430796,
 		"lon": 7.72555,
-		"name": "Bännjerrückschule",
+		"name": "Baennjerrueckschule",
 		"official_id": "12087",
 		"phone": "(0631)3514050",
 		"school_type": "Grundschule",
@@ -6762,7 +6762,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wasserlochstücke 7a, 67661 Kaiserslautern",
+		"address": "Wasserlochstuecke 7a, 67661 Kaiserslautern",
 		"fax": "(0631)3507479",
 		"full_time_school": false,
 		"id": "RP-14312",
@@ -6776,13 +6776,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Erzhütter Str. 101, 67659 Kaiserslautern",
+		"address": "Erzhuetter Str. 101, 67659 Kaiserslautern",
 		"fax": "(0631)4147494",
 		"full_time_school": false,
 		"id": "RP-14325",
 		"lat": 49.45912,
 		"lon": 7.731064,
-		"name": "Grundschule Erzhütten",
+		"name": "Grundschule Erzhuetten",
 		"official_id": "14325",
 		"phone": "(0631)4147495",
 		"school_type": "Grundschule",
@@ -6824,7 +6824,7 @@
 		"id": "RP-25712",
 		"lat": 49.440618,
 		"lon": 7.780993,
-		"name": "Paul-Münch-Schule",
+		"name": "Paul-Muench-Schule",
 		"official_id": "25712",
 		"phone": "(0631)4145057",
 		"school_type": "Grundschule",
@@ -6846,7 +6846,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Raiffeisenstr. 6 a, 66892 Bruchmühlbach-Miesau",
+		"address": "Raiffeisenstr. 6 a, 66892 Bruchmuehlbach-Miesau",
 		"fax": "(06372)994995",
 		"full_time_school": false,
 		"id": "RP-12644",
@@ -6860,13 +6860,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Alte Str. 3, 66892 Bruchmühlbach-Miesau",
+		"address": "Alte Str. 3, 66892 Bruchmuehlbach-Miesau",
 		"fax": "(06372)509326",
 		"full_time_school": true,
 		"id": "RP-12657",
 		"lat": 49.385357,
 		"lon": 7.456674,
-		"name": "Grundschule Bruchmühlbach",
+		"name": "Grundschule Bruchmuehlbach",
 		"official_id": "12657",
 		"phone": "(06372)3591",
 		"school_type": "Grundschule",
@@ -6922,7 +6922,7 @@
 		"id": "RP-13964",
 		"lat": 49.440969,
 		"lon": 7.896902,
-		"name": "Münchhofschule-Grundschule",
+		"name": "Muenchhofschule-Grundschule",
 		"official_id": "13964",
 		"phone": "(06305)1801",
 		"school_type": "Grundschule",
@@ -6930,13 +6930,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 3, 66882 Hütschenhausen",
+		"address": "Schulstr. 3, 66882 Huetschenhausen",
 		"fax": "(06371)918 912",
 		"full_time_school": true,
 		"id": "RP-14068",
 		"lat": 49.423789,
 		"lon": 7.499821,
-		"name": "Grundschule Hütschenhausen",
+		"name": "Grundschule Huetschenhausen",
 		"official_id": "14068",
 		"phone": "(06371)3489",
 		"school_type": "Grundschule",
@@ -6972,7 +6972,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Römerstr. 88, 66849 Landstuhl  Sickingenstadt",
+		"address": "Roemerstr. 88, 66849 Landstuhl  Sickingenstadt",
 		"fax": "-",
 		"full_time_school": true,
 		"id": "RP-15033",
@@ -6986,7 +6986,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Königsberger Str. 9, 66849 Landstuhl  Sickingenstadt",
+		"address": "Koenigsberger Str. 9, 66849 Landstuhl  Sickingenstadt",
 		"fax": "(06371)917759",
 		"full_time_school": true,
 		"id": "RP-17689",
@@ -7070,13 +7070,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hauptstr. 56, 67737 Olsbrücken",
+		"address": "Hauptstr. 56, 67737 Olsbruecken",
 		"fax": "(06308) 209545",
 		"full_time_school": false,
 		"id": "RP-25502",
 		"lat": 49.546064,
 		"lon": 7.591501,
-		"name": "Grundschule Olsbrücken",
+		"name": "Grundschule Olsbruecken",
 		"official_id": "25502",
 		"phone": "(06308)1247",
 		"school_type": "Grundschule",
@@ -7084,7 +7084,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Ziegelhütterstr. 12, 67731 Otterbach",
+		"address": "Ziegelhuetterstr. 12, 67731 Otterbach",
 		"fax": "(06301)719266",
 		"full_time_school": true,
 		"id": "RP-25498",
@@ -7300,7 +7300,7 @@
 		"id": "RP-14656",
 		"lat": 50.347299,
 		"lon": 7.579355,
-		"name": "Grundschule Am Löwentor",
+		"name": "Grundschule Am Loewentor",
 		"official_id": "14656",
 		"phone": "(0261)56533",
 		"school_type": "Grundschule",
@@ -7308,13 +7308,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Karl-Möhlig-Str. 12a, 56072 Koblenz",
+		"address": "Karl-Moehlig-Str. 12a, 56072 Koblenz",
 		"fax": "(0261)29184838",
 		"full_time_school": true,
 		"id": "RP-14672",
 		"lat": 50.34003,
 		"lon": 7.543811,
-		"name": "Grundschule Güls",
+		"name": "Grundschule Guels",
 		"official_id": "14672",
 		"phone": "(0261)29184830",
 		"school_type": "Grundschule",
@@ -7336,7 +7336,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kurfürst-Schönborn-Str. 55, 56070 Koblenz",
+		"address": "Kurfuerst-Schoenborn-Str. 55, 56070 Koblenz",
 		"fax": "(0261)9887673",
 		"full_time_school": false,
 		"id": "RP-14699",
@@ -7398,7 +7398,7 @@
 		"id": "RP-14733",
 		"lat": 50.351509,
 		"lon": 7.556411,
-		"name": "Grundschule Moselweiß",
+		"name": "Grundschule Moselweiss",
 		"official_id": "14733",
 		"phone": "(0261)42604",
 		"school_type": "Grundschule",
@@ -7420,7 +7420,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Niederberger Höhe 16, 56077 Koblenz",
+		"address": "Niederberger Hoehe 16, 56077 Koblenz",
 		"fax": "(0261)963 493 29",
 		"full_time_school": false,
 		"id": "RP-14759",
@@ -7518,13 +7518,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Mühlenteich 15, 56072 Koblenz",
+		"address": "Am Muehlenteich 15, 56072 Koblenz",
 		"fax": "(0261)5798685",
 		"full_time_school": false,
 		"id": "RP-22392",
 		"lat": 50.369322,
 		"lon": 7.52265,
-		"name": "Grundschule Rübenach",
+		"name": "Grundschule Ruebenach",
 		"official_id": "22392",
 		"phone": "(0261)24329",
 		"school_type": "Grundschule",
@@ -7616,13 +7616,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wiesenstr. 25, 66904 Brücken (Pfalz)",
+		"address": "Wiesenstr. 25, 66904 Bruecken (Pfalz)",
 		"fax": "(06386)999331",
 		"full_time_school": true,
 		"id": "RP-12660",
 		"lat": 49.429726,
 		"lon": 7.355938,
-		"name": "Grundschule Brücken",
+		"name": "Grundschule Bruecken",
 		"official_id": "12660",
 		"phone": "(06386)6410",
 		"school_type": "Grundschule",
@@ -7650,7 +7650,7 @@
 		"id": "RP-26314",
 		"lat": 49.529451,
 		"lon": 7.565289,
-		"name": "Grundschule Königsland",
+		"name": "Grundschule Koenigsland",
 		"official_id": "26314",
 		"phone": "(06385)415288",
 		"school_type": "Grundschule",
@@ -7728,13 +7728,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 12, 67759 Nußbach",
+		"address": "Schulstr. 12, 67759 Nussbach",
 		"fax": "6364175161",
 		"full_time_school": true,
 		"id": "RP-16067",
 		"lat": 49.63105,
 		"lon": 7.693553,
-		"name": "Grundschule Nußbach",
+		"name": "Grundschule Nussbach",
 		"official_id": "16067",
 		"phone": "(06364)433",
 		"school_type": "Grundschule",
@@ -7784,13 +7784,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Pestalozzistr. 14, 66901 Schönenberg-Kübelberg",
+		"address": "Pestalozzistr. 14, 66901 Schoenenberg-Kuebelberg",
 		"fax": "(06373)891272",
 		"full_time_school": true,
 		"id": "RP-17032",
 		"lat": 49.407049,
 		"lon": 7.369331,
-		"name": "Grundschule Schönenberg-",
+		"name": "Grundschule Schoenenberg-",
 		"official_id": "17032",
 		"phone": "(06373)9871",
 		"school_type": "Grundschule",
@@ -7846,7 +7846,7 @@
 		"id": "RP-18520",
 		"lat": 49.582647,
 		"lon": 7.604107,
-		"name": "Grundschule Am Königsberg",
+		"name": "Grundschule Am Koenigsberg",
 		"official_id": "18520",
 		"phone": "(06304)4169280",
 		"school_type": "Grundschule",
@@ -7854,7 +7854,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Albrecht-Dürer-Str. 3, 76829 Landau in der Pfalz",
+		"address": "Albrecht-Duerer-Str. 3, 76829 Landau in der Pfalz",
 		"fax": "06341-13-884490",
 		"full_time_school": true,
 		"id": "RP-14038",
@@ -7958,7 +7958,7 @@
 		"id": "RP-18533",
 		"lat": 49.191462,
 		"lon": 8.093298,
-		"name": "Grundschule Wollmesheimer-Höhe",
+		"name": "Grundschule Wollmesheimer-Hoehe",
 		"official_id": "18533",
 		"phone": "(06341)30723",
 		"school_type": "Grundschule",
@@ -7986,7 +7986,7 @@
 		"id": "RP-26900",
 		"lat": 49.186576,
 		"lon": 8.108232,
-		"name": "Grundschule Süd",
+		"name": "Grundschule Sued",
 		"official_id": "26900",
 		"phone": "(06341)134482",
 		"school_type": "Grundschule",
@@ -7994,7 +7994,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Dörrenbergstr. 1, 76829 Landau in der Pfalz",
+		"address": "Doerrenbergstr. 1, 76829 Landau in der Pfalz",
 		"fax": "(06341)945482",
 		"full_time_school": true,
 		"id": "RP-27904",
@@ -8028,7 +8028,7 @@
 		"id": "RP-11322",
 		"lat": 49.476062,
 		"lon": 8.452074,
-		"name": "Brüder-Grimm-Schule",
+		"name": "Brueder-Grimm-Schule",
 		"official_id": "11322",
 		"phone": "(0621)504420910",
 		"school_type": "Grundschule",
@@ -8050,13 +8050,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Gräfenaustr. 32, 67063 Ludwigshafen am Rhein",
+		"address": "Graefenaustr. 32, 67063 Ludwigshafen am Rhein",
 		"fax": "(0621)504491998",
 		"full_time_school": false,
 		"id": "RP-11382",
 		"lat": 49.486613,
 		"lon": 8.437309,
-		"name": "Grundschule Gräfenau",
+		"name": "Grundschule Graefenau",
 		"official_id": "11382",
 		"phone": "(0621)504421910",
 		"school_type": "Grundschule",
@@ -8064,7 +8064,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Brückelgraben 91, 67071 Ludwigshafen am Rhein",
+		"address": "Am Brueckelgraben 91, 67071 Ludwigshafen am Rhein",
 		"fax": "(0621)504422598",
 		"full_time_school": false,
 		"id": "RP-11395",
@@ -8134,13 +8134,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bahnhofstraße 52, 67059 Ludwigshafen am Rhein",
+		"address": "Bahnhofstrasse 52, 67059 Ludwigshafen am Rhein",
 		"fax": "(0621)504421198",
 		"full_time_school": false,
 		"id": "RP-11575",
 		"lat": 49.480767,
 		"lon": 8.440358,
-		"name": "Erich-Kästner Schule",
+		"name": "Erich-Kaestner Schule",
 		"official_id": "11575",
 		"phone": "(0621)504421110",
 		"school_type": "Grundschule",
@@ -8148,7 +8148,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bürgermeister-Fries-Str. 1b, 67069 Ludwigshafen am Rhein",
+		"address": "Buergermeister-Fries-Str. 1b, 67069 Ludwigshafen am Rhein",
 		"fax": "(0621)504422798",
 		"full_time_school": false,
 		"id": "RP-11588",
@@ -8302,7 +8302,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Rheingönheimer Str. 103, 67065 Ludwigshafen am Rhein",
+		"address": "Rheingoenheimer Str. 103, 67065 Ludwigshafen am Rhein",
 		"fax": "(0621)504-423998",
 		"full_time_school": false,
 		"id": "RP-17003",
@@ -8476,7 +8476,7 @@
 		"id": "RP-15260",
 		"lat": 49.97939,
 		"lon": 8.243236,
-		"name": "Heinrich-Mumbächer-Schule",
+		"name": "Heinrich-Mumbaecher-Schule",
 		"official_id": "15260",
 		"phone": "(06131)361074",
 		"school_type": "Grundschule",
@@ -8546,7 +8546,7 @@
 		"id": "RP-15317",
 		"lat": 49.987271,
 		"lon": 8.252323,
-		"name": "Schule an den Römersteinen",
+		"name": "Schule an den Roemersteinen",
 		"official_id": "15317",
 		"phone": "(06131)369045",
 		"school_type": "Grundschule",
@@ -8652,13 +8652,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Küferweg 53, 55128 Mainz",
+		"address": "Kueferweg 53, 55128 Mainz",
 		"fax": "(06131)363875",
 		"full_time_school": false,
 		"id": "RP-26823",
 		"lat": 49.97123,
 		"lon": 8.238376,
-		"name": "Erich Kästner Schule",
+		"name": "Erich Kaestner Schule",
 		"official_id": "26823",
 		"phone": "(06131)363828",
 		"school_type": "Grundschule",
@@ -8672,7 +8672,7 @@
 		"id": "RP-26930",
 		"lat": 49.985732,
 		"lon": 8.169344,
-		"name": "Peter-Härtling-Schule",
+		"name": "Peter-Haertling-Schule",
 		"official_id": "26930",
 		"phone": "(06131-475764",
 		"school_type": "Grundschule",
@@ -8700,7 +8700,7 @@
 		"id": "RP-12344",
 		"lat": 49.967246,
 		"lon": 7.882694,
-		"name": "Grundschule am Mäuseturm",
+		"name": "Grundschule am Maeuseturm",
 		"official_id": "12344",
 		"phone": "(06721)32233",
 		"school_type": "Grundschule",
@@ -8714,7 +8714,7 @@
 		"id": "RP-12357",
 		"lat": 49.947773,
 		"lon": 7.909947,
-		"name": "Grundschule Büdesheim",
+		"name": "Grundschule Buedesheim",
 		"official_id": "12357",
 		"phone": "(06721)42041",
 		"school_type": "Grundschule",
@@ -8742,7 +8742,7 @@
 		"id": "RP-12374",
 		"lat": 49.923519,
 		"lon": 7.962054,
-		"name": "Grundschule am Hörnchen",
+		"name": "Grundschule am Hoernchen",
 		"official_id": "12374",
 		"phone": "(06725)2444",
 		"school_type": "Grundschule",
@@ -8770,7 +8770,7 @@
 		"id": "RP-12390",
 		"lat": 49.96694,
 		"lon": 7.895,
-		"name": "Drei-Königs-Schule",
+		"name": "Drei-Koenigs-Schule",
 		"official_id": "12390",
 		"phone": "(06721)12509",
 		"school_type": "Grundschule",
@@ -8834,7 +8834,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Münchhofpforte, 55270 Essenheim",
+		"address": "Muenchhofpforte, 55270 Essenheim",
 		"fax": "(06136)996487",
 		"full_time_school": false,
 		"id": "RP-13168",
@@ -8854,7 +8854,7 @@
 		"id": "RP-13381",
 		"lat": 49.954602,
 		"lon": 8.017132,
-		"name": "Schloß-Ardeck-Schule",
+		"name": "Schloss-Ardeck-Schule",
 		"official_id": "13381",
 		"phone": "(06725)6146",
 		"school_type": "Grundschule",
@@ -8890,13 +8890,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Götzenstr. 19, 67583 Guntersblum",
+		"address": "Goetzenstr. 19, 67583 Guntersblum",
 		"fax": "(06249)1430",
 		"full_time_school": false,
 		"id": "RP-13621",
 		"lat": 49.795025,
 		"lon": 8.341689,
-		"name": "Carl-Küstner-Schule",
+		"name": "Carl-Kuestner-Schule",
 		"official_id": "13621",
 		"phone": "(06249)906400",
 		"school_type": "Grundschule",
@@ -8918,13 +8918,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kreuzstraße 47, 55262 Heidesheim am Rhein",
+		"address": "Kreuzstrasse 47, 55262 Heidesheim am Rhein",
 		"fax": "(06132)509916",
 		"full_time_school": true,
 		"id": "RP-10615",
 		"lat": 49.993974,
 		"lon": 8.122083,
-		"name": "Grundschule an der Sandmühle",
+		"name": "Grundschule an der Sandmuehle",
 		"official_id": "10615",
 		"phone": "(06132)50990",
 		"school_type": "Grundschule",
@@ -8952,7 +8952,7 @@
 		"id": "RP-11485",
 		"lat": 49.96535,
 		"lon": 7.964066,
-		"name": "Präsident Mohr-Schule",
+		"name": "Praesident Mohr-Schule",
 		"official_id": "11485",
 		"phone": "(06132)75050",
 		"school_type": "Grundschule",
@@ -8960,13 +8960,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Brüder-Grimm-Str. 27, 55218 Ingelheim am Rhein",
+		"address": "Brueder-Grimm-Str. 27, 55218 Ingelheim am Rhein",
 		"fax": "(06132)85368",
 		"full_time_school": true,
 		"id": "RP-14222",
 		"lat": 49.987096,
 		"lon": 8.020771,
-		"name": "Brüder-Grimm-Schule",
+		"name": "Brueder-Grimm-Schule",
 		"official_id": "14222",
 		"phone": "(06132)84193",
 		"school_type": "Grundschule",
@@ -9002,13 +9002,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schloßstr. 13 A, 55296 Lörzweiler",
+		"address": "Schlossstr. 13 A, 55296 Loerzweiler",
 		"fax": "(06138)9808028",
 		"full_time_school": false,
 		"id": "RP-26103",
 		"lat": 49.900847,
 		"lon": 8.2989,
-		"name": "Grundschule Lörzweiler",
+		"name": "Grundschule Loerzweiler",
 		"official_id": "26103",
 		"phone": "(06138)980800",
 		"school_type": "Grundschule",
@@ -9030,13 +9030,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 15, 55424 Münster-Sarmsheim",
+		"address": "Schulstr. 15, 55424 Muenster-Sarmsheim",
 		"fax": "(06721)995742",
 		"full_time_school": false,
 		"id": "RP-15680",
 		"lat": 49.944069,
 		"lon": 7.893037,
-		"name": "Grundschule Münster-Sarmsheim",
+		"name": "Grundschule Muenster-Sarmsheim",
 		"official_id": "15680",
 		"phone": "(06721)45678",
 		"school_type": "Grundschule",
@@ -9128,7 +9128,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Krämerstr. 38, 55276 Oppenheim",
+		"address": "Kraemerstr. 38, 55276 Oppenheim",
 		"fax": "(06133)926 123",
 		"full_time_school": false,
 		"id": "RP-23787",
@@ -9310,7 +9310,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Taubentränke 51, 56626 Andernach",
+		"address": "Taubentraenke 51, 56626 Andernach",
 		"fax": "(02632)495934",
 		"full_time_school": false,
 		"id": "RP-24794",
@@ -9344,7 +9344,7 @@
 		"id": "RP-26777",
 		"lat": 50.424711,
 		"lon": 7.401079,
-		"name": "Grundschule Hasenfänger",
+		"name": "Grundschule Hasenfaenger",
 		"official_id": "26777",
 		"phone": "(02632)300707",
 		"school_type": "Grundschule",
@@ -9394,7 +9394,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Röttchenshammer, 56170 Bendorf",
+		"address": "Am Roettchenshammer, 56170 Bendorf",
 		"fax": "(02622)903989",
 		"full_time_school": false,
 		"id": "RP-25529",
@@ -9450,7 +9450,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kirchstraße 32, 56332 Dieblich",
+		"address": "Kirchstrasse 32, 56332 Dieblich",
 		"fax": "(02607)972628",
 		"full_time_school": false,
 		"id": "RP-25592",
@@ -9618,13 +9618,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bahnhofstr., 56332 Löf",
+		"address": "Bahnhofstr., 56332 Loef",
 		"fax": "(02605)953594",
 		"full_time_school": false,
 		"id": "RP-15200",
 		"lat": 50.2325473,
 		"lon": 7.4435777,
-		"name": "Grundschule Löf",
+		"name": "Grundschule Loef",
 		"official_id": "15200",
 		"phone": "(02605)4675",
 		"school_type": "Grundschule",
@@ -9638,7 +9638,7 @@
 		"id": "RP-17239",
 		"lat": 50.309412,
 		"lon": 7.405162,
-		"name": "St. Jakobus d.Ä.-Grundschule",
+		"name": "St. Jakobus d.ae.-Grundschule",
 		"official_id": "17239",
 		"phone": "(02625)6639",
 		"school_type": "Grundschule",
@@ -9694,7 +9694,7 @@
 		"id": "RP-14882",
 		"lat": 50.336835,
 		"lon": 7.159668,
-		"name": "Grundschule Kürrenberg",
+		"name": "Grundschule Kuerrenberg",
 		"official_id": "14882",
 		"phone": "(02651)903020",
 		"school_type": "Grundschule",
@@ -9758,13 +9758,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Annastr. 4, 56218 Mülheim-Kärlich",
+		"address": "Annastr. 4, 56218 Muelheim-Kaerlich",
 		"fax": "(02630)959928",
 		"full_time_school": true,
 		"id": "RP-24421",
 		"lat": 50.388858,
 		"lon": 7.500127,
-		"name": "Grundschule Mülheim-Kärlich 1",
+		"name": "Grundschule Muelheim-Kaerlich 1",
 		"official_id": "24421",
 		"phone": "(02630)1755",
 		"school_type": "Grundschule",
@@ -9772,13 +9772,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Clemensstr. 2, 56218 Mülheim-Kärlich",
+		"address": "Clemensstr. 2, 56218 Muelheim-Kaerlich",
 		"fax": "(02630)957372",
 		"full_time_school": false,
 		"id": "RP-24435",
 		"lat": 50.389874,
 		"lon": 7.487934,
-		"name": "Grundschule Mülheim-Kärlich 2",
+		"name": "Grundschule Muelheim-Kaerlich 2",
 		"official_id": "24435",
 		"phone": "(02630)1402",
 		"school_type": "Grundschule",
@@ -9786,7 +9786,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 25, 56218 Mülheim-Kärlich",
+		"address": "Schulstr. 25, 56218 Muelheim-Kaerlich",
 		"fax": "(02630)966643",
 		"full_time_school": false,
 		"id": "RP-24448",
@@ -9800,7 +9800,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Cusanusstr. 1, 56294 Münstermaifeld",
+		"address": "Cusanusstr. 1, 56294 Muenstermaifeld",
 		"fax": "(02605)961422",
 		"full_time_school": false,
 		"id": "RP-11019",
@@ -9842,7 +9842,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schützenstr. 23, 56179 Niederwerth",
+		"address": "Schuetzenstr. 23, 56179 Niederwerth",
 		"fax": "(0261) 96240776",
 		"full_time_school": false,
 		"id": "RP-15993",
@@ -9996,13 +9996,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 2, 56743 Thür",
+		"address": "Schulstr. 2, 56743 Thuer",
 		"fax": "(02652) 527565",
 		"full_time_school": false,
 		"id": "RP-17706",
 		"lat": 50.35722,
 		"lon": 7.273422,
-		"name": "Grundschule Thür",
+		"name": "Grundschule Thuer",
 		"official_id": "17706",
 		"phone": "(02652)1706",
 		"school_type": "Grundschule",
@@ -10080,13 +10080,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "An der Breslauer Str., 56575 Weißenthurm",
+		"address": "An der Breslauer Str., 56575 Weissenthurm",
 		"fax": "(02637)940784",
 		"full_time_school": true,
 		"id": "RP-18250",
 		"lat": 50.416935,
 		"lon": 7.442041,
-		"name": "Grundschule Weißenthurm",
+		"name": "Grundschule Weissenthurm",
 		"official_id": "18250",
 		"phone": "(02637)2792",
 		"school_type": "Grundschule",
@@ -10136,7 +10136,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Horstweg 21, 67434 Neustadt an der Weinstraße",
+		"address": "Horstweg 21, 67434 Neustadt an der Weinstrasse",
 		"fax": "(06321)84755",
 		"full_time_school": false,
 		"id": "RP-10298",
@@ -10150,7 +10150,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Spitalbachstr. 45, 67433 Neustadt an der Weinstraße",
+		"address": "Spitalbachstr. 45, 67433 Neustadt an der Weinstrasse",
 		"fax": "(06321)1890048",
 		"full_time_school": true,
 		"id": "RP-10315",
@@ -10164,7 +10164,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Pestalozzistr. 4, 67435 Neustadt an der Weinstraße",
+		"address": "Pestalozzistr. 4, 67435 Neustadt an der Weinstrasse",
 		"fax": "(06327)5383",
 		"full_time_school": false,
 		"id": "RP-10764",
@@ -10178,7 +10178,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 12, 67435 Neustadt an der Weinstraße",
+		"address": "Schulstr. 12, 67435 Neustadt an der Weinstrasse",
 		"fax": "(06321)600806",
 		"full_time_school": false,
 		"id": "RP-11035",
@@ -10192,13 +10192,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Sauterstr. 95, 67433 Neustadt an der Weinstraße",
+		"address": "Sauterstr. 95, 67433 Neustadt an der Weinstrasse",
 		"fax": "06321/487728",
 		"full_time_school": false,
 		"id": "RP-11112",
 		"lat": 49.35,
 		"lon": 8.15,
-		"name": "Schöntalschule",
+		"name": "Schoentalschule",
 		"official_id": "11112",
 		"phone": "(06321)487727",
 		"school_type": "Grundschule",
@@ -10206,7 +10206,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Konrad-Adenauer-Str. 33, 67433 Neustadt an der Weinstraße",
+		"address": "Konrad-Adenauer-Str. 33, 67433 Neustadt an der Weinstrasse",
 		"fax": "(06321)189998-12",
 		"full_time_school": false,
 		"id": "RP-11275",
@@ -10220,7 +10220,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Ludwigstr. 30, 67433 Neustadt an der Weinstraße",
+		"address": "Ludwigstr. 30, 67433 Neustadt an der Weinstrasse",
 		"fax": "(06321)3850948",
 		"full_time_school": true,
 		"id": "RP-11289",
@@ -10234,13 +10234,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kirchwiesenstr. 4, 67434 Neustadt an der Weinstraße",
+		"address": "Kirchwiesenstr. 4, 67434 Neustadt an der Weinstrasse",
 		"fax": "06321/355986",
 		"full_time_school": false,
 		"id": "RP-15830",
 		"lat": 49.35,
 		"lon": 8.15,
-		"name": "Brüder-Grimm-Schule",
+		"name": "Brueder-Grimm-Schule",
 		"official_id": "15830",
 		"phone": "(06321)88852",
 		"school_type": "Grundschule",
@@ -10248,7 +10248,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Hägfeld 44, 67435 Neustadt an der Weinstraße",
+		"address": "Am Haegfeld 44, 67435 Neustadt an der Weinstrasse",
 		"fax": "(06327)507267",
 		"full_time_school": false,
 		"id": "RP-15843",
@@ -10262,7 +10262,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mandelring 92, 67433 Neustadt an der Weinstraße",
+		"address": "Mandelring 92, 67433 Neustadt an der Weinstrasse",
 		"fax": "(06321)968066",
 		"full_time_school": false,
 		"id": "RP-15856",
@@ -10276,7 +10276,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kirchplatz 5, 67435 Neustadt an der Weinstraße",
+		"address": "Kirchplatz 5, 67435 Neustadt an der Weinstrasse",
 		"fax": "(06321)679760",
 		"full_time_school": false,
 		"id": "RP-16234",
@@ -10290,7 +10290,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hans-Geiger-Str. 21, 67434 Neustadt an der Weinstraße",
+		"address": "Hans-Geiger-Str. 21, 67434 Neustadt an der Weinstrasse",
 		"fax": "(06321)487923",
 		"full_time_school": false,
 		"id": "RP-18799",
@@ -10304,7 +10304,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Auf dem Löh 5, 56584 Anhausen",
+		"address": "Auf dem Loeh 5, 56584 Anhausen",
 		"fax": "(02639)960403",
 		"full_time_school": false,
 		"id": "RP-11858",
@@ -10346,13 +10346,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bischof-Stradmann-Str. 42, 53557 Bad Hönningen",
+		"address": "Bischof-Stradmann-Str. 42, 53557 Bad Hoenningen",
 		"fax": "(02635)921693",
 		"full_time_school": true,
 		"id": "RP-20693",
 		"lat": 50.517095,
 		"lon": 7.310985,
-		"name": "Grundschule Bad Hönningen",
+		"name": "Grundschule Bad Hoenningen",
 		"official_id": "20693",
 		"phone": "(02635)3566",
 		"school_type": "Grundschule",
@@ -10430,7 +10430,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 2, 56276 Großmaischeid",
+		"address": "Schulstr. 2, 56276 Grossmaischeid",
 		"fax": "(02689)959152",
 		"full_time_school": false,
 		"id": "RP-13561",
@@ -10458,7 +10458,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Rätsgasse 5, 56599 Leutesdorf",
+		"address": "Raetsgasse 5, 56599 Leutesdorf",
 		"fax": "(02631)347136",
 		"full_time_school": false,
 		"id": "RP-17376",
@@ -10478,7 +10478,7 @@
 		"id": "RP-10091",
 		"lat": 50.572458,
 		"lon": 7.294484,
-		"name": "Bürgermeister-Castenholtz",
+		"name": "Buergermeister-Castenholtz",
 		"official_id": "10091",
 		"phone": "(02644)96000",
 		"school_type": "Grundschule",
@@ -10562,7 +10562,7 @@
 		"id": "RP-15890",
 		"lat": 50.42861,
 		"lon": 7.46139,
-		"name": "Wülfersberg-Schule",
+		"name": "Wuelfersberg-Schule",
 		"official_id": "15890",
 		"phone": "(02631)49133",
 		"school_type": "Grundschule",
@@ -10758,7 +10758,7 @@
 		"id": "RP-16727",
 		"lat": 50.616172,
 		"lon": 7.228703,
-		"name": "Gebrüder-Grimm-Schule",
+		"name": "Gebrueder-Grimm-Schule",
 		"official_id": "16727",
 		"phone": "(02224)3307",
 		"school_type": "Grundschule",
@@ -10794,13 +10794,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 7, 56587 Straßenhaus",
+		"address": "Schulstr. 7, 56587 Strassenhaus",
 		"fax": "(02634)956789",
 		"full_time_school": false,
 		"id": "RP-17585",
 		"lat": 50.541496,
 		"lon": 7.512344,
-		"name": "Grundschule Straßenhaus",
+		"name": "Grundschule Strassenhaus",
 		"official_id": "17585",
 		"phone": "(02634)4333",
 		"school_type": "Grundschule",
@@ -10828,7 +10828,7 @@
 		"id": "RP-17989",
 		"lat": 50.558271,
 		"lon": 7.587052,
-		"name": "Märkerwald-Schule",
+		"name": "Maerkerwald-Schule",
 		"official_id": "17989",
 		"phone": "(02684)4266",
 		"school_type": "Grundschule",
@@ -10836,7 +10836,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Willscheider Weg 30, 53560 Vettelschoß",
+		"address": "Willscheider Weg 30, 53560 Vettelschoss",
 		"fax": "(02645)971748",
 		"full_time_school": true,
 		"id": "RP-23589",
@@ -10870,7 +10870,7 @@
 		"id": "RP-18396",
 		"lat": 50.635704,
 		"lon": 7.353529,
-		"name": "Erich Kästner-Schule",
+		"name": "Erich Kaestner-Schule",
 		"official_id": "18396",
 		"phone": "(02645)4926",
 		"school_type": "Grundschule",
@@ -10906,13 +10906,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Husterhöhstr. 25, 66953 Pirmasens",
+		"address": "Husterhoehstr. 25, 66953 Pirmasens",
 		"fax": "(06331)517225",
 		"full_time_school": true,
 		"id": "RP-14099",
 		"lat": 49.210308,
 		"lon": 7.606697,
-		"name": "Grundschule Husterhöhe",
+		"name": "Grundschule Husterhoehe",
 		"official_id": "14099",
 		"phone": "(06331)517210",
 		"school_type": "Grundschule",
@@ -10948,7 +10948,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Maler-Bürkel-Str. 24, 66954 Pirmasens",
+		"address": "Maler-Buerkel-Str. 24, 66954 Pirmasens",
 		"fax": "(06331)517314",
 		"full_time_school": false,
 		"id": "RP-16427",
@@ -11074,13 +11074,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "In den Fichten 2, 55491 Büchenbeuren",
+		"address": "In den Fichten 2, 55491 Buechenbeuren",
 		"fax": "(06543)980517",
 		"full_time_school": true,
 		"id": "RP-12717",
 		"lat": 49.923253,
 		"lon": 7.288801,
-		"name": "Grundschule Büchenbeuren",
+		"name": "Grundschule Buechenbeuren",
 		"official_id": "12717",
 		"phone": "(06543)6081",
 		"school_type": "Grundschule",
@@ -11102,7 +11102,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Soonwaldstr. 3, 55490 Gemünden",
+		"address": "Soonwaldstr. 3, 55490 Gemuenden",
 		"fax": "(06765)960634",
 		"full_time_school": true,
 		"id": "RP-21175",
@@ -11116,13 +11116,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 4, 56290 Gödenroth",
+		"address": "Schulstr. 4, 56290 Goedenroth",
 		"fax": "(06762)960664",
 		"full_time_school": false,
 		"id": "RP-13501",
 		"lat": 50.086819,
 		"lon": 7.488633,
-		"name": "Grundschule Gödenroth",
+		"name": "Grundschule Goedenroth",
 		"official_id": "13501",
 		"phone": "(06762)6696",
 		"school_type": "Grundschule",
@@ -11172,7 +11172,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr., 55481 Kirchberg (Hunsrück)",
+		"address": "Schulstr., 55481 Kirchberg (Hunsrueck)",
 		"fax": "06763-3033526",
 		"full_time_school": true,
 		"id": "RP-14536",
@@ -11200,13 +11200,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kirchstr. 5, 56290 Mörsdorf",
+		"address": "Kirchstr. 5, 56290 Moersdorf",
 		"fax": "06762/401515",
 		"full_time_school": false,
 		"id": "RP-15560",
 		"lat": 50.102318,
 		"lon": 7.343369,
-		"name": "Grundschule Mörsdorf",
+		"name": "Grundschule Moersdorf",
 		"official_id": "15560",
 		"phone": "(06762)6580",
 		"school_type": "Grundschule",
@@ -11242,13 +11242,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Marktstr. 47, 55494 Rheinböllen",
+		"address": "Marktstr. 47, 55494 Rheinboellen",
 		"fax": "(06764)960112",
 		"full_time_school": true,
 		"id": "RP-16714",
 		"lat": 50.009829,
 		"lon": 7.670957,
-		"name": "Grundschule Rheinböllen",
+		"name": "Grundschule Rheinboellen",
 		"official_id": "16714",
 		"phone": "(06764)960110",
 		"school_type": "Grundschule",
@@ -11284,7 +11284,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Poststr. 3, 55469 Simmern/ Hunsrück",
+		"address": "Poststr. 3, 55469 Simmern/ Hunsrueck",
 		"fax": "(06761)970299",
 		"full_time_school": true,
 		"id": "RP-17179",
@@ -11298,13 +11298,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Flachsberg 4, 55469 Simmern/ Hunsrück",
+		"address": "Am Flachsberg 4, 55469 Simmern/ Hunsrueck",
 		"fax": "(06761)970289",
 		"full_time_school": true,
 		"id": "RP-26630",
 		"lat": 49.986957,
 		"lon": 7.515396,
-		"name": "Dr.-Kurt-Schöllhammer-Schule",
+		"name": "Dr.-Kurt-Schoellhammer-Schule",
 		"official_id": "26630",
 		"phone": "(06761)970287",
 		"school_type": "Grundschule",
@@ -11480,13 +11480,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Jahnstr. 21, 65623 Hahnstätten",
+		"address": "Jahnstr. 21, 65623 Hahnstaetten",
 		"fax": "(06430)9250255",
 		"full_time_school": true,
 		"id": "RP-24195",
 		"lat": 50.30003,
 		"lon": 8.066304,
-		"name": "Grundschule Hahnstätten",
+		"name": "Grundschule Hahnstaetten",
 		"official_id": "24195",
 		"phone": "(06430)928296",
 		"school_type": "Grundschule",
@@ -11584,7 +11584,7 @@
 		"id": "RP-24781",
 		"lat": 50.228872,
 		"lon": 7.8362,
-		"name": "Mühlbachschule",
+		"name": "Muehlbachschule",
 		"official_id": "24781",
 		"phone": "(06772)7098",
 		"school_type": "Grundschule",
@@ -11606,13 +11606,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wilhelm-Nesen-Str. 2a, 56355 Nastätten",
+		"address": "Wilhelm-Nesen-Str. 2a, 56355 Nastaetten",
 		"fax": "(06772)96704214",
 		"full_time_school": true,
 		"id": "RP-26687",
 		"lat": 50.194491,
 		"lon": 7.860063,
-		"name": "Grundschule Blaues Ländchen",
+		"name": "Grundschule Blaues Laendchen",
 		"official_id": "26687",
 		"phone": "(06772)9670420",
 		"school_type": "Grundschule",
@@ -11620,7 +11620,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlgasse 4, 65629 Niederneisen",
+		"address": "Muehlgasse 4, 65629 Niederneisen",
 		"fax": "(06432)910796",
 		"full_time_school": false,
 		"id": "RP-24238",
@@ -11682,7 +11682,7 @@
 		"id": "RP-24721",
 		"lat": 49.558882,
 		"lon": 8.319628,
-		"name": "Albrecht-Dürer-Schule",
+		"name": "Albrecht-Duerer-Schule",
 		"official_id": "24721",
 		"phone": "(06233)72903",
 		"school_type": "Grundschule",
@@ -11718,7 +11718,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Grünstadter Str. 6a, 67240 Bobenheim-Roxheim",
+		"address": "Gruenstadter Str. 6a, 67240 Bobenheim-Roxheim",
 		"fax": "06239-997586",
 		"full_time_school": false,
 		"id": "RP-27081",
@@ -11732,7 +11732,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kirchenstr. 12, 67459 Böhl-Iggelheim",
+		"address": "Kirchenstr. 12, 67459 Boehl-Iggelheim",
 		"fax": "(06324)9219050",
 		"full_time_school": true,
 		"id": "RP-12524",
@@ -11746,13 +11746,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Langgasse 10, 67459 Böhl-Iggelheim",
+		"address": "Langgasse 10, 67459 Boehl-Iggelheim",
 		"fax": "(06324)9699119",
 		"full_time_school": false,
 		"id": "RP-14158",
 		"lat": 49.365641,
 		"lon": 8.307725,
-		"name": "Jakob-Heinrich-Lützel-Schule",
+		"name": "Jakob-Heinrich-Luetzel-Schule",
 		"official_id": "14158",
 		"phone": "(06324)969910",
 		"school_type": "Grundschule",
@@ -11788,7 +11788,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr.24, 67136 Fußgönheim",
+		"address": "Schulstr.24, 67136 Fussgoenheim",
 		"fax": "(06237)404628",
 		"full_time_school": false,
 		"id": "RP-21072",
@@ -11802,13 +11802,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kleinniedesheimer Str. 2, 67259 Großniedesheim",
+		"address": "Kleinniedesheimer Str. 2, 67259 Grossniedesheim",
 		"fax": "06239/409877",
 		"full_time_school": false,
 		"id": "RP-13574",
 		"lat": 49.576732,
 		"lon": 8.313496,
-		"name": "Grundschule Großniedesheim",
+		"name": "Grundschule Grossniedesheim",
 		"official_id": "13574",
 		"phone": "(06239)1360",
 		"school_type": "Grundschule",
@@ -11844,13 +11844,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 3, 67258 Heßheim",
+		"address": "Schulstr. 3, 67258 Hessheim",
 		"fax": "(06233)3750903",
 		"full_time_school": false,
 		"id": "RP-24735",
 		"lat": 49.545679,
 		"lon": 8.30799,
-		"name": "Grundschule Heßheim",
+		"name": "Grundschule Hessheim",
 		"official_id": "24735",
 		"phone": "(06233)70169",
 		"school_type": "Grundschule",
@@ -11886,7 +11886,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hermann-Löns-Weg 21, 67117 Limburgerhof",
+		"address": "Hermann-Loens-Weg 21, 67117 Limburgerhof",
 		"fax": "(06236)465554",
 		"full_time_school": true,
 		"id": "RP-10268",
@@ -11942,7 +11942,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Fussgönheimer Str. 17, 67112 Mutterstadt",
+		"address": "Fussgoenheimer Str. 17, 67112 Mutterstadt",
 		"fax": "(06234)928546",
 		"full_time_school": false,
 		"id": "RP-15710",
@@ -11984,7 +11984,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schäfergasse 49, 67127 Rödersheim-Gronau",
+		"address": "Schaefergasse 49, 67127 Roedersheim-Gronau",
 		"fax": "06231/403182",
 		"full_time_school": false,
 		"id": "RP-16775",
@@ -11998,7 +11998,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Rathaus 6, 67354 Römerberg",
+		"address": "Am Rathaus 6, 67354 Roemerberg",
 		"fax": "(06232)81929",
 		"full_time_school": false,
 		"id": "RP-16788",
@@ -12012,7 +12012,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schwarzwaldweg 3, 67354 Römerberg",
+		"address": "Schwarzwaldweg 3, 67354 Roemerberg",
 		"fax": "(06232)854872",
 		"full_time_school": false,
 		"id": "RP-16791",
@@ -12026,7 +12026,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Gutenbergstr. 15, 67354 Römerberg",
+		"address": "Gutenbergstr. 15, 67354 Roemerberg",
 		"fax": "(06232)850338",
 		"full_time_school": true,
 		"id": "RP-27171",
@@ -12040,13 +12040,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Jägerstr. 18, 67105 Schifferstadt",
+		"address": "Jaegerstr. 18, 67105 Schifferstadt",
 		"fax": "(06235)929689",
 		"full_time_school": true,
 		"id": "RP-17629",
 		"lat": 49.377737,
 		"lon": 8.377859,
-		"name": "Grundschule Süd",
+		"name": "Grundschule Sued",
 		"official_id": "17629",
 		"phone": "(06235)2806",
 		"school_type": "Grundschule",
@@ -12214,7 +12214,7 @@
 		"id": "RP-11979",
 		"lat": 49.097517,
 		"lon": 7.99723,
-		"name": "Böhämmer-Grundschule",
+		"name": "Boehaemmer-Grundschule",
 		"official_id": "11979",
 		"phone": "(06343)989620",
 		"school_type": "Grundschule",
@@ -12222,7 +12222,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlhofener Str. 39, 76831 Billigheim-Ingenheim",
+		"address": "Muehlhofener Str. 39, 76831 Billigheim-Ingenheim",
 		"fax": "(06349)929505",
 		"full_time_school": true,
 		"id": "RP-26360",
@@ -12236,13 +12236,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "In den Feldern, 67482 Böbingen",
+		"address": "In den Feldern, 67482 Boebingen",
 		"fax": "(06327)969416",
 		"full_time_school": false,
 		"id": "RP-26283",
 		"lat": 49.28472,
 		"lon": 8.23694,
-		"name": "Grundschule Gäuschule",
+		"name": "Grundschule Gaeuschule",
 		"official_id": "26283",
 		"phone": "(06327)2237",
 		"school_type": "Grundschule",
@@ -12250,13 +12250,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Kolmerberg, 76889 Dörrenbach",
+		"address": "Am Kolmerberg, 76889 Doerrenbach",
 		"fax": "(06343)610389",
 		"full_time_school": false,
 		"id": "RP-25412",
 		"lat": 49.091331,
 		"lon": 7.965003,
-		"name": "Grundschule Dörrenbach",
+		"name": "Grundschule Doerrenbach",
 		"official_id": "25412",
 		"phone": "(06343)1211",
 		"school_type": "Grundschule",
@@ -12404,7 +12404,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 5, 76889 Klingenmünster",
+		"address": "Schulstr. 5, 76889 Klingenmuenster",
 		"fax": "(06349)990340",
 		"full_time_school": false,
 		"id": "RP-14639",
@@ -12572,7 +12572,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Gartenstr. 79, 76891 Bruchweiler-Bärenbach",
+		"address": "Gartenstr. 79, 76891 Bruchweiler-Baerenbach",
 		"fax": "(06394)92 09 56 20",
 		"full_time_school": true,
 		"id": "RP-24898",
@@ -12704,7 +12704,7 @@
 		"id": "RP-27258",
 		"lat": 49.324932,
 		"lon": 7.630663,
-		"name": "Sickingerhöh-Grundschule",
+		"name": "Sickingerhoeh-Grundschule",
 		"official_id": "27258",
 		"phone": "(06333)63444",
 		"school_type": "Grundschule",
@@ -12754,13 +12754,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 28, 66506 Maßweiler",
+		"address": "Schulstr. 28, 66506 Massweiler",
 		"fax": "(06334)984266",
 		"full_time_school": false,
 		"id": "RP-22572",
 		"lat": 49.266325,
 		"lon": 7.532021,
-		"name": "Grundschule Maßweiler",
+		"name": "Grundschule Massweiler",
 		"official_id": "22572",
 		"phone": "(06334)1337",
 		"school_type": "Grundschule",
@@ -12782,7 +12782,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Römerstr. 20, 66981 Münchweiler an der Rodalb",
+		"address": "Roemerstr. 20, 66981 Muenchweiler an der Rodalb",
 		"fax": "(06395)993467",
 		"full_time_school": false,
 		"id": "RP-24615",
@@ -12796,13 +12796,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 23, 66989 Nünschweiler",
+		"address": "Schulstr. 23, 66989 Nuenschweiler",
 		"fax": "(06336)993881",
 		"full_time_school": false,
 		"id": "RP-25485",
 		"lat": 49.224207,
 		"lon": 7.500639,
-		"name": "Grundschule Nünschweiler",
+		"name": "Grundschule Nuenschweiler",
 		"official_id": "25485",
 		"phone": "(06336)993880",
 		"school_type": "Grundschule",
@@ -12824,7 +12824,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hohlweg 3, 66509 Rieschweiler-Mühlbach",
+		"address": "Hohlweg 3, 66509 Rieschweiler-Muehlbach",
 		"fax": "(06336)993910",
 		"full_time_school": true,
 		"id": "RP-23113",
@@ -12852,7 +12852,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Grieshohlstr. 15, 66987 Thaleischweiler-Fröschen",
+		"address": "Grieshohlstr. 15, 66987 Thaleischweiler-Froeschen",
 		"fax": "(06334)983481",
 		"full_time_school": true,
 		"id": "RP-25472",
@@ -12992,7 +12992,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Fröbelstr. 1, 54294 Trier",
+		"address": "Froebelstr. 1, 54294 Trier",
 		"fax": "(0651)9982815",
 		"full_time_school": true,
 		"id": "RP-11155",
@@ -13020,13 +13020,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Thyrsusstraße 43, 54292 Trier",
+		"address": "Thyrsusstrasse 43, 54292 Trier",
 		"fax": "(0651)1455375",
 		"full_time_school": false,
 		"id": "RP-14879",
 		"lat": 49.765434,
 		"lon": 6.657811,
-		"name": "Grundschule Kürenz",
+		"name": "Grundschule Kuerenz",
 		"official_id": "14879",
 		"phone": "(0651)46394210",
 		"school_type": "Grundschule",
@@ -13300,7 +13300,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Im Brühl 1, 54341 Fell",
+		"address": "Im Bruehl 1, 54341 Fell",
 		"fax": "(06502)995458",
 		"full_time_school": false,
 		"id": "RP-24031",
@@ -13314,13 +13314,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Im Brühl 3, 54343 Föhren",
+		"address": "Im Bruehl 3, 54343 Foehren",
 		"fax": "(06502)995776",
 		"full_time_school": true,
 		"id": "RP-24045",
 		"lat": 49.856388,
 		"lon": 6.762737,
-		"name": "Grundschule Föhren",
+		"name": "Grundschule Foehren",
 		"official_id": "24045",
 		"phone": "(06502)8890",
 		"school_type": "Grundschule",
@@ -13356,7 +13356,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlenweg 1, 54413 Gusenburg",
+		"address": "Muehlenweg 1, 54413 Gusenburg",
 		"fax": "(06503)994802",
 		"full_time_school": false,
 		"id": "RP-13634",
@@ -13454,13 +13454,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Dammstr. 35, 54340 Klüsserath",
+		"address": "Dammstr. 35, 54340 Kluesserath",
 		"fax": "(06507)938860",
 		"full_time_school": false,
 		"id": "RP-24058",
 		"lat": 49.843649,
 		"lon": 6.854584,
-		"name": "Grundschule Klüsserath",
+		"name": "Grundschule Kluesserath",
 		"official_id": "24058",
 		"phone": "(06507)4616",
 		"school_type": "Grundschule",
@@ -13622,7 +13622,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlenweg 4, 54453 Nittel",
+		"address": "Muehlenweg 4, 54453 Nittel",
 		"fax": "06584 992629",
 		"full_time_school": true,
 		"id": "RP-16011",
@@ -13678,7 +13678,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Römerstr., 54421 Reinsfeld",
+		"address": "Roemerstr., 54421 Reinsfeld",
 		"fax": "(06503)980954",
 		"full_time_school": false,
 		"id": "RP-16641",
@@ -13734,7 +13734,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hauptstr. 52, 54316 Schöndorf",
+		"address": "Hauptstr. 52, 54316 Schoendorf",
 		"fax": "(06588)982752",
 		"full_time_school": false,
 		"id": "RP-17029",
@@ -13748,13 +13748,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bodenländchen 2, 54338 Schweich",
+		"address": "Bodenlaendchen 2, 54338 Schweich",
 		"fax": "(06502)934900",
 		"full_time_school": true,
 		"id": "RP-24015",
 		"lat": 49.822992,
 		"lon": 6.749005,
-		"name": "Grundschule am Bodenländchen S",
+		"name": "Grundschule am Bodenlaendchen S",
 		"official_id": "24015",
 		"phone": "(06502)5529",
 		"school_type": "Grundschule",
@@ -13832,7 +13832,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlenstr. 9, 54298 Welschbillig",
+		"address": "Muehlenstr. 9, 54298 Welschbillig",
 		"fax": "(0651) 2703 000 166",
 		"full_time_school": false,
 		"id": "RP-18293",
@@ -13888,13 +13888,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 5, 54422 Züsch",
+		"address": "Schulstr. 5, 54422 Zuesch",
 		"fax": "6503981597",
 		"full_time_school": false,
 		"id": "RP-15796",
 		"lat": 49.64861,
 		"lon": 7.00611,
-		"name": "Grundschule Züsch",
+		"name": "Grundschule Zuesch",
 		"official_id": "15796",
 		"phone": "(06503)8880",
 		"school_type": "Grundschule",
@@ -14028,13 +14028,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Neue Schulstr. 37, 54552 Üdersdorf",
+		"address": "Neue Schulstr. 37, 54552 uedersdorf",
 		"fax": "(06596)961974",
 		"full_time_school": true,
 		"id": "RP-17899",
 		"lat": 50.15443,
 		"lon": 6.811185,
-		"name": "Grundschule Üdersdorf",
+		"name": "Grundschule uedersdorf",
 		"official_id": "17899",
 		"phone": "(06596)267",
 		"school_type": "Grundschule",
@@ -14042,7 +14042,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Römerhügel 5, 56767 Uersfeld",
+		"address": "Roemerhuegel 5, 56767 Uersfeld",
 		"fax": "02657/941092",
 		"full_time_school": false,
 		"id": "RP-17916",
@@ -14056,13 +14056,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 1, 54579 Üxheim",
+		"address": "Schulstr. 1, 54579 uexheim",
 		"fax": "(02696)930133",
 		"full_time_school": false,
 		"id": "RP-17945",
 		"lat": 50.340502,
 		"lon": 6.760577,
-		"name": "Grundschule Üxheim",
+		"name": "Grundschule uexheim",
 		"official_id": "17945",
 		"phone": "(02696)329",
 		"school_type": "Grundschule",
@@ -14140,7 +14140,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Dörnerstr., 56479 Elsoff (Westerwald)",
+		"address": "Doernerstr., 56479 Elsoff (Westerwald)",
 		"fax": "(02664)991627",
 		"full_time_school": false,
 		"id": "RP-26660",
@@ -14154,13 +14154,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hauptstr. 38, 56459 Gemünden",
+		"address": "Hauptstr. 38, 56459 Gemuenden",
 		"fax": "(02663)917248",
 		"full_time_school": false,
 		"id": "RP-13411",
 		"lat": 50.597719,
 		"lon": 8.000455,
-		"name": "Grundschule Gemünden/WW",
+		"name": "Grundschule Gemuenden/WW",
 		"official_id": "13411",
 		"phone": "(02663)4336",
 		"school_type": "Grundschule",
@@ -14188,7 +14188,7 @@
 		"id": "RP-26207",
 		"lat": 50.529269,
 		"lon": 7.945441,
-		"name": "Brüder-Grimm-Schule",
+		"name": "Brueder-Grimm-Schule",
 		"official_id": "26207",
 		"phone": "(06435)2761",
 		"school_type": "Grundschule",
@@ -14308,13 +14308,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Zehntgrafstr. 12, 56462 Höhn",
+		"address": "Zehntgrafstr. 12, 56462 Hoehn",
 		"fax": "(02661)949453",
 		"full_time_school": false,
 		"id": "RP-25649",
 		"lat": 50.616718,
 		"lon": 7.983827,
-		"name": "Grundschule Höhn",
+		"name": "Grundschule Hoehn",
 		"official_id": "25649",
 		"phone": "(02661)98660",
 		"school_type": "Grundschule",
@@ -14322,7 +14322,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 9, 56203 Höhr-Grenzhausen",
+		"address": "Schulstr. 9, 56203 Hoehr-Grenzhausen",
 		"fax": "(02624)9428265",
 		"full_time_school": true,
 		"id": "RP-11515",
@@ -14350,13 +14350,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Günterstr. 13, 56414 Hundsangen",
+		"address": "Guenterstr. 13, 56414 Hundsangen",
 		"fax": "(06435)961139",
 		"full_time_school": false,
 		"id": "RP-26417",
 		"lat": 50.455266,
 		"lon": 7.990518,
-		"name": "Erich Kästner-Grundschule",
+		"name": "Erich Kaestner-Grundschule",
 		"official_id": "26417",
 		"phone": "(06435)961137",
 		"school_type": "Grundschule",
@@ -14370,7 +14370,7 @@
 		"id": "RP-17122",
 		"lat": 50.556978,
 		"lon": 8.060808,
-		"name": "Löwenzahnschule",
+		"name": "Loewenzahnschule",
 		"official_id": "17122",
 		"phone": "(06436)3365",
 		"school_type": "Grundschule",
@@ -14378,7 +14378,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Elberbütz 14, 56459 Kaden",
+		"address": "Elberbuetz 14, 56459 Kaden",
 		"fax": "(02663)969045",
 		"full_time_school": false,
 		"id": "RP-25469",
@@ -14448,7 +14448,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Töpferstr. 7, 56424 Mogendorf",
+		"address": "Toepferstr. 7, 56424 Mogendorf",
 		"fax": "02623-929504",
 		"full_time_school": false,
 		"id": "RP-27215",
@@ -14490,13 +14490,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 24, 57629 Müschenbach",
+		"address": "Schulstr. 24, 57629 Mueschenbach",
 		"fax": "(02662)944233",
 		"full_time_school": false,
 		"id": "RP-15693",
 		"lat": 50.681873,
 		"lon": 7.780054,
-		"name": "Sonnenbergschule Müschenbach",
+		"name": "Sonnenbergschule Mueschenbach",
 		"official_id": "15693",
 		"phone": "(02662)6390",
 		"school_type": "Grundschule",
@@ -14532,7 +14532,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Eitelborner Str., 56335 Neuhäusel",
+		"address": "Eitelborner Str., 56335 Neuhaeusel",
 		"fax": "02620-508",
 		"full_time_school": true,
 		"id": "RP-25262",
@@ -14580,7 +14580,7 @@
 		"id": "RP-25292",
 		"lat": 50.408215,
 		"lon": 7.814228,
-		"name": "Grundschule Am Hähnchen",
+		"name": "Grundschule Am Haehnchen",
 		"official_id": "25292",
 		"phone": "(02602)2929",
 		"school_type": "Grundschule",
@@ -14588,7 +14588,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr., 56477 Nister-Möhrendorf",
+		"address": "Schulstr., 56477 Nister-Moehrendorf",
 		"fax": "(02667)961651",
 		"full_time_school": false,
 		"id": "RP-26240",
@@ -14658,7 +14658,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 7, 56271 Roßbach",
+		"address": "Schulstr. 7, 56271 Rossbach",
 		"fax": "(02680)988795",
 		"full_time_school": false,
 		"id": "RP-16847",
@@ -14714,13 +14714,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Zum Heckelchen, 56459 Stockum-Püschen",
+		"address": "Zum Heckelchen, 56459 Stockum-Pueschen",
 		"fax": "(02661)951759",
 		"full_time_school": false,
 		"id": "RP-25665",
 		"lat": 50.605844,
 		"lon": 7.904399,
-		"name": "Grundschule Stockum-Püschen",
+		"name": "Grundschule Stockum-Pueschen",
 		"official_id": "25665",
 		"phone": "(02661)40285",
 		"school_type": "Grundschule",
@@ -14728,7 +14728,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstraße 17, 57629 Streithausen",
+		"address": "Schulstrasse 17, 57629 Streithausen",
 		"fax": "(02662)944247",
 		"full_time_school": false,
 		"id": "RP-11922",
@@ -14784,7 +14784,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hundsänger Str. 1, 56414 Weroth",
+		"address": "Hundsaenger Str. 1, 56414 Weroth",
 		"fax": "(06435)548917",
 		"full_time_school": false,
 		"id": "RP-26420",
@@ -14882,7 +14882,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Höhenstr. 19, 67550 Worms",
+		"address": "Hoehenstr. 19, 67550 Worms",
 		"fax": "(06241)203570",
 		"full_time_school": false,
 		"id": "RP-18550",
@@ -14966,7 +14966,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Gießenstr. 5, 67547 Worms",
+		"address": "Giessenstr. 5, 67547 Worms",
 		"fax": "(06241) 417 249",
 		"full_time_school": false,
 		"id": "RP-20903",
@@ -15042,7 +15042,7 @@
 		"id": "RP-26000",
 		"lat": 49.69664,
 		"lon": 8.355693,
-		"name": "Grundschule Rheindürkheim",
+		"name": "Grundschule Rheinduerkheim",
 		"official_id": "26000",
 		"phone": "(06242)7272",
 		"school_type": "Grundschule",
@@ -15050,7 +15050,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Ernstweilertalstr. 11, 66482 Zweibrücken",
+		"address": "Ernstweilertalstr. 11, 66482 Zweibruecken",
 		"fax": "6332905283",
 		"full_time_school": false,
 		"id": "RP-18610",
@@ -15064,7 +15064,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Allensteinstr. 25, 66482 Zweibrücken",
+		"address": "Allensteinstr. 25, 66482 Zweibruecken",
 		"fax": "(06332)905280",
 		"full_time_school": false,
 		"id": "RP-18623",
@@ -15078,7 +15078,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Ackerweg 9, 66482 Zweibrücken",
+		"address": "Ackerweg 9, 66482 Zweibruecken",
 		"fax": "(06332)450507",
 		"full_time_school": true,
 		"id": "RP-18636",
@@ -15092,7 +15092,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Thomas-Mann-Str. 60, 66482 Zweibrücken",
+		"address": "Thomas-Mann-Str. 60, 66482 Zweibruecken",
 		"fax": "(06332)903233",
 		"full_time_school": false,
 		"id": "RP-18640",
@@ -15106,7 +15106,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Breitensteinstr. 32, 66482 Zweibrücken",
+		"address": "Breitensteinstr. 32, 66482 Zweibruecken",
 		"fax": "(06332)905642",
 		"full_time_school": false,
 		"id": "RP-18653",
@@ -15120,7 +15120,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Himmelsbergstr. 27, 66482 Zweibrücken",
+		"address": "Himmelsbergstr. 27, 66482 Zweibruecken",
 		"fax": "(06332)2097511",
 		"full_time_school": true,
 		"id": "RP-18679",
@@ -15134,7 +15134,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Alleeweg 9, 66482 Zweibrücken",
+		"address": "Alleeweg 9, 66482 Zweibruecken",
 		"fax": "06332-209536",
 		"full_time_school": false,
 		"id": "RP-18683",
@@ -15148,7 +15148,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Otterstein 14, 66482 Zweibrücken",
+		"address": "Am Otterstein 14, 66482 Zweibruecken",
 		"fax": "06332-487988",
 		"full_time_school": false,
 		"id": "RP-18696",
@@ -15308,7 +15308,7 @@
 		"id": "RP-50597",
 		"lat": 49.742864,
 		"lon": 8.116523,
-		"name": "Gymnasium am Römerkastell",
+		"name": "Gymnasium am Roemerkastell",
 		"official_id": "50597",
 		"phone": "(06731)99880",
 		"school_type": "Gymnasium",
@@ -15322,7 +15322,7 @@
 		"id": "RP-51081",
 		"lat": 49.74226,
 		"lon": 8.11817,
-		"name": "Elisabeth-Langgässer-Gymnasium",
+		"name": "Elisabeth-Langgaesser-Gymnasium",
 		"official_id": "51081",
 		"phone": "(06731)94775-0",
 		"school_type": "Gymnasium",
@@ -15330,7 +15330,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kanalstr. 19, 67098 Bad Dürkheim",
+		"address": "Kanalstr. 19, 67098 Bad Duerkheim",
 		"fax": "(06322)5079",
 		"full_time_school": false,
 		"id": "RP-51094",
@@ -15344,7 +15344,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kreuzerweg 4, 67269 Grünstadt",
+		"address": "Kreuzerweg 4, 67269 Gruenstadt",
 		"fax": "(06359)932144",
 		"full_time_school": false,
 		"id": "RP-50824",
@@ -15358,7 +15358,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Viroflayer Str. 20, 67454 Haßloch",
+		"address": "Viroflayer Str. 20, 67454 Hassloch",
 		"fax": "(06324)927028",
 		"full_time_school": true,
 		"id": "RP-51395",
@@ -15378,7 +15378,7 @@
 		"id": "RP-50583",
 		"lat": 49.84906,
 		"lon": 7.867921,
-		"name": "Gymnasium am Römerkastell",
+		"name": "Gymnasium am Roemerkastell",
 		"official_id": "50583",
 		"phone": "(0671) 66464",
 		"school_type": "Gymnasium",
@@ -15456,7 +15456,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Präses-Held-Str. 1, 55590 Meisenheim",
+		"address": "Praeses-Held-Str. 1, 55590 Meisenheim",
 		"fax": "939313",
 		"full_time_school": false,
 		"id": "RP-50180",
@@ -15498,7 +15498,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kurfürstenstr. 14, 54516 Wittlich",
+		"address": "Kurfuerstenstr. 14, 54516 Wittlich",
 		"fax": "(06571)9561422",
 		"full_time_school": true,
 		"id": "RP-50044",
@@ -15546,7 +15546,7 @@
 		"id": "RP-50493",
 		"lat": 49.718359,
 		"lon": 7.391519,
-		"name": "Göttenbach-Gymnasium",
+		"name": "Goettenbach-Gymnasium",
 		"official_id": "50493",
 		"phone": "(06784)904790",
 		"school_type": "Gymnasium",
@@ -15568,7 +15568,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schloßstr. 28, 56812 Cochem",
+		"address": "Schlossstr. 28, 56812 Cochem",
 		"fax": "(02671)91679-20",
 		"full_time_school": true,
 		"id": "RP-50840",
@@ -15652,7 +15652,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Prümer Str., 54634 Bitburg",
+		"address": "Pruemer Str., 54634 Bitburg",
 		"fax": "(06561)949055",
 		"full_time_school": false,
 		"id": "RP-51528",
@@ -15680,7 +15680,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hahnplatz 21, 54595 Prüm",
+		"address": "Hahnplatz 21, 54595 Pruem",
 		"fax": "(06551)9531-30",
 		"full_time_school": true,
 		"id": "RP-51198",
@@ -15694,7 +15694,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Vinzenz-von-Paul-Str. 5, 54595 Prüm",
+		"address": "Vinzenz-von-Paul-Str. 5, 54595 Pruem",
 		"fax": "(06551)9814140",
 		"full_time_school": true,
 		"id": "RP-51334",
@@ -15722,7 +15722,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Röntgenplatz 5, 67227 Frankenthal (Pfalz)",
+		"address": "Roentgenplatz 5, 67227 Frankenthal (Pfalz)",
 		"fax": "(06233)319305",
 		"full_time_school": true,
 		"id": "RP-50763",
@@ -15750,7 +15750,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Forststr. 1, 76744 Wörth am Rhein",
+		"address": "Forststr. 1, 76744 Woerth am Rhein",
 		"fax": "(07271)7604111",
 		"full_time_school": true,
 		"id": "RP-51111",
@@ -15792,7 +15792,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Im Dunkeltälchen 65, 67663 Kaiserslautern",
+		"address": "Im Dunkeltaelchen 65, 67663 Kaiserslautern",
 		"fax": "(0631)2010423",
 		"full_time_school": true,
 		"id": "RP-50314",
@@ -15834,7 +15834,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Möllendorfstr. 29, 67655 Kaiserslautern",
+		"address": "Moellendorfstr. 29, 67655 Kaiserslautern",
 		"fax": "(0631)3702389",
 		"full_time_school": true,
 		"id": "RP-50734",
@@ -15862,7 +15862,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Zum Kirchbühl 14, 66877 Ramstein-Miesenbach",
+		"address": "Zum Kirchbuehl 14, 66877 Ramstein-Miesenbach",
 		"fax": "(06371)964821",
 		"full_time_school": false,
 		"id": "RP-51411",
@@ -15882,7 +15882,7 @@
 		"id": "RP-50027",
 		"lat": 50.349249,
 		"lon": 7.591183,
-		"name": "Bischöfliches Cusanus-",
+		"name": "Bischoefliches Cusanus-",
 		"official_id": "50027",
 		"phone": "(0261)915920",
 		"school_type": "Gymnasium",
@@ -15910,7 +15910,7 @@
 		"id": "RP-50477",
 		"lat": 50.359565,
 		"lon": 7.599476,
-		"name": "Görres-Gymnasium",
+		"name": "Goerres-Gymnasium",
 		"official_id": "50477",
 		"phone": "(0261)12749",
 		"school_type": "Gymnasium",
@@ -15946,7 +15946,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kurfürstenstr. 40-42, 56068 Koblenz",
+		"address": "Kurfuerstenstr. 40-42, 56068 Koblenz",
 		"fax": "(0261)29670262",
 		"full_time_school": false,
 		"id": "RP-50717",
@@ -15960,7 +15960,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Südallee 1-9, 56068 Koblenz",
+		"address": "Suedallee 1-9, 56068 Koblenz",
 		"fax": "91483-10",
 		"full_time_school": true,
 		"id": "RP-50883",
@@ -15974,7 +15974,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Walkmühlstr. 9, 66869 Kusel",
+		"address": "Walkmuehlstr. 9, 66869 Kusel",
 		"fax": "(06381)923040",
 		"full_time_school": false,
 		"id": "RP-50540",
@@ -16058,7 +16058,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Jägerstr. 9, 67059 Ludwigshafen am Rhein",
+		"address": "Jaegerstr. 9, 67059 Ludwigshafen am Rhein",
 		"fax": "(0621)504430898",
 		"full_time_school": true,
 		"id": "RP-50360",
@@ -16106,7 +16106,7 @@
 		"id": "RP-51051",
 		"lat": 49.463754,
 		"lon": 8.43103,
-		"name": "Heinrich-Böll-Gymnasium",
+		"name": "Heinrich-Boell-Gymnasium",
 		"official_id": "51051",
 		"phone": "(0621)504425730",
 		"school_type": "Gymnasium",
@@ -16128,7 +16128,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlaustr. 13, 67069 Ludwigshafen am Rhein",
+		"address": "Muehlaustr. 13, 67069 Ludwigshafen am Rhein",
 		"fax": "(0621)504431998",
 		"full_time_school": false,
 		"id": "RP-51381",
@@ -16148,7 +16148,7 @@
 		"id": "RP-50030",
 		"lat": 49.996068,
 		"lon": 8.269738,
-		"name": "Priv. Bischöfl. Willigis-",
+		"name": "Priv. Bischoefl. Willigis-",
 		"official_id": "50030",
 		"phone": "(06131)286760",
 		"school_type": "Gymnasium",
@@ -16226,7 +16226,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "An Schneiders Mühle 1, 55122 Mainz",
+		"address": "An Schneiders Muehle 1, 55122 Mainz",
 		"fax": "(06131)9065615",
 		"full_time_school": true,
 		"id": "RP-51064",
@@ -16302,7 +16302,7 @@
 		"id": "RP-51228",
 		"lat": 49.97364,
 		"lon": 8.053713,
-		"name": "Sebastian-Münster-Gymnasium",
+		"name": "Sebastian-Muenster-Gymnasium",
 		"official_id": "51228",
 		"phone": "(06132)71650",
 		"school_type": "Gymnasium",
@@ -16372,7 +16372,7 @@
 		"id": "RP-50807",
 		"lat": 50.43247,
 		"lon": 7.405222,
-		"name": "Kurfürst-Salentin-Gymnasium",
+		"name": "Kurfuerst-Salentin-Gymnasium",
 		"official_id": "50807",
 		"phone": "(02632) 96610",
 		"school_type": "Gymnasium",
@@ -16380,7 +16380,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlenstr. 35, 56170 Bendorf",
+		"address": "Muehlenstr. 35, 56170 Bendorf",
 		"fax": "(02622) 5894",
 		"full_time_school": false,
 		"id": "RP-51034",
@@ -16394,7 +16394,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Knüppchen 1, 56727 Mayen",
+		"address": "Am Knueppchen 1, 56727 Mayen",
 		"fax": "(02651)969444",
 		"full_time_school": false,
 		"id": "RP-50943",
@@ -16408,13 +16408,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Reihe Bäume 21, 56218 Mülheim-Kärlich",
+		"address": "Reihe Baeume 21, 56218 Muelheim-Kaerlich",
 		"fax": "(02630)959662",
 		"full_time_school": true,
 		"id": "RP-51515",
 		"lat": 50.394834,
 		"lon": 7.497592,
-		"name": "Gymnasium Mülheim-Kärlich",
+		"name": "Gymnasium Muelheim-Kaerlich",
 		"official_id": "51515",
 		"phone": "(02630)94020",
 		"school_type": "Gymnasium",
@@ -16422,13 +16422,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kurfürst-Balduin-Str. 12-16, 56294 Münstermaifeld",
+		"address": "Kurfuerst-Balduin-Str. 12-16, 56294 Muenstermaifeld",
 		"fax": "980115",
 		"full_time_school": false,
 		"id": "RP-50780",
 		"lat": 50.244449,
 		"lon": 7.364057,
-		"name": "Kurfürst-Balduin-Gymnasium",
+		"name": "Kurfuerst-Balduin-Gymnasium",
 		"official_id": "50780",
 		"phone": "(02605)98010",
 		"school_type": "Gymnasium",
@@ -16436,13 +16436,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Höhrer Str. 74-76, 56179 Vallendar",
+		"address": "Hoehrer Str. 74-76, 56179 Vallendar",
 		"fax": "(0261)9622814",
 		"full_time_school": true,
 		"id": "RP-50194",
 		"lat": 50.411635,
 		"lon": 7.632251,
-		"name": "Priv. Schönstätter",
+		"name": "Priv. Schoenstaetter",
 		"official_id": "50194",
 		"phone": "(0261)60356",
 		"school_type": "Gymnasium",
@@ -16450,13 +16450,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Villenstr. 1, 67433 Neustadt an der Weinstraße",
+		"address": "Villenstr. 1, 67433 Neustadt an der Weinstrasse",
 		"fax": "(06321)392533",
 		"full_time_school": false,
 		"id": "RP-50747",
 		"lat": 49.35,
 		"lon": 8.15,
-		"name": "Käthe-Kollwitz-Gymnasium",
+		"name": "Kaethe-Kollwitz-Gymnasium",
 		"official_id": "50747",
 		"phone": "(06321)39250",
 		"school_type": "Gymnasium",
@@ -16464,13 +16464,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Landwehrstr. 22, 67433 Neustadt an der Weinstraße",
+		"address": "Landwehrstr. 22, 67433 Neustadt an der Weinstrasse",
 		"fax": "(06321)4990123",
 		"full_time_school": false,
 		"id": "RP-50793",
 		"lat": 49.35,
 		"lon": 8.15,
-		"name": "Kurfürst-Ruprecht-Gymnasium",
+		"name": "Kurfuerst-Ruprecht-Gymnasium",
 		"official_id": "50793",
 		"phone": "(06321)499010",
 		"school_type": "Gymnasium",
@@ -16478,7 +16478,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Karolinenstr. 103, 67434 Neustadt an der Weinstraße",
+		"address": "Karolinenstr. 103, 67434 Neustadt an der Weinstrasse",
 		"fax": "(06321)4844499",
 		"full_time_school": false,
 		"id": "RP-50810",
@@ -16576,7 +16576,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wörthstr. 30, 66953 Pirmasens",
+		"address": "Woerthstr. 30, 66953 Pirmasens",
 		"fax": "(06331)240423",
 		"full_time_school": false,
 		"id": "RP-50524",
@@ -16618,7 +16618,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 11, 55481 Kirchberg (Hunsrück)",
+		"address": "Schulstr. 11, 55481 Kirchberg (Hunsrueck)",
 		"fax": "(06763)931196",
 		"full_time_school": true,
 		"id": "RP-51498",
@@ -16632,7 +16632,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Flachsberg 6, 55469 Simmern/ Hunsrück",
+		"address": "Am Flachsberg 6, 55469 Simmern/ Hunsrueck",
 		"fax": "(06761)3090",
 		"full_time_school": false,
 		"id": "RP-50690",
@@ -16708,7 +16708,7 @@
 		"id": "RP-50897",
 		"lat": 50.289302,
 		"lon": 7.62455,
-		"name": "Marion-Dönhoff-Gymnasium",
+		"name": "Marion-Doenhoff-Gymnasium",
 		"official_id": "50897",
 		"phone": "(02621 - 94270",
 		"school_type": "Gymnasium",
@@ -16716,7 +16716,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Feldstraße 6, 56377 Nassau",
+		"address": "Feldstrasse 6, 56377 Nassau",
 		"fax": "-",
 		"full_time_school": true,
 		"id": "RP-51545",
@@ -16744,7 +16744,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstraße 4, 67133 Maxdorf",
+		"address": "Schulstrasse 4, 67133 Maxdorf",
 		"fax": "06237/9243351",
 		"full_time_school": true,
 		"id": "RP-51455",
@@ -16758,7 +16758,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Neustückweg, 67105 Schifferstadt",
+		"address": "Neustueckweg, 67105 Schifferstadt",
 		"fax": "(06235)955439",
 		"full_time_school": false,
 		"id": "RP-51378",
@@ -16814,7 +16814,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Große Pfaffengasse 6, 67346 Speyer",
+		"address": "Grosse Pfaffengasse 6, 67346 Speyer",
 		"fax": "(06232)677228",
 		"full_time_school": false,
 		"id": "RP-50554",
@@ -16884,7 +16884,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Südring 11, 76863 Herxheim bei Landau/ Pfalz",
+		"address": "Suedring 11, 76863 Herxheim bei Landau/ Pfalz",
 		"fax": "(07276)971111",
 		"full_time_school": true,
 		"id": "RP-51408",
@@ -16898,13 +16898,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schloßstr. 19, 66994 Dahn",
+		"address": "Schlossstr. 19, 66994 Dahn",
 		"fax": "(06391)914222",
 		"full_time_school": true,
 		"id": "RP-51171",
 		"lat": 49.152075,
 		"lon": 7.78854,
-		"name": "Otfried-von-Weißenburg-",
+		"name": "Otfried-von-Weissenburg-",
 		"official_id": "51171",
 		"phone": "(06391)914150",
 		"school_type": "Gymnasium",
@@ -16918,7 +16918,7 @@
 		"id": "RP-50014",
 		"lat": 49.751074,
 		"lon": 6.637767,
-		"name": "Bischöfliches",
+		"name": "Bischoefliches",
 		"official_id": "50014",
 		"phone": "(0651)145980",
 		"school_type": "Gymnasium",
@@ -16954,7 +16954,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mäusheckerweg 1, 54293 Trier",
+		"address": "Maeusheckerweg 1, 54293 Trier",
 		"fax": "(0651)9679828",
 		"full_time_school": true,
 		"id": "RP-50657",
@@ -17066,7 +17066,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstraße 1, 54550 Daun",
+		"address": "Schulstrasse 1, 54550 Daun",
 		"fax": "(06592)7416",
 		"full_time_school": false,
 		"id": "RP-50914",
@@ -17122,13 +17122,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Scheidberg 4, 56203 Höhr-Grenzhausen",
+		"address": "Am Scheidberg 4, 56203 Hoehr-Grenzhausen",
 		"fax": "940819",
 		"full_time_school": true,
 		"id": "RP-51348",
 		"lat": 50.435,
 		"lon": 7.67111,
-		"name": "Gymnasium im Kannenbäckerland",
+		"name": "Gymnasium im Kannenbaeckerland",
 		"official_id": "51348",
 		"phone": "(02624)94080",
 		"school_type": "Gymnasium",
@@ -17178,7 +17178,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wörthstr. 16, 56457 Westerburg",
+		"address": "Woerthstr. 16, 56457 Westerburg",
 		"fax": "(02663)943838",
 		"full_time_school": false,
 		"id": "RP-51048",
@@ -17240,7 +17240,7 @@
 		"id": "RP-50450",
 		"lat": 49.641095,
 		"lon": 8.34405,
-		"name": "Gauß-Gymnasium",
+		"name": "Gauss-Gymnasium",
 		"official_id": "50450",
 		"phone": "(06241)8534400",
 		"school_type": "Gymnasium",
@@ -17248,7 +17248,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bleicherstr. 3, 66482 Zweibrücken",
+		"address": "Bleicherstr. 3, 66482 Zweibruecken",
 		"fax": "(06332)925440",
 		"full_time_school": false,
 		"id": "RP-50687",
@@ -17262,7 +17262,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Zeilbäumer Str. 1, 66482 Zweibrücken",
+		"address": "Zeilbaeumer Str. 1, 66482 Zweibruecken",
 		"fax": "(06332)4806-22",
 		"full_time_school": false,
 		"id": "RP-51078",
@@ -17374,7 +17374,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Humboldtstr. 1, 55286 Wörrstadt",
+		"address": "Humboldtstr. 1, 55286 Woerrstadt",
 		"fax": "(06732)917449",
 		"full_time_school": true,
 		"id": "RP-70065",
@@ -17388,7 +17388,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Bürgerm.-Oberhettinger-Str. 1, 67146 Deidesheim",
+		"address": "Buergerm.-Oberhettinger-Str. 1, 67146 Deidesheim",
 		"fax": "(06326)982768",
 		"full_time_school": true,
 		"id": "RP-70228",
@@ -17402,7 +17402,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Pfortmüllerstr. 33, 67269 Grünstadt",
+		"address": "Pfortmuellerstr. 33, 67269 Gruenstadt",
 		"fax": "(06359)808829",
 		"full_time_school": true,
 		"id": "RP-70381",
@@ -17500,7 +17500,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Friedrich-Ebert-Straße 19, 67304 Eisenberg (Pfalz)",
+		"address": "Friedrich-Ebert-Strasse 19, 67304 Eisenberg (Pfalz)",
 		"fax": "(06351)1260429",
 		"full_time_school": true,
 		"id": "RP-70365",
@@ -17514,7 +17514,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlackerweg 25, 67806 Rockenhausen",
+		"address": "Muehlackerweg 25, 67806 Rockenhausen",
 		"fax": "(06361)921321",
 		"full_time_school": true,
 		"id": "RP-70141",
@@ -17570,7 +17570,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 17, 76761 Rülzheim",
+		"address": "Schulstr. 17, 76761 Ruelzheim",
 		"fax": "(07272)9297420",
 		"full_time_school": true,
 		"id": "RP-70348",
@@ -17584,7 +17584,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Forststraße 1a, 76744 Wörth am Rhein",
+		"address": "Forststrasse 1a, 76744 Woerth am Rhein",
 		"fax": "(07271)131 513",
 		"full_time_school": true,
 		"id": "RP-70425",
@@ -17626,7 +17626,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Mühlberg 23, 67677 Enkenbach-Alsenborn",
+		"address": "Am Muehlberg 23, 67677 Enkenbach-Alsenborn",
 		"fax": "(06303)921422",
 		"full_time_school": true,
 		"id": "RP-70078",
@@ -17682,7 +17682,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "St.-Wendeler-Str. 16, 66901 Schönenberg-Kübelberg",
+		"address": "St.-Wendeler-Str. 16, 66901 Schoenenberg-Kuebelberg",
 		"fax": "(06373)811033",
 		"full_time_school": true,
 		"id": "RP-70441",
@@ -17696,7 +17696,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Dörrenbergstr. 1, 76829 Landau in der Pfalz",
+		"address": "Doerrenbergstr. 1, 76829 Landau in der Pfalz",
 		"fax": "(06341)945482",
 		"full_time_school": true,
 		"id": "RP-70245",
@@ -17752,7 +17752,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlaustr. 51, 67069 Ludwigshafen am Rhein",
+		"address": "Muehlaustr. 51, 67069 Ludwigshafen am Rhein",
 		"fax": "0621-504425698",
 		"full_time_school": true,
 		"id": "RP-70395",
@@ -17766,7 +17766,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Hans-Böckler-Str. 2, 55128 Mainz",
+		"address": "Hans-Boeckler-Str. 2, 55128 Mainz",
 		"fax": "(06131)364052",
 		"full_time_school": true,
 		"id": "RP-70035",
@@ -17808,7 +17808,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Albrecht-Dürer-Str. 30, 55218 Ingelheim am Rhein",
+		"address": "Albrecht-Duerer-Str. 30, 55218 Ingelheim am Rhein",
 		"fax": "(06132)995199",
 		"full_time_school": true,
 		"id": "RP-70048",
@@ -17864,7 +17864,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wilhelm-Röntgen-Str., 56637 Plaidt",
+		"address": "Wilhelm-Roentgen-Str., 56637 Plaidt",
 		"fax": "-2632",
 		"full_time_school": true,
 		"id": "RP-70501",
@@ -17934,7 +17934,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Pestalozzistr. 1, 56355 Nastätten",
+		"address": "Pestalozzistr. 1, 56355 Nastaetten",
 		"fax": "(06772)2364",
 		"full_time_school": true,
 		"id": "RP-70275",
@@ -17990,7 +17990,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 2, 66987 Thaleischweiler-Fröschen",
+		"address": "Schulstr. 2, 66987 Thaleischweiler-Froeschen",
 		"fax": "(06334)922350",
 		"full_time_school": true,
 		"id": "RP-70171",
@@ -18004,7 +18004,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Karl-Stöß-Ring 2a, 67714 Waldfischbach-Burgalben",
+		"address": "Karl-Stoess-Ring 2a, 67714 Waldfischbach-Burgalben",
 		"fax": "(06333)920222",
 		"full_time_school": true,
 		"id": "RP-70318",
@@ -18088,7 +18088,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kurfürstenstr. 41, 56068 Koblenz",
+		"address": "Kurfuerstenstr. 41, 56068 Koblenz",
 		"fax": "(0261)9141000",
 		"full_time_school": false,
 		"id": "RP-59013",
@@ -18116,7 +18116,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Butenschönstr. 2, 67346 Speyer",
+		"address": "Butenschoenstr. 2, 67346 Speyer",
 		"fax": "(06232)653040",
 		"full_time_school": false,
 		"id": "RP-59026",
@@ -18242,7 +18242,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Finkenstraße 14, 67661 Kaiserslautern",
+		"address": "Finkenstrasse 14, 67661 Kaiserslautern",
 		"fax": "(06301)7997760",
 		"full_time_school": false,
 		"id": "RP-42520",
@@ -18256,7 +18256,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Glanstr. 9, 66907 Glan-Münchweiler",
+		"address": "Glanstr. 9, 66907 Glan-Muenchweiler",
 		"fax": "(06383)9259619",
 		"full_time_school": true,
 		"id": "RP-41659",
@@ -18290,7 +18290,7 @@
 		"id": "RP-42397",
 		"lat": 49.995719,
 		"lon": 8.272132,
-		"name": "Martinusschule Weißliliengasse",
+		"name": "Martinusschule Weissliliengasse",
 		"official_id": "42397",
 		"phone": "(06131)229153",
 		"school_type": "organisatorisch verbundene Grund- und Realschule Plus",
@@ -18298,7 +18298,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlstraße 28, 55257 Budenheim",
+		"address": "Muehlstrasse 28, 55257 Budenheim",
 		"fax": "(06139)962086",
 		"full_time_school": true,
 		"id": "RP-42220",
@@ -18410,7 +18410,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr., 54584 Jünkerath",
+		"address": "Schulstr., 54584 Juenkerath",
 		"fax": "(06597)92033-16",
 		"full_time_school": true,
 		"id": "RP-41676",
@@ -18438,7 +18438,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wäller Park Haus 14+17, 56457 Westerburg",
+		"address": "Waeller Park Haus 14+17, 56457 Westerburg",
 		"fax": "02663-91146812",
 		"full_time_school": true,
 		"id": "RP-41316",
@@ -18528,7 +18528,7 @@
 		"id": "RP-40101",
 		"lat": 49.996068,
 		"lon": 8.269738,
-		"name": "Bischöfliche Willigis",
+		"name": "Bischoefliche Willigis",
 		"official_id": "40101",
 		"phone": "(06131)286760",
 		"school_type": "Realschule",
@@ -18542,7 +18542,7 @@
 		"id": "RP-40085",
 		"lat": 50.23139,
 		"lon": 7.59083,
-		"name": "Bischöfliche Realschule",
+		"name": "Bischoefliche Realschule",
 		"official_id": "40085",
 		"phone": "(06742)20710",
 		"school_type": "Realschule",
@@ -18592,7 +18592,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schützenstr. 109, 53474 Bad Neuenahr-Ahrweiler  Stadt",
+		"address": "Schuetzenstr. 109, 53474 Bad Neuenahr-Ahrweiler  Stadt",
 		"fax": "979323",
 		"full_time_school": false,
 		"id": "RP-40912",
@@ -18612,7 +18612,7 @@
 		"id": "RP-42247",
 		"lat": 50.541127,
 		"lon": 7.11846,
-		"name": "Erich Kästner-Realschule plus",
+		"name": "Erich Kaestner-Realschule plus",
 		"official_id": "42247",
 		"phone": "(02641)3373",
 		"school_type": "Realschule Plus",
@@ -18662,7 +18662,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schützenstr. 62, 57518 Betzdorf",
+		"address": "Schuetzenstr. 62, 57518 Betzdorf",
 		"fax": "(02741) 9108199 o. 22067",
 		"full_time_school": true,
 		"id": "RP-41209",
@@ -18724,7 +18724,7 @@
 		"id": "RP-40252",
 		"lat": 50.779525,
 		"lon": 7.730099,
-		"name": "Marion-Dönhoff",
+		"name": "Marion-Doenhoff",
 		"official_id": "40252",
 		"phone": "(02742)2571",
 		"school_type": "Realschule Plus",
@@ -18760,7 +18760,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Albert-Schweitzer-Str. 1, 67592 Flörsheim-Dalsheim",
+		"address": "Albert-Schweitzer-Str. 1, 67592 Floersheim-Dalsheim",
 		"fax": "06243-9096816",
 		"full_time_school": true,
 		"id": "RP-42204",
@@ -18788,13 +18788,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulrat-Spang-Str. 7-9, 55597 Wöllstein",
+		"address": "Schulrat-Spang-Str. 7-9, 55597 Woellstein",
 		"fax": "(06703)930410",
 		"full_time_school": true,
 		"id": "RP-42144",
 		"lat": 49.808574,
 		"lon": 7.959628,
-		"name": "Realschule plus Wöllstein",
+		"name": "Realschule plus Woellstein",
 		"official_id": "42144",
 		"phone": "(06703)93040",
 		"school_type": "Realschule Plus",
@@ -18802,13 +18802,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Humboldstr. 1, 55286 Wörrstadt",
+		"address": "Humboldstr. 1, 55286 Woerrstadt",
 		"fax": "(06732)961618",
 		"full_time_school": true,
 		"id": "RP-42354",
 		"lat": 49.84306,
 		"lon": 8.11556,
-		"name": "Erich-Kästner-Realschule plus",
+		"name": "Erich-Kaestner-Realschule plus",
 		"official_id": "42354",
 		"phone": "(06732)2919",
 		"school_type": "Realschule Plus",
@@ -18816,7 +18816,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kanalstr. 19, 67098 Bad Dürkheim",
+		"address": "Kanalstr. 19, 67098 Bad Duerkheim",
 		"fax": "(06322)951920",
 		"full_time_school": true,
 		"id": "RP-41003",
@@ -18844,7 +18844,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Neumayerstraße 27, 67273 Weisenheim am Berg",
+		"address": "Neumayerstrasse 27, 67273 Weisenheim am Berg",
 		"fax": "(06353)91378",
 		"full_time_school": false,
 		"id": "RP-41916",
@@ -18858,7 +18858,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Ringstraße 112, 55543 Bad Kreuznach",
+		"address": "Ringstrasse 112, 55543 Bad Kreuznach",
 		"fax": "0671/483523-160",
 		"full_time_school": true,
 		"id": "RP-40265",
@@ -18872,7 +18872,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Götzenfelsstraße 14, 55583 Bad Münster am Stein-Ebernburg",
+		"address": "Goetzenfelsstrasse 14, 55583 Bad Muenster am Stein-Ebernburg",
 		"fax": "(06708)660098",
 		"full_time_school": false,
 		"id": "RP-41166",
@@ -18886,7 +18886,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Münchwiesen 41, 55566 Bad Sobernheim",
+		"address": "Muenchwiesen 41, 55566 Bad Sobernheim",
 		"fax": "(06751)85604-10",
 		"full_time_school": true,
 		"id": "RP-40278",
@@ -19026,13 +19026,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kurfürstenstr. 12, 54516 Wittlich",
+		"address": "Kurfuerstenstr. 12, 54516 Wittlich",
 		"fax": "(06571)952424",
 		"full_time_school": true,
 		"id": "RP-40188",
 		"lat": 49.984127,
 		"lon": 6.894951,
-		"name": "Kurfürst-Balduin-Realschule",
+		"name": "Kurfuerst-Balduin-Realschule",
 		"official_id": "40188",
 		"phone": "(06571) 95240",
 		"school_type": "Realschule Plus",
@@ -19054,7 +19054,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Im Brühl 20, 55774 Baumholder",
+		"address": "Im Bruehl 20, 55774 Baumholder",
 		"fax": "(06783)981145",
 		"full_time_school": true,
 		"id": "RP-40282",
@@ -19096,7 +19096,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schloßstr. 34, 56812 Cochem",
+		"address": "Schlossstr. 34, 56812 Cochem",
 		"fax": "(02671)4676",
 		"full_time_school": true,
 		"id": "RP-40307",
@@ -19138,7 +19138,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mühlackerweg 24c, 67806 Rockenhausen",
+		"address": "Muehlackerweg 24c, 67806 Rockenhausen",
 		"fax": "(06361)921331",
 		"full_time_school": true,
 		"id": "RP-40745",
@@ -19180,7 +19180,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Prümer Str., 54634 Bitburg",
+		"address": "Pruemer Str., 54634 Bitburg",
 		"fax": "(06561)949055",
 		"full_time_school": false,
 		"id": "RP-41046",
@@ -19194,7 +19194,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Im Brühl 3, 54608 Bleialf",
+		"address": "Im Bruehl 3, 54608 Bleialf",
 		"fax": "(06555)920916",
 		"full_time_school": true,
 		"id": "RP-41752",
@@ -19208,7 +19208,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulzentrum Kreuzerweg, 54595 Prüm",
+		"address": "Schulzentrum Kreuzerweg, 54595 Pruem",
 		"fax": "(06551)9711120",
 		"full_time_school": true,
 		"id": "RP-40595",
@@ -19256,7 +19256,7 @@
 		"id": "RP-40758",
 		"lat": 49.21264,
 		"lon": 8.375888,
-		"name": "Richard-von-Weizsäcker-",
+		"name": "Richard-von-Weizsaecker-",
 		"official_id": "40758",
 		"phone": "(07274)7072-0",
 		"school_type": "Realschule Plus",
@@ -19264,7 +19264,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Römerweg 2, 76726 Germersheim",
+		"address": "Roemerweg 2, 76726 Germersheim",
 		"fax": "(07274) 91 99320",
 		"full_time_school": true,
 		"id": "RP-42414",
@@ -19334,13 +19334,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Raiffeisenstr. 4 a, 66892 Bruchmühlbach-Miesau",
+		"address": "Raiffeisenstr. 4 a, 66892 Bruchmuehlbach-Miesau",
 		"fax": "(06372)994995",
 		"full_time_school": true,
 		"id": "RP-41959",
 		"lat": 49.407617,
 		"lon": 7.436455,
-		"name": "Adam-Müller-Schule",
+		"name": "Adam-Mueller-Schule",
 		"official_id": "41959",
 		"phone": "(06372)1460",
 		"school_type": "Realschule Plus",
@@ -19376,7 +19376,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "In der Naßerde 30, 67685 Weilerbach",
+		"address": "In der Nasserde 30, 67685 Weilerbach",
 		"fax": "(06374)914919",
 		"full_time_school": false,
 		"id": "RP-42127",
@@ -19390,7 +19390,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Weißer Gasse 6, 56068 Koblenz",
+		"address": "Weisser Gasse 6, 56068 Koblenz",
 		"fax": "37326",
 		"full_time_school": false,
 		"id": "RP-40217",
@@ -19452,7 +19452,7 @@
 		"id": "RP-41736",
 		"lat": 49.551584,
 		"lon": 7.458804,
-		"name": "Gustav-Schäffner-Schule",
+		"name": "Gustav-Schaeffner-Schule",
 		"official_id": "41736",
 		"phone": "(06381)2864",
 		"school_type": "Realschule Plus",
@@ -19460,7 +19460,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Roßberg 1, 66869 Kusel",
+		"address": "Am Rossberg 1, 66869 Kusel",
 		"fax": "(06381)99699730",
 		"full_time_school": true,
 		"id": "RP-40775",
@@ -19600,7 +19600,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Ludwig-Langstädter-Str. 6, 55218 Ingelheim am Rhein",
+		"address": "Ludwig-Langstaedter-Str. 6, 55218 Ingelheim am Rhein",
 		"fax": "(06132) 7144120",
 		"full_time_school": true,
 		"id": "RP-40848",
@@ -19684,7 +19684,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Reihe Bäume 21, 56218 Mülheim-Kärlich",
+		"address": "Reihe Baeume 21, 56218 Muelheim-Kaerlich",
 		"fax": "(02630)959662",
 		"full_time_school": true,
 		"id": "RP-41136",
@@ -19698,7 +19698,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Greimerstälchen 3, 56729 Nachtsheim",
+		"address": "Greimerstaelchen 3, 56729 Nachtsheim",
 		"fax": "(02656)95289-10",
 		"full_time_school": true,
 		"id": "RP-41449",
@@ -19712,13 +19712,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Höhrer Str. 74-76, 56179 Vallendar",
+		"address": "Hoehrer Str. 74-76, 56179 Vallendar",
 		"fax": "9622814",
 		"full_time_school": false,
 		"id": "RP-41106",
 		"lat": 50.411635,
 		"lon": 7.632251,
-		"name": "Priv. Schönstätter",
+		"name": "Priv. Schoenstaetter",
 		"official_id": "41106",
 		"phone": "(0261)60356",
 		"school_type": "Realschule Plus",
@@ -19740,7 +19740,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Landwehrstr. 20, 67433 Neustadt an der Weinstraße",
+		"address": "Landwehrstr. 20, 67433 Neustadt an der Weinstrasse",
 		"fax": "(06321)918611",
 		"full_time_school": true,
 		"id": "RP-40668",
@@ -19922,7 +19922,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr. 11, 55481 Kirchberg (Hunsrück)",
+		"address": "Schulstr. 11, 55481 Kirchberg (Hunsrueck)",
 		"fax": "(06763)9311-70",
 		"full_time_school": true,
 		"id": "RP-40445",
@@ -19950,7 +19950,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schulstr., 55494 Rheinböllen",
+		"address": "Schulstr., 55494 Rheinboellen",
 		"fax": "(06764)908483",
 		"full_time_school": true,
 		"id": "RP-41513",
@@ -19964,7 +19964,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Kümbdcher Hohl 17, 55469 Simmern/ Hunsrück",
+		"address": "Kuembdcher Hohl 17, 55469 Simmern/ Hunsrueck",
 		"fax": "(06761)932218",
 		"full_time_school": true,
 		"id": "RP-41556",
@@ -20006,13 +20006,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Jahnstr. 25, 65623 Hahnstätten",
+		"address": "Jahnstr. 25, 65623 Hahnstaetten",
 		"fax": "(06430)9250186",
 		"full_time_school": true,
 		"id": "RP-41392",
 		"lat": 50.30417,
 		"lon": 8.06944,
-		"name": "Realschule plus Hahnstätten",
+		"name": "Realschule plus Hahnstaetten",
 		"official_id": "41392",
 		"phone": "(06430)925629",
 		"school_type": "Realschule Plus",
@@ -20034,7 +20034,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Grünstadter Str. 6, 67240 Bobenheim-Roxheim",
+		"address": "Gruenstadter Str. 6, 67240 Bobenheim-Roxheim",
 		"fax": "(06239)926724",
 		"full_time_school": true,
 		"id": "RP-41932",
@@ -20048,13 +20048,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Schwarzweiher 1, 67459 Böhl-Iggelheim",
+		"address": "Am Schwarzweiher 1, 67459 Boehl-Iggelheim",
 		"fax": "(06324)98995318",
 		"full_time_school": true,
 		"id": "RP-41946",
 		"lat": 49.373173,
 		"lon": 8.303884,
-		"name": "Peter-Gärtner",
+		"name": "Peter-Gaertner",
 		"official_id": "41946",
 		"phone": "(06324)9899530",
 		"school_type": "Realschule Plus",
@@ -20160,7 +20160,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Südring 11, 76863 Herxheim bei Landau/ Pfalz",
+		"address": "Suedring 11, 76863 Herxheim bei Landau/ Pfalz",
 		"fax": "(07276)971111",
 		"full_time_school": true,
 		"id": "RP-40805",
@@ -20174,7 +20174,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "An der Steinmühle 14, 67487 Maikammer",
+		"address": "An der Steinmuehle 14, 67487 Maikammer",
 		"fax": "06321/ 963965-11",
 		"full_time_school": true,
 		"id": "RP-42054",
@@ -20230,7 +20230,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Speestraße 12b, 54290 Trier",
+		"address": "Speestrasse 12b, 54290 Trier",
 		"fax": "(0651)9941964",
 		"full_time_school": false,
 		"id": "RP-40968",
@@ -20244,7 +20244,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mäusheckerweg 1, 54293 Trier",
+		"address": "Maeusheckerweg 1, 54293 Trier",
 		"fax": "(0651)9679868",
 		"full_time_school": true,
 		"id": "RP-41032",
@@ -20264,7 +20264,7 @@
 		"id": "RP-42457",
 		"lat": 49.752874,
 		"lon": 6.620375,
-		"name": "Kurfürst-Balduin",
+		"name": "Kurfuerst-Balduin",
 		"official_id": "42457",
 		"phone": "(0651)820394",
 		"school_type": "Realschule Plus",
@@ -20328,7 +20328,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wölfchesbitzstr. 2, 56410 Montabaur",
+		"address": "Woelfchesbitzstr. 2, 56410 Montabaur",
 		"fax": "(02602)99934-20",
 		"full_time_school": false,
 		"id": "RP-40522",
@@ -20376,7 +20376,7 @@
 		"id": "RP-41509",
 		"lat": 50.456686,
 		"lon": 7.726167,
-		"name": "Erich Kästner Realschule plus",
+		"name": "Erich Kaestner Realschule plus",
 		"official_id": "41509",
 		"phone": "(02623)3084",
 		"school_type": "Realschule Plus",
@@ -20412,7 +20412,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Wörthstr. 18, 56457 Westerburg",
+		"address": "Woerthstr. 18, 56457 Westerburg",
 		"fax": "(02663)980123",
 		"full_time_school": true,
 		"id": "RP-40414",
@@ -20454,7 +20454,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Röderstr. 2, 67549 Worms",
+		"address": "Roederstr. 2, 67549 Worms",
 		"fax": "(06241)595664",
 		"full_time_school": false,
 		"id": "RP-40881",
@@ -20496,7 +20496,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Zeilbäumerstr. 8a, 66482 Zweibrücken",
+		"address": "Zeilbaeumerstr. 8a, 66482 Zweibruecken",
 		"fax": "(06332)972424",
 		"full_time_school": false,
 		"id": "RP-40698",
@@ -20510,7 +20510,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mozartstraße 1, 66482 Zweibrücken",
+		"address": "Mozartstrasse 1, 66482 Zweibruecken",
 		"fax": "(06332) 929011",
 		"full_time_school": true,
 		"id": "RP-42487",
@@ -20566,13 +20566,13 @@
 		"state": "RP"
 	},
 	{
-		"address": "Pestalozzistr. 16, 55286 Wörrstadt",
+		"address": "Pestalozzistr. 16, 55286 Woerrstadt",
 		"fax": "(06732)96567-29",
 		"full_time_school": false,
 		"id": "RP-40715",
 		"lat": 49.841142,
 		"lon": 8.111107,
-		"name": "Realschule plus Wörrstadt",
+		"name": "Realschule plus Woerrstadt",
 		"official_id": "40715",
 		"phone": "(06732)96567-11",
 		"school_type": "Realschule Plus und Fachoberschule",
@@ -20580,7 +20580,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Raiffeisenstr. 27, 67454 Haßloch",
+		"address": "Raiffeisenstr. 27, 67454 Hassloch",
 		"fax": "(06324)9246-20",
 		"full_time_school": false,
 		"id": "RP-40728",
@@ -20594,7 +20594,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Köveniger Str. 78, 56841 Traben-Trarbach",
+		"address": "Koeveniger Str. 78, 56841 Traben-Trarbach",
 		"fax": "(06541) 81851727",
 		"full_time_school": true,
 		"id": "RP-40565",
@@ -20636,7 +20636,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Königkreuzstr. 63, 67307 Göllheim",
+		"address": "Koenigkreuzstr. 63, 67307 Goellheim",
 		"fax": "(06351)131350",
 		"full_time_school": true,
 		"id": "RP-42007",
@@ -20650,7 +20650,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Mörscher Str. 11, 67227 Frankenthal (Pfalz)",
+		"address": "Moerscher Str. 11, 67227 Frankenthal (Pfalz)",
 		"fax": "(06233)28294",
 		"full_time_school": false,
 		"id": "RP-40114",
@@ -20706,7 +20706,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "An Schneiders Mühle 2, 55122 Mainz",
+		"address": "An Schneiders Muehle 2, 55122 Mainz",
 		"fax": "(06131)9722828",
 		"full_time_school": true,
 		"id": "RP-40955",
@@ -20832,7 +20832,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Im Gänsberg 7, 56368 Katzenelnbogen",
+		"address": "Im Gaensberg 7, 56368 Katzenelnbogen",
 		"fax": "900314",
 		"full_time_school": false,
 		"id": "RP-40475",
@@ -20846,7 +20846,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Neustückweg 7, 67105 Schifferstadt",
+		"address": "Neustueckweg 7, 67105 Schifferstadt",
 		"fax": "(06235)955469",
 		"full_time_school": true,
 		"id": "RP-40822",
@@ -20888,7 +20888,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Schloßstr. 19, 66994 Dahn",
+		"address": "Schlossstr. 19, 66994 Dahn",
 		"fax": "(06391)914222",
 		"full_time_school": true,
 		"id": "RP-40985",
@@ -20958,7 +20958,7 @@
 		"state": "RP"
 	},
 	{
-		"address": "Am Scheidberg 2, 56203 Höhr-Grenzhausen",
+		"address": "Am Scheidberg 2, 56203 Hoehr-Grenzhausen",
 		"fax": "02624-9475015",
 		"full_time_school": true,
 		"id": "RP-40517",

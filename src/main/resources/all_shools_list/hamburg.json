@@ -14,7 +14,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Schmilinskystraße 70, 20099 Hamburg",
+		"address": "Schmilinskystrasse 70, 20099 Hamburg",
 		"fax": "+49 40 87 88 901-29",
 		"full_time_school": true,
 		"id": "HH-3202",
@@ -28,7 +28,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Öjendorfer Weg 14, 22111 Hamburg",
+		"address": "oejendorfer Weg 14, 22111 Hamburg",
 		"fax": "+49 40 87 88 904-29",
 		"full_time_school": true,
 		"id": "HH-3203",
@@ -56,13 +56,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Eulenstraße 68, 22763 Hamburg",
+		"address": "Eulenstrasse 68, 22763 Hamburg",
 		"fax": "+49 40 70 70 782-29",
 		"full_time_school": true,
 		"id": "HH-3205",
 		"lat": 53.551142,
 		"lon": 9.924064,
-		"name": "Katholische Schule St. Marien - Eulenstraße",
+		"name": "Katholische Schule St. Marien - Eulenstrasse",
 		"official_id": "3205",
 		"phone": "+49 40 70 70 782-10",
 		"school_type": "Grundschule",
@@ -70,7 +70,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Mörikestraße 16, 22587 Hamburg",
+		"address": "Moerikestrasse 16, 22587 Hamburg",
 		"fax": "+49 40 70 70 781-29",
 		"full_time_school": false,
 		"id": "HH-3206",
@@ -112,7 +112,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Elsastraße 46, 22083 Hamburg",
+		"address": "Elsastrasse 46, 22083 Hamburg",
 		"fax": "+49 40 87 87 918-29",
 		"full_time_school": true,
 		"id": "HH-3209",
@@ -126,7 +126,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Lämmersieth 38, 22305 Hamburg",
+		"address": "Laemmersieth 38, 22305 Hamburg",
 		"fax": "+49 40 80 79 25589",
 		"full_time_school": true,
 		"id": "HH-3210",
@@ -140,7 +140,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Alsterdorfer Straße 71, 22299 Hamburg",
+		"address": "Alsterdorfer Strasse 71, 22299 Hamburg",
 		"fax": "+49 40 87 87 916-29",
 		"full_time_school": false,
 		"id": "HH-3211",
@@ -182,7 +182,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Böhmestraße 3, 22041 Hamburg",
+		"address": "Boehmestrasse 3, 22041 Hamburg",
 		"fax": "+49 40 87 88 903-29",
 		"full_time_school": true,
 		"id": "HH-3214",
@@ -196,7 +196,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Chrysanderstraße 40, 21029 Hamburg",
+		"address": "Chrysanderstrasse 40, 21029 Hamburg",
 		"fax": "+49 40 88 14 107-29",
 		"full_time_school": true,
 		"id": "HH-3215",
@@ -224,7 +224,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bonifatiusstraße 2, 21107 Hamburg",
+		"address": "Bonifatiusstrasse 2, 21107 Hamburg",
 		"fax": "+49 40 730 87 77-29",
 		"full_time_school": true,
 		"id": "HH-3217",
@@ -238,13 +238,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Alsterdorfer Straße 506, 22337 Hamburg",
+		"address": "Alsterdorfer Strasse 506, 22337 Hamburg",
 		"fax": "+49 40 5 07 73-198",
 		"full_time_school": true,
 		"id": "HH-3218",
 		"lat": 53.616453,
 		"lon": 10.027866,
-		"name": "Bugenhagen-Schule Alsterdorf, Schule für Kinder mit besonderem Förderbedarf",
+		"name": "Bugenhagen-Schule Alsterdorf, Schule fuer Kinder mit besonderem Foerderbedarf",
 		"official_id": "3218",
 		"phone": "+49 40 5 07 73-520",
 		"school_type": "Sonderschule",
@@ -252,7 +252,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bürgerweide 33, 20535 Hamburg",
+		"address": "Buergerweide 33, 20535 Hamburg",
 		"fax": "+49 40 2 51 734-30",
 		"full_time_school": true,
 		"id": "HH-3219",
@@ -266,7 +266,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Warburgstraße 39, 20354 Hamburg",
+		"address": "Warburgstrasse 39, 20354 Hamburg",
 		"fax": "+49 40 450 229-29",
 		"full_time_school": true,
 		"id": "HH-3220",
@@ -280,7 +280,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Cuxhavener Straße 379, 21149 Hamburg",
+		"address": "Cuxhavener Strasse 379, 21149 Hamburg",
 		"fax": "+49 40 702 92 39-29",
 		"full_time_school": true,
 		"id": "HH-3222",
@@ -294,7 +294,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Alsterdorfer Straße 506, 22337 Hamburg",
+		"address": "Alsterdorfer Strasse 506, 22337 Hamburg",
 		"fax": "+49 40 5 07 73-198",
 		"full_time_school": true,
 		"id": "HH-3223",
@@ -308,7 +308,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Barlachstraße 16, 21073 Hamburg",
+		"address": "Barlachstrasse 16, 21073 Hamburg",
 		"fax": "+49 40 87 88 907-29",
 		"full_time_school": true,
 		"id": "HH-3224",
@@ -322,7 +322,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Oesterleystraße 22, 22587 Hamburg",
+		"address": "Oesterleystrasse 22, 22587 Hamburg",
 		"fax": null,
 		"full_time_school": true,
 		"id": "HH-3225",
@@ -336,7 +336,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Alsterdorfer Straße 506, 22337 Hamburg",
+		"address": "Alsterdorfer Strasse 506, 22337 Hamburg",
 		"fax": "+49 40 5 07 73-198",
 		"full_time_school": true,
 		"id": "HH-3229",
@@ -350,7 +350,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Schmilinskystraße 70, 20099 Hamburg",
+		"address": "Schmilinskystrasse 70, 20099 Hamburg",
 		"fax": null,
 		"full_time_school": true,
 		"id": "HH-3230",
@@ -364,13 +364,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bei der Flottbeker Mühle 28, 22607 Hamburg",
+		"address": "Bei der Flottbeker Muehle 28, 22607 Hamburg",
 		"fax": "+49 40 81 99 44-85",
 		"full_time_school": true,
 		"id": "HH-3231",
 		"lat": 53.573012,
 		"lon": 9.869074,
-		"name": "Bugenhagen-Schule Groß Flottbek",
+		"name": "Bugenhagen-Schule Gross Flottbek",
 		"official_id": "3231",
 		"phone": "+49 40 81 99 42-89",
 		"school_type": "Grundschule",
@@ -392,7 +392,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Oesterleystraße 22, 22587 Hamburg",
+		"address": "Oesterleystrasse 22, 22587 Hamburg",
 		"fax": null,
 		"full_time_school": true,
 		"id": "HH-3233",
@@ -412,7 +412,7 @@
 		"id": "HH-5043",
 		"lat": 53.599413,
 		"lon": 10.048417,
-		"name": "Stadtteilschule Helmuth Hübener",
+		"name": "Stadtteilschule Helmuth Huebener",
 		"official_id": "5043",
 		"phone": "+49 40 428 88 15 0",
 		"school_type": "Stadtteilschule",
@@ -448,7 +448,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Tangstedter Landstraße 300, 22417 Hamburg",
+		"address": "Tangstedter Landstrasse 300, 22417 Hamburg",
 		"fax": "+49 40 428 89 21 20",
 		"full_time_school": true,
 		"id": "HH-5049",
@@ -462,13 +462,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Humboldtstraße 89, 22083 Hamburg",
+		"address": "Humboldtstrasse 89, 22083 Hamburg",
 		"fax": "+49 40 428 86 91 22",
 		"full_time_school": true,
 		"id": "HH-5052",
 		"lat": 53.576682,
 		"lon": 10.022011,
-		"name": "Ilse-Löwenstein-Schule",
+		"name": "Ilse-Loewenstein-Schule",
 		"official_id": "5052",
 		"phone": "+49 40 428 86 91 0",
 		"school_type": "Stadtteilschule",
@@ -490,7 +490,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Oktaviostraße 143, 22043 Hamburg",
+		"address": "Oktaviostrasse 143, 22043 Hamburg",
 		"fax": "+49 40 428 86 41-22",
 		"full_time_school": true,
 		"id": "HH-5054",
@@ -518,13 +518,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Mümmelmannsberg 75, 22115 Hamburg",
+		"address": "Muemmelmannsberg 75, 22115 Hamburg",
 		"fax": "+49 40 428 979-22",
 		"full_time_school": true,
 		"id": "HH-5057",
 		"lat": 53.52989,
 		"lon": 10.148621,
-		"name": "Stadtteilschule Mümmelmannsberg",
+		"name": "Stadtteilschule Muemmelmannsberg",
 		"official_id": "5057",
 		"phone": "+49 40 428 979-0",
 		"school_type": "Stadtteilschule",
@@ -532,13 +532,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Mümmelmannsberg 54, 22115 Hamburg",
+		"address": "Muemmelmannsberg 54, 22115 Hamburg",
 		"fax": "+49 40 428 93 62-22",
 		"full_time_school": true,
 		"id": "HH-5058",
 		"lat": 53.529506,
 		"lon": 10.140067,
-		"name": "Grundschule Mümmelmannsberg",
+		"name": "Grundschule Muemmelmannsberg",
 		"official_id": "5058",
 		"phone": "+49 40 428 93 62-0",
 		"school_type": "Grundschule",
@@ -608,7 +608,7 @@
 		"id": "HH-5064",
 		"lat": 53.619607,
 		"lon": 10.120114,
-		"name": "Erich Kästner Schule",
+		"name": "Erich Kaestner Schule",
 		"official_id": "5064",
 		"phone": "+49 40 428 928-0",
 		"school_type": "Stadtteilschule",
@@ -630,7 +630,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Böttcherkamp 181, 22549 Hamburg",
+		"address": "Boettcherkamp 181, 22549 Hamburg",
 		"fax": "+49 40 428 85-6225",
 		"full_time_school": true,
 		"id": "HH-5066",
@@ -644,7 +644,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Halstenbeker Straße 41, 22457 Hamburg",
+		"address": "Halstenbeker Strasse 41, 22457 Hamburg",
 		"fax": "+49 40 428 93 26-12",
 		"full_time_school": true,
 		"id": "HH-5067",
@@ -700,7 +700,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Neuenfelder Straße 106, 21109 Hamburg",
+		"address": "Neuenfelder Strasse 106, 21109 Hamburg",
 		"fax": "+49 40 428 852-254",
 		"full_time_school": true,
 		"id": "HH-5072",
@@ -742,7 +742,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Daimlerstraße 40, 22761 Hamburg",
+		"address": "Daimlerstrasse 40, 22761 Hamburg",
 		"fax": "+49 40 428 98 21 30",
 		"full_time_school": true,
 		"id": "HH-5076",
@@ -756,7 +756,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Frahmstraße 15, 22587 Hamburg",
+		"address": "Frahmstrasse 15, 22587 Hamburg",
 		"fax": "+49 40 428 828 245",
 		"full_time_school": true,
 		"id": "HH-5077",
@@ -770,13 +770,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Poppenbüttler Stieg 7, 22399 Hamburg",
+		"address": "Poppenbuettler Stieg 7, 22399 Hamburg",
 		"fax": "+49 40 428 829-210",
 		"full_time_school": true,
 		"id": "HH-5079",
 		"lat": 53.64515,
 		"lon": 10.05067,
-		"name": "Stadtteilschule Poppenbüttel",
+		"name": "Stadtteilschule Poppenbuettel",
 		"official_id": "5079",
 		"phone": "+49 40 428 829-211",
 		"school_type": "Stadtteilschule",
@@ -798,7 +798,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Regerstraße 21, 22761 Hamburg",
+		"address": "Regerstrasse 21, 22761 Hamburg",
 		"fax": "+49 40 428 88-7230",
 		"full_time_school": true,
 		"id": "HH-5081",
@@ -840,13 +840,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Vörn Barkholt 6, 22359 Hamburg",
+		"address": "Voern Barkholt 6, 22359 Hamburg",
 		"fax": "+49 40 428 96 92-22",
 		"full_time_school": true,
 		"id": "HH-5085",
 		"lat": 53.652119,
 		"lon": 10.166554,
-		"name": "Stadtteilschule Walddörfer",
+		"name": "Stadtteilschule Walddoerfer",
 		"official_id": "5085",
 		"phone": "+49 40 428 96 92-0",
 		"school_type": "Stadtteilschule",
@@ -868,7 +868,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Meerweinstraße 26, 22303 Hamburg",
+		"address": "Meerweinstrasse 26, 22303 Hamburg",
 		"fax": "+49 40 428 98 42-45",
 		"full_time_school": true,
 		"id": "HH-5088",
@@ -888,7 +888,7 @@
 		"id": "HH-5089",
 		"lat": 53.541154,
 		"lon": 10.12098,
-		"name": "Stadtteilschule Öjendorf",
+		"name": "Stadtteilschule oejendorf",
 		"official_id": "5089",
 		"phone": "+49 40 428 9318-0",
 		"school_type": "Stadtteilschule",
@@ -896,7 +896,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Löwenstraße 58, 20251 Hamburg",
+		"address": "Loewenstrasse 58, 20251 Hamburg",
 		"fax": "+49 40 428 82-2199",
 		"full_time_school": true,
 		"id": "HH-5090",
@@ -910,13 +910,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Neumoorstück 1, 21147 Hamburg",
+		"address": "Neumoorstueck 1, 21147 Hamburg",
 		"fax": "+49 40 428 893-270",
 		"full_time_school": true,
 		"id": "HH-5093",
 		"lat": 53.477901,
 		"lon": 9.867307,
-		"name": "Stadtteilschule Süderelbe",
+		"name": "Stadtteilschule Suederelbe",
 		"official_id": "5093",
 		"phone": "+49 40 428 89 3-02",
 		"school_type": "Stadtteilschule",
@@ -930,7 +930,7 @@
 		"id": "HH-5094",
 		"lat": 53.503794,
 		"lon": 10.207916,
-		"name": "Stadtteilschule Lohbrügge",
+		"name": "Stadtteilschule Lohbruegge",
 		"official_id": "5094",
 		"phone": "+49 40 428 876-05",
 		"school_type": "Stadtteilschule",
@@ -958,7 +958,7 @@
 		"id": "HH-5097",
 		"lat": 53.551606,
 		"lon": 10.106824,
-		"name": "Brüder-Grimm-Schule",
+		"name": "Brueder-Grimm-Schule",
 		"official_id": "5097",
 		"phone": "+49 40 428 48 4-0",
 		"school_type": "Stadtteilschule",
@@ -994,7 +994,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Ostfrieslandstraße 91, 21129 Hamburg",
+		"address": "Ostfrieslandstrasse 91, 21129 Hamburg",
 		"fax": "+49 40 428 7615-22",
 		"full_time_school": true,
 		"id": "HH-5100",
@@ -1036,7 +1036,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Friedrichstraße 55, 20359 Hamburg",
+		"address": "Friedrichstrasse 55, 20359 Hamburg",
 		"fax": "+49 40 428 967-558",
 		"full_time_school": true,
 		"id": "HH-5103",
@@ -1050,13 +1050,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Lohkampstraße 145, 22523 Hamburg",
+		"address": "Lohkampstrasse 145, 22523 Hamburg",
 		"fax": "+49 40 571 47-3222",
 		"full_time_school": true,
 		"id": "HH-5104",
 		"lat": 53.613058,
 		"lon": 9.888585,
-		"name": "Grundschule Lohkampstraße",
+		"name": "Grundschule Lohkampstrasse",
 		"official_id": "5104",
 		"phone": "+49 40 428 96 41-0",
 		"school_type": "Grundschule",
@@ -1064,7 +1064,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Greifswalder Straße 40, 20099 Hamburg",
+		"address": "Greifswalder Strasse 40, 20099 Hamburg",
 		"fax": "+49 40 428 88-2722",
 		"full_time_school": true,
 		"id": "HH-5105",
@@ -1092,7 +1092,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Tangstedter Landstraße 300, 22417 Hamburg",
+		"address": "Tangstedter Landstrasse 300, 22417 Hamburg",
 		"fax": "+49 40 428 933-219",
 		"full_time_school": true,
 		"id": "HH-5111",
@@ -1106,7 +1106,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Prassekstraße 5, 21109 Hamburg",
+		"address": "Prassekstrasse 5, 21109 Hamburg",
 		"fax": "+49 40 428 85-2256",
 		"full_time_school": true,
 		"id": "HH-5117",
@@ -1120,13 +1120,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Archenholzstraße 55, 22117 Hamburg",
+		"address": "Archenholzstrasse 55, 22117 Hamburg",
 		"fax": "+49 40 428 93 27-20",
 		"full_time_school": true,
 		"id": "HH-5118",
 		"lat": 53.54374,
 		"lon": 10.119649,
-		"name": "Grundschule Archenholzstraße",
+		"name": "Grundschule Archenholzstrasse",
 		"official_id": "5118",
 		"phone": "+49 40 428 93 27-0",
 		"school_type": "Grundschule",
@@ -1148,13 +1148,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Marckmannstraße 60, 20539 Hamburg",
+		"address": "Marckmannstrasse 60, 20539 Hamburg",
 		"fax": "+49 40 428 88 82-32",
 		"full_time_school": true,
 		"id": "HH-5121",
 		"lat": 53.535523,
 		"lon": 10.039775,
-		"name": "Schule Marckmannstraße",
+		"name": "Schule Marckmannstrasse",
 		"official_id": "5121",
 		"phone": "+49 40 428 88 82-0",
 		"school_type": "Sonderschule",
@@ -1162,7 +1162,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Robert-Koch-Straße 15, 20249 Hamburg",
+		"address": "Robert-Koch-Strasse 15, 20249 Hamburg",
 		"fax": "+49 40 428 88-7422",
 		"full_time_school": true,
 		"id": "HH-5124",
@@ -1204,13 +1204,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Marckmannstraße 61, 20539 Hamburg",
+		"address": "Marckmannstrasse 61, 20539 Hamburg",
 		"fax": "+49 40 24 83 56-22",
 		"full_time_school": true,
 		"id": "HH-5134",
 		"lat": 53.535801,
 		"lon": 10.039874,
-		"name": "Fritz-Köhne-Schule",
+		"name": "Fritz-Koehne-Schule",
 		"official_id": "5134",
 		"phone": "+49 40 24 83 56-0",
 		"school_type": "Grundschule",
@@ -1232,13 +1232,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Arnkielstraße 2, 22769 Hamburg",
+		"address": "Arnkielstrasse 2, 22769 Hamburg",
 		"fax": "+49 40 432 163-55",
 		"full_time_school": true,
 		"id": "HH-5137",
 		"lat": 53.564073,
 		"lon": 9.952837,
-		"name": "Grundschule Arnkielstraße",
+		"name": "Grundschule Arnkielstrasse",
 		"official_id": "5137",
 		"phone": "+49 40 428 93 57-0",
 		"school_type": "Grundschule",
@@ -1266,7 +1266,7 @@
 		"id": "HH-5143",
 		"lat": 53.658997,
 		"lon": 10.080423,
-		"name": "Grundschule Poppenbüttel",
+		"name": "Grundschule Poppenbuettel",
 		"official_id": "5143",
 		"phone": "+49 40 428 93 1722",
 		"school_type": "Grundschule",
@@ -1280,7 +1280,7 @@
 		"id": "HH-5145",
 		"lat": 53.552854,
 		"lon": 9.899005,
-		"name": "Elbschule Bildungszentrum Hören und Kommunikation",
+		"name": "Elbschule Bildungszentrum Hoeren und Kommunikation",
 		"official_id": "5145",
 		"phone": "+49 40 428 48 50",
 		"school_type": "Sonderschule",
@@ -1316,7 +1316,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Ludwigstraße 7, 20357 Hamburg",
+		"address": "Ludwigstrasse 7, 20357 Hamburg",
 		"fax": "+49 40 428 86-8310",
 		"full_time_school": true,
 		"id": "HH-5167",
@@ -1350,7 +1350,7 @@
 		"id": "HH-5171",
 		"lat": 53.550884,
 		"lon": 10.094971,
-		"name": "Schule Stengelestraße",
+		"name": "Schule Stengelestrasse",
 		"official_id": "5171",
 		"phone": "+49 40 428 86-4910",
 		"school_type": "Grundschule",
@@ -1372,13 +1372,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Sterntalerstraße 42, 22119 Hamburg",
+		"address": "Sterntalerstrasse 42, 22119 Hamburg",
 		"fax": "+49 40 428 86 73-22",
 		"full_time_school": true,
 		"id": "HH-5173",
 		"lat": 53.560032,
 		"lon": 10.112743,
-		"name": "Schule Sterntalerstraße",
+		"name": "Schule Sterntalerstrasse",
 		"official_id": "5173",
 		"phone": "+49 40 428 86 73-0",
 		"school_type": "Grundschule",
@@ -1386,13 +1386,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bonhoefferstraße 13, 22117 Hamburg",
+		"address": "Bonhoefferstrasse 13, 22117 Hamburg",
 		"fax": "+49 40 428 93 65-52",
 		"full_time_school": true,
 		"id": "HH-5174",
 		"lat": 53.54497,
 		"lon": 10.136732,
-		"name": "Schule Bonhoefferstraße",
+		"name": "Schule Bonhoefferstrasse",
 		"official_id": "5174",
 		"phone": "+49 40 428 93 65-0",
 		"school_type": "Grundschule",
@@ -1414,13 +1414,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Gaußstraße 171, 22765 Hamburg",
+		"address": "Gaussstrasse 171, 22765 Hamburg",
 		"fax": "+49 40 428 88-9122",
 		"full_time_school": true,
 		"id": "HH-5202",
 		"lat": 53.558542,
 		"lon": 9.926885,
-		"name": "Schule Bahrenfelder Straße",
+		"name": "Schule Bahrenfelder Strasse",
 		"official_id": "5202",
 		"phone": "+49 40 428 88-910",
 		"school_type": "Grundschule",
@@ -1442,7 +1442,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Thedestraße 100, 22767 Hamburg",
+		"address": "Thedestrasse 100, 22767 Hamburg",
 		"fax": "+49 40 428 88-6910",
 		"full_time_school": true,
 		"id": "HH-5206",
@@ -1456,13 +1456,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Lienaustraße 32, 22175 Hamburg",
+		"address": "Lienaustrasse 32, 22175 Hamburg",
 		"fax": "+49 40 428 93 21-44",
 		"full_time_school": true,
 		"id": "HH-5208",
 		"lat": 53.629151,
 		"lon": 10.125543,
-		"name": "Grundschule Karlshöhe mit Zweigstellen",
+		"name": "Grundschule Karlshoehe mit Zweigstellen",
 		"official_id": "5208",
 		"phone": "+49 40 428 93 21-30",
 		"school_type": "Grundschule",
@@ -1498,13 +1498,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Rothestraße 22, 22765 Hamburg",
+		"address": "Rothestrasse 22, 22765 Hamburg",
 		"fax": "+49 40 428 987-210",
 		"full_time_school": true,
 		"id": "HH-5211",
 		"lat": 53.548568,
 		"lon": 9.928908,
-		"name": "Schule Rothestraße",
+		"name": "Schule Rothestrasse",
 		"official_id": "5211",
 		"phone": "+49 40 428 987-211",
 		"school_type": "Grundschule",
@@ -1512,7 +1512,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Struenseestraße 32, 22767 Hamburg",
+		"address": "Struenseestrasse 32, 22767 Hamburg",
 		"fax": "+49 40 428 9677-19",
 		"full_time_school": true,
 		"id": "HH-5212",
@@ -1526,13 +1526,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Thadenstraße 147, 22767 Hamburg",
+		"address": "Thadenstrasse 147, 22767 Hamburg",
 		"fax": "+49 40 428 84-1210",
 		"full_time_school": true,
 		"id": "HH-5214",
 		"lat": 53.557082,
 		"lon": 9.954912,
-		"name": "Grundschule Thadenstraße",
+		"name": "Grundschule Thadenstrasse",
 		"official_id": "5214",
 		"phone": "+49 40 428 84-101",
 		"school_type": "Grundschule",
@@ -1540,7 +1540,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Haubachstraße 55, 22765 Hamburg",
+		"address": "Haubachstrasse 55, 22765 Hamburg",
 		"fax": "+49 40 428 8849-40",
 		"full_time_school": true,
 		"id": "HH-5216",
@@ -1582,13 +1582,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Schimmelmannstraße 70, 22043 Hamburg",
+		"address": "Schimmelmannstrasse 70, 22043 Hamburg",
 		"fax": "+49 40 656 8956-22",
 		"full_time_school": true,
 		"id": "HH-5220",
 		"lat": 53.571551,
 		"lon": 10.102693,
-		"name": "Grundschule Schimmelmannstraße",
+		"name": "Grundschule Schimmelmannstrasse",
 		"official_id": "5220",
 		"phone": "+49 40 656 8956-0",
 		"school_type": "Grundschule",
@@ -1610,7 +1610,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Karstenstraße 22, 22587 Hamburg",
+		"address": "Karstenstrasse 22, 22587 Hamburg",
 		"fax": "+49 40 870 89-155",
 		"full_time_school": true,
 		"id": "HH-5232",
@@ -1666,13 +1666,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Mendelssohnstraße 86, 22761 Hamburg",
+		"address": "Mendelssohnstrasse 86, 22761 Hamburg",
 		"fax": "+49 40 428 93 91-22",
 		"full_time_school": true,
 		"id": "HH-5237",
 		"lat": 53.563704,
 		"lon": 9.905849,
-		"name": "Schule Mendelssohnstraße",
+		"name": "Schule Mendelssohnstrasse",
 		"official_id": "5237",
 		"phone": "+49 40 428 93 91-0",
 		"school_type": "Grundschule",
@@ -1680,7 +1680,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Musäusstraße 29, 22589 Hamburg",
+		"address": "Musaeusstrasse 29, 22589 Hamburg",
 		"fax": "+49 40 428 897-522",
 		"full_time_school": true,
 		"id": "HH-5238",
@@ -1700,7 +1700,7 @@
 		"id": "HH-5239",
 		"lat": 53.567321,
 		"lon": 9.894137,
-		"name": "Grundschule Groß Flottbek",
+		"name": "Grundschule Gross Flottbek",
 		"official_id": "5239",
 		"phone": "+49 40 428 8875-0",
 		"school_type": "Grundschule",
@@ -1708,13 +1708,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Schenefelder Landstraße 206, 22589 Hamburg",
+		"address": "Schenefelder Landstrasse 206, 22589 Hamburg",
 		"fax": "+49 40 4 14 59-852",
 		"full_time_school": true,
 		"id": "HH-5240",
 		"lat": 53.577725,
 		"lon": 9.824234,
-		"name": "Schule Schenefelder Landstraße",
+		"name": "Schule Schenefelder Landstrasse",
 		"official_id": "5240",
 		"phone": "+49 40 428 93 92-0",
 		"school_type": "Grundschule",
@@ -1736,13 +1736,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Windmühlenweg 17, 22607 Hamburg",
+		"address": "Windmuehlenweg 17, 22607 Hamburg",
 		"fax": "+49 40 428 93 95-22",
 		"full_time_school": true,
 		"id": "HH-5244",
 		"lat": 53.566878,
 		"lon": 9.870938,
-		"name": "Schule Windmühlenweg",
+		"name": "Schule Windmuehlenweg",
 		"official_id": "5244",
 		"phone": "+49 40 428 93 95-0",
 		"school_type": "Grundschule",
@@ -1764,13 +1764,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Kurze Straße 30, 20355 Hamburg",
+		"address": "Kurze Strasse 30, 20355 Hamburg",
 		"fax": "+49 40 428 967-358",
 		"full_time_school": true,
 		"id": "HH-5248",
 		"lat": 53.553031,
 		"lon": 9.978766,
-		"name": "Rudolf-Roß-Grundschule",
+		"name": "Rudolf-Ross-Grundschule",
 		"official_id": "5248",
 		"phone": "+49 40 428 967-30",
 		"school_type": "Grundschule",
@@ -1862,13 +1862,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Luruper Hauptstraße 131, 22547 Hamburg",
+		"address": "Luruper Hauptstrasse 131, 22547 Hamburg",
 		"fax": "+49 40 428 88-2432",
 		"full_time_school": true,
 		"id": "HH-5270",
 		"lat": 53.5983057,
 		"lon": 9.8542541,
-		"name": "Grundschule Luruper Hauptstraße",
+		"name": "Grundschule Luruper Hauptstrasse",
 		"official_id": "5270",
 		"phone": "+49 40 428 88-2425",
 		"school_type": "Grundschule",
@@ -1946,7 +1946,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bismarckstraße 83, 20253 Hamburg",
+		"address": "Bismarckstrasse 83, 20253 Hamburg",
 		"fax": "+49 40 428 88-3422",
 		"full_time_school": true,
 		"id": "HH-5301",
@@ -1960,7 +1960,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Wrangelstraße 80, 20253 Hamburg",
+		"address": "Wrangelstrasse 80, 20253 Hamburg",
 		"fax": "+49 40 428 93 01-22",
 		"full_time_school": true,
 		"id": "HH-5304",
@@ -1974,13 +1974,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Eduardstraße 28, 20257 Hamburg",
+		"address": "Eduardstrasse 28, 20257 Hamburg",
 		"fax": "+49 40 428 86-8522",
 		"full_time_school": true,
 		"id": "HH-5305",
 		"lat": 53.571975,
 		"lon": 9.947138,
-		"name": "Schule Eduardstraße",
+		"name": "Schule Eduardstrasse",
 		"official_id": "5305",
 		"phone": "+49 40 428 86-850",
 		"school_type": "Grundschule",
@@ -1988,7 +1988,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bundesstraße 94, 20144 Hamburg",
+		"address": "Bundesstrasse 94, 20144 Hamburg",
 		"fax": "+49 40 4 13 30-5912",
 		"full_time_school": true,
 		"id": "HH-5308",
@@ -2016,13 +2016,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Lutterothstraße 34, 20255 Hamburg",
+		"address": "Lutterothstrasse 34, 20255 Hamburg",
 		"fax": "+49 40 428 88-3622",
 		"full_time_school": true,
 		"id": "HH-5310",
 		"lat": 53.580956,
 		"lon": 9.953304,
-		"name": "Schule Lutterothstraße",
+		"name": "Schule Lutterothstrasse",
 		"official_id": "5310",
 		"phone": "+49 40 428 88-360",
 		"school_type": "Grundschule",
@@ -2030,13 +2030,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Rellinger Straße 13, 20257 Hamburg",
+		"address": "Rellinger Strasse 13, 20257 Hamburg",
 		"fax": "+49 40 428 76 27 -22",
 		"full_time_school": true,
 		"id": "HH-5312",
 		"lat": 53.57414,
 		"lon": 9.942389,
-		"name": "Schule Rellinger Straße",
+		"name": "Schule Rellinger Strasse",
 		"official_id": "5312",
 		"phone": "+49 40 428 76 27 - 0",
 		"school_type": "Grundschule",
@@ -2044,13 +2044,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Tornquiststraße 60, 20259 Hamburg",
+		"address": "Tornquiststrasse 60, 20259 Hamburg",
 		"fax": "+49 40 4 44 65-22",
 		"full_time_school": true,
 		"id": "HH-5315",
 		"lat": 53.573549,
 		"lon": 9.95349,
-		"name": "Schule Tornquiststraße",
+		"name": "Schule Tornquiststrasse",
 		"official_id": "5315",
 		"phone": "+49 40 428 96 71-0",
 		"school_type": "Grundschule",
@@ -2072,13 +2072,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Rönnkamp 3, 22457 Hamburg",
+		"address": "Roennkamp 3, 22457 Hamburg",
 		"fax": "+49 40 5 58 00-629",
 		"full_time_school": true,
 		"id": "HH-5328",
 		"lat": 53.646856,
 		"lon": 9.920023,
-		"name": "Schule Rönnkamp",
+		"name": "Schule Roennkamp",
 		"official_id": "5328",
 		"phone": "+49 40 428 96 21-0",
 		"school_type": "Grundschule",
@@ -2142,13 +2142,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Döhrnstraße 42, 22529 Hamburg",
+		"address": "Doehrnstrasse 42, 22529 Hamburg",
 		"fax": "+49 40 4279 69737",
 		"full_time_school": true,
 		"id": "HH-5334",
 		"lat": 53.595995,
 		"lon": 9.956046,
-		"name": "Schule Döhrnstraße",
+		"name": "Schule Doehrnstrasse",
 		"official_id": "5334",
 		"phone": "+49 40 428 96 25-0",
 		"school_type": "Grundschule",
@@ -2156,13 +2156,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Frohmestraße 42, 22457 Hamburg",
+		"address": "Frohmestrasse 42, 22457 Hamburg",
 		"fax": "+49 40 428 96 26-22",
 		"full_time_school": true,
 		"id": "HH-5335",
 		"lat": 53.632555,
 		"lon": 9.920325,
-		"name": "Schule Frohmestraße",
+		"name": "Schule Frohmestrasse",
 		"official_id": "5335",
 		"phone": "+49 40 428 96 26-0",
 		"school_type": "Grundschule",
@@ -2184,13 +2184,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Molkenbuhrstraße 2, 22525 Hamburg",
+		"address": "Molkenbuhrstrasse 2, 22525 Hamburg",
 		"fax": "+49 40 428 88 89 22",
 		"full_time_school": true,
 		"id": "HH-5339",
 		"lat": 53.589222,
 		"lon": 9.925685,
-		"name": "Schule Molkenbuhrstraße",
+		"name": "Schule Molkenbuhrstrasse",
 		"official_id": "5339",
 		"phone": "+49 40 428 88 89 0",
 		"school_type": "Grundschule",
@@ -2212,13 +2212,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Vizelinstraße 50, 22529 Hamburg",
+		"address": "Vizelinstrasse 50, 22529 Hamburg",
 		"fax": "+49 40 428 7634-22",
 		"full_time_school": true,
 		"id": "HH-5344",
 		"lat": 53.588628,
 		"lon": 9.950638,
-		"name": "Schule Vizelinstraße",
+		"name": "Schule Vizelinstrasse",
 		"official_id": "5344",
 		"phone": "+49 40 428 7634-0",
 		"school_type": "Grundschule",
@@ -2282,13 +2282,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Röthmoorweg 9, 22459 Hamburg",
+		"address": "Roethmoorweg 9, 22459 Hamburg",
 		"fax": "+49 40 428 96 76-22",
 		"full_time_school": true,
 		"id": "HH-5349",
 		"lat": 53.627136,
 		"lon": 9.924784,
-		"name": "Schule Röthmoorweg",
+		"name": "Schule Roethmoorweg",
 		"official_id": "5349",
 		"phone": "+49 40 428 96 76-0",
 		"school_type": "Grundschule",
@@ -2296,7 +2296,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Sommerhuder Straße 18, 22767 Hamburg",
+		"address": "Sommerhuder Strasse 18, 22767 Hamburg",
 		"fax": "040 428 88 08-58",
 		"full_time_school": true,
 		"id": "HH-5350",
@@ -2310,7 +2310,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Böttcherkamp 144, 22549 Hamburg",
+		"address": "Boettcherkamp 144, 22549 Hamburg",
 		"fax": "040 428 96 85-29",
 		"full_time_school": true,
 		"id": "HH-5351",
@@ -2344,7 +2344,7 @@
 		"id": "HH-5353",
 		"lat": 53.622937,
 		"lon": 9.946712,
-		"name": "ReBBZ Eimsbüttel",
+		"name": "ReBBZ Eimsbuettel",
 		"official_id": "5353",
 		"phone": "040 428 88 - 1620",
 		"school_type": "Sonderschule",
@@ -2352,13 +2352,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Neumoorstück 2, 21147 Hamburg",
+		"address": "Neumoorstueck 2, 21147 Hamburg",
 		"fax": "040 79014646",
 		"full_time_school": true,
 		"id": "HH-5354",
 		"lat": 53.478904,
 		"lon": 9.868113,
-		"name": "ReBBZ Süderelbe",
+		"name": "ReBBZ Suederelbe",
 		"official_id": "5354",
 		"phone": "040 79014630",
 		"school_type": "Sonderschule",
@@ -2380,7 +2380,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Steinfeldtstraße 1, 22119 Hamburg",
+		"address": "Steinfeldtstrasse 1, 22119 Hamburg",
 		"fax": "040 4288674-33",
 		"full_time_school": true,
 		"id": "HH-5356",
@@ -2394,7 +2394,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Krieterstraße 2 a, 21109 Hamburg",
+		"address": "Krieterstrasse 2 a, 21109 Hamburg",
 		"fax": "040 428885322",
 		"full_time_school": true,
 		"id": "HH-5357",
@@ -2408,7 +2408,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Laeiszstraße 12, 20537 Hamburg",
+		"address": "Laeiszstrasse 12, 20537 Hamburg",
 		"fax": "040 209025322",
 		"full_time_school": true,
 		"id": "HH-5358",
@@ -2436,7 +2436,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Sengelmannstraße 50, 22297 Hamburg",
+		"address": "Sengelmannstrasse 50, 22297 Hamburg",
 		"fax": "040 428884122",
 		"full_time_school": true,
 		"id": "HH-5360",
@@ -2464,13 +2464,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Hammer Straße 124, 22043 Hamburg",
+		"address": "Hammer Strasse 124, 22043 Hamburg",
 		"fax": "040 428 96 82-22",
 		"full_time_school": true,
 		"id": "HH-5362",
 		"lat": 53.563018,
 		"lon": 10.066009,
-		"name": "ReBBZ Wandsbek-Süd",
+		"name": "ReBBZ Wandsbek-Sued",
 		"official_id": "5362",
 		"phone": "040 428 96 82-12",
 		"school_type": "Sonderschule",
@@ -2478,13 +2478,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Alsterdorfer Straße 39, 22299 Hamburg",
+		"address": "Alsterdorfer Strasse 39, 22299 Hamburg",
 		"fax": "+49 40 428 88-0422",
 		"full_time_school": true,
 		"id": "HH-5400",
 		"lat": 53.596324,
 		"lon": 9.995858,
-		"name": "Schule Alsterdorfer Straße",
+		"name": "Schule Alsterdorfer Strasse",
 		"official_id": "5400",
 		"phone": "+49 40 428 88-040",
 		"school_type": "Grundschule",
@@ -2492,13 +2492,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Forsmannstraße 32, 22303 Hamburg",
+		"address": "Forsmannstrasse 32, 22303 Hamburg",
 		"fax": "+49 40 2 70 98-1822",
 		"full_time_school": true,
 		"id": "HH-5404",
 		"lat": 53.584468,
 		"lon": 10.013911,
-		"name": "Schule Forsmannstraße",
+		"name": "Schule Forsmannstrasse",
 		"official_id": "5404",
 		"phone": "+49 40 428 93 67-0",
 		"school_type": "Grundschule",
@@ -2506,13 +2506,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Humboldtstraße 30, 22083 Hamburg",
+		"address": "Humboldtstrasse 30, 22083 Hamburg",
 		"fax": "+49 40 428 76 39 22",
 		"full_time_school": true,
 		"id": "HH-5405",
 		"lat": 53.57346,
 		"lon": 10.027026,
-		"name": "Schule Humboldtstraße",
+		"name": "Schule Humboldtstrasse",
 		"official_id": "5405",
 		"phone": "+49 40 428 76 39 10",
 		"school_type": "Grundschule",
@@ -2520,13 +2520,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Knauerstraße 22, 20249 Hamburg",
+		"address": "Knauerstrasse 22, 20249 Hamburg",
 		"fax": "+49 40 428 88-1122",
 		"full_time_school": true,
 		"id": "HH-5409",
 		"lat": 53.590139,
 		"lon": 9.990382,
-		"name": "Schule Knauerstraße",
+		"name": "Schule Knauerstrasse",
 		"official_id": "5409",
 		"phone": "+49 40 428 88-110",
 		"school_type": "Grundschule",
@@ -2534,13 +2534,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Schottmüllerstraße 23, 20251 Hamburg",
+		"address": "Schottmuellerstrasse 23, 20251 Hamburg",
 		"fax": "+49 40 428 04-2493",
 		"full_time_school": true,
 		"id": "HH-5413",
 		"lat": 53.591812,
 		"lon": 9.98564,
-		"name": "Marie-Beschütz-Schule",
+		"name": "Marie-Beschuetz-Schule",
 		"official_id": "5413",
 		"phone": "+49 40 428 04-2518",
 		"school_type": "Grundschule",
@@ -2562,7 +2562,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Alsterdorfer Straße 420, 22297 Hamburg",
+		"address": "Alsterdorfer Strasse 420, 22297 Hamburg",
 		"fax": "+49 40 428 86 6821",
 		"full_time_school": true,
 		"id": "HH-5417",
@@ -2576,13 +2576,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Carl-Cohn-Straße 2, 22303 Hamburg",
+		"address": "Carl-Cohn-Strasse 2, 22303 Hamburg",
 		"fax": "+49 40 428 88 61 44",
 		"full_time_school": true,
 		"id": "HH-5418",
 		"lat": 53.601392,
 		"lon": 10.01186,
-		"name": "Bildungszentrum für Blinde und Sehbehinderte",
+		"name": "Bildungszentrum fuer Blinde und Sehbehinderte",
 		"official_id": "5418",
 		"phone": "+49 40 428 88 61 0",
 		"school_type": "Sonderschule",
@@ -2604,13 +2604,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Zeisigstraße 3, 22081 Hamburg",
+		"address": "Zeisigstrasse 3, 22081 Hamburg",
 		"fax": "+49 40 428 795-245",
 		"full_time_school": true,
 		"id": "HH-5430",
 		"lat": 53.577639,
 		"lon": 10.047449,
-		"name": "Adolph-Schönfelder-Schule",
+		"name": "Adolph-Schoenfelder-Schule",
 		"official_id": "5430",
 		"phone": "+49 40 428 795-0",
 		"school_type": "Grundschule",
@@ -2624,7 +2624,7 @@
 		"id": "HH-5437",
 		"lat": 53.611667,
 		"lon": 10.034489,
-		"name": "Schule Genslerstraße",
+		"name": "Schule Genslerstrasse",
 		"official_id": "5437",
 		"phone": "+49 40 428 86 56-0",
 		"school_type": "Grundschule",
@@ -2632,13 +2632,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Lämmersieth 72, 22305 Hamburg",
+		"address": "Laemmersieth 72, 22305 Hamburg",
 		"fax": "+49 40 428 95-7210",
 		"full_time_school": true,
 		"id": "HH-5439",
 		"lat": 53.588096,
 		"lon": 10.060373,
-		"name": "Schule Lämmersieth",
+		"name": "Schule Laemmersieth",
 		"official_id": "5439",
 		"phone": "+49 40 428 95-70",
 		"school_type": "Grundschule",
@@ -2646,13 +2646,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Paracelsusstraße 30, 22147 Hamburg",
+		"address": "Paracelsusstrasse 30, 22147 Hamburg",
 		"fax": "+49 40 428 85-710",
 		"full_time_school": true,
 		"id": "HH-5447",
 		"lat": 53.597654,
 		"lon": 10.136442,
-		"name": "Schule Paracelsusstraße",
+		"name": "Schule Paracelsusstrasse",
 		"official_id": "5447",
 		"phone": "+49 40 428 85-70",
 		"school_type": "Sonderschule",
@@ -2660,7 +2660,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Carl-Cohn-Straße 2, 22297 Hamburg",
+		"address": "Carl-Cohn-Strasse 2, 22297 Hamburg",
 		"fax": "+49 40 428 88-0761",
 		"full_time_school": true,
 		"id": "HH-5462",
@@ -2674,13 +2674,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Brödermannsweg 2, 22453 Hamburg",
+		"address": "Broedermannsweg 2, 22453 Hamburg",
 		"fax": "+49 40 428 88-4222",
 		"full_time_school": true,
 		"id": "HH-5463",
 		"lat": 53.606962,
 		"lon": 9.977931,
-		"name": "Carl-Götze-Schule",
+		"name": "Carl-Goetze-Schule",
 		"official_id": "5463",
 		"phone": "+49 40 428 88-4210",
 		"school_type": "Grundschule",
@@ -2758,13 +2758,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Ratsmühlendamm 39, 22335 Hamburg",
+		"address": "Ratsmuehlendamm 39, 22335 Hamburg",
 		"fax": "+49 40 428 88-0122",
 		"full_time_school": true,
 		"id": "HH-5480",
 		"lat": 53.626234,
 		"lon": 10.020957,
-		"name": "Schule Ratsmühlendamm",
+		"name": "Schule Ratsmuehlendamm",
 		"official_id": "5480",
 		"phone": "+49 40 428 88-010",
 		"school_type": "Grundschule",
@@ -2772,7 +2772,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Brockdorffstraße 64, 22149 Hamburg",
+		"address": "Brockdorffstrasse 64, 22149 Hamburg",
 		"fax": "+49 40 428 86-9622",
 		"full_time_school": true,
 		"id": "HH-5501",
@@ -2814,13 +2814,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Brockdorffstraße 64, 22149 Hamburg",
+		"address": "Brockdorffstrasse 64, 22149 Hamburg",
 		"fax": "+49 40 428 93 71-22",
 		"full_time_school": true,
 		"id": "HH-5504",
 		"lat": 53.595968,
 		"lon": 10.163651,
-		"name": "Schule Brockdorffstraße",
+		"name": "Schule Brockdorffstrasse",
 		"official_id": "5504",
 		"phone": "+49 40 428 93 71-40",
 		"school_type": "Grundschule",
@@ -2828,13 +2828,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Charlottenburger Straße 84, 22045 Hamburg",
+		"address": "Charlottenburger Strasse 84, 22045 Hamburg",
 		"fax": "+49 40 428 88 44 82",
 		"full_time_school": true,
 		"id": "HH-5505",
 		"lat": 53.586844,
 		"lon": 10.141767,
-		"name": "Schule Charlottenburger Straße",
+		"name": "Schule Charlottenburger Strasse",
 		"official_id": "5505",
 		"phone": "+49 40 428 88 44 70",
 		"school_type": "Grundschule",
@@ -2842,13 +2842,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Großlohering 11, 22143 Hamburg",
+		"address": "Grosslohering 11, 22143 Hamburg",
 		"fax": "+49 40 428 93 72-22",
 		"full_time_school": true,
 		"id": "HH-5506",
 		"lat": 53.600624,
 		"lon": 10.178152,
-		"name": "Grundschule Großlohering",
+		"name": "Grundschule Grosslohering",
 		"official_id": "5506",
 		"phone": "+49 40 428 93 72-0",
 		"school_type": "Grundschule",
@@ -2856,13 +2856,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Kamminer Straße 4, 22147 Hamburg",
+		"address": "Kamminer Strasse 4, 22147 Hamburg",
 		"fax": "+49 40 428 86-8222",
 		"full_time_school": true,
 		"id": "HH-5507",
 		"lat": 53.61829,
 		"lon": 10.141331,
-		"name": "Schule Kamminer Straße",
+		"name": "Schule Kamminer Strasse",
 		"official_id": "5507",
 		"phone": "+49 40 428 86-820",
 		"school_type": "Grundschule",
@@ -2870,7 +2870,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Stapelfelder Straße 7, 22143 Hamburg",
+		"address": "Stapelfelder Strasse 7, 22143 Hamburg",
 		"fax": "+49 40 428 8647-22",
 		"full_time_school": true,
 		"id": "HH-5508",
@@ -2884,13 +2884,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Potsdamer Straße 6, 22149 Hamburg",
+		"address": "Potsdamer Strasse 6, 22149 Hamburg",
 		"fax": "+49 40 428 93 73-28",
 		"full_time_school": true,
 		"id": "HH-5510",
 		"lat": 53.58408,
 		"lon": 10.150715,
-		"name": "Schule Potsdamer Straße",
+		"name": "Schule Potsdamer Strasse",
 		"official_id": "5510",
 		"phone": "+49 40 428 93 73-30",
 		"school_type": "Grundschule",
@@ -2982,7 +2982,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bergstedter Alte Landstraße 12, 22395 Hamburg",
+		"address": "Bergstedter Alte Landstrasse 12, 22395 Hamburg",
 		"fax": "+49 40 6 44 21-0622",
 		"full_time_school": true,
 		"id": "HH-5526",
@@ -3038,13 +3038,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Eulenkrugstraße 166, 22359 Hamburg",
+		"address": "Eulenkrugstrasse 166, 22359 Hamburg",
 		"fax": "+49 40 644 21-022",
 		"full_time_school": true,
 		"id": "HH-5533",
 		"lat": 53.64436,
 		"lon": 10.183688,
-		"name": "Schule Eulenkrugstraße",
+		"name": "Schule Eulenkrugstrasse",
 		"official_id": "5533",
 		"phone": "+49 40 428 96 05-0",
 		"school_type": "Grundschule",
@@ -3080,13 +3080,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Müssenredder 61, 22399 Hamburg",
+		"address": "Muessenredder 61, 22399 Hamburg",
 		"fax": "+49 40 5 33 06-8322",
 		"full_time_school": true,
 		"id": "HH-5537",
 		"lat": 53.654962,
 		"lon": 10.066364,
-		"name": "Schule Müssenredder",
+		"name": "Schule Muessenredder",
 		"official_id": "5537",
 		"phone": "+49 40 428 96 53-0",
 		"school_type": "Grundschule",
@@ -3094,13 +3094,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Islandstraße 25, 22145 Hamburg",
+		"address": "Islandstrasse 25, 22145 Hamburg",
 		"fax": "+49 40 675 98-122",
 		"full_time_school": true,
 		"id": "HH-5538",
 		"lat": 53.629043,
 		"lon": 10.159966,
-		"name": "Grundschule Islandstraße",
+		"name": "Grundschule Islandstrasse",
 		"official_id": "5538",
 		"phone": "+49 40 428 93 74-0",
 		"school_type": "Grundschule",
@@ -3108,13 +3108,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Grützmühlenweg 38, 22339 Hamburg",
+		"address": "Gruetzmuehlenweg 38, 22339 Hamburg",
 		"fax": "+49 40 5 20 19-644",
 		"full_time_school": true,
 		"id": "HH-5540",
 		"lat": 53.64583,
 		"lon": 10.040549,
-		"name": "Schule Grützmühlenweg",
+		"name": "Schule Gruetzmuehlenweg",
 		"official_id": "5540",
 		"phone": "+49 40 428 96 52-0",
 		"school_type": "Grundschule",
@@ -3150,13 +3150,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Ahrenshooper Straße 1, 22147 Hamburg",
+		"address": "Ahrenshooper Strasse 1, 22147 Hamburg",
 		"fax": "+49 40 428 76 25 22",
 		"full_time_school": true,
 		"id": "HH-5544",
 		"lat": 53.600364,
 		"lon": 10.132015,
-		"name": "Schule Rahlstedter Höhe",
+		"name": "Schule Rahlstedter Hoehe",
 		"official_id": "5544",
 		"phone": "+49 40 428 76 25 0",
 		"school_type": "Grundschule",
@@ -3192,7 +3192,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Fabriciusstraße 150, 22177 Hamburg",
+		"address": "Fabriciusstrasse 150, 22177 Hamburg",
 		"fax": "+49 40 428 93 22-63",
 		"full_time_school": true,
 		"id": "HH-5557",
@@ -3206,13 +3206,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Fahrenkrön 115, 22179 Hamburg",
+		"address": "Fahrenkroen 115, 22179 Hamburg",
 		"fax": "+49 40 428 96 29-70",
 		"full_time_school": true,
 		"id": "HH-5558",
 		"lat": 53.616266,
 		"lon": 10.097775,
-		"name": "Schule Fahrenkrön",
+		"name": "Schule Fahrenkroen",
 		"official_id": "5558",
 		"phone": "+49 40 428 96 29-0",
 		"school_type": "Grundschule",
@@ -3248,7 +3248,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Stephanstraße 103, 22047 Hamburg",
+		"address": "Stephanstrasse 103, 22047 Hamburg",
 		"fax": "+49 40 2 80 58-022",
 		"full_time_school": true,
 		"id": "HH-5575",
@@ -3262,13 +3262,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bandwirkerstraße 56, 22041 Hamburg",
+		"address": "Bandwirkerstrasse 56, 22041 Hamburg",
 		"fax": "+49 40 689 46-3322",
 		"full_time_school": true,
 		"id": "HH-5577",
 		"lat": 53.576671,
 		"lon": 10.067148,
-		"name": "Schule Bandwirkerstraße",
+		"name": "Schule Bandwirkerstrasse",
 		"official_id": "5577",
 		"phone": "+49 40 428 96 56-0",
 		"school_type": "Grundschule",
@@ -3276,13 +3276,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bovestraße 10, 22041 Hamburg",
+		"address": "Bovestrasse 10, 22041 Hamburg",
 		"fax": "+49 40 428 820-645",
 		"full_time_school": true,
 		"id": "HH-5578",
 		"lat": 53.571996,
 		"lon": 10.080291,
-		"name": "Schule Bovestraße",
+		"name": "Schule Bovestrasse",
 		"official_id": "5578",
 		"phone": "+49 40 428 820-654",
 		"school_type": "Grundschule",
@@ -3290,7 +3290,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Ritterstraße 44, 22089 Hamburg",
+		"address": "Ritterstrasse 44, 22089 Hamburg",
 		"fax": "+49 40 428 86 11 22",
 		"full_time_school": true,
 		"id": "HH-5581",
@@ -3304,13 +3304,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Öjendorfer Damm 8, 22043 Hamburg",
+		"address": "oejendorfer Damm 8, 22043 Hamburg",
 		"fax": "+49 40 670 48-552",
 		"full_time_school": true,
 		"id": "HH-5586",
 		"lat": 53.568011,
 		"lon": 10.135676,
-		"name": "Schule Öjendorfer Damm",
+		"name": "Schule oejendorfer Damm",
 		"official_id": "5586",
 		"phone": "+49 40 428 93 75-0",
 		"school_type": "Grundschule",
@@ -3318,7 +3318,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Walddörferstraße 243, 22047 Hamburg",
+		"address": "Walddoerferstrasse 243, 22047 Hamburg",
 		"fax": "+49 40 428 86-3922",
 		"full_time_school": true,
 		"id": "HH-5587",
@@ -3332,13 +3332,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Richardstraße 85, 22089 Hamburg",
+		"address": "Richardstrasse 85, 22089 Hamburg",
 		"fax": "+49 40 428 93 76-77",
 		"full_time_school": true,
 		"id": "HH-5588",
 		"lat": 53.568004,
 		"lon": 10.039956,
-		"name": "Schule Richardstraße",
+		"name": "Schule Richardstrasse",
 		"official_id": "5588",
 		"phone": "+49 40 428 93 76-0",
 		"school_type": "Grundschule",
@@ -3346,13 +3346,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Wielandstraße 9, 22089 Hamburg",
+		"address": "Wielandstrasse 9, 22089 Hamburg",
 		"fax": "+49 40 428 86-1822",
 		"full_time_school": true,
 		"id": "HH-5591",
 		"lat": 53.569992,
 		"lon": 10.054226,
-		"name": "Schule Wielandstraße",
+		"name": "Schule Wielandstrasse",
 		"official_id": "5591",
 		"phone": "+49 40 428 86-180",
 		"school_type": "Grundschule",
@@ -3360,13 +3360,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Oppelner Straße 45, 22045 Hamburg",
+		"address": "Oppelner Strasse 45, 22045 Hamburg",
 		"fax": "+49 40 284 17-352",
 		"full_time_school": true,
 		"id": "HH-5592",
 		"lat": 53.573179,
 		"lon": 10.14442,
-		"name": "Schule Oppelner Straße",
+		"name": "Schule Oppelner Strasse",
 		"official_id": "5592",
 		"phone": "+49 40 428 93 77-0",
 		"school_type": "Grundschule",
@@ -3374,13 +3374,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Jenfelder Straße 252, 22045 Hamburg",
+		"address": "Jenfelder Strasse 252, 22045 Hamburg",
 		"fax": "+49 40 428 93 31-22",
 		"full_time_school": true,
 		"id": "HH-5594",
 		"lat": 53.576143,
 		"lon": 10.132927,
-		"name": "Schule Jenfelder Straße",
+		"name": "Schule Jenfelder Strasse",
 		"official_id": "5594",
 		"phone": "+49 40 428 93 31-0",
 		"school_type": "Grundschule",
@@ -3388,13 +3388,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Sander Straße 11, 21029 Hamburg",
+		"address": "Sander Strasse 11, 21029 Hamburg",
 		"fax": "+49 40 428 93 13-51",
 		"full_time_school": true,
 		"id": "HH-5602",
 		"lat": 53.49532,
 		"lon": 10.217435,
-		"name": "Schule Sander Straße",
+		"name": "Schule Sander Strasse",
 		"official_id": "5602",
 		"phone": "+49 40 428 93 13-0",
 		"school_type": "Grundschule",
@@ -3402,13 +3402,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Von-Haeften-Straße 1, 21035 Hamburg",
+		"address": "Von-Haeften-Strasse 1, 21035 Hamburg",
 		"fax": "+49 40 428 93 23-40",
 		"full_time_school": true,
 		"id": "HH-5603",
 		"lat": 53.487769,
 		"lon": 10.16727,
-		"name": "Anton-Rée-Schule Allermöhe",
+		"name": "Anton-Rée-Schule Allermoehe",
 		"official_id": "5603",
 		"phone": "+49 40 428 93 23-0",
 		"school_type": "Grundschule",
@@ -3416,13 +3416,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Ernst-Henning-Straße 20, 21029 Hamburg",
+		"address": "Ernst-Henning-Strasse 20, 21029 Hamburg",
 		"fax": "+49 40 428 86 59 22",
 		"full_time_school": true,
 		"id": "HH-5604",
 		"lat": 53.484161,
 		"lon": 10.226782,
-		"name": "Schule Ernst-Henning-Straße",
+		"name": "Schule Ernst-Henning-Strasse",
 		"official_id": "5604",
 		"phone": "+49 40 428 86 59 0",
 		"school_type": "Grundschule",
@@ -3430,13 +3430,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Leuschnerstraße 13, 21031 Hamburg",
+		"address": "Leuschnerstrasse 13, 21031 Hamburg",
 		"fax": "+49 40 239 59 7222",
 		"full_time_school": true,
 		"id": "HH-5605",
 		"lat": 53.49608,
 		"lon": 10.20698,
-		"name": "Schule Leuschnerstraße",
+		"name": "Schule Leuschnerstrasse",
 		"official_id": "5605",
 		"phone": "+49 40 428 93 78-0",
 		"school_type": "Grundschule",
@@ -3472,13 +3472,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Mendelstraße 6, 21031 Hamburg",
+		"address": "Mendelstrasse 6, 21031 Hamburg",
 		"fax": "+49 40 428 86-5822",
 		"full_time_school": true,
 		"id": "HH-5611",
 		"lat": 53.506356,
 		"lon": 10.192654,
-		"name": "Grundschule Mendelstraße",
+		"name": "Grundschule Mendelstrasse",
 		"official_id": "5611",
 		"phone": "+49 40 428 86-580",
 		"school_type": "Grundschule",
@@ -3604,7 +3604,7 @@
 		"id": "HH-5635",
 		"lat": 53.448519,
 		"lon": 10.133582,
-		"name": "Schule Fünfhausen-Warwisch",
+		"name": "Schule Fuenfhausen-Warwisch",
 		"official_id": "5635",
 		"phone": "+49 40 730 90 63 0",
 		"school_type": "Grundschule",
@@ -3640,7 +3640,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Voßhagen 15, 22559 Hamburg",
+		"address": "Vosshagen 15, 22559 Hamburg",
 		"fax": "+49 40 428 93 44-22",
 		"full_time_school": true,
 		"id": "HH-5649",
@@ -3654,7 +3654,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Kielkoppelstraße 16 d, 22149 Hamburg",
+		"address": "Kielkoppelstrasse 16 d, 22149 Hamburg",
 		"fax": "+49 40 428 86 45 22",
 		"full_time_school": true,
 		"id": "HH-5650",
@@ -3682,7 +3682,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Eckernförder Straße 70, 22769 Hamburg",
+		"address": "Eckernfoerder Strasse 70, 22769 Hamburg",
 		"fax": "+49 40 428 88 58 10",
 		"full_time_school": true,
 		"id": "HH-5654",
@@ -3738,13 +3738,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Stübenhofer Weg 20, 21109 Hamburg",
+		"address": "Stuebenhofer Weg 20, 21109 Hamburg",
 		"fax": "+49 40 428 76 19 22",
 		"full_time_school": true,
 		"id": "HH-5658",
 		"lat": 53.483074,
 		"lon": 10.014632,
-		"name": "Stadtteilschule Stübenhofer Weg",
+		"name": "Stadtteilschule Stuebenhofer Weg",
 		"official_id": "5658",
 		"phone": "+49 40 428 76 19 10",
 		"school_type": "Stadtteilschule",
@@ -3808,7 +3808,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Griesstraße 101, 20099 Hamburg",
+		"address": "Griesstrasse 101, 20099 Hamburg",
 		"fax": "+49 40 428 97 44 15",
 		"full_time_school": true,
 		"id": "HH-5663",
@@ -3850,7 +3850,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Struenseestraße 20, 20355 Hamburg",
+		"address": "Struenseestrasse 20, 20355 Hamburg",
 		"fax": "+49 40 428 84 32 08",
 		"full_time_school": true,
 		"id": "HH-5667",
@@ -3892,13 +3892,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Dempwolffstraße 7, 21073 Hamburg",
+		"address": "Dempwolffstrasse 7, 21073 Hamburg",
 		"fax": "+49 40 414 59 65 2",
 		"full_time_school": true,
 		"id": "HH-5701",
 		"lat": 53.458836,
 		"lon": 9.965013,
-		"name": "Schule Dempwolffstraße",
+		"name": "Schule Dempwolffstrasse",
 		"official_id": "5701",
 		"phone": "+49 40 428 96 08-0",
 		"school_type": "Grundschule",
@@ -3906,13 +3906,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Maretstraße 50, 21073 Hamburg",
+		"address": "Maretstrasse 50, 21073 Hamburg",
 		"fax": "+49 40 428 97-5212",
 		"full_time_school": true,
 		"id": "HH-5703",
 		"lat": 53.453706,
 		"lon": 9.982173,
-		"name": "Schule Maretstraße",
+		"name": "Schule Maretstrasse",
 		"official_id": "5703",
 		"phone": "+49 40 428 97-502",
 		"school_type": "Stadtteilschule",
@@ -3920,13 +3920,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Grumbrechtstraße 63, 21075 Hamburg",
+		"address": "Grumbrechtstrasse 63, 21075 Hamburg",
 		"fax": "+49 40 79 18 81-22",
 		"full_time_school": true,
 		"id": "HH-5704",
 		"lat": 53.468524,
 		"lon": 9.955276,
-		"name": "Schule Grumbrechtstraße",
+		"name": "Schule Grumbrechtstrasse",
 		"official_id": "5704",
 		"phone": "+49 40 428 96 09-0",
 		"school_type": "Grundschule",
@@ -3948,13 +3948,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Kanzlerstraße 25, 21079 Hamburg",
+		"address": "Kanzlerstrasse 25, 21079 Hamburg",
 		"fax": "+49 40 701 06 57 5",
 		"full_time_school": true,
 		"id": "HH-5707",
 		"lat": 53.439055,
 		"lon": 10.00758,
-		"name": "Schule Rönneburg",
+		"name": "Schule Roenneburg",
 		"official_id": "5707",
 		"phone": "+49 40 428 96 11-0",
 		"school_type": "Grundschule",
@@ -3976,13 +3976,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Kerschensteinerstraße 16, 21073 Hamburg",
+		"address": "Kerschensteinerstrasse 16, 21073 Hamburg",
 		"fax": "+49 40 428 88 39 22",
 		"full_time_school": true,
 		"id": "HH-5710",
 		"lat": 53.461707,
 		"lon": 9.973429,
-		"name": "Schule Kerschensteinerstraße",
+		"name": "Schule Kerschensteinerstrasse",
 		"official_id": "5710",
 		"phone": "+49 40 428 88-390",
 		"school_type": "Grundschule",
@@ -4004,7 +4004,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Neuländer Elbdeich 241, 21079 Hamburg",
+		"address": "Neulaender Elbdeich 241, 21079 Hamburg",
 		"fax": "+49 40 428 96 13-22",
 		"full_time_school": true,
 		"id": "HH-5714",
@@ -4018,13 +4018,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Scheeßeler Kehre 2, 21079 Hamburg",
+		"address": "Scheesseler Kehre 2, 21079 Hamburg",
 		"fax": "+49 40 428 96 14-22",
 		"full_time_school": true,
 		"id": "HH-5718",
 		"lat": 53.426707,
 		"lon": 9.987142,
-		"name": "Schule Scheeßeler Kehre",
+		"name": "Schule Scheesseler Kehre",
 		"official_id": "5718",
 		"phone": "+49 40 428 96 14-0",
 		"school_type": "Grundschule",
@@ -4032,7 +4032,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Weusthoffstraße 95, 21075 Hamburg",
+		"address": "Weusthoffstrasse 95, 21075 Hamburg",
 		"fax": "+49 40 428 88 18 26",
 		"full_time_school": true,
 		"id": "HH-5719",
@@ -4060,7 +4060,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Hausbrucher Bahnhofstraße 19, 21077 Hamburg",
+		"address": "Hausbrucher Bahnhofstrasse 19, 21077 Hamburg",
 		"fax": "+49 40 428 98-8510",
 		"full_time_school": true,
 		"id": "HH-5723",
@@ -4074,7 +4074,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Rahmwerder Straße 3, 21109 Hamburg",
+		"address": "Rahmwerder Strasse 3, 21109 Hamburg",
 		"fax": "+49 40 428 76 21 1",
 		"full_time_school": true,
 		"id": "HH-5742",
@@ -4102,13 +4102,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Fährstraße 90, 21107 Hamburg",
+		"address": "Faehrstrasse 90, 21107 Hamburg",
 		"fax": "+49 40 428 76 29-22",
 		"full_time_school": true,
 		"id": "HH-5744",
 		"lat": 53.517166,
 		"lon": 9.98147,
-		"name": "Ganztagsschule Fährstraße",
+		"name": "Ganztagsschule Faehrstrasse",
 		"official_id": "5744",
 		"phone": "+49 40 428 76 29-0",
 		"school_type": "Grundschule",
@@ -4158,7 +4158,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Francoper Straße 32, 21147 Hamburg",
+		"address": "Francoper Strasse 32, 21147 Hamburg",
 		"fax": "+49 40 790 14 22 2",
 		"full_time_school": true,
 		"id": "HH-5755",
@@ -4172,13 +4172,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Rotenhäuser Damm 45, 21107 Hamburg",
+		"address": "Rotenhaeuser Damm 45, 21107 Hamburg",
 		"fax": "+49 40 485 09 75 2",
 		"full_time_school": true,
 		"id": "HH-5761",
 		"lat": 53.511335,
 		"lon": 9.991511,
-		"name": "Schule Rotenhäuser Damm",
+		"name": "Schule Rotenhaeuser Damm",
 		"official_id": "5761",
 		"phone": "+49 40 428 96 65-0",
 		"school_type": "Grundschule",
@@ -4200,13 +4200,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Stübenhofer Weg 20, 21109 Hamburg",
+		"address": "Stuebenhofer Weg 20, 21109 Hamburg",
 		"fax": "+49 40 750 60 22 2",
 		"full_time_school": true,
 		"id": "HH-5763",
 		"lat": 53.483074,
 		"lon": 10.014632,
-		"name": "Grundschule Stübenhofer Weg",
+		"name": "Grundschule Stuebenhofer Weg",
 		"official_id": "5763",
 		"phone": "+49 40 428 96 66-0",
 		"school_type": "Grundschule",
@@ -4248,7 +4248,7 @@
 		"id": "HH-5800",
 		"lat": 53.541154,
 		"lon": 10.12098,
-		"name": "Kurt-Körber-Gymnasium",
+		"name": "Kurt-Koerber-Gymnasium",
 		"official_id": "5800",
 		"phone": "+4940 428 7648–30",
 		"school_type": "Gymnasium",
@@ -4270,7 +4270,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Witthöfftstraße 8, 22041 Hamburg",
+		"address": "Witthoefftstrasse 8, 22041 Hamburg",
 		"fax": "+49 40 428 76 22 22",
 		"full_time_school": true,
 		"id": "HH-5802",
@@ -4290,7 +4290,7 @@
 		"id": "HH-5803",
 		"lat": 53.470083,
 		"lon": 9.863995,
-		"name": "Gymnasium Süderelbe",
+		"name": "Gymnasium Suederelbe",
 		"official_id": "5803",
 		"phone": "+49 40 428 93 35-0",
 		"school_type": "Gymnasium",
@@ -4298,7 +4298,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Krieterstraße 5, 21109 Hamburg",
+		"address": "Krieterstrasse 5, 21109 Hamburg",
 		"fax": "+49 40 428 87 72 27",
 		"full_time_school": true,
 		"id": "HH-5807",
@@ -4312,7 +4312,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Voßhagen 15, 22559 Hamburg",
+		"address": "Vosshagen 15, 22559 Hamburg",
 		"fax": "+49 40 428 93 14-28",
 		"full_time_school": true,
 		"id": "HH-5809",
@@ -4368,7 +4368,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Otto-Ernst-Straße 34, 22605 Hamburg",
+		"address": "Otto-Ernst-Strasse 34, 22605 Hamburg",
 		"fax": "+49 40 428 88 28 31",
 		"full_time_school": true,
 		"id": "HH-5813",
@@ -4382,7 +4382,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Triftstraße 43, 21075 Hamburg",
+		"address": "Triftstrasse 43, 21075 Hamburg",
 		"fax": "+49 40 428 88-7110",
 		"full_time_school": true,
 		"id": "HH-5814",
@@ -4402,7 +4402,7 @@
 		"id": "HH-5816",
 		"lat": 53.65189,
 		"lon": 10.175431,
-		"name": "Walddörfer-Gymnasium",
+		"name": "Walddoerfer-Gymnasium",
 		"official_id": "5816",
 		"phone": "+49 40 428 969 30",
 		"school_type": "Gymnasium",
@@ -4410,7 +4410,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Rostocker Straße 41, 20099 Hamburg",
+		"address": "Rostocker Strasse 41, 20099 Hamburg",
 		"fax": "+49 40 428 974-525",
 		"full_time_school": false,
 		"id": "HH-5818",
@@ -4438,7 +4438,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Höhnkoppelort 24, 22179 Hamburg",
+		"address": "Hoehnkoppelort 24, 22179 Hamburg",
 		"fax": "+49 40 428 8629-30",
 		"full_time_school": true,
 		"id": "HH-5822",
@@ -4452,13 +4452,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Corveystraße 6, 22529 Hamburg",
+		"address": "Corveystrasse 6, 22529 Hamburg",
 		"fax": "+49 40 428 86 79 31",
 		"full_time_school": true,
 		"id": "HH-5823",
 		"lat": 53.596781,
 		"lon": 9.969265,
-		"name": "Gymnasium Corveystraße",
+		"name": "Gymnasium Corveystrasse",
 		"official_id": "5823",
 		"phone": "+49 40 428 86 79 0",
 		"school_type": "Gymnasium",
@@ -4522,7 +4522,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Oesterleystraße 27, 22587 Hamburg",
+		"address": "Oesterleystrasse 27, 22587 Hamburg",
 		"fax": "+49 40 428 971-244",
 		"full_time_school": true,
 		"id": "HH-5831",
@@ -4542,7 +4542,7 @@
 		"id": "HH-5832",
 		"lat": 53.485845,
 		"lon": 10.153092,
-		"name": "Gymnasium Allermöhe",
+		"name": "Gymnasium Allermoehe",
 		"official_id": "5832",
 		"phone": "+49 40 428 93 39-0",
 		"school_type": "Gymnasium",
@@ -4620,7 +4620,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Rönneburger Straße 50, 21079 Hamburg",
+		"address": "Roenneburger Strasse 50, 21079 Hamburg",
 		"fax": "+49 40 645 39 13 6",
 		"full_time_school": true,
 		"id": "HH-5840",
@@ -4634,13 +4634,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Willhöden 74, 22587 Hamburg",
+		"address": "Willhoeden 74, 22587 Hamburg",
 		"fax": "+49 40 428 93 42-15",
 		"full_time_school": true,
 		"id": "HH-5841",
 		"lat": 53.57141,
 		"lon": 9.806883,
-		"name": "Marion Dönhoff Gymnasium",
+		"name": "Marion Doenhoff Gymnasium",
 		"official_id": "5841",
 		"phone": "+49 40 428 93 42-0",
 		"school_type": "Gymnasium",
@@ -4648,7 +4648,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Christian-Förster-Straße 19, 20253 Hamburg",
+		"address": "Christian-Foerster-Strasse 19, 20253 Hamburg",
 		"fax": "+49 40 428 88 48 10",
 		"full_time_school": true,
 		"id": "HH-5842",
@@ -4662,7 +4662,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Hegestraße 35, 20249 Hamburg",
+		"address": "Hegestrasse 35, 20249 Hamburg",
 		"fax": "+49 40 428 972 - 231",
 		"full_time_school": true,
 		"id": "HH-5844",
@@ -4676,7 +4676,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Hermann-Distel-Straße 25, 21029 Hamburg",
+		"address": "Hermann-Distel-Strasse 25, 21029 Hamburg",
 		"fax": "+49 40 428 93 43-50",
 		"full_time_school": true,
 		"id": "HH-5845",
@@ -4710,7 +4710,7 @@
 		"id": "HH-5847",
 		"lat": 53.502654,
 		"lon": 10.203271,
-		"name": "Gymnasium Lohbrügge",
+		"name": "Gymnasium Lohbruegge",
 		"official_id": "5847",
 		"phone": "+49 40 428 87-601",
 		"school_type": "Gymnasium",
@@ -4732,7 +4732,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Müssenredder 59, 22399 Hamburg",
+		"address": "Muessenredder 59, 22399 Hamburg",
 		"fax": "+49 40 427 96 79 16",
 		"full_time_school": true,
 		"id": "HH-5849",
@@ -4788,13 +4788,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Dörpsweg 10, 22527 Hamburg",
+		"address": "Doerpsweg 10, 22527 Hamburg",
 		"fax": "+49 40 571 94  23 7",
 		"full_time_school": true,
 		"id": "HH-5859",
 		"lat": 53.607876,
 		"lon": 9.911962,
-		"name": "Gymnasium Dörpsweg",
+		"name": "Gymnasium Doerpsweg",
 		"official_id": "5859",
 		"phone": "+49 40 428 96 36-0",
 		"school_type": "Gymnasium",
@@ -4816,7 +4816,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Neumann-Reichardt-Straße 20, 22041 Hamburg",
+		"address": "Neumann-Reichardt-Strasse 20, 22041 Hamburg",
 		"fax": "+49 40 428 820-210",
 		"full_time_school": true,
 		"id": "HH-5862",
@@ -4830,13 +4830,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bundesstraße 78, 20144 Hamburg",
+		"address": "Bundesstrasse 78, 20144 Hamburg",
 		"fax": "+49 40 428 88 05-42",
 		"full_time_school": true,
 		"id": "HH-5863",
 		"lat": 53.570918,
 		"lon": 9.972009,
-		"name": "Emilie-Wüstenfeld-Gymnasium",
+		"name": "Emilie-Wuestenfeld-Gymnasium",
 		"official_id": "5863",
 		"phone": "+49 40 428 88 05-0",
 		"school_type": "Gymnasium",
@@ -4844,7 +4844,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bogenstraße 32, 20144 Hamburg",
+		"address": "Bogenstrasse 32, 20144 Hamburg",
 		"fax": "+49 40 428 981-210",
 		"full_time_school": true,
 		"id": "HH-5864",
@@ -4886,7 +4886,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Scharbeutzer Straße 36, 22147 Hamburg",
+		"address": "Scharbeutzer Strasse 36, 22147 Hamburg",
 		"fax": "+49 40 428 86-6540",
 		"full_time_school": true,
 		"id": "HH-5869",
@@ -4942,7 +4942,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Swebenhöhe 50, 22159 Hamburg",
+		"address": "Swebenhoehe 50, 22159 Hamburg",
 		"fax": "+49 40 428 93 48-22",
 		"full_time_school": true,
 		"id": "HH-5885",
@@ -4956,7 +4956,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Maria-Louisen-Straße 114, 22301 Hamburg",
+		"address": "Maria-Louisen-Strasse 114, 22301 Hamburg",
 		"fax": "+49 40 428 827 210",
 		"full_time_school": true,
 		"id": "HH-5886",
@@ -4984,7 +4984,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Wilhelm-Metzger-Straße 4, 22297 Hamburg",
+		"address": "Wilhelm-Metzger-Strasse 4, 22297 Hamburg",
 		"fax": "+49 40 428 86-8910",
 		"full_time_school": true,
 		"id": "HH-5888",
@@ -5012,7 +5012,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Walderseestraße 99, 22605 Hamburg",
+		"address": "Walderseestrasse 99, 22605 Hamburg",
 		"fax": "+49 40 428 93 51-42",
 		"full_time_school": true,
 		"id": "HH-5891",
@@ -5026,7 +5026,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Harksheider Straße 70, 22399 Hamburg",
+		"address": "Harksheider Strasse 70, 22399 Hamburg",
 		"fax": "+49 40 428 86 81 10",
 		"full_time_school": true,
 		"id": "HH-5894",
@@ -5054,7 +5054,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Sthamerstraße 55, 22397 Hamburg",
+		"address": "Sthamerstrasse 55, 22397 Hamburg",
 		"fax": "+49 40 605 80 31 0",
 		"full_time_school": true,
 		"id": "HH-5896",
@@ -5096,13 +5096,13 @@
 		"state": "HH"
 	},
 	{
-		"address": "Hummelsbüttler Hauptstraße 107, 22339 Hamburg",
+		"address": "Hummelsbuettler Hauptstrasse 107, 22339 Hamburg",
 		"fax": "+49 40 5 38 90 6-44",
 		"full_time_school": true,
 		"id": "HH-5899",
 		"lat": 53.647333,
 		"lon": 10.040988,
-		"name": "Gymnasium Hummelsbüttel",
+		"name": "Gymnasium Hummelsbuettel",
 		"official_id": "5899",
 		"phone": "+49 40 428 93 55-0",
 		"school_type": "Gymnasium",
@@ -5110,7 +5110,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Norderstraße 163, 20097 Hamburg",
+		"address": "Norderstrasse 163, 20097 Hamburg",
 		"fax": "+49 40 21 11 12-0",
 		"full_time_school": true,
 		"id": "HH-7703",
@@ -5152,7 +5152,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "August-Bebel-Straße 196, 21029 Hamburg",
+		"address": "August-Bebel-Strasse 196, 21029 Hamburg",
 		"fax": "+49 40 7210 6427",
 		"full_time_school": true,
 		"id": "HH-7708",
@@ -5166,7 +5166,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Norderstraße 163, 20097 Hamburg",
+		"address": "Norderstrasse 163, 20097 Hamburg",
 		"fax": "+49 40 21 11 12-20",
 		"full_time_school": true,
 		"id": "HH-7714",
@@ -5180,7 +5180,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Norderstraße 163, 20097 Hamburg",
+		"address": "Norderstrasse 163, 20097 Hamburg",
 		"fax": "+49 40 21 11 12-20",
 		"full_time_school": true,
 		"id": "HH-7715",
@@ -5194,7 +5194,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Rostocker Straße 62, 20099 Hamburg",
+		"address": "Rostocker Strasse 62, 20099 Hamburg",
 		"fax": "+49 40 24 68 69",
 		"full_time_school": true,
 		"id": "HH-7801",
@@ -5208,7 +5208,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Heinrichstraße 14, 22769 Hamburg",
+		"address": "Heinrichstrasse 14, 22769 Hamburg",
 		"fax": null,
 		"full_time_school": false,
 		"id": "HH-7909",
@@ -5264,7 +5264,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Schäferkampsallee 27, 20357 Hamburg",
+		"address": "Schaeferkampsallee 27, 20357 Hamburg",
 		"fax": null,
 		"full_time_school": false,
 		"id": "HH-7916",
@@ -5278,7 +5278,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Alsterdorfer Straße 523, 22337 Hamburg",
+		"address": "Alsterdorfer Strasse 523, 22337 Hamburg",
 		"fax": "+49 40 529 85 167",
 		"full_time_school": false,
 		"id": "HH-7917",
@@ -5292,7 +5292,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Wendenstraße 35, 20097 Hamburg",
+		"address": "Wendenstrasse 35, 20097 Hamburg",
 		"fax": "+40 40 325 370-55",
 		"full_time_school": true,
 		"id": "HH-7918",
@@ -5306,7 +5306,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Brödermannsweg 17, 22453 Hamburg",
+		"address": "Broedermannsweg 17, 22453 Hamburg",
 		"fax": null,
 		"full_time_school": true,
 		"id": "HH-7920",
@@ -5320,7 +5320,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Brödermannsweg 17, 22453 Hamburg",
+		"address": "Broedermannsweg 17, 22453 Hamburg",
 		"fax": null,
 		"full_time_school": false,
 		"id": "HH-7921",
@@ -5334,7 +5334,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Saarlandstraße 30, 22303 Hamburg",
+		"address": "Saarlandstrasse 30, 22303 Hamburg",
 		"fax": null,
 		"full_time_school": false,
 		"id": "HH-7924",
@@ -5390,7 +5390,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "August-Krogmann-Straße 115, 22159 Hamburg",
+		"address": "August-Krogmann-Strasse 115, 22159 Hamburg",
 		"fax": "+49 40 64 55 22-87",
 		"full_time_school": true,
 		"id": "HH-8008",
@@ -5404,7 +5404,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bachstraße 13, 22083 Hamburg",
+		"address": "Bachstrasse 13, 22083 Hamburg",
 		"fax": null,
 		"full_time_school": true,
 		"id": "HH-8012",
@@ -5432,7 +5432,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Händelstraße 11, 22761 Hamburg",
+		"address": "Haendelstrasse 11, 22761 Hamburg",
 		"fax": null,
 		"full_time_school": true,
 		"id": "HH-8014",
@@ -5460,7 +5460,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Glasbläserhöfe 2, 21035 Hamburg",
+		"address": "Glasblaeserhoefe 2, 21035 Hamburg",
 		"fax": null,
 		"full_time_school": true,
 		"id": "HH-8016",
@@ -5502,7 +5502,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Bärenallee 15, 22041 Hamburg",
+		"address": "Baerenallee 15, 22041 Hamburg",
 		"fax": "+49 40 6 52 87 62",
 		"full_time_school": true,
 		"id": "HH-8106",
@@ -5572,7 +5572,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Woellmerstraße 1, 21075 Hamburg",
+		"address": "Woellmerstrasse 1, 21075 Hamburg",
 		"fax": "+49 40 70973778-19",
 		"full_time_school": true,
 		"id": "HH-8117",
@@ -5586,7 +5586,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Lienaustraße 14, 22159 Hamburg",
+		"address": "Lienaustrasse 14, 22159 Hamburg",
 		"fax": "6 38 56 - 9929",
 		"full_time_school": false,
 		"id": "HH-8118",
@@ -5642,7 +5642,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Jenischstraße 48, 22609 Hamburg",
+		"address": "Jenischstrasse 48, 22609 Hamburg",
 		"fax": "+49 40 8 23 33-7",
 		"full_time_school": true,
 		"id": "HH-8301",
@@ -5656,7 +5656,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Wendenstraße 35, 20097 Hamburg",
+		"address": "Wendenstrasse 35, 20097 Hamburg",
 		"fax": "+49 40 325 370-55",
 		"full_time_school": false,
 		"id": "HH-8302",
@@ -5670,7 +5670,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Heinrichstraße 14, 22769 Hamburg",
+		"address": "Heinrichstrasse 14, 22769 Hamburg",
 		"fax": null,
 		"full_time_school": false,
 		"id": "HH-8501",
@@ -5684,7 +5684,7 @@
 		"state": "HH"
 	},
 	{
-		"address": "Alsterdorfer Straße 523, 22337 Hamburg",
+		"address": "Alsterdorfer Strasse 523, 22337 Hamburg",
 		"fax": "+49 40 529 85-184",
 		"full_time_school": false,
 		"id": "HH-8502",

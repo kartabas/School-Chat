@@ -14,7 +14,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Düsseldorfer Str. 13, 10719 Berlin",
+		"address": "Duesseldorfer Str. 13, 10719 Berlin",
 		"fax": "8824868",
 		"full_time_school": true,
 		"id": "BE-15587",
@@ -37,8 +37,8 @@
 		"name": "Michael-Tschechow-Studio Berlin",
 		"official_id": "02E23",
 		"phone": "61108940",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -51,8 +51,8 @@
 		"name": "gebaerdenservice.de",
 		"official_id": "02E33",
 		"phone": "67926821",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -90,7 +90,7 @@
 		"id": "BE-15592",
 		"lat": 52.419237,
 		"lon": 13.257763,
-		"name": "Süd-Grundschule",
+		"name": "Sued-Grundschule",
 		"official_id": "06G02",
 		"phone": "84509638",
 		"school_type": "Grundschule",
@@ -104,7 +104,7 @@
 		"id": "BE-15593",
 		"lat": 52.44317,
 		"lon": 13.275931,
-		"name": "Mühlenau-Grundschule",
+		"name": "Muehlenau-Grundschule",
 		"official_id": "06G06",
 		"phone": "8325099",
 		"school_type": "Grundschule",
@@ -160,7 +160,7 @@
 		"id": "BE-15597",
 		"lat": 52.521018,
 		"lon": 13.431507,
-		"name": "Kreativitätsschulzentrum Berlin gGmbH",
+		"name": "Kreativitaetsschulzentrum Berlin gGmbH",
 		"official_id": "02P12",
 		"phone": "29035117",
 		"school_type": "Grundschule",
@@ -196,13 +196,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönower Str. 8, 14165 Berlin",
+		"address": "Schoenower Str. 8, 14165 Berlin",
 		"fax": "84508468",
 		"full_time_school": false,
 		"id": "BE-15600",
 		"lat": 52.428813,
 		"lon": 13.257188,
-		"name": "Droste-Hülshoff-Gymnasium",
+		"name": "Droste-Huelshoff-Gymnasium",
 		"official_id": "06Y02",
 		"phone": "84508466",
 		"school_type": "Gymnasien",
@@ -210,7 +210,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Königin-Luise-Str. 80-84, 14195 Berlin",
+		"address": "Koenigin-Luise-Str. 80-84, 14195 Berlin",
 		"fax": "8311002",
 		"full_time_school": false,
 		"id": "BE-15601",
@@ -233,8 +233,8 @@
 		"name": "Comenius-Schule",
 		"official_id": "04S07",
 		"phone": "8649950",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -247,8 +247,8 @@
 		"name": "Comenius-Schule",
 		"official_id": "04S07",
 		"phone": "8649950",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -261,7 +261,7 @@
 		"name": "Comenius-Schule",
 		"official_id": "04S07",
 		"phone": "8649950",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -342,7 +342,7 @@
 		"id": "BE-15610",
 		"lat": 52.409374,
 		"lon": 13.397379,
-		"name": "OSZ Körperpflege",
+		"name": "OSZ Koerperpflege",
 		"official_id": "04B07",
 		"phone": "864970-0",
 		"school_type": "Berufsfachschule",
@@ -356,7 +356,7 @@
 		"id": "BE-15611",
 		"lat": 52.409374,
 		"lon": 13.397379,
-		"name": "OSZ Körperpflege",
+		"name": "OSZ Koerperpflege",
 		"official_id": "04B07",
 		"phone": "864970-0",
 		"school_type": "Berufsschule",
@@ -370,7 +370,7 @@
 		"id": "BE-15612",
 		"lat": 52.409374,
 		"lon": 13.397379,
-		"name": "OSZ Körperpflege",
+		"name": "OSZ Koerperpflege",
 		"official_id": "04B07",
 		"phone": "864970-0",
 		"school_type": "Fachoberschule",
@@ -485,8 +485,8 @@
 		"name": "Pestalozzi-Schule",
 		"official_id": "06S01",
 		"phone": "902995760",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -499,8 +499,8 @@
 		"name": "Pestalozzi-Schule",
 		"official_id": "06S01",
 		"phone": "902995760",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -532,7 +532,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Hüttenweg 40, 14195 Berlin",
+		"address": "Huettenweg 40, 14195 Berlin",
 		"fax": "90299-8020",
 		"full_time_school": true,
 		"id": "BE-15624",
@@ -541,12 +541,12 @@
 		"name": "Biesalski-Schule",
 		"official_id": "06S02",
 		"phone": "90299-6474",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
 	{
-		"address": "Hüttenweg 40, 14195 Berlin",
+		"address": "Huettenweg 40, 14195 Berlin",
 		"fax": "90299-8020",
 		"full_time_school": true,
 		"id": "BE-15625",
@@ -555,8 +555,8 @@
 		"name": "Biesalski-Schule",
 		"official_id": "06S02",
 		"phone": "90299-6474",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -692,7 +692,7 @@
 		"id": "BE-15636",
 		"lat": 52.46033,
 		"lon": 13.302197,
-		"name": "Gymnasium Königin-Luise-Stiftung",
+		"name": "Gymnasium Koenigin-Luise-Stiftung",
 		"official_id": "06P06",
 		"phone": "841814-25",
 		"school_type": "Gymnasien",
@@ -709,12 +709,12 @@
 		"name": "Parzival-Schule",
 		"official_id": "06P07",
 		"phone": "8181970",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
-		"address": "Rückerstr. 9, 10119 Berlin",
+		"address": "Rueckerstr. 9, 10119 Berlin",
 		"fax": "6883323-23",
 		"full_time_school": true,
 		"id": "BE-15639",
@@ -728,7 +728,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Rückerstr. 9, 10119 Berlin",
+		"address": "Rueckerstr. 9, 10119 Berlin",
 		"fax": "6883323-23",
 		"full_time_school": true,
 		"id": "BE-15640",
@@ -751,8 +751,8 @@
 		"name": "INAC Theaterakademie",
 		"official_id": "03E11",
 		"phone": "41719262",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -762,7 +762,7 @@
 		"id": "BE-15642",
 		"lat": 52.468486,
 		"lon": 13.332865,
-		"name": "Fläming-Grundschule",
+		"name": "Flaeming-Grundschule",
 		"official_id": "07G15",
 		"phone": "902777061",
 		"school_type": "Grundschule",
@@ -821,8 +821,8 @@
 		"name": "DEKRA Medienakademie",
 		"official_id": "02E26",
 		"phone": "290080200",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -944,7 +944,7 @@
 		"id": "BE-15656",
 		"lat": 52.479766,
 		"lon": 13.338039,
-		"name": "Rückert-Gymnasium",
+		"name": "Rueckert-Gymnasium",
 		"official_id": "07Y02",
 		"phone": "902777173",
 		"school_type": "Gymnasien",
@@ -975,8 +975,8 @@
 		"name": "Marianne-Cohn-Schule",
 		"official_id": "07S04",
 		"phone": "9027725-55",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -1162,7 +1162,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Ostpreußendamm 63, 12207 Berlin",
+		"address": "Ostpreussendamm 63, 12207 Berlin",
 		"fax": "71097532",
 		"full_time_school": true,
 		"id": "BE-15672",
@@ -1224,7 +1224,7 @@
 		"id": "BE-15676",
 		"lat": 52.438139,
 		"lon": 13.310116,
-		"name": "Käthe-Kruse-Grundschule",
+		"name": "Kaethe-Kruse-Grundschule",
 		"official_id": "06G26",
 		"phone": "84416950",
 		"school_type": "Grundschule",
@@ -1238,7 +1238,7 @@
 		"id": "BE-15677",
 		"lat": 52.432224,
 		"lon": 13.346767,
-		"name": "Grundschule am Königsgraben",
+		"name": "Grundschule am Koenigsgraben",
 		"official_id": "06G27",
 		"phone": "77206590",
 		"school_type": "Grundschule",
@@ -1252,7 +1252,7 @@
 		"id": "BE-15678",
 		"lat": 52.402934,
 		"lon": 13.400469,
-		"name": "3. Schulpraktisches Seminar Tempelhof-Schöneberg",
+		"name": "3. Schulpraktisches Seminar Tempelhof-Schoeneberg",
 		"official_id": "07A04",
 		"phone": "705507-811",
 		"school_type": "Schulpraktisches Seminar",
@@ -1308,7 +1308,7 @@
 		"id": "BE-15682",
 		"lat": 52.42847,
 		"lon": 13.345779,
-		"name": "Bröndby-Schule (Integrierte Sekundarschule)",
+		"name": "Broendby-Schule (Integrierte Sekundarschule)",
 		"official_id": "06K04",
 		"phone": "90299-2010",
 		"school_type": "Integrierte Sekundarschule",
@@ -1325,8 +1325,8 @@
 		"name": "Peter-Frankenfeld-Schule",
 		"official_id": "06S03",
 		"phone": "77206560",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -1336,7 +1336,7 @@
 		"id": "BE-15684",
 		"lat": 52.455778,
 		"lon": 13.315137,
-		"name": "J.-A.-Zeune-Schule für Blinde und Berufsfachschule Dr. Silex",
+		"name": "J.-A.-Zeune-Schule fuer Blinde und Berufsfachschule Dr. Silex",
 		"official_id": "06S05",
 		"phone": "\t90299-2390",
 		"school_type": "Berufsfachschule",
@@ -1350,11 +1350,11 @@
 		"id": "BE-15685",
 		"lat": 52.455778,
 		"lon": 13.315137,
-		"name": "J.-A.-Zeune-Schule für Blinde und Berufsfachschule Dr. Silex",
+		"name": "J.-A.-Zeune-Schule fuer Blinde und Berufsfachschule Dr. Silex",
 		"official_id": "06S05",
 		"phone": "\t90299-2390",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -1364,21 +1364,21 @@
 		"id": "BE-15686",
 		"lat": 52.455778,
 		"lon": 13.315137,
-		"name": "J.-A.-Zeune-Schule für Blinde und Berufsfachschule Dr. Silex",
+		"name": "J.-A.-Zeune-Schule fuer Blinde und Berufsfachschule Dr. Silex",
 		"official_id": "06S05",
 		"phone": "\t90299-2390",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
 	{
-		"address": "Lippstädter Str. 9-11, 12207 Berlin",
+		"address": "Lippstaedter Str. 9-11, 12207 Berlin",
 		"fax": "90172-509",
 		"full_time_school": false,
 		"id": "BE-15687",
 		"lat": 52.411798,
 		"lon": 13.306027,
-		"name": "Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung)",
+		"name": "Louise-Schroeder-Schule (OSZ Buerowirtschaft und Verwaltung)",
 		"official_id": "06B02",
 		"phone": "90172-501",
 		"school_type": "Berufliches Gymnasium",
@@ -1386,13 +1386,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Lippstädter Str. 9-11, 12207 Berlin",
+		"address": "Lippstaedter Str. 9-11, 12207 Berlin",
 		"fax": "90172-509",
 		"full_time_school": false,
 		"id": "BE-15688",
 		"lat": 52.411798,
 		"lon": 13.306027,
-		"name": "Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung)",
+		"name": "Louise-Schroeder-Schule (OSZ Buerowirtschaft und Verwaltung)",
 		"official_id": "06B02",
 		"phone": "90172-501",
 		"school_type": "Berufsschule",
@@ -1400,13 +1400,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Lippstädter Str. 9-11, 12207 Berlin",
+		"address": "Lippstaedter Str. 9-11, 12207 Berlin",
 		"fax": "90172-509",
 		"full_time_school": false,
 		"id": "BE-15689",
 		"lat": 52.411798,
 		"lon": 13.306027,
-		"name": "Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung)",
+		"name": "Louise-Schroeder-Schule (OSZ Buerowirtschaft und Verwaltung)",
 		"official_id": "06B02",
 		"phone": "90172-501",
 		"school_type": "Berufsfachschule",
@@ -1414,13 +1414,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Lippstädter Str. 9-11, 12207 Berlin",
+		"address": "Lippstaedter Str. 9-11, 12207 Berlin",
 		"fax": "90172-509",
 		"full_time_school": false,
 		"id": "BE-15690",
 		"lat": 52.411798,
 		"lon": 13.306027,
-		"name": "Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung)",
+		"name": "Louise-Schroeder-Schule (OSZ Buerowirtschaft und Verwaltung)",
 		"official_id": "06B02",
 		"phone": "90172-501",
 		"school_type": "Fachoberschule",
@@ -1428,13 +1428,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Lippstädter Str. 9-11, 12207 Berlin",
+		"address": "Lippstaedter Str. 9-11, 12207 Berlin",
 		"fax": "90172-509",
 		"full_time_school": false,
 		"id": "BE-15691",
 		"lat": 52.411798,
 		"lon": 13.306027,
-		"name": "Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung)",
+		"name": "Louise-Schroeder-Schule (OSZ Buerowirtschaft und Verwaltung)",
 		"official_id": "06B02",
 		"phone": "90172-501",
 		"school_type": "Berufsoberschule",
@@ -1518,7 +1518,7 @@
 		"id": "BE-15697",
 		"lat": 52.387764,
 		"lon": 13.393021,
-		"name": "Käthe-Kollwitz-Grundschule",
+		"name": "Kaethe-Kollwitz-Grundschule",
 		"official_id": "07G29",
 		"phone": "9027782-41",
 		"school_type": "Grundschule",
@@ -1633,8 +1633,8 @@
 		"name": "Pflegeschule am Brandenburger Tor",
 		"official_id": "01E20",
 		"phone": "224899-65",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -1644,7 +1644,7 @@
 		"id": "BE-15706",
 		"lat": 52.372681,
 		"lon": 13.695704,
-		"name": "Akademie Berlin Schmöckwitz",
+		"name": "Akademie Berlin Schmoeckwitz",
 		"official_id": "09E05",
 		"phone": "675030",
 		"school_type": "Wirtschafts- u. Verwaltungsschule",
@@ -1750,7 +1750,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Großbeerenstr. 40, 10965 Berlin",
+		"address": "Grossbeerenstr. 40, 10965 Berlin",
 		"fax": "505875-15",
 		"full_time_school": true,
 		"id": "BE-15714",
@@ -1778,7 +1778,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Onkel-Bräsig-Str. 76-78, 12359 Berlin",
+		"address": "Onkel-Braesig-Str. 76-78, 12359 Berlin",
 		"fax": "609001-15",
 		"full_time_school": true,
 		"id": "BE-15716",
@@ -1857,8 +1857,8 @@
 		"name": "Adolf-Reichwein-Schule",
 		"official_id": "08S01",
 		"phone": "63225111",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -1871,8 +1871,8 @@
 		"name": "Herman-Nohl-Schule",
 		"official_id": "08S03",
 		"phone": "62008335",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -1885,8 +1885,8 @@
 		"name": "Schule am Zwickauer Damm",
 		"official_id": "08S04",
 		"phone": "6616079",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -1913,8 +1913,8 @@
 		"name": "Schule am Hasenhegerweg",
 		"official_id": "08S05",
 		"phone": "6045066",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -1994,7 +1994,7 @@
 		"id": "BE-15731",
 		"lat": 52.48912,
 		"lon": 13.537817,
-		"name": "bbw Akademie für Betriebswirtschaftliche Weiterbildung GmbH",
+		"name": "bbw Akademie fuer Betriebswirtschaftliche Weiterbildung GmbH",
 		"official_id": "11P02",
 		"phone": "50929-403",
 		"school_type": "Berufsschule",
@@ -2008,7 +2008,7 @@
 		"id": "BE-15732",
 		"lat": 52.48912,
 		"lon": 13.537817,
-		"name": "bbw Akademie für Betriebswirtschaftliche Weiterbildung GmbH",
+		"name": "bbw Akademie fuer Betriebswirtschaftliche Weiterbildung GmbH",
 		"official_id": "11P02",
 		"phone": "50929-403",
 		"school_type": "Fachoberschule",
@@ -2022,7 +2022,7 @@
 		"id": "BE-15733",
 		"lat": 52.48912,
 		"lon": 13.537817,
-		"name": "bbw Akademie für Betriebswirtschaftliche Weiterbildung GmbH",
+		"name": "bbw Akademie fuer Betriebswirtschaftliche Weiterbildung GmbH",
 		"official_id": "11P02",
 		"phone": "50929-403",
 		"school_type": "Berufsfachschule",
@@ -2036,7 +2036,7 @@
 		"id": "BE-15734",
 		"lat": 52.48912,
 		"lon": 13.537817,
-		"name": "bbw Akademie für Betriebswirtschaftliche Weiterbildung GmbH",
+		"name": "bbw Akademie fuer Betriebswirtschaftliche Weiterbildung GmbH",
 		"official_id": "11P02",
 		"phone": "50929-403",
 		"school_type": "Fachschule",
@@ -2095,8 +2095,8 @@
 		"name": "Hans-Fallada-Schule",
 		"official_id": "08S06",
 		"phone": "6322506724",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -2109,8 +2109,8 @@
 		"name": "Schule am Bienwaldring",
 		"official_id": "08S07",
 		"phone": "7430100",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -2123,8 +2123,8 @@
 		"name": "Schilling-Schule",
 		"official_id": "08S08",
 		"phone": "6000272",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -2137,8 +2137,8 @@
 		"name": "Schilling-Schule",
 		"official_id": "08S08",
 		"phone": "6000272",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -2148,11 +2148,11 @@
 		"id": "BE-15742",
 		"lat": 52.427414,
 		"lon": 13.434474,
-		"name": "Schule an der Windmühle",
+		"name": "Schule an der Windmuehle",
 		"official_id": "08S09",
 		"phone": "609724020",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -2162,7 +2162,7 @@
 		"id": "BE-15743",
 		"lat": 52.427414,
 		"lon": 13.434474,
-		"name": "Schule an der Windmühle",
+		"name": "Schule an der Windmuehle",
 		"official_id": "08S09",
 		"phone": "609724020",
 		"school_type": "Integrierte Sekundarschule",
@@ -2456,7 +2456,7 @@
 		"id": "BE-15764",
 		"lat": 52.483125,
 		"lon": 13.428053,
-		"name": "Evangelische Schule Neukölln (Integrierte Sekundarschule)",
+		"name": "Evangelische Schule Neukoelln (Integrierte Sekundarschule)",
 		"official_id": "08P03",
 		"phone": "6242027",
 		"school_type": "Integrierte Sekundarschule",
@@ -2464,13 +2464,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Lützowstr. 106 , 10785 Berlin",
+		"address": "Luetzowstr. 106 , 10785 Berlin",
 		"fax": "230855-20",
 		"full_time_school": false,
 		"id": "BE-15765",
 		"lat": 52.501245,
 		"lon": 13.368688,
-		"name": "BBA-Akademie für Immobilienwirtschaft e.V.",
+		"name": "BBA-Akademie fuer Immobilienwirtschaft e.V.",
 		"official_id": "01P33",
 		"phone": "230855-0",
 		"school_type": "Berufsschule",
@@ -2562,7 +2562,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Köpenicker Str. 31, 12524 Berlin",
+		"address": "Koepenicker Str. 31, 12524 Berlin",
 		"fax": "67068424",
 		"full_time_school": true,
 		"id": "BE-15772",
@@ -2590,7 +2590,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Am Plänterwald 17/23, 12435 Berlin",
+		"address": "Am Plaenterwald 17/23, 12435 Berlin",
 		"fax": "5363395-19",
 		"full_time_school": true,
 		"id": "BE-15774",
@@ -2624,7 +2624,7 @@
 		"id": "BE-15776",
 		"lat": 52.40124,
 		"lon": 13.564486,
-		"name": "Fritz-Kühn-Schule (Integrierte Sekundarschule)",
+		"name": "Fritz-Kuehn-Schule (Integrierte Sekundarschule)",
 		"official_id": "09K03",
 		"phone": "6764243",
 		"school_type": "Integrierte Sekundarschule",
@@ -2708,7 +2708,7 @@
 		"id": "BE-15782",
 		"lat": 52.429127,
 		"lon": 13.589808,
-		"name": "1. Schulpraktisches Seminar Treptow-Köpenick",
+		"name": "1. Schulpraktisches Seminar Treptow-Koepenick",
 		"official_id": "09A01",
 		"phone": "3474509-20",
 		"school_type": "Schulpraktisches Seminar",
@@ -2722,7 +2722,7 @@
 		"id": "BE-15783",
 		"lat": 52.447898,
 		"lon": 13.504448,
-		"name": "Gebrüder-Montgolfier-Gymnasium",
+		"name": "Gebrueder-Montgolfier-Gymnasium",
 		"official_id": "09Y10",
 		"phone": "6316677",
 		"school_type": "Gymnasien",
@@ -2834,7 +2834,7 @@
 		"id": "BE-15791",
 		"lat": 52.429127,
 		"lon": 13.589808,
-		"name": "2. Schulpraktisches Seminar Treptow-Köpenick",
+		"name": "2. Schulpraktisches Seminar Treptow-Koepenick",
 		"official_id": "09A02",
 		"phone": "3474509-10",
 		"school_type": "Schulpraktisches Seminar",
@@ -2842,13 +2842,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Bruno-Bürgel-Weg 9, 12439 Berlin",
+		"address": "Bruno-Buergel-Weg 9, 12439 Berlin",
 		"fax": "677980-11",
 		"full_time_school": true,
 		"id": "BE-15792",
 		"lat": 52.452481,
 		"lon": 13.534001,
-		"name": "Freie Waldorfschule Berlin-Südost",
+		"name": "Freie Waldorfschule Berlin-Suedost",
 		"official_id": "09P01",
 		"phone": "677980-0",
 		"school_type": "Freie Waldorfschule",
@@ -2856,13 +2856,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Köpenzeile 123, 12557 Berlin",
+		"address": "Koepenzeile 123, 12557 Berlin",
 		"fax": "651970-2",
 		"full_time_school": true,
 		"id": "BE-15793",
 		"lat": 52.428436,
 		"lon": 13.595306,
-		"name": "Wendenschloß-Schule (Grundschule)",
+		"name": "Wendenschloss-Schule (Grundschule)",
 		"official_id": "09G16",
 		"phone": "651970-3",
 		"school_type": "Grundschule",
@@ -2898,13 +2898,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Aßmannstr. 63, 12587 Berlin",
+		"address": "Assmannstr. 63, 12587 Berlin",
 		"fax": "6455478",
 		"full_time_school": true,
 		"id": "BE-15796",
 		"lat": 52.450567,
 		"lon": 13.627332,
-		"name": "Müggelsee-Schule (Grundschule)",
+		"name": "Mueggelsee-Schule (Grundschule)",
 		"official_id": "09G24",
 		"phone": "6458806",
 		"school_type": "Grundschule",
@@ -3058,11 +3058,11 @@
 		"id": "BE-15807",
 		"lat": 52.532834,
 		"lon": 13.422769,
-		"name": "Schule für Bildende Kunst und Gestaltung, Andrei Krioukov GmbH",
+		"name": "Schule fuer Bildende Kunst und Gestaltung, Andrei Krioukov GmbH",
 		"official_id": "03E17",
 		"phone": "23185745",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -3075,8 +3075,8 @@
 		"name": "Miami Ad School Berlin",
 		"official_id": "07E25",
 		"phone": "319820000",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -3108,7 +3108,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Körnerstr. 11, 12169 Berlin",
+		"address": "Koernerstr. 11, 12169 Berlin",
 		"fax": "7900036-9",
 		"full_time_school": true,
 		"id": "BE-15811",
@@ -3122,17 +3122,17 @@
 		"state": "BE"
 	},
 	{
-		"address": "Kurfürstendamm 207-208, 10719 Berlin",
+		"address": "Kurfuerstendamm 207-208, 10719 Berlin",
 		"fax": "8814459",
 		"full_time_school": false,
 		"id": "BE-15812",
 		"lat": 52.504166666667,
 		"lon": 13.332777777778,
-		"name": "Ballett Centrum Kurfürstendamm Karree Musical Schule",
+		"name": "Ballett Centrum Kurfuerstendamm Karree Musical Schule",
 		"official_id": "04E13",
 		"phone": "8831175",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -3145,8 +3145,8 @@
 		"name": "Schauspielschule Charlottenburg GmbH",
 		"official_id": "04E12",
 		"phone": "34097731",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -3374,7 +3374,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Körtingstr. 45, 12107 Berlin",
+		"address": "Koertingstr. 45, 12107 Berlin",
 		"fax": "90277-7463",
 		"full_time_school": true,
 		"id": "BE-15830",
@@ -3411,8 +3411,8 @@
 		"name": "Katholische Schule Sankt Hildegard",
 		"official_id": "07P06",
 		"phone": "7213090",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -3439,8 +3439,8 @@
 		"name": "Steinwald-Schule",
 		"official_id": "07S03",
 		"phone": "9027741-39",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -3514,13 +3514,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Rackebüller Weg 70, 12305 Berlin",
+		"address": "Rackebueller Weg 70, 12305 Berlin",
 		"fax": "902778-251",
 		"full_time_school": true,
 		"id": "BE-15840",
 		"lat": 52.404916,
 		"lon": 13.402499,
-		"name": "Bruno-H.-Bürgel-Grundschule",
+		"name": "Bruno-H.-Buergel-Grundschule",
 		"official_id": "07G32",
 		"phone": "902778-250",
 		"school_type": "Grundschule",
@@ -3528,7 +3528,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Dürerstr. 27, 12203 Berlin",
+		"address": "Duererstr. 27, 12203 Berlin",
 		"fax": "84414928",
 		"full_time_school": true,
 		"id": "BE-15841",
@@ -3556,7 +3556,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Königstr. 32, 12105 Berlin",
+		"address": "Koenigstr. 32, 12105 Berlin",
 		"fax": "902777506",
 		"full_time_school": true,
 		"id": "BE-15843",
@@ -3590,7 +3590,7 @@
 		"id": "BE-15845",
 		"lat": 52.492066,
 		"lon": 13.35129,
-		"name": "Pestalozzi-Fröbel-Haus",
+		"name": "Pestalozzi-Froebel-Haus",
 		"official_id": "07P02",
 		"phone": "21730-242",
 		"school_type": "Fachschule",
@@ -3604,7 +3604,7 @@
 		"id": "BE-15846",
 		"lat": 52.492066,
 		"lon": 13.35129,
-		"name": "Pestalozzi-Fröbel-Haus",
+		"name": "Pestalozzi-Froebel-Haus",
 		"official_id": "07P02",
 		"phone": "21730-242",
 		"school_type": "Fachoberschule",
@@ -3618,7 +3618,7 @@
 		"id": "BE-15847",
 		"lat": 52.49607,
 		"lon": 13.341202,
-		"name": "Lette-Verein Stiftung des öffentlichen Rechts",
+		"name": "Lette-Verein Stiftung des oeffentlichen Rechts",
 		"official_id": "07P03",
 		"phone": "21994-0",
 		"school_type": "Fachschule",
@@ -3632,7 +3632,7 @@
 		"id": "BE-15848",
 		"lat": 52.49607,
 		"lon": 13.341202,
-		"name": "Lette-Verein Stiftung des öffentlichen Rechts",
+		"name": "Lette-Verein Stiftung des oeffentlichen Rechts",
 		"official_id": "07P03",
 		"phone": "21994-0",
 		"school_type": "Berufsfachschule",
@@ -3646,7 +3646,7 @@
 		"id": "BE-15849",
 		"lat": 52.49607,
 		"lon": 13.341202,
-		"name": "Lette-Verein Stiftung des öffentlichen Rechts",
+		"name": "Lette-Verein Stiftung des oeffentlichen Rechts",
 		"official_id": "07P03",
 		"phone": "21994-0",
 		"school_type": "Berufsschule",
@@ -3654,7 +3654,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Elßholzstr. 34-37, 10781 Berlin",
+		"address": "Elssholzstr. 34-37, 10781 Berlin",
 		"fax": "902774465",
 		"full_time_school": true,
 		"id": "BE-15850",
@@ -3668,7 +3668,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Pöppelmannstr. 2, 12157 Berlin",
+		"address": "Poeppelmannstr. 2, 12157 Berlin",
 		"fax": "902774538",
 		"full_time_school": true,
 		"id": "BE-15851",
@@ -3677,8 +3677,8 @@
 		"name": "Prignitz-Schule",
 		"official_id": "07S01",
 		"phone": "902776932",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -3705,8 +3705,8 @@
 		"name": "Com Fly German Flight Training Organisation GmbH",
 		"official_id": "04E36",
 		"phone": "8236446",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -3716,7 +3716,7 @@
 		"id": "BE-15854",
 		"lat": 52.498975,
 		"lon": 13.364657,
-		"name": "Marie-Elisabeth-Lüders-Oberschule",
+		"name": "Marie-Elisabeth-Lueders-Oberschule",
 		"official_id": "07B02",
 		"phone": "263916-60",
 		"school_type": "Fachoberschule",
@@ -3730,7 +3730,7 @@
 		"id": "BE-15855",
 		"lat": 52.498975,
 		"lon": 13.364657,
-		"name": "Marie-Elisabeth-Lüders-Oberschule",
+		"name": "Marie-Elisabeth-Lueders-Oberschule",
 		"official_id": "07B02",
 		"phone": "263916-60",
 		"school_type": "Berufsfachschule",
@@ -3744,7 +3744,7 @@
 		"id": "BE-15856",
 		"lat": 52.498975,
 		"lon": 13.364657,
-		"name": "Marie-Elisabeth-Lüders-Oberschule",
+		"name": "Marie-Elisabeth-Lueders-Oberschule",
 		"official_id": "07B02",
 		"phone": "263916-60",
 		"school_type": "Fachschule",
@@ -3758,7 +3758,7 @@
 		"id": "BE-15857",
 		"lat": 52.498975,
 		"lon": 13.364657,
-		"name": "Marie-Elisabeth-Lüders-Oberschule",
+		"name": "Marie-Elisabeth-Lueders-Oberschule",
 		"official_id": "07B02",
 		"phone": "263916-60",
 		"school_type": "Berufsschule",
@@ -3766,13 +3766,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Nürnberger Str. 63, 10787 Berlin",
+		"address": "Nuernberger Str. 63, 10787 Berlin",
 		"fax": "902776926",
 		"full_time_school": false,
 		"id": "BE-15858",
 		"lat": 52.506857,
 		"lon": 13.342202,
-		"name": "Kolleg Schöneberg",
+		"name": "Kolleg Schoeneberg",
 		"official_id": "07A05",
 		"phone": "902774391",
 		"school_type": "Volkshochschul-Kolleg",
@@ -3786,7 +3786,7 @@
 		"id": "BE-15859",
 		"lat": 52.47524,
 		"lon": 13.32179,
-		"name": "Volkshochschule Tempelhof-Schöneberg",
+		"name": "Volkshochschule Tempelhof-Schoeneberg",
 		"official_id": "07A06",
 		"phone": "902774321",
 		"school_type": "Volkshochschule",
@@ -3817,8 +3817,8 @@
 		"name": "SAE Institute Berlin",
 		"official_id": "12E03",
 		"phone": "43094470",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -3836,13 +3836,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Földerichplatz 5, 13595 Berlin",
+		"address": "Foelderichplatz 5, 13595 Berlin",
 		"fax": "3620853-24",
 		"full_time_school": true,
 		"id": "BE-15863",
 		"lat": 52.520302,
 		"lon": 13.193056,
-		"name": "Christoph-Földerich-Grundschule",
+		"name": "Christoph-Foelderich-Grundschule",
 		"official_id": "05G05",
 		"phone": "3620853-0",
 		"school_type": "Grundschule",
@@ -3873,12 +3873,12 @@
 		"name": "Arno-Fuchs-Schule",
 		"official_id": "04S02",
 		"phone": "902913250",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
-		"address": "Maikäferpfad 30, 14055 Berlin",
+		"address": "Maikaeferpfad 30, 14055 Berlin",
 		"fax": "902925064",
 		"full_time_school": false,
 		"id": "BE-15866",
@@ -3887,12 +3887,12 @@
 		"name": "Reinfelder-Schule",
 		"official_id": "04S04",
 		"phone": "902925050",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
-		"address": "Maikäferpfad 30, 14055 Berlin",
+		"address": "Maikaeferpfad 30, 14055 Berlin",
 		"fax": "902925064",
 		"full_time_school": "",
 		"id": "BE-15867",
@@ -3912,10 +3912,10 @@
 		"id": "BE-15868",
 		"lat": 52.498531,
 		"lon": 13.265583,
-		"name": "Ernst-Adolf-Eschke-Schule für Gehörlose",
+		"name": "Ernst-Adolf-Eschke-Schule fuer Gehoerlose",
 		"official_id": "04S05",
 		"phone": "902925000",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -3926,11 +3926,11 @@
 		"id": "BE-15869",
 		"lat": 52.498531,
 		"lon": 13.265583,
-		"name": "Ernst-Adolf-Eschke-Schule für Gehörlose",
+		"name": "Ernst-Adolf-Eschke-Schule fuer Gehoerlose",
 		"official_id": "04S05",
 		"phone": "902925000",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -3940,7 +3940,7 @@
 		"id": "BE-15870",
 		"lat": 52.498531,
 		"lon": 13.265583,
-		"name": "Ernst-Adolf-Eschke-Schule für Gehörlose",
+		"name": "Ernst-Adolf-Eschke-Schule fuer Gehoerlose",
 		"official_id": "04S05",
 		"phone": "902925000",
 		"school_type": "Berufsfachschule",
@@ -3954,7 +3954,7 @@
 		"id": "BE-15871",
 		"lat": 52.498531,
 		"lon": 13.265583,
-		"name": "Ernst-Adolf-Eschke-Schule für Gehörlose",
+		"name": "Ernst-Adolf-Eschke-Schule fuer Gehoerlose",
 		"official_id": "04S05",
 		"phone": "902925000",
 		"school_type": "Fachschule",
@@ -3968,7 +3968,7 @@
 		"id": "BE-15872",
 		"lat": 52.473651,
 		"lon": 13.332487,
-		"name": "arche medica-Akademie für Heilpraktiker",
+		"name": "arche medica-Akademie fuer Heilpraktiker",
 		"official_id": "07E09",
 		"phone": "8516838",
 		"school_type": "Heilpraktikerschule",
@@ -4038,7 +4038,7 @@
 		"id": "BE-15877",
 		"lat": 52.402934,
 		"lon": 13.400469,
-		"name": "2. Schulpraktisches Seminar Tempelhof-Schöneberg",
+		"name": "2. Schulpraktisches Seminar Tempelhof-Schoeneberg",
 		"official_id": "07A02",
 		"phone": "705507-811",
 		"school_type": "Schulpraktisches Seminar",
@@ -4046,7 +4046,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Goßlerstr. 13-15, 12161 Berlin",
+		"address": "Gosslerstr. 13-15, 12161 Berlin",
 		"fax": "902777-141",
 		"full_time_school": false,
 		"id": "BE-15878",
@@ -4066,7 +4066,7 @@
 		"id": "BE-15879",
 		"lat": 52.515758,
 		"lon": 13.305541,
-		"name": "IFAG Institut für angewandte Gerontologie",
+		"name": "IFAG Institut fuer angewandte Gerontologie",
 		"official_id": "04P09",
 		"phone": "3415034",
 		"school_type": "Berufsfachschule",
@@ -4111,8 +4111,8 @@
 		"name": "Freie Waldorfschule Kreuzberg",
 		"official_id": "02P04",
 		"phone": "6151010-0",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -4192,7 +4192,7 @@
 		"id": "BE-15888",
 		"lat": 52.515338,
 		"lon": 13.455686,
-		"name": "Georg-Friedrich-Händel-Gymnasium",
+		"name": "Georg-Friedrich-Haendel-Gymnasium",
 		"official_id": "02Y04",
 		"phone": "22502790-11",
 		"school_type": "Gymnasien",
@@ -4214,7 +4214,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Rüdersdorfer Str. 20-28, 10243 Berlin",
+		"address": "Ruedersdorfer Str. 20-28, 10243 Berlin",
 		"fax": "2977306215",
 		"full_time_school": true,
 		"id": "BE-15890",
@@ -4248,7 +4248,7 @@
 		"id": "BE-15892",
 		"lat": 52.501204,
 		"lon": 13.344588,
-		"name": "BFT Berufsschule für Tourismus",
+		"name": "BFT Berufsschule fuer Tourismus",
 		"official_id": "07P07",
 		"phone": "23629024",
 		"school_type": "Berufsschule",
@@ -4265,8 +4265,8 @@
 		"name": "REDUTA Berlin-Schauspielschule",
 		"official_id": "02E11",
 		"phone": "6935549",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -4290,11 +4290,11 @@
 		"id": "BE-15895",
 		"lat": 52.513358,
 		"lon": 13.455594,
-		"name": "Berliner Schule für Schauspiel",
+		"name": "Berliner Schule fuer Schauspiel",
 		"official_id": "02E04",
 		"phone": "4279600",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -4349,8 +4349,8 @@
 		"name": "Temple-Grandin-Schule",
 		"official_id": "02S01",
 		"phone": "293474-231",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -4363,7 +4363,7 @@
 		"name": "Temple-Grandin-Schule",
 		"official_id": "02S01",
 		"phone": "293474-231",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -4377,8 +4377,8 @@
 		"name": "Temple-Grandin-Schule",
 		"official_id": "02S01",
 		"phone": "293474-231",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -4419,8 +4419,8 @@
 		"name": "Gustav-Meyer-Schule",
 		"official_id": "02S02",
 		"phone": "50586131",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -4433,8 +4433,8 @@
 		"name": "Margarethe-von-Witzleben-Schule",
 		"official_id": "02S03",
 		"phone": "420249-209",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -4486,7 +4486,7 @@
 		"id": "BE-15909",
 		"lat": 52.535024,
 		"lon": 13.439258,
-		"name": "Bötzow-Grundschule",
+		"name": "Boetzow-Grundschule",
 		"official_id": "03G06",
 		"phone": "42851032",
 		"school_type": "Grundschule",
@@ -4500,11 +4500,11 @@
 		"id": "BE-15910",
 		"lat": 52.526468,
 		"lon": 13.52997,
-		"name": "bbw Akademie für Betriebswirtschaftliche Weiterbildung GmbH",
+		"name": "bbw Akademie fuer Betriebswirtschaftliche Weiterbildung GmbH",
 		"official_id": "10E04",
 		"phone": "5400074-3",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -4514,7 +4514,7 @@
 		"id": "BE-15911",
 		"lat": 52.50916667,
 		"lon": 13.45138889,
-		"name": "DRK-Schule für soziale Berufe Berlin gGmbH",
+		"name": "DRK-Schule fuer soziale Berufe Berlin gGmbH",
 		"official_id": "02P02",
 		"phone": "293480-0",
 		"school_type": "Berufsfachschule",
@@ -4528,7 +4528,7 @@
 		"id": "BE-15912",
 		"lat": 52.50916667,
 		"lon": 13.45138889,
-		"name": "DRK-Schule für soziale Berufe Berlin gGmbH",
+		"name": "DRK-Schule fuer soziale Berufe Berlin gGmbH",
 		"official_id": "02P02",
 		"phone": "293480-0",
 		"school_type": "Fachschule",
@@ -4536,7 +4536,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönhauser Allee 165, 10435 Berlin",
+		"address": "Schoenhauser Allee 165, 10435 Berlin",
 		"fax": "446890-13",
 		"full_time_school": true,
 		"id": "BE-15913",
@@ -4545,8 +4545,8 @@
 		"name": "Schule am Senefelderplatz",
 		"official_id": "03S01",
 		"phone": "446890-0",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -4578,7 +4578,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Böckhstr. 5, 10967 Berlin",
+		"address": "Boeckhstr. 5, 10967 Berlin",
 		"fax": "50585715",
 		"full_time_school": true,
 		"id": "BE-15916",
@@ -4598,7 +4598,7 @@
 		"id": "BE-15917",
 		"lat": 52.497851,
 		"lon": 13.426566,
-		"name": "Hunsrück-Grundschule",
+		"name": "Hunsrueck-Grundschule",
 		"official_id": "02G27",
 		"phone": "2250 3111",
 		"school_type": "Grundschule",
@@ -4615,8 +4615,8 @@
 		"name": "Filmschauspielschule Berlin",
 		"official_id": "04E31",
 		"phone": "31016571",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -4648,7 +4648,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schloßstr. 55 A, 14059 Berlin",
+		"address": "Schlossstr. 55 A, 14059 Berlin",
 		"fax": "902924-132",
 		"full_time_school": true,
 		"id": "BE-15921",
@@ -4741,8 +4741,8 @@
 		"name": "comjob GmbH",
 		"official_id": "04E45",
 		"phone": "4437600",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -4774,7 +4774,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Erich-Kästner-Str. 64, 12619 Berlin",
+		"address": "Erich-Kaestner-Str. 64, 12619 Berlin",
 		"fax": "55159433",
 		"full_time_school": true,
 		"id": "BE-15930",
@@ -4797,8 +4797,8 @@
 		"name": "Helene-Haeusler-Schule",
 		"official_id": "03S03",
 		"phone": "47377641",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -4881,12 +4881,12 @@
 		"name": "SSB Schwedische Schule in Berlin",
 		"official_id": "04E33",
 		"phone": "86495930",
-		"school_type": "Ausländische Schule",
-		"school_type_entity": "Ausländische Schule",
+		"school_type": "Auslaendische Schule",
+		"school_type_entity": "Auslaendische Schule",
 		"state": "BE"
 	},
 	{
-		"address": "Hüttenweg 40, 14195 Berlin",
+		"address": "Huettenweg 40, 14195 Berlin",
 		"fax": "9029980-25",
 		"full_time_school": false,
 		"id": "BE-15938",
@@ -4990,7 +4990,7 @@
 		"id": "BE-15945",
 		"lat": 52.512944,
 		"lon": 13.397932,
-		"name": "Staatliche Wirtschaftsfachschule für Hotellerie und Gastronomie Berlin",
+		"name": "Staatliche Wirtschaftsfachschule fuer Hotellerie und Gastronomie Berlin",
 		"official_id": "01B05",
 		"phone": "206131-30",
 		"school_type": "Fachschule",
@@ -5004,7 +5004,7 @@
 		"id": "BE-15946",
 		"lat": 52.512944,
 		"lon": 13.397932,
-		"name": "Staatliche Wirtschaftsfachschule für Hotellerie und Gastronomie Berlin",
+		"name": "Staatliche Wirtschaftsfachschule fuer Hotellerie und Gastronomie Berlin",
 		"official_id": "01B05",
 		"phone": "206131-30",
 		"school_type": "Berufsfachschule",
@@ -5018,11 +5018,11 @@
 		"id": "BE-15947",
 		"lat": 52.48916667,
 		"lon": 13.39388889,
-		"name": "Konservatorium für türkische Musik in Berlin",
+		"name": "Konservatorium fuer tuerkische Musik in Berlin",
 		"official_id": "02E12",
 		"phone": "69504601",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -5032,7 +5032,7 @@
 		"id": "BE-15948",
 		"lat": 52.48237,
 		"lon": 13.333499,
-		"name": "Kläre-Bloch-Schule",
+		"name": "Klaere-Bloch-Schule",
 		"official_id": "04B08",
 		"phone": "857589-39",
 		"school_type": "Fachoberschule",
@@ -5046,7 +5046,7 @@
 		"id": "BE-15949",
 		"lat": 52.48237,
 		"lon": 13.333499,
-		"name": "Kläre-Bloch-Schule",
+		"name": "Klaere-Bloch-Schule",
 		"official_id": "04B08",
 		"phone": "857589-39",
 		"school_type": "Berufsoberschule",
@@ -5074,11 +5074,11 @@
 		"id": "BE-15951",
 		"lat": 52.4530355,
 		"lon": 13.3905108,
-		"name": "GFS Akademie für Aus- und Weiterbildung",
+		"name": "GFS Akademie fuer Aus- und Weiterbildung",
 		"official_id": "07E17",
 		"phone": "70072250",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -5144,7 +5144,7 @@
 		"id": "BE-15956",
 		"lat": 52.482746,
 		"lon": 13.51436,
-		"name": "KreativitätsGrundschule Berlin Lichtenberg",
+		"name": "KreativitaetsGrundschule Berlin Lichtenberg",
 		"official_id": "11P04",
 		"phone": "34665524",
 		"school_type": "Grundschule",
@@ -5200,11 +5200,11 @@
 		"id": "BE-15960",
 		"lat": 52.484087,
 		"lon": 13.345816,
-		"name": "Danceworks Berlin - Vereinigung zur Förderung des modernen Tanzes eG",
+		"name": "Danceworks Berlin - Vereinigung zur Foerderung des modernen Tanzes eG",
 		"official_id": "07E16",
 		"phone": "7889288-7",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -5228,7 +5228,7 @@
 		"id": "BE-15962",
 		"lat": 52.438405,
 		"lon": 13.459742,
-		"name": "Vivantes - Berufsfachschule für Sozialassistenz",
+		"name": "Vivantes - Berufsfachschule fuer Sozialassistenz",
 		"official_id": "08P06",
 		"phone": "13014270-7",
 		"school_type": "Berufsfachschule",
@@ -5236,17 +5236,17 @@
 		"state": "BE"
 	},
 	{
-		"address": "Fürstenbrunner Weg 6, 14059 Berlin",
+		"address": "Fuerstenbrunner Weg 6, 14059 Berlin",
 		"fax": "36409586",
 		"full_time_school": false,
 		"id": "BE-15965",
 		"lat": 52.519146,
 		"lon": 13.280552,
-		"name": "König Fahad Akademie Berlin",
+		"name": "Koenig Fahad Akademie Berlin",
 		"official_id": "04E34",
 		"phone": "36409584",
-		"school_type": "Ausländische Schule",
-		"school_type_entity": "Ausländische Schule",
+		"school_type": "Auslaendische Schule",
+		"school_type_entity": "Auslaendische Schule",
 		"state": "BE"
 	},
 	{
@@ -5259,8 +5259,8 @@
 		"name": "Games Academy",
 		"official_id": "01E08",
 		"phone": "297791-20",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -5284,7 +5284,7 @@
 		"id": "BE-15968",
 		"lat": 52.522235,
 		"lon": 13.259753,
-		"name": "Jüdische Traditionsschule",
+		"name": "Juedische Traditionsschule",
 		"official_id": "04P23",
 		"phone": "326788-97",
 		"school_type": "Grundschule",
@@ -5298,7 +5298,7 @@
 		"id": "BE-15969",
 		"lat": 52.522235,
 		"lon": 13.259753,
-		"name": "Jüdische Traditionsschule",
+		"name": "Juedische Traditionsschule",
 		"official_id": "04P23",
 		"phone": "326788-97",
 		"school_type": "Gymnasien",
@@ -5399,8 +5399,8 @@
 		"name": "AMD Akademie Mode & Design Berlin",
 		"official_id": "04E40",
 		"phone": "33099760",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -5455,8 +5455,8 @@
 		"name": "arts and stage academy",
 		"official_id": "09E06",
 		"phone": "67044851",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -5483,22 +5483,22 @@
 		"name": "IN.D INSTITUTE OF DESIGN",
 		"official_id": "01E21",
 		"phone": "27595190",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
-		"address": "Württembergallee 31, 14052 Berlin",
+		"address": "Wuerttembergallee 31, 14052 Berlin",
 		"fax": "2043788",
 		"full_time_school": false,
 		"id": "BE-15983",
 		"lat": 52.50992,
 		"lon": 13.265473,
-		"name": "ZFFA gGmbH Zentrum für fotografische Ausbildung",
+		"name": "ZFFA gGmbH Zentrum fuer fotografische Ausbildung",
 		"official_id": "04E44",
 		"phone": "2043788",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -5539,8 +5539,8 @@
 		"name": "Berlin School of Dance",
 		"official_id": "04E30",
 		"phone": "86397335",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -5581,8 +5581,8 @@
 		"name": "Schule am Zille-Park",
 		"official_id": "01S01",
 		"phone": "460617-401",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -5609,12 +5609,12 @@
 		"name": "Nils-Holgersson-Schule",
 		"official_id": "11S12",
 		"phone": "5139676",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
-		"address": "Brunsbütteler Damm 431-437, 13591 Berlin",
+		"address": "Brunsbuetteler Damm 431-437, 13591 Berlin",
 		"fax": "364033-111",
 		"full_time_school": true,
 		"id": "BE-15992",
@@ -5656,7 +5656,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Straßmannstr. 14-16, 10249 Berlin",
+		"address": "Strassmannstr. 14-16, 10249 Berlin",
 		"fax": "420276-321",
 		"full_time_school": false,
 		"id": "BE-15995",
@@ -5670,7 +5670,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Straßmannstr. 14-16, 10249 Berlin",
+		"address": "Strassmannstr. 14-16, 10249 Berlin",
 		"fax": "420276-321",
 		"full_time_school": false,
 		"id": "BE-15996",
@@ -5684,7 +5684,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Straßmannstr. 14-16, 10249 Berlin",
+		"address": "Strassmannstr. 14-16, 10249 Berlin",
 		"fax": "420276-321",
 		"full_time_school": false,
 		"id": "BE-15997",
@@ -5698,7 +5698,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Straßmannstr. 14-16, 10249 Berlin",
+		"address": "Strassmannstr. 14-16, 10249 Berlin",
 		"fax": "420276-321",
 		"full_time_school": false,
 		"id": "BE-15998",
@@ -5712,7 +5712,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Straßmannstr. 14-16, 10249 Berlin",
+		"address": "Strassmannstr. 14-16, 10249 Berlin",
 		"fax": "420276-321",
 		"full_time_school": false,
 		"id": "BE-15999",
@@ -5735,8 +5735,8 @@
 		"name": "LOGOS-Institut",
 		"official_id": "03E12",
 		"phone": "4749050",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -5833,18 +5833,18 @@
 		"name": "Schule in der Charité",
 		"official_id": "01S05",
 		"phone": "450566-592",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
-		"address": "Große Hamburger Str. 27, 10115 Berlin",
+		"address": "Grosse Hamburger Str. 27, 10115 Berlin",
 		"fax": "7262657-145",
 		"full_time_school": true,
 		"id": "BE-16008",
 		"lat": 52.524976,
 		"lon": 13.399355,
-		"name": "Jüdisches Gymnasium Moses Mendelssohn",
+		"name": "Juedisches Gymnasium Moses Mendelssohn",
 		"official_id": "01P03",
 		"phone": "7262657-110",
 		"school_type": "Gymnasien",
@@ -5903,8 +5903,8 @@
 		"name": "Die Managementschule Berlin",
 		"official_id": "02E28",
 		"phone": "275748-93",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -5928,7 +5928,7 @@
 		"id": "BE-16014",
 		"lat": 52.515758,
 		"lon": 13.305541,
-		"name": "AfIB Akademie für Internationale Bildung GmbH",
+		"name": "AfIB Akademie fuer Internationale Bildung GmbH",
 		"official_id": "04P08",
 		"phone": "34708754",
 		"school_type": "Fachoberschule",
@@ -5959,12 +5959,12 @@
 		"name": "TRANSform Schauspielschule",
 		"official_id": "04E27",
 		"phone": "3242341",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
-		"address": "Lützowstr. 83-85, 10785 Berlin",
+		"address": "Luetzowstr. 83-85, 10785 Berlin",
 		"fax": "2575727-34",
 		"full_time_school": true,
 		"id": "BE-16017",
@@ -6012,7 +6012,7 @@
 		"id": "BE-16020",
 		"lat": 52.556283,
 		"lon": 13.357116,
-		"name": "Gottfried-Röhl-Grundschule",
+		"name": "Gottfried-Roehl-Grundschule",
 		"official_id": "01G24",
 		"phone": "450811-10",
 		"school_type": "Grundschule",
@@ -6071,8 +6071,8 @@
 		"name": "Schule am Stadtrand",
 		"official_id": "05S04",
 		"phone": "308324-6",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -6110,11 +6110,11 @@
 		"id": "BE-16027",
 		"lat": 52.5048033,
 		"lon": 13.3809946,
-		"name": "HTK - Akademie für Gestaltung",
+		"name": "HTK - Akademie fuer Gestaltung",
 		"official_id": "02E07",
 		"phone": "338539-600",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -6124,7 +6124,7 @@
 		"id": "BE-16028",
 		"lat": 52.540034,
 		"lon": 13.358248,
-		"name": "Brüder-Grimm-Grundschule",
+		"name": "Brueder-Grimm-Grundschule",
 		"official_id": "01G28",
 		"phone": "453084-0",
 		"school_type": "Grundschule",
@@ -6138,7 +6138,7 @@
 		"id": "BE-16029",
 		"lat": 52.485531,
 		"lon": 13.475624,
-		"name": "\tGrone - Bildungszentren Berlin GmbH - gemeinnützig",
+		"name": "\tGrone - Bildungszentren Berlin GmbH - gemeinnuetzig",
 		"official_id": "09P05",
 		"phone": "536215-40",
 		"school_type": "Berufsfachschule",
@@ -6183,8 +6183,8 @@
 		"name": "pixelapostel GmbH",
 		"official_id": "01E27",
 		"phone": "66776763-0",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -6202,7 +6202,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Grüne Trift 23 D, 12557 Berlin",
+		"address": "Gruene Trift 23 D, 12557 Berlin",
 		"fax": "31985254-8",
 		"full_time_school": true,
 		"id": "BE-16034",
@@ -6239,8 +6239,8 @@
 		"name": "Sancta-Maria-Schule der Hedwigschwestern",
 		"official_id": "06P08",
 		"phone": "80303261",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -6253,8 +6253,8 @@
 		"name": "Sancta-Maria-Schule der Hedwigschwestern",
 		"official_id": "06P08",
 		"phone": "80303261",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -6306,11 +6306,11 @@
 		"id": "BE-16041",
 		"lat": 52.539756,
 		"lon": 13.407074,
-		"name": "Starter Schauspielschule für Film und Fernsehen",
+		"name": "Starter Schauspielschule fuer Film und Fernsehen",
 		"official_id": "03E18",
 		"phone": "44043284",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -6323,8 +6323,8 @@
 		"name": "Lichtenberg-Kolleg e.V.",
 		"official_id": "04E01",
 		"phone": "3138121",
-		"school_type": "Vorbereitungsschule auf Fremdenprüfung",
-		"school_type_entity": "Vorbereitungsschule auf Fremdenprüfung",
+		"school_type": "Vorbereitungsschule auf Fremdenpruefung",
+		"school_type_entity": "Vorbereitungsschule auf Fremdenpruefung",
 		"state": "BE"
 	},
 	{
@@ -6376,7 +6376,7 @@
 		"id": "BE-16046",
 		"lat": 52.507058,
 		"lon": 13.364296,
-		"name": "Französisches Gymnasium",
+		"name": "Franzoesisches Gymnasium",
 		"official_id": "01Y07",
 		"phone": "257589-10/11",
 		"school_type": "Gymnasien",
@@ -6412,7 +6412,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Müllerstr. 158, 13353 Berlin",
+		"address": "Muellerstr. 158, 13353 Berlin",
 		"fax": "4697996-74",
 		"full_time_school": true,
 		"id": "BE-16049",
@@ -6435,8 +6435,8 @@
 		"name": "Albert-Gutzmann-Schule",
 		"official_id": "01S06",
 		"phone": "469059-60",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -6491,8 +6491,8 @@
 		"name": "Lauterbach-Grundschule",
 		"official_id": "12G33",
 		"phone": "4021088",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -6762,7 +6762,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schöneberger Str. 23, 10963 Berlin",
+		"address": "Schoeneberger Str. 23, 10963 Berlin",
 		"fax": "505868-15",
 		"full_time_school": true,
 		"id": "BE-16074",
@@ -6785,8 +6785,8 @@
 		"name": "Schule am Gartenfeld",
 		"official_id": "05S03",
 		"phone": "30398742-0",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -6944,7 +6944,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Münstersche Str. 15-17, 10709 Berlin",
+		"address": "Muenstersche Str. 15-17, 10709 Berlin",
 		"fax": "8904395129",
 		"full_time_school": true,
 		"id": "BE-16087",
@@ -6986,7 +6986,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Räcknitzer Steig 12, 13593 Berlin",
+		"address": "Raecknitzer Steig 12, 13593 Berlin",
 		"fax": "364793-20",
 		"full_time_school": true,
 		"id": "BE-16090",
@@ -7202,7 +7202,7 @@
 		"id": "BE-16105",
 		"lat": 52.459282,
 		"lon": 13.154944,
-		"name": "Freie Waldorfschule Havelhöhe - Eugen Kolisko",
+		"name": "Freie Waldorfschule Havelhoehe - Eugen Kolisko",
 		"official_id": "05P01",
 		"phone": "3699246-20",
 		"school_type": "Freie Waldorfschule",
@@ -7216,7 +7216,7 @@
 		"id": "BE-16106",
 		"lat": 52.545947,
 		"lon": 13.435857,
-		"name": "Staatliche Ballettschule Berlin und Schule für Artistik",
+		"name": "Staatliche Ballettschule Berlin und Schule fuer Artistik",
 		"official_id": "03B08",
 		"phone": "405779-0",
 		"school_type": "Berufsfachschule",
@@ -7230,7 +7230,7 @@
 		"id": "BE-16107",
 		"lat": 52.545947,
 		"lon": 13.435857,
-		"name": "Staatliche Ballettschule Berlin und Schule für Artistik",
+		"name": "Staatliche Ballettschule Berlin und Schule fuer Artistik",
 		"official_id": "03B08",
 		"phone": "405779-0",
 		"school_type": "Berufliches Gymnasium",
@@ -7244,7 +7244,7 @@
 		"id": "BE-16108",
 		"lat": 52.545947,
 		"lon": 13.435857,
-		"name": "Staatliche Ballettschule Berlin und Schule für Artistik",
+		"name": "Staatliche Ballettschule Berlin und Schule fuer Artistik",
 		"official_id": "03B08",
 		"phone": "405779-0",
 		"school_type": "Integrierte Sekundarschule",
@@ -7252,7 +7252,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schöningstr. 17, 13349 Berlin",
+		"address": "Schoeningstr. 17, 13349 Berlin",
 		"fax": "457985-16",
 		"full_time_school": true,
 		"id": "BE-16109",
@@ -7275,8 +7275,8 @@
 		"name": "Caroline-von-Heydebrand-Schule",
 		"official_id": "06P09",
 		"phone": "8016003",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -7378,7 +7378,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Südekumzeile 5, 13591 Berlin",
+		"address": "Suedekumzeile 5, 13591 Berlin",
 		"fax": "375862-22",
 		"full_time_school": true,
 		"id": "BE-16118",
@@ -7443,8 +7443,8 @@
 		"name": "Schule am Altglienicker Wasserturm",
 		"official_id": "09S05",
 		"phone": "6728913",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -7482,7 +7482,7 @@
 		"id": "BE-16125",
 		"lat": 52.494159,
 		"lon": 13.343251,
-		"name": "Scharmützelsee-Grundschule",
+		"name": "Scharmuetzelsee-Grundschule",
 		"official_id": "07G12",
 		"phone": "902777162",
 		"school_type": "Grundschule",
@@ -7496,7 +7496,7 @@
 		"id": "BE-16126",
 		"lat": 52.489527,
 		"lon": 13.3436634,
-		"name": "Löcknitz-Grundschule",
+		"name": "Loecknitz-Grundschule",
 		"official_id": "07G14",
 		"phone": "902777164",
 		"school_type": "Grundschule",
@@ -7524,7 +7524,7 @@
 		"id": "BE-16128",
 		"lat": 52.402934,
 		"lon": 13.400469,
-		"name": "1. Schulpraktisches Seminar Tempelhof-Schöneberg",
+		"name": "1. Schulpraktisches Seminar Tempelhof-Schoeneberg",
 		"official_id": "07A01",
 		"phone": "705507-811",
 		"school_type": "Schulpraktisches Seminar",
@@ -7580,7 +7580,7 @@
 		"id": "BE-16133",
 		"lat": 52.508171,
 		"lon": 13.516686,
-		"name": "Bürgermeister-Ziethen-Schule (Grundschule)",
+		"name": "Buergermeister-Ziethen-Schule (Grundschule)",
 		"official_id": "11G09",
 		"phone": "5251434",
 		"school_type": "Grundschule",
@@ -7588,7 +7588,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Römerweg 120, 10318 Berlin",
+		"address": "Roemerweg 120, 10318 Berlin",
 		"fax": "50898373",
 		"full_time_school": true,
 		"id": "BE-16134",
@@ -7602,7 +7602,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Wönnichstr. 7, 10317 Berlin",
+		"address": "Woennichstr. 7, 10317 Berlin",
 		"fax": "5228089814",
 		"full_time_school": true,
 		"id": "BE-16135",
@@ -7622,7 +7622,7 @@
 		"id": "BE-16136",
 		"lat": 52.539696,
 		"lon": 13.565842,
-		"name": "Grundschule an der Mühle",
+		"name": "Grundschule an der Muehle",
 		"official_id": "10G11",
 		"phone": "5416028",
 		"school_type": "Grundschule",
@@ -7636,7 +7636,7 @@
 		"id": "BE-16137",
 		"lat": 52.549765,
 		"lon": 13.564956,
-		"name": "Grundschule am Bürgerpark",
+		"name": "Grundschule am Buergerpark",
 		"official_id": "10G09",
 		"phone": "9309864",
 		"school_type": "Grundschule",
@@ -7742,7 +7742,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönhauser Allee 165, 10435 Berlin",
+		"address": "Schoenhauser Allee 165, 10435 Berlin",
 		"fax": "446890-13",
 		"full_time_school": true,
 		"id": "BE-16145",
@@ -7790,7 +7790,7 @@
 		"id": "BE-16148",
 		"lat": 52.600375,
 		"lon": 13.364349,
-		"name": "Waldorfschule Märkisches Viertel Berlin",
+		"name": "Waldorfschule Maerkisches Viertel Berlin",
 		"official_id": "12P02",
 		"phone": "407283-0",
 		"school_type": "Freie Waldorfschule",
@@ -7804,11 +7804,11 @@
 		"id": "BE-16149",
 		"lat": 52.5835285,
 		"lon": 13.3054363,
-		"name": "Stötzner-Schule",
+		"name": "Stoetzner-Schule",
 		"official_id": "12S01",
 		"phone": "4328011",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -7821,8 +7821,8 @@
 		"name": "Lauterbach-Schule",
 		"official_id": "12S03",
 		"phone": "4021089",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -7835,8 +7835,8 @@
 		"name": "Lauterbach-Schule",
 		"official_id": "12S03",
 		"phone": "4021089",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -7849,8 +7849,8 @@
 		"name": "Schule am Park",
 		"official_id": "12S04",
 		"phone": "41450-34",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -7863,8 +7863,8 @@
 		"name": "Wiesengrund-Schule",
 		"official_id": "12S05",
 		"phone": "40009145",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -7891,7 +7891,7 @@
 		"name": "Toulouse-Lautrec-Schule",
 		"official_id": "12S06",
 		"phone": "433209-7",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -7905,8 +7905,8 @@
 		"name": "Toulouse-Lautrec-Schule",
 		"official_id": "12S06",
 		"phone": "433209-7",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -7919,8 +7919,8 @@
 		"name": "Ahorn-Schule",
 		"official_id": "09S04",
 		"phone": "6455031",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -7944,7 +7944,7 @@
 		"id": "BE-16159",
 		"lat": 52.456079,
 		"lon": 13.580792,
-		"name": "Hauptmann-von-Köpenick-Schule (Grundschule)",
+		"name": "Hauptmann-von-Koepenick-Schule (Grundschule)",
 		"official_id": "09G23",
 		"phone": "6571426",
 		"school_type": "Grundschule",
@@ -7958,7 +7958,7 @@
 		"id": "BE-16160",
 		"lat": 52.439232,
 		"lon": 13.605983,
-		"name": "Müggelschlößchen-Schule (Grundschule)",
+		"name": "Mueggelschloesschen-Schule (Grundschule)",
 		"official_id": "09G25",
 		"phone": "6543102",
 		"school_type": "Grundschule",
@@ -7972,7 +7972,7 @@
 		"id": "BE-16161",
 		"lat": 52.560027777778,
 		"lon": 13.334633333333,
-		"name": "Möwensee-Grundschule",
+		"name": "Moewensee-Grundschule",
 		"official_id": "01G40",
 		"phone": "459792-10",
 		"school_type": "Grundschule",
@@ -8022,13 +8022,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Wildhüterweg 5, 12353 Berlin",
+		"address": "Wildhueterweg 5, 12353 Berlin",
 		"fax": "66706012",
 		"full_time_school": "",
 		"id": "BE-16165",
 		"lat": 52.421072,
 		"lon": 13.457366,
-		"name": "2. Schulpraktisches Seminar Neukölln",
+		"name": "2. Schulpraktisches Seminar Neukoelln",
 		"official_id": "08A02",
 		"phone": "6706663123",
 		"school_type": "Schulpraktisches Seminar",
@@ -8056,21 +8056,21 @@
 		"id": "BE-16167",
 		"lat": 52.521505,
 		"lon": 13.409817,
-		"name": "SSI am Alex Institut für Tourismus und Marketing",
+		"name": "SSI am Alex Institut fuer Tourismus und Marketing",
 		"official_id": "01E12",
 		"phone": "280453-79",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
-		"address": "Köpenzeile 125, 12557 Berlin",
+		"address": "Koepenzeile 125, 12557 Berlin",
 		"fax": "33099900-2",
 		"full_time_school": true,
 		"id": "BE-16168",
 		"lat": 52.427824,
 		"lon": 13.595015,
-		"name": "Freie Montessori Schule Köpenick (Gemeinschaftsschule)",
+		"name": "Freie Montessori Schule Koepenick (Gemeinschaftsschule)",
 		"official_id": "09P06",
 		"phone": "33099900-1",
 		"school_type": "Integrierte Sekundarschule",
@@ -8078,7 +8078,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Französische Str. 28, 10117 Berlin",
+		"address": "Franzoesische Str. 28, 10117 Berlin",
 		"fax": "68408288",
 		"full_time_school": false,
 		"id": "BE-16169",
@@ -8092,13 +8092,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Wildhüterweg 5, 12353 Berlin",
+		"address": "Wildhueterweg 5, 12353 Berlin",
 		"fax": "66706012",
 		"full_time_school": "",
 		"id": "BE-16170",
 		"lat": 52.421072,
 		"lon": 13.457366,
-		"name": "1. Schulpraktisches Seminar Neukölln",
+		"name": "1. Schulpraktisches Seminar Neukoelln",
 		"official_id": "08A01",
 		"phone": "6706663125",
 		"school_type": "Schulpraktisches Seminar",
@@ -8129,8 +8129,8 @@
 		"name": "Schule am Pappelhof",
 		"official_id": "10S04",
 		"phone": "54979590",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -8140,7 +8140,7 @@
 		"id": "BE-16173",
 		"lat": 52.462663,
 		"lon": 13.159004,
-		"name": "Artaban Schule für künstlerische Therapie",
+		"name": "Artaban Schule fuer kuenstlerische Therapie",
 		"official_id": "05E02",
 		"phone": "34633081",
 		"school_type": "Heilpraktikerschule",
@@ -8154,11 +8154,11 @@
 		"id": "BE-16174",
 		"lat": 52.440604,
 		"lon": 13.238079,
-		"name": "Schule für Eurythmische Art und Kunst",
+		"name": "Schule fuer Eurythmische Art und Kunst",
 		"official_id": "06E01",
 		"phone": "8026378",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -8168,7 +8168,7 @@
 		"id": "BE-16175",
 		"lat": 52.495233,
 		"lon": 13.340981,
-		"name": "Ilse-Middendorf-Institut für den Erfahrbaren Atem",
+		"name": "Ilse-Middendorf-Institut fuer den Erfahrbaren Atem",
 		"official_id": "07E08",
 		"phone": "21479530",
 		"school_type": "Heilpraktikerschule",
@@ -8224,7 +8224,7 @@
 		"id": "BE-16179",
 		"lat": 52.462398,
 		"lon": 13.438791,
-		"name": "Zürich-Schule (Grundschule)",
+		"name": "Zuerich-Schule (Grundschule)",
 		"official_id": "08G23",
 		"phone": "60902970",
 		"school_type": "Grundschule",
@@ -8246,7 +8246,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Sächsische Str. 58, 10707 Berlin",
+		"address": "Saechsische Str. 58, 10707 Berlin",
 		"fax": "863928299",
 		"full_time_school": true,
 		"id": "BE-16181",
@@ -8260,7 +8260,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Görlitzer Ufer 2, 10997 Berlin",
+		"address": "Goerlitzer Ufer 2, 10997 Berlin",
 		"fax": "22502815",
 		"full_time_school": true,
 		"id": "BE-16182",
@@ -8294,7 +8294,7 @@
 		"id": "BE-16184",
 		"lat": 52.505226,
 		"lon": 13.427381,
-		"name": "Nürtingen-Grundschule",
+		"name": "Nuertingen-Grundschule",
 		"official_id": "02G18",
 		"phone": "61784231",
 		"school_type": "Grundschule",
@@ -8308,7 +8308,7 @@
 		"id": "BE-16185",
 		"lat": 52.494953,
 		"lon": 13.405177,
-		"name": "Bürgermeister-Herz-Grundschule",
+		"name": "Buergermeister-Herz-Grundschule",
 		"official_id": "02G20",
 		"phone": "3198702211",
 		"school_type": "Grundschule",
@@ -8350,15 +8350,15 @@
 		"id": "BE-16188",
 		"lat": 52.585502,
 		"lon": 13.402644,
-		"name": "GPB Gesellschaft für Personalentwicklung und Bildung mbH",
+		"name": "GPB Gesellschaft fuer Personalentwicklung und Bildung mbH",
 		"official_id": "01E25",
 		"phone": "9339480",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
-		"address": "Eugen-Schönhaar-Str. 18, 10407 Berlin",
+		"address": "Eugen-Schoenhaar-Str. 18, 10407 Berlin",
 		"fax": "42438531",
 		"full_time_school": false,
 		"id": "BE-16189",
@@ -8434,7 +8434,7 @@
 		"id": "BE-16194",
 		"lat": 52.551279,
 		"lon": 13.40787,
-		"name": "Käthe-Kollwitz-Gymnasium",
+		"name": "Kaethe-Kollwitz-Gymnasium",
 		"official_id": "03Y03",
 		"phone": "4447671",
 		"school_type": "Gymnasien",
@@ -8476,7 +8476,7 @@
 		"id": "BE-16197",
 		"lat": 52.525734,
 		"lon": 13.4262,
-		"name": "Schule am Königstor (Integrierte Sekundarschule)",
+		"name": "Schule am Koenigstor (Integrierte Sekundarschule)",
 		"official_id": "02K05",
 		"phone": "4472834-11",
 		"school_type": "Integrierte Sekundarschule",
@@ -8504,7 +8504,7 @@
 		"id": "BE-16199",
 		"lat": 52.504789,
 		"lon": 13.393344,
-		"name": "Freie Fachschule für Sozialpädagogik Berlin",
+		"name": "Freie Fachschule fuer Sozialpaedagogik Berlin",
 		"official_id": "02P14",
 		"phone": "259271-44",
 		"school_type": "Fachschule",
@@ -8526,7 +8526,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Grüntaler Str. 5, 13357 Berlin",
+		"address": "Gruentaler Str. 5, 13357 Berlin",
 		"fax": "40394921-70",
 		"full_time_school": true,
 		"id": "BE-16201",
@@ -8554,7 +8554,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Fürst-Bismarck-Str. 8-10, 13469 Berlin",
+		"address": "Fuerst-Bismarck-Str. 8-10, 13469 Berlin",
 		"fax": "40910070",
 		"full_time_school": true,
 		"id": "BE-16203",
@@ -8624,13 +8624,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Aßmannstr. 11, 12587 Berlin",
+		"address": "Assmannstr. 11, 12587 Berlin",
 		"fax": "6458914",
 		"full_time_school": true,
 		"id": "BE-16209",
 		"lat": 52.450949,
 		"lon": 13.619242,
-		"name": "Wilhelm-Bölsche-Schule (Integrierte Sekundarschule)",
+		"name": "Wilhelm-Boelsche-Schule (Integrierte Sekundarschule)",
 		"official_id": "09K05",
 		"phone": "6455089",
 		"school_type": "Integrierte Sekundarschule",
@@ -8658,7 +8658,7 @@
 		"id": "BE-16211",
 		"lat": 52.592105,
 		"lon": 13.349149,
-		"name": "Märkische Grundschule",
+		"name": "Maerkische Grundschule",
 		"official_id": "12G26",
 		"phone": "4165057",
 		"school_type": "Grundschule",
@@ -8672,7 +8672,7 @@
 		"id": "BE-16212",
 		"lat": 52.563599,
 		"lon": 13.512565,
-		"name": "Martin-Niemöller-Grundschule",
+		"name": "Martin-Niemoeller-Grundschule",
 		"official_id": "11G22",
 		"phone": "9294089",
 		"school_type": "Grundschule",
@@ -8728,7 +8728,7 @@
 		"id": "BE-16216",
 		"lat": 52.496713,
 		"lon": 13.443227,
-		"name": "BWK Berufsfachschule für Altenpflege",
+		"name": "BWK Berufsfachschule fuer Altenpflege",
 		"official_id": "02P16",
 		"phone": "617929-0",
 		"school_type": "Berufsfachschule",
@@ -8745,8 +8745,8 @@
 		"name": "Alexander-Technik-Schule",
 		"official_id": "02E24",
 		"phone": "6142418",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -8770,7 +8770,7 @@
 		"id": "BE-16219",
 		"lat": 52.414605,
 		"lon": 13.667412,
-		"name": "Müggelheimer Schule (Grundschule)",
+		"name": "Mueggelheimer Schule (Grundschule)",
 		"official_id": "09G20",
 		"phone": "6598-590",
 		"school_type": "Grundschule",
@@ -8876,7 +8876,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Böttgerstr. 2-6, 13357 Berlin",
+		"address": "Boettgerstr. 2-6, 13357 Berlin",
 		"fax": "463096-30",
 		"full_time_school": true,
 		"id": "BE-16227",
@@ -8960,7 +8960,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "An den Achterhöfen 13, 12349 Berlin",
+		"address": "An den Achterhoefen 13, 12349 Berlin",
 		"fax": "74377997",
 		"full_time_school": true,
 		"id": "BE-16233",
@@ -9016,7 +9016,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Wildhüterweg 5, 12353 Berlin",
+		"address": "Wildhueterweg 5, 12353 Berlin",
 		"fax": "6042068",
 		"full_time_school": true,
 		"id": "BE-16237",
@@ -9081,8 +9081,8 @@
 		"name": "Schule am Mummelsoll",
 		"official_id": "10S08",
 		"phone": "9114161-340",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -9109,8 +9109,8 @@
 		"name": "Schule am Rosenhain",
 		"official_id": "10S07",
 		"phone": "9989181",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -9142,13 +9142,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Grützmacherweg 7, 13599 Berlin",
+		"address": "Gruetzmacherweg 7, 13599 Berlin",
 		"fax": "337765-73",
 		"full_time_school": true,
 		"id": "BE-16246",
 		"lat": 52.544033,
 		"lon": 13.226802,
-		"name": "Grundschule an der Pulvermühle",
+		"name": "Grundschule an der Pulvermuehle",
 		"official_id": "05G28",
 		"phone": "337765-67",
 		"school_type": "Grundschule",
@@ -9240,7 +9240,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Bernhard-Bästlein-Str. 22, 10367 Berlin",
+		"address": "Bernhard-Baestlein-Str. 22, 10367 Berlin",
 		"fax": "97609379",
 		"full_time_school": true,
 		"id": "BE-16253",
@@ -9260,7 +9260,7 @@
 		"id": "BE-16254",
 		"lat": 52.460697,
 		"lon": 13.585271,
-		"name": "Bewegte Schule Köpenick (Grundschule)",
+		"name": "Bewegte Schule Koepenick (Grundschule)",
 		"official_id": "09P10",
 		"phone": "65015-495",
 		"school_type": "Grundschule",
@@ -9310,7 +9310,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Lützowstr. 106, 10785 Berlin",
+		"address": "Luetzowstr. 106, 10785 Berlin",
 		"fax": "74785547",
 		"full_time_school": true,
 		"id": "BE-16258",
@@ -9492,7 +9492,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Blücherstr. 46, 10961 Berlin",
+		"address": "Bluecherstr. 46, 10961 Berlin",
 		"fax": "22502771-15",
 		"full_time_school": true,
 		"id": "BE-16272",
@@ -9540,7 +9540,7 @@
 		"id": "BE-16275",
 		"lat": 52.546984,
 		"lon": 13.184843,
-		"name": "Volkshochschule Treptow-Köpenick",
+		"name": "Volkshochschule Treptow-Koepenick",
 		"official_id": "09A06",
 		"phone": "53699510",
 		"school_type": "Volkshochschule",
@@ -9554,7 +9554,7 @@
 		"id": "BE-16276",
 		"lat": 52.589419,
 		"lon": 13.369158,
-		"name": "Rudolf-Dörrier-Grundschule",
+		"name": "Rudolf-Doerrier-Grundschule",
 		"official_id": "03G13",
 		"phone": "91699480",
 		"school_type": "Grundschule",
@@ -9582,7 +9582,7 @@
 		"id": "BE-16278",
 		"lat": 52.4845046,
 		"lon": 13.4402567,
-		"name": "Akademie Seehof GmbH - Private Berufsfachschule für Altenpflege",
+		"name": "Akademie Seehof GmbH - Private Berufsfachschule fuer Altenpflege",
 		"official_id": "08P10",
 		"phone": "80409105-0",
 		"school_type": "Berufsfachschule",
@@ -9655,8 +9655,8 @@
 		"name": "Stephanus-Schule",
 		"official_id": "03P11",
 		"phone": "96249751",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -9722,7 +9722,7 @@
 		"id": "BE-16288",
 		"lat": 52.429127,
 		"lon": 13.589808,
-		"name": "3. Schulpraktisches Seminar Treptow-Köpenick",
+		"name": "3. Schulpraktisches Seminar Treptow-Koepenick",
 		"official_id": "09A03",
 		"phone": "3474509-20",
 		"school_type": "Schulpraktisches Seminar",
@@ -9736,7 +9736,7 @@
 		"id": "BE-16289",
 		"lat": 52.499106,
 		"lon": 13.403185,
-		"name": "Hans-Böckler-Schule (OSZ Konstruktionsbautechnik)",
+		"name": "Hans-Boeckler-Schule (OSZ Konstruktionsbautechnik)",
 		"official_id": "02B02",
 		"phone": "616705-10",
 		"school_type": "Fachoberschule",
@@ -9750,7 +9750,7 @@
 		"id": "BE-16290",
 		"lat": 52.499106,
 		"lon": 13.403185,
-		"name": "Hans-Böckler-Schule (OSZ Konstruktionsbautechnik)",
+		"name": "Hans-Boeckler-Schule (OSZ Konstruktionsbautechnik)",
 		"official_id": "02B02",
 		"phone": "616705-10",
 		"school_type": "Berufsfachschule",
@@ -9764,7 +9764,7 @@
 		"id": "BE-16291",
 		"lat": 52.499106,
 		"lon": 13.403185,
-		"name": "Hans-Böckler-Schule (OSZ Konstruktionsbautechnik)",
+		"name": "Hans-Boeckler-Schule (OSZ Konstruktionsbautechnik)",
 		"official_id": "02B02",
 		"phone": "616705-10",
 		"school_type": "Berufsschule",
@@ -9795,8 +9795,8 @@
 		"name": "Schule am Birkenhof",
 		"official_id": "03S06",
 		"phone": "474029100",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -9809,8 +9809,8 @@
 		"name": "Schule an der Heide",
 		"official_id": "03S07",
 		"phone": "91699470",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -9823,8 +9823,8 @@
 		"name": "Panke-Schule",
 		"official_id": "03S08",
 		"phone": "476079-20",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -9842,7 +9842,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Neue Schönholzer Str. 32, 13187 Berlin",
+		"address": "Neue Schoenholzer Str. 32, 13187 Berlin",
 		"fax": "499799-48",
 		"full_time_school": true,
 		"id": "BE-16297",
@@ -9921,8 +9921,8 @@
 		"name": "Schule am Westend",
 		"official_id": "04P27",
 		"phone": "30355970",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -9968,7 +9968,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Görschstr. 42-44, 13187 Berlin",
+		"address": "Goerschstr. 42-44, 13187 Berlin",
 		"fax": "494003-91",
 		"full_time_school": false,
 		"id": "BE-16306",
@@ -10002,7 +10002,7 @@
 		"id": "BE-16308",
 		"lat": 52.537784,
 		"lon": 13.552202,
-		"name": "Grundschule an der Geißenweide",
+		"name": "Grundschule an der Geissenweide",
 		"official_id": "10G12",
 		"phone": "5429057",
 		"school_type": "Grundschule",
@@ -10100,7 +10100,7 @@
 		"id": "BE-16315",
 		"lat": 52.51102,
 		"lon": 13.305094,
-		"name": "DIDACTICA private kaufmännische Berufsbildungs GmbH",
+		"name": "DIDACTICA private kaufmaennische Berufsbildungs GmbH",
 		"official_id": "04P07",
 		"phone": "3290088-0",
 		"school_type": "Fachschule",
@@ -10114,7 +10114,7 @@
 		"id": "BE-16316",
 		"lat": 52.51102,
 		"lon": 13.305094,
-		"name": "DIDACTICA private kaufmännische Berufsbildungs GmbH",
+		"name": "DIDACTICA private kaufmaennische Berufsbildungs GmbH",
 		"official_id": "04P07",
 		"phone": "3290088-0",
 		"school_type": "Berufsfachschule",
@@ -10145,8 +10145,8 @@
 		"name": "Albatros-Schule",
 		"official_id": "09S03",
 		"phone": "5300299-0",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -10198,7 +10198,7 @@
 		"id": "BE-16322",
 		"lat": 52.571876,
 		"lon": 13.484411,
-		"name": "Grüner Campus Malchow (Gemeinschaftsschule)",
+		"name": "Gruener Campus Malchow (Gemeinschaftsschule)",
 		"official_id": "11K10",
 		"phone": "962485-95",
 		"school_type": "Integrierte Sekundarschule",
@@ -10220,13 +10220,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Fürstenwalder Allee 182, 12589 Berlin",
+		"address": "Fuerstenwalder Allee 182, 12589 Berlin",
 		"fax": "65017004",
 		"full_time_school": true,
 		"id": "BE-16324",
 		"lat": 52.433663,
 		"lon": 13.703025,
-		"name": "Schule an den Püttbergen (Grundschule)",
+		"name": "Schule an den Puettbergen (Grundschule)",
 		"official_id": "09G26",
 		"phone": "6489278",
 		"school_type": "Grundschule",
@@ -10257,8 +10257,8 @@
 		"name": "Schule am Fennpfuhl",
 		"official_id": "11S02",
 		"phone": "9720416",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -10276,7 +10276,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Lückstr. 63, 10317 Berlin",
+		"address": "Lueckstr. 63, 10317 Berlin",
 		"fax": "51098927",
 		"full_time_school": false,
 		"id": "BE-16328",
@@ -10296,11 +10296,11 @@
 		"id": "BE-16329",
 		"lat": 52.49533,
 		"lon": 13.31006,
-		"name": "Berliner Schule für Zen Shiatsu",
+		"name": "Berliner Schule fuer Zen Shiatsu",
 		"official_id": "04E48",
 		"phone": "32662832",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -10310,7 +10310,7 @@
 		"id": "BE-16330",
 		"lat": 52.592142,
 		"lon": 13.454454,
-		"name": "Grundschule unter den Bäumen",
+		"name": "Grundschule unter den Baeumen",
 		"official_id": "03G21",
 		"phone": "4743325",
 		"school_type": "Grundschule",
@@ -10346,7 +10346,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Römerweg 30-32, 10318 Berlin",
+		"address": "Roemerweg 30-32, 10318 Berlin",
 		"fax": "50158007",
 		"full_time_school": false,
 		"id": "BE-16333",
@@ -10360,7 +10360,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Möllendorffstr. 48, 10367 Berlin",
+		"address": "Moellendorffstr. 48, 10367 Berlin",
 		"fax": "27591-120",
 		"full_time_school": false,
 		"id": "BE-16334",
@@ -10374,7 +10374,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Möllendorffstr. 48, 10367 Berlin",
+		"address": "Moellendorffstr. 48, 10367 Berlin",
 		"fax": "27591-120",
 		"full_time_school": false,
 		"id": "BE-16335",
@@ -10394,7 +10394,7 @@
 		"id": "BE-16336",
 		"lat": 52.419345,
 		"lon": 13.57601,
-		"name": "Grünauer Gemeinschaftsschule",
+		"name": "Gruenauer Gemeinschaftsschule",
 		"official_id": "09K09",
 		"phone": "6744540",
 		"school_type": "Integrierte Sekundarschule",
@@ -10472,7 +10472,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Böckhstr. 16, 10967 Berlin",
+		"address": "Boeckhstr. 16, 10967 Berlin",
 		"fax": "505860-35",
 		"full_time_school": true,
 		"id": "BE-16342",
@@ -10492,7 +10492,7 @@
 		"id": "BE-16343",
 		"lat": 52.583819,
 		"lon": 13.402114,
-		"name": "Max-Delbrück-Gymnasium",
+		"name": "Max-Delbrueck-Gymnasium",
 		"official_id": "03Y15",
 		"phone": "47596720",
 		"school_type": "Gymnasien",
@@ -10551,8 +10551,8 @@
 		"name": "FORUM Berufsbildung e.V.",
 		"official_id": "02E30",
 		"phone": "259008-0",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -10562,11 +10562,11 @@
 		"id": "BE-16348",
 		"lat": 52.593383,
 		"lon": 13.451537,
-		"name": "Primus Bildungscentren GmbH - Schule für Handwerk und Gestaltung",
+		"name": "Primus Bildungscentren GmbH - Schule fuer Handwerk und Gestaltung",
 		"official_id": "03E16",
 		"phone": "47474742",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -10576,11 +10576,11 @@
 		"id": "BE-16349",
 		"lat": 52.511388888889,
 		"lon": 13.305,
-		"name": "MediPoint-Schule für Medizin und Altenpflege",
+		"name": "MediPoint-Schule fuer Medizin und Altenpflege",
 		"official_id": "04E47",
 		"phone": "36405666",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -10621,8 +10621,8 @@
 		"name": "Carl-von-Linné-Schule",
 		"official_id": "11S07",
 		"phone": "5050960",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -10635,7 +10635,7 @@
 		"name": "Carl-von-Linné-Schule",
 		"official_id": "11S07",
 		"phone": "5050960",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -10646,11 +10646,11 @@
 		"id": "BE-16354",
 		"lat": 52.5202,
 		"lon": 13.498429,
-		"name": "Schule am grünen Grund",
+		"name": "Schule am gruenen Grund",
 		"official_id": "11S05",
 		"phone": "5436709",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -10660,7 +10660,7 @@
 		"id": "BE-16355",
 		"lat": 52.5202,
 		"lon": 13.498429,
-		"name": "Schule am grünen Grund",
+		"name": "Schule am gruenen Grund",
 		"official_id": "11S05",
 		"phone": "5436709",
 		"school_type": "Grundschule",
@@ -10674,7 +10674,7 @@
 		"id": "BE-16356",
 		"lat": 52.5202,
 		"lon": 13.498429,
-		"name": "Schule am grünen Grund",
+		"name": "Schule am gruenen Grund",
 		"official_id": "11S05",
 		"phone": "5436709",
 		"school_type": "Integrierte Sekundarschule",
@@ -10682,17 +10682,17 @@
 		"state": "BE"
 	},
 	{
-		"address": "Bernhard-Bästlein-Str. 56, 10367 Berlin",
+		"address": "Bernhard-Baestlein-Str. 56, 10367 Berlin",
 		"fax": "97104940",
 		"full_time_school": true,
 		"id": "BE-16357",
 		"lat": 52.531737,
 		"lon": 13.481154,
-		"name": "Selma-Lagerlöf-Schule",
+		"name": "Selma-Lagerloef-Schule",
 		"official_id": "11S06",
 		"phone": "9721409",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -10831,8 +10831,8 @@
 		"name": "SiliconStudioAcademy Berlin",
 		"official_id": "01E10",
 		"phone": "456013-31",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -10856,7 +10856,7 @@
 		"id": "BE-16369",
 		"lat": 52.563056,
 		"lon": 13.200918,
-		"name": "Heinrich-Böll-Oberschule (Integrierte Sekundarschule)",
+		"name": "Heinrich-Boell-Oberschule (Integrierte Sekundarschule)",
 		"official_id": "05K04",
 		"phone": "335007-0",
 		"school_type": "Integrierte Sekundarschule",
@@ -10912,7 +10912,7 @@
 		"id": "BE-16374",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Ernst-Litfaß-Schule (OSZ Mediengestaltung und Medientechnologie)",
+		"name": "Ernst-Litfass-Schule (OSZ Mediengestaltung und Medientechnologie)",
 		"official_id": "12B03",
 		"phone": "414792-0",
 		"school_type": "Fachoberschule",
@@ -10926,7 +10926,7 @@
 		"id": "BE-16375",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Ernst-Litfaß-Schule (OSZ Mediengestaltung und Medientechnologie)",
+		"name": "Ernst-Litfass-Schule (OSZ Mediengestaltung und Medientechnologie)",
 		"official_id": "12B03",
 		"phone": "414792-0",
 		"school_type": "Berufsschule",
@@ -10940,7 +10940,7 @@
 		"id": "BE-16376",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Ernst-Litfaß-Schule (OSZ Mediengestaltung und Medientechnologie)",
+		"name": "Ernst-Litfass-Schule (OSZ Mediengestaltung und Medientechnologie)",
 		"official_id": "12B03",
 		"phone": "414792-0",
 		"school_type": "Berufsfachschule",
@@ -10954,7 +10954,7 @@
 		"id": "BE-16377",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Ernst-Litfaß-Schule (OSZ Mediengestaltung und Medientechnologie)",
+		"name": "Ernst-Litfass-Schule (OSZ Mediengestaltung und Medientechnologie)",
 		"official_id": "12B03",
 		"phone": "414792-0",
 		"school_type": "Berufsoberschule",
@@ -10968,7 +10968,7 @@
 		"id": "BE-16378",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Ernst-Litfaß-Schule (OSZ Mediengestaltung und Medientechnologie)",
+		"name": "Ernst-Litfass-Schule (OSZ Mediengestaltung und Medientechnologie)",
 		"official_id": "12B03",
 		"phone": "414792-0",
 		"school_type": "Fachschule",
@@ -11018,7 +11018,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Fürst-Bismarck-Str. 8-10, 13469 Berlin",
+		"address": "Fuerst-Bismarck-Str. 8-10, 13469 Berlin",
 		"fax": "40910070",
 		"full_time_school": false,
 		"id": "BE-16382",
@@ -11032,7 +11032,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Fürst-Bismarck-Str. 8-10, 13469 Berlin",
+		"address": "Fuerst-Bismarck-Str. 8-10, 13469 Berlin",
 		"fax": "40910070",
 		"full_time_school": "",
 		"id": "BE-16383",
@@ -11060,13 +11060,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Wörlitzer Str. 31, 12689 Berlin",
+		"address": "Woerlitzer Str. 31, 12689 Berlin",
 		"fax": "9339-443",
 		"full_time_school": true,
 		"id": "BE-16385",
 		"lat": 52.56771,
 		"lon": 13.569992,
-		"name": "Selma-Lagerlöf-Grundschule",
+		"name": "Selma-Lagerloef-Grundschule",
 		"official_id": "10G03",
 		"phone": "9309-544",
 		"school_type": "Grundschule",
@@ -11080,7 +11080,7 @@
 		"id": "BE-16386",
 		"lat": 52.4867229,
 		"lon": 13.3524317,
-		"name": "Shou Zhong Schule für Traditionelle Chinesische Medizin",
+		"name": "Shou Zhong Schule fuer Traditionelle Chinesische Medizin",
 		"official_id": "07E19",
 		"phone": "29044603",
 		"school_type": "Heilpraktikerschule",
@@ -11088,7 +11088,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönfließer Str. 7, 10439 Berlin",
+		"address": "Schoenfliesser Str. 7, 10439 Berlin",
 		"fax": "44717306",
 		"full_time_school": true,
 		"id": "BE-16387",
@@ -11102,7 +11102,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Lütticher Str. 47-48, 13353 Berlin",
+		"address": "Luetticher Str. 47-48, 13353 Berlin",
 		"fax": "453087-11",
 		"full_time_school": true,
 		"id": "BE-16388",
@@ -11116,7 +11116,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Kühleweinstr. 5, 13409 Berlin",
+		"address": "Kuehleweinstr. 5, 13409 Berlin",
 		"fax": "497906-11",
 		"full_time_school": false,
 		"id": "BE-16389",
@@ -11130,7 +11130,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Kühleweinstr. 5, 13409 Berlin",
+		"address": "Kuehleweinstr. 5, 13409 Berlin",
 		"fax": "497906-11",
 		"full_time_school": false,
 		"id": "BE-16390",
@@ -11144,7 +11144,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Kühleweinstr. 5, 13409 Berlin",
+		"address": "Kuehleweinstr. 5, 13409 Berlin",
 		"fax": "497906-11",
 		"full_time_school": false,
 		"id": "BE-16391",
@@ -11158,7 +11158,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Kühleweinstr. 5, 13409 Berlin",
+		"address": "Kuehleweinstr. 5, 13409 Berlin",
 		"fax": "497906-11",
 		"full_time_school": false,
 		"id": "BE-16392",
@@ -11172,7 +11172,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Kühleweinstr. 5, 13409 Berlin",
+		"address": "Kuehleweinstr. 5, 13409 Berlin",
 		"fax": "497906-11",
 		"full_time_school": "",
 		"id": "BE-16393",
@@ -11237,8 +11237,8 @@
 		"name": "ETI Schauspielschule Berlin",
 		"official_id": "01E03",
 		"phone": "275931-09",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -11251,8 +11251,8 @@
 		"name": "Griechisches Lyzeum",
 		"official_id": "04E25",
 		"phone": "8532074",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -11265,8 +11265,8 @@
 		"name": "Sportschule des Landessportbundes Berlin e.V.",
 		"official_id": "07E11",
 		"phone": "7877240",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -11304,7 +11304,7 @@
 		"id": "BE-16402",
 		"lat": 52.437522,
 		"lon": 13.376745,
-		"name": "Kosmetikschule und Vertrieb Silvia Günther",
+		"name": "Kosmetikschule und Vertrieb Silvia Guenther",
 		"official_id": "07E24",
 		"phone": "2162626",
 		"school_type": "Kosmetikschule",
@@ -11354,13 +11354,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Grüne Trift 169, 12557 Berlin",
+		"address": "Gruene Trift 169, 12557 Berlin",
 		"fax": "325324-02",
 		"full_time_school": false,
 		"id": "BE-16406",
 		"lat": 52.423386,
 		"lon": 13.592317,
-		"name": "Evangelische Schule Köpenick (Gymnasium)",
+		"name": "Evangelische Schule Koepenick (Gymnasium)",
 		"official_id": "09P07",
 		"phone": "325324-01",
 		"school_type": "Gymnasien",
@@ -11458,7 +11458,7 @@
 		"id": "BE-16413",
 		"lat": 52.512778,
 		"lon": 13.458462,
-		"name": "Friedländer-Schule",
+		"name": "Friedlaender-Schule",
 		"official_id": "02E03",
 		"phone": "29669413",
 		"school_type": "Sprachenschule",
@@ -11486,7 +11486,7 @@
 		"id": "BE-16415",
 		"lat": 52.59194,
 		"lon": 13.32639,
-		"name": "Jean-Krämer-Schule (Integrierte Sekundarschule) Wittenau",
+		"name": "Jean-Kraemer-Schule (Integrierte Sekundarschule) Wittenau",
 		"official_id": "12K07",
 		"phone": "41109152",
 		"school_type": "Integrierte Sekundarschule",
@@ -11500,7 +11500,7 @@
 		"id": "BE-16416",
 		"lat": 52.60795,
 		"lon": 13.31726,
-		"name": "Münchhausen-Grundschule",
+		"name": "Muenchhausen-Grundschule",
 		"official_id": "12G19",
 		"phone": "4111630",
 		"school_type": "Grundschule",
@@ -11612,7 +11612,7 @@
 		"id": "BE-16424",
 		"lat": 52.6161,
 		"lon": 13.324396,
-		"name": "Grundschule am Fließtal",
+		"name": "Grundschule am Fliesstal",
 		"official_id": "12G21",
 		"phone": "4045827",
 		"school_type": "Grundschule",
@@ -11676,7 +11676,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Röbellweg 97, 13125 Berlin",
+		"address": "Roebellweg 97, 13125 Berlin",
 		"fax": "94631065",
 		"full_time_school": false,
 		"id": "BE-16429",
@@ -11696,11 +11696,11 @@
 		"id": "BE-16430",
 		"lat": 52.492018,
 		"lon": 13.388548,
-		"name": "Schule für Erwachsenenbildung e.V.",
+		"name": "Schule fuer Erwachsenenbildung e.V.",
 		"official_id": "02E05",
 		"phone": "6937048",
-		"school_type": "Vorbereitungsschule auf Fremdenprüfung",
-		"school_type_entity": "Vorbereitungsschule auf Fremdenprüfung",
+		"school_type": "Vorbereitungsschule auf Fremdenpruefung",
+		"school_type_entity": "Vorbereitungsschule auf Fremdenpruefung",
 		"state": "BE"
 	},
 	{
@@ -11766,7 +11766,7 @@
 		"id": "BE-16435",
 		"lat": 52.439104,
 		"lon": 13.564468,
-		"name": "Schule in der Köllnischen Vorstadt (Grundschule)",
+		"name": "Schule in der Koellnischen Vorstadt (Grundschule)",
 		"official_id": "09G18",
 		"phone": "643267-15",
 		"school_type": "Grundschule",
@@ -11794,7 +11794,7 @@
 		"id": "BE-16437",
 		"lat": 52.420338,
 		"lon": 13.283876,
-		"name": "Bilinguale Schule Phorms Berlin Süd",
+		"name": "Bilinguale Schule Phorms Berlin Sued",
 		"official_id": "06P18",
 		"phone": "91684991",
 		"school_type": "Grundschule",
@@ -11808,7 +11808,7 @@
 		"id": "BE-16438",
 		"lat": 52.420338,
 		"lon": 13.283876,
-		"name": "Bilinguale Schule Phorms Berlin Süd",
+		"name": "Bilinguale Schule Phorms Berlin Sued",
 		"official_id": "06P18",
 		"phone": "91684991",
 		"school_type": "Gymnasien",
@@ -11858,7 +11858,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Delbrückstr. 18, 12051 Berlin",
+		"address": "Delbrueckstr. 18, 12051 Berlin",
 		"fax": "940649194",
 		"full_time_school": true,
 		"id": "BE-16442",
@@ -11948,11 +11948,11 @@
 		"id": "BE-16448",
 		"lat": 52.49344,
 		"lon": 13.388524,
-		"name": "Schule für F.M. Alexander-Technik",
+		"name": "Schule fuer F.M. Alexander-Technik",
 		"official_id": "02E18",
 		"phone": "69506088",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -12004,7 +12004,7 @@
 		"id": "BE-16452",
 		"lat": 52.460697,
 		"lon": 13.585271,
-		"name": "BEST-Sabel Berufsfachschule für Design",
+		"name": "BEST-Sabel Berufsfachschule fuer Design",
 		"official_id": "09P08",
 		"phone": "656610-0",
 		"school_type": "Berufsfachschule",
@@ -12018,7 +12018,7 @@
 		"id": "BE-16453",
 		"lat": 52.48912,
 		"lon": 13.537817,
-		"name": "bbw Akademie für Betriebswirtschaftliche Weiterbildung GmbH",
+		"name": "bbw Akademie fuer Betriebswirtschaftliche Weiterbildung GmbH",
 		"official_id": "11E06",
 		"phone": "50292921",
 		"school_type": "Wirtschafts- u. Verwaltungsschule",
@@ -12091,8 +12091,8 @@
 		"name": "Liebmann-Schule",
 		"official_id": "02S06",
 		"phone": "505858-31",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -12161,8 +12161,8 @@
 		"name": "Schule Am Breiten Luch",
 		"official_id": "11S08",
 		"phone": "9295080",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -12256,7 +12256,7 @@
 		"id": "BE-16470",
 		"lat": 52.502052,
 		"lon": 13.3082467,
-		"name": "Paula-Fürst-Schule (Gemeinschaftsschule)",
+		"name": "Paula-Fuerst-Schule (Gemeinschaftsschule)",
 		"official_id": "04K05",
 		"phone": "9029272-20",
 		"school_type": "Integrierte Sekundarschule",
@@ -12284,7 +12284,7 @@
 		"id": "BE-16472",
 		"lat": 52.571482,
 		"lon": 13.368637,
-		"name": "Europäisches Gymnasium Bertha-von-Suttner",
+		"name": "Europaeisches Gymnasium Bertha-von-Suttner",
 		"official_id": "12Y02",
 		"phone": "49160-57",
 		"school_type": "Gymnasien",
@@ -12306,13 +12306,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Tile-Brügge-Weg 63, 13509 Berlin",
+		"address": "Tile-Bruegge-Weg 63, 13509 Berlin",
 		"fax": "210052468",
 		"full_time_school": false,
 		"id": "BE-16474",
 		"lat": 52.59214,
 		"lon": 13.296531,
-		"name": "Gabriele-von-Bülow-Gymnasium",
+		"name": "Gabriele-von-Buelow-Gymnasium",
 		"official_id": "12Y04",
 		"phone": "210052460",
 		"school_type": "Gymnasien",
@@ -12340,7 +12340,7 @@
 		"id": "BE-16476",
 		"lat": 52.5753,
 		"lon": 13.3392,
-		"name": "Paul-Löbe-Schule",
+		"name": "Paul-Loebe-Schule",
 		"official_id": "12K04",
 		"phone": "4957026",
 		"school_type": "Integrierte Sekundarschule",
@@ -12466,7 +12466,7 @@
 		"id": "BE-16485",
 		"lat": 52.5011,
 		"lon": 13.487031,
-		"name": "Max-Taut-Schule (OSZ Gebäude, Umwelt, Technik)",
+		"name": "Max-Taut-Schule (OSZ Gebaeude, Umwelt, Technik)",
 		"official_id": "11B02",
 		"phone": "52280-148",
 		"school_type": "Fachoberschule",
@@ -12480,7 +12480,7 @@
 		"id": "BE-16486",
 		"lat": 52.5011,
 		"lon": 13.487031,
-		"name": "Max-Taut-Schule (OSZ Gebäude, Umwelt, Technik)",
+		"name": "Max-Taut-Schule (OSZ Gebaeude, Umwelt, Technik)",
 		"official_id": "11B02",
 		"phone": "52280-148",
 		"school_type": "Berufsschule",
@@ -12494,7 +12494,7 @@
 		"id": "BE-16487",
 		"lat": 52.5011,
 		"lon": 13.487031,
-		"name": "Max-Taut-Schule (OSZ Gebäude, Umwelt, Technik)",
+		"name": "Max-Taut-Schule (OSZ Gebaeude, Umwelt, Technik)",
 		"official_id": "11B02",
 		"phone": "52280-148",
 		"school_type": "Berufsfachschule",
@@ -12508,7 +12508,7 @@
 		"id": "BE-16488",
 		"lat": 52.5011,
 		"lon": 13.487031,
-		"name": "Max-Taut-Schule (OSZ Gebäude, Umwelt, Technik)",
+		"name": "Max-Taut-Schule (OSZ Gebaeude, Umwelt, Technik)",
 		"official_id": "11B02",
 		"phone": "52280-148",
 		"school_type": "Berufliches Gymnasium",
@@ -12522,7 +12522,7 @@
 		"id": "BE-16489",
 		"lat": 52.5011,
 		"lon": 13.487031,
-		"name": "Max-Taut-Schule (OSZ Gebäude, Umwelt, Technik)",
+		"name": "Max-Taut-Schule (OSZ Gebaeude, Umwelt, Technik)",
 		"official_id": "11B02",
 		"phone": "52280-148",
 		"school_type": "Berufsoberschule",
@@ -12578,7 +12578,7 @@
 		"id": "BE-16493",
 		"lat": 52.557135,
 		"lon": 13.448399,
-		"name": "Grundschule am Weißen See",
+		"name": "Grundschule am Weissen See",
 		"official_id": "03G17",
 		"phone": "9269462",
 		"school_type": "Grundschule",
@@ -12592,7 +12592,7 @@
 		"id": "BE-16494",
 		"lat": 52.553305,
 		"lon": 13.542915,
-		"name": "Gesellschaft für Pflege- und Sozialberufe gGmbH",
+		"name": "Gesellschaft fuer Pflege- und Sozialberufe gGmbH",
 		"official_id": "10P03",
 		"phone": "930207-0",
 		"school_type": "Fachschule",
@@ -12606,7 +12606,7 @@
 		"id": "BE-16495",
 		"lat": 52.553305,
 		"lon": 13.542915,
-		"name": "Gesellschaft für Pflege- und Sozialberufe gGmbH",
+		"name": "Gesellschaft fuer Pflege- und Sozialberufe gGmbH",
 		"official_id": "10P03",
 		"phone": "930207-0",
 		"school_type": "Berufsfachschule",
@@ -12620,7 +12620,7 @@
 		"id": "BE-16496",
 		"lat": 52.557923,
 		"lon": 13.560124,
-		"name": "Thüringen-Schule (Gemeinschaftsschule)",
+		"name": "Thueringen-Schule (Gemeinschaftsschule)",
 		"official_id": "10K04",
 		"phone": "9327177",
 		"school_type": "Integrierte Sekundarschule",
@@ -12665,8 +12665,8 @@
 		"name": "Paul-und-Charlotte-Kniese-Schule",
 		"official_id": "11S04",
 		"phone": "516597-14",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -12838,13 +12838,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Wildhüterweg 5, 12353 Berlin",
+		"address": "Wildhueterweg 5, 12353 Berlin",
 		"fax": "66706012",
 		"full_time_school": "",
 		"id": "BE-16512",
 		"lat": 52.421072,
 		"lon": 13.457366,
-		"name": "4. Schulpraktisches Seminar Neukölln",
+		"name": "4. Schulpraktisches Seminar Neukoelln",
 		"official_id": "08A05",
 		"phone": "6706663125",
 		"school_type": "Schulpraktisches Seminar",
@@ -12861,8 +12861,8 @@
 		"name": "Institut Buhara e.V.",
 		"official_id": "11E09",
 		"phone": "50014677",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -12875,8 +12875,8 @@
 		"name": "tanzloft berlin",
 		"official_id": "04E42",
 		"phone": "3245998",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -12894,7 +12894,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Nöldnerstr. 44, 10317 Berlin",
+		"address": "Noeldnerstr. 44, 10317 Berlin",
 		"fax": "5107048",
 		"full_time_school": true,
 		"id": "BE-16516",
@@ -13071,18 +13071,18 @@
 		"name": "BEST-Sabel Touristikakademie",
 		"official_id": "01E18",
 		"phone": "640949-85",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
-		"address": "Ostpreußendamm 40, 12207 Berlin",
+		"address": "Ostpreussendamm 40, 12207 Berlin",
 		"fax": "\t768900-36",
 		"full_time_school": false,
 		"id": "BE-16529",
 		"lat": 52.430299,
 		"lon": 13.317,
-		"name": "OSZ Bürowirtschaft I",
+		"name": "OSZ Buerowirtschaft I",
 		"official_id": "06B03",
 		"phone": "\t768900-10",
 		"school_type": "Berufsfachschule",
@@ -13090,13 +13090,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Ostpreußendamm 40, 12207 Berlin",
+		"address": "Ostpreussendamm 40, 12207 Berlin",
 		"fax": "\t768900-36",
 		"full_time_school": false,
 		"id": "BE-16530",
 		"lat": 52.430299,
 		"lon": 13.317,
-		"name": "OSZ Bürowirtschaft I",
+		"name": "OSZ Buerowirtschaft I",
 		"official_id": "06B03",
 		"phone": "\t768900-10",
 		"school_type": "Berufsschule",
@@ -13104,13 +13104,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Ostpreußendamm 40, 12207 Berlin",
+		"address": "Ostpreussendamm 40, 12207 Berlin",
 		"fax": "\t768900-36",
 		"full_time_school": false,
 		"id": "BE-16531",
 		"lat": 52.430299,
 		"lon": 13.317,
-		"name": "OSZ Bürowirtschaft I",
+		"name": "OSZ Buerowirtschaft I",
 		"official_id": "06B03",
 		"phone": "\t768900-10",
 		"school_type": "Fachoberschule",
@@ -13118,13 +13118,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Ostpreußendamm 40, 12207 Berlin",
+		"address": "Ostpreussendamm 40, 12207 Berlin",
 		"fax": "\t768900-36",
 		"full_time_school": false,
 		"id": "BE-16532",
 		"lat": 52.430299,
 		"lon": 13.317,
-		"name": "OSZ Bürowirtschaft I",
+		"name": "OSZ Buerowirtschaft I",
 		"official_id": "06B03",
 		"phone": "\t768900-10",
 		"school_type": "Berufsoberschule",
@@ -13155,8 +13155,8 @@
 		"name": "BWK Bildungswerk in Kreuzberg",
 		"official_id": "02E17",
 		"phone": "6179290",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -13208,7 +13208,7 @@
 		"id": "BE-16538",
 		"lat": 52.478441,
 		"lon": 13.4487844,
-		"name": "Eduard-Mörike-Schule (Grundschule)",
+		"name": "Eduard-Moerike-Schule (Grundschule)",
 		"official_id": "08G18",
 		"phone": "680856890",
 		"school_type": "Grundschule",
@@ -13250,7 +13250,7 @@
 		"id": "BE-16541",
 		"lat": 52.392606,
 		"lon": 13.405498,
-		"name": "Georg-Büchner-Gymnasium",
+		"name": "Georg-Buechner-Gymnasium",
 		"official_id": "07Y09",
 		"phone": "902778-208",
 		"school_type": "Gymnasien",
@@ -13460,7 +13460,7 @@
 		"id": "BE-16556",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik)",
+		"name": "Emil-Fischer-Schule (OSZ Ernaehrung und Lebensmitteltechnik)",
 		"official_id": "12B02",
 		"phone": "414721-0",
 		"school_type": "Berufsoberschule",
@@ -13474,7 +13474,7 @@
 		"id": "BE-16557",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik)",
+		"name": "Emil-Fischer-Schule (OSZ Ernaehrung und Lebensmitteltechnik)",
 		"official_id": "12B02",
 		"phone": "414721-0",
 		"school_type": "Berufliches Gymnasium",
@@ -13488,7 +13488,7 @@
 		"id": "BE-16558",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik)",
+		"name": "Emil-Fischer-Schule (OSZ Ernaehrung und Lebensmitteltechnik)",
 		"official_id": "12B02",
 		"phone": "414721-0",
 		"school_type": "Berufsschule",
@@ -13502,7 +13502,7 @@
 		"id": "BE-16559",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik)",
+		"name": "Emil-Fischer-Schule (OSZ Ernaehrung und Lebensmitteltechnik)",
 		"official_id": "12B02",
 		"phone": "414721-0",
 		"school_type": "Fachoberschule",
@@ -13516,7 +13516,7 @@
 		"id": "BE-16560",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik)",
+		"name": "Emil-Fischer-Schule (OSZ Ernaehrung und Lebensmitteltechnik)",
 		"official_id": "12B02",
 		"phone": "414721-0",
 		"school_type": "Berufsfachschule",
@@ -13530,7 +13530,7 @@
 		"id": "BE-16561",
 		"lat": 52.600452,
 		"lon": 13.326235,
-		"name": "Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik)",
+		"name": "Emil-Fischer-Schule (OSZ Ernaehrung und Lebensmitteltechnik)",
 		"official_id": "12B02",
 		"phone": "414721-0",
 		"school_type": "Fachschule",
@@ -13580,7 +13580,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Königshorster Str. 10, 13439 Berlin",
+		"address": "Koenigshorster Str. 10, 13439 Berlin",
 		"fax": "41476367-99",
 		"full_time_school": true,
 		"id": "BE-16565",
@@ -13701,8 +13701,8 @@
 		"name": "Richard-Keller-Schule",
 		"official_id": "12S02",
 		"phone": "4048933",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -13712,7 +13712,7 @@
 		"id": "BE-16574",
 		"lat": 52.376163,
 		"lon": 13.647801,
-		"name": "Schmöckwitzer Insel-Schule (Grundschule)",
+		"name": "Schmoeckwitzer Insel-Schule (Grundschule)",
 		"official_id": "09G29",
 		"phone": "6758-444",
 		"school_type": "Grundschule",
@@ -13785,8 +13785,8 @@
 		"name": "Berlin British School",
 		"official_id": "04E32",
 		"phone": "351091-90",
-		"school_type": "Ausländische Schule",
-		"school_type_entity": "Ausländische Schule",
+		"school_type": "Auslaendische Schule",
+		"school_type_entity": "Auslaendische Schule",
 		"state": "BE"
 	},
 	{
@@ -13799,8 +13799,8 @@
 		"name": "Japanische Internationale Schule zu Berlin",
 		"official_id": "06E13",
 		"phone": "8036830",
-		"school_type": "Ausländische Schule",
-		"school_type_entity": "Ausländische Schule",
+		"school_type": "Auslaendische Schule",
+		"school_type_entity": "Auslaendische Schule",
 		"state": "BE"
 	},
 	{
@@ -13992,11 +13992,11 @@
 		"id": "BE-16595",
 		"lat": 52.500435,
 		"lon": 13.296828,
-		"name": "Japanische Ergänzungsschule in Berlin e.V.",
+		"name": "Japanische Ergaenzungsschule in Berlin e.V.",
 		"official_id": "04E24",
 		"phone": "8911787",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -14009,8 +14009,8 @@
 		"name": "Education GmbH",
 		"official_id": "03E08",
 		"phone": "4211281",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -14020,7 +14020,7 @@
 		"id": "BE-16597",
 		"lat": 52.547537,
 		"lon": 13.443035,
-		"name": "Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen)",
+		"name": "Elinor-Ostrom-Schule (OSZ Buerowirtschaft und Dienstleistungen)",
 		"official_id": "03B07",
 		"phone": "421854-11",
 		"school_type": "Fachoberschule",
@@ -14034,7 +14034,7 @@
 		"id": "BE-16598",
 		"lat": 52.547537,
 		"lon": 13.443035,
-		"name": "Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen)",
+		"name": "Elinor-Ostrom-Schule (OSZ Buerowirtschaft und Dienstleistungen)",
 		"official_id": "03B07",
 		"phone": "421854-11",
 		"school_type": "Berufsschule",
@@ -14048,7 +14048,7 @@
 		"id": "BE-16599",
 		"lat": 52.547537,
 		"lon": 13.443035,
-		"name": "Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen)",
+		"name": "Elinor-Ostrom-Schule (OSZ Buerowirtschaft und Dienstleistungen)",
 		"official_id": "03B07",
 		"phone": "421854-11",
 		"school_type": "Berufsfachschule",
@@ -14062,7 +14062,7 @@
 		"id": "BE-16600",
 		"lat": 52.547537,
 		"lon": 13.443035,
-		"name": "Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen)",
+		"name": "Elinor-Ostrom-Schule (OSZ Buerowirtschaft und Dienstleistungen)",
 		"official_id": "03B07",
 		"phone": "421854-11",
 		"school_type": "Berufsoberschule",
@@ -14076,7 +14076,7 @@
 		"id": "BE-16601",
 		"lat": 52.547537,
 		"lon": 13.443035,
-		"name": "Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen)",
+		"name": "Elinor-Ostrom-Schule (OSZ Buerowirtschaft und Dienstleistungen)",
 		"official_id": "03B07",
 		"phone": "421854-11",
 		"school_type": "Berufliches Gymnasium",
@@ -14090,11 +14090,11 @@
 		"id": "BE-16602",
 		"lat": 52.5052183,
 		"lon": 13.3973718,
-		"name": "DIE ETAGE-Schule für die Darstellenden Künste e.V.",
+		"name": "DIE ETAGE-Schule fuer die Darstellenden Kuenste e.V.",
 		"official_id": "02E10",
 		"phone": "6912095",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -14107,8 +14107,8 @@
 		"name": "Tanzakademie balance 1",
 		"official_id": "07E15",
 		"phone": "75446810",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -14118,7 +14118,7 @@
 		"id": "BE-16604",
 		"lat": 52.472415,
 		"lon": 13.448667,
-		"name": "Löwenzahn-Schule (Grundschule)",
+		"name": "Loewenzahn-Schule (Grundschule)",
 		"official_id": "08G36",
 		"phone": "6839050-0",
 		"school_type": "Grundschule",
@@ -14154,7 +14154,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Köpenicker Str. 325, 12555 Berlin",
+		"address": "Koepenicker Str. 325, 12555 Berlin",
 		"fax": "65762018",
 		"full_time_school": false,
 		"id": "BE-16607",
@@ -14163,8 +14163,8 @@
 		"name": "Informationstechnik Internationale Schule Berlin",
 		"official_id": "09E07",
 		"phone": "65762018",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -14182,13 +14182,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Pfarrer-Heß-Weg 3, 12355 Berlin",
+		"address": "Pfarrer-Hess-Weg 3, 12355 Berlin",
 		"fax": "319583-21",
 		"full_time_school": "",
 		"id": "BE-16609",
 		"lat": 52.419354,
 		"lon": 13.509246,
-		"name": "3. Schulpraktisches Seminar Neukölln",
+		"name": "3. Schulpraktisches Seminar Neukoelln",
 		"official_id": "08A04",
 		"phone": "319583-40",
 		"school_type": "Schulpraktisches Seminar",
@@ -14216,7 +14216,7 @@
 		"id": "BE-16611",
 		"lat": 52.403386,
 		"lon": 13.576917,
-		"name": "Otfried-Preußler-Grundschule",
+		"name": "Otfried-Preussler-Grundschule",
 		"official_id": "12G34",
 		"phone": "4366038-0",
 		"school_type": "Grundschule",
@@ -14261,8 +14261,8 @@
 		"name": "Schule an der Strauchwiese",
 		"official_id": "03S09",
 		"phone": "47607930",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -14275,8 +14275,8 @@
 		"name": "Marianne-Buggenhagen-Schule",
 		"official_id": "03S10",
 		"phone": "948788-0",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -14286,7 +14286,7 @@
 		"id": "BE-16616",
 		"lat": 52.5936674,
 		"lon": 13.4001902,
-		"name": "Berufliche Schule für Sozialwesen Pankow",
+		"name": "Berufliche Schule fuer Sozialwesen Pankow",
 		"official_id": "03B02",
 		"phone": "500199-10",
 		"school_type": "Fachoberschule",
@@ -14300,7 +14300,7 @@
 		"id": "BE-16617",
 		"lat": 52.5936674,
 		"lon": 13.4001902,
-		"name": "Berufliche Schule für Sozialwesen Pankow",
+		"name": "Berufliche Schule fuer Sozialwesen Pankow",
 		"official_id": "03B02",
 		"phone": "500199-10",
 		"school_type": "Fachschule",
@@ -14314,7 +14314,7 @@
 		"id": "BE-16618",
 		"lat": 52.5936674,
 		"lon": 13.4001902,
-		"name": "Berufliche Schule für Sozialwesen Pankow",
+		"name": "Berufliche Schule fuer Sozialwesen Pankow",
 		"official_id": "03B02",
 		"phone": "500199-10",
 		"school_type": "Berufsfachschule",
@@ -14328,7 +14328,7 @@
 		"id": "BE-16619",
 		"lat": 52.5936674,
 		"lon": 13.4001902,
-		"name": "Berufliche Schule für Sozialwesen Pankow",
+		"name": "Berufliche Schule fuer Sozialwesen Pankow",
 		"official_id": "03B02",
 		"phone": "500199-10",
 		"school_type": "Berufsschule",
@@ -14342,7 +14342,7 @@
 		"id": "BE-16620",
 		"lat": 52.5786153,
 		"lon": 13.2836953,
-		"name": "Havelmüller-Grundschule",
+		"name": "Havelmueller-Grundschule",
 		"official_id": "12G01",
 		"phone": "4322101",
 		"school_type": "Grundschule",
@@ -14356,7 +14356,7 @@
 		"id": "BE-16621",
 		"lat": 52.564932,
 		"lon": 13.354262,
-		"name": "Grundschule am Schäfersee",
+		"name": "Grundschule am Schaefersee",
 		"official_id": "12G02",
 		"phone": "4567474",
 		"school_type": "Grundschule",
@@ -14392,7 +14392,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Büchsenweg 23 A, 13409 Berlin",
+		"address": "Buechsenweg 23 A, 13409 Berlin",
 		"fax": "49630-42",
 		"full_time_school": true,
 		"id": "BE-16624",
@@ -14454,7 +14454,7 @@
 		"id": "BE-16628",
 		"lat": 52.54067,
 		"lon": 13.629124,
-		"name": "Bücherwurm-Schule am Weiher (Grundschule)",
+		"name": "Buecherwurm-Schule am Weiher (Grundschule)",
 		"official_id": "10G19",
 		"phone": "9918148",
 		"school_type": "Grundschule",
@@ -14476,7 +14476,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönewalder Str. 9, 12627 Berlin",
+		"address": "Schoenewalder Str. 9, 12627 Berlin",
 		"fax": "94395872",
 		"full_time_school": true,
 		"id": "BE-16630",
@@ -14560,7 +14560,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Köpenicker Str. 148, 12355 Berlin",
+		"address": "Koepenicker Str. 148, 12355 Berlin",
 		"fax": "6691866",
 		"full_time_school": true,
 		"id": "BE-16636",
@@ -14644,7 +14644,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Ostpreußendamm 166, 12207 Berlin",
+		"address": "Ostpreussendamm 166, 12207 Berlin",
 		"fax": "772057999",
 		"full_time_school": false,
 		"id": "BE-16642",
@@ -14672,7 +14672,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönhauser Allee 73, 10437 Berlin",
+		"address": "Schoenhauser Allee 73, 10437 Berlin",
 		"fax": "4478293",
 		"full_time_school": false,
 		"id": "BE-16644",
@@ -14681,8 +14681,8 @@
 		"name": "Theaterstudio e.V. Berlin-Brandenburg",
 		"official_id": "03E07",
 		"phone": "4478293",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -14779,7 +14779,7 @@
 		"name": "August-Sander-Schule",
 		"official_id": "02B01",
 		"phone": "2936276-0",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -14863,7 +14863,7 @@
 		"name": "Konrad-Zuse-Oberschule",
 		"official_id": "03B06",
 		"phone": "9160940",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -14874,7 +14874,7 @@
 		"id": "BE-16658",
 		"lat": 52.429127,
 		"lon": 13.589808,
-		"name": "4. Schulpraktisches Seminar Treptow-Köpenick",
+		"name": "4. Schulpraktisches Seminar Treptow-Koepenick",
 		"official_id": "09A04",
 		"phone": "3474509-10",
 		"school_type": "Schulpraktisches Seminar",
@@ -14902,7 +14902,7 @@
 		"id": "BE-16660",
 		"lat": 52.568564,
 		"lon": 13.506132,
-		"name": "Schule am Wäldchen (Grundschule)",
+		"name": "Schule am Waeldchen (Grundschule)",
 		"official_id": "11G25",
 		"phone": "92403080",
 		"school_type": "Grundschule",
@@ -15000,7 +15000,7 @@
 		"id": "BE-16667",
 		"lat": 52.443047,
 		"lon": 13.310873,
-		"name": "Gemeinschaftsschule nach der Pädagogik Berthold Ottos",
+		"name": "Gemeinschaftsschule nach der Paedagogik Berthold Ottos",
 		"official_id": "06P13",
 		"phone": "8335090",
 		"school_type": "Integrierte Sekundarschule",
@@ -15014,11 +15014,11 @@
 		"id": "BE-16668",
 		"lat": 52.525833333333,
 		"lon": 13.403888888889,
-		"name": "Seminar für Waldorfpädagogik Berlin",
+		"name": "Seminar fuer Waldorfpaedagogik Berlin",
 		"official_id": "01E13",
 		"phone": "6187073",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -15031,8 +15031,8 @@
 		"name": "Computer-Bildungszentrum",
 		"official_id": "02E14",
 		"phone": "6124434",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -15045,8 +15045,8 @@
 		"name": "TREND-Schule",
 		"official_id": "02E15",
 		"phone": "6146000",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -15112,11 +15112,11 @@
 		"id": "BE-16675",
 		"lat": 52.45221,
 		"lon": 13.568713,
-		"name": "Mediadesign Hochschule für Design und Informatik GmbH",
+		"name": "Mediadesign Hochschule fuer Design und Informatik GmbH",
 		"official_id": "02E20",
 		"phone": "39926660",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -15126,11 +15126,11 @@
 		"id": "BE-16676",
 		"lat": 52.482919,
 		"lon": 13.28085,
-		"name": "Verein zur Förderung des modernen Tanzes e.V.",
+		"name": "Verein zur Foerderung des modernen Tanzes e.V.",
 		"official_id": "04E22",
 		"phone": "8263220",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -15143,8 +15143,8 @@
 		"name": "Sabine Roth-Ballettschule",
 		"official_id": "02E34",
 		"phone": "7069250",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -15157,8 +15157,8 @@
 		"name": "Private Musikschule Johannes Knebel",
 		"official_id": "06E08",
 		"phone": "7721309",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -15168,7 +15168,7 @@
 		"id": "BE-16679",
 		"lat": 52.443047,
 		"lon": 13.310873,
-		"name": "Grundschule an der Bäke",
+		"name": "Grundschule an der Baeke",
 		"official_id": "06G31",
 		"phone": "84416430",
 		"school_type": "Grundschule",
@@ -15204,17 +15204,17 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönwalder Allee 26, 13587 Berlin",
+		"address": "Schoenwalder Allee 26, 13587 Berlin",
 		"fax": "33609450",
 		"full_time_school": false,
 		"id": "BE-16682",
 		"lat": 52.567677,
 		"lon": 13.192425,
-		"name": "Wichern-Kolleg, Diakonenausbildungsstätte",
+		"name": "Wichern-Kolleg, Diakonenausbildungsstaette",
 		"official_id": "05E03",
 		"phone": "33609332",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -15227,8 +15227,8 @@
 		"name": "Bibelschule Gemeinde auf dem Weg",
 		"official_id": "12E05",
 		"phone": "857919-222",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -15238,11 +15238,11 @@
 		"id": "BE-16684",
 		"lat": 52.43059,
 		"lon": 13.30917,
-		"name": "Institut für Psychotherapie e.V. Berlin",
+		"name": "Institut fuer Psychotherapie e.V. Berlin",
 		"official_id": "06E02",
 		"phone": "84186711",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -15266,7 +15266,7 @@
 		"id": "BE-16686",
 		"lat": 52.449028,
 		"lon": 13.399888,
-		"name": "Schätzelberg-Grundschule",
+		"name": "Schaetzelberg-Grundschule",
 		"official_id": "07G23",
 		"phone": "902777462",
 		"school_type": "Grundschule",
@@ -15283,8 +15283,8 @@
 		"name": "Grone-Schule Berlin gGmbH",
 		"official_id": "04E46",
 		"phone": "399958-0",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -15297,7 +15297,7 @@
 		"name": "Loschmidt-Oberschule",
 		"official_id": "04B01",
 		"phone": "345058-10",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -15434,7 +15434,7 @@
 		"id": "BE-16698",
 		"lat": 52.456325,
 		"lon": 13.27841,
-		"name": "Erich-Kästner-Grundschule",
+		"name": "Erich-Kaestner-Grundschule",
 		"official_id": "06G04",
 		"phone": "844148-60",
 		"school_type": "Grundschule",
@@ -15476,7 +15476,7 @@
 		"id": "BE-16701",
 		"lat": 52.501757,
 		"lon": 13.305474,
-		"name": "Heilpraktikerfachschule für Aus- und Weiterbildung",
+		"name": "Heilpraktikerfachschule fuer Aus- und Weiterbildung",
 		"official_id": "04E10",
 		"phone": "3232042",
 		"school_type": "Heilpraktikerschule",
@@ -15507,7 +15507,7 @@
 		"name": "Annedore-Leber-Oberschule",
 		"official_id": "08B01",
 		"phone": "6658836-1",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -15518,7 +15518,7 @@
 		"id": "BE-16704",
 		"lat": 52.497846,
 		"lon": 13.299773,
-		"name": "Deutsche Paracelsus Schulen für Naturheilverfahren GmbH",
+		"name": "Deutsche Paracelsus Schulen fuer Naturheilverfahren GmbH",
 		"official_id": "04E21",
 		"phone": "89092193",
 		"school_type": "Heilpraktikerschule",
@@ -15546,7 +15546,7 @@
 		"id": "BE-16706",
 		"lat": 52.499768,
 		"lon": 13.31837,
-		"name": "Akademie für Fremdsprachen GmbH",
+		"name": "Akademie fuer Fremdsprachen GmbH",
 		"official_id": "04E17",
 		"phone": "88663393",
 		"school_type": "Sprachenschule",
@@ -15644,11 +15644,11 @@
 		"id": "BE-16713",
 		"lat": 52.500616,
 		"lon": 13.351087,
-		"name": "BFT-Schule für Tourismus",
+		"name": "BFT-Schule fuer Tourismus",
 		"official_id": "07E20",
 		"phone": "23629024",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -15672,7 +15672,7 @@
 		"id": "BE-16715",
 		"lat": 52.491048,
 		"lon": 13.380572,
-		"name": "Adolf-Glaßbrenner-Grundschule",
+		"name": "Adolf-Glassbrenner-Grundschule",
 		"official_id": "02G31",
 		"phone": "50587531",
 		"school_type": "Grundschule",
@@ -15708,7 +15708,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Kurfürstendamm 21, 10719 Berlin",
+		"address": "Kurfuerstendamm 21, 10719 Berlin",
 		"fax": "3241045",
 		"full_time_school": false,
 		"id": "BE-16718",
@@ -15770,7 +15770,7 @@
 		"id": "BE-16724",
 		"lat": 52.515474,
 		"lon": 13.414891,
-		"name": "BEST-Sabel Gemeinützige Bildungsgesellschaft",
+		"name": "BEST-Sabel Gemeinuetzige Bildungsgesellschaft",
 		"official_id": "01P14",
 		"phone": "428491-0",
 		"school_type": "Berufsfachschule",
@@ -15784,7 +15784,7 @@
 		"id": "BE-16725",
 		"lat": 52.515474,
 		"lon": 13.414891,
-		"name": "BEST-Sabel Gemeinützige Bildungsgesellschaft",
+		"name": "BEST-Sabel Gemeinuetzige Bildungsgesellschaft",
 		"official_id": "01P14",
 		"phone": "428491-0",
 		"school_type": "Fachoberschule",
@@ -15798,7 +15798,7 @@
 		"id": "BE-16726",
 		"lat": 52.515474,
 		"lon": 13.414891,
-		"name": "BEST-Sabel Gemeinützige Bildungsgesellschaft",
+		"name": "BEST-Sabel Gemeinuetzige Bildungsgesellschaft",
 		"official_id": "01P14",
 		"phone": "428491-0",
 		"school_type": "Fachschule",
@@ -15960,7 +15960,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Groß-Ziethener Chaussee 73, 12355 Berlin",
+		"address": "Gross-Ziethener Chaussee 73, 12355 Berlin",
 		"fax": "6632321",
 		"full_time_school": true,
 		"id": "BE-16738",
@@ -16100,13 +16100,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Hänselstr. 6, 12057 Berlin",
+		"address": "Haenselstr. 6, 12057 Berlin",
 		"fax": "68597355",
 		"full_time_school": true,
 		"id": "BE-16748",
 		"lat": 52.467005,
 		"lon": 13.473113,
-		"name": "Schule in der Köllnischen Heide (Grundschule)",
+		"name": "Schule in der Koellnischen Heide (Grundschule)",
 		"official_id": "08G35",
 		"phone": "68296013",
 		"school_type": "Grundschule",
@@ -16226,13 +16226,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Rütlistr. 41, 12045 Berlin",
+		"address": "Ruetlistr. 41, 12045 Berlin",
 		"fax": "61309896",
 		"full_time_school": true,
 		"id": "BE-16758",
 		"lat": 52.487586,
 		"lon": 13.434291,
-		"name": "Gemeinschaftsschule auf dem Campus Rütli",
+		"name": "Gemeinschaftsschule auf dem Campus Ruetli",
 		"official_id": "08K08",
 		"phone": "600347620",
 		"school_type": "Integrierte Sekundarschule",
@@ -16260,7 +16260,7 @@
 		"id": "BE-16760",
 		"lat": 52.488893,
 		"lon": 13.449766,
-		"name": "Röntgen-Schule",
+		"name": "Roentgen-Schule",
 		"official_id": "08K09",
 		"phone": "2902764-0",
 		"school_type": "Integrierte Sekundarschule",
@@ -16274,7 +16274,7 @@
 		"id": "BE-16761",
 		"lat": 52.468665,
 		"lon": 13.433223,
-		"name": "Albrecht-Dürer-Gymnasium",
+		"name": "Albrecht-Duerer-Gymnasium",
 		"official_id": "08Y01",
 		"phone": "2219943-10",
 		"school_type": "Gymnasien",
@@ -16330,7 +16330,7 @@
 		"id": "BE-16765",
 		"lat": 52.487419,
 		"lon": 13.175385,
-		"name": "Grundschule am Windmühlenberg",
+		"name": "Grundschule am Windmuehlenberg",
 		"official_id": "05G24",
 		"phone": "3620855-0",
 		"school_type": "Grundschule",
@@ -16386,7 +16386,7 @@
 		"id": "BE-16769",
 		"lat": 52.513271,
 		"lon": 13.190565,
-		"name": "Schule an der Haveldüne (Integrierte Sekundarschule)",
+		"name": "Schule an der Havelduene (Integrierte Sekundarschule)",
 		"official_id": "05K08",
 		"phone": "365097-3",
 		"school_type": "Integrierte Sekundarschule",
@@ -16436,7 +16436,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Münsingerstr. 2, 13597 Berlin",
+		"address": "Muensingerstr. 2, 13597 Berlin",
 		"fax": "338904144",
 		"full_time_school": false,
 		"id": "BE-16773",
@@ -16478,7 +16478,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönwalder Allee 26, 13587 Berlin",
+		"address": "Schoenwalder Allee 26, 13587 Berlin",
 		"fax": "355990-54",
 		"full_time_school": false,
 		"id": "BE-16776",
@@ -16492,7 +16492,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönwalder Allee 26, 13587 Berlin",
+		"address": "Schoenwalder Allee 26, 13587 Berlin",
 		"fax": "33609697",
 		"full_time_school": false,
 		"id": "BE-16777",
@@ -16501,8 +16501,8 @@
 		"name": "August-Hermann-Francke-Schule",
 		"official_id": "05P04",
 		"phone": "33609329",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -16515,7 +16515,7 @@
 		"name": "Berufsschule des Rotkreuz-Instituts",
 		"official_id": "05P05",
 		"phone": "3650219-2",
-		"school_type": "Berufsschule mit sonderpäd. Aufgaben",
+		"school_type": "Berufsschule mit sonderpaed. Aufgaben",
 		"school_type_entity": "Berufsschule",
 		"state": "BE"
 	},
@@ -16534,7 +16534,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönwalder Allee 26-46, 13587 Berlin",
+		"address": "Schoenwalder Allee 26-46, 13587 Berlin",
 		"fax": "33609-376",
 		"full_time_school": false,
 		"id": "BE-16780",
@@ -16548,7 +16548,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Schönwalder Allee 26-46, 13587 Berlin",
+		"address": "Schoenwalder Allee 26-46, 13587 Berlin",
 		"fax": "33609-376",
 		"full_time_school": false,
 		"id": "BE-16781",
@@ -16590,13 +16590,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Rüdesheimer Str. 24-30, 14197 Berlin",
+		"address": "Ruedesheimer Str. 24-30, 14197 Berlin",
 		"fax": "9029170-33",
 		"full_time_school": true,
 		"id": "BE-16784",
 		"lat": 52.4740934,
 		"lon": 13.3143693,
-		"name": "Grundschule am Rüdesheimer Platz",
+		"name": "Grundschule am Ruedesheimer Platz",
 		"official_id": "04G19",
 		"phone": "9029170-10",
 		"school_type": "Grundschule",
@@ -16618,7 +16618,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Delbrückstr. 20 A, 14193 Berlin",
+		"address": "Delbrueckstr. 20 A, 14193 Berlin",
 		"fax": "8904969-19",
 		"full_time_school": true,
 		"id": "BE-16786",
@@ -16683,12 +16683,12 @@
 		"name": "Finkenkrug-Schule",
 		"official_id": "04S06",
 		"phone": "8277060",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
-		"address": "Gürtelstr. 16, 10409 Berlin",
+		"address": "Guertelstr. 16, 10409 Berlin",
 		"fax": "4208201-17",
 		"full_time_school": true,
 		"id": "BE-16791",
@@ -16708,7 +16708,7 @@
 		"id": "BE-16792",
 		"lat": 52.50071,
 		"lon": 13.432934,
-		"name": "Pro Inklusio - Fachschule für Sozialpädagogik",
+		"name": "Pro Inklusio - Fachschule fuer Sozialpaedagogik",
 		"official_id": "02P22",
 		"phone": "20078010",
 		"school_type": "Fachschule",
@@ -16722,11 +16722,11 @@
 		"id": "BE-16793",
 		"lat": 52.5202,
 		"lon": 13.498429,
-		"name": "DatenKlang-Schule für Musik und audiovisuelle Technik",
+		"name": "DatenKlang-Schule fuer Musik und audiovisuelle Technik",
 		"official_id": "11E11",
 		"phone": "912069-96",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -16739,8 +16739,8 @@
 		"name": "Professional Teachers Academy of Dance",
 		"official_id": "03E19",
 		"phone": "33981122",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -16778,7 +16778,7 @@
 		"id": "BE-16797",
 		"lat": 52.448121,
 		"lon": 13.531232,
-		"name": "KreativitätsGrundschule Berlin Treptow",
+		"name": "KreativitaetsGrundschule Berlin Treptow",
 		"official_id": "09P16",
 		"phone": "2250277-33",
 		"school_type": "Grundschule",
@@ -16907,8 +16907,8 @@
 		"name": "S4G School for Games GmbH",
 		"official_id": "02E35",
 		"phone": "96595244",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -16949,8 +16949,8 @@
 		"name": "Charlotte-Pfeffer-Schule",
 		"official_id": "01S07",
 		"phone": "246574-0",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -16988,11 +16988,11 @@
 		"id": "BE-16813",
 		"lat": 52.463294,
 		"lon": 13.316113,
-		"name": "MSK Berlin GbR-Schule für Musik, Sprache und Kunst",
+		"name": "MSK Berlin GbR-Schule fuer Musik, Sprache und Kunst",
 		"official_id": "06E14",
 		"phone": "99545054",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -17002,11 +17002,11 @@
 		"id": "BE-16814",
 		"lat": 52.5052183,
 		"lon": 13.3973718,
-		"name": "AID Berlin Akademie für Illustration und Design Berlin GmbH",
+		"name": "AID Berlin Akademie fuer Illustration und Design Berlin GmbH",
 		"official_id": "02E36",
 		"phone": "91206655",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -17019,8 +17019,8 @@
 		"name": "noisy Academy",
 		"official_id": "02E37",
 		"phone": "2593303-0",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -17033,8 +17033,8 @@
 		"name": "Ulrich Ernitz & Filomena Tinaburri GbR",
 		"official_id": "02E38",
 		"phone": "6158173",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -17086,7 +17086,7 @@
 		"id": "BE-16820",
 		"lat": 52.525399,
 		"lon": 13.333374,
-		"name": "G.A.L.B Förderung gGmbH",
+		"name": "G.A.L.B Foerderung gGmbH",
 		"official_id": "01P38",
 		"phone": "4005989-0",
 		"school_type": "Berufsfachschule",
@@ -17100,7 +17100,7 @@
 		"id": "BE-16821",
 		"lat": 52.525399,
 		"lon": 13.333374,
-		"name": "G.A.L.B Förderung gGmbH",
+		"name": "G.A.L.B Foerderung gGmbH",
 		"official_id": "01P38",
 		"phone": "4005989-0",
 		"school_type": "Fachschule",
@@ -17184,7 +17184,7 @@
 		"id": "BE-16827",
 		"lat": 52.475726,
 		"lon": 13.356242,
-		"name": "SPI Fachschule für Sozialpädagogik",
+		"name": "SPI Fachschule fuer Sozialpaedagogik",
 		"official_id": "07P12",
 		"phone": "2593739-0",
 		"school_type": "Fachschule",
@@ -17198,7 +17198,7 @@
 		"id": "BE-16828",
 		"lat": 52.507964,
 		"lon": 13.399221,
-		"name": "VIA - Berufsfachschule für Altenpflege",
+		"name": "VIA - Berufsfachschule fuer Altenpflege",
 		"official_id": "02P26",
 		"phone": "253739-27",
 		"school_type": "Berufsfachschule",
@@ -17226,7 +17226,7 @@
 		"id": "BE-16830",
 		"lat": 52.526692,
 		"lon": 13.347848,
-		"name": "Berufsfachschule  Paulo Freire im Zentrum ÜBERLEBEN",
+		"name": "Berufsfachschule  Paulo Freire im Zentrum ueBERLEBEN",
 		"official_id": "01P40",
 		"phone": "30390652",
 		"school_type": "Berufsfachschule",
@@ -17290,7 +17290,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Stolpmünder Weg 45, 13503 Berlin",
+		"address": "Stolpmuender Weg 45, 13503 Berlin",
 		"fax": "",
 		"full_time_school": true,
 		"id": "BE-16835",
@@ -17304,7 +17304,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Stolpmünder Weg 45, 13503 Berlin",
+		"address": "Stolpmuender Weg 45, 13503 Berlin",
 		"fax": "",
 		"full_time_school": true,
 		"id": "BE-16836",
@@ -17366,7 +17366,7 @@
 		"id": "BE-16841",
 		"lat": 52.516367,
 		"lon": 13.412551,
-		"name": "INHAUS Akademie - Berufsfachschule für Altenpflege",
+		"name": "INHAUS Akademie - Berufsfachschule fuer Altenpflege",
 		"official_id": "01P43",
 		"phone": "2400064-0",
 		"school_type": "Berufsfachschule",
@@ -17408,7 +17408,7 @@
 		"id": "BE-16844",
 		"lat": 52.524974,
 		"lon": 13.465295,
-		"name": "BmU-Wirtschafts- und Steuerfachschule für den Mittelstand",
+		"name": "BmU-Wirtschafts- und Steuerfachschule fuer den Mittelstand",
 		"official_id": "11E13",
 		"phone": "97608679",
 		"school_type": "Wirtschafts- u. Verwaltungsschule",
@@ -17425,8 +17425,8 @@
 		"name": "CampusHealth Service GmbH",
 		"official_id": "04E51",
 		"phone": "3759216-2",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -17439,8 +17439,8 @@
 		"name": "Campus & more GmbH",
 		"official_id": "04E52",
 		"phone": "3759216-2",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -17478,7 +17478,7 @@
 		"id": "BE-16849",
 		"lat": 52.545434,
 		"lon": 13.559874,
-		"name": "Bildungsinstitut Brückner",
+		"name": "Bildungsinstitut Brueckner",
 		"official_id": "10P15",
 		"phone": "405774-60",
 		"school_type": "Berufsfachschule",
@@ -17492,7 +17492,7 @@
 		"id": "BE-16850",
 		"lat": 52.545434,
 		"lon": 13.559874,
-		"name": "Bildungsinstitut Brückner",
+		"name": "Bildungsinstitut Brueckner",
 		"official_id": "10P15",
 		"phone": "405774-60",
 		"school_type": "Fachschule",
@@ -17500,7 +17500,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Lützowstr. 105 , 10785 Berlin",
+		"address": "Luetzowstr. 105 , 10785 Berlin",
 		"fax": "6135-720",
 		"full_time_school": false,
 		"id": "BE-16851",
@@ -17509,8 +17509,8 @@
 		"name": "Maskenbildnerschule Hasso von Hugo GmbH",
 		"official_id": "01E31",
 		"phone": "6135-620",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -17523,8 +17523,8 @@
 		"name": "Ausbildungszentrum OTA GmbH",
 		"official_id": "11E14",
 		"phone": "557560",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -17534,11 +17534,11 @@
 		"id": "BE-16853",
 		"lat": 52.487222222222,
 		"lon": 13.330833333333,
-		"name": "Euro Akademie Berlin – Schule für Übersetzer und Dolmetscher",
+		"name": "Euro Akademie Berlin – Schule fuer uebersetzer und Dolmetscher",
 		"official_id": "12E06",
 		"phone": "435570-30",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -17570,7 +17570,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Hänselstr. 14, 12437 Berlin",
+		"address": "Haenselstr. 14, 12437 Berlin",
 		"fax": "5328555",
 		"full_time_school": true,
 		"id": "BE-16856",
@@ -17598,7 +17598,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Köpenicker Landstr. 185 A, 12437 Berlin",
+		"address": "Koepenicker Landstr. 185 A, 12437 Berlin",
 		"fax": "53211930",
 		"full_time_school": "",
 		"id": "BE-16858",
@@ -17607,12 +17607,12 @@
 		"name": "6. Schule",
 		"official_id": "09S06",
 		"phone": "5328067",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
-		"address": "Köpenicker Landstr. 185 A, 12437 Berlin",
+		"address": "Koepenicker Landstr. 185 A, 12437 Berlin",
 		"fax": "53211930",
 		"full_time_school": "",
 		"id": "BE-16859",
@@ -17705,12 +17705,12 @@
 		"name": "Internationale Dance Academy Berlin",
 		"official_id": "07E26",
 		"phone": "8738818",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
-		"address": "Schönfließer Str. 7, 10439 Berlin",
+		"address": "Schoenfliesser Str. 7, 10439 Berlin",
 		"fax": "44717-306",
 		"full_time_school": true,
 		"id": "BE-16866",
@@ -17758,11 +17758,11 @@
 		"id": "BE-16869",
 		"lat": 52.50551,
 		"lon": 13.390481,
-		"name": "f/16 Schule für Fotografie",
+		"name": "f/16 Schule fuer Fotografie",
 		"official_id": "02E39",
 		"phone": "34399245",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -17772,11 +17772,11 @@
 		"id": "BE-16870",
 		"lat": 52.535621,
 		"lon": 13.394654,
-		"name": "Wave Akademie für Digitale Medien",
+		"name": "Wave Akademie fuer Digitale Medien",
 		"official_id": "01E32",
 		"phone": "28869-519",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -17789,12 +17789,12 @@
 		"name": "Bundeswehrfachschule Berlin",
 		"official_id": "05E05",
 		"phone": "36872-503",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
-		"address": "Kurfürstenstr. 53, 10785 Berlin",
+		"address": "Kurfuerstenstr. 53, 10785 Berlin",
 		"fax": "41100-14",
 		"full_time_school": false,
 		"id": "BE-16872",
@@ -17814,7 +17814,7 @@
 		"id": "BE-16873",
 		"lat": 52.402934,
 		"lon": 13.400469,
-		"name": "4. Schulpraktisches Seminar Tempelhof-Schöneberg",
+		"name": "4. Schulpraktisches Seminar Tempelhof-Schoeneberg",
 		"official_id": "07A07",
 		"phone": "705507-811",
 		"school_type": "Schulpraktisches Seminar",
@@ -17831,8 +17831,8 @@
 		"name": "Schauspielschule \"Der Kreis\" (Fritz-Kirchhoff-Schule)",
 		"official_id": "02E40",
 		"phone": "8225124",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -17845,18 +17845,18 @@
 		"name": "PRO-STAGE Berlin GmbH",
 		"official_id": "02E41",
 		"phone": "61209261",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
-		"address": "Am Bärensprung 58, 13503 Berlin",
+		"address": "Am Baerensprung 58, 13503 Berlin",
 		"fax": "4306713",
 		"full_time_school": false,
 		"id": "BE-16876",
 		"lat": 52.61193,
 		"lon": 13.246407,
-		"name": "EJF-Fachschule für Sozialpädagogik",
+		"name": "EJF-Fachschule fuer Sozialpaedagogik",
 		"official_id": "12P15",
 		"phone": "4306710",
 		"school_type": "Fachschule",
@@ -17906,13 +17906,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Wildhüterweg 5, 12353 Berlin",
+		"address": "Wildhueterweg 5, 12353 Berlin",
 		"fax": "66706012",
 		"full_time_school": "",
 		"id": "BE-16880",
 		"lat": 52.421072,
 		"lon": 13.457366,
-		"name": "5. Schulpraktisches Seminar Neukölln",
+		"name": "5. Schulpraktisches Seminar Neukoelln",
 		"official_id": "08A06",
 		"phone": "6706663123",
 		"school_type": "Schulpraktisches Seminar",
@@ -17948,7 +17948,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Kühnemannstr. 26, 13409 Berlin",
+		"address": "Kuehnemannstr. 26, 13409 Berlin",
 		"fax": "98322410-9",
 		"full_time_school": true,
 		"id": "BE-16883",
@@ -17976,7 +17976,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Willi-Sänger-Str. 1, 12437 Berlin",
+		"address": "Willi-Saenger-Str. 1, 12437 Berlin",
 		"fax": "53007-795",
 		"full_time_school": true,
 		"id": "BE-16885",
@@ -18013,8 +18013,8 @@
 		"name": "34. Schule (Grundschule)",
 		"official_id": "10G34",
 		"phone": "93668090",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -18038,7 +18038,7 @@
 		"id": "BE-16891",
 		"lat": 52.472619,
 		"lon": 13.449423,
-		"name": "b-trend-setting UG (haftungsbeschränkt) media & more",
+		"name": "b-trend-setting UG (haftungsbeschraenkt) media & more",
 		"official_id": "08P13",
 		"phone": "85610401",
 		"school_type": "Berufsschule",
@@ -18052,7 +18052,7 @@
 		"id": "BE-16892",
 		"lat": 52.525621,
 		"lon": 13.468703,
-		"name": "Pädalogik GmbH - Fachschule für Sozialpädagogik",
+		"name": "Paedalogik GmbH - Fachschule fuer Sozialpaedagogik",
 		"official_id": "11P17",
 		"phone": "3474761-70",
 		"school_type": "Fachschule",
@@ -18069,8 +18069,8 @@
 		"name": "Berlin Metropolitan School",
 		"official_id": "01E34",
 		"phone": "8872739-0",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -18080,7 +18080,7 @@
 		"id": "BE-16894",
 		"lat": 52.600731,
 		"lon": 13.342577,
-		"name": "Campus Hannah Höch (Gemeinschaftsschule)",
+		"name": "Campus Hannah Hoech (Gemeinschaftsschule)",
 		"official_id": "12K12",
 		"phone": "4089996-0",
 		"school_type": "Integrierte Sekundarschule",
@@ -18094,7 +18094,7 @@
 		"id": "BE-16895",
 		"lat": 52.540215,
 		"lon": 13.358798,
-		"name": "Kristall Grundschule - Inklusive Grundschule in freier Trägerschaft",
+		"name": "Kristall Grundschule - Inklusive Grundschule in freier Traegerschaft",
 		"official_id": "01P50",
 		"phone": "308738-41",
 		"school_type": "Grundschule",
@@ -18108,7 +18108,7 @@
 		"id": "BE-16896",
 		"lat": 52.5313509,
 		"lon": 13.4089941,
-		"name": "WETEK-Fachschule für Sozialpädagogik",
+		"name": "WETEK-Fachschule fuer Sozialpaedagogik",
 		"official_id": "03P36",
 		"phone": "44383365",
 		"school_type": "Fachschule",
@@ -18125,8 +18125,8 @@
 		"name": "NextLevel Akademie",
 		"official_id": "07E27",
 		"phone": "89640064",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -18139,8 +18139,8 @@
 		"name": "Bernsteiner & Urbschat Gestalterei Berlin GmbH",
 		"official_id": "04E53",
 		"phone": "7551330-15",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -18172,13 +18172,13 @@
 		"state": "BE"
 	},
 	{
-		"address": "Pfarrer-Heß-Weg 3, 12355 Berlin",
+		"address": "Pfarrer-Hess-Weg 3, 12355 Berlin",
 		"fax": "319583-21",
 		"full_time_school": "",
 		"id": "BE-16901",
 		"lat": 52.419354,
 		"lon": 13.509246,
-		"name": "6. Schulpraktisches Seminar Neukölln",
+		"name": "6. Schulpraktisches Seminar Neukoelln",
 		"official_id": "08A07",
 		"phone": "319583-40",
 		"school_type": "Schulpraktisches Seminar",
@@ -18192,7 +18192,7 @@
 		"id": "BE-16902",
 		"lat": 52.429127,
 		"lon": 13.589808,
-		"name": "4a. Schulpraktisches Seminar Treptow-Köpenick (unbesetzt)",
+		"name": "4a. Schulpraktisches Seminar Treptow-Koepenick (unbesetzt)",
 		"official_id": "09A08",
 		"phone": "",
 		"school_type": "Schulpraktisches Seminar",
@@ -18206,7 +18206,7 @@
 		"id": "BE-16903",
 		"lat": 52.526357,
 		"lon": 13.531618,
-		"name": "Grone-Bildungszentren Berlin GmbH - gemeinnützig",
+		"name": "Grone-Bildungszentren Berlin GmbH - gemeinnuetzig",
 		"official_id": "10P17",
 		"phone": "549962-37",
 		"school_type": "Berufsfachschule",
@@ -18223,8 +18223,8 @@
 		"name": "B & U Gestalterei Berlin GmbH",
 		"official_id": "07E29",
 		"phone": "755133015",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -18256,7 +18256,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Flämingstr. 16-18, 12689 Berlin",
+		"address": "Flaemingstr. 16-18, 12689 Berlin",
 		"fax": "936687-15",
 		"full_time_school": false,
 		"id": "BE-16907",
@@ -18270,7 +18270,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Flämingstr. 16-18, 12689 Berlin",
+		"address": "Flaemingstr. 16-18, 12689 Berlin",
 		"fax": "936687-15",
 		"full_time_school": "",
 		"id": "BE-16908",
@@ -18279,8 +18279,8 @@
 		"name": "Marcana-Schule (Gemeinschaftsschule)",
 		"official_id": "10K11",
 		"phone": "936687-0",
-		"school_type": "Übrige Förderschwerpunkte",
-		"school_type_entity": "Übrige Förderschwerpunkte",
+		"school_type": "uebrige Foerderschwerpunkte",
+		"school_type_entity": "uebrige Foerderschwerpunkte",
 		"state": "BE"
 	},
 	{
@@ -18290,7 +18290,7 @@
 		"id": "BE-16909",
 		"lat": 52.503501,
 		"lon": 13.472749,
-		"name": "Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen)",
+		"name": "Friedrich-List-Schule (OSZ Bueromanagement und Wirtschaftssprachen)",
 		"official_id": "11B04",
 		"phone": "557790-60",
 		"school_type": "Berufsfachschule",
@@ -18304,7 +18304,7 @@
 		"id": "BE-16910",
 		"lat": 52.503501,
 		"lon": 13.472749,
-		"name": "Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen)",
+		"name": "Friedrich-List-Schule (OSZ Bueromanagement und Wirtschaftssprachen)",
 		"official_id": "11B04",
 		"phone": "557790-60",
 		"school_type": "Berufsoberschule",
@@ -18318,7 +18318,7 @@
 		"id": "BE-16911",
 		"lat": 52.503501,
 		"lon": 13.472749,
-		"name": "Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen)",
+		"name": "Friedrich-List-Schule (OSZ Bueromanagement und Wirtschaftssprachen)",
 		"official_id": "11B04",
 		"phone": "557790-60",
 		"school_type": "Berufsschule",
@@ -18332,7 +18332,7 @@
 		"id": "BE-16912",
 		"lat": 52.503501,
 		"lon": 13.472749,
-		"name": "Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen)",
+		"name": "Friedrich-List-Schule (OSZ Bueromanagement und Wirtschaftssprachen)",
 		"official_id": "11B04",
 		"phone": "557790-60",
 		"school_type": "Fachoberschule",
@@ -18377,8 +18377,8 @@
 		"name": "Paul-und-Charlotte-Kniese-Schule (Gemeinschaftsschule)",
 		"official_id": "11K12",
 		"phone": "516597-14",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -18402,7 +18402,7 @@
 		"id": "BE-16917",
 		"lat": 52.50938,
 		"lon": 13.525536,
-		"name": "5. Schulpraktisches Seminar Lichtenberg (zuständig für Pankow)",
+		"name": "5. Schulpraktisches Seminar Lichtenberg (zustaendig fuer Pankow)",
 		"official_id": "11A10",
 		"phone": "90212-809",
 		"school_type": "Schulpraktisches Seminar",
@@ -18444,7 +18444,7 @@
 		"id": "BE-16920",
 		"lat": 52.520469,
 		"lon": 13.490139,
-		"name": "Akademie für berufliche Bildung (AFBB) gGmbH",
+		"name": "Akademie fuer berufliche Bildung (AFBB) gGmbH",
 		"official_id": "11P18",
 		"phone": "288869-0",
 		"school_type": "Berufsschule",
@@ -18458,7 +18458,7 @@
 		"id": "BE-16921",
 		"lat": 52.520469,
 		"lon": 13.490139,
-		"name": "Akademie für berufliche Bildung (AFBB) gGmbH",
+		"name": "Akademie fuer berufliche Bildung (AFBB) gGmbH",
 		"official_id": "11P18",
 		"phone": "288869-0",
 		"school_type": "Berufsfachschule",
@@ -18472,7 +18472,7 @@
 		"id": "BE-16922",
 		"lat": 52.520469,
 		"lon": 13.490139,
-		"name": "Akademie für berufliche Bildung (AFBB) gGmbH",
+		"name": "Akademie fuer berufliche Bildung (AFBB) gGmbH",
 		"official_id": "11P18",
 		"phone": "288869-0",
 		"school_type": "Fachschule",
@@ -18486,7 +18486,7 @@
 		"id": "BE-16923",
 		"lat": 52.520469,
 		"lon": 13.490139,
-		"name": "Akademie für berufliche Bildung (AFBB) gGmbH",
+		"name": "Akademie fuer berufliche Bildung (AFBB) gGmbH",
 		"official_id": "11P18",
 		"phone": "288869-0",
 		"school_type": "Fachoberschule",
@@ -18542,7 +18542,7 @@
 		"id": "BE-16929",
 		"lat": 52.455394,
 		"lon": 13.39482,
-		"name": "Vivantes Berufsfachschule für Altenpflege",
+		"name": "Vivantes Berufsfachschule fuer Altenpflege",
 		"official_id": "07P16",
 		"phone": "923585420",
 		"school_type": "Berufsfachschule",
@@ -18559,8 +18559,8 @@
 		"name": "Cimdata.de Medienakademie Berlin",
 		"official_id": "03E21",
 		"phone": "8507263-31",
-		"school_type": "Sonstige Ergänzungsschule",
-		"school_type_entity": "Sonstige Ergänzungsschule",
+		"school_type": "Sonstige Ergaenzungsschule",
+		"school_type_entity": "Sonstige Ergaenzungsschule",
 		"state": "BE"
 	},
 	{
@@ -18570,7 +18570,7 @@
 		"id": "BE-16931",
 		"lat": 52.4530355,
 		"lon": 13.3905108,
-		"name": "Humanistische Fachschule für Sozialpädagogik",
+		"name": "Humanistische Fachschule fuer Sozialpaedagogik",
 		"official_id": "07P17",
 		"phone": "27590507",
 		"school_type": "Fachschule",
@@ -18634,7 +18634,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Hügelschanze 8-9, 13585 Berlin",
+		"address": "Huegelschanze 8-9, 13585 Berlin",
 		"fax": "4372879-11",
 		"full_time_school": false,
 		"id": "BE-16936",
@@ -18682,7 +18682,7 @@
 		"id": "BE-16940",
 		"lat": 52.483092,
 		"lon": 13.353149,
-		"name": "Freie Schule Schöneberg (Grundschule)",
+		"name": "Freie Schule Schoeneberg (Grundschule)",
 		"official_id": "07P19",
 		"phone": "89009600",
 		"school_type": "Grundschule",
@@ -18738,7 +18738,7 @@
 		"id": "BE-16944",
 		"lat": 52.532067,
 		"lon": 13.424971,
-		"name": "S.K.O.U.T. - Fachschule für Sozialpädagogik",
+		"name": "S.K.O.U.T. - Fachschule fuer Sozialpaedagogik",
 		"official_id": "03P38",
 		"phone": "67821309",
 		"school_type": "Fachschule",
@@ -18780,11 +18780,11 @@
 		"id": "BE-16947",
 		"lat": 52.549082,
 		"lon": 13.193775,
-		"name": "Schule am Grüngürtel",
+		"name": "Schule am Gruenguertel",
 		"official_id": "05S01",
 		"phone": "4372879-10",
-		"school_type": "Förderschwerp.\"Lernen\"",
-		"school_type_entity": "FöS Lernen",
+		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
 	{
@@ -18808,7 +18808,7 @@
 		"id": "BE-16950",
 		"lat": 52.521018,
 		"lon": 13.431507,
-		"name": "Kreativitätsschulzentrum Berlin gGmbH",
+		"name": "Kreativitaetsschulzentrum Berlin gGmbH",
 		"official_id": "02P12",
 		"phone": "29035117",
 		"school_type": "Gymnasien",
@@ -18816,7 +18816,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Kurfürstendamm 207-208, 10719 Berlin",
+		"address": "Kurfuerstendamm 207-208, 10719 Berlin",
 		"fax": "",
 		"full_time_school": false,
 		"id": "BE-16952",
@@ -18825,8 +18825,8 @@
 		"name": "Berlin Dance Institute",
 		"official_id": "04E54",
 		"phone": "",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -18850,7 +18850,7 @@
 		"id": "BE-16954",
 		"lat": 52.512944,
 		"lon": 13.397932,
-		"name": "Staatliche Wirtschaftsfachschule für Hotellerie und Gastronomie Berlin",
+		"name": "Staatliche Wirtschaftsfachschule fuer Hotellerie und Gastronomie Berlin",
 		"official_id": "01B05",
 		"phone": "206131-30",
 		"school_type": "Berufsschule",
@@ -18858,7 +18858,7 @@
 		"state": "BE"
 	},
 	{
-		"address": "Straßmannstr. 14-16, 10249 Berlin",
+		"address": "Strassmannstr. 14-16, 10249 Berlin",
 		"fax": "420276-321",
 		"full_time_school": "",
 		"id": "BE-16955",
@@ -18976,7 +18976,7 @@
 		"id": "BE-16964",
 		"lat": 52.48237,
 		"lon": 13.333499,
-		"name": "Kläre-Bloch-Schule",
+		"name": "Klaere-Bloch-Schule",
 		"official_id": "04B08",
 		"phone": "857589-39",
 		"school_type": "Berufsschule",
@@ -18993,8 +18993,8 @@
 		"name": "Temple-Grandin-Schule",
 		"official_id": "02S01",
 		"phone": "293474-231",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -19007,8 +19007,8 @@
 		"name": "Comenius-Schule",
 		"official_id": "04S07",
 		"phone": "8649950",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -19021,8 +19021,8 @@
 		"name": "Schule am Stadtrand",
 		"official_id": "05S04",
 		"phone": "308324-6",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -19035,8 +19035,8 @@
 		"name": "Paul-und-Charlotte-Kniese-Schule",
 		"official_id": "11S04",
 		"phone": "516597-14",
-		"school_type": "Förderschwerp.\"Geistige Entwicklung\"",
-		"school_type_entity": "FöS Geistige Entwicklung",
+		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
 	{
@@ -19074,7 +19074,7 @@
 		"id": "BE-16971",
 		"lat": 52.503501,
 		"lon": 13.472749,
-		"name": "Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen)",
+		"name": "Friedrich-List-Schule (OSZ Bueromanagement und Wirtschaftssprachen)",
 		"official_id": "11B04",
 		"phone": "557790-60",
 		"school_type": "Fachschule",
@@ -19088,7 +19088,7 @@
 		"id": "BE-16972",
 		"lat": 52.402934,
 		"lon": 13.400469,
-		"name": "5. Schulpraktisches Seminar Tempelhof-Schöneberg",
+		"name": "5. Schulpraktisches Seminar Tempelhof-Schoeneberg",
 		"official_id": "07A08",
 		"phone": "705507812",
 		"school_type": "Schulpraktisches Seminar",
@@ -19130,11 +19130,11 @@
 		"id": "BE-16975",
 		"lat": 52.5419029,
 		"lon": 13.3930634,
-		"name": "NEUE Schule für Fotografie Berlin",
+		"name": "NEUE Schule fuer Fotografie Berlin",
 		"official_id": "01E35",
 		"phone": "28046862",
-		"school_type": "Künstlerische Schule",
-		"school_type_entity": "Künstlerische Schule",
+		"school_type": "Kuenstlerische Schule",
+		"school_type_entity": "Kuenstlerische Schule",
 		"state": "BE"
 	},
 	{
@@ -19144,7 +19144,7 @@
 		"id": "BE-16976",
 		"lat": 52.461745,
 		"lon": 13.301885,
-		"name": "Grundschule Königin-Luise-Stiftung",
+		"name": "Grundschule Koenigin-Luise-Stiftung",
 		"official_id": "06P22",
 		"phone": "",
 		"school_type": "Grundschule",
@@ -19158,7 +19158,7 @@
 		"id": "BE-16977",
 		"lat": 52.460889,
 		"lon": 13.302638,
-		"name": "Sekundarschule Königin-Luise-Stiftung",
+		"name": "Sekundarschule Koenigin-Luise-Stiftung",
 		"official_id": "06P23",
 		"phone": "",
 		"school_type": "Integrierte Sekundarschule",

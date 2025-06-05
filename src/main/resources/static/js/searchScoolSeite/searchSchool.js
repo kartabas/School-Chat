@@ -45,25 +45,29 @@ $(document).ready(function () {
 
 
 
-	$('.json__object').click(function () {
+	$('.json__object').click(function (e) {
+		//e.preventDefault();
 		let nameValue = $(this).find('.name').text();
 		$("#searchSchool").val(nameValue);
 
 	});
 
-	$(".json__object").on("click", function () {
+	// Keep and update this block:
+	$(".json__object").on("click", function (e) {
+		e.preventDefault();
 		let index = $(".json__object").index(this);
 
-
+		// Make sure 'schools' is defined and up-to-date
 		let currentSchool = schools[index];
 
-		console.log(currentSchool);
-		//$('#currentSchool').val(currentSchool);
-		$('#currentSchool').val(JSON.stringify(currentSchool));
-
-		$('#schoolForm').submit();
+		if (currentSchool) {
+			$("#searchSchool").val(currentSchool.name); // Set input value if needed
+			$('#currentSchool').val(JSON.stringify(currentSchool));
+			$('#schoolForm').submit();
+		} else {
+			console.error("School data not found for index:", index);
+		}
 	});
-
 
 
 
@@ -87,7 +91,7 @@ $(document).ready(function () {
 		"Sachsen",
 		"Sachsen-Anhalt",
 		"Schleswig-Holstein",
-		"Thüringen"
+		"Thueringen"
 	];
 
 
@@ -129,7 +133,8 @@ $(document).ready(function () {
 	renderRegions(regions);
 
 	// Open/close dropdown panel
-	$('#region-selector-toggle').on('click', function () {
+	$('#region-selector-toggle').on('click', function (event) {
+		event.stopPropagation(); // Prevent click from propagating to document
 		$('.dropdown-panel').slideToggle(200);
 		$('.dropdown-icon').toggleClass('open');
 	});
@@ -160,9 +165,11 @@ $(document).ready(function () {
 
 	// Select region from the list
 	$(document).on('click', '.region-item', function (e) {
+		e.stopPropagation(); // Prevent click from propagating to document
 		const region = $(this).data('region');
 
 		//Update selected region
+
 		selectedRegion = region.toLowerCase();
 
 		// Update the displayed region name
@@ -180,7 +187,8 @@ $(document).ready(function () {
 
 
 
-		let selectedRegionNameValue = selectedRegion.toLowerCase();
+
+		let selectedRegionNameValue = selectedRegion.toLowerCase().replace(/-/g, "_").replace(/ü/g, "ue").replace(/ö/g, "oe").replace(/ä/g, "ae");
 		$.ajax({
 			url: 'http://localhost:8080/',
 			type: 'GET',

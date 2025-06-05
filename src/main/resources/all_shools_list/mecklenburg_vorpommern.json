@@ -1,6 +1,6 @@
 [
 	{
-		"address": "Heinrich-Heine-Straße 3, 18119 Rostock",
+		"address": "Heinrich-Heine-Strasse 3, 18119 Rostock",
 		"fax": "0381/3755641",
 		"full_time_school": false,
 		"id": "MV-75130301",
@@ -14,13 +14,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Turkuer Straße 59 a, 18107 Rostock",
+		"address": "Turkuer Strasse 59 a, 18107 Rostock",
 		"fax": "0381/1284843",
 		"full_time_school": false,
 		"id": "MV-75130302",
 		"lat": 54.145159,
 		"lon": 12.051724,
-		"name": "Grundschule \"Lütt Matten\", Rostock",
+		"name": "Grundschule \"Luett Matten\", Rostock",
 		"official_id": "75130302",
 		"phone": "0381/713030",
 		"school_type": "Grundschule",
@@ -28,7 +28,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kopenhagener Straße 3, 18107 Rostock",
+		"address": "Kopenhagener Strasse 3, 18107 Rostock",
 		"fax": "0381/7787404",
 		"full_time_school": false,
 		"id": "MV-75130303",
@@ -42,13 +42,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "M.-Gorki-Straße 69, 18106 Rostock",
+		"address": "M.-Gorki-Strasse 69, 18106 Rostock",
 		"fax": "0381/1284968",
 		"full_time_school": false,
 		"id": "MV-75130305",
 		"lat": 54.128791,
 		"lon": 12.045536,
-		"name": "Grundschule \"Am Mühlenteich\", Rostock",
+		"name": "Grundschule \"Am Muehlenteich\", Rostock",
 		"official_id": "75130305",
 		"phone": "0381/7998603",
 		"school_type": "Grundschule",
@@ -84,7 +84,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "St.-Georg-Straße 63c, 18055 Rostock",
+		"address": "St.-Georg-Strasse 63c, 18055 Rostock",
 		"fax": "0381/38141263",
 		"full_time_school": false,
 		"id": "MV-75130311",
@@ -112,7 +112,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Elisabethstraße 27, 18057 Rostock",
+		"address": "Elisabethstrasse 27, 18057 Rostock",
 		"fax": "0381/38141083",
 		"full_time_school": false,
 		"id": "MV-75130313",
@@ -126,7 +126,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Joseph-Herzfeld-Straße  19, 18059 Rostock",
+		"address": "Joseph-Herzfeld-Strasse  19, 18059 Rostock",
 		"fax": "0381/4010034",
 		"full_time_school": false,
 		"id": "MV-75130314",
@@ -140,7 +140,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "W.-Butzek-Straße 23, 18146 Rostock",
+		"address": "W.-Butzek-Strasse 23, 18146 Rostock",
 		"fax": "0381/6864879",
 		"full_time_school": false,
 		"id": "MV-75130318",
@@ -154,7 +154,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "P.-Picasso-Straße 44, 18147 Rostock",
+		"address": "P.-Picasso-Strasse 44, 18147 Rostock",
 		"fax": "0381/6668062",
 		"full_time_school": false,
 		"id": "MV-75130326",
@@ -168,7 +168,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ratzeburger Straße 9, 18109 Rostock",
+		"address": "Ratzeburger Strasse 9, 18109 Rostock",
 		"fax": "0381/4405810",
 		"full_time_school": false,
 		"id": "MV-75130327",
@@ -196,7 +196,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Pressentinstraße 82, 18147 Rostock",
+		"address": "Pressentinstrasse 82, 18147 Rostock",
 		"fax": "0381/6664522",
 		"full_time_school": false,
 		"id": "MV-75130343",
@@ -210,13 +210,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "J.-Schehr-Straße 10, 18069 Rostock",
+		"address": "J.-Schehr-Strasse 10, 18069 Rostock",
 		"fax": "0381/1288834",
 		"full_time_school": false,
 		"id": "MV-75130357",
 		"lat": 54.12529465,
 		"lon": 12.079351500000001,
-		"name": "\"Türmchenschule\"  Reutershagen, Grundschule",
+		"name": "\"Tuermchenschule\"  Reutershagen, Grundschule",
 		"official_id": "75130357",
 		"phone": "0381/82013",
 		"school_type": "Grundschule",
@@ -224,7 +224,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Mathias-Thesen-Straße 17, 18069 Rostock",
+		"address": "Mathias-Thesen-Strasse 17, 18069 Rostock",
 		"fax": "0381/8087464",
 		"full_time_school": false,
 		"id": "MV-75130358",
@@ -238,59 +238,59 @@
 		"state": "MV"
 	},
 	{
-		"address": "Pablo-Picasso-Straße 45, 18147 Rostock",
+		"address": "Pablo-Picasso-Strasse 45, 18147 Rostock",
 		"fax": "0381/6664967",
 		"full_time_school": false,
 		"id": "MV-75230378",
 		"lat": 54.116157,
 		"lon": 12.140338,
-		"name": "\"Schule am Schäferteich\" - Schule mit dem Förderschwerpunkt Lernen - Regionales Förderzentrum Toitenwinkel",
+		"name": "\"Schule am Schaeferteich\" - Schule mit dem Foerderschwerpunkt Lernen - Regionales Foerderzentrum Toitenwinkel",
 		"official_id": "75230378",
 		"phone": "0381/690283",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Kuphalstraße 78, 18069 Rostock",
+		"address": "Kuphalstrasse 78, 18069 Rostock",
 		"fax": "0381/8087337",
 		"full_time_school": false,
 		"id": "MV-75230379",
 		"lat": 54.095658,
 		"lon": 12.087374,
-		"name": "Förderzentrum am Schwanenteich - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Foerderzentrum am Schwanenteich - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75230379",
 		"phone": "0381/82370",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Gehlsheimer Straße 20, 18147 Rostock",
+		"address": "Gehlsheimer Strasse 20, 18147 Rostock",
 		"fax": "0381/6707152",
 		"full_time_school": false,
 		"id": "MV-75230380",
 		"lat": 54.102535,
 		"lon": 12.131545,
-		"name": "\"Heinrich-Hoffmann-Schule\" - Schule mit dem Förderschwerpunkt Unterricht kranker Schülerinnen und Schüler",
+		"name": "\"Heinrich-Hoffmann-Schule\" - Schule mit dem Foerderschwerpunkt Unterricht kranker Schuelerinnen und Schueler",
 		"official_id": "75230380",
 		"phone": "0381/6707150",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Danziger Straße 45, 18107 Rostock",
+		"address": "Danziger Strasse 45, 18107 Rostock",
 		"fax": "0381/7787239",
 		"full_time_school": false,
 		"id": "MV-75230381",
 		"lat": 54.143905,
 		"lon": 12.053075,
-		"name": "Förderzentrum an der Danziger Straße - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Foerderzentrum an der Danziger Strasse - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75230381",
 		"phone": "0381/713045",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -300,57 +300,57 @@
 		"id": "MV-75230383",
 		"lat": 54.089663,
 		"lon": 12.147415,
-		"name": "\"Schule am Alten Markt\" - Schule mit dem Förderschwerpunkt Sprache",
+		"name": "\"Schule am Alten Markt\" - Schule mit dem Foerderschwerpunkt Sprache",
 		"official_id": "75230383",
 		"phone": "0381/4008350",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Semmelweisstraße 3, 18059 Rostock",
+		"address": "Semmelweisstrasse 3, 18059 Rostock",
 		"fax": "0381/4403422",
 		"full_time_school": false,
 		"id": "MV-75230384",
 		"lat": 54.063669,
 		"lon": 12.12413,
-		"name": "Schulzentrum Paul-Friedrich-Scheel-Schule - Schule mit dem Förderschwerpunkt körperliche und motorische Entwicklung und Grundschulteil",
+		"name": "Schulzentrum Paul-Friedrich-Scheel-Schule - Schule mit dem Foerderschwerpunkt koerperliche und motorische Entwicklung und Grundschulteil",
 		"official_id": "75230384",
 		"phone": "0381/440340",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Helsinkier Straße 20, 18107 Rostock",
+		"address": "Helsinkier Strasse 20, 18107 Rostock",
 		"fax": "0381/2074940",
 		"full_time_school": false,
 		"id": "MV-75230385",
 		"lat": 54.135852,
 		"lon": 12.055087,
-		"name": "\"Warnowschule Rostock\" Schule mit dem Förderschwerpunkt geistige Entwicklung\nSchule zur individuellen Lebensbewältigung Rostock",
+		"name": "\"Warnowschule Rostock\" Schule mit dem Foerderschwerpunkt geistige Entwicklung\nSchule zur individuellen Lebensbewaeltigung Rostock",
 		"official_id": "75230385",
 		"phone": "0381/711429",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Blücherstraße 42, 18055 Rostock",
+		"address": "Bluecherstrasse 42, 18055 Rostock",
 		"fax": "0381/2079727",
 		"full_time_school": false,
 		"id": "MV-75230388",
 		"lat": 54.077974,
 		"lon": 12.142998,
-		"name": "Förderzentrum am Wasserturm - Schule mit dem Förderschwerpunkt emotionale und soziale Entwicklung",
+		"name": "Foerderzentrum am Wasserturm - Schule mit dem Foerderschwerpunkt emotionale und soziale Entwicklung",
 		"official_id": "75230388",
 		"phone": "0381/712288",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Thomas-Morus-Straße 1-3, 18106 Rostock",
+		"address": "Thomas-Morus-Strasse 1-3, 18106 Rostock",
 		"fax": "0381/7998862",
 		"full_time_school": false,
 		"id": "MV-75330361",
@@ -378,7 +378,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Sternberger Straße 10, 18109 Rostock",
+		"address": "Sternberger Strasse 10, 18109 Rostock",
 		"fax": "0381/7691122",
 		"full_time_school": false,
 		"id": "MV-75330374",
@@ -392,7 +392,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "P.-Picasso-Straße 43, 18147 Rostock",
+		"address": "P.-Picasso-Strasse 43, 18147 Rostock",
 		"fax": "0381/6664536",
 		"full_time_school": false,
 		"id": "MV-75330391",
@@ -406,13 +406,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Mendelejewstraße 12a, 18059 Rostock",
+		"address": "Mendelejewstrasse 12a, 18059 Rostock",
 		"fax": "0381/40480014",
 		"full_time_school": false,
 		"id": "MV-75330392",
 		"lat": 54.073195,
 		"lon": 12.127455,
-		"name": "Gesamtschule Südstadt, Kooperative Gesamtschule",
+		"name": "Gesamtschule Suedstadt, Kooperative Gesamtschule",
 		"official_id": "75330392",
 		"phone": "0381/4048000",
 		"school_type": "Kooperative Gesamtschule",
@@ -420,7 +420,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Lindenstraße 3a, 18055 Rostock",
+		"address": "Lindenstrasse 3a, 18055 Rostock",
 		"fax": "0381/38141091",
 		"full_time_school": false,
 		"id": "MV-75330393",
@@ -434,13 +434,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "H.-Schütz-Straße 10a, 18069 Rostock",
+		"address": "H.-Schuetz-Strasse 10a, 18069 Rostock",
 		"fax": "0381/8002374",
 		"full_time_school": false,
 		"id": "MV-75430337",
 		"lat": 54.092933,
 		"lon": 12.08909,
-		"name": "Regionale Schule \"Heinrich-Schütz\", Rostock",
+		"name": "Regionale Schule \"Heinrich-Schuetz\", Rostock",
 		"official_id": "75430337",
 		"phone": "0381/83910",
 		"school_type": "Regionale Schule",
@@ -454,7 +454,7 @@
 		"id": "MV-75430348",
 		"lat": 54.150888,
 		"lon": 12.078643,
-		"name": "Regionale Schule \"Störtebeker-Schule\", Rostock",
+		"name": "Regionale Schule \"Stoertebeker-Schule\", Rostock",
 		"official_id": "75430348",
 		"phone": "0381/1200928",
 		"school_type": "Regionale Schule",
@@ -462,7 +462,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ratzeburger Straße 9, 18109 Rostock",
+		"address": "Ratzeburger Strasse 9, 18109 Rostock",
 		"fax": "0381/2074355",
 		"full_time_school": false,
 		"id": "MV-75430353",
@@ -504,7 +504,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kopenhagener Straße 3, 18107 Rostock",
+		"address": "Kopenhagener Strasse 3, 18107 Rostock",
 		"fax": "0381/7998754",
 		"full_time_school": false,
 		"id": "MV-75530359",
@@ -518,7 +518,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Mathias-Thesen-Straße 17, 18069 Rostock",
+		"address": "Mathias-Thesen-Strasse 17, 18069 Rostock",
 		"fax": "0381/8087473",
 		"full_time_school": false,
 		"id": "MV-75530363",
@@ -538,7 +538,7 @@
 		"id": "MV-75530365",
 		"lat": 54.081372,
 		"lon": 12.128044,
-		"name": "Innerstädtisches Gymnasium Rostock",
+		"name": "Innerstaedtisches Gymnasium Rostock",
 		"official_id": "75530365",
 		"phone": "0381/38141010",
 		"school_type": "Gymnasium",
@@ -546,13 +546,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Heinrich-Tessenow-Straße 47, 18146 Rostock",
+		"address": "Heinrich-Tessenow-Strasse 47, 18146 Rostock",
 		"fax": "0381/6095139",
 		"full_time_school": false,
 		"id": "MV-75530369",
 		"lat": 54.103579,
 		"lon": 12.162926,
-		"name": "Käthe-Kollwitz-Gymnasium Rostock",
+		"name": "Kaethe-Kollwitz-Gymnasium Rostock",
 		"official_id": "75530369",
 		"phone": "0381/609510",
 		"school_type": "Gymnasium",
@@ -574,7 +574,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Beethovenstraße 3, 18209 Bad Doberan",
+		"address": "Beethovenstrasse 3, 18209 Bad Doberan",
 		"fax": "038203/742299",
 		"full_time_school": false,
 		"id": "MV-75135101",
@@ -588,7 +588,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Stralsunder Straße 58, 18182 Bentwisch",
+		"address": "Stralsunder Strasse 58, 18182 Bentwisch",
 		"fax": "0381/66673884",
 		"full_time_school": false,
 		"id": "MV-75135102",
@@ -616,13 +616,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ostseering 24, 18181 Graal-Müritz",
+		"address": "Ostseering 24, 18181 Graal-Mueritz",
 		"fax": "038206/78192",
 		"full_time_school": false,
 		"id": "MV-75135107",
 		"lat": 54.25094,
 		"lon": 12.246359,
-		"name": "\"Ostsee-Grundschule\"  Graal-Müritz",
+		"name": "\"Ostsee-Grundschule\"  Graal-Mueritz",
 		"official_id": "75135107",
 		"phone": "038206/77288",
 		"school_type": "Grundschule",
@@ -630,13 +630,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 18236 Kröpelin",
+		"address": "Schulstrasse 1, 18236 Kroepelin",
 		"fax": "038292/79847",
 		"full_time_school": false,
 		"id": "MV-75135109",
 		"lat": 54.067727,
 		"lon": 11.798977,
-		"name": "Grundschule \"Am Mühlenberg\" Kröpelin",
+		"name": "Grundschule \"Am Muehlenberg\" Kroepelin",
 		"official_id": "75135109",
 		"phone": "038292/79846",
 		"school_type": "Grundschule",
@@ -644,13 +644,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hermannstraße 9, 18225 Kühlungsborn",
+		"address": "Hermannstrasse 9, 18225 Kuehlungsborn",
 		"fax": "038293/877295",
 		"full_time_school": false,
 		"id": "MV-75135111",
 		"lat": 54.14874,
 		"lon": 11.732012,
-		"name": "Grundschule \"Fritz Reuter\" Kühlungsborn",
+		"name": "Grundschule \"Fritz Reuter\" Kuehlungsborn",
 		"official_id": "75135111",
 		"phone": "038293/7767",
 		"school_type": "Grundschule",
@@ -672,13 +672,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 6, 18182 Rövershagen",
+		"address": "Schulstrasse 6, 18182 Roevershagen",
 		"fax": "038202/44577",
 		"full_time_school": false,
 		"id": "MV-75135114",
 		"lat": 54.175945,
 		"lon": 12.243587,
-		"name": "Grundschule \" De Likedeeler\", Rövershagen",
+		"name": "Grundschule \" De Likedeeler\", Roevershagen",
 		"official_id": "75135114",
 		"phone": "038202/2096",
 		"school_type": "Grundschule",
@@ -686,7 +686,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 40, 18107 Lichtenhagen",
+		"address": "Dorfstrasse 40, 18107 Lichtenhagen",
 		"fax": "0381/7955281",
 		"full_time_school": false,
 		"id": "MV-75135116",
@@ -700,7 +700,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Groß Lüsewitzer Weg 5, 18190 Sanitz",
+		"address": "Gross Luesewitzer Weg 5, 18190 Sanitz",
 		"fax": "038209/875028",
 		"full_time_school": false,
 		"id": "MV-75135117",
@@ -714,7 +714,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Lange Straße 44, 18195 Tessin",
+		"address": "Lange Strasse 44, 18195 Tessin",
 		"fax": "038205/13204",
 		"full_time_school": false,
 		"id": "MV-75135119",
@@ -742,7 +742,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rostocker Straße 22, 18209 Parkentin",
+		"address": "Rostocker Strasse 22, 18209 Parkentin",
 		"fax": "038203/735257",
 		"full_time_school": false,
 		"id": "MV-75135125",
@@ -762,7 +762,7 @@
 		"id": "MV-75135137",
 		"lat": 54.078392,
 		"lon": 12.297171,
-		"name": "Grundschule an der Carbäk, Broderstorf",
+		"name": "Grundschule an der Carbaek, Broderstorf",
 		"official_id": "75135137",
 		"phone": "038204/15235",
 		"school_type": "Grundschule",
@@ -784,7 +784,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kröpeliner Straße 5, 18230 Rerik",
+		"address": "Kroepeliner Strasse 5, 18230 Rerik",
 		"fax": "038296/78235",
 		"full_time_school": false,
 		"id": "MV-75135140",
@@ -798,13 +798,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schlossplatz 3, 18246 Bützow",
+		"address": "Schlossplatz 3, 18246 Buetzow",
 		"fax": "038461/911280",
 		"full_time_school": false,
 		"id": "MV-75135304",
 		"lat": 53.85,
 		"lon": 11.98333,
-		"name": "Grundschule und Freizeithaus am Schlossplatz, Bützow",
+		"name": "Grundschule und Freizeithaus am Schlossplatz, Buetzow",
 		"official_id": "75135304",
 		"phone": "038461/52006",
 		"school_type": "Grundschule",
@@ -812,7 +812,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Teterower Straße 11 b, 17179 Gnoien",
+		"address": "Teterower Strasse 11 b, 17179 Gnoien",
 		"fax": "039971/30610",
 		"full_time_school": false,
 		"id": "MV-75135306",
@@ -826,13 +826,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Wendenstraße 14, 18273 Güstrow",
+		"address": "Wendenstrasse 14, 18273 Guestrow",
 		"fax": "03843/218666",
 		"full_time_school": false,
 		"id": "MV-75135309",
 		"lat": 53.804596,
 		"lon": 12.190816,
-		"name": "2. GS \"Fritz Reuter\", Güstrow",
+		"name": "2. GS \"Fritz Reuter\", Guestrow",
 		"official_id": "75135309",
 		"phone": "03843/213015",
 		"school_type": "Grundschule",
@@ -840,13 +840,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Heiligengeisthof 4, 18273 Güstrow",
+		"address": "Heiligengeisthof 4, 18273 Guestrow",
 		"fax": "03843/680627",
 		"full_time_school": false,
 		"id": "MV-75135310",
 		"lat": 53.791647,
 		"lon": 12.178182,
-		"name": "1. GS \"G. F. Kersting\", Güstrow",
+		"name": "1. GS \"G. F. Kersting\", Guestrow",
 		"official_id": "75135310",
 		"phone": "03843/682304",
 		"school_type": "Grundschule",
@@ -868,7 +868,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Karl-Hawermann-Straße 12b, 18299 Diekhof",
+		"address": "Karl-Hawermann-Strasse 12b, 18299 Diekhof",
 		"fax": "038455/20664",
 		"full_time_school": false,
 		"id": "MV-75135331",
@@ -882,13 +882,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hafenstraße 13, 18273 Güstrow",
+		"address": "Hafenstrasse 13, 18273 Guestrow",
 		"fax": "03843/683074",
 		"full_time_school": false,
 		"id": "MV-75135335",
 		"lat": 53.7991,
 		"lon": 12.168858,
-		"name": "3. GS \"Schule am Hasenwald\", Güstrow",
+		"name": "3. GS \"Schule am Hasenwald\", Guestrow",
 		"official_id": "75135335",
 		"phone": "03843/684046",
 		"school_type": "Grundschule",
@@ -896,13 +896,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schwaaner Straße 38, 18276 Lüssow",
+		"address": "Schwaaner Strasse 38, 18276 Luessow",
 		"fax": "03843/219639",
 		"full_time_school": false,
 		"id": "MV-75135343",
 		"lat": 53.843999,
 		"lon": 12.139861,
-		"name": "Grundschule Lüssow",
+		"name": "Grundschule Luessow",
 		"official_id": "75135343",
 		"phone": "03843/214195",
 		"school_type": "Grundschule",
@@ -910,7 +910,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Mühlenstraße 84, 18249 Warnow",
+		"address": "Muehlenstrasse 84, 18249 Warnow",
 		"fax": "038462/28244",
 		"full_time_school": false,
 		"id": "MV-75135347",
@@ -924,111 +924,111 @@
 		"state": "MV"
 	},
 	{
-		"address": "Bollhäger Weg 2, 18209 Bad Doberan",
+		"address": "Bollhaeger Weg 2, 18209 Bad Doberan",
 		"fax": "038203/14606",
 		"full_time_school": false,
 		"id": "MV-75235147",
 		"lat": 54.109583,
 		"lon": 11.888785,
-		"name": "Schule mit dem Förderschwerpunkt Lernen Bad Doberan",
+		"name": "Schule mit dem Foerderschwerpunkt Lernen Bad Doberan",
 		"official_id": "75235147",
 		"phone": "038203/62575",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Dr.-Leber-Straße 14, 18181 Graal-Müritz",
+		"address": "Dr.-Leber-Strasse 14, 18181 Graal-Mueritz",
 		"fax": "038206/77813",
 		"full_time_school": false,
 		"id": "MV-75235148",
 		"lat": 54.250903,
 		"lon": 12.238556,
-		"name": "Schule mit den Förderschwerpunkten Lernen und geistige Entwicklung Graal-Müritz",
+		"name": "Schule mit den Foerderschwerpunkten Lernen und geistige Entwicklung Graal-Mueritz",
 		"official_id": "75235148",
 		"phone": "038206/772 12",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Ehm-Welk-Straße 26, 18209 Bad Doberan",
+		"address": "Ehm-Welk-Strasse 26, 18209 Bad Doberan",
 		"fax": "038203/735254",
 		"full_time_school": false,
 		"id": "MV-75235151",
 		"lat": 54.104373,
 		"lon": 11.91678,
-		"name": "Schule mit dem Förderschwerpunkt geistige Entwicklung Bad Doberan",
+		"name": "Schule mit dem Foerderschwerpunkt geistige Entwicklung Bad Doberan",
 		"official_id": "75235151",
 		"phone": "038203/65202",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Dr.-Winckler-Straße, 18246 Bützow",
+		"address": "Dr.-Winckler-Strasse, 18246 Buetzow",
 		"fax": "038461/69015",
 		"full_time_school": false,
 		"id": "MV-75235355",
 		"lat": 53.8455828,
 		"lon": 11.9590493,
-		"name": "Förderzentrum Bützow - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Foerderzentrum Buetzow - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235355",
 		"phone": "038461/69013",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Ahornpromenade 1, 18273 Güstrow",
+		"address": "Ahornpromenade 1, 18273 Guestrow",
 		"fax": "03843/245443",
 		"full_time_school": false,
 		"id": "MV-75235357",
 		"lat": 53.807427,
 		"lon": 12.192265,
-		"name": "Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235357",
 		"phone": "03843/331044",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Niels-Stensen-Straße 4, 17166 Teterow",
+		"address": "Niels-Stensen-Strasse 4, 17166 Teterow",
 		"fax": "03996/140729",
 		"full_time_school": false,
 		"id": "MV-75235358",
 		"lat": 53.769047,
 		"lon": 12.573763,
-		"name": "Schule mit den Förderschwerpunkten Lernen und geistige Entwicklung",
+		"name": "Schule mit den Foerderschwerpunkten Lernen und geistige Entwicklung",
 		"official_id": "75235358",
 		"phone": "03996/172065",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Plauer Chaussee 6, 18273 Güstrow",
+		"address": "Plauer Chaussee 6, 18273 Guestrow",
 		"fax": "03843/831326",
 		"full_time_school": false,
 		"id": "MV-75235359",
 		"lat": 53.786446,
 		"lon": 12.20838,
-		"name": "Landesförderzentrum für den Förderschwerpunkt \"Hören\" M-V",
+		"name": "Landesfoerderzentrum fuer den Foerderschwerpunkt \"Hoeren\" M-V",
 		"official_id": "75235359",
 		"phone": "03843/83130",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Neue Reihe 73a, 18225 Kühlungsborn",
+		"address": "Neue Reihe 73a, 18225 Kuehlungsborn",
 		"fax": "038293/14844",
 		"full_time_school": false,
 		"id": "MV-75335143",
 		"lat": 54.14734,
 		"lon": 11.73311,
-		"name": "\"Schulzentrum Kühlungsborn\"\nVerb. Regionale Schule und Gymnasium",
+		"name": "\"Schulzentrum Kuehlungsborn\"\nVerb. Regionale Schule und Gymnasium",
 		"official_id": "75335143",
 		"phone": "038293/7292",
 		"school_type": "Kooperative Gesamtschule",
@@ -1036,13 +1036,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Köhlerstrat 9, 18182 Rövershagen",
+		"address": "Koehlerstrat 9, 18182 Roevershagen",
 		"fax": "038202/36117",
 		"full_time_school": false,
 		"id": "MV-75335145",
 		"lat": 54.177689,
 		"lon": 12.239023,
-		"name": "Verb. Regionalschule und Gymnasium Rövershagen - Europaschule",
+		"name": "Verb. Regionalschule und Gymnasium Roevershagen - Europaschule",
 		"official_id": "75335145",
 		"phone": "038202/36116",
 		"school_type": "Kooperative Gesamtschule",
@@ -1050,7 +1050,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 13, 18299 Laage",
+		"address": "Schulstrasse 13, 18299 Laage",
 		"fax": "038459/667829",
 		"full_time_school": false,
 		"id": "MV-75335321",
@@ -1078,7 +1078,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5, 18211 Rethwisch",
+		"address": "Schulstrasse 5, 18211 Rethwisch",
 		"fax": "038203/81130",
 		"full_time_school": false,
 		"id": "MV-75435126",
@@ -1106,7 +1106,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "John-Brinckman-Straße 16, 18190 Sanitz",
+		"address": "John-Brinckman-Strasse 16, 18190 Sanitz",
 		"fax": "038209/49868",
 		"full_time_school": false,
 		"id": "MV-75435131",
@@ -1120,7 +1120,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rudolf-Breitscheid-Straße 16, 18258 Schwaan",
+		"address": "Rudolf-Breitscheid-Strasse 16, 18258 Schwaan",
 		"fax": "03844/813736",
 		"full_time_school": false,
 		"id": "MV-75435132",
@@ -1134,7 +1134,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "St. Jürgen-Straße 61, 18195 Tessin",
+		"address": "St. Juergen-Strasse 61, 18195 Tessin",
 		"fax": "038205/78702",
 		"full_time_school": false,
 		"id": "MV-75435133",
@@ -1148,7 +1148,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Beethovenstraße 1, 18209 Bad Doberan",
+		"address": "Beethovenstrasse 1, 18209 Bad Doberan",
 		"fax": "038203/736683",
 		"full_time_school": false,
 		"id": "MV-75435135",
@@ -1162,7 +1162,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ehm-Welk-Straße 24, 18209 Bad Doberan",
+		"address": "Ehm-Welk-Strasse 24, 18209 Bad Doberan",
 		"fax": "038203/734593",
 		"full_time_school": false,
 		"id": "MV-75435136",
@@ -1176,7 +1176,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5, 18059 Papendorf",
+		"address": "Schulstrasse 5, 18059 Papendorf",
 		"fax": "0381/4003902",
 		"full_time_school": false,
 		"id": "MV-75435139",
@@ -1190,7 +1190,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Seestraße 9, 18239 Satow",
+		"address": "Seestrasse 9, 18239 Satow",
 		"fax": "038295/777914",
 		"full_time_school": false,
 		"id": "MV-75435141",
@@ -1204,13 +1204,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dr.-Winkler-Straße 1, 18246 Bützow",
+		"address": "Dr.-Winkler-Strasse 1, 18246 Buetzow",
 		"fax": "038461/52295",
 		"full_time_school": false,
 		"id": "MV-75435320",
 		"lat": 53.85,
 		"lon": 11.98333,
-		"name": "Käthe-Kollwitz-Schule, Regionale Schule, Bützow",
+		"name": "Kaethe-Kollwitz-Schule, Regionale Schule, Buetzow",
 		"official_id": "75435320",
 		"phone": "038461/2396",
 		"school_type": "Regionale Schule",
@@ -1218,13 +1218,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Trotschestraße 8, 18273 Güstrow",
+		"address": "Trotschestrasse 8, 18273 Guestrow",
 		"fax": "03843/680633",
 		"full_time_school": false,
 		"id": "MV-75435322",
 		"lat": 53.798979,
 		"lon": 12.169734,
-		"name": "2. Regionale Schule \"Richard Wossidlo\", Güstrow",
+		"name": "2. Regionale Schule \"Richard Wossidlo\", Guestrow",
 		"official_id": "75435322",
 		"phone": "03843/681093",
 		"school_type": "Regionale Schule",
@@ -1232,7 +1232,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schützenplatz 10, 17179 Gnoien",
+		"address": "Schuetzenplatz 10, 17179 Gnoien",
 		"fax": "039971/30611",
 		"full_time_school": false,
 		"id": "MV-75435328",
@@ -1246,7 +1246,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 7, 18249 Bernitt",
+		"address": "Schulstrasse 7, 18249 Bernitt",
 		"fax": "038464/22858",
 		"full_time_school": false,
 		"id": "MV-75435330",
@@ -1260,13 +1260,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Werner-Seelenbinder-Straße 1, 18273 Güstrow",
+		"address": "Werner-Seelenbinder-Strasse 1, 18273 Guestrow",
 		"fax": "03843/344567",
 		"full_time_school": false,
 		"id": "MV-75435333",
 		"lat": 53.774185,
 		"lon": 12.18103,
-		"name": "5. Regionale Schule \"Schule am Inselsee\", Güstrow",
+		"name": "5. Regionale Schule \"Schule am Inselsee\", Guestrow",
 		"official_id": "75435333",
 		"phone": "03843/331142",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -1274,13 +1274,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Wendenstraße 13, 18273 Güstrow",
+		"address": "Wendenstrasse 13, 18273 Guestrow",
 		"fax": "03843/211123",
 		"full_time_school": false,
 		"id": "MV-75435334",
 		"lat": 53.803909,
 		"lon": 12.190593,
-		"name": "3. Regionalschule \"Thomas Müntzer\", Güstrow",
+		"name": "3. Regionalschule \"Thomas Muentzer\", Guestrow",
 		"official_id": "75435334",
 		"phone": "03843/214075",
 		"school_type": "Regionale Schule",
@@ -1288,13 +1288,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Klenzer Weg 6, 17168 Jördenstorf",
+		"address": "Klenzer Weg 6, 17168 Joerdenstorf",
 		"fax": "039977/30314",
 		"full_time_school": false,
 		"id": "MV-75435338",
 		"lat": 53.87674,
 		"lon": 12.619305,
-		"name": "Johann-Heinrich-von-Thünen-Schule \nRegionale Schule mit Grundschule, Jördenstorf",
+		"name": "Johann-Heinrich-von-Thuenen-Schule \nRegionale Schule mit Grundschule, Joerdenstorf",
 		"official_id": "75435338",
 		"phone": "039977/30224",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -1316,7 +1316,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 15, 18279 Lalendorf",
+		"address": "Schulstrasse 15, 18279 Lalendorf",
 		"fax": "038452/22347",
 		"full_time_school": false,
 		"id": "MV-75435341",
@@ -1330,7 +1330,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Straße der Freundschaft 5, 17166 Teterow",
+		"address": "Strasse der Freundschaft 5, 17166 Teterow",
 		"fax": "03996/158618",
 		"full_time_school": false,
 		"id": "MV-75435346",
@@ -1344,7 +1344,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 49, 18276 Zehna",
+		"address": "Dorfstrasse 49, 18276 Zehna",
 		"fax": "038458/20234",
 		"full_time_school": false,
 		"id": "MV-75435348",
@@ -1372,7 +1372,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Groß Lüsewitzer Weg 4, 18190 Sanitz",
+		"address": "Gross Luesewitzer Weg 4, 18190 Sanitz",
 		"fax": "038209/80493",
 		"full_time_school": false,
 		"id": "MV-75535146",
@@ -1386,13 +1386,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dr.-Winckler-Straße, 18246 Bützow",
+		"address": "Dr.-Winckler-Strasse, 18246 Buetzow",
 		"fax": "038461/52295",
 		"full_time_school": false,
 		"id": "MV-75535349",
 		"lat": 53.8455828,
 		"lon": 11.9590493,
-		"name": "Geschwister-Scholl-Gymnasium Bützow",
+		"name": "Geschwister-Scholl-Gymnasium Buetzow",
 		"official_id": "75535349",
 		"phone": "038461/4301",
 		"school_type": "Gymnasium",
@@ -1400,13 +1400,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Am Wall 6, 18273 Güstrow",
+		"address": "Am Wall 6, 18273 Guestrow",
 		"fax": "03843/686697",
 		"full_time_school": false,
 		"id": "MV-75535351",
 		"lat": 53.791308,
 		"lon": 12.171831,
-		"name": "Gymnasium \"John Brinckman\", Güstrow",
+		"name": "Gymnasium \"John Brinckman\", Guestrow",
 		"official_id": "75535351",
 		"phone": "03843/686693",
 		"school_type": "Gymnasium",
@@ -1414,7 +1414,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Constantin-Kirchhoff-Straße 6, 17166 Teterow",
+		"address": "Constantin-Kirchhoff-Strasse 6, 17166 Teterow",
 		"fax": "03996/120685",
 		"full_time_school": false,
 		"id": "MV-75535354",
@@ -1442,7 +1442,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "R.-Breitscheid-Straße 32, 19258 Boizenburg/Elbe",
+		"address": "R.-Breitscheid-Strasse 32, 19258 Boizenburg/Elbe",
 		"fax": "038847/62168",
 		"full_time_school": false,
 		"id": "MV-75135403",
@@ -1456,7 +1456,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "An der Quöbbe 10, 19258 Boizenburg/Elbe",
+		"address": "An der Quoebbe 10, 19258 Boizenburg/Elbe",
 		"fax": "038847/37880",
 		"full_time_school": false,
 		"id": "MV-75135404",
@@ -1470,7 +1470,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ludwigsluster Straße 16, 19294 Eldena",
+		"address": "Ludwigsluster Strasse 16, 19294 Eldena",
 		"fax": "038755 33533",
 		"full_time_school": false,
 		"id": "MV-75135407",
@@ -1484,7 +1484,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5, 19230 Gammelin",
+		"address": "Schulstrasse 5, 19230 Gammelin",
 		"fax": "038850/443",
 		"full_time_school": false,
 		"id": "MV-75135408",
@@ -1512,7 +1512,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5a, 19288 Kummer",
+		"address": "Schulstrasse 5a, 19288 Kummer",
 		"fax": "038751/339800",
 		"full_time_school": false,
 		"id": "MV-75135412",
@@ -1526,7 +1526,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kanalstraße 26, 19288 Ludwigslust",
+		"address": "Kanalstrasse 26, 19288 Ludwigslust",
 		"fax": "03874/6637941",
 		"full_time_school": false,
 		"id": "MV-75135415",
@@ -1540,13 +1540,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 19294 Malliß",
+		"address": "Schulstrasse 1, 19294 Malliss",
 		"fax": "038750/22490",
 		"full_time_school": false,
 		"id": "MV-75135418",
 		"lat": 53.210046,
 		"lon": 11.327451,
-		"name": "Grundschule Malliß",
+		"name": "Grundschule Malliss",
 		"official_id": "75135418",
 		"phone": "038750/20021",
 		"school_type": "Grundschule",
@@ -1554,13 +1554,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 29, 19294 Neu Kaliß",
+		"address": "Schulstrasse 29, 19294 Neu Kaliss",
 		"fax": "038758/36632",
 		"full_time_school": false,
 		"id": "MV-75135419",
 		"lat": 53.167714,
 		"lon": 11.294562,
-		"name": "Grundschule \"Viktor Bausch\", Neu Kaliß",
+		"name": "Grundschule \"Viktor Bausch\", Neu Kaliss",
 		"official_id": "75135419",
 		"phone": "038758/26270",
 		"school_type": "Grundschule",
@@ -1568,7 +1568,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ernst-Thälmann-Straße 22, 19306 Neustadt-Glewe",
+		"address": "Ernst-Thaelmann-Strasse 22, 19306 Neustadt-Glewe",
 		"fax": "038757/22825",
 		"full_time_school": false,
 		"id": "MV-75135420",
@@ -1582,7 +1582,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Fährweg 8, 19075 Pampow",
+		"address": "Faehrweg 8, 19075 Pampow",
 		"fax": "03865/787912",
 		"full_time_school": false,
 		"id": "MV-75135422",
@@ -1596,7 +1596,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5, 19288 Ludwigslust",
+		"address": "Schulstrasse 5, 19288 Ludwigslust",
 		"fax": "03874/444060",
 		"full_time_school": false,
 		"id": "MV-75135424",
@@ -1610,7 +1610,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Zarrentiner Straße 14, 19258 Gresse",
+		"address": "Zarrentiner Strasse 14, 19258 Gresse",
 		"fax": "038842/21281",
 		"full_time_school": false,
 		"id": "MV-75135439",
@@ -1624,13 +1624,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5, 19230 Hagenow",
+		"address": "Schulstrasse 5, 19230 Hagenow",
 		"fax": "03883/614525",
 		"full_time_school": false,
 		"id": "MV-75135442",
 		"lat": 53.433095,
 		"lon": 11.190905,
-		"name": "GS \"Mühlenteich\", Hagenow",
+		"name": "GS \"Muehlenteich\", Hagenow",
 		"official_id": "75135442",
 		"phone": "03883/61450",
 		"school_type": "Grundschule",
@@ -1638,13 +1638,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Neue Straße 18, 19288 Wöbbelin",
+		"address": "Neue Strasse 18, 19288 Woebbelin",
 		"fax": "038753/80791",
 		"full_time_school": false,
 		"id": "MV-75135450",
 		"lat": 53.40078,
 		"lon": 11.50744,
-		"name": "Grundschule Wöbbelin",
+		"name": "Grundschule Woebbelin",
 		"official_id": "75135450",
 		"phone": "038753/80791",
 		"school_type": "Grundschule",
@@ -1666,13 +1666,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 4, 19073 Wittenförden",
+		"address": "Schulstrasse 4, 19073 Wittenfoerden",
 		"fax": "0385/6470742",
 		"full_time_school": false,
 		"id": "MV-75135453",
 		"lat": 53.631995,
 		"lon": 11.328727,
-		"name": "Grundschule \"Dr. Otto Steinfatt\", Wittenförden",
+		"name": "Grundschule \"Dr. Otto Steinfatt\", Wittenfoerden",
 		"official_id": "75135453",
 		"phone": "0385/6470226",
 		"school_type": "Grundschule",
@@ -1680,13 +1680,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Vogelstangenberg 6, 19412 Brüel",
+		"address": "Vogelstangenberg 6, 19412 Brueel",
 		"fax": "038483/293013",
 		"full_time_school": false,
 		"id": "MV-75136001",
 		"lat": 53.731436,
 		"lon": 11.715866,
-		"name": "Grundschule Brüel",
+		"name": "Grundschule Brueel",
 		"official_id": "75136001",
 		"phone": "038483/293010",
 		"school_type": "Grundschule",
@@ -1708,7 +1708,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 19089 Crivitz",
+		"address": "Schulstrasse 1, 19089 Crivitz",
 		"fax": "03863/502097",
 		"full_time_school": false,
 		"id": "MV-75136003",
@@ -1736,13 +1736,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Parchimer Straße 39, 19374 Domsühl",
+		"address": "Parchimer Strasse 39, 19374 Domsuehl",
 		"fax": "038728/22565",
 		"full_time_school": false,
 		"id": "MV-75136007",
 		"lat": 53.486769,
 		"lon": 11.776532,
-		"name": "Grundschule Domsühl",
+		"name": "Grundschule Domsuehl",
 		"official_id": "75136007",
 		"phone": "038728/22547",
 		"school_type": "Grundschule",
@@ -1750,13 +1750,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Lange Straße 15, 19372 Groß Godems",
+		"address": "Lange Strasse 15, 19372 Gross Godems",
 		"fax": "038725/55443",
 		"full_time_school": false,
 		"id": "MV-75136008",
 		"lat": 53.363301,
 		"lon": 11.795459,
-		"name": "Grundschule Groß Godems",
+		"name": "Grundschule Gross Godems",
 		"official_id": "75136008",
 		"phone": "038725/20282",
 		"school_type": "Grundschule",
@@ -1778,13 +1778,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schützenstraße 35, 19386 Lübz",
+		"address": "Schuetzenstrasse 35, 19386 Luebz",
 		"fax": "038731/22725",
 		"full_time_school": false,
 		"id": "MV-75136010",
 		"lat": 53.459519,
 		"lon": 12.044154,
-		"name": "Grundschule Lübz",
+		"name": "Grundschule Luebz",
 		"official_id": "75136010",
 		"phone": "038731/22725",
 		"school_type": "Grundschule",
@@ -1792,7 +1792,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Parchimer Straße 9, 19372 Matzlow",
+		"address": "Parchimer Strasse 9, 19372 Matzlow",
 		"fax": "038726/22874",
 		"full_time_school": false,
 		"id": "MV-75136012",
@@ -1820,7 +1820,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Mönchhof 7, 19370 Parchim",
+		"address": "Moenchhof 7, 19370 Parchim",
 		"fax": "03871/602854",
 		"full_time_school": false,
 		"id": "MV-75136014",
@@ -1834,7 +1834,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hans-Beimler-Straße 24b, 19370 Parchim",
+		"address": "Hans-Beimler-Strasse 24b, 19370 Parchim",
 		"fax": "03871/421288",
 		"full_time_school": false,
 		"id": "MV-75136015",
@@ -1862,7 +1862,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Lange Straße 25, 19395 Plau am See",
+		"address": "Lange Strasse 25, 19395 Plau am See",
 		"fax": "038735/49608",
 		"full_time_school": false,
 		"id": "MV-75136018",
@@ -1890,7 +1890,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hauptstraße 16, 19079 Sukow",
+		"address": "Hauptstrasse 16, 19079 Sukow",
 		"fax": "03861/302026",
 		"full_time_school": false,
 		"id": "MV-75136023",
@@ -1918,7 +1918,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Fr.-Wehmer-Straße 52, 19086 Plate",
+		"address": "Fr.-Wehmer-Strasse 52, 19086 Plate",
 		"fax": "03861/300891",
 		"full_time_school": false,
 		"id": "MV-75136034",
@@ -1932,7 +1932,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schützenplatz 2, 19399 Goldberg",
+		"address": "Schuetzenplatz 2, 19399 Goldberg",
 		"fax": "038736/40834",
 		"full_time_school": false,
 		"id": "MV-75136054",
@@ -1946,59 +1946,59 @@
 		"state": "MV"
 	},
 	{
-		"address": "Theodor-Körner-Straße 5, 19258 Boizenburg/Elbe",
+		"address": "Theodor-Koerner-Strasse 5, 19258 Boizenburg/Elbe",
 		"fax": "038847/297927",
 		"full_time_school": false,
 		"id": "MV-75235463",
 		"lat": 53.382019,
 		"lon": 10.729852,
-		"name": "Förderschule mit den Förderschwerpunkten Lernen und geistige Entwicklung Boizenburg",
+		"name": "Foerderschule mit den Foerderschwerpunkten Lernen und geistige Entwicklung Boizenburg",
 		"official_id": "75235463",
 		"phone": "038847/297920",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Bahnhofstraße 130, 19230 Hagenow",
+		"address": "Bahnhofstrasse 130, 19230 Hagenow",
 		"fax": "03883/727042",
 		"full_time_school": false,
 		"id": "MV-75235465",
 		"lat": 53.417908,
 		"lon": 11.209809,
-		"name": "Diesterwegschule Hagenow; Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Diesterwegschule Hagenow; Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235465",
 		"phone": "03883/727042",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "J.-Gillhoff-Straße 17, 19288 Ludwigslust",
+		"address": "J.-Gillhoff-Strasse 17, 19288 Ludwigslust",
 		"fax": "03874/666801",
 		"full_time_school": false,
 		"id": "MV-75235466",
 		"lat": 53.31667,
 		"lon": 11.48333,
-		"name": "Förderschule \"Johann-Heinrich-Pestalozzi\" Ludwigslust; Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Foerderschule \"Johann-Heinrich-Pestalozzi\" Ludwigslust; Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235466",
 		"phone": "03874/22029",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Bahnhofstraße 132, 19230 Hagenow",
+		"address": "Bahnhofstrasse 132, 19230 Hagenow",
 		"fax": "03883/641456",
 		"full_time_school": false,
 		"id": "MV-75235469",
 		"lat": 53.417753,
 		"lon": 11.210059,
-		"name": "Förderschule mit dem Förderschwerpunkt geistige Entwicklung Hagenow",
+		"name": "Foerderschule mit dem Foerderschwerpunkt geistige Entwicklung Hagenow",
 		"official_id": "75235469",
 		"phone": "03883/724101",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -2008,39 +2008,39 @@
 		"id": "MV-75235470",
 		"lat": 53.326263,
 		"lon": 11.492971,
-		"name": "Schule an der Bleiche Ludwigslust; Schule mit dem Förderschwerpunkt geistige Entwicklung",
+		"name": "Schule an der Bleiche Ludwigslust; Schule mit dem Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75235470",
 		"phone": "03874/21922",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Neuer Teich 1, 19386 Lübz",
+		"address": "Neuer Teich 1, 19386 Luebz",
 		"fax": "038731/21192",
 		"full_time_school": false,
 		"id": "MV-75236063",
 		"lat": 53.457429,
 		"lon": 12.051068,
-		"name": "Schule am Neuen Teich Lübz - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Schule am Neuen Teich Luebz - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75236063",
 		"phone": "038731/22838",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Brunnenstraße 21, 19370 Parchim",
+		"address": "Brunnenstrasse 21, 19370 Parchim",
 		"fax": "03871/451414",
 		"full_time_school": false,
 		"id": "MV-75236064",
 		"lat": 53.41334,
 		"lon": 11.841877,
-		"name": "Pestalozzischule - Schule mit dem Förderschwerpunkt Lernen, Parchim",
+		"name": "Pestalozzischule - Schule mit dem Foerderschwerpunkt Lernen, Parchim",
 		"official_id": "75236064",
 		"phone": "03871/212796",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -2050,11 +2050,11 @@
 		"id": "MV-75236065",
 		"lat": 53.426129,
 		"lon": 11.833654,
-		"name": "Schule am Alten Hafen Parchim - Schule mit dem Förderschwerpunkt geistige Entwicklung",
+		"name": "Schule am Alten Hafen Parchim - Schule mit dem Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75236065",
 		"phone": "03871/443132",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -2064,15 +2064,15 @@
 		"id": "MV-75236067",
 		"lat": 53.713818,
 		"lon": 11.826379,
-		"name": "Schule mit den Förderschwerpunkten Lernen und geistige Entwicklung Sternberg",
+		"name": "Schule mit den Foerderschwerpunkten Lernen und geistige Entwicklung Sternberg",
 		"official_id": "75236067",
 		"phone": "03847/435330",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 4, 19073 Stralendorf",
+		"address": "Schulstrasse 4, 19073 Stralendorf",
 		"fax": "03869/7809809",
 		"full_time_school": false,
 		"id": "MV-75335447",
@@ -2086,21 +2086,21 @@
 		"state": "MV"
 	},
 	{
-		"address": "Roggenfelder Straße 30A, 19303 Dömitz",
+		"address": "Roggenfelder Strasse 30A, 19303 Doemitz",
 		"fax": "038758/3554100",
 		"full_time_school": false,
 		"id": "MV-75335456",
 		"lat": 53.135179,
 		"lon": 11.268326,
-		"name": "Gymnasiales Schulzentrum \"Fritz Reuter\" Dömitz",
+		"name": "Gymnasiales Schulzentrum \"Fritz Reuter\" Doemitz",
 		"official_id": "75335456",
 		"phone": "038758/35540",
-		"school_type": "Kooperative Gesamtschule mit Grundschule und Förderschule",
+		"school_type": "Kooperative Gesamtschule mit Grundschule und Foerderschule",
 		"school_type_entity": "Kooperative Gesamtschule",
 		"state": "MV"
 	},
 	{
-		"address": "Lindenstraße 13, 19243 Wittenburg",
+		"address": "Lindenstrasse 13, 19243 Wittenburg",
 		"fax": "038852/52500",
 		"full_time_school": false,
 		"id": "MV-75335462",
@@ -2114,7 +2114,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Seestraße 1a, 19406 Sternberg",
+		"address": "Seestrasse 1a, 19406 Sternberg",
 		"fax": "03847/4353443",
 		"full_time_school": false,
 		"id": "MV-75336062",
@@ -2128,7 +2128,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Prislicher Straße 23, 19300 Grabow",
+		"address": "Prislicher Strasse 23, 19300 Grabow",
 		"fax": "038756/22353",
 		"full_time_school": false,
 		"id": "MV-75435431",
@@ -2156,13 +2156,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rudolf-Breitscheid-Straße 30, 19249 Lübtheen",
+		"address": "Rudolf-Breitscheid-Strasse 30, 19249 Luebtheen",
 		"fax": "038855/785189",
 		"full_time_school": false,
 		"id": "MV-75435434",
 		"lat": 53.308191,
 		"lon": 11.079654,
-		"name": "Regionale Schule mit Grundschule \"Lindenschule\", Lübtheen",
+		"name": "Regionale Schule mit Grundschule \"Lindenschule\", Luebtheen",
 		"official_id": "75435434",
 		"phone": "038855/785180",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -2170,13 +2170,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 19294 Malliß",
+		"address": "Schulstrasse 1, 19294 Malliss",
 		"fax": "038750/22490",
 		"full_time_school": false,
 		"id": "MV-75435435",
 		"lat": 53.210046,
 		"lon": 11.327451,
-		"name": "Regionale Schule Malliß",
+		"name": "Regionale Schule Malliss",
 		"official_id": "75435435",
 		"phone": "038750/20292",
 		"school_type": "Regionale Schule",
@@ -2184,7 +2184,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Laascher Straße 57, 19306 Neustadt-Glewe",
+		"address": "Laascher Strasse 57, 19306 Neustadt-Glewe",
 		"fax": "038757/33114",
 		"full_time_school": false,
 		"id": "MV-75435437",
@@ -2198,7 +2198,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "R.-Markmann-Straße 59, 19258 Boizenburg/Elbe",
+		"address": "R.-Markmann-Strasse 59, 19258 Boizenburg/Elbe",
 		"fax": "038847/624870",
 		"full_time_school": false,
 		"id": "MV-75435438",
@@ -2212,7 +2212,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Möllner Straße 12, 19230 Hagenow",
+		"address": "Moellner Strasse 12, 19230 Hagenow",
 		"fax": "03883/618555",
 		"full_time_school": false,
 		"id": "MV-75435441",
@@ -2226,7 +2226,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kießender Ring 6, 19230 Hagenow",
+		"address": "Kiessender Ring 6, 19230 Hagenow",
 		"fax": "03883/724943",
 		"full_time_school": false,
 		"id": "MV-75435443",
@@ -2240,13 +2240,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hagenower Straße 7a, 19230 Picher",
+		"address": "Hagenower Strasse 7a, 19230 Picher",
 		"fax": "038751/21203",
 		"full_time_school": false,
 		"id": "MV-75435445",
 		"lat": 53.347146,
 		"lon": 11.341744,
-		"name": "Regionale Schule mit Grundschule \"Theodor Körner\", Picher",
+		"name": "Regionale Schule mit Grundschule \"Theodor Koerner\", Picher",
 		"official_id": "75435445",
 		"phone": "038751/20234",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -2254,7 +2254,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5, 19077 Rastow",
+		"address": "Schulstrasse 5, 19077 Rastow",
 		"fax": "03868/292",
 		"full_time_school": false,
 		"id": "MV-75435446",
@@ -2268,7 +2268,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 2, 19260 Vellahn",
+		"address": "Schulstrasse 2, 19260 Vellahn",
 		"fax": "038848/22418",
 		"full_time_school": false,
 		"id": "MV-75435449",
@@ -2282,7 +2282,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rosenstraße 27, 19246 Zarrentin",
+		"address": "Rosenstrasse 27, 19246 Zarrentin",
 		"fax": "038851/81131",
 		"full_time_school": false,
 		"id": "MV-75435454",
@@ -2310,13 +2310,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Vogelstangenberg 6, 19412 Brüel",
+		"address": "Vogelstangenberg 6, 19412 Brueel",
 		"fax": "038483/293013",
 		"full_time_school": false,
 		"id": "MV-75436035",
 		"lat": 53.731436,
 		"lon": 11.715866,
-		"name": "Regionale Schule Brüel",
+		"name": "Regionale Schule Brueel",
 		"official_id": "75436035",
 		"phone": "038483/293030",
 		"school_type": "Regionale Schule",
@@ -2330,7 +2330,7 @@
 		"id": "MV-75436036",
 		"lat": 53.700674,
 		"lon": 11.525846,
-		"name": "Regionale Schule \"Am Mühlenberg\", Cambs",
+		"name": "Regionale Schule \"Am Muehlenberg\", Cambs",
 		"official_id": "75436036",
 		"phone": "03866/326",
 		"school_type": "Regionale Schule",
@@ -2338,7 +2338,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Straße der Freundschaft 19 a, 19089 Crivitz",
+		"address": "Strasse der Freundschaft 19 a, 19089 Crivitz",
 		"fax": "03863/502422",
 		"full_time_school": false,
 		"id": "MV-75436037",
@@ -2352,13 +2352,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Parchimer Straße 39, 19374 Domsühl",
+		"address": "Parchimer Strasse 39, 19374 Domsuehl",
 		"fax": "038728/22565",
 		"full_time_school": false,
 		"id": "MV-75436040",
 		"lat": 53.486769,
 		"lon": 11.776532,
-		"name": "Regionale Schule \"Eldetalschule\", Domsühl",
+		"name": "Regionale Schule \"Eldetalschule\", Domsuehl",
 		"official_id": "75436040",
 		"phone": "038728/20236",
 		"school_type": "Regionale Schule",
@@ -2366,13 +2366,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schützenstraße 35, 19386 Lübz",
+		"address": "Schuetzenstrasse 35, 19386 Luebz",
 		"fax": "038731/36606",
 		"full_time_school": false,
 		"id": "MV-75436041",
 		"lat": 53.459519,
 		"lon": 12.044154,
-		"name": "Regionale Schule Lübz",
+		"name": "Regionale Schule Luebz",
 		"official_id": "75436041",
 		"phone": "038731/22602",
 		"school_type": "Regionale Schule",
@@ -2380,7 +2380,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Mooster Straße 10, 19376 Marnitz",
+		"address": "Mooster Strasse 10, 19376 Marnitz",
 		"fax": "038729/29099",
 		"full_time_school": false,
 		"id": "MV-75436042",
@@ -2394,7 +2394,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Mönchhof 6, 19370 Parchim",
+		"address": "Moenchhof 6, 19370 Parchim",
 		"fax": "03871/450320",
 		"full_time_school": false,
 		"id": "MV-75436045",
@@ -2414,7 +2414,7 @@
 		"id": "MV-75436047",
 		"lat": 53.454437,
 		"lon": 12.261133,
-		"name": "Regionale Schule Schule \"Am Klüschenberg\", Plau am See",
+		"name": "Regionale Schule Schule \"Am Klueschenberg\", Plau am See",
 		"official_id": "75436047",
 		"phone": "038735/40884",
 		"school_type": "Regionale Schule",
@@ -2422,7 +2422,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "An der Lewitzmühle 82, 19079 Banzkow",
+		"address": "An der Lewitzmuehle 82, 19079 Banzkow",
 		"fax": "03861/302604",
 		"full_time_school": false,
 		"id": "MV-75436051",
@@ -2436,7 +2436,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "J.-Brinckman-Straße 39, 19399 Goldberg",
+		"address": "J.-Brinckman-Strasse 39, 19399 Goldberg",
 		"fax": "038736/42640",
 		"full_time_school": false,
 		"id": "MV-75436055",
@@ -2450,7 +2450,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ludwig-Reinhard-Straße 21, 19258 Boizenburg/Elbe",
+		"address": "Ludwig-Reinhard-Strasse 21, 19258 Boizenburg/Elbe",
 		"fax": "038847/8111",
 		"full_time_school": false,
 		"id": "MV-75535455",
@@ -2464,7 +2464,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Möllner Straße 14, 19230 Hagenow",
+		"address": "Moellner Strasse 14, 19230 Hagenow",
 		"fax": "03883/66106",
 		"full_time_school": false,
 		"id": "MV-75535458",
@@ -2478,7 +2478,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Christian-Ludwig-Straße 3, 19288 Ludwigslust",
+		"address": "Christian-Ludwig-Strasse 3, 19288 Ludwigslust",
 		"fax": "03874/428020",
 		"full_time_school": false,
 		"id": "MV-75535459",
@@ -2506,13 +2506,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Blücher Straße 22a, 19386 Lübz",
+		"address": "Bluecher Strasse 22a, 19386 Luebz",
 		"fax": "038731/20016",
 		"full_time_school": false,
 		"id": "MV-75536060",
 		"lat": 53.464546,
 		"lon": 12.037991,
-		"name": "Gymnasium \"Eldenburg\", Lübz",
+		"name": "Gymnasium \"Eldenburg\", Luebz",
 		"official_id": "75536060",
 		"phone": "038731/22686",
 		"school_type": "Gymnasium",
@@ -2534,13 +2534,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Katharinenstraße 1, 17033 Neubrandenburg",
+		"address": "Katharinenstrasse 1, 17033 Neubrandenburg",
 		"fax": "0395/5551151",
 		"full_time_school": false,
 		"id": "MV-75130201",
 		"lat": 53.556431,
 		"lon": 13.269182,
-		"name": "Grundschule  Mitte \"Uns Hüsung\", Neubrandenburg",
+		"name": "Grundschule  Mitte \"Uns Huesung\", Neubrandenburg",
 		"official_id": "75130201",
 		"phone": "0395/5551101",
 		"school_type": "Grundschule",
@@ -2548,13 +2548,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Werner-Seelenbinder-Straße 1, 17033 Neubrandenburg",
+		"address": "Werner-Seelenbinder-Strasse 1, 17033 Neubrandenburg",
 		"fax": "0395/5551770",
 		"full_time_school": false,
 		"id": "MV-75130203",
 		"lat": 53.55694,
 		"lon": 13.26083,
-		"name": "Grundschule Süd, Neubrandenburg",
+		"name": "Grundschule Sued, Neubrandenburg",
 		"official_id": "75130203",
 		"phone": "0395/5551765",
 		"school_type": "Grundschule",
@@ -2562,7 +2562,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Robert-Koch-Straße 52, 17036 Neubrandenburg",
+		"address": "Robert-Koch-Strasse 52, 17036 Neubrandenburg",
 		"fax": "0395/5551197",
 		"full_time_school": false,
 		"id": "MV-75130205",
@@ -2576,7 +2576,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rasgrader Straße 4, 17034 Neubrandenburg",
+		"address": "Rasgrader Strasse 4, 17034 Neubrandenburg",
 		"fax": "0395/5551709",
 		"full_time_school": false,
 		"id": "MV-75130210",
@@ -2604,7 +2604,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dükerweg 2, 17033 Neubrandenburg",
+		"address": "Duekerweg 2, 17033 Neubrandenburg",
 		"fax": "0395/5551175",
 		"full_time_school": false,
 		"id": "MV-75130213",
@@ -2660,13 +2660,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 17091 Mölln",
+		"address": "Schulstrasse 1, 17091 Moelln",
 		"fax": "039602/20615",
 		"full_time_school": false,
 		"id": "MV-75135210",
 		"lat": 53.589338,
 		"lon": 13.086655,
-		"name": "Grundschule Mölln",
+		"name": "Grundschule Moelln",
 		"official_id": "75135210",
 		"phone": "039602/20615",
 		"school_type": "Grundschule",
@@ -2688,7 +2688,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 77, 17111 Sarow",
+		"address": "Dorfstrasse 77, 17111 Sarow",
 		"fax": "039996/70310",
 		"full_time_school": false,
 		"id": "MV-75135213",
@@ -2702,7 +2702,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Goethestraße 14, 17153 Stavenhagen",
+		"address": "Goethestrasse 14, 17153 Stavenhagen",
 		"fax": "039954/276817",
 		"full_time_school": false,
 		"id": "MV-75135214",
@@ -2716,13 +2716,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 23, 17111 Schönfeld",
+		"address": "Dorfstrasse 23, 17111 Schoenfeld",
 		"fax": "039994/10249",
 		"full_time_school": false,
 		"id": "MV-75135226",
 		"lat": 53.853326,
 		"lon": 12.958466,
-		"name": "Grundschule Schönfeld",
+		"name": "Grundschule Schoenfeld",
 		"official_id": "75135226",
 		"phone": "039994/10249",
 		"school_type": "Grundschule",
@@ -2730,7 +2730,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 4, 17089 Burow",
+		"address": "Schulstrasse 4, 17089 Burow",
 		"fax": "03965/210369",
 		"full_time_school": false,
 		"id": "MV-75135233",
@@ -2744,7 +2744,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Straße der Einheit 58, 17139 Gielow",
+		"address": "Strasse der Einheit 58, 17139 Gielow",
 		"fax": "039957/20442",
 		"full_time_school": false,
 		"id": "MV-75135234",
@@ -2758,13 +2758,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Birkenweg 2, 17153 Jürgenstorf",
+		"address": "Birkenweg 2, 17153 Juergenstorf",
 		"fax": "039955/20231",
 		"full_time_school": false,
 		"id": "MV-75135236",
 		"lat": 53.662478,
 		"lon": 12.903071,
-		"name": "Grundschule Jürgenstorf",
+		"name": "Grundschule Juergenstorf",
 		"official_id": "75135236",
 		"phone": "039955/20231",
 		"school_type": "Grundschule",
@@ -2772,7 +2772,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Klüschenberg 17, 17094 Burg Stargard",
+		"address": "Klueschenberg 17, 17094 Burg Stargard",
 		"fax": "039603/27923",
 		"full_time_school": false,
 		"id": "MV-75135503",
@@ -2786,7 +2786,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Wollweberstraße 59, 17098 Friedland",
+		"address": "Wollweberstrasse 59, 17098 Friedland",
 		"fax": "039601/369809",
 		"full_time_school": false,
 		"id": "MV-75135507",
@@ -2814,7 +2814,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Pestalozzistraße 6, 17235 Neustrelitz",
+		"address": "Pestalozzistrasse 6, 17235 Neustrelitz",
 		"fax": "03981/441827",
 		"full_time_school": false,
 		"id": "MV-75135513",
@@ -2828,7 +2828,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 30, 17039 Neverin",
+		"address": "Dorfstrasse 30, 17039 Neverin",
 		"fax": "039608/20098",
 		"full_time_school": false,
 		"id": "MV-75135514",
@@ -2856,13 +2856,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 10, 17349 Groß Miltzow",
+		"address": "Schulstrasse 10, 17349 Gross Miltzow",
 		"fax": "03967/410299",
 		"full_time_school": false,
 		"id": "MV-75135533",
 		"lat": 53.534251,
 		"lon": 13.572539,
-		"name": "Grundschule Pappelhain, Groß Miltzow",
+		"name": "Grundschule Pappelhain, Gross Miltzow",
 		"official_id": "75135533",
 		"phone": "03967/410293",
 		"school_type": "Grundschule",
@@ -2870,7 +2870,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Bachstraße 9, 17235 Neustrelitz",
+		"address": "Bachstrasse 9, 17235 Neustrelitz",
 		"fax": "03981/441896",
 		"full_time_school": false,
 		"id": "MV-75135547",
@@ -2884,13 +2884,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Federower Straße 12, 17192 Kargow",
+		"address": "Federower Strasse 12, 17192 Kargow",
 		"fax": "03991/670040",
 		"full_time_school": false,
 		"id": "MV-75135602",
 		"lat": 53.506169,
 		"lon": 12.783468,
-		"name": "Grundschule \"Uns lütt Schaul\", Kargow",
+		"name": "Grundschule \"Uns luett Schaul\", Kargow",
 		"official_id": "75135602",
 		"phone": "03991/670040",
 		"school_type": "Grundschule",
@@ -2898,7 +2898,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 22, 17194 Moltzow",
+		"address": "Schulstrasse 22, 17194 Moltzow",
 		"fax": "039933/73584",
 		"full_time_school": false,
 		"id": "MV-75135603",
@@ -2912,13 +2912,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 20, 17207 Röbel/Müritz",
+		"address": "Schulstrasse 20, 17207 Roebel/Mueritz",
 		"fax": "039931/54285",
 		"full_time_school": false,
 		"id": "MV-75135607",
 		"lat": 53.3819,
 		"lon": 12.600936,
-		"name": "Grundschule Röbel",
+		"name": "Grundschule Roebel",
 		"official_id": "75135607",
 		"phone": "039931/52234",
 		"school_type": "Grundschule",
@@ -2926,7 +2926,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße, 17248 Rechlin",
+		"address": "Schulstrasse, 17248 Rechlin",
 		"fax": "039823/21829",
 		"full_time_school": false,
 		"id": "MV-75135608",
@@ -2940,13 +2940,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Geschwister-Scholl-Straße 31, 17192 Waren (Müritz)",
+		"address": "Geschwister-Scholl-Strasse 31, 17192 Waren (Mueritz)",
 		"fax": "03991/182866",
 		"full_time_school": false,
 		"id": "MV-75135610",
 		"lat": 53.521616,
 		"lon": 12.664597,
-		"name": "Grundschule \"Käthe Kollwitz\", Waren",
+		"name": "Grundschule \"Kaethe Kollwitz\", Waren",
 		"official_id": "75135610",
 		"phone": "03991/125645",
 		"school_type": "Grundschule",
@@ -2954,7 +2954,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Bgm.-Schlaaff-Straße 26, 17192 Waren (Müritz)",
+		"address": "Bgm.-Schlaaff-Strasse 26, 17192 Waren (Mueritz)",
 		"fax": "03991/667717",
 		"full_time_school": false,
 		"id": "MV-75135611",
@@ -2968,7 +2968,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 13, 17209 Altenhof",
+		"address": "Schulstrasse 13, 17209 Altenhof",
 		"fax": "039924/2443",
 		"full_time_school": false,
 		"id": "MV-75135618",
@@ -2982,13 +2982,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Neue Straße 32, 17192 Groß Plasten",
+		"address": "Neue Strasse 32, 17192 Gross Plasten",
 		"fax": "039934/87324",
 		"full_time_school": false,
 		"id": "MV-75135621",
 		"lat": 53.546348,
 		"lon": 12.848115,
-		"name": "Grundschule Groß Plasten",
+		"name": "Grundschule Gross Plasten",
 		"official_id": "75135621",
 		"phone": "039934/87605",
 		"school_type": "Grundschule",
@@ -2996,7 +2996,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kirchstraße 23-25, 17213 Malchow",
+		"address": "Kirchstrasse 23-25, 17213 Malchow",
 		"fax": "039932/47958",
 		"full_time_school": false,
 		"id": "MV-75135625",
@@ -3024,115 +3024,115 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ziegelbergstraße 27, 17033 Neubrandenburg",
+		"address": "Ziegelbergstrasse 27, 17033 Neubrandenburg",
 		"fax": "0395/599991309",
 		"full_time_school": false,
 		"id": "MV-75230235",
 		"lat": 53.555427,
 		"lon": 13.269483,
-		"name": "Schule mit dem Förderschwerpunkt Lernen sowie emotionale und soziale Entwicklung Neubrandenburg \"Pestalozzischule\" \n- Förderzentrum -",
+		"name": "Schule mit dem Foerderschwerpunkt Lernen sowie emotionale und soziale Entwicklung Neubrandenburg \"Pestalozzischule\" \n- Foerderzentrum -",
 		"official_id": "75230235",
 		"phone": "0395/599991302",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Baumhaselstraße 10-12, 17033 Neubrandenburg",
+		"address": "Baumhaselstrasse 10-12, 17033 Neubrandenburg",
 		"fax": "0395/3797479",
 		"full_time_school": false,
 		"id": "MV-75230236",
 		"lat": 53.535349,
 		"lon": 13.259111,
-		"name": "Schule mit dem Förderschwerpunkt Sprache Neubrandenburg - Sprachheilpädagogisches Förderzentrum",
+		"name": "Schule mit dem Foerderschwerpunkt Sprache Neubrandenburg - Sprachheilpaedagogisches Foerderzentrum",
 		"official_id": "75230236",
 		"phone": "0395/3699203",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Robert-Blum-Straße 36, 17033 Neubrandenburg",
+		"address": "Robert-Blum-Strasse 36, 17033 Neubrandenburg",
 		"fax": "0395/5639515",
 		"full_time_school": false,
 		"id": "MV-75230237",
 		"lat": 53.56119,
 		"lon": 13.249187,
-		"name": "Überregionales Förderzentrum mit dem Förderschwerpunkt körperliche-motorische Entwicklung, Neubrandenburg",
+		"name": "ueberregionales Foerderzentrum mit dem Foerderschwerpunkt koerperliche-motorische Entwicklung, Neubrandenburg",
 		"official_id": "75230237",
 		"phone": "0395/5639511",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "B.-Brecht-Straße 1a, 17034 Neubrandenburg",
+		"address": "B.-Brecht-Strasse 1a, 17034 Neubrandenburg",
 		"fax": "0395/4308040",
 		"full_time_school": false,
 		"id": "MV-75230238",
 		"lat": 53.57764,
 		"lon": 13.285376,
-		"name": "Schule mit dem Förderschwerpunkt geistige Entwicklung Neubrandenburg \"Kranichschule\"",
+		"name": "Schule mit dem Foerderschwerpunkt geistige Entwicklung Neubrandenburg \"Kranichschule\"",
 		"official_id": "75230238",
 		"phone": "0395/4308016",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Poststraße 1, 17087 Altentreptow",
+		"address": "Poststrasse 1, 17087 Altentreptow",
 		"fax": "03961/216441",
 		"full_time_school": false,
 		"id": "MV-75235248",
 		"lat": 53.692556,
 		"lon": 13.247123,
-		"name": "Lea-Toll-Schule - Schule mit dem Förderschwerpunkt Lernen, Altentreptow",
+		"name": "Lea-Toll-Schule - Schule mit dem Foerderschwerpunkt Lernen, Altentreptow",
 		"official_id": "75235248",
 		"phone": "03961/214417",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Saarstraße 23, 17109 Demmin",
+		"address": "Saarstrasse 23, 17109 Demmin",
 		"fax": "03998/258006",
 		"full_time_school": false,
 		"id": "MV-75235249",
 		"lat": 53.904247,
 		"lon": 13.065286,
-		"name": "Schule mit dem Förderschwerpunkt Lernen, Demmin",
+		"name": "Schule mit dem Foerderschwerpunkt Lernen, Demmin",
 		"official_id": "75235249",
 		"phone": "03998/222010",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Lindenstraße 6, 17139 Malchin",
+		"address": "Lindenstrasse 6, 17139 Malchin",
 		"fax": "03994/239853",
 		"full_time_school": false,
 		"id": "MV-75235250",
 		"lat": 53.736803,
 		"lon": 12.762383,
-		"name": "\"Sonderpädagogisches Förderzentrum - Lindenschule\" - Schule mit dem Förderschwerpunkt Lernen, Malchin",
+		"name": "\"Sonderpaedagogisches Foerderzentrum - Lindenschule\" - Schule mit dem Foerderschwerpunkt Lernen, Malchin",
 		"official_id": "75235250",
 		"phone": "03994/222209",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Westphalstraße 3, 17087 Altentreptow",
+		"address": "Westphalstrasse 3, 17087 Altentreptow",
 		"fax": "03961/262555",
 		"full_time_school": false,
 		"id": "MV-75235251",
 		"lat": 53.691168,
 		"lon": 13.24835,
-		"name": "Schule mit dem Förderschwerpunkt geistige Entwicklung, Altentreptow",
+		"name": "Schule mit dem Foerderschwerpunkt geistige Entwicklung, Altentreptow",
 		"official_id": "75235251",
 		"phone": "03961/214664",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -3142,11 +3142,11 @@
 		"id": "MV-75235252",
 		"lat": 53.907258,
 		"lon": 13.060822,
-		"name": "Schule Sonnenhof - Schule mit dem Förderschwerpunkt geistige Entwicklung, Demmin",
+		"name": "Schule Sonnenhof - Schule mit dem Foerderschwerpunkt geistige Entwicklung, Demmin",
 		"official_id": "75235252",
 		"phone": "03998/222004",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -3156,11 +3156,11 @@
 		"id": "MV-75235253",
 		"lat": 53.740129,
 		"lon": 12.759323,
-		"name": "Schule \"Am Wedenhof\"- Schule mit dem Förderschwerpunkt geistige Entwicklung, Malchin",
+		"name": "Schule \"Am Wedenhof\"- Schule mit dem Foerderschwerpunkt geistige Entwicklung, Malchin",
 		"official_id": "75235253",
 		"phone": "03994/222365",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -3170,99 +3170,99 @@
 		"id": "MV-75235544",
 		"lat": 53.672408,
 		"lon": 13.553669,
-		"name": "Sonderpädagogisches Förderzentrum - Schule mit Förderschwerpunkt Lernen, Friedland",
+		"name": "Sonderpaedagogisches Foerderzentrum - Schule mit Foerderschwerpunkt Lernen, Friedland",
 		"official_id": "75235544",
 		"phone": "039601/20573",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Hittenkofer Straße 28, 17235 Neustrelitz",
+		"address": "Hittenkofer Strasse 28, 17235 Neustrelitz",
 		"fax": "03981/205446",
 		"full_time_school": false,
 		"id": "MV-75235545",
 		"lat": 53.334873,
 		"lon": 13.096222,
-		"name": "Sonderpädagogisches Förderzentrum - Schule mit Förderschwerpunkt Lernen, Neustrelitz",
+		"name": "Sonderpaedagogisches Foerderzentrum - Schule mit Foerderschwerpunkt Lernen, Neustrelitz",
 		"official_id": "75235545",
 		"phone": "03981/205449",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Höhenstraße 51, 17235 Neustrelitz",
+		"address": "Hoehenstrasse 51, 17235 Neustrelitz",
 		"fax": "03981/443494",
 		"full_time_school": false,
 		"id": "MV-75235546",
 		"lat": 53.357005,
 		"lon": 13.085988,
-		"name": "Tom-Mutters-Schule - Schule mit Förderschwerpunkt geistige Entwicklung, Neustrelitz",
+		"name": "Tom-Mutters-Schule - Schule mit Foerderschwerpunkt geistige Entwicklung, Neustrelitz",
 		"official_id": "75235546",
 		"phone": "03981/443492",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 11, 17349 Holzendorf",
+		"address": "Schulstrasse 11, 17349 Holzendorf",
 		"fax": "03967/461856",
 		"full_time_school": false,
 		"id": "MV-75235548",
 		"lat": 53.534197,
 		"lon": 13.571858,
-		"name": "Mosaik-Schule - Schule mit Förderschwerpunkt geistige Entwicklung",
+		"name": "Mosaik-Schule - Schule mit Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75235548",
 		"phone": "03967/461855",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Warener Chaussee 4, 17207 Röbel/Müritz",
+		"address": "Warener Chaussee 4, 17207 Roebel/Mueritz",
 		"fax": "039931/52262",
 		"full_time_school": false,
 		"id": "MV-75235637",
 		"lat": 53.384569,
 		"lon": 12.606165,
-		"name": "Förderschule Röbel - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Foerderschule Roebel - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235637",
 		"phone": "039931/52262",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Karl-Liebknecht-Straße 8, 17192 Waren (Müritz)",
+		"address": "Karl-Liebknecht-Strasse 8, 17192 Waren (Mueritz)",
 		"fax": "03991/187074",
 		"full_time_school": false,
 		"id": "MV-75235638",
 		"lat": 53.517319,
 		"lon": 12.675093,
-		"name": "Förderzentrum \"Pestalozzi\" Waren - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Foerderzentrum \"Pestalozzi\" Waren - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235638",
 		"phone": "03991/125433",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Neubaustraße 14, 17209 Sietow",
+		"address": "Neubaustrasse 14, 17209 Sietow",
 		"fax": "039931/84523",
 		"full_time_school": false,
 		"id": "MV-75235639",
 		"lat": 53.44431,
 		"lon": 12.560033,
-		"name": "Müritz-Schule Sietow - Schule mit dem Förderschwerpunkt geistige Entwicklung",
+		"name": "Mueritz-Schule Sietow - Schule mit dem Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75235639",
 		"phone": "039931/8450",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Geschwister-Scholl-Straße 14, 17033 Neubrandenburg",
+		"address": "Geschwister-Scholl-Strasse 14, 17033 Neubrandenburg",
 		"fax": "0395/599991109",
 		"full_time_school": false,
 		"id": "MV-75330233",
@@ -3276,7 +3276,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Pestalozzistraße 1, 17087 Altentreptow",
+		"address": "Pestalozzistrasse 1, 17087 Altentreptow",
 		"fax": "03961/215513",
 		"full_time_school": false,
 		"id": "MV-75335243",
@@ -3290,13 +3290,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Straße am Wasserturm 1, 17153 Stavenhagen",
+		"address": "Strasse am Wasserturm 1, 17153 Stavenhagen",
 		"fax": "039954/27181",
 		"full_time_school": false,
 		"id": "MV-75335247",
 		"lat": 53.696903,
 		"lon": 12.898265,
-		"name": "Reuterstädter Gesamtschule - Europaschule -\nKooperative Gesamtschule, Stavenhagen",
+		"name": "Reuterstaedter Gesamtschule - Europaschule -\nKooperative Gesamtschule, Stavenhagen",
 		"official_id": "75335247",
 		"phone": "039954/22043",
 		"school_type": "Kooperative Gesamtschule",
@@ -3304,7 +3304,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dr. Karl-Bayer-Straße 4, 17098 Friedland",
+		"address": "Dr. Karl-Bayer-Strasse 4, 17098 Friedland",
 		"fax": "039601/29124",
 		"full_time_school": false,
 		"id": "MV-75335537",
@@ -3318,7 +3318,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Lessingstraße 27, 17235 Neustrelitz",
+		"address": "Lessingstrasse 27, 17235 Neustrelitz",
 		"fax": "03981/455999",
 		"full_time_school": false,
 		"id": "MV-75335541",
@@ -3332,7 +3332,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 3, 17213 Malchow",
+		"address": "Schulstrasse 3, 17213 Malchow",
 		"fax": "039932/16633",
 		"full_time_school": false,
 		"id": "MV-75335614",
@@ -3346,13 +3346,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Gotthunskamp 13, 17207 Röbel/Müritz",
+		"address": "Gotthunskamp 13, 17207 Roebel/Mueritz",
 		"fax": "039931/52206  ",
 		"full_time_school": false,
 		"id": "MV-75335616",
 		"lat": 53.374741,
 		"lon": 12.603148,
-		"name": "Schulcampus Röbel, Verbundene Regionale Schule und Gymnasium",
+		"name": "Schulcampus Roebel, Verbundene Regionale Schule und Gymnasium",
 		"official_id": "75335616",
 		"phone": "039931/52202",
 		"school_type": "Kooperative Gesamtschule",
@@ -3360,7 +3360,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Katharinenstraße 1, 17033 Neubrandenburg",
+		"address": "Katharinenstrasse 1, 17033 Neubrandenburg",
 		"fax": "0395/5551173",
 		"full_time_school": false,
 		"id": "MV-75430216",
@@ -3374,7 +3374,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kopernikusstraße 4, 17036 Neubrandenburg",
+		"address": "Kopernikusstrasse 4, 17036 Neubrandenburg",
 		"fax": "0395/5551641",
 		"full_time_school": false,
 		"id": "MV-75430219",
@@ -3388,7 +3388,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dükerweg 2, 17033 Neubrandenburg",
+		"address": "Duekerweg 2, 17033 Neubrandenburg",
 		"fax": "0395/5551175",
 		"full_time_school": false,
 		"id": "MV-75430225",
@@ -3402,7 +3402,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rudolf-Fritz-Straße 8a, 17139 Malchin",
+		"address": "Rudolf-Fritz-Strasse 8a, 17139 Malchin",
 		"fax": "03994/222219",
 		"full_time_school": false,
 		"id": "MV-75435221",
@@ -3416,7 +3416,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schützenstraße 1, 17109 Demmin",
+		"address": "Schuetzenstrasse 1, 17109 Demmin",
 		"fax": "03998/271115",
 		"full_time_school": false,
 		"id": "MV-75435222",
@@ -3444,7 +3444,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Frauenstraße 18, 17109 Demmin",
+		"address": "Frauenstrasse 18, 17109 Demmin",
 		"fax": "03998/222072",
 		"full_time_school": false,
 		"id": "MV-75435229",
@@ -3458,13 +3458,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Waldstraße 6, 17091 Tützpatz",
+		"address": "Waldstrasse 6, 17091 Tuetzpatz",
 		"fax": "039600/20518",
 		"full_time_school": false,
 		"id": "MV-75435242",
 		"lat": 53.725203,
 		"lon": 13.14229,
-		"name": "Regionale Schule mit Grundschule Tützpatz",
+		"name": "Regionale Schule mit Grundschule Tuetzpatz",
 		"official_id": "75435242",
 		"phone": "039600/21272",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -3472,7 +3472,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Tiergartenstraße 32, 17235 Neustrelitz",
+		"address": "Tiergartenstrasse 32, 17235 Neustrelitz",
 		"fax": "03981/238620",
 		"full_time_school": false,
 		"id": "MV-75435523",
@@ -3486,7 +3486,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Wollweberstraße 27, 17348 Woldegk",
+		"address": "Wollweberstrasse 27, 17348 Woldegk",
 		"fax": "03963/210505",
 		"full_time_school": false,
 		"id": "MV-75435529",
@@ -3500,7 +3500,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 12, 17237 Blankensee",
+		"address": "Schulstrasse 12, 17237 Blankensee",
 		"fax": "039826/12406",
 		"full_time_school": false,
 		"id": "MV-75435531",
@@ -3514,7 +3514,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "In den Wällen 9a, 17255 Wesenberg",
+		"address": "In den Waellen 9a, 17255 Wesenberg",
 		"fax": "039832/20510",
 		"full_time_school": false,
 		"id": "MV-75435536",
@@ -3528,7 +3528,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Klüschenbergstraße 13, 17094 Burg Stargard",
+		"address": "Klueschenbergstrasse 13, 17094 Burg Stargard",
 		"fax": "039603/22915",
 		"full_time_school": false,
 		"id": "MV-75435542",
@@ -3542,7 +3542,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Bahnhofstraße 5, 17258 Feldberg",
+		"address": "Bahnhofstrasse 5, 17258 Feldberg",
 		"fax": "039831/22149",
 		"full_time_school": false,
 		"id": "MV-75435543",
@@ -3556,7 +3556,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hirtenstraße 12, 17217 Penzlin",
+		"address": "Hirtenstrasse 12, 17217 Penzlin",
 		"fax": "03962/210233",
 		"full_time_school": false,
 		"id": "MV-75435615",
@@ -3584,13 +3584,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Am Markt 10, 17219 Möllenhagen",
+		"address": "Am Markt 10, 17219 Moellenhagen",
 		"fax": "039928/80220",
 		"full_time_school": false,
 		"id": "MV-75435624",
 		"lat": 53.528443,
 		"lon": 12.931414,
-		"name": "Regionale Schule \"Heinrich Schliemann\", Möllenhagen",
+		"name": "Regionale Schule \"Heinrich Schliemann\", Moellenhagen",
 		"official_id": "75435624",
 		"phone": "039928/80212",
 		"school_type": "Regionale Schule",
@@ -3598,7 +3598,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kirschenweg 2, 17192 Waren (Müritz)",
+		"address": "Kirschenweg 2, 17192 Waren (Mueritz)",
 		"fax": "03991/640219",
 		"full_time_school": false,
 		"id": "MV-75435630",
@@ -3612,7 +3612,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Friedrich-Engels-Platz 10, 17192 Waren (Müritz)",
+		"address": "Friedrich-Engels-Platz 10, 17192 Waren (Mueritz)",
 		"fax": "03991/168960",
 		"full_time_school": false,
 		"id": "MV-75435636",
@@ -3626,7 +3626,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Demminer Straße 42, 17034 Neubrandenburg",
+		"address": "Demminer Strasse 42, 17034 Neubrandenburg",
 		"fax": "0395/599991616",
 		"full_time_school": false,
 		"id": "MV-75530227",
@@ -3640,7 +3640,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schwedenstraße 22, 17033 Neubrandenburg",
+		"address": "Schwedenstrasse 22, 17033 Neubrandenburg",
 		"fax": "0395/599991816",
 		"full_time_school": false,
 		"id": "MV-75530232",
@@ -3654,7 +3654,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Demminer Straße 42, 17034 Neubrandenburg",
+		"address": "Demminer Strasse 42, 17034 Neubrandenburg",
 		"fax": "0395/599991623",
 		"full_time_school": false,
 		"id": "MV-75530240",
@@ -3668,7 +3668,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "An der Mühle 7, 17109 Demmin",
+		"address": "An der Muehle 7, 17109 Demmin",
 		"fax": null,
 		"full_time_school": false,
 		"id": "MV-75535244",
@@ -3696,7 +3696,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Louisenstraße 30, 17235 Neustrelitz",
+		"address": "Louisenstrasse 30, 17235 Neustrelitz",
 		"fax": "03981/286730",
 		"full_time_school": false,
 		"id": "MV-75535539",
@@ -3710,7 +3710,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Güstrower Straße 11, 17192 Waren (Müritz)",
+		"address": "Guestrower Strasse 11, 17192 Waren (Mueritz)",
 		"fax": "03991/747727",
 		"full_time_school": false,
 		"id": "MV-75535635",
@@ -3724,7 +3724,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Anton-Saefkow-Straße 9, 23968 Wismar",
+		"address": "Anton-Saefkow-Strasse 9, 23968 Wismar",
 		"fax": "03841/6189789",
 		"full_time_school": false,
 		"id": "MV-75130601",
@@ -3738,7 +3738,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Tallinner Straße 01, 23970 Wismar",
+		"address": "Tallinner Strasse 01, 23970 Wismar",
 		"fax": "03841/224188",
 		"full_time_school": false,
 		"id": "MV-75130602",
@@ -3752,7 +3752,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dahlmannstraße 14, 23966 Wismar",
+		"address": "Dahlmannstrasse 14, 23966 Wismar",
 		"fax": "03841/395359",
 		"full_time_school": false,
 		"id": "MV-75130603",
@@ -3766,7 +3766,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "H.-Rothbarth-Straße 1 a, 23966 Wismar",
+		"address": "H.-Rothbarth-Strasse 1 a, 23966 Wismar",
 		"fax": "03841/326261",
 		"full_time_school": false,
 		"id": "MV-75130604",
@@ -3780,7 +3780,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 08, 19217 Carlow",
+		"address": "Schulstrasse 08, 19217 Carlow",
 		"fax": "038873/33475",
 		"full_time_school": false,
 		"id": "MV-75135802",
@@ -3794,7 +3794,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Karl-Marx-Straße 13, 23972 Dorf Mecklenburg",
+		"address": "Karl-Marx-Strasse 13, 23972 Dorf Mecklenburg",
 		"fax": "03841/333989",
 		"full_time_school": false,
 		"id": "MV-75135804",
@@ -3808,13 +3808,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kleine Allee 44, 23936 Grevesmühlen",
+		"address": "Kleine Allee 44, 23936 Grevesmuehlen",
 		"fax": "03881/711173",
 		"full_time_school": false,
 		"id": "MV-75135806",
 		"lat": 53.86282,
 		"lon": 11.187386,
-		"name": "Grundschule \"Fritz Reuter\", Grevesmühlen",
+		"name": "Grundschule \"Fritz Reuter\", Grevesmuehlen",
 		"official_id": "75135806",
 		"phone": "03881/2511",
 		"school_type": "Grundschule",
@@ -3822,13 +3822,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ploggenseering 64, 23936 Grevesmühlen",
+		"address": "Ploggenseering 64, 23936 Grevesmuehlen",
 		"fax": "03881/710039",
 		"full_time_school": false,
 		"id": "MV-75135807",
 		"lat": 53.864941,
 		"lon": 11.195576,
-		"name": "Grundschule \"Ploggensee\", Grevesmühlen",
+		"name": "Grundschule \"Ploggensee\", Grevesmuehlen",
 		"official_id": "75135807",
 		"phone": "03881/712206",
 		"school_type": "Grundschule",
@@ -3836,7 +3836,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Alte Gärtnerei 1, 23992 Neukloster",
+		"address": "Alte Gaertnerei 1, 23992 Neukloster",
 		"fax": "038422/20427",
 		"full_time_school": false,
 		"id": "MV-75135818",
@@ -3864,7 +3864,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Geschwister-Scholl-Straße 5, 19417 Warin",
+		"address": "Geschwister-Scholl-Strasse 5, 19417 Warin",
 		"fax": "038482/22346",
 		"full_time_school": false,
 		"id": "MV-75135823",
@@ -3878,7 +3878,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 27, 23996 Bobitz",
+		"address": "Schulstrasse 27, 23996 Bobitz",
 		"fax": "038424/41123",
 		"full_time_school": false,
 		"id": "MV-75135825",
@@ -3892,13 +3892,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Zum Rehm 3, 19071 Brüsewitz",
+		"address": "Zum Rehm 3, 19071 Bruesewitz",
 		"fax": "038874/41424",
 		"full_time_school": false,
 		"id": "MV-75135826",
 		"lat": 53.675603,
 		"lon": 11.249388,
-		"name": "Grundschule Brüsewitz",
+		"name": "Grundschule Bruesewitz",
 		"official_id": "75135826",
 		"phone": "038874/41424",
 		"school_type": "Grundschule",
@@ -3906,7 +3906,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 12, 23974 Dreveskirchen",
+		"address": "Schulstrasse 12, 23974 Dreveskirchen",
 		"fax": "038427/40839",
 		"full_time_school": false,
 		"id": "MV-75135828",
@@ -3934,13 +3934,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 22, 23972 Lübow",
+		"address": "Dorfstrasse 22, 23972 Luebow",
 		"fax": "03841/780408",
 		"full_time_school": false,
 		"id": "MV-75135835",
 		"lat": 53.851075,
 		"lon": 11.526578,
-		"name": "Grundschule Lübow",
+		"name": "Grundschule Luebow",
 		"official_id": "75135835",
 		"phone": "03841/785822",
 		"school_type": "Grundschule",
@@ -3948,7 +3948,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Klützer Straße 11 - 15, 23946 Boltenhagen",
+		"address": "Kluetzer Strasse 11 - 15, 23946 Boltenhagen",
 		"fax": "038825/23656",
 		"full_time_school": false,
 		"id": "MV-75135841",
@@ -3962,7 +3962,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Gadebuscher Straße 6, 19205 Roggendorf",
+		"address": "Gadebuscher Strasse 6, 19205 Roggendorf",
 		"fax": "038876/31603",
 		"full_time_school": false,
 		"id": "MV-75135844",
@@ -3976,73 +3976,73 @@
 		"state": "MV"
 	},
 	{
-		"address": "Liselotte-Herrmann-Straße 5, 23968 Wismar",
+		"address": "Liselotte-Herrmann-Strasse 5, 23968 Wismar",
 		"fax": "03841/629179",
 		"full_time_school": false,
 		"id": "MV-75230619",
 		"lat": 53.89905,
 		"lon": 11.423407,
-		"name": "Claus-Jesup-Schule Wismar - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Claus-Jesup-Schule Wismar - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75230619",
 		"phone": "03841/636660",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Agnes-Karll-Straße 6 - 8, 19205 Gadebusch",
+		"address": "Agnes-Karll-Strasse 6 - 8, 19205 Gadebusch",
 		"fax": "03886/3662043",
 		"full_time_school": false,
 		"id": "MV-75235854",
 		"lat": 53.695565,
 		"lon": 11.107346,
-		"name": "Schule mit dem Förderschwerpunkt Lernen \"Johann-Heinrich-Pestalozzi\" Gadebusch",
+		"name": "Schule mit dem Foerderschwerpunkt Lernen \"Johann-Heinrich-Pestalozzi\" Gadebusch",
 		"official_id": "75235854",
 		"phone": "03886/3662040",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "R.-Hartmann-Straße 13, 23923 Schönberg",
+		"address": "R.-Hartmann-Strasse 13, 23923 Schoenberg",
 		"fax": "038828/23578",
 		"full_time_school": false,
 		"id": "MV-75235855",
 		"lat": 53.85,
 		"lon": 10.91667,
-		"name": "Schule mit dem Förderschwerpunkt Lernen \"Anne Frank\" Schönberg",
+		"name": "Schule mit dem Foerderschwerpunkt Lernen \"Anne Frank\" Schoenberg",
 		"official_id": "75235855",
 		"phone": "038828/21241",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Wismarsche Straße 124, 23936 Grevesmühlen",
+		"address": "Wismarsche Strasse 124, 23936 Grevesmuehlen",
 		"fax": "03881/712716",
 		"full_time_school": false,
 		"id": "MV-75235856",
 		"lat": 53.863662,
 		"lon": 11.194977,
-		"name": "Schule mit dem Förderschwerpunkt Lernen \"An den Linden\" Grevesmühlen",
+		"name": "Schule mit dem Foerderschwerpunkt Lernen \"An den Linden\" Grevesmuehlen",
 		"official_id": "75235856",
 		"phone": "03881/2349",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Alte Gärtnerei 1, 23992 Neukloster",
+		"address": "Alte Gaertnerei 1, 23992 Neukloster",
 		"fax": "038422/400215",
 		"full_time_school": false,
 		"id": "MV-75235858",
 		"lat": 53.862243,
 		"lon": 11.692042,
-		"name": "Schule mit dem Förderschwerpunkt Lernen \"Fritz D. v. d.  Schulenburg\" Neukloster",
+		"name": "Schule mit dem Foerderschwerpunkt Lernen \"Fritz D. v. d.  Schulenburg\" Neukloster",
 		"official_id": "75235858",
 		"phone": "038422/400211",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -4052,11 +4052,11 @@
 		"id": "MV-75235859",
 		"lat": 53.862203,
 		"lon": 11.69529,
-		"name": "Landesschule für Blinde und Sehbehinderte",
+		"name": "Landesschule fuer Blinde und Sehbehinderte",
 		"official_id": "75235859",
 		"phone": "038422/4520",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -4066,11 +4066,11 @@
 		"id": "MV-75235861",
 		"lat": 53.944388,
 		"lon": 11.588931,
-		"name": "Schule mit dem Förderschwerpunkt geistige Entwicklung \"Am Wallberg\" Neuburg",
+		"name": "Schule mit dem Foerderschwerpunkt geistige Entwicklung \"Am Wallberg\" Neuburg",
 		"official_id": "75235861",
 		"phone": "038426/20215",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -4088,7 +4088,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ernst-Thälmann-Straße 14, 23972 Dorf Mecklenburg",
+		"address": "Ernst-Thaelmann-Strasse 14, 23972 Dorf Mecklenburg",
 		"fax": "03841/797091",
 		"full_time_school": false,
 		"id": "MV-75335849",
@@ -4102,7 +4102,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "B.-Tesch-Straße 31, 23968 Wismar",
+		"address": "B.-Tesch-Strasse 31, 23968 Wismar",
 		"fax": "03841/632775",
 		"full_time_school": false,
 		"id": "MV-75430610",
@@ -4116,7 +4116,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kapitänspromenade 25, 23966 Wismar",
+		"address": "Kapitaenspromenade 25, 23966 Wismar",
 		"fax": "03841/3266863",
 		"full_time_school": false,
 		"id": "MV-75430612",
@@ -4130,7 +4130,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "R.-Breitscheid-Straße 50, 23942 Dassow",
+		"address": "R.-Breitscheid-Strasse 50, 23942 Dassow",
 		"fax": "038826/88963",
 		"full_time_school": false,
 		"id": "MV-75435815",
@@ -4144,13 +4144,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Straße des Friedens 2, 23948 Klütz",
+		"address": "Strasse des Friedens 2, 23948 Kluetz",
 		"fax": "038825/23886",
 		"full_time_school": false,
 		"id": "MV-75435816",
 		"lat": 53.963501,
 		"lon": 11.166254,
-		"name": "Regionale Schule Klütz",
+		"name": "Regionale Schule Kluetz",
 		"official_id": "75435816",
 		"phone": "038825/22597",
 		"school_type": "Regionale Schule",
@@ -4158,13 +4158,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Bahnhofstraße 18, 19069 Lübstorf",
+		"address": "Bahnhofstrasse 18, 19069 Luebstorf",
 		"fax": "03867/9601070",
 		"full_time_school": false,
 		"id": "MV-75435817",
 		"lat": 53.729246,
 		"lon": 11.408384,
-		"name": "Regionale Schule mit Grundschule \"Werner Lindemann\", Lübstorf",
+		"name": "Regionale Schule mit Grundschule \"Werner Lindemann\", Luebstorf",
 		"official_id": "75435817",
 		"phone": "03867/269",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -4172,7 +4172,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 11, 23996 Bad Kleinen",
+		"address": "Schulstrasse 11, 23996 Bad Kleinen",
 		"fax": "038423/50988",
 		"full_time_school": false,
 		"id": "MV-75435824",
@@ -4186,7 +4186,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Heinrich-Heine-Straße 40, 19205 Gadebusch",
+		"address": "Heinrich-Heine-Strasse 40, 19205 Gadebusch",
 		"fax": "03886/712626",
 		"full_time_school": false,
 		"id": "MV-75435830",
@@ -4200,13 +4200,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ploggenseering 68, 23936 Grevesmühlen",
+		"address": "Ploggenseering 68, 23936 Grevesmuehlen",
 		"fax": "03881/2348",
 		"full_time_school": false,
 		"id": "MV-75435832",
 		"lat": 53.86462,
 		"lon": 11.197162,
-		"name": "Regionale Schule \"Wasserturm\", Grevesmühlen",
+		"name": "Regionale Schule \"Wasserturm\", Grevesmuehlen",
 		"official_id": "75435832",
 		"phone": "03881/78790",
 		"school_type": "Regionale Schule",
@@ -4214,7 +4214,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Straße der Jugend 5, 23999 Kirchdorf",
+		"address": "Strasse der Jugend 5, 23999 Kirchdorf",
 		"fax": "038425/42153",
 		"full_time_school": false,
 		"id": "MV-75435834",
@@ -4228,13 +4228,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hauptstraße 21, 23923 Wahrsow",
+		"address": "Hauptstrasse 21, 23923 Wahrsow",
 		"fax": "038828/3302119",
 		"full_time_school": false,
 		"id": "MV-75435836",
 		"lat": 53.820407,
 		"lon": 10.983742,
-		"name": "Regionale Schule mit Grundschule Lüdersdorf",
+		"name": "Regionale Schule mit Grundschule Luedersdorf",
 		"official_id": "75435836",
 		"phone": "038821/60736",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -4242,13 +4242,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Pokrenter Straße 4, 19209 Lützow",
+		"address": "Pokrenter Strasse 4, 19209 Luetzow",
 		"fax": "038874/21396",
 		"full_time_school": false,
 		"id": "MV-75435837",
 		"lat": 53.652925,
 		"lon": 11.170421,
-		"name": "Regionale Schule mit Grundschule Lützow",
+		"name": "Regionale Schule mit Grundschule Luetzow",
 		"official_id": "75435837",
 		"phone": "038874/22230",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -4256,13 +4256,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 8, 19205 Mühlen Eichsen",
+		"address": "Schulstrasse 8, 19205 Muehlen Eichsen",
 		"fax": "038871/21883",
 		"full_time_school": false,
 		"id": "MV-75435838",
 		"lat": 53.758522,
 		"lon": 11.247293,
-		"name": "Regionale Schule mit Grundschule Mühlen-Eichsen",
+		"name": "Regionale Schule mit Grundschule Muehlen-Eichsen",
 		"official_id": "75435838",
 		"phone": "038871/22216",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -4270,7 +4270,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hauptstraße 41, 23974 Neuburg",
+		"address": "Hauptstrasse 41, 23974 Neuburg",
 		"fax": "038426/229801",
 		"full_time_school": false,
 		"id": "MV-75435839",
@@ -4298,7 +4298,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hauptstraße 18, 23968 Proseken",
+		"address": "Hauptstrasse 18, 23968 Proseken",
 		"fax": "038428/63544",
 		"full_time_school": false,
 		"id": "MV-75435842",
@@ -4318,7 +4318,7 @@
 		"id": "MV-75435843",
 		"lat": 53.777105,
 		"lon": 11.058043,
-		"name": "Regionale Schule mit Grundschule \"Käthe Kollwitz\", Rehna",
+		"name": "Regionale Schule mit Grundschule \"Kaethe Kollwitz\", Rehna",
 		"official_id": "75435843",
 		"phone": "038872/6530",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -4326,13 +4326,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dassower Straße 10, 23923 Schönberg",
+		"address": "Dassower Strasse 10, 23923 Schoenberg",
 		"fax": "038828/25322",
 		"full_time_school": false,
 		"id": "MV-75435845",
 		"lat": 53.855885,
 		"lon": 10.928892,
-		"name": "Regionale Schule mit Grundschule Schönberg",
+		"name": "Regionale Schule mit Grundschule Schoenberg",
 		"official_id": "75435845",
 		"phone": "038828/25320",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -4340,7 +4340,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hauptstraße 18a, 19217 Schlagsdorf",
+		"address": "Hauptstrasse 18a, 19217 Schlagsdorf",
 		"fax": "038875/20211",
 		"full_time_school": false,
 		"id": "MV-75435846",
@@ -4354,13 +4354,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 9/11, 23966 Wismar",
+		"address": "Schulstrasse 9/11, 23966 Wismar",
 		"fax": "03841/205263",
 		"full_time_school": false,
 		"id": "MV-75530615",
 		"lat": 53.894068,
 		"lon": 11.466329,
-		"name": "Große Stadtschule\nGeschwister-Scholl-Gymnasium, Wismar",
+		"name": "Grosse Stadtschule\nGeschwister-Scholl-Gymnasium, Wismar",
 		"official_id": "75530615",
 		"phone": "03841/282732",
 		"school_type": "Gymnasium",
@@ -4368,7 +4368,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dahlmannstraße 40, 23966 Wismar",
+		"address": "Dahlmannstrasse 40, 23966 Wismar",
 		"fax": "03841/205261",
 		"full_time_school": false,
 		"id": "MV-75530617",
@@ -4382,7 +4382,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Agnes-Karll-Straße 20, 19205 Gadebusch",
+		"address": "Agnes-Karll-Strasse 20, 19205 Gadebusch",
 		"fax": "03886/35152",
 		"full_time_school": false,
 		"id": "MV-75535850",
@@ -4396,13 +4396,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rehnaer Straße 51, 23936 Grevesmühlen",
+		"address": "Rehnaer Strasse 51, 23936 Grevesmuehlen",
 		"fax": "03881/788227",
 		"full_time_school": false,
 		"id": "MV-75535851",
 		"lat": 53.852217,
 		"lon": 11.183098,
-		"name": "Gymnasium am Tannenberg, Grevesmühlen",
+		"name": "Gymnasium am Tannenberg, Grevesmuehlen",
 		"official_id": "75535851",
 		"phone": "03881/78820",
 		"school_type": "Gymnasium",
@@ -4424,13 +4424,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Goetheplatz 5, 23923 Schönberg",
+		"address": "Goetheplatz 5, 23923 Schoenberg",
 		"fax": "038828/23633",
 		"full_time_school": false,
 		"id": "MV-75535853",
 		"lat": 53.844778,
 		"lon": 10.925177,
-		"name": "Ernst-Barlach-Gymnasium, Schönberg",
+		"name": "Ernst-Barlach-Gymnasium, Schoenberg",
 		"official_id": "75535853",
 		"phone": "038828/24433",
 		"school_type": "Gymnasium",
@@ -4438,7 +4438,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "v.-Thünen-Straße 9, 19053 Schwerin",
+		"address": "v.-Thuenen-Strasse 9, 19053 Schwerin",
 		"fax": "0385/7588679",
 		"full_time_school": false,
 		"id": "MV-75130403",
@@ -4452,13 +4452,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Eulerstraße 2, 19063 Schwerin",
+		"address": "Eulerstrasse 2, 19063 Schwerin",
 		"fax": "0385/2010129",
 		"full_time_school": false,
 		"id": "MV-75130405",
 		"lat": 53.59637,
 		"lon": 11.465596,
-		"name": "Grundschule am Mueßer Berg, Schwerin",
+		"name": "Grundschule am Muesser Berg, Schwerin",
 		"official_id": "75130405",
 		"phone": "0385/2012107",
 		"school_type": "Grundschule",
@@ -4466,7 +4466,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Willi-Bredel-Straße 17, 19059 Schwerin",
+		"address": "Willi-Bredel-Strasse 17, 19059 Schwerin",
 		"fax": "0385/7589519",
 		"full_time_school": false,
 		"id": "MV-75130406",
@@ -4480,7 +4480,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Friedrich-Engels-Straße 35, 19061 Schwerin",
+		"address": "Friedrich-Engels-Strasse 35, 19061 Schwerin",
 		"fax": "0385/3921816",
 		"full_time_school": false,
 		"id": "MV-75130408",
@@ -4494,7 +4494,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Amtstraße 3, 19055 Schwerin",
+		"address": "Amtstrasse 3, 19055 Schwerin",
 		"fax": "0385/5557863",
 		"full_time_school": false,
 		"id": "MV-75130410",
@@ -4508,7 +4508,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rahlstedter Straße 3b, 19057 Schwerin",
+		"address": "Rahlstedter Strasse 3b, 19057 Schwerin",
 		"fax": "0385/4807575",
 		"full_time_school": false,
 		"id": "MV-75130411",
@@ -4522,7 +4522,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Friedensstraße 14, 19053 Schwerin",
+		"address": "Friedensstrasse 14, 19053 Schwerin",
 		"fax": "0385/7589200",
 		"full_time_school": false,
 		"id": "MV-75130414",
@@ -4542,57 +4542,57 @@
 		"id": "MV-75230437",
 		"lat": 53.592387,
 		"lon": 11.464187,
-		"name": "Sonderpädagogisches Förderzentrum \"Am Fernsehturm\" Schwerin,  Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Sonderpaedagogisches Foerderzentrum \"Am Fernsehturm\" Schwerin,  Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75230437",
 		"phone": "0385/2071125",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "A.-Sacharow-Straße 75, 19061 Schwerin",
+		"address": "A.-Sacharow-Strasse 75, 19061 Schwerin",
 		"fax": "0385/39929904",
 		"full_time_school": false,
 		"id": "MV-75230439",
 		"lat": 53.590353,
 		"lon": 11.395873,
-		"name": "Sprachheilpädagogisches Förderzentrum Schwerin",
+		"name": "Sprachheilpaedagogisches Foerderzentrum Schwerin",
 		"official_id": "75230439",
 		"phone": "0385/3260011",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Ratzeburger Straße 31, 19057 Schwerin",
+		"address": "Ratzeburger Strasse 31, 19057 Schwerin",
 		"fax": "0385/4855111",
 		"full_time_school": false,
 		"id": "MV-75230440",
 		"lat": 53.650445,
 		"lon": 11.361105,
-		"name": "Mecklenburgisches Förderzentrum Schwerin, Schule mit dem Schwerpunkt körperliche und motorische Entwicklung",
+		"name": "Mecklenburgisches Foerderzentrum Schwerin, Schule mit dem Schwerpunkt koerperliche und motorische Entwicklung",
 		"official_id": "75230440",
 		"phone": "0385/485510",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Liese-Meitner-Straße 1, 19063 Schwerin",
+		"address": "Liese-Meitner-Strasse 1, 19063 Schwerin",
 		"fax": "0385/5585724",
 		"full_time_school": false,
 		"id": "MV-75230441",
 		"lat": 51.942164,
 		"lon": 7.010528,
-		"name": "Albert-Schweitzer-Schule Schwerin, Schule mit dem Förderschwerpunkt geistige Entwicklung",
+		"name": "Albert-Schweitzer-Schule Schwerin, Schule mit dem Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75230441",
 		"phone": "0385/558570",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Von-Stauffenberg-Straße 68, 19061 Schwerin",
+		"address": "Von-Stauffenberg-Strasse 68, 19061 Schwerin",
 		"fax": "0385/3992960",
 		"full_time_school": false,
 		"id": "MV-75330436",
@@ -4606,7 +4606,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "R.-Breitscheid-Straße 23, 19053 Schwerin",
+		"address": "R.-Breitscheid-Strasse 23, 19053 Schwerin",
 		"fax": "0385/7610723",
 		"full_time_school": false,
 		"id": "MV-75430421",
@@ -4620,7 +4620,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rahlstedter Straße 3A, 19057 Schwerin",
+		"address": "Rahlstedter Strasse 3A, 19057 Schwerin",
 		"fax": "0385/4867987",
 		"full_time_school": false,
 		"id": "MV-75430423",
@@ -4634,7 +4634,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Tallinner Straße 4 - 6, 19063 Schwerin",
+		"address": "Tallinner Strasse 4 - 6, 19063 Schwerin",
 		"fax": "0385/3979193",
 		"full_time_school": false,
 		"id": "MV-75430425",
@@ -4648,7 +4648,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Goethestraße 74, 19053 Schwerin",
+		"address": "Goethestrasse 74, 19053 Schwerin",
 		"fax": "0385/3021333",
 		"full_time_school": false,
 		"id": "MV-75530428",
@@ -4662,7 +4662,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "J.-R.-Becher-Straße 10, 19059 Schwerin",
+		"address": "J.-R.-Becher-Strasse 10, 19059 Schwerin",
 		"fax": "0385/75820520",
 		"full_time_school": false,
 		"id": "MV-75530429",
@@ -4676,7 +4676,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Von-Flotow-Straße 20, 19059 Schwerin",
+		"address": "Von-Flotow-Strasse 20, 19059 Schwerin",
 		"fax": "0385/7605820",
 		"full_time_school": false,
 		"id": "MV-75530434",
@@ -4690,7 +4690,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Goethestraße 74, 19053 Schwerin",
+		"address": "Goethestrasse 74, 19053 Schwerin",
 		"fax": "0385/2079844",
 		"full_time_school": false,
 		"id": "MV-75530444",
@@ -4704,13 +4704,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Knopfstraße 25, 17489 Greifswald",
+		"address": "Knopfstrasse 25, 17489 Greifswald",
 		"fax": "03834/8850401",
 		"full_time_school": false,
 		"id": "MV-75130102",
 		"lat": 54.097501,
 		"lon": 13.382465,
-		"name": "Käthe-Kollwitz-Grundschule",
+		"name": "Kaethe-Kollwitz-Grundschule",
 		"official_id": "75130102",
 		"phone": "03834/8850400",
 		"school_type": "Grundschule",
@@ -4718,7 +4718,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Bleichstraße 36, 17489 Greifswald",
+		"address": "Bleichstrasse 36, 17489 Greifswald",
 		"fax": "03834/540598",
 		"full_time_school": false,
 		"id": "MV-75130104",
@@ -4732,7 +4732,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Max-Planck-Straße 9, 17491 Greifswald",
+		"address": "Max-Planck-Strasse 9, 17491 Greifswald",
 		"fax": "03834/884737",
 		"full_time_school": false,
 		"id": "MV-75130109",
@@ -4746,7 +4746,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Makarenkostraße 53, 17491 Greifswald",
+		"address": "Makarenkostrasse 53, 17491 Greifswald",
 		"fax": "03834/883668",
 		"full_time_school": false,
 		"id": "MV-75130111",
@@ -4760,13 +4760,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Warschauer Straße 16, 17493 Greifswald",
+		"address": "Warschauer Strasse 16, 17493 Greifswald",
 		"fax": "03834/518263",
 		"full_time_school": false,
 		"id": "MV-75130113",
 		"lat": 54.090028,
 		"lon": 13.420153,
-		"name": "Grundschule \"Martin-Andersen-Nexö\" Greifswald",
+		"name": "Grundschule \"Martin-Andersen-Nexoe\" Greifswald",
 		"official_id": "75130113",
 		"phone": "03834/840189",
 		"school_type": "Grundschule",
@@ -4774,7 +4774,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rosenstraße 4, 17126 Jarmen",
+		"address": "Rosenstrasse 4, 17126 Jarmen",
 		"fax": "039997/10344",
 		"full_time_school": false,
 		"id": "MV-75135208",
@@ -4802,13 +4802,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 17121 Görmin",
+		"address": "Schulstrasse 1, 17121 Goermin",
 		"fax": "039992/70269",
 		"full_time_school": false,
 		"id": "MV-75135223",
 		"lat": 53.994128,
 		"lon": 13.272953,
-		"name": "Grundschule \"Peenetal\" Görmin",
+		"name": "Grundschule \"Peenetal\" Goermin",
 		"official_id": "75135223",
 		"phone": "039992/70223",
 		"school_type": "Grundschule",
@@ -4836,7 +4836,7 @@
 		"id": "MV-75135902",
 		"lat": 53.845548,
 		"lon": 13.700046,
-		"name": "Grundschule \"Gebrüder Grimm\" Anklam",
+		"name": "Grundschule \"Gebrueder Grimm\" Anklam",
 		"official_id": "75135902",
 		"phone": "03971/245607",
 		"school_type": "Grundschule",
@@ -4844,7 +4844,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Adolf-Damaschke-Straße 7, 17389 Anklam",
+		"address": "Adolf-Damaschke-Strasse 7, 17389 Anklam",
 		"fax": "03971/293679",
 		"full_time_school": false,
 		"id": "MV-75135904",
@@ -4858,7 +4858,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "August-Bebel-Straße 3, 17424 Heringsdorf",
+		"address": "August-Bebel-Strasse 3, 17424 Heringsdorf",
 		"fax": "038378/22403",
 		"full_time_school": false,
 		"id": "MV-75135907",
@@ -4872,13 +4872,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulweg 2, 17495 Züssow",
+		"address": "Schulweg 2, 17495 Zuessow",
 		"fax": "038355/61330",
 		"full_time_school": false,
 		"id": "MV-75135909",
 		"lat": 53.977708,
 		"lon": 13.547306,
-		"name": "Grundschule Züssow",
+		"name": "Grundschule Zuessow",
 		"official_id": "75135909",
 		"phone": "038355/61387",
 		"school_type": "Grundschule",
@@ -4886,7 +4886,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 4, 17449 Karlshagen",
+		"address": "Schulstrasse 4, 17449 Karlshagen",
 		"fax": "038371/55447",
 		"full_time_school": false,
 		"id": "MV-75135910",
@@ -4900,7 +4900,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5, 17440 Lassan",
+		"address": "Schulstrasse 5, 17440 Lassan",
 		"fax": "038374/80461",
 		"full_time_school": false,
 		"id": "MV-75135912",
@@ -4914,7 +4914,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Baustraße 16, 17438 Wolgast",
+		"address": "Baustrasse 16, 17438 Wolgast",
 		"fax": "03836/234700",
 		"full_time_school": false,
 		"id": "MV-75135918",
@@ -4928,13 +4928,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Greifswalder Straße 7, 17509 Wusterhusen",
+		"address": "Greifswalder Strasse 7, 17509 Wusterhusen",
 		"fax": "038354/22808",
 		"full_time_school": false,
 		"id": "MV-75135921",
 		"lat": 54.114046,
 		"lon": 13.61427,
-		"name": "Grundschule \"Lütt Matten\" Wusterhusen",
+		"name": "Grundschule \"Luett Matten\" Wusterhusen",
 		"official_id": "75135921",
 		"phone": "038354/22808",
 		"school_type": "Grundschule",
@@ -4956,7 +4956,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 2, 17509 Kemnitz",
+		"address": "Schulstrasse 2, 17509 Kemnitz",
 		"fax": "03852/233",
 		"full_time_school": false,
 		"id": "MV-75135936",
@@ -4970,13 +4970,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Straße der Freundschaft 14a, 17498 Dersekow",
+		"address": "Strasse der Freundschaft 14a, 17498 Dersekow",
 		"fax": "03834/510134",
 		"full_time_school": false,
 		"id": "MV-75135943",
 		"lat": 54.044333,
 		"lon": 13.302629,
-		"name": "Grundschule \"Lütte Nordlichter\" Dersekow",
+		"name": "Grundschule \"Luette Nordlichter\" Dersekow",
 		"official_id": "75135943",
 		"phone": "03834/5618",
 		"school_type": "Grundschule",
@@ -4984,13 +4984,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 17440 Kröslin",
+		"address": "Schulstrasse 1, 17440 Kroeslin",
 		"fax": "038370/20318",
 		"full_time_school": false,
 		"id": "MV-75135945",
 		"lat": 54.117835,
 		"lon": 13.747986,
-		"name": "Grundschule \"Fritz Reuter\" Kröslin",
+		"name": "Grundschule \"Fritz Reuter\" Kroeslin",
 		"official_id": "75135945",
 		"phone": "038370/20318",
 		"school_type": "Grundschule",
@@ -4998,7 +4998,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Bauernstraße 3, 17391 Krien",
+		"address": "Bauernstrasse 3, 17391 Krien",
 		"fax": "039723/20127",
 		"full_time_school": false,
 		"id": "MV-75135946",
@@ -5012,7 +5012,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 11a, 17390 Schlatkow",
+		"address": "Dorfstrasse 11a, 17390 Schlatkow",
 		"fax": "039724/26860",
 		"full_time_school": false,
 		"id": "MV-75135951",
@@ -5026,7 +5026,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Bäderstraße 48, 17406 Usedom",
+		"address": "Baederstrasse 48, 17406 Usedom",
 		"fax": "038372/76620",
 		"full_time_school": false,
 		"id": "MV-75135955",
@@ -5040,7 +5040,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Fischerstraße 18, 17459 Koserow",
+		"address": "Fischerstrasse 18, 17459 Koserow",
 		"fax": "038375/22571",
 		"full_time_school": false,
 		"id": "MV-75135968",
@@ -5054,7 +5054,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 9, 17375 Ahlbeck",
+		"address": "Dorfstrasse 9, 17375 Ahlbeck",
 		"fax": "039775/20202",
 		"full_time_school": false,
 		"id": "MV-75136201",
@@ -5068,7 +5068,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Waldstraße 20, 17367 Eggesin",
+		"address": "Waldstrasse 20, 17367 Eggesin",
 		"fax": "039779/27619",
 		"full_time_school": false,
 		"id": "MV-75136204",
@@ -5082,7 +5082,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Friedrichstraße 33a, 17379 Ferdinandshof",
+		"address": "Friedrichstrasse 33a, 17379 Ferdinandshof",
 		"fax": "039778/20693",
 		"full_time_school": false,
 		"id": "MV-75136206",
@@ -5096,13 +5096,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Am See 10, 17321 Löcknitz",
+		"address": "Am See 10, 17321 Loecknitz",
 		"fax": "039754/20629",
 		"full_time_school": false,
 		"id": "MV-75136209",
 		"lat": 53.450437,
 		"lon": 14.21652,
-		"name": "Grundschule \"Am See\" Löcknitz",
+		"name": "Grundschule \"Am See\" Loecknitz",
 		"official_id": "75136209",
 		"phone": "039754/20612",
 		"school_type": "Grundschule",
@@ -5124,7 +5124,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ahornstraße 17, 17322 Mewegen",
+		"address": "Ahornstrasse 17, 17322 Mewegen",
 		"fax": "039744/50274",
 		"full_time_school": false,
 		"id": "MV-75136211",
@@ -5138,7 +5138,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Pestalozzistraße 26, 17309 Pasewalk",
+		"address": "Pestalozzistrasse 26, 17309 Pasewalk",
 		"fax": "03973/210451",
 		"full_time_school": false,
 		"id": "MV-75136214",
@@ -5166,7 +5166,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Baustraße 26, 17335 Strasburg",
+		"address": "Baustrasse 26, 17335 Strasburg",
 		"fax": "039753/24486",
 		"full_time_school": false,
 		"id": "MV-75136216",
@@ -5180,7 +5180,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Goethestraße 2, 17358 Torgelow",
+		"address": "Goethestrasse 2, 17358 Torgelow",
 		"fax": "03976/202580",
 		"full_time_school": false,
 		"id": "MV-75136217",
@@ -5194,13 +5194,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Geschw.-Scholl-Straße 40, 17373 Ueckermünde",
+		"address": "Geschw.-Scholl-Strasse 40, 17373 Ueckermuende",
 		"fax": "039771/59037",
 		"full_time_school": false,
 		"id": "MV-75136221",
 		"lat": 53.73333,
 		"lon": 14.03333,
-		"name": "Haff-Grundschule Ueckermünde",
+		"name": "Haff-Grundschule Ueckermuende",
 		"official_id": "75136221",
 		"phone": "039771/27205",
 		"school_type": "Grundschule",
@@ -5208,7 +5208,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ackerstraße 5, 17309 Jatznick",
+		"address": "Ackerstrasse 5, 17309 Jatznick",
 		"fax": "039741/86095",
 		"full_time_school": false,
 		"id": "MV-75136249",
@@ -5222,73 +5222,73 @@
 		"state": "MV"
 	},
 	{
-		"address": "Wolgaster Straße 62, 17489 Greifswald",
+		"address": "Wolgaster Strasse 62, 17489 Greifswald",
 		"fax": "03834/830346",
 		"full_time_school": false,
 		"id": "MV-75230137",
 		"lat": 54.091361,
 		"lon": 13.417918,
-		"name": "Schule \"Johann Heinrich Pestalozzi\" Greifswald - Schule mit Förderschwerpunkt Lernen",
+		"name": "Schule \"Johann Heinrich Pestalozzi\" Greifswald - Schule mit Foerderschwerpunkt Lernen",
 		"official_id": "75230137",
 		"phone": "03834/3909",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Mühlenstraße 8 c, 17389 Anklam",
+		"address": "Muehlenstrasse 8 c, 17389 Anklam",
 		"fax": "03971/211952",
 		"full_time_school": false,
 		"id": "MV-75235962",
 		"lat": 53.846397,
 		"lon": 13.697261,
-		"name": "Sonderpädagogisches Förderzentrum \"Biberburg\" Anklam - Schule mit den Förderschwerpunkten Lernen, emotionale und soziale Entwicklung und Sprache",
+		"name": "Sonderpaedagogisches Foerderzentrum \"Biberburg\" Anklam - Schule mit den Foerderschwerpunkten Lernen, emotionale und soziale Entwicklung und Sprache",
 		"official_id": "75235962",
 		"phone": "03971/210552",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 21, 17498 Behrenhoff",
+		"address": "Dorfstrasse 21, 17498 Behrenhoff",
 		"fax": "038356/51849",
 		"full_time_school": false,
 		"id": "MV-75235963",
 		"lat": 54.005566,
 		"lon": 13.385582,
-		"name": "Schule \"Am Park\" Behrenhoff - Schule mit den Förderschwerpunkten Lernen und emotionale und soziale Entwicklung",
+		"name": "Schule \"Am Park\" Behrenhoff - Schule mit den Foerderschwerpunkten Lernen und emotionale und soziale Entwicklung",
 		"official_id": "75235963",
 		"phone": "038356/251",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5, 17438 Wolgast",
+		"address": "Schulstrasse 5, 17438 Wolgast",
 		"fax": "03836/2324465",
 		"full_time_school": false,
 		"id": "MV-75235965",
 		"lat": 54.058144,
 		"lon": 13.764568,
-		"name": "Janusz-Korczak-Schule Wolgast - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Janusz-Korczak-Schule Wolgast - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235965",
 		"phone": "03836/202459",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Baustraße 59, 17389 Anklam",
+		"address": "Baustrasse 59, 17389 Anklam",
 		"fax": "03971/242284",
 		"full_time_school": false,
 		"id": "MV-75235966",
 		"lat": 53.854544,
 		"lon": 13.690237,
-		"name": "\"Kleeblattschule\"  Anklam - Förderschule mit dem Förderschwerpunkt geistige Entwicklung",
+		"name": "\"Kleeblattschule\"  Anklam - Foerderschule mit dem Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75235966",
 		"phone": "03971/211520",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -5298,71 +5298,71 @@
 		"id": "MV-75235967",
 		"lat": 53.875332,
 		"lon": 14.147891,
-		"name": "Schule Am Stettiner Haff Zirchow - Schule mit dem Förderschwerpunkt geistige Entwicklung",
+		"name": "Schule Am Stettiner Haff Zirchow - Schule mit dem Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75235967",
 		"phone": "038376/20313",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Schützenstraße 13, 17309 Pasewalk",
+		"address": "Schuetzenstrasse 13, 17309 Pasewalk",
 		"fax": "03973/2049787",
 		"full_time_school": false,
 		"id": "MV-75236244",
 		"lat": 53.502286,
 		"lon": 13.998984,
-		"name": "Schlossbergschule - Sonderpädagogisches Förderzentrum Pasewalk - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Schlossbergschule - Sonderpaedagogisches Foerderzentrum Pasewalk - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75236244",
 		"phone": "03973/441024",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Lindenstraße 35, 17367 Eggesin",
+		"address": "Lindenstrasse 35, 17367 Eggesin",
 		"fax": "03834/87609401",
 		"full_time_school": false,
 		"id": "MV-75236246",
 		"lat": 53.677645,
 		"lon": 14.077492,
-		"name": "Sonderpädagogisches Förderzentrum Eggesin - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Sonderpaedagogisches Foerderzentrum Eggesin - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75236246",
 		"phone": "03976/87604501",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Am See 11, 17321 Löcknitz",
+		"address": "Am See 11, 17321 Loecknitz",
 		"fax": "039754/51733",
 		"full_time_school": false,
 		"id": "MV-75236247",
 		"lat": 53.450562,
 		"lon": 14.217478,
-		"name": "Randow-Schule Löcknitz\nSchule mit dem Förderschwerpunkt geistige Entwicklung ",
+		"name": "Randow-Schule Loecknitz\nSchule mit dem Foerderschwerpunkt geistige Entwicklung ",
 		"official_id": "75236247",
 		"phone": "039754/51733",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Gartenstraße 1, 17379 Ferdinandshof",
+		"address": "Gartenstrasse 1, 17379 Ferdinandshof",
 		"fax": "039778/28727",
 		"full_time_school": false,
 		"id": "MV-75236248",
 		"lat": 53.661941,
 		"lon": 13.892468,
-		"name": "Schule mit dem Förderschwerpunkt geistige Entwicklung Ferdinandshof",
+		"name": "Schule mit dem Foerderschwerpunkt geistige Entwicklung Ferdinandshof",
 		"official_id": "75236248",
 		"phone": "039778/28718",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Einsteinstraße 6, 17491 Greifswald",
+		"address": "Einsteinstrasse 6, 17491 Greifswald",
 		"fax": "03834/889214",
 		"full_time_school": false,
 		"id": "MV-75330122",
@@ -5376,13 +5376,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Lindenstraße 112, 17419 Ahlbeck",
+		"address": "Lindenstrasse 112, 17419 Ahlbeck",
 		"fax": "038378/336560",
 		"full_time_school": false,
 		"id": "MV-75335952",
 		"lat": 53.936918,
 		"lon": 14.189606,
-		"name": "Europäische Gesamtschule Insel Usedom, Kooperative Gesamtschule",
+		"name": "Europaeische Gesamtschule Insel Usedom, Kooperative Gesamtschule",
 		"official_id": "75335952",
 		"phone": "038378/28107",
 		"school_type": "Kooperative Gesamtschule",
@@ -5390,7 +5390,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Arndtstraße 37, 17489 Greifswald",
+		"address": "Arndtstrasse 37, 17489 Greifswald",
 		"fax": "03834/518449",
 		"full_time_school": false,
 		"id": "MV-75430120",
@@ -5418,7 +5418,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Demminer Straße 11, 17126 Jarmen",
+		"address": "Demminer Strasse 11, 17126 Jarmen",
 		"fax": "039997/12776",
 		"full_time_school": false,
 		"id": "MV-75435230",
@@ -5432,7 +5432,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Goethestraße 64, 17121 Loitz",
+		"address": "Goethestrasse 64, 17121 Loitz",
 		"fax": "039998/10374",
 		"full_time_school": false,
 		"id": "MV-75435231",
@@ -5460,13 +5460,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Baustraße 56/58, 17389 Anklam",
+		"address": "Baustrasse 56/58, 17389 Anklam",
 		"fax": "03971/213526",
 		"full_time_school": false,
 		"id": "MV-75435927",
 		"lat": 53.854556,
 		"lon": 13.689537,
-		"name": "Regionale Schule \"Käthe Kollwitz\" Anklam",
+		"name": "Regionale Schule \"Kaethe Kollwitz\" Anklam",
 		"official_id": "75435927",
 		"phone": "03971/210574",
 		"school_type": "Regionale Schule",
@@ -5474,7 +5474,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Baustraße 16, 17438 Wolgast",
+		"address": "Baustrasse 16, 17438 Wolgast",
 		"fax": "03836/202219",
 		"full_time_school": false,
 		"id": "MV-75435929",
@@ -5488,7 +5488,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Heberleinstraße 32, 17438 Wolgast",
+		"address": "Heberleinstrasse 32, 17438 Wolgast",
 		"fax": "03836/234019",
 		"full_time_school": false,
 		"id": "MV-75435930",
@@ -5502,13 +5502,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Mascowstraße 12a, 17506 Gützkow",
+		"address": "Mascowstrasse 12a, 17506 Guetzkow",
 		"fax": "038353/50621",
 		"full_time_school": false,
 		"id": "MV-75435931",
 		"lat": 53.932772,
 		"lon": 13.41497,
-		"name": "Regionale Schule mit Grundschule \"Peenetal\" Gützkow",
+		"name": "Regionale Schule mit Grundschule \"Peenetal\" Guetzkow",
 		"official_id": "75435931",
 		"phone": "038353/201",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -5516,13 +5516,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Strandstraße 3, 17459 Ückeritz",
+		"address": "Strandstrasse 3, 17459 ueckeritz",
 		"fax": "038375/20647",
 		"full_time_school": false,
 		"id": "MV-75435933",
 		"lat": 54.012716,
 		"lon": 14.050679,
-		"name": "Ostseeschule  Ückeritz",
+		"name": "Ostseeschule  ueckeritz",
 		"official_id": "75435933",
 		"phone": "038375/20935",
 		"school_type": "Regionale Schule",
@@ -5530,7 +5530,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 4, 17449 Karlshagen",
+		"address": "Schulstrasse 4, 17449 Karlshagen",
 		"fax": "038371/20293",
 		"full_time_school": false,
 		"id": "MV-75435935",
@@ -5544,7 +5544,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Seestraße 11, 17509 Lubmin",
+		"address": "Seestrasse 11, 17509 Lubmin",
 		"fax": "038354/22840",
 		"full_time_school": false,
 		"id": "MV-75435939",
@@ -5558,7 +5558,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Thomas-Müntzer-Straße 10, 17398 Ducherow",
+		"address": "Thomas-Muentzer-Strasse 10, 17398 Ducherow",
 		"fax": "039726/25548",
 		"full_time_school": false,
 		"id": "MV-75435944",
@@ -5572,7 +5572,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Wampener Straße 19, 17498 Neuenkirchen",
+		"address": "Wampener Strasse 19, 17498 Neuenkirchen",
 		"fax": "03834/773972",
 		"full_time_school": false,
 		"id": "MV-75435948",
@@ -5586,7 +5586,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 8, 17392 Spantekow",
+		"address": "Schulstrasse 8, 17392 Spantekow",
 		"fax": "039727/26770",
 		"full_time_school": false,
 		"id": "MV-75435954",
@@ -5600,7 +5600,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Pestalozzistraße 25, 17309 Pasewalk",
+		"address": "Pestalozzistrasse 25, 17309 Pasewalk",
 		"fax": "03973/216635",
 		"full_time_school": false,
 		"id": "MV-75436226",
@@ -5614,7 +5614,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "A.-Einstein-Straße 3, 17358 Torgelow",
+		"address": "A.-Einstein-Strasse 3, 17358 Torgelow",
 		"fax": "03976/250745",
 		"full_time_school": false,
 		"id": "MV-75436228",
@@ -5628,13 +5628,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Luckower Straße 6a, 17367 Eggesin",
+		"address": "Luckower Strasse 6a, 17367 Eggesin",
 		"fax": "039779/60324",
 		"full_time_school": false,
 		"id": "MV-75436229",
 		"lat": 53.683814,
 		"lon": 14.08398,
-		"name": "Regionale Schule \"Ernst Thälmann\" Eggesin",
+		"name": "Regionale Schule \"Ernst Thaelmann\" Eggesin",
 		"official_id": "75436229",
 		"phone": "039779/20539",
 		"school_type": "Regionale Schule",
@@ -5642,13 +5642,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Friedrichstraße 33a, 17379 Ferdinandshof",
+		"address": "Friedrichstrasse 33a, 17379 Ferdinandshof",
 		"fax": "039778/28155",
 		"full_time_school": false,
 		"id": "MV-75436230",
 		"lat": 53.662592,
 		"lon": 13.891347,
-		"name": "Regionale Schule \"Hanno Günther\" Ferdinandshof",
+		"name": "Regionale Schule \"Hanno Guenther\" Ferdinandshof",
 		"official_id": "75436230",
 		"phone": "039778/20233",
 		"school_type": "Regionale Schule",
@@ -5656,13 +5656,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Am See 9, 17321 Löcknitz",
+		"address": "Am See 9, 17321 Loecknitz",
 		"fax": "039754/51564",
 		"full_time_school": false,
 		"id": "MV-75436231",
 		"lat": 53.449975,
 		"lon": 14.217284,
-		"name": "Regionale Schule Löcknitz",
+		"name": "Regionale Schule Loecknitz",
 		"official_id": "75436231",
 		"phone": "039754/20611",
 		"school_type": "Regionale Schule",
@@ -5684,13 +5684,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ueckerstraße 59, 17373 Ueckermünde",
+		"address": "Ueckerstrasse 59, 17373 Ueckermuende",
 		"fax": "039771/549919",
 		"full_time_school": false,
 		"id": "MV-75436234",
 		"lat": 53.737619,
 		"lon": 14.044226,
-		"name": "Regionale Schule Ueckermünde",
+		"name": "Regionale Schule Ueckermuende",
 		"official_id": "75436234",
 		"phone": "039771/54990",
 		"school_type": "Regionale Schule",
@@ -5698,7 +5698,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Lindenstraße 3c, 17335 Strasburg",
+		"address": "Lindenstrasse 3c, 17335 Strasburg",
 		"fax": "039753/22514",
 		"full_time_school": false,
 		"id": "MV-75436236",
@@ -5712,7 +5712,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Makarenkostraße 54, 17491 Greifswald",
+		"address": "Makarenkostrasse 54, 17491 Greifswald",
 		"fax": "03834/805666",
 		"full_time_school": false,
 		"id": "MV-75530135",
@@ -5768,13 +5768,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Baron-von-Lepel-Platz 2, 17506 Gützkow",
+		"address": "Baron-von-Lepel-Platz 2, 17506 Guetzkow",
 		"fax": "038353/50889",
 		"full_time_school": false,
 		"id": "MV-75535958",
 		"lat": 53.941376,
 		"lon": 13.403736,
-		"name": "\"Schloss-Gymnasium\" Gützkow",
+		"name": "\"Schloss-Gymnasium\" Guetzkow",
 		"official_id": "75535958",
 		"phone": "038353/257",
 		"school_type": "Gymnasium",
@@ -5782,7 +5782,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 17438 Wolgast",
+		"address": "Schulstrasse 1, 17438 Wolgast",
 		"fax": "03836/2363201",
 		"full_time_school": false,
 		"id": "MV-75535960",
@@ -5796,13 +5796,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "F.-Engels-Straße 5-6, 17321 Löcknitz",
+		"address": "F.-Engels-Strasse 5-6, 17321 Loecknitz",
 		"fax": "039754/21179",
 		"full_time_school": false,
 		"id": "MV-75536238",
 		"lat": 53.455,
 		"lon": 14.2125,
-		"name": "Deutsch-Polnisches Gymnasium Löcknitz",
+		"name": "Deutsch-Polnisches Gymnasium Loecknitz",
 		"official_id": "75536238",
 		"phone": "039754/21179",
 		"school_type": "Gymnasium",
@@ -5810,7 +5810,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Grünstraße 63, 17309 Pasewalk",
+		"address": "Gruenstrasse 63, 17309 Pasewalk",
 		"fax": "03973/210220",
 		"full_time_school": false,
 		"id": "MV-75536239",
@@ -5824,13 +5824,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Apfelallee 2, 17373 Ueckermünde",
+		"address": "Apfelallee 2, 17373 Ueckermuende",
 		"fax": "039771/22597",
 		"full_time_school": false,
 		"id": "MV-75536242",
 		"lat": 53.743544,
 		"lon": 14.030143,
-		"name": "Greifen-Gymnasium Ueckermünde",
+		"name": "Greifen-Gymnasium Ueckermuende",
 		"official_id": "75536242",
 		"phone": "039771/22596",
 		"school_type": "Gymnasium",
@@ -5852,7 +5852,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Arnold-Zweig-Straße 159, 18435 Stralsund",
+		"address": "Arnold-Zweig-Strasse 159, 18435 Stralsund",
 		"fax": "03831/382814",
 		"full_time_school": false,
 		"id": "MV-75130504",
@@ -5866,7 +5866,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Mühlgrabenstraße 6, 18437 Stralsund",
+		"address": "Muehlgrabenstrasse 6, 18437 Stralsund",
 		"fax": "03831/481743",
 		"full_time_school": false,
 		"id": "MV-75130506",
@@ -5880,7 +5880,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Jaromarstraße 10, 18437 Stralsund",
+		"address": "Jaromarstrasse 10, 18437 Stralsund",
 		"fax": "03831/443142",
 		"full_time_school": false,
 		"id": "MV-75130508",
@@ -5908,7 +5908,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Wallensteinstraße 8, 18435 Stralsund",
+		"address": "Wallensteinstrasse 8, 18435 Stralsund",
 		"fax": "03831/302615",
 		"full_time_school": false,
 		"id": "MV-75130510",
@@ -5936,13 +5936,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kastanienallee 7, 18334 Bad Sülze",
+		"address": "Kastanienallee 7, 18334 Bad Suelze",
 		"fax": "038229/799956",
 		"full_time_school": false,
 		"id": "MV-75135701",
 		"lat": 54.113356,
 		"lon": 12.649256,
-		"name": "Grundschule Bad Sülze",
+		"name": "Grundschule Bad Suelze",
 		"official_id": "75135701",
 		"phone": "038229/259",
 		"school_type": "Grundschule",
@@ -5950,7 +5950,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Neuhöfer Straße 1, 18519 Brandshagen",
+		"address": "Neuhoefer Strasse 1, 18519 Brandshagen",
 		"fax": "038328/650047",
 		"full_time_school": false,
 		"id": "MV-75135706",
@@ -5964,7 +5964,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Strandstraße 4, 18347 Dändorf",
+		"address": "Strandstrasse 4, 18347 Daendorf",
 		"fax": "038226/267",
 		"full_time_school": false,
 		"id": "MV-75135707",
@@ -5978,7 +5978,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Norderhinterstraße 12, 18507 Grimmen",
+		"address": "Norderhinterstrasse 12, 18507 Grimmen",
 		"fax": "038326/66621",
 		"full_time_school": false,
 		"id": "MV-75135711",
@@ -6006,7 +6006,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße, 18519 Horst",
+		"address": "Dorfstrasse, 18519 Horst",
 		"fax": "038333/213",
 		"full_time_school": false,
 		"id": "MV-75135713",
@@ -6020,13 +6020,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 6, 18516 Süderholz",
+		"address": "Schulstrasse 6, 18516 Suederholz",
 		"fax": "038332/384",
 		"full_time_school": false,
 		"id": "MV-75135715",
 		"lat": 54.060598,
 		"lon": 13.163471,
-		"name": "Grundschule Süderholz",
+		"name": "Grundschule Suederholz",
 		"official_id": "75135715",
 		"phone": "038332/314",
 		"school_type": "Grundschule",
@@ -6034,13 +6034,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstrasse 4, 18314 Lüdershagen",
+		"address": "Dorfstrasse 4, 18314 Luedershagen",
 		"fax": "038227/599953",
 		"full_time_school": false,
 		"id": "MV-75135717",
 		"lat": 54.302673,
 		"lon": 12.607802,
-		"name": "Grundschule \"Thomas Müntzer\" Lüdershagen",
+		"name": "Grundschule \"Thomas Muentzer\" Luedershagen",
 		"official_id": "75135717",
 		"phone": "038227/331",
 		"school_type": "Grundschule",
@@ -6048,7 +6048,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Stralsunder Straße 27, 18445 Altenpleen",
+		"address": "Stralsunder Strasse 27, 18445 Altenpleen",
 		"fax": "038323/268702",
 		"full_time_school": false,
 		"id": "MV-75135719",
@@ -6062,7 +6062,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Karl-Worm-Straße 1, 18465 Tribsees",
+		"address": "Karl-Worm-Strasse 1, 18465 Tribsees",
 		"fax": "038320/183180",
 		"full_time_school": false,
 		"id": "MV-75135722",
@@ -6076,7 +6076,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "E.-Thälmann-Straße 44, 18469 Velgast",
+		"address": "E.-Thaelmann-Strasse 44, 18469 Velgast",
 		"fax": "038324/89206",
 		"full_time_school": false,
 		"id": "MV-75135723",
@@ -6104,7 +6104,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 2, 18442 Steinhagen",
+		"address": "Schulstrasse 2, 18442 Steinhagen",
 		"fax": "038327/61455",
 		"full_time_school": false,
 		"id": "MV-75135733",
@@ -6118,7 +6118,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Wittenhäger Straße 14, 18510 Abtshagen",
+		"address": "Wittenhaeger Strasse 14, 18510 Abtshagen",
 		"fax": "038327/40704",
 		"full_time_school": false,
 		"id": "MV-75135743",
@@ -6132,7 +6132,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Chausseestraße 21, 18356 Barth",
+		"address": "Chausseestrasse 21, 18356 Barth",
 		"fax": "038231/82274",
 		"full_time_school": false,
 		"id": "MV-75135754",
@@ -6146,7 +6146,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dorfstraße 65, 18513 Grammendorf",
+		"address": "Dorfstrasse 65, 18513 Grammendorf",
 		"fax": "038334/69306",
 		"full_time_school": false,
 		"id": "MV-75135756",
@@ -6174,7 +6174,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hauptstraße 34, 18320 Ahrenshagen",
+		"address": "Hauptstrasse 34, 18320 Ahrenshagen",
 		"fax": "038225/515715",
 		"full_time_school": false,
 		"id": "MV-75135774",
@@ -6188,7 +6188,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Breitsprecherstraße 18, 18528 Bergen auf Rügen",
+		"address": "Breitsprecherstrasse 18, 18528 Bergen auf Ruegen",
 		"fax": "03838/822475",
 		"full_time_school": false,
 		"id": "MV-75136104",
@@ -6202,7 +6202,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Königstraße 23c, 18528 Bergen auf Rügen",
+		"address": "Koenigstrasse 23c, 18528 Bergen auf Ruegen",
 		"fax": "03838/8227953",
 		"full_time_school": false,
 		"id": "MV-75136105",
@@ -6216,7 +6216,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Dollahner Straße 77, 18609 Binz",
+		"address": "Dollahner Strasse 77, 18609 Binz",
 		"fax": "038393/14534",
 		"full_time_school": false,
 		"id": "MV-75136106",
@@ -6230,7 +6230,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Lindenstraße 27, 18574 Garz/Rügen",
+		"address": "Lindenstrasse 27, 18574 Garz/Ruegen",
 		"fax": "038304/320",
 		"full_time_school": false,
 		"id": "MV-75136111",
@@ -6244,7 +6244,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Lauterbacher Straße 6, 18581 Putbus",
+		"address": "Lauterbacher Strasse 6, 18581 Putbus",
 		"fax": "038301/61180",
 		"full_time_school": false,
 		"id": "MV-75136116",
@@ -6258,7 +6258,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 15, 18551 Sagard",
+		"address": "Schulstrasse 15, 18551 Sagard",
 		"fax": "038302/51408",
 		"full_time_school": false,
 		"id": "MV-75136117",
@@ -6272,7 +6272,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Neubaustraße 32, 18573 Samtens",
+		"address": "Neubaustrasse 32, 18573 Samtens",
 		"fax": "038306/21121",
 		"full_time_school": false,
 		"id": "MV-75136118",
@@ -6286,7 +6286,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 5, 18546 Sassnitz",
+		"address": "Schulstrasse 5, 18546 Sassnitz",
 		"fax": "038392/649759",
 		"full_time_school": false,
 		"id": "MV-75136120",
@@ -6300,7 +6300,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Granitzer Straße 1b, 18586 Sellin",
+		"address": "Granitzer Strasse 1b, 18586 Sellin",
 		"fax": "038303/85472",
 		"full_time_school": false,
 		"id": "MV-75136123",
@@ -6314,7 +6314,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Hauptstraße 35, 18556 Wiek",
+		"address": "Hauptstrasse 35, 18556 Wiek",
 		"fax": "038391/70302",
 		"full_time_school": false,
 		"id": "MV-75136124",
@@ -6328,13 +6328,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Boddenstraße 1a, 18586 Gager",
+		"address": "Boddenstrasse 1a, 18586 Gager",
 		"fax": "038308/30236",
 		"full_time_school": false,
 		"id": "MV-75136126",
 		"lat": 54.303724,
 		"lon": 13.711889,
-		"name": "Grundschule \"Mönchgut\" Gager",
+		"name": "Grundschule \"Moenchgut\" Gager",
 		"official_id": "75136126",
 		"phone": "038308/8235",
 		"school_type": "Grundschule",
@@ -6342,31 +6342,31 @@
 		"state": "MV"
 	},
 	{
-		"address": "Kleine Parower Straße 39, 18435 Stralsund",
+		"address": "Kleine Parower Strasse 39, 18435 Stralsund",
 		"fax": "03831/307191",
 		"full_time_school": false,
 		"id": "MV-75230523",
 		"lat": 54.329227,
 		"lon": 13.076029,
-		"name": "Sonderpädagogisches Förderzentrum der Hansestadt Stralsund - Schule mit dem Förderschwerpunkt Lernen und Grundschulteil mit Förderschwerpunkt Sprache",
+		"name": "Sonderpaedagogisches Foerderzentrum der Hansestadt Stralsund - Schule mit dem Foerderschwerpunkt Lernen und Grundschulteil mit Foerderschwerpunkt Sprache",
 		"official_id": "75230523",
 		"phone": "03831/391084",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "L.-Feuchtwanger-Straße 34, 18435 Stralsund",
+		"address": "L.-Feuchtwanger-Strasse 34, 18435 Stralsund",
 		"fax": "03831/374830",
 		"full_time_school": false,
 		"id": "MV-75230524",
 		"lat": 54.330388,
 		"lon": 13.065512,
-		"name": "Förderschule \"Astrid Lindgren\" Stralsund - Schule mit Förderschwerpunkt geistige Entwicklung",
+		"name": "Foerderschule \"Astrid Lindgren\" Stralsund - Schule mit Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75230524",
 		"phone": "03831/390525",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -6376,11 +6376,11 @@
 		"id": "MV-75230525",
 		"lat": 54.302657,
 		"lon": 13.04105,
-		"name": "Förderschule \"Ernst von Haselberg\" Stralsund - Schule mit Förderschwerpunkt Unterricht kranker Schülerinnen und Schüler sowie mit Förderschwerpunkt emotionale und soziale Entwicklung",
+		"name": "Foerderschule \"Ernst von Haselberg\" Stralsund - Schule mit Foerderschwerpunkt Unterricht kranker Schuelerinnen und Schueler sowie mit Foerderschwerpunkt emotionale und soziale Entwicklung",
 		"official_id": "75230525",
 		"phone": "03831/452665",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -6390,81 +6390,81 @@
 		"id": "MV-75235767",
 		"lat": 54.370217,
 		"lon": 12.694358,
-		"name": "Förderschule \"Jan-Amos-Komensky\" Barth - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Foerderschule \"Jan-Amos-Komensky\" Barth - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235767",
 		"phone": "038231/2275",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Dr.-Kurt-Fischer-Straße 13, 18507 Grimmen",
+		"address": "Dr.-Kurt-Fischer-Strasse 13, 18507 Grimmen",
 		"fax": "038326/53735",
 		"full_time_school": false,
 		"id": "MV-75235769",
 		"lat": 54.106619,
 		"lon": 13.037835,
-		"name": "Sonderpädagogisches Förderzentrum Grimmen - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Sonderpaedagogisches Foerderzentrum Grimmen - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235769",
 		"phone": "038326/2423",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Minsker Straße 11, 18311 Ribnitz-Damgarten",
+		"address": "Minsker Strasse 11, 18311 Ribnitz-Damgarten",
 		"fax": "03821/894816",
 		"full_time_school": false,
 		"id": "MV-75235770",
 		"lat": 54.245552,
 		"lon": 12.411744,
-		"name": "Förderzentrum \"Johann Heinrich Pestalozzi\" Ribnitz-Damgarten - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Foerderzentrum \"Johann Heinrich Pestalozzi\" Ribnitz-Damgarten - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75235770",
 		"phone": "03821/2784",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Karl-Marx-Straße 25, 18461 Franzburg",
+		"address": "Karl-Marx-Strasse 25, 18461 Franzburg",
 		"fax": "038322/589948",
 		"full_time_school": false,
 		"id": "MV-75235771",
 		"lat": 54.18701,
 		"lon": 12.885856,
-		"name": "\"Sonnenblumenschule\" Franzburg - Schule mit dem Förderschwerpunkt geistige Entwicklung",
+		"name": "\"Sonnenblumenschule\" Franzburg - Schule mit dem Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75235771",
 		"phone": "038322/50209",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "G.-A.-Demmler-Straße, 18311 Ribnitz-Damgarten",
+		"address": "G.-A.-Demmler-Strasse, 18311 Ribnitz-Damgarten",
 		"fax": "03821/811235",
 		"full_time_school": false,
 		"id": "MV-75235773",
 		"lat": 54.25,
 		"lon": 12.46667,
-		"name": "\"Rosenhofschule\" Ribnitz-Damgarten  - Schule mit dem Förderschwerpunkt geistige Entwicklung",
+		"name": "\"Rosenhofschule\" Ribnitz-Damgarten  - Schule mit dem Foerderschwerpunkt geistige Entwicklung",
 		"official_id": "75235773",
 		"phone": "03821/2740",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
-		"address": "Störtebekerstraße 8a, 18528 Bergen auf Rügen",
+		"address": "Stoertebekerstrasse 8a, 18528 Bergen auf Ruegen",
 		"fax": "03838/828102",
 		"full_time_school": false,
 		"id": "MV-75236154",
 		"lat": 54.412497,
 		"lon": 13.421256,
-		"name": "Sonderpädagogisches Förderzentrum \"Klaus Störtebeker\" Bergen - Schule mit dem Förderschwerpunkt Lernen",
+		"name": "Sonderpaedagogisches Foerderzentrum \"Klaus Stoertebeker\" Bergen - Schule mit dem Foerderschwerpunkt Lernen",
 		"official_id": "75236154",
 		"phone": "03838/23012",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "MV"
 	},
 	{
@@ -6482,13 +6482,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Grünthal 12, 18437 Stralsund",
+		"address": "Gruenthal 12, 18437 Stralsund",
 		"fax": "03831/444476",
 		"full_time_school": false,
 		"id": "MV-75330522",
 		"lat": 54.307485,
 		"lon": 13.041044,
-		"name": "Integrierte Gesamtschule \"Grünthal\" -mit gymnasialer Oberstufe Stralsund",
+		"name": "Integrierte Gesamtschule \"Gruenthal\" -mit gymnasialer Oberstufe Stralsund",
 		"official_id": "75330522",
 		"phone": "03831/498520",
 		"school_type": "Integrierte Gesamtschule",
@@ -6510,7 +6510,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Jaromarstraße 10, 18437 Stralsund",
+		"address": "Jaromarstrasse 10, 18437 Stralsund",
 		"fax": "03831/445805",
 		"full_time_school": false,
 		"id": "MV-75430511",
@@ -6524,7 +6524,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Rudolf-Virchow-Straße 23, 18435 Stralsund",
+		"address": "Rudolf-Virchow-Strasse 23, 18435 Stralsund",
 		"fax": "03831/308381",
 		"full_time_school": false,
 		"id": "MV-75430513",
@@ -6538,7 +6538,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "L. Feuchtwanger-Straße 35, 18435 Stralsund",
+		"address": "L. Feuchtwanger-Strasse 35, 18435 Stralsund",
 		"fax": "03831/383023",
 		"full_time_school": false,
 		"id": "MV-75430514",
@@ -6566,7 +6566,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ringstraße 10, 18445 Prohn",
+		"address": "Ringstrasse 10, 18445 Prohn",
 		"fax": "038323/71138",
 		"full_time_school": false,
 		"id": "MV-75435739",
@@ -6580,7 +6580,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 13, 18311 Ribnitz-Damgarten",
+		"address": "Schulstrasse 13, 18311 Ribnitz-Damgarten",
 		"fax": "03821/720441",
 		"full_time_school": false,
 		"id": "MV-75435740",
@@ -6594,7 +6594,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "G.-Adolf-Demmlerstraße 4, 18311 Ribnitz-Damgarten",
+		"address": "G.-Adolf-Demmlerstrasse 4, 18311 Ribnitz-Damgarten",
 		"fax": "03821/810703",
 		"full_time_school": false,
 		"id": "MV-75435741",
@@ -6614,7 +6614,7 @@
 		"id": "MV-75435744",
 		"lat": 54.186917,
 		"lon": 12.888865,
-		"name": "Martha-Müller-Grählert-Schule Franzburg",
+		"name": "Martha-Mueller-Graehlert-Schule Franzburg",
 		"official_id": "75435744",
 		"phone": "038322/736",
 		"school_type": "Regionale Schule mit Grundschule",
@@ -6636,7 +6636,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Karl-Worm-Straße 2, 18465 Tribsees",
+		"address": "Karl-Worm-Strasse 2, 18465 Tribsees",
 		"fax": "038320/47946",
 		"full_time_school": false,
 		"id": "MV-75435750",
@@ -6650,7 +6650,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 18374 Zingst",
+		"address": "Schulstrasse 1, 18374 Zingst",
 		"fax": "038232/169620",
 		"full_time_school": false,
 		"id": "MV-75435753",
@@ -6664,7 +6664,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Gartenstraße 86, 18442 Niepars",
+		"address": "Gartenstrasse 86, 18442 Niepars",
 		"fax": "038321/310",
 		"full_time_school": false,
 		"id": "MV-75435758",
@@ -6678,7 +6678,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Sassnitzer Chaussee 7A, 18528 Bergen auf Rügen",
+		"address": "Sassnitzer Chaussee 7A, 18528 Bergen auf Ruegen",
 		"fax": "03838/2010451",
 		"full_time_school": false,
 		"id": "MV-75436131",
@@ -6692,7 +6692,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Ringstraße 5, 18609 Binz",
+		"address": "Ringstrasse 5, 18609 Binz",
 		"fax": "038393/32627",
 		"full_time_school": false,
 		"id": "MV-75436132",
@@ -6706,7 +6706,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Am Burgwall 7, 18574 Garz/Rügen",
+		"address": "Am Burgwall 7, 18574 Garz/Ruegen",
 		"fax": "038304/12559",
 		"full_time_school": false,
 		"id": "MV-75436134",
@@ -6720,13 +6720,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "Störtebekerstraße 8c, 18528 Bergen auf Rügen",
+		"address": "Stoertebekerstrasse 8c, 18528 Bergen auf Ruegen",
 		"fax": "03838/404647",
 		"full_time_school": false,
 		"id": "MV-75436142",
 		"lat": 54.413923,
 		"lon": 13.420891,
-		"name": "Regionale Schule \"Am Grünen Berg\" Bergen",
+		"name": "Regionale Schule \"Am Gruenen Berg\" Bergen",
 		"official_id": "75436142",
 		"phone": "03838/23249",
 		"school_type": "Regionale Schule",
@@ -6734,7 +6734,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "H.-Matern-Straße 1, 18569 Gingst",
+		"address": "H.-Matern-Strasse 1, 18569 Gingst",
 		"fax": "038305/55187",
 		"full_time_school": false,
 		"id": "MV-75436143",
@@ -6748,7 +6748,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Geschw.-Scholl-Straße 8, 18546 Sassnitz",
+		"address": "Geschw.-Scholl-Strasse 8, 18546 Sassnitz",
 		"fax": "038392/63109",
 		"full_time_school": false,
 		"id": "MV-75436145",
@@ -6762,7 +6762,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 1, 18556 Altenkirchen",
+		"address": "Schulstrasse 1, 18556 Altenkirchen",
 		"fax": "038391/439854",
 		"full_time_school": false,
 		"id": "MV-75436146",
@@ -6776,13 +6776,13 @@
 		"state": "MV"
 	},
 	{
-		"address": "G.-Hauptmann-Straße 1, 18586 Göhren",
+		"address": "G.-Hauptmann-Strasse 1, 18586 Goehren",
 		"fax": "038308/669867",
 		"full_time_school": false,
 		"id": "MV-75436147",
 		"lat": 54.33333,
 		"lon": 13.73333,
-		"name": "Regionale Schule \"Tom Beyer\" Göhren",
+		"name": "Regionale Schule \"Tom Beyer\" Goehren",
 		"official_id": "75436147",
 		"phone": "038308/2163",
 		"school_type": "Regionale Schule",
@@ -6804,7 +6804,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Fährwall 19, 18439 Stralsund",
+		"address": "Faehrwall 19, 18439 Stralsund",
 		"fax": "03831/289625",
 		"full_time_school": false,
 		"id": "MV-75530520",
@@ -6832,7 +6832,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Schulstraße 15, 18311 Ribnitz-Damgarten",
+		"address": "Schulstrasse 15, 18311 Ribnitz-Damgarten",
 		"fax": "03821/708924",
 		"full_time_school": false,
 		"id": "MV-75535766",
@@ -6846,7 +6846,7 @@
 		"state": "MV"
 	},
 	{
-		"address": "Arndtstraße 7, 18528 Bergen auf Rügen",
+		"address": "Arndtstrasse 7, 18528 Bergen auf Ruegen",
 		"fax": "03838/255436",
 		"full_time_school": false,
 		"id": "MV-75536151",

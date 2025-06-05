@@ -1,6 +1,6 @@
 [
 	{
-		"address": "Rostocker Straße 97, 66121 Saarbrücken",
+		"address": "Rostocker Strasse 97, 66121 Saarbruecken",
 		"fax": "0681-812501",
 		"full_time_school": false,
 		"id": "SL-1100-101031",
@@ -14,13 +14,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schumannstraße 42, 66111 Saarbrücken",
+		"address": "Schumannstrasse 42, 66111 Saarbruecken",
 		"fax": "0681-36628",
 		"full_time_school": true,
 		"id": "SL-1100-101051",
 		"lat": 49.237816,
 		"lon": 7.002197,
-		"name": "Max-Ophüls-Grundschule Saarbrücken",
+		"name": "Max-Ophuels-Grundschule Saarbruecken",
 		"official_id": "101051",
 		"phone": "0681-36684",
 		"school_type": "Grundschule",
@@ -28,13 +28,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "St. Josef-Straße 11, 66115 Saarbrücken",
+		"address": "St. Josef-Strasse 11, 66115 Saarbruecken",
 		"fax": "0681-4171585",
 		"full_time_school": true,
 		"id": "SL-1100-101071",
 		"lat": 49.240982,
 		"lon": 6.973557,
-		"name": "Ganztagsgrundschule Saarbrücken-Kirchberg",
+		"name": "Ganztagsgrundschule Saarbruecken-Kirchberg",
 		"official_id": "101071",
 		"phone": "0681-42090",
 		"school_type": "Grundschule",
@@ -42,7 +42,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Geisenberg 41, 66125 Saarbrücken",
+		"address": "Am Geisenberg 41, 66125 Saarbruecken",
 		"fax": "06897-972382",
 		"full_time_school": true,
 		"id": "SL-1100-101081",
@@ -56,7 +56,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Im Knappenroth 2, 66113 Saarbrücken",
+		"address": "Im Knappenroth 2, 66113 Saarbruecken",
 		"fax": "0681-7300540",
 		"full_time_school": true,
 		"id": "SL-1100-101111",
@@ -70,13 +70,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Hof 28, 66113 Saarbrücken",
+		"address": "Am Hof 28, 66113 Saarbruecken",
 		"fax": "0681-41620021",
 		"full_time_school": true,
 		"id": "SL-1100-101131",
 		"lat": 49.25813,
 		"lon": 6.974559,
-		"name": "Grundschule Russhütte",
+		"name": "Grundschule Russhuette",
 		"official_id": "101131",
 		"phone": "0681-41166",
 		"school_type": "Grundschule",
@@ -84,13 +84,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kirchberg 3, 66115 Saarbrücken",
+		"address": "Kirchberg 3, 66115 Saarbruecken",
 		"fax": "0681-4170211",
 		"full_time_school": true,
 		"id": "SL-1100-101151",
 		"lat": 49.24133,
 		"lon": 6.975818,
-		"name": "Grundschule Saarbrücken- Wallenbaum",
+		"name": "Grundschule Saarbruecken- Wallenbaum",
 		"official_id": "101151",
 		"phone": "0681-42001",
 		"school_type": "Grundschule",
@@ -98,7 +98,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Saarbrücker Straße 289, 66125 Saarbrücken",
+		"address": "Saarbruecker Strasse 289, 66125 Saarbruecken",
 		"fax": "0681-905-2367",
 		"full_time_school": true,
 		"id": "SL-1100-101211",
@@ -112,7 +112,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Marktstraße 43, 66125 Saarbrücken",
+		"address": "Marktstrasse 43, 66125 Saarbruecken",
 		"fax": "06897/972961",
 		"full_time_school": true,
 		"id": "SL-1100-101221",
@@ -126,7 +126,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 10, 66133 Saarbrücken-Scheidt",
+		"address": "Schulstrasse 10, 66133 Saarbruecken-Scheidt",
 		"fax": "0681-814674",
 		"full_time_school": true,
 		"id": "SL-1100-101261",
@@ -140,7 +140,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Im Knappenroth, 66113 Saarbrücken",
+		"address": "Im Knappenroth, 66113 Saarbruecken",
 		"fax": "0681-74339",
 		"full_time_school": true,
 		"id": "SL-1100-101301",
@@ -154,7 +154,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Ziegelstrasse 35, 66113 Saarbrücken",
+		"address": "Ziegelstrasse 35, 66113 Saarbruecken",
 		"fax": "0681-498776",
 		"full_time_school": false,
 		"id": "SL-1100-101311",
@@ -168,13 +168,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hellwigstraße 20, 66121 Saarbrücken",
+		"address": "Hellwigstrasse 20, 66121 Saarbruecken",
 		"fax": "0681-66497",
 		"full_time_school": true,
 		"id": "SL-1100-101331",
 		"lat": 49.232564,
 		"lon": 7.01399,
-		"name": "Grundschule Saarbrücken-Ost",
+		"name": "Grundschule Saarbruecken-Ost",
 		"official_id": "101331",
 		"phone": "0681-66497",
 		"school_type": "Grundschule",
@@ -182,7 +182,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Dellengartenstraße 2, 66117 Saarbrücken",
+		"address": "Dellengartenstrasse 2, 66117 Saarbruecken",
 		"fax": "0681-5849460",
 		"full_time_school": false,
 		"id": "SL-1100-201021",
@@ -196,13 +196,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Im Füllengarten 89, 66115 Saarbrücken",
+		"address": "Im Fuellengarten 89, 66115 Saarbruecken",
 		"fax": "0681-9767125",
 		"full_time_school": true,
 		"id": "SL-1100-201041",
 		"lat": 49.24617,
 		"lon": 6.928738,
-		"name": "Grundschule Füllengarten",
+		"name": "Grundschule Fuellengarten",
 		"official_id": "201041",
 		"phone": "0681-9767124",
 		"school_type": "Grundschule",
@@ -210,13 +210,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Heidenhübel 1, 66117 Saarbrücken",
+		"address": "Am Heidenhuebel 1, 66117 Saarbruecken",
 		"fax": "0681-5849412",
 		"full_time_school": true,
 		"id": "SL-1100-201081",
 		"lat": 49.216017,
 		"lon": 6.962295,
-		"name": "Grundschule Folsterhöhe",
+		"name": "Grundschule Folsterhoehe",
 		"official_id": "201081",
 		"phone": "0681-57870",
 		"school_type": "Grundschule",
@@ -224,7 +224,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Moltkestraße 31, 66117 Saarbrücken",
+		"address": "Moltkestrasse 31, 66117 Saarbruecken",
 		"fax": "0681-581877",
 		"full_time_school": true,
 		"id": "SL-1100-201091",
@@ -238,7 +238,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Arnulfstraße 15, 66119 Saarbrücken",
+		"address": "Arnulfstrasse 15, 66119 Saarbruecken",
 		"fax": "0681-9850189",
 		"full_time_school": true,
 		"id": "SL-1100-201141",
@@ -252,7 +252,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Große Weyersbergstraße 7, 66115 Saarbrücken",
+		"address": "Grosse Weyersbergstrasse 7, 66115 Saarbruecken",
 		"fax": "0681-76542",
 		"full_time_school": false,
 		"id": "SL-1100-201161",
@@ -266,7 +266,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kirchstraße 1-3, 66126 Saarbrücken",
+		"address": "Kirchstrasse 1-3, 66126 Saarbruecken",
 		"fax": "06898-984047",
 		"full_time_school": true,
 		"id": "SL-1100-201171",
@@ -280,13 +280,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Bergstraße 63, 66129 Saarbrücken-Bübingen",
+		"address": "Bergstrasse 63, 66129 Saarbruecken-Buebingen",
 		"fax": "06805-8407",
 		"full_time_school": false,
 		"id": "SL-1100-201201",
 		"lat": 49.18226,
 		"lon": 7.045509,
-		"name": "Grundschule Bübingen",
+		"name": "Grundschule Buebingen",
 		"official_id": "201201",
 		"phone": "06805-8416",
 		"school_type": "Grundschule",
@@ -294,7 +294,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Aschbachstraße 38, 66128 Saarbrücken-Gersweiler",
+		"address": "Aschbachstrasse 38, 66128 Saarbruecken-Gersweiler",
 		"fax": "0681-7020492",
 		"full_time_school": true,
 		"id": "SL-1100-201241",
@@ -308,13 +308,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Friedrich-Ebert-Straße 23, 66132 Saarbrücken-Bischmisheim",
+		"address": "Friedrich-Ebert-Strasse 23, 66132 Saarbruecken-Bischmisheim",
 		"fax": "0681-9893044",
 		"full_time_school": true,
 		"id": "SL-1100-201271",
 		"lat": 49.19325,
 		"lon": 7.024145,
-		"name": "Grundschule Saarbrücken-Am Geisberg",
+		"name": "Grundschule Saarbruecken-Am Geisberg",
 		"official_id": "201271",
 		"phone": "0681-9893045",
 		"school_type": "Grundschule",
@@ -322,7 +322,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Marktweg, 66131 Saarbrücken-Ensheim",
+		"address": "Am Marktweg, 66131 Saarbruecken-Ensheim",
 		"fax": "06893-2548",
 		"full_time_school": true,
 		"id": "SL-1100-201281",
@@ -336,7 +336,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Peter-und-Paul-Straße 38, 66130 Saarbrücken-Brebach-Fechingen",
+		"address": "Peter-und-Paul-Strasse 38, 66130 Saarbruecken-Brebach-Fechingen",
 		"fax": "0681-872181",
 		"full_time_school": true,
 		"id": "SL-1100-201291",
@@ -350,7 +350,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hohe Wacht 25, 66119 Saarbrücken",
+		"address": "Hohe Wacht 25, 66119 Saarbruecken",
 		"fax": "0681-5893786",
 		"full_time_school": true,
 		"id": "SL-1100-201301",
@@ -364,7 +364,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 30, 66130 Saarbrücken-Brebach-Fechingen",
+		"address": "Schulstrasse 30, 66130 Saarbruecken-Brebach-Fechingen",
 		"fax": null,
 		"full_time_school": true,
 		"id": "SL-1100-201322",
@@ -378,7 +378,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hauptstraße 53, 66127 Saarbrücken-Klarenthal",
+		"address": "Hauptstrasse 53, 66127 Saarbruecken-Klarenthal",
 		"fax": "06898-32774",
 		"full_time_school": true,
 		"id": "SL-1100-201351",
@@ -392,7 +392,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Halbergstraße 112, 66121 Saarbrücken",
+		"address": "Halbergstrasse 112, 66121 Saarbruecken",
 		"fax": "0681 - 638000",
 		"full_time_school": true,
 		"id": "SL-1100-301362",
@@ -406,7 +406,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Bismarckstraße 4, 66299 Friedrichsthal",
+		"address": "Bismarckstrasse 4, 66299 Friedrichsthal",
 		"fax": "06897-812278",
 		"full_time_school": true,
 		"id": "SL-1511-101011",
@@ -448,7 +448,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Dilsburger Straße 2, 66265 Heusweiler",
+		"address": "Dilsburger Strasse 2, 66265 Heusweiler",
 		"fax": "06806-608232",
 		"full_time_school": false,
 		"id": "SL-1513-301011",
@@ -462,13 +462,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Glück-Auf-Weg, 66265 Heusweiler-Holz",
+		"address": "Glueck-Auf-Weg, 66265 Heusweiler-Holz",
 		"fax": "06806-989367",
 		"full_time_school": true,
 		"id": "SL-1513-301061",
 		"lat": 49.330443,
 		"lon": 6.939072,
-		"name": "Grundschule Holz - Erich Kästner Schule",
+		"name": "Grundschule Holz - Erich Kaestner Schule",
 		"official_id": "301061",
 		"phone": "06806-8773",
 		"school_type": "Grundschule",
@@ -490,7 +490,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Wintringer Straße 78, 66271 Kleinblittersdorf",
+		"address": "Wintringer Strasse 78, 66271 Kleinblittersdorf",
 		"fax": "06805-2008638",
 		"full_time_school": true,
 		"id": "SL-1514-201051",
@@ -504,13 +504,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Goethestraße, 66346 Püttlingen",
+		"address": "Goethestrasse, 66346 Puettlingen",
 		"fax": "06898-689980",
 		"full_time_school": true,
 		"id": "SL-1515-301011",
 		"lat": 49.2909375,
 		"lon": 6.8788063,
-		"name": "Grundschule Püttlingen I",
+		"name": "Grundschule Puettlingen I",
 		"official_id": "301011",
 		"phone": "06898-61885",
 		"school_type": "Grundschule",
@@ -518,13 +518,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Zur Sporthalle, 66346 Püttlingen",
+		"address": "Zur Sporthalle, 66346 Puettlingen",
 		"fax": "06806-922869",
 		"full_time_school": true,
 		"id": "SL-1515-301031",
 		"lat": 49.3064066,
 		"lon": 6.8984617,
-		"name": "Grundschule Köllerbach",
+		"name": "Grundschule Koellerbach",
 		"official_id": "301031",
 		"phone": "06806-48791",
 		"school_type": "Grundschule",
@@ -532,13 +532,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Theodolinde-Katzenmaier-Straße 5, 66346 Püttlingen",
+		"address": "Theodolinde-Katzenmaier-Strasse 5, 66346 Puettlingen",
 		"fax": "06898-689572",
 		"full_time_school": true,
 		"id": "SL-1515-301041",
 		"lat": 49.278117,
 		"lon": 6.911504,
-		"name": "Grundschule Viktoria Püttlingen-Ritterstraße",
+		"name": "Grundschule Viktoria Puettlingen-Ritterstrasse",
 		"official_id": "301041",
 		"phone": "06898-67271",
 		"school_type": "Grundschule",
@@ -546,7 +546,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Lasbachstraße 21, 66287 Quierschied",
+		"address": "Lasbachstrasse 21, 66287 Quierschied",
 		"fax": "06897-601438",
 		"full_time_school": false,
 		"id": "SL-1516-301011",
@@ -560,13 +560,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hauptstraße 189, 66287 Quierschied-Göttelborn",
+		"address": "Hauptstrasse 189, 66287 Quierschied-Goettelborn",
 		"fax": "06825-8007700",
 		"full_time_school": true,
 		"id": "SL-1516-301021",
 		"lat": 49.342881,
 		"lon": 7.027291,
-		"name": "Grundschule Fischbach-Göttelborn",
+		"name": "Grundschule Fischbach-Goettelborn",
 		"official_id": "301021",
 		"phone": "06825-5680",
 		"school_type": "Grundschule",
@@ -588,7 +588,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Ellerstraße 7, 66292 Riegelsberg",
+		"address": "Ellerstrasse 7, 66292 Riegelsberg",
 		"fax": "06806-102119",
 		"full_time_school": true,
 		"id": "SL-1517-301021",
@@ -602,7 +602,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Wolfskaulstraße 88, 66292 Riegelsberg",
+		"address": "Wolfskaulstrasse 88, 66292 Riegelsberg",
 		"fax": "06806-860591",
 		"full_time_school": true,
 		"id": "SL-1517-301031",
@@ -644,13 +644,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Bergstraße 30, 66333 Völklingen",
+		"address": "Bergstrasse 30, 66333 Voelklingen",
 		"fax": "06898-23442",
 		"full_time_school": false,
 		"id": "SL-1519-301011",
 		"lat": 49.254498,
 		"lon": 6.854869,
-		"name": "Grundschule Bergstrasse/Hermann-Röchling-Höhe",
+		"name": "Grundschule Bergstrasse/Hermann-Roechling-Hoehe",
 		"official_id": "301011",
 		"phone": "06898-23316",
 		"school_type": "Grundschule",
@@ -658,7 +658,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Haydnstraße 44, 66333 Völklingen",
+		"address": "Haydnstrasse 44, 66333 Voelklingen",
 		"fax": "06898-294402",
 		"full_time_school": false,
 		"id": "SL-1519-301021",
@@ -672,13 +672,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Hasseleich 19, 66333 Völklingen-Fürstenhausen",
+		"address": "Am Hasseleich 19, 66333 Voelklingen-Fuerstenhausen",
 		"fax": "06898-935366",
 		"full_time_school": true,
 		"id": "SL-1519-301031",
 		"lat": 49.2392,
 		"lon": 6.867466,
-		"name": "Grundschule Fürstenhausen",
+		"name": "Grundschule Fuerstenhausen",
 		"official_id": "301031",
 		"phone": "06898-31320",
 		"school_type": "Grundschule",
@@ -686,7 +686,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 12, 66333 Völklingen-Ludweiler",
+		"address": "Schulstrasse 12, 66333 Voelklingen-Ludweiler",
 		"fax": "06898-439016",
 		"full_time_school": true,
 		"id": "SL-1519-301071",
@@ -700,7 +700,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Neckarstraße 12, 66333 Völklingen-Heidstock",
+		"address": "Neckarstrasse 12, 66333 Voelklingen-Heidstock",
 		"fax": "06898-851167",
 		"full_time_school": true,
 		"id": "SL-1519-301091",
@@ -714,7 +714,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kleine Bergstraße 3, 66333 Völklingen- Wehrden",
+		"address": "Kleine Bergstrasse 3, 66333 Voelklingen- Wehrden",
 		"fax": "06898-16370",
 		"full_time_school": true,
 		"id": "SL-1519-301101",
@@ -728,7 +728,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Zur Plätsch, 66701 Beckingen",
+		"address": "Zur Plaetsch, 66701 Beckingen",
 		"fax": "06832-446",
 		"full_time_school": true,
 		"id": "SL-2111-201041",
@@ -742,13 +742,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pfarrer-Gierend-Straße 5, 66701 Beckingen",
+		"address": "Pfarrer-Gierend-Strasse 5, 66701 Beckingen",
 		"fax": "06832-801395",
 		"full_time_school": true,
 		"id": "SL-2111-201051",
 		"lat": 49.41513,
 		"lon": 6.763323,
-		"name": "Grundschule Düppenweiler",
+		"name": "Grundschule Dueppenweiler",
 		"official_id": "201051",
 		"phone": "06832-383",
 		"school_type": "Grundschule",
@@ -756,7 +756,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 5, 66701 Beckingen",
+		"address": "Schulstrasse 5, 66701 Beckingen",
 		"fax": "06835-601790",
 		"full_time_school": true,
 		"id": "SL-2111-201061",
@@ -770,7 +770,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 11, 66679 Losheim am See",
+		"address": "Schulstrasse 11, 66679 Losheim am See",
 		"fax": "06872-8624",
 		"full_time_school": true,
 		"id": "SL-2112-201011",
@@ -784,7 +784,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Quellenstraße 14, 66679 Losheim am See-Bachem",
+		"address": "Quellenstrasse 14, 66679 Losheim am See-Bachem",
 		"fax": "06872-887008",
 		"full_time_school": true,
 		"id": "SL-2112-201021",
@@ -812,7 +812,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kreuzbergstraße 51, 66663 Merzig",
+		"address": "Kreuzbergstrasse 51, 66663 Merzig",
 		"fax": "06861-793601",
 		"full_time_school": false,
 		"id": "SL-2113-101011",
@@ -840,7 +840,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Bezirksstraße 100, 66663 Merzig-Besseringen",
+		"address": "Bezirksstrasse 100, 66663 Merzig-Besseringen",
 		"fax": "06861 790682",
 		"full_time_school": false,
 		"id": "SL-2113-101051",
@@ -882,7 +882,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 26, 66663 Merzig-Hilbringen",
+		"address": "Schulstrasse 26, 66663 Merzig-Hilbringen",
 		"fax": "06861 79322",
 		"full_time_school": true,
 		"id": "SL-2113-101081",
@@ -896,7 +896,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Martinusstraße, 66663 Merzig-Bietzen",
+		"address": "Martinusstrasse, 66663 Merzig-Bietzen",
 		"fax": null,
 		"full_time_school": true,
 		"id": "SL-2113-101092",
@@ -910,7 +910,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Von-Boch-Liebieg-Straße 34, 66693 Mettlach",
+		"address": "Von-Boch-Liebieg-Strasse 34, 66693 Mettlach",
 		"fax": "06864-1390",
 		"full_time_school": true,
 		"id": "SL-2114-101011",
@@ -924,7 +924,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Saarburger Straße, 66693 Mettlach-Orscholz",
+		"address": "Saarburger Strasse, 66693 Mettlach-Orscholz",
 		"fax": "06865 180213",
 		"full_time_school": true,
 		"id": "SL-2114-101021",
@@ -938,13 +938,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kirschenstraße 6-8, 66706 Perl",
+		"address": "Kirschenstrasse 6-8, 66706 Perl",
 		"fax": "06867-560023",
 		"full_time_school": true,
 		"id": "SL-2115-101011",
 		"lat": 49.47741,
 		"lon": 6.394147,
-		"name": "Grundschule Dreiländereck  Schule der Gemeinde Perl",
+		"name": "Grundschule Dreilaendereck  Schule der Gemeinde Perl",
 		"official_id": "101011",
 		"phone": "06867-560022",
 		"school_type": "Grundschule",
@@ -952,7 +952,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Michaelstraße 4, 66687 Wadern-Lockweiler",
+		"address": "Michaelstrasse 4, 66687 Wadern-Lockweiler",
 		"fax": "06871-922723",
 		"full_time_school": true,
 		"id": "SL-2116-201031",
@@ -966,7 +966,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Saarbruecker Straße 65, 66687 Wadern-Nunkirchen",
+		"address": "Saarbruecker Strasse 65, 66687 Wadern-Nunkirchen",
 		"fax": "06874-182816",
 		"full_time_school": false,
 		"id": "SL-2116-201041",
@@ -980,7 +980,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schlimmfeldstraße 1, 66687 Wadern-Wadrill",
+		"address": "Schlimmfeldstrasse 1, 66687 Wadern-Wadrill",
 		"fax": "06871-922761",
 		"full_time_school": true,
 		"id": "SL-2116-201051",
@@ -994,7 +994,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße10, 66709 Weiskirchen",
+		"address": "Schulstrasse10, 66709 Weiskirchen",
 		"fax": "06876-791802",
 		"full_time_school": true,
 		"id": "SL-2117-201011",
@@ -1008,7 +1008,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "St.Sebastianstraße 1, 66571 Eppelborn",
+		"address": "St.Sebastianstrasse 1, 66571 Eppelborn",
 		"fax": "06881-88693",
 		"full_time_school": true,
 		"id": "SL-3111-201011",
@@ -1022,7 +1022,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Jägerbergstraße 2, 66571 Eppelborn-Wiesbach",
+		"address": "Jaegerbergstrasse 2, 66571 Eppelborn-Wiesbach",
 		"fax": "06806-81361",
 		"full_time_school": true,
 		"id": "SL-3111-201051",
@@ -1050,13 +1050,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Dr.Maxein-Straße 2, 66557 Illingen",
+		"address": "Dr.Maxein-Strasse 2, 66557 Illingen",
 		"fax": "06825-499519",
 		"full_time_school": true,
 		"id": "SL-3112-201031",
 		"lat": 49.36667,
 		"lon": 7.03333,
-		"name": "Grundschule An der Ill, Hüttigweiler",
+		"name": "Grundschule An der Ill, Huettigweiler",
 		"official_id": "201031",
 		"phone": "06825-2840",
 		"school_type": "Grundschule",
@@ -1092,7 +1092,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Allenfeldstraße, 66589 Merchweiler",
+		"address": "Allenfeldstrasse, 66589 Merchweiler",
 		"fax": "06825-970210",
 		"full_time_school": true,
 		"id": "SL-3113-201011",
@@ -1120,7 +1120,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kleiststraße 30, 66538 Neunkirchen",
+		"address": "Kleiststrasse 30, 66538 Neunkirchen",
 		"fax": "06821 9728485",
 		"full_time_school": false,
 		"id": "SL-3114-101011",
@@ -1134,7 +1134,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Berthold-Günther-Platz 5, 66539 Neunkirchen-Wellesweiler",
+		"address": "Berthold-Guenther-Platz 5, 66539 Neunkirchen-Wellesweiler",
 		"fax": "06821-485341",
 		"full_time_school": true,
 		"id": "SL-3114-101051",
@@ -1148,7 +1148,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kuchenbergstraße 47, 66540 Neunkirchen-Wiebelskirchen",
+		"address": "Kuchenbergstrasse 47, 66540 Neunkirchen-Wiebelskirchen",
 		"fax": "06821-953475",
 		"full_time_school": true,
 		"id": "SL-3114-101081",
@@ -1162,7 +1162,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Freiherr-von-Stein-Straße 6, 66540 Neunkirchen",
+		"address": "Freiherr-von-Stein-Strasse 6, 66540 Neunkirchen",
 		"fax": "06821-179228",
 		"full_time_school": false,
 		"id": "SL-3114-101091",
@@ -1204,7 +1204,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Prälat-Schütz-Straße 15, 66540 Neunkirchen-Wiebelskirchen",
+		"address": "Praelat-Schuetz-Strasse 15, 66540 Neunkirchen-Wiebelskirchen",
 		"fax": "06821-950444",
 		"full_time_school": true,
 		"id": "SL-3114-102032",
@@ -1218,7 +1218,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Freiherr v. Stein-Straße 16, 66564 Ottweiler",
+		"address": "Freiherr v. Stein-Strasse 16, 66564 Ottweiler",
 		"fax": "06824-709573",
 		"full_time_school": true,
 		"id": "SL-3115-201011",
@@ -1232,13 +1232,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Betzelbacher Weg 17, 66564 Ottweiler-Neumünster",
+		"address": "Betzelbacher Weg 17, 66564 Ottweiler-Neumuenster",
 		"fax": "06824-300904",
 		"full_time_school": true,
 		"id": "SL-3115-201021",
 		"lat": 49.403883,
 		"lon": 7.17317,
-		"name": "Grundschule Neumünster",
+		"name": "Grundschule Neumuenster",
 		"official_id": "201021",
 		"phone": "06824-4310",
 		"school_type": "Grundschule",
@@ -1246,7 +1246,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Comeniusstraße 9, 66578 Schiffweiler",
+		"address": "Comeniusstrasse 9, 66578 Schiffweiler",
 		"fax": "06821-634412",
 		"full_time_school": true,
 		"id": "SL-3116-201011",
@@ -1274,7 +1274,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Karlstraße 19, 66578 Schiffweiler-Heiligenwald",
+		"address": "Karlstrasse 19, 66578 Schiffweiler-Heiligenwald",
 		"fax": "06821-635516",
 		"full_time_school": true,
 		"id": "SL-3116-201041",
@@ -1288,7 +1288,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pestalozzistraße 3, 66583 Spiesen-Elversberg (Elversberg)",
+		"address": "Pestalozzistrasse 3, 66583 Spiesen-Elversberg (Elversberg)",
 		"fax": "06821-742249",
 		"full_time_school": false,
 		"id": "SL-3117-101011",
@@ -1302,7 +1302,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pastor-Kollmann-Straße, 66583 Spiesen-Elversberg (Spiesen)",
+		"address": "Pastor-Kollmann-Strasse, 66583 Spiesen-Elversberg (Spiesen)",
 		"fax": "06821-742228",
 		"full_time_school": false,
 		"id": "SL-3117-101021",
@@ -1316,13 +1316,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Römerstraße 7, 66763 Dillingen-Pachten",
+		"address": "Roemerstrasse 7, 66763 Dillingen-Pachten",
 		"fax": "06831-1 27 38 35",
 		"full_time_school": true,
 		"id": "SL-4111-201011",
 		"lat": 48.597606,
 		"lon": 10.543148,
-		"name": "Grundschule Dillingen I -Römerschule-",
+		"name": "Grundschule Dillingen I -Roemerschule-",
 		"official_id": "201011",
 		"phone": "06831-1 27 28 84",
 		"school_type": "Grundschule",
@@ -1330,7 +1330,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kerlinger Straße 2, 66763 Dillingen",
+		"address": "Kerlinger Strasse 2, 66763 Dillingen",
 		"fax": "06831/7682059",
 		"full_time_school": true,
 		"id": "SL-4111-201021",
@@ -1344,7 +1344,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Friedrich-Ebert-Straße 69, 66763 Dillingen",
+		"address": "Friedrich-Ebert-Strasse 69, 66763 Dillingen",
 		"fax": "06831-7614842",
 		"full_time_school": true,
 		"id": "SL-4111-201031",
@@ -1358,7 +1358,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Richard-Wagner-Straße 16, 66763 Dillingen",
+		"address": "Richard-Wagner-Strasse 16, 66763 Dillingen",
 		"fax": "06831-769508",
 		"full_time_school": true,
 		"id": "SL-4111-201041",
@@ -1372,7 +1372,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Mottener Straße 46, 66822 Lebach",
+		"address": "Mottener Strasse 46, 66822 Lebach",
 		"fax": "06881-5390147",
 		"full_time_school": false,
 		"id": "SL-4112-101011",
@@ -1400,7 +1400,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pestalozzistraße 2-3, 66822 Lebach",
+		"address": "Pestalozzistrasse 2-3, 66822 Lebach",
 		"fax": "06888-901324",
 		"full_time_school": false,
 		"id": "SL-4112-101071",
@@ -1414,13 +1414,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Dillinger Straße 67, 66822 Lebach",
+		"address": "Dillinger Strasse 67, 66822 Lebach",
 		"fax": "06881-91324",
 		"full_time_school": true,
 		"id": "SL-4112-101092",
 		"lat": 49.404791,
 		"lon": 6.895171,
-		"name": "Grundschule Lebach (Nikolaus Groß)",
+		"name": "Grundschule Lebach (Nikolaus Gross)",
 		"official_id": "101092",
 		"phone": "06881-91323",
 		"school_type": "Grundschule",
@@ -1442,7 +1442,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Niedaltdorfer Straße 32, 66780 Rehlingen-Siersburg",
+		"address": "Niedaltdorfer Strasse 32, 66780 Rehlingen-Siersburg",
 		"fax": "06833-894652",
 		"full_time_school": true,
 		"id": "SL-4114-201031",
@@ -1470,7 +1470,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Beckinger Straße 25, 66780 Rehlingen-Siersburg",
+		"address": "Beckinger Strasse 25, 66780 Rehlingen-Siersburg",
 		"fax": "06835-600132",
 		"full_time_school": true,
 		"id": "SL-4114-201051",
@@ -1484,7 +1484,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Taubenstraße 1, 66740 Saarlouis",
+		"address": "Taubenstrasse 1, 66740 Saarlouis",
 		"fax": "06831-94589430",
 		"full_time_school": true,
 		"id": "SL-4115-101021",
@@ -1498,7 +1498,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Bruchwiesenstraße 2, 66740 Saarlouis-Beaumarais",
+		"address": "Bruchwiesenstrasse 2, 66740 Saarlouis-Beaumarais",
 		"fax": "06831-9969926",
 		"full_time_school": true,
 		"id": "SL-4115-101031",
@@ -1512,7 +1512,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Klosterstraße 17, 66740 Saarlouis-Fraulautern",
+		"address": "Klosterstrasse 17, 66740 Saarlouis-Fraulautern",
 		"fax": "06831-98698719",
 		"full_time_school": true,
 		"id": "SL-4115-101041",
@@ -1526,7 +1526,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Prof.-Ecker-Straße 13, 66740 Saarlouis-Lisdorf",
+		"address": "Prof.-Ecker-Strasse 13, 66740 Saarlouis-Lisdorf",
 		"fax": "06831-94588920",
 		"full_time_school": true,
 		"id": "SL-4115-101061",
@@ -1540,13 +1540,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Roemerstraße 20, 66740 Saarlouis-Roden",
+		"address": "Roemerstrasse 20, 66740 Saarlouis-Roden",
 		"fax": "06831-98698117",
 		"full_time_school": false,
 		"id": "SL-4115-101071",
 		"lat": 49.31667,
 		"lon": 6.75,
-		"name": "Grundschule Römerberg",
+		"name": "Grundschule Roemerberg",
 		"official_id": "101071",
 		"phone": "06831-9869810",
 		"school_type": "Grundschule",
@@ -1568,7 +1568,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Rodener Straße 11b, 66793 Saarwellingen",
+		"address": "Rodener Strasse 11b, 66793 Saarwellingen",
 		"fax": "06838 983808",
 		"full_time_school": true,
 		"id": "SL-4116-101011",
@@ -1596,7 +1596,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Saarbrücker Straße 37, 66839 Schmelz",
+		"address": "Saarbruecker Strasse 37, 66839 Schmelz",
 		"fax": "06887-889611",
 		"full_time_school": true,
 		"id": "SL-4117-101011",
@@ -1610,13 +1610,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Im Fluerchen 19a, 66839 Schmelz-Hüttersdorf",
+		"address": "Im Fluerchen 19a, 66839 Schmelz-Huettersdorf",
 		"fax": "06887-300094",
 		"full_time_school": true,
 		"id": "SL-4117-101031",
 		"lat": 49.41888,
 		"lon": 6.843481,
-		"name": "Grundschule Hüttersdorf",
+		"name": "Grundschule Huettersdorf",
 		"official_id": "101031",
 		"phone": "06887-2391",
 		"school_type": "Grundschule",
@@ -1652,13 +1652,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Zur Turnhalle 7, 66773 Schwalbach-Hülzweiler",
+		"address": "Zur Turnhalle 7, 66773 Schwalbach-Huelzweiler",
 		"fax": "06831-5010116",
 		"full_time_school": true,
 		"id": "SL-4118-201061",
 		"lat": 49.321341,
 		"lon": 6.816508,
-		"name": "Grundschule Hülzweiler",
+		"name": "Grundschule Huelzweiler",
 		"official_id": "201061",
 		"phone": "06831-52237",
 		"school_type": "Grundschule",
@@ -1666,13 +1666,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Waldstraße 15, 66802 Überherrn",
+		"address": "Waldstrasse 15, 66802 ueberherrn",
 		"fax": "06836-2724",
 		"full_time_school": true,
 		"id": "SL-4119-201011",
 		"lat": 49.238945,
 		"lon": 6.696793,
-		"name": "Grundschule Überherrn",
+		"name": "Grundschule ueberherrn",
 		"official_id": "201011",
 		"phone": "06836-2644",
 		"school_type": "Grundschule",
@@ -1680,7 +1680,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "St. Oranna, 66802 Überherrn",
+		"address": "St. Oranna, 66802 ueberherrn",
 		"fax": "06836-684991",
 		"full_time_school": true,
 		"id": "SL-4119-201041",
@@ -1694,7 +1694,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Abteistraße 18a, 66787 Wadgassen",
+		"address": "Abteistrasse 18a, 66787 Wadgassen",
 		"fax": "06834-409433",
 		"full_time_school": true,
 		"id": "SL-4120-201011",
@@ -1708,7 +1708,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Friedhofstraße 10, 66787 Wadgassen",
+		"address": "Friedhofstrasse 10, 66787 Wadgassen",
 		"fax": "06834-697204",
 		"full_time_school": true,
 		"id": "SL-4120-201031",
@@ -1722,7 +1722,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kaiserstraße 17 A, 66787 Wadgassen-Hostenbach",
+		"address": "Kaiserstrasse 17 A, 66787 Wadgassen-Hostenbach",
 		"fax": "06834-49677",
 		"full_time_school": true,
 		"id": "SL-4120-201041",
@@ -1736,7 +1736,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Adolphshöhe 1, 66798 Wallerfangen",
+		"address": "Adolphshoehe 1, 66798 Wallerfangen",
 		"fax": "06831-643422",
 		"full_time_school": true,
 		"id": "SL-4121-201021",
@@ -1750,7 +1750,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Gaustraße 22, 66798 Wallerfangen-Gisingen",
+		"address": "Gaustrasse 22, 66798 Wallerfangen-Gisingen",
 		"fax": "06837-7080051",
 		"full_time_school": true,
 		"id": "SL-4121-201031",
@@ -1764,7 +1764,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Auf der Mühlenscheib, 66359 Bous",
+		"address": "Auf der Muehlenscheib, 66359 Bous",
 		"fax": "06834-922217",
 		"full_time_school": true,
 		"id": "SL-4122-201031",
@@ -1792,7 +1792,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schillerstraße 8b, 66450 Bexbach",
+		"address": "Schillerstrasse 8b, 66450 Bexbach",
 		"fax": "06826-189680",
 		"full_time_school": true,
 		"id": "SL-5111-101011",
@@ -1806,13 +1806,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pfarrer-Layes-Straße, 66450 Bexbach-Frankenholz",
+		"address": "Pfarrer-Layes-Strasse, 66450 Bexbach-Frankenholz",
 		"fax": "06826-800842",
 		"full_time_school": true,
 		"id": "SL-5111-101021",
 		"lat": 49.3788678,
 		"lon": 7.2571333,
-		"name": "Schillerschule Grundschule am Höcherberg",
+		"name": "Schillerschule Grundschule am Hoecherberg",
 		"official_id": "101021",
 		"phone": "06826-800843",
 		"school_type": "Grundschule",
@@ -1820,7 +1820,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Kälberberg, 66450 Bexbach-Oberbexbach",
+		"address": "Am Kaelberberg, 66450 Bexbach-Oberbexbach",
 		"fax": "06826-800970",
 		"full_time_school": true,
 		"id": "SL-5111-101051",
@@ -1834,7 +1834,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Edith-Stein-Straße 4, 66440 Blieskastel-Lautzkirchen",
+		"address": "Edith-Stein-Strasse 4, 66440 Blieskastel-Lautzkirchen",
 		"fax": "06842-538812",
 		"full_time_school": true,
 		"id": "SL-5112-201021",
@@ -1862,13 +1862,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kirkeler Straße 41, 66440 Bliesk. - Niederwürzbach",
+		"address": "Kirkeler Strasse 41, 66440 Bliesk. - Niederwuerzbach",
 		"fax": "06842-891750",
 		"full_time_school": true,
 		"id": "SL-5112-201081",
 		"lat": 49.246038,
 		"lon": 7.201341,
-		"name": "Grundschule am Würzbacher Weiher",
+		"name": "Grundschule am Wuerzbacher Weiher",
 		"official_id": "201081",
 		"phone": "06842-6183",
 		"school_type": "Grundschule",
@@ -1876,7 +1876,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Burgstraße 11, 66453 Gersheim-Medelsheim",
+		"address": "Burgstrasse 11, 66453 Gersheim-Medelsheim",
 		"fax": "06844-991273",
 		"full_time_school": true,
 		"id": "SL-5113-201021",
@@ -1890,7 +1890,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Grenzlandstraße 3, 66453 Gersheim-Reinheim",
+		"address": "Grenzlandstrasse 3, 66453 Gersheim-Reinheim",
 		"fax": "06843-902608",
 		"full_time_school": true,
 		"id": "SL-5113-201031",
@@ -1904,13 +1904,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Thomastraße 15, 66424 Homburg",
+		"address": "Thomastrasse 15, 66424 Homburg",
 		"fax": "06841-756679",
 		"full_time_school": true,
 		"id": "SL-5114-101021",
 		"lat": 49.332593,
 		"lon": 7.331111,
-		"name": "Grundschule Langenäcker",
+		"name": "Grundschule Langenaecker",
 		"official_id": "101021",
 		"phone": "06841-78274",
 		"school_type": "Grundschule",
@@ -1918,7 +1918,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Rosenstraße 22, 66424 Homburg-Bruchhof",
+		"address": "Rosenstrasse 22, 66424 Homburg-Bruchhof",
 		"fax": "06841-120565",
 		"full_time_school": false,
 		"id": "SL-5114-101041",
@@ -1932,7 +1932,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Luitpoldstraße 9, 66424 Homburg",
+		"address": "Luitpoldstrasse 9, 66424 Homburg",
 		"fax": "06841-757319",
 		"full_time_school": false,
 		"id": "SL-5114-101051",
@@ -1960,13 +1960,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Im Wieschen, 66424 Homburg-Einöd",
+		"address": "Im Wieschen, 66424 Homburg-Einoed",
 		"fax": "06848-730009",
 		"full_time_school": true,
 		"id": "SL-5114-101081",
 		"lat": 49.273661,
 		"lon": 7.321802,
-		"name": "Grundschule Einöd",
+		"name": "Grundschule Einoed",
 		"official_id": "101081",
 		"phone": "06848-6366",
 		"school_type": "Grundschule",
@@ -1974,7 +1974,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Talstraße 1-3, 66459 Kirkel-Limbach",
+		"address": "Talstrasse 1-3, 66459 Kirkel-Limbach",
 		"fax": "06841-890134",
 		"full_time_school": true,
 		"id": "SL-5115-101021",
@@ -1988,13 +1988,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Friedhofstraße, 66459 Kirkel-Neuhäusel",
+		"address": "Friedhofstrasse, 66459 Kirkel-Neuhaeusel",
 		"fax": "06849-774",
 		"full_time_school": true,
 		"id": "SL-5115-101031",
 		"lat": 49.285169,
 		"lon": 7.230998,
-		"name": "Grundschule Kirkel-Neuhäusel",
+		"name": "Grundschule Kirkel-Neuhaeusel",
 		"official_id": "101031",
 		"phone": "06849-325",
 		"school_type": "Grundschule",
@@ -2002,13 +2002,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schützengasse 6, 66399 Mandelbachtal-Erfweiler-Ehlingen",
+		"address": "Schuetzengasse 6, 66399 Mandelbachtal-Erfweiler-Ehlingen",
 		"fax": null,
 		"full_time_school": true,
 		"id": "SL-5116-201031",
 		"lat": 49.196805,
 		"lon": 7.181666,
-		"name": "Arnold-Rütter-Schule der Gemeinde Mandelbachtal",
+		"name": "Arnold-Ruetter-Schule der Gemeinde Mandelbachtal",
 		"official_id": "201031",
 		"phone": "06803-2758",
 		"school_type": "Grundschule",
@@ -2030,7 +2030,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Robert-Koch-Straße 4, 66386 St.Ingbert",
+		"address": "Robert-Koch-Strasse 4, 66386 St.Ingbert",
 		"fax": "06894-382419",
 		"full_time_school": true,
 		"id": "SL-5117-201011",
@@ -2058,7 +2058,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hochstraße 47, 66386 St.Ingbert-Rohrbach",
+		"address": "Hochstrasse 47, 66386 St.Ingbert-Rohrbach",
 		"fax": "06894-959085",
 		"full_time_school": false,
 		"id": "SL-5117-201071",
@@ -2072,13 +2072,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Fidelisstraße, 66386 St.Ingbert",
+		"address": "Fidelisstrasse, 66386 St.Ingbert",
 		"fax": "06894-870214",
 		"full_time_school": false,
 		"id": "SL-5117-201101",
 		"lat": 49.274704,
 		"lon": 7.128784,
-		"name": "Grundschule Südschule",
+		"name": "Grundschule Suedschule",
 		"official_id": "201101",
 		"phone": "06894-6913",
 		"school_type": "Grundschule",
@@ -2086,7 +2086,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hasenfelsstraße 12, 66386 St. Ingbert-Oberwürzbach",
+		"address": "Hasenfelsstrasse 12, 66386 St. Ingbert-Oberwuerzbach",
 		"fax": "06894-5823232",
 		"full_time_school": true,
 		"id": "SL-5117-201112",
@@ -2114,7 +2114,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Marienstraße 21a, 66646 Marpingen",
+		"address": "Marienstrasse 21a, 66646 Marpingen",
 		"fax": "06853-9198598",
 		"full_time_school": true,
 		"id": "SL-6112-101011",
@@ -2128,7 +2128,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Goethestraße 8, 66640 Namborn",
+		"address": "Goethestrasse 8, 66640 Namborn",
 		"fax": "06854/90 895830",
 		"full_time_school": true,
 		"id": "SL-6113-201011",
@@ -2142,7 +2142,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kirchstraße 6, 66625 Nohfelden-Gonnesweiler",
+		"address": "Kirchstrasse 6, 66625 Nohfelden-Gonnesweiler",
 		"fax": "06852-802396",
 		"full_time_school": true,
 		"id": "SL-6114-201011",
@@ -2170,7 +2170,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schwimmbadstraße 35, 66649 Oberthal",
+		"address": "Schwimmbadstrasse 35, 66649 Oberthal",
 		"fax": "06854-802757",
 		"full_time_school": true,
 		"id": "SL-6116-201021",
@@ -2212,7 +2212,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Ebereschenstraße 18, 66606 St. Wendel-Niederkirchen",
+		"address": "Ebereschenstrasse 18, 66606 St. Wendel-Niederkirchen",
 		"fax": "06856-892140",
 		"full_time_school": true,
 		"id": "SL-6117-101061",
@@ -2226,7 +2226,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Nikolaus-Obertreis-Straße, 66606 St. Wendel",
+		"address": "Nikolaus-Obertreis-Strasse, 66606 St. Wendel",
 		"fax": "06851-839371",
 		"full_time_school": true,
 		"id": "SL-6117-101071",
@@ -2240,7 +2240,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Parkstraße 7-9, 66636 Tholey-Hasborn-Dautweiler",
+		"address": "Parkstrasse 7-9, 66636 Tholey-Hasborn-Dautweiler",
 		"fax": "06853-892367",
 		"full_time_school": true,
 		"id": "SL-6118-101031",
@@ -2254,7 +2254,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Selbacher Straße 4, 66636 Tholey-Theley",
+		"address": "Selbacher Strasse 4, 66636 Tholey-Theley",
 		"fax": "06853-5020562",
 		"full_time_school": true,
 		"id": "SL-6118-101051",
@@ -2268,115 +2268,115 @@
 		"state": "SL"
 	},
 	{
-		"address": "Von der Heydt 9a, 66115 Saarbrücken-Von der Heydt",
+		"address": "Von der Heydt 9a, 66115 Saarbruecken-Von der Heydt",
 		"fax": "0681-75359520",
 		"full_time_school": false,
 		"id": "SL-1100-118011",
 		"lat": 49.241434,
 		"lon": 6.96088,
-		"name": "Förderschule soziale Entwicklung",
+		"name": "Foerderschule soziale Entwicklung",
 		"official_id": "118011",
 		"phone": "0681-7535950",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Ziegelstrasse, 66113 Saarbrücken",
+		"address": "Ziegelstrasse, 66113 Saarbruecken",
 		"fax": "0681-498693",
 		"full_time_school": false,
 		"id": "SL-1100-317011",
 		"lat": 49.246887,
 		"lon": 6.987662,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "317011",
 		"phone": "0681-47741",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "In den Grasgärten, 66126 Saarbrücken-Altenkessel",
+		"address": "In den Grasgaerten, 66126 Saarbruecken-Altenkessel",
 		"fax": "06898-81821",
 		"full_time_school": false,
 		"id": "SL-1100-317021",
 		"lat": 49.2482586,
 		"lon": 6.9154553,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "317021",
 		"phone": "06898-81826",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 93, 66125 Saarbrücken-Dudweiler",
+		"address": "Schulstrasse 93, 66125 Saarbruecken-Dudweiler",
 		"fax": "0681-31230",
 		"full_time_school": false,
 		"id": "SL-1100-317031",
 		"lat": 49.268722,
 		"lon": 7.007276,
-		"name": "Förderschule Lernen Dudweiler",
+		"name": "Foerderschule Lernen Dudweiler",
 		"official_id": "317031",
 		"phone": "0681-36155",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Winterbachsroth 9, 66125 Saarbrücken-Dudweiler",
+		"address": "Winterbachsroth 9, 66125 Saarbruecken-Dudweiler",
 		"fax": "06897-9520905",
 		"full_time_school": false,
 		"id": "SL-1100-420021",
 		"lat": 49.275879,
 		"lon": 7.03638,
-		"name": "Förderschule geistige Entwicklung",
+		"name": "Foerderschule geistige Entwicklung",
 		"official_id": "420021",
 		"phone": "06897-952090",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Hofstraße 5a, 66299 Friedrichsthal-Bildstock",
+		"address": "Hofstrasse 5a, 66299 Friedrichsthal-Bildstock",
 		"fax": "06897-88271",
 		"full_time_school": false,
 		"id": "SL-1511-217011",
 		"lat": 49.333148,
 		"lon": 7.094364,
-		"name": "Förderschule Lernen -Hofschule-",
+		"name": "Foerderschule Lernen -Hofschule-",
 		"official_id": "217011",
 		"phone": "06897-88223",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Goethestraße 8, 66265 Heusweiler",
+		"address": "Goethestrasse 8, 66265 Heusweiler",
 		"fax": "06806 9949939",
 		"full_time_school": false,
 		"id": "SL-1513-420011",
 		"lat": 49.336842,
 		"lon": 6.924043,
-		"name": "Förderschule geistige Entwicklung Heusweiler",
+		"name": "Foerderschule geistige Entwicklung Heusweiler",
 		"official_id": "420011",
 		"phone": "06806 9949930",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Köllertalstrasse 145, 66346 Püttlingen",
+		"address": "Koellertalstrasse 145, 66346 Puettlingen",
 		"fax": "06806-46649",
 		"full_time_school": false,
 		"id": "SL-1515-121011",
 		"lat": 49.29443,
 		"lon": 6.891063,
-		"name": "Förderschule körperliche und motorische Entwicklung",
+		"name": "Foerderschule koerperliche und motorische Entwicklung",
 		"official_id": "121011",
 		"phone": "06806-46630",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2386,25 +2386,25 @@
 		"id": "SL-1518-227011",
 		"lat": 49.288888888889,
 		"lon": 7.0536111111111,
-		"name": "Förderschule Sprache Weierwiesschule",
+		"name": "Foerderschule Sprache Weierwiesschule",
 		"official_id": "227011",
 		"phone": "06897-3512",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Friedhofstraße 9, 66333 Völklingen-Geislautern",
+		"address": "Friedhofstrasse 9, 66333 Voelklingen-Geislautern",
 		"fax": "06898-78286",
 		"full_time_school": false,
 		"id": "SL-1519-117011",
 		"lat": 49.237487,
 		"lon": 6.833536,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "117011",
 		"phone": "06898-78235",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2414,11 +2414,11 @@
 		"id": "SL-2112-217011",
 		"lat": 49.501918,
 		"lon": 6.789229,
-		"name": "Förderschule Lernen, Schule Am Kappwald",
+		"name": "Foerderschule Lernen, Schule Am Kappwald",
 		"official_id": "217011",
 		"phone": "06872-2992",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2428,11 +2428,11 @@
 		"id": "SL-2113-117011",
 		"lat": 49.473544,
 		"lon": 6.676746,
-		"name": "Förderschule Lernen -Schule Auf der Wild-",
+		"name": "Foerderschule Lernen -Schule Auf der Wild-",
 		"official_id": "117011",
 		"phone": "06861-78461",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2442,25 +2442,25 @@
 		"id": "SL-2113-120011",
 		"lat": 49.441763,
 		"lon": 6.682816,
-		"name": "Förderschule geistige Entwicklung",
+		"name": "Foerderschule geistige Entwicklung",
 		"official_id": "120011",
 		"phone": "06861-2668",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Am Wergkäulchen 22, 66687 Wadern-Noswendel",
+		"address": "Am Wergkaeulchen 22, 66687 Wadern-Noswendel",
 		"fax": "06871-921640",
 		"full_time_school": false,
 		"id": "SL-2116-217011",
 		"lat": 49.527555,
 		"lon": 6.895606,
-		"name": "Förderschule Lernen -Noswendel-",
+		"name": "Foerderschule Lernen -Noswendel-",
 		"official_id": "217011",
 		"phone": "06871-2588",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2470,11 +2470,11 @@
 		"id": "SL-3111-220012",
 		"lat": 49.42156,
 		"lon": 7.011977,
-		"name": "Private Förderschule geistige Entwicklung Rothenbergschule",
+		"name": "Private Foerderschule geistige Entwicklung Rothenbergschule",
 		"official_id": "220012",
 		"phone": "06827-415",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2484,53 +2484,53 @@
 		"id": "SL-3112-217011",
 		"lat": 49.36667,
 		"lon": 7.03333,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "217011",
 		"phone": "06825-3344",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Jägermeisterpfad, 66538 Neunkirchen",
+		"address": "Jaegermeisterpfad, 66538 Neunkirchen",
 		"fax": "06821-290640",
 		"full_time_school": false,
 		"id": "SL-3114-117011",
 		"lat": 49.356224,
 		"lon": 7.186056,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "117011",
 		"phone": "06821-2906 0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Hardenbergstraße 2, 66538 Neunkirchen",
+		"address": "Hardenbergstrasse 2, 66538 Neunkirchen",
 		"fax": "06821-860244",
 		"full_time_school": false,
 		"id": "SL-3114-118012",
 		"lat": 49.340383,
 		"lon": 7.192608,
-		"name": "Private Förderschule soziale Entwicklung",
+		"name": "Private Foerderschule soziale Entwicklung",
 		"official_id": "118012",
 		"phone": "06821-860247",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Jägermeisterpfad, 66538 Neunkirchen",
+		"address": "Jaegermeisterpfad, 66538 Neunkirchen",
 		"fax": "06821-290543",
 		"full_time_school": false,
 		"id": "SL-3114-120011",
 		"lat": 49.356224,
 		"lon": 7.186056,
-		"name": "Förderschule geistige Entwicklung",
+		"name": "Foerderschule geistige Entwicklung",
 		"official_id": "120011",
 		"phone": "06821-29050",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2540,113 +2540,113 @@
 		"id": "SL-3115-220012",
 		"lat": 49.402037,
 		"lon": 7.155663,
-		"name": "Private Förderschule geistige Entwicklung",
+		"name": "Private Foerderschule geistige Entwicklung",
 		"official_id": "220012",
 		"phone": "06824-91107",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Luisenstraße 4, 66763 Dillingen",
+		"address": "Luisenstrasse 4, 66763 Dillingen",
 		"fax": "06831-767177",
 		"full_time_school": false,
 		"id": "SL-4111-220012",
 		"lat": 49.348896,
 		"lon": 6.714917,
-		"name": "Schule am Ökosee AWO Förderschule geistige Entwicklung",
+		"name": "Schule am oekosee AWO Foerderschule geistige Entwicklung",
 		"official_id": "220012",
 		"phone": "06831/767171",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "An der Ziegelhütte 1, 66822 Lebach",
+		"address": "An der Ziegelhuette 1, 66822 Lebach",
 		"fax": "06881-53060",
 		"full_time_school": false,
 		"id": "SL-4112-217011",
 		"lat": 49.415156,
 		"lon": 6.904996,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "217011",
 		"phone": "06881-3209",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Dillinger Straße 69, 66822 Lebach",
+		"address": "Dillinger Strasse 69, 66822 Lebach",
 		"fax": "06881-928309",
 		"full_time_school": false,
 		"id": "SL-4112-223011",
 		"lat": 49.404611,
 		"lon": 6.891409,
-		"name": "Förderschule für Gehörlose und Schwerhörige",
+		"name": "Foerderschule fuer Gehoerlose und Schwerhoerige",
 		"official_id": "223011",
 		"phone": "06881-928311",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Dillinger Straße 69, 66822 Lebach",
+		"address": "Dillinger Strasse 69, 66822 Lebach",
 		"fax": "06881-928400",
 		"full_time_school": false,
 		"id": "SL-4112-226011",
 		"lat": 49.404611,
 		"lon": 6.891409,
-		"name": "Förderschule für Blinde und Sehbehinderte",
+		"name": "Foerderschule fuer Blinde und Sehbehinderte",
 		"official_id": "226011",
 		"phone": "06881-928321",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Zeughausstraße 32, 66740 Saarlouis",
+		"address": "Zeughausstrasse 32, 66740 Saarlouis",
 		"fax": "06831-460035",
 		"full_time_school": false,
 		"id": "SL-4115-117011",
 		"lat": 49.317758,
 		"lon": 6.756091,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "117011",
 		"phone": "06831-3843",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Adolf-Hetzler-Straße 3, 66740 Saarlouis",
+		"address": "Adolf-Hetzler-Strasse 3, 66740 Saarlouis",
 		"fax": "06831-964794",
 		"full_time_school": false,
 		"id": "SL-4115-118011",
 		"lat": 49.314572,
 		"lon": 6.754432,
-		"name": "Förderschule soziale Entwicklung",
+		"name": "Foerderschule soziale Entwicklung",
 		"official_id": "118011",
 		"phone": "06831-61277",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Bahnhofstraße 269, 66793 Saarwellingen",
+		"address": "Bahnhofstrasse 269, 66793 Saarwellingen",
 		"fax": "06838 983901",
 		"full_time_school": false,
 		"id": "SL-4116-120011",
 		"lat": 49.368324,
 		"lon": 6.793672,
-		"name": "Förderschule geistige Entwicklung",
+		"name": "Foerderschule geistige Entwicklung",
 		"official_id": "120011",
 		"phone": "06838-983900",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Alleestraße 20, 66773 Schwalbach",
+		"address": "Alleestrasse 20, 66773 Schwalbach",
 		"fax": "06834-953901",
 		"full_time_school": false,
 		"id": "SL-4118-117011",
@@ -2655,8 +2655,8 @@
 		"name": "Anne-Frank-Schule Saarlouis Dependance Schwalbach",
 		"official_id": "117011",
 		"phone": "06834-953900",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2666,11 +2666,11 @@
 		"id": "SL-5112-217011",
 		"lat": 49.236211,
 		"lon": 7.255007,
-		"name": "Förderschule Lernen - Franz-Carl-Schule",
+		"name": "Foerderschule Lernen - Franz-Carl-Schule",
 		"official_id": "217011",
 		"phone": "06842-924328",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2680,11 +2680,11 @@
 		"id": "SL-5113-220012",
 		"lat": 49.157038,
 		"lon": 7.228198,
-		"name": "Anna Betzner Schule  Förderschule G in freier Trägerschaft",
+		"name": "Anna Betzner Schule  Foerderschule G in freier Traegerschaft",
 		"official_id": "220012",
 		"phone": "06843/809-0",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2694,53 +2694,53 @@
 		"id": "SL-5114-000001",
 		"lat": 49.306691,
 		"lon": 7.338854,
-		"name": "Der Landesbeauftragte für den Krankenhaus- und Hausunterricht",
+		"name": "Der Landesbeauftragte fuer den Krankenhaus- und Hausunterricht",
 		"official_id": "000001",
 		"phone": "06841-170092",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Spandauer Straße, 66424 Homburg",
+		"address": "Spandauer Strasse, 66424 Homburg",
 		"fax": "06841/9729430",
 		"full_time_school": false,
 		"id": "SL-5114-117011",
 		"lat": 49.3406349,
 		"lon": 7.3283072,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "117011",
 		"phone": "06841-972940",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Spandauer Straße, 66424 Homburg",
+		"address": "Spandauer Strasse, 66424 Homburg",
 		"fax": null,
 		"full_time_school": false,
 		"id": "SL-5114-120011",
 		"lat": 49.3406349,
 		"lon": 7.3283072,
-		"name": "Förderschule geistige Entwicklung",
+		"name": "Foerderschule geistige Entwicklung",
 		"official_id": "120011",
 		"phone": "06841-972940",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Universitätskliniken 84, 66424 Homburg",
+		"address": "Universitaetskliniken 84, 66424 Homburg",
 		"fax": "06841-1627514",
 		"full_time_school": false,
 		"id": "SL-5114-121011",
 		"lat": 49.303134,
 		"lon": 7.340201,
-		"name": "Förderschule körperliche und motorische Entwicklung",
+		"name": "Foerderschule koerperliche und motorische Entwicklung",
 		"official_id": "121011",
 		"phone": "06841-1627400",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2750,11 +2750,11 @@
 		"id": "SL-5117-217011",
 		"lat": 49.270124,
 		"lon": 7.101926,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "217011",
 		"phone": "06894-9989920",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
@@ -2764,43 +2764,43 @@
 		"id": "SL-6113-220011",
 		"lat": 49.495608,
 		"lon": 7.163946,
-		"name": "Förderschule geistige Entwicklung",
+		"name": "Foerderschule geistige Entwicklung",
 		"official_id": "220011",
 		"phone": "06851-3160",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Schwimmbadstraße 39, 66649 Oberthal",
+		"address": "Schwimmbadstrasse 39, 66649 Oberthal",
 		"fax": "06854-7230",
 		"full_time_school": false,
 		"id": "SL-6116-217011",
 		"lat": 49.509924,
 		"lon": 7.078162,
-		"name": "Förderschule Lernen",
+		"name": "Foerderschule Lernen",
 		"official_id": "217011",
 		"phone": "06854-7314",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Pestalozzistraße 7, 66606 St. Wendel",
+		"address": "Pestalozzistrasse 7, 66606 St. Wendel",
 		"fax": "06851-806370",
 		"full_time_school": false,
 		"id": "SL-6117-119011",
 		"lat": 49.472327,
 		"lon": 7.158928,
-		"name": "Förderschule soziale Entwicklung - Wingert-Schule",
+		"name": "Foerderschule soziale Entwicklung - Wingert-Schule",
 		"official_id": "119011",
 		"phone": "06851-6870",
-		"school_type": "Förderschule",
-		"school_type_entity": "Förderschule",
+		"school_type": "Foerderschule",
+		"school_type_entity": "Foerderschule",
 		"state": "SL"
 	},
 	{
-		"address": "Sachsenweg 3, 66121 Saarbrücken",
+		"address": "Sachsenweg 3, 66121 Saarbruecken",
 		"fax": "0681-6683530",
 		"full_time_school": false,
 		"id": "SL-1100-307042",
@@ -2814,7 +2814,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Prälat-Schütz-Straße 15, 66540 Neunkirchen-Wiebelskirchen",
+		"address": "Praelat-Schuetz-Strasse 15, 66540 Neunkirchen-Wiebelskirchen",
 		"fax": "06821-950444",
 		"full_time_school": true,
 		"id": "SL-3114-108012",
@@ -2828,7 +2828,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Auf der Meß 16, 66386 St. Ingbert",
+		"address": "Auf der Mess 16, 66386 St. Ingbert",
 		"fax": "06894-3287",
 		"full_time_school": true,
 		"id": "SL-5117-207022",
@@ -2842,7 +2842,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Sachsenweg 8, 66121 Saarbrücken",
+		"address": "Sachsenweg 8, 66121 Saarbruecken",
 		"fax": "0681-61598",
 		"full_time_school": false,
 		"id": "SL-1100-350011",
@@ -2856,7 +2856,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hauptstraße 53, 66127 Saarbrücken",
+		"address": "Hauptstrasse 53, 66127 Saarbruecken",
 		"fax": "06898-935899",
 		"full_time_school": true,
 		"id": "SL-1100-350041",
@@ -2870,13 +2870,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Saargemünder Straße 157, 66130 Saarbrücken",
+		"address": "Saargemuender Strasse 157, 66130 Saarbruecken",
 		"fax": "0681-8739990",
 		"full_time_school": true,
 		"id": "SL-1100-450021",
 		"lat": 49.200915,
 		"lon": 7.027992,
-		"name": "Erweiterte Realschule Güdingen",
+		"name": "Erweiterte Realschule Guedingen",
 		"official_id": "450021",
 		"phone": "0681/8739715",
 		"school_type": "erweiterte Realschule",
@@ -2884,7 +2884,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 30, 66130 Saarbrücken-Fechingen",
+		"address": "Schulstrasse 30, 66130 Saarbruecken-Fechingen",
 		"fax": "06893 8010127",
 		"full_time_school": true,
 		"id": "SL-1100-450052",
@@ -2898,7 +2898,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schillerstraße 65, 66265 Heusweiler",
+		"address": "Schillerstrasse 65, 66265 Heusweiler",
 		"fax": "06806/6634",
 		"full_time_school": true,
 		"id": "SL-1513-250011",
@@ -2912,7 +2912,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Wintringer Straße 78, 66271 Kleinblittersdorf",
+		"address": "Wintringer Strasse 78, 66271 Kleinblittersdorf",
 		"fax": "06805-8427",
 		"full_time_school": true,
 		"id": "SL-1514-450011",
@@ -2926,13 +2926,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pickardstraße 33, 66346 Püttlingen",
+		"address": "Pickardstrasse 33, 66346 Puettlingen",
 		"fax": "06898-64431",
 		"full_time_school": false,
 		"id": "SL-1515-150011",
 		"lat": 49.287387,
 		"lon": 6.886432,
-		"name": "Erweiterte Realschule Püttlingen",
+		"name": "Erweiterte Realschule Puettlingen",
 		"official_id": "150011",
 		"phone": "06898/64421",
 		"school_type": "erweiterte Realschule",
@@ -2954,7 +2954,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Parkstraße 10, 66280 Sulzbach",
+		"address": "Parkstrasse 10, 66280 Sulzbach",
 		"fax": "06897/952095-29",
 		"full_time_school": true,
 		"id": "SL-1518-250011",
@@ -2968,13 +2968,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Heinestraße 70, 66333 Völklingen",
+		"address": "Heinestrasse 70, 66333 Voelklingen",
 		"fax": "06898/296911",
 		"full_time_school": true,
 		"id": "SL-1519-150011",
 		"lat": 49.257411,
 		"lon": 6.867823,
-		"name": "Erweiterte Realschule Am Sonnenhügel",
+		"name": "Erweiterte Realschule Am Sonnenhuegel",
 		"official_id": "150011",
 		"phone": "06898 9149730",
 		"school_type": "erweiterte Realschule",
@@ -2982,13 +2982,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Heinestraße 70, 66333 Völklingen",
+		"address": "Heinestrasse 70, 66333 Voelklingen",
 		"fax": "06898/296911",
 		"full_time_school": true,
 		"id": "SL-1519-150021",
 		"lat": 49.257411,
 		"lon": 6.867823,
-		"name": "Hermann-Neuberger-Schule Erweiterte Realschule Völklingen",
+		"name": "Hermann-Neuberger-Schule Erweiterte Realschule Voelklingen",
 		"official_id": "150021",
 		"phone": "06898 9149730",
 		"school_type": "erweiterte Realschule",
@@ -2996,7 +2996,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hindenburgstraße 19, 66701 Beckingen",
+		"address": "Hindenburgstrasse 19, 66701 Beckingen",
 		"fax": "06835/608199",
 		"full_time_school": true,
 		"id": "SL-2111-250011",
@@ -3010,7 +3010,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Von-Boch-Straße 75, 66663 Merzig",
+		"address": "Von-Boch-Strasse 75, 66663 Merzig",
 		"fax": "06861/7707729",
 		"full_time_school": true,
 		"id": "SL-2113-150011",
@@ -3024,7 +3024,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Gartenfeldstraße 23, 66687 Wadern",
+		"address": "Gartenfeldstrasse 23, 66687 Wadern",
 		"fax": "06871-9230230",
 		"full_time_school": true,
 		"id": "SL-2116-250011",
@@ -3052,7 +3052,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hellbergstraße 21, 66571 Eppelborn",
+		"address": "Hellbergstrasse 21, 66571 Eppelborn",
 		"fax": "06881-962129",
 		"full_time_school": false,
 		"id": "SL-3111-250011",
@@ -3086,7 +3086,7 @@
 		"id": "SL-3113-250011",
 		"lat": 49.362267,
 		"lon": 7.077866,
-		"name": "Erweiterte Realschule Merchweiler - Max von der Grün Schule",
+		"name": "Erweiterte Realschule Merchweiler - Max von der Gruen Schule",
 		"official_id": "250011",
 		"phone": "06825/42261",
 		"school_type": "erweiterte Realschule",
@@ -3094,7 +3094,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Lutherstraße 2, 66538 Neunkirchen",
+		"address": "Lutherstrasse 2, 66538 Neunkirchen",
 		"fax": "06821-9997130",
 		"full_time_school": true,
 		"id": "SL-3114-150011",
@@ -3108,7 +3108,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pestalozzistraße, 66539 Neunkirchen",
+		"address": "Pestalozzistrasse, 66539 Neunkirchen",
 		"fax": "06821/940940",
 		"full_time_school": true,
 		"id": "SL-3114-150021",
@@ -3122,7 +3122,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Seminarstraße 56, 66564 Ottweiler",
+		"address": "Seminarstrasse 56, 66564 Ottweiler",
 		"fax": "06824-4361",
 		"full_time_school": true,
 		"id": "SL-3115-250011",
@@ -3150,13 +3150,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Industriestraße 29, 66763 Dillingen",
+		"address": "Industriestrasse 29, 66763 Dillingen",
 		"fax": "06831-9869601",
 		"full_time_school": true,
 		"id": "SL-4111-250011",
 		"lat": 49.350422,
 		"lon": 6.716099,
-		"name": "Schule am Römerkastell Dillingen - Erweiterte Realschule",
+		"name": "Schule am Roemerkastell Dillingen - Erweiterte Realschule",
 		"official_id": "250011",
 		"phone": "06831/9869600",
 		"school_type": "erweiterte Realschule",
@@ -3164,7 +3164,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Mottener Straße 52, 66822 Lebach",
+		"address": "Mottener Strasse 52, 66822 Lebach",
 		"fax": "06881/3025",
 		"full_time_school": false,
 		"id": "SL-4112-250011",
@@ -3178,7 +3178,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Dillinger Straße 67, 66822 Lebach",
+		"address": "Dillinger Strasse 67, 66822 Lebach",
 		"fax": "06881-91324",
 		"full_time_school": true,
 		"id": "SL-4112-250012",
@@ -3192,7 +3192,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Josefstraße 11, 66809 Nalbach",
+		"address": "Josefstrasse 11, 66809 Nalbach",
 		"fax": "06838-983708",
 		"full_time_school": false,
 		"id": "SL-4113-250011",
@@ -3206,7 +3206,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Beckinger Straße 38, 66780 Rehlingen-Siersburg",
+		"address": "Beckinger Strasse 38, 66780 Rehlingen-Siersburg",
 		"fax": "06835 922414",
 		"full_time_school": true,
 		"id": "SL-4114-350011",
@@ -3234,7 +3234,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kreuzbergstraße 87, 66740 Saarlouis",
+		"address": "Kreuzbergstrasse 87, 66740 Saarlouis",
 		"fax": "06831-80057",
 		"full_time_school": false,
 		"id": "SL-4115-150021",
@@ -3262,7 +3262,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Wilhelm-Busch-Straße 11, 66839 Schmelz",
+		"address": "Wilhelm-Busch-Strasse 11, 66839 Schmelz",
 		"fax": "06887-887126",
 		"full_time_school": true,
 		"id": "SL-4117-250011",
@@ -3276,7 +3276,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Weiherstraße 24a, 66773 Schwalbach",
+		"address": "Weiherstrasse 24a, 66773 Schwalbach",
 		"fax": "06834-953954",
 		"full_time_school": true,
 		"id": "SL-4118-150011",
@@ -3290,13 +3290,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Comeniusstraße 22, 66802 Überherrn",
+		"address": "Comeniusstrasse 22, 66802 ueberherrn",
 		"fax": "06836-2031",
 		"full_time_school": false,
 		"id": "SL-4119-350011",
 		"lat": 49.23264,
 		"lon": 6.70581,
-		"name": "Erweiterte Realschule Überherrn",
+		"name": "Erweiterte Realschule ueberherrn",
 		"official_id": "350011",
 		"phone": "06836/2531",
 		"school_type": "erweiterte Realschule",
@@ -3304,7 +3304,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Bungertstraße 30, 66798 Wallerfangen",
+		"address": "Bungertstrasse 30, 66798 Wallerfangen",
 		"fax": "06831-964594",
 		"full_time_school": true,
 		"id": "SL-4121-350011",
@@ -3332,7 +3332,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Virchowstraße 7, 66424 Homburg",
+		"address": "Virchowstrasse 7, 66424 Homburg",
 		"fax": "06841-923326",
 		"full_time_school": false,
 		"id": "SL-5114-150011",
@@ -3346,7 +3346,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Cranachstraße 7, 66424 Homburg",
+		"address": "Cranachstrasse 7, 66424 Homburg",
 		"fax": "06841/9729321",
 		"full_time_school": true,
 		"id": "SL-5114-150021",
@@ -3360,7 +3360,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hauptstraße 75, 66459 Kirkel-Limbach",
+		"address": "Hauptstrasse 75, 66459 Kirkel-Limbach",
 		"fax": "06841-980429",
 		"full_time_school": true,
 		"id": "SL-5115-150011",
@@ -3374,7 +3374,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Vichter Straße 1, 66399 Mandelbachtal",
+		"address": "Vichter Strasse 1, 66399 Mandelbachtal",
 		"fax": "06803/390020",
 		"full_time_school": true,
 		"id": "SL-5116-250011",
@@ -3402,7 +3402,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Sportplatzstraße 3, 66386 St. Ingbert",
+		"address": "Sportplatzstrasse 3, 66386 St. Ingbert",
 		"fax": "06894/9989829",
 		"full_time_school": false,
 		"id": "SL-5117-250021",
@@ -3416,7 +3416,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 43, 66629 Freisen",
+		"address": "Schulstrasse 43, 66629 Freisen",
 		"fax": "06855/996902",
 		"full_time_school": false,
 		"id": "SL-6111-250011",
@@ -3430,7 +3430,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Willi-Graf-Straße 3, 66606 St. Wendel",
+		"address": "Willi-Graf-Strasse 3, 66606 St. Wendel",
 		"fax": "06851/931933",
 		"full_time_school": true,
 		"id": "SL-6117-150011",
@@ -3444,7 +3444,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Toni Lermen Straße  2, 66636 Tholey-Theley",
+		"address": "Toni Lermen Strasse  2, 66636 Tholey-Theley",
 		"fax": "06853/912850",
 		"full_time_school": false,
 		"id": "SL-6118-150011",
@@ -3458,7 +3458,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Stengelstraße 31, 66117 Saarbrücken",
+		"address": "Stengelstrasse 31, 66117 Saarbruecken",
 		"fax": "0681-92605-28",
 		"full_time_school": true,
 		"id": "SL-1100-010011",
@@ -3472,13 +3472,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Neugrabenweg 66-90, 66123 Saarbrücken",
+		"address": "Neugrabenweg 66-90, 66123 Saarbruecken",
 		"fax": "0681-9369840",
 		"full_time_school": false,
 		"id": "SL-1100-011011",
 		"lat": 49.24088,
 		"lon": 7.010493,
-		"name": "Gymnasium Am Rotenbühl",
+		"name": "Gymnasium Am Rotenbuehl",
 		"official_id": "011011",
 		"phone": "0681-936980",
 		"school_type": "Gymnasium",
@@ -3486,13 +3486,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Halbergstraße 112, 66121 Saarbrücken",
+		"address": "Halbergstrasse 112, 66121 Saarbruecken",
 		"fax": "0681-99681-40",
 		"full_time_school": true,
 		"id": "SL-1100-011021",
 		"lat": 49.230323,
 		"lon": 7.016476,
-		"name": "Deutsch-Französisches Gymnasium",
+		"name": "Deutsch-Franzoesisches Gymnasium",
 		"official_id": "011021",
 		"phone": "0681-99681-0",
 		"school_type": "Gymnasium",
@@ -3500,7 +3500,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Sachsenweg 3, 66121 Saarbrücken",
+		"address": "Sachsenweg 3, 66121 Saarbruecken",
 		"fax": "0681-66835-30",
 		"full_time_school": true,
 		"id": "SL-1100-011042",
@@ -3514,7 +3514,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Spichererbergstraße 15, 66119 Saarbrücken",
+		"address": "Spichererbergstrasse 15, 66119 Saarbruecken",
 		"fax": "0681-52084",
 		"full_time_school": true,
 		"id": "SL-1100-012011",
@@ -3528,7 +3528,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hohenzollernstraße 59 A, 66117 Saarbrücken",
+		"address": "Hohenzollernstrasse 59 A, 66117 Saarbruecken",
 		"fax": "0681-57033",
 		"full_time_school": true,
 		"id": "SL-1100-012032",
@@ -3542,7 +3542,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Landwehrplatz 3, 66111 Saarbrücken",
+		"address": "Landwehrplatz 3, 66111 Saarbruecken",
 		"fax": "0681/37981-11",
 		"full_time_school": true,
 		"id": "SL-1100-013011",
@@ -3556,7 +3556,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Rheinstraße 95, 66113 Saarbrücken",
+		"address": "Rheinstrasse 95, 66113 Saarbruecken",
 		"fax": "0681-754826",
 		"full_time_school": false,
 		"id": "SL-1100-030011",
@@ -3584,7 +3584,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Lortzingstraße 2, 66333 Völklingen",
+		"address": "Lortzingstrasse 2, 66333 Voelklingen",
 		"fax": "06898-502831",
 		"full_time_school": true,
 		"id": "SL-1519-011011",
@@ -3598,7 +3598,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hohenzollernstraße 28, 66333 Völklingen",
+		"address": "Hohenzollernstrasse 28, 66333 Voelklingen",
 		"fax": "06898-16594",
 		"full_time_school": true,
 		"id": "SL-1519-011021",
@@ -3612,7 +3612,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Warndtgymnasium 1, 66333 Völklingen",
+		"address": "Am Warndtgymnasium 1, 66333 Voelklingen",
 		"fax": "06898-7015",
 		"full_time_school": true,
 		"id": "SL-1519-011031",
@@ -3626,7 +3626,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Goethestraße 16 A, 66663 Merzig",
+		"address": "Goethestrasse 16 A, 66663 Merzig",
 		"fax": "06861-9399220",
 		"full_time_school": true,
 		"id": "SL-2113-011011",
@@ -3640,7 +3640,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Waldstraße 48, 66663 Merzig",
+		"address": "Waldstrasse 48, 66663 Merzig",
 		"fax": "06861-9396829",
 		"full_time_school": true,
 		"id": "SL-2113-011021",
@@ -3682,7 +3682,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Mädchenrealgymnasium, 66538 Neunkirchen",
+		"address": "Am Maedchenrealgymnasium, 66538 Neunkirchen",
 		"fax": "06821-909833",
 		"full_time_school": true,
 		"id": "SL-3114-012011",
@@ -3696,7 +3696,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Alb. Schweitzer-Straße 23, 66538 Neunkirchen/Saar",
+		"address": "Alb. Schweitzer-Strasse 23, 66538 Neunkirchen/Saar",
 		"fax": "06821/981535",
 		"full_time_school": true,
 		"id": "SL-3114-012021",
@@ -3710,7 +3710,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Seminarstraße 43, 66564 Ottweiler",
+		"address": "Seminarstrasse 43, 66564 Ottweiler",
 		"fax": "06824-930833",
 		"full_time_school": true,
 		"id": "SL-3115-012011",
@@ -3724,7 +3724,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Karcherstraße 2, 66763 Dillingen",
+		"address": "Karcherstrasse 2, 66763 Dillingen",
 		"fax": "06831-976089",
 		"full_time_school": true,
 		"id": "SL-4111-012011",
@@ -3738,7 +3738,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Wallerfangerstraße 25, 66763 Dillingen",
+		"address": "Wallerfangerstrasse 25, 66763 Dillingen",
 		"fax": "06831-7698322",
 		"full_time_school": false,
 		"id": "SL-4111-032011",
@@ -3752,7 +3752,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Straße der weißen Rose, 66822 Lebach",
+		"address": "Strasse der weissen Rose, 66822 Lebach",
 		"fax": "06881-53035",
 		"full_time_school": true,
 		"id": "SL-4112-011011",
@@ -3766,7 +3766,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Dillinger Straße 67, 66822 Lebach",
+		"address": "Dillinger Strasse 67, 66822 Lebach",
 		"fax": "06881-537030",
 		"full_time_school": false,
 		"id": "SL-4112-013011",
@@ -3780,7 +3780,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Holtzendorfferstraße 1, 66740 Saarlouis",
+		"address": "Holtzendorfferstrasse 1, 66740 Saarlouis",
 		"fax": "06831-121412",
 		"full_time_school": true,
 		"id": "SL-4115-010011",
@@ -3808,7 +3808,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pavillonstraße 24, 66740 Saarlouis",
+		"address": "Pavillonstrasse 24, 66740 Saarlouis",
 		"fax": "06831-945930",
 		"full_time_school": true,
 		"id": "SL-4115-013011",
@@ -3822,7 +3822,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schlossbergstraße 42, 66440 Blieskastel",
+		"address": "Schlossbergstrasse 42, 66440 Blieskastel",
 		"fax": "06842-923232",
 		"full_time_school": true,
 		"id": "SL-5112-011011",
@@ -3836,7 +3836,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kardinal Wendel Straße12, 66424 Homburg",
+		"address": "Kardinal Wendel Strasse12, 66424 Homburg",
 		"fax": "06841-61523",
 		"full_time_school": true,
 		"id": "SL-5114-010012",
@@ -3878,7 +3878,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Neue Messstraße 24, 66386 St. Ingbert",
+		"address": "Neue Messstrasse 24, 66386 St. Ingbert",
 		"fax": "06894-383839",
 		"full_time_school": true,
 		"id": "SL-5117-011022",
@@ -3906,7 +3906,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schorlemer Straße 28, 66606 St. Wendel",
+		"address": "Schorlemer Strasse 28, 66606 St. Wendel",
 		"fax": "06851-932233",
 		"full_time_school": true,
 		"id": "SL-6117-010011",
@@ -3920,7 +3920,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Missionshausstraße 50, 66606 St. Wendel",
+		"address": "Missionshausstrasse 50, 66606 St. Wendel",
 		"fax": "06851-805375",
 		"full_time_school": true,
 		"id": "SL-6117-010022",
@@ -3934,7 +3934,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Missionshausstraße 14, 66606 St. Wendel",
+		"address": "Missionshausstrasse 14, 66606 St. Wendel",
 		"fax": "06851-932333",
 		"full_time_school": true,
 		"id": "SL-6117-011011",
@@ -3948,13 +3948,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Ziegelstraße 17, 66113 Saarbrücken",
+		"address": "Ziegelstrasse 17, 66113 Saarbruecken",
 		"fax": "0681-47652",
 		"full_time_school": true,
 		"id": "SL-1100-005041",
 		"lat": 49.246059,
 		"lon": 6.985793,
-		"name": "Gesamtschule Saarbrücken-Ludwigspark",
+		"name": "Gesamtschule Saarbruecken-Ludwigspark",
 		"official_id": "005041",
 		"phone": "0681-9471970",
 		"school_type": "Gesamtschule",
@@ -3962,7 +3962,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Im Grühlingswald 19, 66299 Friedrichsthal",
+		"address": "Im Gruehlingswald 19, 66299 Friedrichsthal",
 		"fax": "06897-9699011",
 		"full_time_school": true,
 		"id": "SL-1100-005052",
@@ -3976,7 +3976,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "An der Mühlenschule 3, 66125 Saarbrücken",
+		"address": "An der Muehlenschule 3, 66125 Saarbruecken",
 		"fax": "06897-74069",
 		"full_time_school": true,
 		"id": "SL-1100-305031",
@@ -3990,13 +3990,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Weissenburger Straße 23, 66113 Saarbrücken",
+		"address": "Weissenburger Strasse 23, 66113 Saarbruecken",
 		"fax": "0681-73692",
 		"full_time_school": true,
 		"id": "SL-1100-405011",
 		"lat": 49.246661,
 		"lon": 6.95873,
-		"name": "Gesamtschule Saarbrücken-Rastbachtal",
+		"name": "Gesamtschule Saarbruecken-Rastbachtal",
 		"official_id": "405011",
 		"phone": "0681-971460",
 		"school_type": "Gesamtschule",
@@ -4004,7 +4004,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Hagen 30, 66117 Saarbrücken",
+		"address": "Am Hagen 30, 66117 Saarbruecken",
 		"fax": "0681-9262017",
 		"full_time_school": false,
 		"id": "SL-1100-405021",
@@ -4032,7 +4032,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hohlstraße 35, 66333 Völklingen-Ludweiler",
+		"address": "Hohlstrasse 35, 66333 Voelklingen-Ludweiler",
 		"fax": "06898-9458129",
 		"full_time_school": true,
 		"id": "SL-1519-105011",
@@ -4046,7 +4046,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Weiskirchener Straße 18, 66679 Losheim",
+		"address": "Weiskirchener Strasse 18, 66679 Losheim",
 		"fax": "06872-9219630",
 		"full_time_school": true,
 		"id": "SL-2112-205011",
@@ -4060,7 +4060,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Saarbrücker Straße, 66693 Mettlach-Orscholz",
+		"address": "Saarbruecker Strasse, 66693 Mettlach-Orscholz",
 		"fax": "06865 9111100",
 		"full_time_school": false,
 		"id": "SL-2114-105011",
@@ -4102,7 +4102,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Comeniusstraße, 66578 Schiffweiler",
+		"address": "Comeniusstrasse, 66578 Schiffweiler",
 		"fax": "06821-9648428",
 		"full_time_school": false,
 		"id": "SL-3116-205011",
@@ -4116,7 +4116,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Industriestraße 40, 66763 Dillingen",
+		"address": "Industriestrasse 40, 66763 Dillingen",
 		"fax": "06831-978630",
 		"full_time_school": false,
 		"id": "SL-4111-204011",
@@ -4186,7 +4186,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Trierer Straße 23, 66625 Nohfelden-Türkismühle",
+		"address": "Trierer Strasse 23, 66625 Nohfelden-Tuerkismuehle",
 		"fax": "06852-902511",
 		"full_time_school": true,
 		"id": "SL-6114-205011",
@@ -4200,7 +4200,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 11, 66126 Saarbrücken-Altenkessel",
+		"address": "Schulstrasse 11, 66126 Saarbruecken-Altenkessel",
 		"fax": "06898-9869749",
 		"full_time_school": false,
 		"id": "SL-1100-006012",
@@ -4214,13 +4214,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Neunkircher Straße 70, 66299 Friedrichsthal-Bildstock",
+		"address": "Neunkircher Strasse 70, 66299 Friedrichsthal-Bildstock",
 		"fax": "06897-843913",
 		"full_time_school": true,
 		"id": "SL-1511-006012",
 		"lat": 49.335082,
 		"lon": 7.104007,
-		"name": "Waldorfschule für Lern- und Erziehungshilfe",
+		"name": "Waldorfschule fuer Lern- und Erziehungshilfe",
 		"official_id": "006012",
 		"phone": "06897-840000",
 		"school_type": "freie Waldorfschule",
@@ -4228,7 +4228,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Parkstraße, 66450 Bexbach",
+		"address": "Parkstrasse, 66450 Bexbach",
 		"fax": "06826-4561",
 		"full_time_school": false,
 		"id": "SL-5111-006012",
@@ -4242,13 +4242,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schoosbergstraße 11, 66625 Nohfelden-Walhausen",
+		"address": "Schoosbergstrasse 11, 66625 Nohfelden-Walhausen",
 		"fax": "06852-802179",
 		"full_time_school": true,
 		"id": "SL-6114-006012",
 		"lat": 49.561412,
 		"lon": 7.124336,
-		"name": "Freie Waldorfschule Saar-Hunsrück",
+		"name": "Freie Waldorfschule Saar-Hunsrueck",
 		"official_id": "006012",
 		"phone": "06852-82599",
 		"school_type": "freie Waldorfschule",
@@ -4256,7 +4256,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Sachsenweg 8, 66121 Saarbrücken",
+		"address": "Sachsenweg 8, 66121 Saarbruecken",
 		"fax": "0681-61598",
 		"full_time_school": false,
 		"id": "SL-1100-354011",
@@ -4270,7 +4270,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Industriestraße 29, 66763 Dillingen",
+		"address": "Industriestrasse 29, 66763 Dillingen",
 		"fax": "06831-9869601",
 		"full_time_school": false,
 		"id": "SL-4111-254011",
@@ -4284,7 +4284,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Im Grühlingswald 19, 66299 Friedrichsthal",
+		"address": "Im Gruehlingswald 19, 66299 Friedrichsthal",
 		"fax": "06897-9699011",
 		"full_time_school": true,
 		"id": "SL-1100-6052",
@@ -4298,7 +4298,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Ziegelstraße 17, 66113 Saarbrücken",
+		"address": "Ziegelstrasse 17, 66113 Saarbruecken",
 		"fax": "0681-47652",
 		"full_time_school": true,
 		"id": "SL-1100-60011",
@@ -4312,7 +4312,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "An der Mühlenschule 3, 66125 Saarbrücken",
+		"address": "An der Muehlenschule 3, 66125 Saarbruecken",
 		"fax": "06897-74069",
 		"full_time_school": true,
 		"id": "SL-1100-60021",
@@ -4326,7 +4326,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Sachsenweg 8, 66121 Saarbrücken",
+		"address": "Sachsenweg 8, 66121 Saarbruecken",
 		"fax": "0681-61598",
 		"full_time_school": false,
 		"id": "SL-1100-60031",
@@ -4340,7 +4340,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hauptstraße 53, 66127 Saarbrücken",
+		"address": "Hauptstrasse 53, 66127 Saarbruecken",
 		"fax": "06898-935899",
 		"full_time_school": true,
 		"id": "SL-1100-60041",
@@ -4354,7 +4354,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Weissenburger Straße 23, 66113 Saarbrücken",
+		"address": "Weissenburger Strasse 23, 66113 Saarbruecken",
 		"fax": "0681-73692",
 		"full_time_school": true,
 		"id": "SL-1100-60051",
@@ -4368,7 +4368,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Hagen 30, 66117 Saarbrücken",
+		"address": "Am Hagen 30, 66117 Saarbruecken",
 		"fax": "0681-9262017",
 		"full_time_school": true,
 		"id": "SL-1100-60061",
@@ -4382,13 +4382,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Saargemünder Straße 157, 66130 Saarbrücken",
+		"address": "Saargemuender Strasse 157, 66130 Saarbruecken",
 		"fax": "0681-8739990",
 		"full_time_school": true,
 		"id": "SL-1100-60071",
 		"lat": 49.200915,
 		"lon": 7.027992,
-		"name": "Gemeinschaftsschule Güdingen",
+		"name": "Gemeinschaftsschule Guedingen",
 		"official_id": "60071",
 		"phone": "0681/8739715",
 		"school_type": "Gemeinschaftsschule",
@@ -4396,7 +4396,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schillerstraße 65, 66265 Heusweiler",
+		"address": "Schillerstrasse 65, 66265 Heusweiler",
 		"fax": "06806/6634",
 		"full_time_school": true,
 		"id": "SL-1513-260011",
@@ -4410,7 +4410,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Wintringer Straße 78, 66271 Kleinblittersdorf",
+		"address": "Wintringer Strasse 78, 66271 Kleinblittersdorf",
 		"fax": "06805-8427",
 		"full_time_school": true,
 		"id": "SL-1514-460011",
@@ -4424,13 +4424,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pickardstraße 33, 66346 Püttlingen",
+		"address": "Pickardstrasse 33, 66346 Puettlingen",
 		"fax": "06898-64431",
 		"full_time_school": false,
 		"id": "SL-1515-160011",
 		"lat": 49.287387,
 		"lon": 6.886432,
-		"name": "Gemeinschaftsschule Püttlingen",
+		"name": "Gemeinschaftsschule Puettlingen",
 		"official_id": "160011",
 		"phone": "06898/64421",
 		"school_type": "Gemeinschaftsschule",
@@ -4466,7 +4466,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Parkstraße 10, 66280 Sulzbach",
+		"address": "Parkstrasse 10, 66280 Sulzbach",
 		"fax": "06897/952095-29",
 		"full_time_school": true,
 		"id": "SL-1518-260011",
@@ -4480,7 +4480,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hohlstraße 35, 66333 Völklingen-Ludweiler",
+		"address": "Hohlstrasse 35, 66333 Voelklingen-Ludweiler",
 		"fax": "06898-9458129",
 		"full_time_school": true,
 		"id": "SL-1519-160011",
@@ -4494,13 +4494,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Heinestraße 70, 66333 Völklingen",
+		"address": "Heinestrasse 70, 66333 Voelklingen",
 		"fax": "06898/296911",
 		"full_time_school": true,
 		"id": "SL-1519-160021",
 		"lat": 49.257411,
 		"lon": 6.867823,
-		"name": "Gemeinschaftsschule Am Sonnenhügel",
+		"name": "Gemeinschaftsschule Am Sonnenhuegel",
 		"official_id": "160021",
 		"phone": "06898 9149730",
 		"school_type": "Gemeinschaftsschule",
@@ -4508,13 +4508,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Heinestraße 70, 66333 Völklingen",
+		"address": "Heinestrasse 70, 66333 Voelklingen",
 		"fax": "06898/296911",
 		"full_time_school": true,
 		"id": "SL-1519-160031",
 		"lat": 49.257411,
 		"lon": 6.867823,
-		"name": "Gemeinschaftsschule Hermann Neuberger Völklingen",
+		"name": "Gemeinschaftsschule Hermann Neuberger Voelklingen",
 		"official_id": "160031",
 		"phone": "06898 9149730",
 		"school_type": "Gemeinschaftsschule",
@@ -4522,7 +4522,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hindenburgstraße 19, 66701 Beckingen",
+		"address": "Hindenburgstrasse 19, 66701 Beckingen",
 		"fax": "06835/608199",
 		"full_time_school": true,
 		"id": "SL-2111-260011",
@@ -4536,7 +4536,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Weiskirchener Straße 18, 66679 Losheim",
+		"address": "Weiskirchener Strasse 18, 66679 Losheim",
 		"fax": "06872-9219630",
 		"full_time_school": true,
 		"id": "SL-2112-260011",
@@ -4550,7 +4550,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Von-Boch-Straße 75, 66663 Merzig",
+		"address": "Von-Boch-Strasse 75, 66663 Merzig",
 		"fax": "06861/7707729",
 		"full_time_school": true,
 		"id": "SL-2113-160011",
@@ -4564,7 +4564,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Saarbrücker Straße, 66693 Mettlach-Orscholz",
+		"address": "Saarbruecker Strasse, 66693 Mettlach-Orscholz",
 		"fax": "06865 9111100",
 		"full_time_school": true,
 		"id": "SL-2114-160011",
@@ -4578,7 +4578,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Gartenfeldstraße 23, 66687 Wadern",
+		"address": "Gartenfeldstrasse 23, 66687 Wadern",
 		"fax": "06871-9230230",
 		"full_time_school": true,
 		"id": "SL-2116-260011",
@@ -4606,7 +4606,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hellbergstraße 40A, 66571 Eppelborn",
+		"address": "Hellbergstrasse 40A, 66571 Eppelborn",
 		"fax": "06881-962129",
 		"full_time_school": false,
 		"id": "SL-3111-260011",
@@ -4640,7 +4640,7 @@
 		"id": "SL-3113-260011",
 		"lat": 49.362267,
 		"lon": 7.077866,
-		"name": "Gemeinschaftsschule Merchweiler - Max von der Grün Schule",
+		"name": "Gemeinschaftsschule Merchweiler - Max von der Gruen Schule",
 		"official_id": "260011",
 		"phone": "06825/42261",
 		"school_type": "Gemeinschaftsschule",
@@ -4662,7 +4662,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Prälat-Schütz-Straße 15, 66540 Neunkirchen-Wiebelskirchen",
+		"address": "Praelat-Schuetz-Strasse 15, 66540 Neunkirchen-Wiebelskirchen",
 		"fax": "06821-950444",
 		"full_time_school": true,
 		"id": "SL-3114-160012",
@@ -4676,7 +4676,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Lutherstraße 2, 66538 Neunkirchen",
+		"address": "Lutherstrasse 2, 66538 Neunkirchen",
 		"fax": "06821-9997130",
 		"full_time_school": true,
 		"id": "SL-3114-160021",
@@ -4690,7 +4690,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Pestalozzistraße, 66539 Neunkirchen",
+		"address": "Pestalozzistrasse, 66539 Neunkirchen",
 		"fax": "06821/940940",
 		"full_time_school": true,
 		"id": "SL-3114-160031",
@@ -4704,7 +4704,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Seminarstraße 56, 66564 Ottweiler",
+		"address": "Seminarstrasse 56, 66564 Ottweiler",
 		"fax": "06824-4361",
 		"full_time_school": true,
 		"id": "SL-3115-260011",
@@ -4718,7 +4718,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Comeniusstraße, 66578 Schiffweiler",
+		"address": "Comeniusstrasse, 66578 Schiffweiler",
 		"fax": "06821-9648428",
 		"full_time_school": true,
 		"id": "SL-3116-260011",
@@ -4746,7 +4746,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Industriestraße 40, 66763 Dillingen",
+		"address": "Industriestrasse 40, 66763 Dillingen",
 		"fax": "06831-978630",
 		"full_time_school": true,
 		"id": "SL-4111-260011",
@@ -4760,13 +4760,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Industriestraße 29, 66763 Dillingen",
+		"address": "Industriestrasse 29, 66763 Dillingen",
 		"fax": "06831-9869601",
 		"full_time_school": true,
 		"id": "SL-4111-260021",
 		"lat": 49.350422,
 		"lon": 6.716099,
-		"name": "Schule am Römerkastell Dillingen - Gemeinschaftsschule",
+		"name": "Schule am Roemerkastell Dillingen - Gemeinschaftsschule",
 		"official_id": "260021",
 		"phone": "06831-9869600",
 		"school_type": "Gemeinschaftsschule",
@@ -4774,7 +4774,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Dillinger Straße 67, 66822 Lebach",
+		"address": "Dillinger Strasse 67, 66822 Lebach",
 		"fax": "06881-91324",
 		"full_time_school": true,
 		"id": "SL-4112-160012",
@@ -4788,7 +4788,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Mottener Straße 52, 66822 Lebach",
+		"address": "Mottener Strasse 52, 66822 Lebach",
 		"fax": "06881/3025",
 		"full_time_school": false,
 		"id": "SL-4112-260011",
@@ -4802,7 +4802,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Josefstraße 11, 66809 Nalbach",
+		"address": "Josefstrasse 11, 66809 Nalbach",
 		"fax": "06838-983708",
 		"full_time_school": false,
 		"id": "SL-4113-260011",
@@ -4816,7 +4816,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Beckinger Straße 38, 66780 Rehlingen-Siersburg",
+		"address": "Beckinger Strasse 38, 66780 Rehlingen-Siersburg",
 		"fax": "06835 922414",
 		"full_time_school": true,
 		"id": "SL-4114-360011",
@@ -4844,7 +4844,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Kreuzbergstraße 87, 66740 Saarlouis",
+		"address": "Kreuzbergstrasse 87, 66740 Saarlouis",
 		"fax": "06831-80057",
 		"full_time_school": true,
 		"id": "SL-4115-160021",
@@ -4872,7 +4872,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Wilhelm-Busch-Straße 11, 66839 Schmelz",
+		"address": "Wilhelm-Busch-Strasse 11, 66839 Schmelz",
 		"fax": "06887-887126",
 		"full_time_school": true,
 		"id": "SL-4117-260011",
@@ -4886,7 +4886,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Weiherstraße 24a, 66773 Schwalbach",
+		"address": "Weiherstrasse 24a, 66773 Schwalbach",
 		"fax": "06834-953954",
 		"full_time_school": true,
 		"id": "SL-4118-160011",
@@ -4900,13 +4900,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Comeniusstraße 22, 66802 Überherrn",
+		"address": "Comeniusstrasse 22, 66802 ueberherrn",
 		"fax": "06836-2031",
 		"full_time_school": false,
 		"id": "SL-4119-360011",
 		"lat": 49.23264,
 		"lon": 6.70581,
-		"name": "Gemeinschaftsschule Überherrn",
+		"name": "Gemeinschaftsschule ueberherrn",
 		"official_id": "360011",
 		"phone": "06836/2531",
 		"school_type": "Gemeinschaftsschule",
@@ -4928,7 +4928,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Bungertstraße 30, 66798 Wallerfangen",
+		"address": "Bungertstrasse 30, 66798 Wallerfangen",
 		"fax": "06831-964594",
 		"full_time_school": true,
 		"id": "SL-4121-360011",
@@ -4984,7 +4984,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Virchowstraße 7, 66424 Homburg",
+		"address": "Virchowstrasse 7, 66424 Homburg",
 		"fax": "06841-923326",
 		"full_time_school": true,
 		"id": "SL-5114-160011",
@@ -4998,7 +4998,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Cranachstraße 7, 66424 Homburg",
+		"address": "Cranachstrasse 7, 66424 Homburg",
 		"fax": "06841/9729321",
 		"full_time_school": true,
 		"id": "SL-5114-160021",
@@ -5012,7 +5012,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Hauptstraße 75, 66459 Kirkel-Limbach",
+		"address": "Hauptstrasse 75, 66459 Kirkel-Limbach",
 		"fax": "06841-980429",
 		"full_time_school": true,
 		"id": "SL-5115-160011",
@@ -5026,7 +5026,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Vichter Straße 1, 66399 Mandelbachtal",
+		"address": "Vichter Strasse 1, 66399 Mandelbachtal",
 		"fax": "06803/390020",
 		"full_time_school": true,
 		"id": "SL-5116-260011",
@@ -5054,7 +5054,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Sportplatzstraße 3, 66386 St. Ingbert",
+		"address": "Sportplatzstrasse 3, 66386 St. Ingbert",
 		"fax": "06894/9989829",
 		"full_time_school": true,
 		"id": "SL-5117-260021",
@@ -5068,7 +5068,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Schulstraße 43, 66629 Freisen",
+		"address": "Schulstrasse 43, 66629 Freisen",
 		"fax": "06855/996902",
 		"full_time_school": false,
 		"id": "SL-6111-260011",
@@ -5096,7 +5096,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Trierer Straße 23, 66625 Nohfelden-Türkismühle",
+		"address": "Trierer Strasse 23, 66625 Nohfelden-Tuerkismuehle",
 		"fax": "06852-902511",
 		"full_time_school": true,
 		"id": "SL-6114-260011",
@@ -5110,7 +5110,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Willi-Graf-Straße 3, 66606 St. Wendel",
+		"address": "Willi-Graf-Strasse 3, 66606 St. Wendel",
 		"fax": "06851/931933",
 		"full_time_school": true,
 		"id": "SL-6117-160011",
@@ -5124,7 +5124,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Toni Lermen Straße 2, 66636 Tholey-Theley",
+		"address": "Toni Lermen Strasse 2, 66636 Tholey-Theley",
 		"fax": "06853/912850",
 		"full_time_school": false,
 		"id": "SL-6118-160011",
@@ -5138,13 +5138,13 @@
 		"state": "SL"
 	},
 	{
-		"address": "Am Landwehrplatz 3, 66111 Saarbrücken",
+		"address": "Am Landwehrplatz 3, 66111 Saarbruecken",
 		"fax": null,
 		"full_time_school": false,
 		"id": "SL-1100-015011",
 		"lat": 49.233761,
 		"lon": 7.001224,
-		"name": "Abendgymnasium Saarbrücken",
+		"name": "Abendgymnasium Saarbruecken",
 		"official_id": "015011",
 		"phone": "0681-3798118",
 		"school_type": "Abendgymnasium-Saarland-Kolleg",
@@ -5152,7 +5152,7 @@
 		"state": "SL"
 	},
 	{
-		"address": "Rheinstraße 95, 66113 Saarbrücken",
+		"address": "Rheinstrasse 95, 66113 Saarbruecken",
 		"fax": "0681-754826",
 		"full_time_school": false,
 		"id": "SL-1100-016011",

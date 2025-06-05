@@ -13,7 +13,7 @@ import org.json.simple.parser.ParseException;
 
 public class JSON_Schools {
 
-	public String JSON_FILE = "../School-Chat/src/main/resources/bayern.json";
+	public String JSON_FILE = "../School-Chat/src/main/resources/all_shools_list/bayern.json";
 
 	private List<JSONObject> schoolObjects = new ArrayList<>();
 
@@ -24,6 +24,7 @@ public class JSON_Schools {
 	public JSON_Schools() {
 		// this.JSON_FILE = "../School-Chat/src/main/resources/bayern.json";
 		this.JSON_FILE = this.JSON_FILE;
+		
 	}
 
 	public List<JSONObject> JSON_Schools() {
@@ -53,6 +54,13 @@ public class JSON_Schools {
 		return schoolObjects;
 	}
 
+	public List<JSONObject> getJSON_List() {
+		//System.out.println("List: " + this.JSON_Schools());
+		return this.JSON_Schools();
+	}
+
+
+
 	public String getJSON_FILE() {
 		return this.JSON_FILE;
 	}
@@ -62,11 +70,14 @@ public class JSON_Schools {
 	// }
 
 	public void setJSON_FILE(String region) {
-		this.JSON_FILE = "../School-Chat/src/main/resources/" + region + ".json";
+		this.JSON_FILE = "../School-Chat/src/main/resources/all_shools_list/" + region + ".json";
+		System.out.println("JSON_FILE: " + this.JSON_FILE);
 	}
 
 	public void setJSON_FILEValue(String JSON_FILE) {
 		this.JSON_FILE = JSON_FILE;
 	}
 
+
+	
 }

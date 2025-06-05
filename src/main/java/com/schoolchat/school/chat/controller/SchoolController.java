@@ -43,14 +43,14 @@ public class SchoolController extends HttpServlet {
 			selectedRegionName = "bayern";
 			
 		}
-		JSON_Schools jsonSchools = new JSON_Schools(selectedRegionName);
+		
 
 		SchoolSearch schoolSearch = new SchoolSearch();
-		System.out.println("region: " + selectedRegionName);
-		System.out.println("selectedRegionName: " + jsonSchools.getJSON_FILE());
+		//System.out.println("region: " + selectedRegionName);
+		//System.out.println("selectedRegionName: " + jsonSchools.getJSON_FILE());
 
-		session.setAttribute("jsonSchools", jsonSchools.getJSON_FILE());
-		model.addAttribute("JSON_file", jsonSchools);
+		session.setAttribute("jsonSchools", selectedRegionName);
+		//model.addAttribute("JSON_file", jsonSchools);
 
 		model.addAttribute("searchSchoolRequest", new SchoolModel());
 
@@ -62,10 +62,17 @@ public class SchoolController extends HttpServlet {
 			HttpServletRequest request, HttpServletResponse response) {
 
 		HttpSession session = request.getSession();
+		if( session.getAttribute("jsonSchools") == null) {
+			session.setAttribute("jsonSchools", "bayern");
+
+		}
 		System.out.println("Search School Work");
+		
 		System.out.println("jsonRegionValue: " + session.getAttribute("jsonSchools"));
-		// TODO fix this code
-		SchoolSearch schoolSearch = new SchoolSearch((String) session.getAttribute("jsonSchools"));
+		String jsonRegionValue = (String) session.getAttribute("jsonSchools");
+		JSON_Schools jsonSchools = new JSON_Schools(jsonRegionValue);
+		
+		SchoolSearch schoolSearch = new SchoolSearch(jsonSchools.getJSON_List());
 		// SchoolSearch schoolSearch = new SchoolSearch();
 
 		// Видає всі школи як обєкт з даними
@@ -73,7 +80,7 @@ public class SchoolController extends HttpServlet {
 		List<SchoolModel> schools = schoolSearch.getAllSchoolsByNameObjeckt(schoolModel.getName());
 
 		model.addAttribute("schools", schools);
-
+		//System.out.println("Search School: " + schools);
 		return "SearchSchool/searchSchoolSite";
 		
 	}
