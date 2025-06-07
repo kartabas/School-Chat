@@ -6,7 +6,7 @@
 		"id": "ST-0",
 		"lat": 51.614023,
 		"lon": 12.488334,
-		"name": "\"Grundschule am Schlosspark\" Roesa",
+		"name": "Grundschule am Schlosspark Roesa",
 		"phone": "034208/72142",
 		"state": "ST"
 	},
@@ -61,7 +61,7 @@
 		"id": "ST-5",
 		"lat": 52.138141,
 		"lon": 11.636805,
-		"name": "Berufsbildende Schulen \"Otto von Guericke\"",
+		"name": "Berufsbildende Schulen Otto von Guericke",
 		"phone": "0391/532150",
 		"state": "ST"
 	},
@@ -72,7 +72,7 @@
 		"id": "ST-6",
 		"lat": 52.108682,
 		"lon": 11.604539,
-		"name": "Berufsbildende Schulen \"Hermann Beims\"",
+		"name": "Berufsbildende Schulen Hermann Beims",
 		"phone": "0391/5414666",
 		"state": "ST"
 	},
@@ -83,7 +83,7 @@
 		"id": "ST-7",
 		"lat": 51.48065,
 		"lon": 11.914071,
-		"name": "Berufsbildende Schulen \"Gutjahr\" Halle (Saale)",
+		"name": "Berufsbildende Schulen Gutjahr Halle (Saale)",
 		"phone": "0345/683040",
 		"state": "ST"
 	},
@@ -94,7 +94,7 @@
 		"id": "ST-8",
 		"lat": 51.89583,
 		"lon": 11.04667,
-		"name": "Berufsbildende Schulen \"Geschwister Scholl\"",
+		"name": "Berufsbildende Schulen Geschwister Scholl",
 		"phone": "03941/5732916",
 		"state": "ST"
 	},
@@ -105,7 +105,7 @@
 		"id": "ST-9",
 		"lat": 52.13977,
 		"lon": 11.611883,
-		"name": "Berufsbildende Schulen \"Eike von Repgow\"",
+		"name": "Berufsbildende Schulen Eike von Repgow",
 		"phone": "0391/5069220",
 		"state": "ST"
 	},
@@ -116,7 +116,7 @@
 		"id": "ST-10",
 		"lat": 52.060399,
 		"lon": 11.678537,
-		"name": "Berufsbildende Schulen \"Dr. Otto Schlein\"",
+		"name": "Berufsbildende Schulen Dr. Otto Schlein",
 		"phone": "0391/406960",
 		"state": "ST"
 	},
@@ -127,7 +127,7 @@
 		"id": "ST-11",
 		"lat": 52.268158,
 		"lon": 11.848704,
-		"name": "Berufsbildende Schulen \"Conrad Tack\"",
+		"name": "Berufsbildende Schulen Conrad Tack",
 		"phone": "03921/97660",
 		"state": "ST"
 	},
@@ -831,7 +831,7 @@
 		"id": "ST-75",
 		"lat": 51.452961,
 		"lon": 11.804784,
-		"name": "Sekundarschule \"Wuerdetal\"",
+		"name": "Sekundarschule Wuerdetal",
 		"phone": "034601/22424",
 		"state": "ST"
 	},
@@ -842,7 +842,7 @@
 		"id": "ST-76",
 		"lat": 51.897574,
 		"lon": 11.055775,
-		"name": "Sekundarschule \"Walter Gemm\"",
+		"name": "Sekundarschule Walter Gemm",
 		"phone": "03941/24584",
 		"state": "ST"
 	},
@@ -853,7 +853,7 @@
 		"id": "ST-77",
 		"lat": 51.744626,
 		"lon": 11.979622,
-		"name": "Sekundarschule \"Voelkerfreundschaft\"",
+		"name": "Sekundarschule Voelkerfreundschaft",
 		"phone": "03496/212235",
 		"state": "ST"
 	},
@@ -864,7 +864,7 @@
 		"id": "ST-78",
 		"lat": 51.287055,
 		"lon": 11.892326,
-		"name": "Sekundarschule \"Unteres Geiseltal\"",
+		"name": "Sekundarschule Unteres Geiseltal",
 		"phone": "034633/22609",
 		"state": "ST"
 	},
@@ -875,7 +875,7 @@
 		"id": "ST-79",
 		"lat": 52.092595,
 		"lon": 11.112107,
-		"name": "Sekundarschule \"Thomas Muentzer\"",
+		"name": "Sekundarschule Thomas Muentzer",
 		"phone": "039404/277",
 		"state": "ST"
 	},
@@ -886,7 +886,7 @@
 		"id": "ST-80",
 		"lat": 52.155427,
 		"lon": 11.631775,
-		"name": "Sekundarschule \"Thomas Muentzer\"",
+		"name": "Sekundarschule Thomas Muentzer",
 		"phone": "0391/2524241",
 		"state": "ST"
 	},
@@ -897,7 +897,7 @@
 		"id": "ST-81",
 		"lat": 51.478381,
 		"lon": 11.301733,
-		"name": "Sekundarschule \"Thomas Muentzer\"",
+		"name": "Sekundarschule Thomas Muentzer",
 		"phone": "03464/573047",
 		"state": "ST"
 	},
@@ -908,7 +908,7 @@
 		"id": "ST-82",
 		"lat": 51.407325,
 		"lon": 11.380689,
-		"name": "Sekundarschule \"Thomas Muentzer\"",
+		"name": "Sekundarschule Thomas Muentzer",
 		"phone": "034652/375",
 		"state": "ST"
 	},
@@ -919,7 +919,7 @@
 		"id": "ST-83",
 		"lat": 51.835021,
 		"lon": 10.781745,
-		"name": "Sekundarschule \"Thomas Muentzer\"",
+		"name": "Sekundarschule Thomas Muentzer",
 		"phone": "03943/632164",
 		"state": "ST"
 	},
@@ -930,7 +930,7 @@
 		"id": "ST-84",
 		"lat": 51.979605,
 		"lon": 10.599214,
-		"name": "Sekundarschule \"Thomas Mann\" Stadt Osterwieck",
+		"name": "Sekundarschule Thomas Mann Stadt Osterwieck",
 		"phone": "039422/60827",
 		"state": "ST"
 	},
@@ -941,7 +941,7 @@
 		"id": "ST-85",
 		"lat": 52.880407,
 		"lon": 11.485691,
-		"name": "Sekundarschule \"Theodor Fontane\"",
+		"name": "Sekundarschule Theodor Fontane",
 		"phone": "039384/92130",
 		"state": "ST"
 	},
@@ -952,7 +952,7 @@
 		"id": "ST-86",
 		"lat": 51.390288,
 		"lon": 11.980963,
-		"name": "Sekundarschule \"Saale-Elster-Auen\"",
+		"name": "Sekundarschule Saale-Elster-Auen",
 		"phone": "03461/723838",
 		"state": "ST"
 	},
@@ -963,7 +963,7 @@
 		"id": "ST-87",
 		"lat": 51.869394,
 		"lon": 12.648024,
-		"name": "Sekundarschule \"Rosa Luxemburg\"",
+		"name": "Sekundarschule Rosa Luxemburg",
 		"phone": "03491/403455",
 		"state": "ST"
 	},
@@ -974,7 +974,7 @@
 		"id": "ST-88",
 		"lat": 51.375777,
 		"lon": 11.614518,
-		"name": "Sekundarschule \"Quer - Bunt\"",
+		"name": "Sekundarschule Quer - Bunt",
 		"phone": "034771/28698",
 		"state": "ST"
 	},
@@ -985,7 +985,7 @@
 		"id": "ST-89",
 		"lat": 52.026041,
 		"lon": 11.232335,
-		"name": "Sekundarschule \"Puschkin\"",
+		"name": "Sekundarschule Puschkin",
 		"phone": "03949/2101",
 		"state": "ST"
 	},
@@ -996,7 +996,7 @@
 		"id": "ST-90",
 		"lat": 51.428814,
 		"lon": 12.119916,
-		"name": "Sekundarschule \"Prof. Otto Schmeil\" Groebers",
+		"name": "Sekundarschule Prof. Otto Schmeil Groebers",
 		"phone": "034605/20354",
 		"state": "ST"
 	},
@@ -1007,7 +1007,7 @@
 		"id": "ST-91",
 		"lat": 52.021793,
 		"lon": 11.712691,
-		"name": "Sekundarschule \"Maxim Gorki\"",
+		"name": "Sekundarschule Maxim Gorki",
 		"phone": "03928/65446",
 		"state": "ST"
 	},
@@ -1018,7 +1018,7 @@
 		"id": "ST-92",
 		"lat": 51.599428,
 		"lon": 11.458301,
-		"name": "Sekundarschule \"Martin Luther\" Mansfeld",
+		"name": "Sekundarschule Martin Luther Mansfeld",
 		"phone": "034782/20454",
 		"state": "ST"
 	},
@@ -1029,7 +1029,7 @@
 		"id": "ST-93",
 		"lat": 52.285455,
 		"lon": 11.410195,
-		"name": "Sekundarschule \"Marie Gerike\"",
+		"name": "Sekundarschule Marie Gerike",
 		"phone": "03904/2308",
 		"state": "ST"
 	},
@@ -1040,7 +1040,7 @@
 		"id": "ST-94",
 		"lat": 51.728504,
 		"lon": 11.345336,
-		"name": "Sekundarschule \"Ludwig Gleim\"",
+		"name": "Sekundarschule Ludwig Gleim",
 		"phone": "034743/93901",
 		"state": "ST"
 	},
@@ -1051,7 +1051,7 @@
 		"id": "ST-95",
 		"lat": 52.022532,
 		"lon": 11.705365,
-		"name": "Sekundarschule \"LebenLernen\" Schoenebeck",
+		"name": "Sekundarschule LebenLernen Schoenebeck",
 		"phone": "03928/702884",
 		"state": "ST"
 	},
@@ -1062,7 +1062,7 @@
 		"id": "ST-96",
 		"lat": 51.892595,
 		"lon": 11.450535,
-		"name": "Sekundarschule \"LebenLernen\" Schneidlingen",
+		"name": "Sekundarschule LebenLernen Schneidlingen",
 		"phone": "039267/64355",
 		"state": "ST"
 	},
@@ -1073,7 +1073,7 @@
 		"id": "ST-97",
 		"lat": 52.122622,
 		"lon": 11.603112,
-		"name": "Sekundarschule \"LebenLernen\" Magdeburg",
+		"name": "Sekundarschule LebenLernen Magdeburg",
 		"phone": "0391/7356738",
 		"state": "ST"
 	},
@@ -1084,7 +1084,7 @@
 		"id": "ST-98",
 		"lat": 52.598161,
 		"lon": 11.833928,
-		"name": "Sekundarschule \"Komarow\"",
+		"name": "Sekundarschule Komarow",
 		"phone": "03931/412054",
 		"state": "ST"
 	},
@@ -1095,7 +1095,7 @@
 		"id": "ST-99",
 		"lat": 52.52639,
 		"lon": 11.3925,
-		"name": "Sekundarschule \"Karl Marx\"",
+		"name": "Sekundarschule Karl Marx",
 		"phone": "03907/712410",
 		"state": "ST"
 	},
@@ -1106,7 +1106,7 @@
 		"id": "ST-100",
 		"lat": 52.783676,
 		"lon": 11.746558,
-		"name": "Sekundarschule \"Karl Marx\"",
+		"name": "Sekundarschule Karl Marx",
 		"phone": "03937/82412",
 		"state": "ST"
 	},
@@ -1117,7 +1117,7 @@
 		"id": "ST-101",
 		"lat": 52.115846,
 		"lon": 11.602602,
-		"name": "Sekundarschule \"Johann Wolfgang von Goethe\"",
+		"name": "Sekundarschule Johann Wolfgang von Goethe",
 		"phone": "0391/6224966",
 		"state": "ST"
 	},
@@ -1128,7 +1128,7 @@
 		"id": "ST-102",
 		"lat": 51.902098,
 		"lon": 11.768226,
-		"name": "Sekundarschule \"Johann Gottfried Herder\"",
+		"name": "Sekundarschule Johann Gottfried Herder",
 		"phone": "039291/41033",
 		"state": "ST"
 	},
@@ -1139,7 +1139,7 @@
 		"id": "ST-103",
 		"lat": 52.651233,
 		"lon": 11.386765,
-		"name": "Sekundarschule \"Johann Friedrich Danneil\"",
+		"name": "Sekundarschule Johann Friedrich Danneil",
 		"phone": "039080/2165",
 		"state": "ST"
 	},
@@ -1150,7 +1150,7 @@
 		"id": "ST-104",
 		"lat": 51.497947,
 		"lon": 11.964649,
-		"name": "Sekundarschule \"Johann Christian Reil\"",
+		"name": "Sekundarschule Johann Christian Reil",
 		"phone": "0345/5322005",
 		"state": "ST"
 	},
@@ -1161,7 +1161,7 @@
 		"id": "ST-105",
 		"lat": 52.539877,
 		"lon": 11.960996,
-		"name": "Sekundarschule \"Hinrich Brunsberg\"",
+		"name": "Sekundarschule Hinrich Brunsberg",
 		"phone": "039322/2970",
 		"state": "ST"
 	},
@@ -1172,7 +1172,7 @@
 		"id": "ST-106",
 		"lat": 51.862332,
 		"lon": 11.558987,
-		"name": "Sekundarschule \"Hermann Kasten\"",
+		"name": "Sekundarschule Hermann Kasten",
 		"phone": "03925/930399",
 		"state": "ST"
 	},
@@ -1183,7 +1183,7 @@
 		"id": "ST-107",
 		"lat": 51.481249,
 		"lon": 11.906035,
-		"name": "Sekundarschule \"Heinrich Heine\"",
+		"name": "Sekundarschule Heinrich Heine",
 		"phone": "0345/6875129",
 		"state": "ST"
 	},
@@ -1194,7 +1194,7 @@
 		"id": "ST-108",
 		"lat": 51.899409,
 		"lon": 12.60837,
-		"name": "Sekundarschule \"Heinrich Heine\"",
+		"name": "Sekundarschule Heinrich Heine",
 		"phone": "03491/667808",
 		"state": "ST"
 	},
@@ -1205,7 +1205,7 @@
 		"id": "ST-109",
 		"lat": 51.469183,
 		"lon": 11.300553,
-		"name": "Sekundarschule \"Heinrich Heine\"",
+		"name": "Sekundarschule Heinrich Heine",
 		"phone": "03464/521807",
 		"state": "ST"
 	},
@@ -1216,7 +1216,7 @@
 		"id": "ST-110",
 		"lat": 51.839111,
 		"lon": 11.769644,
-		"name": "Sekundarschule \"Happy Children\"",
+		"name": "Sekundarschule Happy Children",
 		"phone": "034721/41430",
 		"state": "ST"
 	},
@@ -1227,7 +1227,7 @@
 		"id": "ST-111",
 		"lat": 52.12545,
 		"lon": 11.6659,
-		"name": "Sekundarschule \"Hans Schellheimer\"",
+		"name": "Sekundarschule Hans Schellheimer",
 		"phone": "0391/857314",
 		"state": "ST"
 	},
@@ -1238,7 +1238,7 @@
 		"id": "ST-112",
 		"lat": 52.845069,
 		"lon": 11.169498,
-		"name": "Sekundarschule \"Gotthold Ephraim Lessing\"",
+		"name": "Sekundarschule Gotthold Ephraim Lessing",
 		"phone": "03901/305190",
 		"state": "ST"
 	},
@@ -1249,7 +1249,7 @@
 		"id": "ST-113",
 		"lat": 52.712998,
 		"lon": 11.863304,
-		"name": "Sekundarschule \"Geschwister Scholl\"",
+		"name": "Sekundarschule Geschwister Scholl",
 		"phone": "039388/28233",
 		"state": "ST"
 	},
@@ -1260,7 +1260,7 @@
 		"id": "ST-114",
 		"lat": 52.074846,
 		"lon": 11.820804,
-		"name": "Sekundarschule \"Fritz Heicke\"",
+		"name": "Sekundarschule Fritz Heicke",
 		"phone": "039200/51258",
 		"state": "ST"
 	},
@@ -1271,7 +1271,7 @@
 		"id": "ST-115",
 		"lat": 51.219982,
 		"lon": 11.768486,
-		"name": "Sekundarschule \"Friedrich Ludwig Jahn\"",
+		"name": "Sekundarschule Friedrich Ludwig Jahn",
 		"phone": "034464/28215",
 		"state": "ST"
 	},
@@ -1282,7 +1282,7 @@
 		"id": "ST-116",
 		"lat": 52.27521,
 		"lon": 11.853811,
-		"name": "Sekundarschule \"Friedrich Adolph Wilhelm Diesterweg\"",
+		"name": "Sekundarschule Friedrich Adolph Wilhelm Diesterweg",
 		"phone": "03921/2529",
 		"state": "ST"
 	},
@@ -1293,7 +1293,7 @@
 		"id": "ST-117",
 		"lat": 51.850658,
 		"lon": 12.214778,
-		"name": "Sekundarschule \"Friedensschule\"",
+		"name": "Sekundarschule Friedensschule",
 		"phone": "0340/616207",
 		"state": "ST"
 	},
@@ -1304,7 +1304,7 @@
 		"id": "ST-118",
 		"lat": 51.893281,
 		"lon": 11.068005,
-		"name": "Sekundarschule \"Freiherr Spiegel\"",
+		"name": "Sekundarschule Freiherr Spiegel",
 		"phone": "03941/601302",
 		"state": "ST"
 	},
@@ -1315,7 +1315,7 @@
 		"id": "ST-119",
 		"lat": 51.779159,
 		"lon": 11.149615,
-		"name": "Sekundarschule \"Ernst Bansi\"",
+		"name": "Sekundarschule Ernst Bansi",
 		"phone": "03946/51035",
 		"state": "ST"
 	},
@@ -1326,7 +1326,7 @@
 		"id": "ST-120",
 		"lat": 52.431386,
 		"lon": 10.990204,
-		"name": "Sekundarschule \"Droemlingschule\" Oebisfelde",
+		"name": "Sekundarschule Droemlingschule Oebisfelde",
 		"phone": "039002/40016",
 		"state": "ST"
 	},
@@ -1337,7 +1337,7 @@
 		"id": "ST-121",
 		"lat": 51.155514,
 		"lon": 12.106994,
-		"name": "Sekundarschule \"Drei Tuerme\" Hohenmoelsen",
+		"name": "Sekundarschule Drei Tuerme Hohenmoelsen",
 		"phone": "034441/22823",
 		"state": "ST"
 	},
@@ -1348,7 +1348,7 @@
 		"id": "ST-122",
 		"lat": 52.598918,
 		"lon": 11.853739,
-		"name": "Sekundarschule \"Comenius\"",
+		"name": "Sekundarschule Comenius",
 		"phone": "03931/25183100",
 		"state": "ST"
 	},
@@ -1359,7 +1359,7 @@
 		"id": "ST-123",
 		"lat": 52.270022,
 		"lon": 11.845,
-		"name": "Sekundarschule \"Carl von Clausewitz\"",
+		"name": "Sekundarschule Carl von Clausewitz",
 		"phone": "03921/2473",
 		"state": "ST"
 	},
@@ -1370,7 +1370,7 @@
 		"id": "ST-124",
 		"lat": 51.7939344,
 		"lon": 11.7404983,
-		"name": "Sekundarschule \"Campus Technicus\"",
+		"name": "Sekundarschule Campus Technicus",
 		"phone": "03471/623510",
 		"state": "ST"
 	},
@@ -1381,7 +1381,7 @@
 		"id": "ST-125",
 		"lat": 52.396778,
 		"lon": 11.300465,
-		"name": "Sekundarschule \"Brueder Grimm\"",
+		"name": "Sekundarschule Brueder Grimm",
 		"phone": "039051/317",
 		"state": "ST"
 	},
@@ -1392,7 +1392,7 @@
 		"id": "ST-126",
 		"lat": 51.769084,
 		"lon": 10.794061,
-		"name": "Sekundarschule \"Bodfeld\" Elbingerode",
+		"name": "Sekundarschule Bodfeld Elbingerode",
 		"phone": "039454/49155",
 		"state": "ST"
 	},
@@ -1403,7 +1403,7 @@
 		"id": "ST-127",
 		"lat": 51.358123,
 		"lon": 12.120556,
-		"name": "Sekundarschule \"Bertolt Brecht\"",
+		"name": "Sekundarschule Bertolt Brecht",
 		"phone": "034638/20252",
 		"state": "ST"
 	},
@@ -1414,7 +1414,7 @@
 		"id": "ST-128",
 		"lat": 52.090413,
 		"lon": 11.609468,
-		"name": "Sekundarschule \"August Wilhelm Francke\"",
+		"name": "Sekundarschule August Wilhelm Francke",
 		"phone": "0391/613102",
 		"state": "ST"
 	},
@@ -1425,7 +1425,7 @@
 		"id": "ST-129",
 		"lat": 51.478046,
 		"lon": 11.971147,
-		"name": "Sekundarschule \"August Hermann Francke\"",
+		"name": "Sekundarschule August Hermann Francke",
 		"phone": "0345/2026931",
 		"state": "ST"
 	},
@@ -1436,7 +1436,7 @@
 		"id": "ST-130",
 		"lat": 51.327345,
 		"lon": 12.02407,
-		"name": "Sekundarschule \"August Bebel\"",
+		"name": "Sekundarschule August Bebel",
 		"phone": "03461/813117",
 		"state": "ST"
 	},
@@ -1447,7 +1447,7 @@
 		"id": "ST-131",
 		"lat": 52.378631,
 		"lon": 11.978539,
-		"name": "Sekundarschule \"An der Elbe\" Parey",
+		"name": "Sekundarschule An der Elbe Parey",
 		"phone": "039349/51768",
 		"state": "ST"
 	},
@@ -1458,7 +1458,7 @@
 		"id": "ST-132",
 		"lat": 51.503045,
 		"lon": 11.739211,
-		"name": "Sekundarschule \"An der Weinstrasse\"",
+		"name": "Sekundarschule An der Weinstrasse",
 		"phone": "034601/22377",
 		"state": "ST"
 	},
@@ -1469,7 +1469,7 @@
 		"id": "ST-133",
 		"lat": 51.525229,
 		"lon": 12.169375,
-		"name": "Sekundarschule \"An der Doppelkapelle\" Landsberg",
+		"name": "Sekundarschule An der Doppelkapelle Landsberg",
 		"phone": "034602/20390",
 		"state": "ST"
 	},
@@ -1480,7 +1480,7 @@
 		"id": "ST-134",
 		"lat": 52.825862,
 		"lon": 12.085626,
-		"name": "Sekundarschule \"Am Weinberg\"",
+		"name": "Sekundarschule Am Weinberg",
 		"phone": "039387/8131",
 		"state": "ST"
 	},
@@ -1491,7 +1491,7 @@
 		"id": "ST-135",
 		"lat": 51.845677,
 		"lon": 11.579579,
-		"name": "Sekundarschule \"Am Tierpark\"",
+		"name": "Sekundarschule Am Tierpark",
 		"phone": "03925/323129",
 		"state": "ST"
 	},
@@ -1502,7 +1502,7 @@
 		"id": "ST-136",
 		"lat": 51.044445,
 		"lon": 12.130236,
-		"name": "Sekundarschule \"Am Schwanenteich\"",
+		"name": "Sekundarschule Am Schwanenteich",
 		"phone": "03441/213082",
 		"state": "ST"
 	},
@@ -1513,7 +1513,7 @@
 		"id": "ST-137",
 		"lat": 51.464226,
 		"lon": 11.670738,
-		"name": "Sekundarschule \"Am Salzigen See\" Roeblingen",
+		"name": "Sekundarschule Am Salzigen See Roeblingen",
 		"phone": "034774/20392",
 		"state": "ST"
 	},
@@ -1524,7 +1524,7 @@
 		"id": "ST-138",
 		"lat": 51.581936,
 		"lon": 11.924785,
-		"name": "Sekundarschule \"Am Petersberg\"",
+		"name": "Sekundarschule Am Petersberg",
 		"phone": "034606/20289",
 		"state": "ST"
 	},
@@ -1535,7 +1535,7 @@
 		"id": "ST-139",
 		"lat": 52.008328,
 		"lon": 11.736002,
-		"name": "Sekundarschule \"Am Lerchenfeld\"",
+		"name": "Sekundarschule Am Lerchenfeld",
 		"phone": "03928/4219990",
 		"state": "ST"
 	},
@@ -1546,7 +1546,7 @@
 		"id": "ST-140",
 		"lat": 51.902117,
 		"lon": 11.048118,
-		"name": "Sekundarschule \"Am Groepertor\"",
+		"name": "Sekundarschule Am Groepertor",
 		"phone": "03941/611024",
 		"state": "ST"
 	},
@@ -1557,7 +1557,7 @@
 		"id": "ST-141",
 		"lat": 51.454461,
 		"lon": 11.963576,
-		"name": "Sekundarschule \"Am Fliederweg\"",
+		"name": "Sekundarschule Am Fliederweg",
 		"phone": "0345/4441294",
 		"state": "ST"
 	},
@@ -1568,7 +1568,7 @@
 		"id": "ST-142",
 		"lat": 52.480442,
 		"lon": 11.213421,
-		"name": "Sekundarschule \"Am Droemling\" Mieste",
+		"name": "Sekundarschule Am Droemling Mieste",
 		"phone": "039082/422",
 		"state": "ST"
 	},
@@ -1579,7 +1579,7 @@
 		"id": "ST-143",
 		"lat": 52.398977,
 		"lon": 12.163486,
-		"name": "Sekundarschule \"Am Baumschulenweg\"",
+		"name": "Sekundarschule Am Baumschulenweg",
 		"phone": "03933/3637",
 		"state": "ST"
 	},
@@ -1590,7 +1590,7 @@
 		"id": "ST-144",
 		"lat": 51.151272,
 		"lon": 11.814817,
-		"name": "Sekundarschule \"Alexander von Humboldt\"",
+		"name": "Sekundarschule Alexander von Humboldt",
 		"phone": "03445/776229",
 		"state": "ST"
 	},
@@ -1601,7 +1601,7 @@
 		"id": "ST-145",
 		"lat": 51.355651,
 		"lon": 11.982344,
-		"name": "Sekundarschule \"Albrecht Duerer\"",
+		"name": "Sekundarschule Albrecht Duerer",
 		"phone": "03461/210821",
 		"state": "ST"
 	},
@@ -1612,7 +1612,7 @@
 		"id": "ST-146",
 		"lat": 51.150905,
 		"lon": 11.786084,
-		"name": "Sekundarschule \"Albert Schweitzer\"",
+		"name": "Sekundarschule Albert Schweitzer",
 		"phone": "03445/778284",
 		"state": "ST"
 	},
@@ -1623,7 +1623,7 @@
 		"id": "ST-147",
 		"lat": 52.216928,
 		"lon": 11.243236,
-		"name": "Sekundarschule \"Albert Niemann\"",
+		"name": "Sekundarschule Albert Niemann",
 		"phone": "039052/331",
 		"state": "ST"
 	},
@@ -1634,7 +1634,7 @@
 		"id": "ST-148",
 		"lat": 51.575696,
 		"lon": 12.260103,
-		"name": "Sekundarschule \"Adolph Diesterweg\"",
+		"name": "Sekundarschule Adolph Diesterweg",
 		"phone": "034954/21534",
 		"state": "ST"
 	},
@@ -1645,7 +1645,7 @@
 		"id": "ST-149",
 		"lat": 51.297092,
 		"lon": 11.813121,
-		"name": "Sekundarschule \"Adolf Holst\"",
+		"name": "Sekundarschule Adolf Holst",
 		"phone": "034632/22275",
 		"state": "ST"
 	},
@@ -1656,7 +1656,7 @@
 		"id": "ST-150",
 		"lat": 52.610664,
 		"lon": 11.862023,
-		"name": "Sekundarschule \"Adolf Diesterweg\"",
+		"name": "Sekundarschule Adolf Diesterweg",
 		"phone": "03931/212504",
 		"state": "ST"
 	},
@@ -1733,7 +1733,7 @@
 		"id": "ST-157",
 		"lat": 51.478872,
 		"lon": 11.929192,
-		"name": "Schule des Lebens \"Helen Keller\"",
+		"name": "Schule des Lebens Helen Keller",
 		"phone": "0345/8048887",
 		"state": "ST"
 	},
@@ -2272,7 +2272,7 @@
 		"id": "ST-206",
 		"lat": 51.478046,
 		"lon": 11.971147,
-		"name": "Latina \"August Hermann Francke\"",
+		"name": "Latina August Hermann Francke",
 		"phone": "0345/4781100",
 		"state": "ST"
 	},
@@ -2360,7 +2360,7 @@
 		"id": "ST-214",
 		"lat": 51.450051,
 		"lon": 11.970951,
-		"name": "Landesbildungszentrum fuer Hoergeschaedigte \"Albert Klotz\"",
+		"name": "Landesbildungszentrum fuer Hoergeschaedigte Albert Klotz",
 		"phone": "0345/1335680",
 		"state": "ST"
 	},
@@ -2382,7 +2382,7 @@
 		"id": "ST-216",
 		"lat": 51.4744967,
 		"lon": 11.9192508,
-		"name": "Landesbildungszentrum fuer Blinde und Sehbehinderte \"Hermann von Helmholtz\"",
+		"name": "Landesbildungszentrum fuer Blinde und Sehbehinderte Hermann von Helmholtz",
 		"phone": "0345/4446960",
 		"state": "ST"
 	},
@@ -2415,7 +2415,7 @@
 		"id": "ST-219",
 		"lat": 51.485283,
 		"lon": 11.934568,
-		"name": "Kooperative Gesamtschule \"Wilhelm von Humboldt\"",
+		"name": "Kooperative Gesamtschule Wilhelm von Humboldt",
 		"phone": "0345/8042118",
 		"state": "ST"
 	},
@@ -2426,7 +2426,7 @@
 		"id": "ST-220",
 		"lat": 51.464721,
 		"lon": 11.987989,
-		"name": "Kooperative Gesamtschule \"Ulrich von Hutten\"",
+		"name": "Kooperative Gesamtschule Ulrich von Hutten",
 		"phone": "0345/135690",
 		"state": "ST"
 	},
@@ -2602,7 +2602,7 @@
 		"id": "ST-236",
 		"lat": 52.125952,
 		"lon": 11.604896,
-		"name": "Integrierte Gesamtschule \"Willy Brandt\"",
+		"name": "Integrierte Gesamtschule Willy Brandt",
 		"phone": "0391/5065711",
 		"state": "ST"
 	},
@@ -2613,7 +2613,7 @@
 		"id": "ST-237",
 		"lat": 52.169331,
 		"lon": 11.635574,
-		"name": "Integrierte Gesamtschule \"Regine Hildebrandt\"",
+		"name": "Integrierte Gesamtschule Regine Hildebrandt",
 		"phone": "0391/2537994",
 		"state": "ST"
 	},
@@ -2635,7 +2635,7 @@
 		"id": "ST-239",
 		"lat": 51.79504,
 		"lon": 11.158023,
-		"name": "Integrationsgrundschule \"Am Kleers\"",
+		"name": "Integrationsgrundschule Am Kleers",
 		"phone": "03946/8383",
 		"state": "ST"
 	},
@@ -2866,7 +2866,7 @@
 		"id": "ST-260",
 		"lat": 52.149718,
 		"lon": 11.654097,
-		"name": "Gymnasium \"Werner von Siemens\"",
+		"name": "Gymnasium Werner von Siemens",
 		"phone": "0391/2537945",
 		"state": "ST"
 	},
@@ -2877,7 +2877,7 @@
 		"id": "ST-261",
 		"lat": 51.80284,
 		"lon": 12.247712,
-		"name": "Gymnasium \"Walter Gropius\" - Europaschule",
+		"name": "Gymnasium Walter Gropius - Europaschule",
 		"phone": "0340/8504310",
 		"state": "ST"
 	},
@@ -2888,7 +2888,7 @@
 		"id": "ST-262",
 		"lat": 52.287566,
 		"lon": 11.413358,
-		"name": "Gymnasium \"Prof. Friedrich Foerster\"",
+		"name": "Gymnasium Prof. Friedrich Foerster",
 		"phone": "03904/2288",
 		"state": "ST"
 	},
@@ -2899,7 +2899,7 @@
 		"id": "ST-263",
 		"lat": 51.832052,
 		"lon": 12.244495,
-		"name": "Gymnasium \"Philanthropinum\"",
+		"name": "Gymnasium Philanthropinum",
 		"phone": "0340/212550",
 		"state": "ST"
 	},
@@ -2910,7 +2910,7 @@
 		"id": "ST-264",
 		"lat": 51.897403,
 		"lon": 11.046538,
-		"name": "Gymnasium \"Martineum\"",
+		"name": "Gymnasium Martineum",
 		"phone": "03941/24227",
 		"state": "ST"
 	},
@@ -2921,7 +2921,7 @@
 		"id": "ST-265",
 		"lat": 51.350409,
 		"lon": 11.999613,
-		"name": "Gymnasium \"Johann Gottfried Herder\"",
+		"name": "Gymnasium Johann Gottfried Herder",
 		"phone": "03461/210195",
 		"state": "ST"
 	},
@@ -2932,7 +2932,7 @@
 		"id": "ST-266",
 		"lat": 52.090398,
 		"lon": 11.60872,
-		"name": "Gymnasium \"Geschwister Scholl\"",
+		"name": "Gymnasium Geschwister Scholl",
 		"phone": "0391/616302",
 		"state": "ST"
 	},
@@ -2943,7 +2943,7 @@
 		"id": "ST-267",
 		"lat": 52.436379,
 		"lon": 10.987538,
-		"name": "Gymnasium \"Freiherr vom Stein\"",
+		"name": "Gymnasium Freiherr vom Stein",
 		"phone": "039061/2306",
 		"state": "ST"
 	},
@@ -2954,7 +2954,7 @@
 		"id": "ST-268",
 		"lat": 51.796082,
 		"lon": 10.957051,
-		"name": "Gymnasium \"Am Thie\"",
+		"name": "Gymnasium Am Thie",
 		"phone": "03944/367510",
 		"state": "ST"
 	},
@@ -2987,7 +2987,7 @@
 		"id": "ST-271",
 		"lat": 51.88764,
 		"lon": 11.474076,
-		"name": "Grundschulzentrum \"Boerdeblick\"",
+		"name": "Grundschulzentrum Boerdeblick",
 		"phone": "039267/719",
 		"state": "ST"
 	},
@@ -3218,7 +3218,7 @@
 		"id": "ST-292",
 		"lat": 51.452961,
 		"lon": 11.804784,
-		"name": "Grundschule Teutschenthal \"Am Talkessel\"",
+		"name": "Grundschule Teutschenthal Am Talkessel",
 		"phone": "034601/24627",
 		"state": "ST"
 	},
@@ -5143,7 +5143,7 @@
 		"id": "ST-467",
 		"lat": 51.845136,
 		"lon": 12.215277,
-		"name": "Grundschule \"Ziebigk\"",
+		"name": "Grundschule Ziebigk",
 		"phone": "0340/616238",
 		"state": "ST"
 	},
@@ -5154,7 +5154,7 @@
 		"id": "ST-468",
 		"lat": 51.740665,
 		"lon": 11.97633,
-		"name": "Grundschule \"Wolfgang Ratke\"",
+		"name": "Grundschule Wolfgang Ratke",
 		"phone": "03496/213492",
 		"state": "ST"
 	},
@@ -5165,7 +5165,7 @@
 		"id": "ST-469",
 		"lat": 51.47546,
 		"lon": 11.909165,
-		"name": "Grundschule \"Wolfgang Borchert\"",
+		"name": "Grundschule Wolfgang Borchert",
 		"phone": "0345/6875034",
 		"state": "ST"
 	},
@@ -5176,7 +5176,7 @@
 		"id": "ST-470",
 		"lat": 51.766552,
 		"lon": 11.558168,
-		"name": "Grundschule \"Wippertal\"",
+		"name": "Grundschule Wippertal",
 		"phone": "034746/205",
 		"state": "ST"
 	},
@@ -5187,7 +5187,7 @@
 		"id": "ST-471",
 		"lat": 52.747031,
 		"lon": 11.468952,
-		"name": "Grundschule \"Wilhelm Busch\"",
+		"name": "Grundschule Wilhelm Busch",
 		"phone": "039030/2624",
 		"state": "ST"
 	},
@@ -5198,7 +5198,7 @@
 		"id": "ST-472",
 		"lat": 51.855397,
 		"lon": 12.043079,
-		"name": "Grundschule \"Werner Nolopp\"",
+		"name": "Grundschule Werner Nolopp",
 		"phone": "034909/82073",
 		"state": "ST"
 	},
@@ -5209,7 +5209,7 @@
 		"id": "ST-473",
 		"lat": 52.314749,
 		"lon": 11.766294,
-		"name": "Grundschule \"Werner Moritz\"",
+		"name": "Grundschule Werner Moritz",
 		"phone": "039208/492157",
 		"state": "ST"
 	},
@@ -5220,7 +5220,7 @@
 		"id": "ST-474",
 		"lat": 52.134617,
 		"lon": 11.640769,
-		"name": "Grundschule \"Weitlingstrasse\"",
+		"name": "Grundschule Weitlingstrasse",
 		"phone": "0391/5619332",
 		"state": "ST"
 	},
@@ -5231,7 +5231,7 @@
 		"id": "ST-475",
 		"lat": 51.893476,
 		"lon": 12.246404,
-		"name": "Grundschule \"Waldstrasse\"",
+		"name": "Grundschule Waldstrasse",
 		"phone": "034901/87298",
 		"state": "ST"
 	},
@@ -5242,7 +5242,7 @@
 		"id": "ST-476",
 		"lat": 51.943173,
 		"lon": 11.437832,
-		"name": "Grundschule \"Vier Jahreszeiten\"",
+		"name": "Grundschule Vier Jahreszeiten",
 		"phone": "039268/34155",
 		"state": "ST"
 	},
@@ -5253,7 +5253,7 @@
 		"id": "ST-477",
 		"lat": 51.462573,
 		"lon": 11.973333,
-		"name": "Grundschule \"Ulrich von Hutten\"",
+		"name": "Grundschule Ulrich von Hutten",
 		"phone": "0345/1200702",
 		"state": "ST"
 	},
@@ -5264,7 +5264,7 @@
 		"id": "ST-478",
 		"lat": 51.533844,
 		"lon": 11.543975,
-		"name": "Grundschule \"Torgartenstrasse\"",
+		"name": "Grundschule Torgartenstrasse",
 		"phone": "03475/602180",
 		"state": "ST"
 	},
@@ -5275,7 +5275,7 @@
 		"id": "ST-479",
 		"lat": 51.521749,
 		"lon": 10.945372,
-		"name": "Grundschule \"Thyratal\" Rottleberode",
+		"name": "Grundschule Thyratal Rottleberode",
 		"phone": "034653/382",
 		"state": "ST"
 	},
@@ -5286,7 +5286,7 @@
 		"id": "ST-480",
 		"lat": 51.310883,
 		"lon": 12.124055,
-		"name": "Grundschule \"Thomas Muentzer\" Koetzschau",
+		"name": "Grundschule Thomas Muentzer Koetzschau",
 		"phone": "03462/87843",
 		"state": "ST"
 	},
@@ -5297,7 +5297,7 @@
 		"id": "ST-481",
 		"lat": 52.566811,
 		"lon": 11.027933,
-		"name": "Grundschule \"Theodor Hermann Rimpau\" Kunrau",
+		"name": "Grundschule Theodor Hermann Rimpau Kunrau",
 		"phone": "039008/237",
 		"state": "ST"
 	},
@@ -5308,7 +5308,7 @@
 		"id": "ST-482",
 		"lat": 51.795996,
 		"lon": 12.246852,
-		"name": "Grundschule \"Tempelhofer Strasse\"",
+		"name": "Grundschule Tempelhofer Strasse",
 		"phone": "0340/8581010",
 		"state": "ST"
 	},
@@ -5319,7 +5319,7 @@
 		"id": "ST-483",
 		"lat": 52.112907,
 		"lon": 11.598251,
-		"name": "Grundschule \"Sudenburg\"",
+		"name": "Grundschule Sudenburg",
 		"phone": "0391/6224967",
 		"state": "ST"
 	},
@@ -5330,7 +5330,7 @@
 		"id": "ST-484",
 		"lat": 51.680214,
 		"lon": 12.268383,
-		"name": "Grundschule \"Steinfurth\"",
+		"name": "Grundschule Steinfurth",
 		"phone": "03494/33320",
 		"state": "ST"
 	},
@@ -5341,7 +5341,7 @@
 		"id": "ST-485",
 		"lat": 51.760816,
 		"lon": 11.46355,
-		"name": "Grundschule \"Stassfurter Hoehe\"",
+		"name": "Grundschule Stassfurter Hoehe",
 		"phone": "03473/3780",
 		"state": "ST"
 	},
@@ -5352,7 +5352,7 @@
 		"id": "ST-486",
 		"lat": 52.407918,
 		"lon": 12.161464,
-		"name": "Grundschule \"Stadtmitte\"",
+		"name": "Grundschule Stadtmitte",
 		"phone": "03933/2081",
 		"state": "ST"
 	},
@@ -5363,7 +5363,7 @@
 		"id": "ST-487",
 		"lat": 51.844883,
 		"lon": 10.800479,
-		"name": "Grundschule \"Stadtfeld\"",
+		"name": "Grundschule Stadtfeld",
 		"phone": "03943/22010",
 		"state": "ST"
 	},
@@ -5374,7 +5374,7 @@
 		"id": "ST-488",
 		"lat": 52.14011,
 		"lon": 11.61633,
-		"name": "Grundschule \"Stadtfeld\"",
+		"name": "Grundschule Stadtfeld",
 		"phone": "0391/2528200",
 		"state": "ST"
 	},
@@ -5385,7 +5385,7 @@
 		"id": "ST-489",
 		"lat": 51.968958,
 		"lon": 10.708489,
-		"name": "Grundschule \"Sonnenklee\"",
+		"name": "Grundschule Sonnenklee",
 		"phone": "039421/77891",
 		"state": "ST"
 	},
@@ -5396,7 +5396,7 @@
 		"id": "ST-490",
 		"lat": 50.992916,
 		"lon": 12.235408,
-		"name": "Grundschule \"Schnaudertal\" Kayna",
+		"name": "Grundschule Schnaudertal Kayna",
 		"phone": "034426/21217",
 		"state": "ST"
 	},
@@ -5407,7 +5407,7 @@
 		"id": "ST-491",
 		"lat": 52.128792,
 		"lon": 11.582333,
-		"name": "Grundschule \"Schmeilstrasse\"",
+		"name": "Grundschule Schmeilstrasse",
 		"phone": "0391/7347126",
 		"state": "ST"
 	},
@@ -5418,7 +5418,7 @@
 		"id": "ST-492",
 		"lat": 52.239098,
 		"lon": 12.052591,
-		"name": "Grundschule \"Schloss Moeckern\"",
+		"name": "Grundschule Schloss Moeckern",
 		"phone": "039221/60962",
 		"state": "ST"
 	},
@@ -5429,7 +5429,7 @@
 		"id": "ST-493",
 		"lat": 52.075579,
 		"lon": 11.667512,
-		"name": "Grundschule \"Salbke\"",
+		"name": "Grundschule Salbke",
 		"phone": "0391/4013733",
 		"state": "ST"
 	},
@@ -5440,7 +5440,7 @@
 		"id": "ST-494",
 		"lat": 52.177561,
 		"lon": 11.665274,
-		"name": "Grundschule \"Rothensee\"",
+		"name": "Grundschule Rothensee",
 		"phone": "0391/5095117",
 		"state": "ST"
 	},
@@ -5451,7 +5451,7 @@
 		"id": "ST-495",
 		"lat": 51.477397,
 		"lon": 11.938638,
-		"name": "Grundschule \"Rosa Luxemburg\"",
+		"name": "Grundschule Rosa Luxemburg",
 		"phone": "0345/8044312",
 		"state": "ST"
 	},
@@ -5462,7 +5462,7 @@
 		"id": "ST-496",
 		"lat": 51.778923,
 		"lon": 11.753743,
-		"name": "Grundschule \"Regenbogen\"",
+		"name": "Grundschule Regenbogen",
 		"phone": "03471/311208",
 		"state": "ST"
 	},
@@ -5473,7 +5473,7 @@
 		"id": "ST-497",
 		"lat": 51.784348,
 		"lon": 11.314706,
-		"name": "Grundschule \"Prinzenhaus\"",
+		"name": "Grundschule Prinzenhaus",
 		"phone": "034741/393",
 		"state": "ST"
 	},
@@ -5484,7 +5484,7 @@
 		"id": "ST-498",
 		"lat": 51.381672,
 		"lon": 11.601199,
-		"name": "Grundschule \"Philipp Mueller\"",
+		"name": "Grundschule Philipp Mueller",
 		"phone": "034771/22033",
 		"state": "ST"
 	},
@@ -5495,7 +5495,7 @@
 		"id": "ST-499",
 		"lat": 52.573352,
 		"lon": 11.361591,
-		"name": "Grundschule \"Peter Haertling\"",
+		"name": "Grundschule Peter Haertling",
 		"phone": "03907/5618",
 		"state": "ST"
 	},
@@ -5506,7 +5506,7 @@
 		"id": "ST-500",
 		"lat": 51.615228,
 		"lon": 12.268734,
-		"name": "Grundschule \"Pestalozzi\" Brehna",
+		"name": "Grundschule Pestalozzi Brehna",
 		"phone": "034954/48126",
 		"state": "ST"
 	},
@@ -5517,7 +5517,7 @@
 		"id": "ST-501",
 		"lat": 51.393242,
 		"lon": 12.103413,
-		"name": "Grundschule \"Paul Maar\"",
+		"name": "Grundschule Paul Maar",
 		"phone": "034605/20521",
 		"state": "ST"
 	},
@@ -5528,7 +5528,7 @@
 		"id": "ST-502",
 		"lat": 52.52748,
 		"lon": 11.391307,
-		"name": "Grundschule \"Otto Reutter\"",
+		"name": "Grundschule Otto Reutter",
 		"phone": "03907/711752",
 		"state": "ST"
 	},
@@ -5539,7 +5539,7 @@
 		"id": "ST-503",
 		"lat": 51.35252,
 		"lon": 11.971383,
-		"name": "Grundschule \"Otto Lilienthal\"",
+		"name": "Grundschule Otto Lilienthal",
 		"phone": "03461/500555",
 		"state": "ST"
 	},
@@ -5550,7 +5550,7 @@
 		"id": "ST-504",
 		"lat": 52.292576,
 		"lon": 11.40758,
-		"name": "Grundschule \"Otto Boye\"",
+		"name": "Grundschule Otto Boye",
 		"phone": "03904/40172",
 		"state": "ST"
 	},
@@ -5561,7 +5561,7 @@
 		"id": "ST-505",
 		"lat": 52.150078,
 		"lon": 11.601501,
-		"name": "Grundschule \"Nordwest\"",
+		"name": "Grundschule Nordwest",
 		"phone": "0391/7219534",
 		"state": "ST"
 	},
@@ -5572,7 +5572,7 @@
 		"id": "ST-506",
 		"lat": 51.566186,
 		"lon": 11.72631,
-		"name": "Grundschule \"Noerdliches Salzatal\" Beesenstedt",
+		"name": "Grundschule Noerdliches Salzatal Beesenstedt",
 		"phone": "034773/21710",
 		"state": "ST"
 	},
@@ -5583,7 +5583,7 @@
 		"id": "ST-507",
 		"lat": 51.486264,
 		"lon": 11.903075,
-		"name": "Grundschule \"Nietleben\"",
+		"name": "Grundschule Nietleben",
 		"phone": "0345/8057009",
 		"state": "ST"
 	},
@@ -5594,7 +5594,7 @@
 		"id": "ST-508",
 		"lat": 51.891655,
 		"lon": 11.045004,
-		"name": "Grundschule \"Miriam Lundner\"",
+		"name": "Grundschule Miriam Lundner",
 		"phone": "03941/551450",
 		"state": "ST"
 	},
@@ -5605,7 +5605,7 @@
 		"id": "ST-509",
 		"lat": 51.790966,
 		"lon": 12.951652,
-		"name": "Grundschule \"Max Lingner\"",
+		"name": "Grundschule Max Lingner",
 		"phone": "03537/212320",
 		"state": "ST"
 	},
@@ -5616,7 +5616,7 @@
 		"id": "ST-510",
 		"lat": 51.18133,
 		"lon": 11.772643,
-		"name": "Grundschule \"Max Klinger\"",
+		"name": "Grundschule Max Klinger",
 		"phone": "03445/203408",
 		"state": "ST"
 	},
@@ -5627,7 +5627,7 @@
 		"id": "ST-511",
 		"lat": 52.093283,
 		"lon": 11.433913,
-		"name": "Grundschule \"Martin Selber\" Domersleben",
+		"name": "Grundschule Martin Selber Domersleben",
 		"phone": "039209/2781",
 		"state": "ST"
 	},
@@ -5638,7 +5638,7 @@
 		"id": "ST-512",
 		"lat": 51.87843,
 		"lon": 11.536259,
-		"name": "Grundschule \"Ludwig Uhland\"",
+		"name": "Grundschule Ludwig Uhland",
 		"phone": "03925/321295",
 		"state": "ST"
 	},
@@ -5649,7 +5649,7 @@
 		"id": "ST-513",
 		"lat": 52.4005,
 		"lon": 12.168945,
-		"name": "Grundschule \"Ludwig Uhland\"",
+		"name": "Grundschule Ludwig Uhland",
 		"phone": "03933/820050",
 		"state": "ST"
 	},
@@ -5660,7 +5660,7 @@
 		"id": "ST-514",
 		"lat": 51.728504,
 		"lon": 11.345336,
-		"name": "Grundschule \"Ludwig Gleim\"",
+		"name": "Grundschule Ludwig Gleim",
 		"phone": "034743/295",
 		"state": "ST"
 	},
@@ -5671,7 +5671,7 @@
 		"id": "ST-515",
 		"lat": 52.087596,
 		"lon": 11.618371,
-		"name": "Grundschule \"Lindenhof\"",
+		"name": "Grundschule Lindenhof",
 		"phone": "0391/4089153",
 		"state": "ST"
 	},
@@ -5682,7 +5682,7 @@
 		"id": "ST-516",
 		"lat": 52.103734,
 		"lon": 11.620627,
-		"name": "Grundschule \"Leipziger Strasse\"",
+		"name": "Grundschule Leipziger Strasse",
 		"phone": "0391/616328",
 		"state": "ST"
 	},
@@ -5693,7 +5693,7 @@
 		"id": "ST-517",
 		"lat": 52.157935,
 		"lon": 11.620611,
-		"name": "Grundschule \"Kritzmannstrasse\"",
+		"name": "Grundschule Kritzmannstrasse",
 		"phone": "0391/2515408",
 		"state": "ST"
 	},
@@ -5704,7 +5704,7 @@
 		"id": "ST-518",
 		"lat": 51.887776,
 		"lon": 12.665363,
-		"name": "Grundschule \"Kaethe Kollwitz\"",
+		"name": "Grundschule Kaethe Kollwitz",
 		"phone": "03491/881178",
 		"state": "ST"
 	},
@@ -5715,7 +5715,7 @@
 		"id": "ST-519",
 		"lat": 52.01667,
 		"lon": 11.75,
-		"name": "Grundschule \"Kaethe Kollwitz\"",
+		"name": "Grundschule Kaethe Kollwitz",
 		"phone": "03928/403062",
 		"state": "ST"
 	},
@@ -5726,7 +5726,7 @@
 		"id": "ST-520",
 		"lat": 51.662845,
 		"lon": 11.997307,
-		"name": "Grundschule \"Kaethe Kollwitz\"",
+		"name": "Grundschule Kaethe Kollwitz",
 		"phone": "034977/21270",
 		"state": "ST"
 	},
@@ -5737,7 +5737,7 @@
 		"id": "ST-521",
 		"lat": 51.841237,
 		"lon": 12.637044,
-		"name": "Grundschule \"Katharina von Bora\"",
+		"name": "Grundschule Katharina von Bora",
 		"phone": "03491/450714",
 		"state": "ST"
 	},
@@ -5748,7 +5748,7 @@
 		"id": "ST-522",
 		"lat": 51.47497,
 		"lon": 11.927718,
-		"name": "Grundschule \"Kastanienallee\"",
+		"name": "Grundschule Kastanienallee",
 		"phone": "0345/8045252",
 		"state": "ST"
 	},
@@ -5759,7 +5759,7 @@
 		"id": "ST-523",
 		"lat": 52.020158,
 		"lon": 11.721938,
-		"name": "Grundschule \"Karl Liebknecht\"",
+		"name": "Grundschule Karl Liebknecht",
 		"phone": "03928/65472",
 		"state": "ST"
 	},
@@ -5770,7 +5770,7 @@
 		"id": "ST-524",
 		"lat": 52.523688,
 		"lon": 11.402417,
-		"name": "Grundschule \"Karl Friedrich Wilhelm Wander\"",
+		"name": "Grundschule Karl Friedrich Wilhelm Wander",
 		"phone": "03907/778462",
 		"state": "ST"
 	},
@@ -5781,7 +5781,7 @@
 		"id": "ST-525",
 		"lat": 51.822292,
 		"lon": 11.280853,
-		"name": "Grundschule \"Kaethe Schulken\"",
+		"name": "Grundschule Kaethe Schulken",
 		"phone": "039482/290",
 		"state": "ST"
 	},
@@ -5792,7 +5792,7 @@
 		"id": "ST-526",
 		"lat": 52.597725,
 		"lon": 11.833214,
-		"name": "Grundschule \"Juri Gagarin\"",
+		"name": "Grundschule Juri Gagarin",
 		"phone": "03931/412010",
 		"state": "ST"
 	},
@@ -5803,7 +5803,7 @@
 		"id": "ST-527",
 		"lat": 52.004596,
 		"lon": 11.637246,
-		"name": "Grundschule \"Juri Gagarin\"",
+		"name": "Grundschule Juri Gagarin",
 		"phone": "039296/20215",
 		"state": "ST"
 	},
@@ -5814,7 +5814,7 @@
 		"id": "ST-528",
 		"lat": 51.365203,
 		"lon": 11.985525,
-		"name": "Grundschule \"Joliot Curie\"",
+		"name": "Grundschule Joliot Curie",
 		"phone": "03461/211148",
 		"state": "ST"
 	},
@@ -5825,7 +5825,7 @@
 		"id": "ST-529",
 		"lat": 52.2501,
 		"lon": 11.61539,
-		"name": "Grundschule \"Johannes Gutenberg\"",
+		"name": "Grundschule Johannes Gutenberg",
 		"phone": "039201/29481",
 		"state": "ST"
 	},
@@ -5836,7 +5836,7 @@
 		"id": "ST-530",
 		"lat": 51.731434,
 		"lon": 12.450064,
-		"name": "Grundschule \"Johannes Gutenberg\"",
+		"name": "Grundschule Johannes Gutenberg",
 		"phone": "034953/21119",
 		"state": "ST"
 	},
@@ -5847,7 +5847,7 @@
 		"id": "ST-531",
 		"lat": 52.525059,
 		"lon": 11.391054,
-		"name": "Grundschule \"Johann Wolfgang von Goethe\"",
+		"name": "Grundschule Johann Wolfgang von Goethe",
 		"phone": "03907/2167",
 		"state": "ST"
 	},
@@ -5858,7 +5858,7 @@
 		"id": "ST-532",
 		"lat": 51.79153,
 		"lon": 11.73552,
-		"name": "Grundschule \"Johann Wolfgang von Goethe\"",
+		"name": "Grundschule Johann Wolfgang von Goethe",
 		"phone": "03471/621197",
 		"state": "ST"
 	},
@@ -5869,7 +5869,7 @@
 		"id": "ST-533",
 		"lat": 52.316091,
 		"lon": 11.5971,
-		"name": "Grundschule \"Johann Heinrich Schulze\"",
+		"name": "Grundschule Johann Heinrich Schulze",
 		"phone": "039207/80729",
 		"state": "ST"
 	},
@@ -5880,7 +5880,7 @@
 		"id": "ST-534",
 		"lat": 51.714118,
 		"lon": 12.396838,
-		"name": "Grundschule \"Johann Heinrich Pestalozzi\"",
+		"name": "Grundschule Johann Heinrich Pestalozzi",
 		"phone": "034953/89698",
 		"state": "ST"
 	},
@@ -5891,7 +5891,7 @@
 		"id": "ST-535",
 		"lat": 52.268179,
 		"lon": 11.861204,
-		"name": "Grundschule \"Johann Heinrich Pestalozzi\"",
+		"name": "Grundschule Johann Heinrich Pestalozzi",
 		"phone": "03921/2405",
 		"state": "ST"
 	},
@@ -5902,7 +5902,7 @@
 		"id": "ST-536",
 		"lat": 51.75139,
 		"lon": 11.972679,
-		"name": "Grundschule \"Johann Friedrich Naumann\"",
+		"name": "Grundschule Johann Friedrich Naumann",
 		"phone": "03496/309305",
 		"state": "ST"
 	},
@@ -5913,7 +5913,7 @@
 		"id": "ST-537",
 		"lat": 52.854057,
 		"lon": 11.145008,
-		"name": "Grundschule \"Jenny Marx\" Salzwedel",
+		"name": "Grundschule Jenny Marx Salzwedel",
 		"phone": "03901/477806",
 		"state": "ST"
 	},
@@ -5924,7 +5924,7 @@
 		"id": "ST-538",
 		"lat": 52.144472,
 		"lon": 11.645256,
-		"name": "Grundschule \"Im Nordpark\"",
+		"name": "Grundschule Im Nordpark",
 		"phone": "0391/5413253",
 		"state": "ST"
 	},
@@ -5935,7 +5935,7 @@
 		"id": "ST-539",
 		"lat": 51.838305,
 		"lon": 12.192674,
-		"name": "Grundschule \"Hugo Junkers\" Kuehnau",
+		"name": "Grundschule Hugo Junkers Kuehnau",
 		"phone": "0340/65019110",
 		"state": "ST"
 	},
@@ -5946,7 +5946,7 @@
 		"id": "ST-540",
 		"lat": 51.552608,
 		"lon": 12.101051,
-		"name": "Grundschule \"Hermann Ferres\"",
+		"name": "Grundschule Hermann Ferres",
 		"phone": "034604/20217",
 		"state": "ST"
 	},
@@ -5957,7 +5957,7 @@
 		"id": "ST-541",
 		"lat": 51.861658,
 		"lon": 10.850549,
-		"name": "Grundschule \"Henning Calvoer\"",
+		"name": "Grundschule Henning Calvoer",
 		"phone": "03943/22360",
 		"state": "ST"
 	},
@@ -5968,7 +5968,7 @@
 		"id": "ST-542",
 		"lat": 51.899409,
 		"lon": 12.60837,
-		"name": "Grundschule \"Heinrich Heine\"",
+		"name": "Grundschule Heinrich Heine",
 		"phone": "03491/667808",
 		"state": "ST"
 	},
@@ -5979,7 +5979,7 @@
 		"id": "ST-543",
 		"lat": 52.170193,
 		"lon": 11.84766,
-		"name": "Grundschule \"Heinrich Heine\"",
+		"name": "Grundschule Heinrich Heine",
 		"phone": "039224/322",
 		"state": "ST"
 	},
@@ -5990,7 +5990,7 @@
 		"id": "ST-544",
 		"lat": 52.1186,
 		"lon": 11.62929,
-		"name": "Grundschule \"Hegelstrasse\"",
+		"name": "Grundschule Hegelstrasse",
 		"phone": "0391/5410973",
 		"state": "ST"
 	},
@@ -6001,7 +6001,7 @@
 		"id": "ST-545",
 		"lat": 51.846135,
 		"lon": 10.775216,
-		"name": "Grundschule \"Harzblick\"",
+		"name": "Grundschule Harzblick",
 		"phone": "03943/632440",
 		"state": "ST"
 	},
@@ -6012,7 +6012,7 @@
 		"id": "ST-546",
 		"lat": 51.514949,
 		"lon": 11.962893,
-		"name": "Grundschule \"Hans Christian Andersen\"",
+		"name": "Grundschule Hans Christian Andersen",
 		"phone": "0345/5234807",
 		"state": "ST"
 	},
@@ -6023,7 +6023,7 @@
 		"id": "ST-547",
 		"lat": 51.751758,
 		"lon": 11.090122,
-		"name": "Grundschule \"Hans Christian Andersen\"",
+		"name": "Grundschule Hans Christian Andersen",
 		"phone": "03947/5880",
 		"state": "ST"
 	},
@@ -6034,7 +6034,7 @@
 		"id": "ST-548",
 		"lat": 51.437321,
 		"lon": 11.96165,
-		"name": "Grundschule \"Hanoier Strasse\"",
+		"name": "Grundschule Hanoier Strasse",
 		"phone": "0345/7759778",
 		"state": "ST"
 	},
@@ -6045,7 +6045,7 @@
 		"id": "ST-549",
 		"lat": 52.854207,
 		"lon": 11.161641,
-		"name": "Grundschule \"Gotthold Ephraim Lessing\"",
+		"name": "Grundschule Gotthold Ephraim Lessing",
 		"phone": "03901/475435",
 		"state": "ST"
 	},
@@ -6056,7 +6056,7 @@
 		"id": "ST-550",
 		"lat": 51.91518,
 		"lon": 11.784784,
-		"name": "Grundschule \"Gotthold Ephraim Lessing\"",
+		"name": "Grundschule Gotthold Ephraim Lessing",
 		"phone": "039291/2430",
 		"state": "ST"
 	},
@@ -6067,7 +6067,7 @@
 		"id": "ST-551",
 		"lat": 51.463114,
 		"lon": 11.207296,
-		"name": "Grundschule \"Goldene Aue\"",
+		"name": "Grundschule Goldene Aue",
 		"phone": "034656/31712",
 		"state": "ST"
 	},
@@ -6078,7 +6078,7 @@
 		"id": "ST-552",
 		"lat": 51.470995,
 		"lon": 11.296238,
-		"name": "Grundschule \"Goethe\"",
+		"name": "Grundschule Goethe",
 		"phone": "03464/520152",
 		"state": "ST"
 	},
@@ -6089,7 +6089,7 @@
 		"id": "ST-553",
 		"lat": 52.032187,
 		"lon": 11.220126,
-		"name": "Grundschule \"Goethe\"",
+		"name": "Grundschule Goethe",
 		"phone": "03949/2985",
 		"state": "ST"
 	},
@@ -6100,7 +6100,7 @@
 		"id": "ST-554",
 		"lat": 51.903732,
 		"lon": 11.037376,
-		"name": "Grundschule \"Goethe\"",
+		"name": "Grundschule Goethe",
 		"phone": "03941/443098",
 		"state": "ST"
 	},
@@ -6111,7 +6111,7 @@
 		"id": "ST-555",
 		"lat": 51.797669,
 		"lon": 11.339626,
-		"name": "Grundschule \"Glueck auf\"",
+		"name": "Grundschule Glueck auf",
 		"phone": "034741/780499",
 		"state": "ST"
 	},
@@ -6122,7 +6122,7 @@
 		"id": "ST-556",
 		"lat": 51.827654,
 		"lon": 12.240211,
-		"name": "Grundschule \"Geschwister Scholl\"",
+		"name": "Grundschule Geschwister Scholl",
 		"phone": "0340/8581101",
 		"state": "ST"
 	},
@@ -6133,7 +6133,7 @@
 		"id": "ST-557",
 		"lat": 51.877442,
 		"lon": 12.664831,
-		"name": "Grundschule \"Geschwister Scholl\"",
+		"name": "Grundschule Geschwister Scholl",
 		"phone": "03491/440465",
 		"state": "ST"
 	},
@@ -6144,7 +6144,7 @@
 		"id": "ST-558",
 		"lat": 51.753252,
 		"lon": 11.036859,
-		"name": "Grundschule \"Geschwister Scholl\"",
+		"name": "Grundschule Geschwister Scholl",
 		"phone": "03947/2693",
 		"state": "ST"
 	},
@@ -6155,7 +6155,7 @@
 		"id": "ST-559",
 		"lat": 51.677355,
 		"lon": 11.565661,
-		"name": "Grundschule \"Geschwister Scholl\"",
+		"name": "Grundschule Geschwister Scholl",
 		"phone": "034785/20511",
 		"state": "ST"
 	},
@@ -6166,7 +6166,7 @@
 		"id": "ST-560",
 		"lat": 51.302329,
 		"lon": 11.811342,
-		"name": "Grundschule \"Geschwister Scholl\"",
+		"name": "Grundschule Geschwister Scholl",
 		"phone": "034632/22433",
 		"state": "ST"
 	},
@@ -6177,7 +6177,7 @@
 		"id": "ST-561",
 		"lat": 51.525366,
 		"lon": 11.547221,
-		"name": "Grundschule \"Geschwister Scholl\"",
+		"name": "Grundschule Geschwister Scholl",
 		"phone": "03475/602160",
 		"state": "ST"
 	},
@@ -6188,7 +6188,7 @@
 		"id": "ST-562",
 		"lat": 52.287316,
 		"lon": 11.414773,
-		"name": "Grundschule \"Gebrueder Alstein\" EUROPASCHULE",
+		"name": "Grundschule Gebrueder Alstein EUROPASCHULE",
 		"phone": "03904/2690",
 		"state": "ST"
 	},
@@ -6199,7 +6199,7 @@
 		"id": "ST-563",
 		"lat": 51.509529,
 		"lon": 11.995033,
-		"name": "Grundschule \"Frohe Zukunft\"",
+		"name": "Grundschule Frohe Zukunft",
 		"phone": "0345/5220131",
 		"state": "ST"
 	},
@@ -6210,7 +6210,7 @@
 		"id": "ST-564",
 		"lat": 51.213227,
 		"lon": 11.771303,
-		"name": "Grundschule \"Friedrich Ludwig Jahn\"",
+		"name": "Grundschule Friedrich Ludwig Jahn",
 		"phone": "034464/27290",
 		"state": "ST"
 	},
@@ -6221,7 +6221,7 @@
 		"id": "ST-565",
 		"lat": 51.956555,
 		"lon": 11.707049,
-		"name": "Grundschule \"Friedrich Loose\"",
+		"name": "Grundschule Friedrich Loose",
 		"phone": "039297/20287",
 		"state": "ST"
 	},
@@ -6232,7 +6232,7 @@
 		"id": "ST-566",
 		"lat": 51.934064,
 		"lon": 11.217758,
-		"name": "Grundschule \"Friedrich Hoffmann\"",
+		"name": "Grundschule Friedrich Hoffmann",
 		"phone": "039403/5178",
 		"state": "ST"
 	},
@@ -6243,7 +6243,7 @@
 		"id": "ST-567",
 		"lat": 51.868165,
 		"lon": 12.59683,
-		"name": "Grundschule \"Friedrich Engels\"",
+		"name": "Grundschule Friedrich Engels",
 		"phone": "03491/662066",
 		"state": "ST"
 	},
@@ -6254,7 +6254,7 @@
 		"id": "ST-568",
 		"lat": 51.293416,
 		"lon": 12.069828,
-		"name": "Grundschule \"Friedrich Engels\"",
+		"name": "Grundschule Friedrich Engels",
 		"phone": "03462/87388",
 		"state": "ST"
 	},
@@ -6265,7 +6265,7 @@
 		"id": "ST-569",
 		"lat": 51.219278,
 		"lon": 11.669105,
-		"name": "Grundschule \"Friedrich Boedecker\"",
+		"name": "Grundschule Friedrich Boedecker",
 		"phone": "034462/20034",
 		"state": "ST"
 	},
@@ -6276,7 +6276,7 @@
 		"id": "ST-570",
 		"lat": 51.893324,
 		"lon": 11.066811,
-		"name": "Grundschule \"Freiherr Spiegel\"",
+		"name": "Grundschule Freiherr Spiegel",
 		"phone": "03941/24573",
 		"state": "ST"
 	},
@@ -6287,7 +6287,7 @@
 		"id": "ST-571",
 		"lat": 51.733132,
 		"lon": 11.169155,
-		"name": "Grundschule \"Ferdinand Freiligrath\" Rieder",
+		"name": "Grundschule Ferdinand Freiligrath Rieder",
 		"phone": "039485/60060",
 		"state": "ST"
 	},
@@ -6298,7 +6298,7 @@
 		"id": "ST-572",
 		"lat": 51.957309,
 		"lon": 12.59418,
-		"name": "Grundschule \"Ferdinand Freiligrath\"",
+		"name": "Grundschule Ferdinand Freiligrath",
 		"phone": "03491/413328",
 		"state": "ST"
 	},
@@ -6309,7 +6309,7 @@
 		"id": "ST-573",
 		"lat": 51.668753,
 		"lon": 12.256439,
-		"name": "Grundschule \"Erich Weinert\"",
+		"name": "Grundschule Erich Weinert",
 		"phone": "03494/33678",
 		"state": "ST"
 	},
@@ -6320,7 +6320,7 @@
 		"id": "ST-574",
 		"lat": 51.909631,
 		"lon": 10.80196,
-		"name": "Grundschule \"Erich Kaestner\"",
+		"name": "Grundschule Erich Kaestner",
 		"phone": "039458/3980",
 		"state": "ST"
 	},
@@ -6331,7 +6331,7 @@
 		"id": "ST-575",
 		"lat": 52.280905,
 		"lon": 11.393601,
-		"name": "Grundschule \"Erich Kaestner\"",
+		"name": "Grundschule Erich Kaestner",
 		"phone": "03904/43280",
 		"state": "ST"
 	},
@@ -6342,7 +6342,7 @@
 		"id": "ST-576",
 		"lat": 51.709109,
 		"lon": 11.422699,
-		"name": "Grundschule \"Einetal-Vorharz\"",
+		"name": "Grundschule Einetal-Vorharz",
 		"phone": "03473/807091",
 		"state": "ST"
 	},
@@ -6353,7 +6353,7 @@
 		"id": "ST-577",
 		"lat": 52.431763,
 		"lon": 10.988585,
-		"name": "Grundschule \"Droemlingfuechse\"",
+		"name": "Grundschule Droemlingfuechse",
 		"phone": "039002/43840",
 		"state": "ST"
 	},
@@ -6364,7 +6364,7 @@
 		"id": "ST-578",
 		"lat": 51.881794,
 		"lon": 11.169972,
-		"name": "Grundschule \"Dr. Wilhelm Schmidt\"",
+		"name": "Grundschule Dr. Wilhelm Schmidt",
 		"phone": "039423/7315",
 		"state": "ST"
 	},
@@ -6375,7 +6375,7 @@
 		"id": "ST-579",
 		"lat": 52.012181,
 		"lon": 11.722291,
-		"name": "Grundschule \"Dr. Tolberg\"",
+		"name": "Grundschule Dr. Tolberg",
 		"phone": "03928/67200",
 		"state": "ST"
 	},
@@ -6386,7 +6386,7 @@
 		"id": "ST-580",
 		"lat": 52.585958,
 		"lon": 11.094579,
-		"name": "Grundschule \"Dr. Schultz-Lupitz\" Kusey",
+		"name": "Grundschule Dr. Schultz-Lupitz Kusey",
 		"phone": "039005/443",
 		"state": "ST"
 	},
@@ -6397,7 +6397,7 @@
 		"id": "ST-581",
 		"lat": 51.690985,
 		"lon": 10.850081,
-		"name": "Grundschule \"Dr. Hermann Blumenau\"",
+		"name": "Grundschule Dr. Hermann Blumenau",
 		"phone": "039459/71441",
 		"state": "ST"
 	},
@@ -6408,7 +6408,7 @@
 		"id": "ST-582",
 		"lat": 52.746672,
 		"lon": 10.883029,
-		"name": "Grundschule \"Dr. Georg Schulze\"",
+		"name": "Grundschule Dr. Georg Schulze",
 		"phone": "03902/271",
 		"state": "ST"
 	},
@@ -6419,7 +6419,7 @@
 		"id": "ST-583",
 		"lat": 50.8337861,
 		"lon": 6.5399978,
-		"name": "Grundschule \"Dr. Emanuel Lasker\"",
+		"name": "Grundschule Dr. Emanuel Lasker",
 		"phone": "039427/508",
 		"state": "ST"
 	},
@@ -6430,7 +6430,7 @@
 		"id": "ST-584",
 		"lat": 52.890543,
 		"lon": 11.746806,
-		"name": "Grundschule \"Dr. Albert Steinert\"",
+		"name": "Grundschule Dr. Albert Steinert",
 		"phone": "039386/51633",
 		"state": "ST"
 	},
@@ -6441,7 +6441,7 @@
 		"id": "ST-585",
 		"lat": 51.45725,
 		"lon": 11.955242,
-		"name": "Grundschule \"Diesterweg\"",
+		"name": "Grundschule Diesterweg",
 		"phone": "0345/1217456",
 		"state": "ST"
 	},
@@ -6452,7 +6452,7 @@
 		"id": "ST-586",
 		"lat": 52.129839,
 		"lon": 11.569916,
-		"name": "Grundschule \"Diesdorf\"",
+		"name": "Grundschule Diesdorf",
 		"phone": "0391/7392442",
 		"state": "ST"
 	},
@@ -6463,7 +6463,7 @@
 		"id": "ST-587",
 		"lat": 52.543882,
 		"lon": 11.973234,
-		"name": "Grundschule \"Comenius\"",
+		"name": "Grundschule Comenius",
 		"phone": "039322/3639",
 		"state": "ST"
 	},
@@ -6474,7 +6474,7 @@
 		"id": "ST-588",
 		"lat": 52.1546642,
 		"lon": 11.18196,
-		"name": "Grundschule \"Burg Ummendorf\"",
+		"name": "Grundschule Burg Ummendorf",
 		"phone": "039409/422",
 		"state": "ST"
 	},
@@ -6485,7 +6485,7 @@
 		"id": "ST-589",
 		"lat": 52.102214,
 		"lon": 11.641043,
-		"name": "Grundschule \"Buckau\"",
+		"name": "Grundschule Buckau",
 		"phone": "0391/4015128",
 		"state": "ST"
 	},
@@ -6496,7 +6496,7 @@
 		"id": "ST-590",
 		"lat": 52.256541,
 		"lon": 11.222586,
-		"name": "Grundschule \"Beverspring\"",
+		"name": "Grundschule Beverspring",
 		"phone": "039052/345",
 		"state": "ST"
 	},
@@ -6507,7 +6507,7 @@
 		"id": "ST-591",
 		"lat": 52.236306,
 		"lon": 11.090301,
-		"name": "Grundschule \"Bernhard Becker\"",
+		"name": "Grundschule Bernhard Becker",
 		"phone": "039050/2239",
 		"state": "ST"
 	},
@@ -6518,7 +6518,7 @@
 		"id": "ST-592",
 		"lat": 51.478046,
 		"lon": 11.971147,
-		"name": "Grundschule \"August Hermann Francke\"",
+		"name": "Grundschule August Hermann Francke",
 		"phone": "0345/2024320",
 		"state": "ST"
 	},
@@ -6529,7 +6529,7 @@
 		"id": "ST-593",
 		"lat": 51.74986,
 		"lon": 11.052963,
-		"name": "Grundschule \"Auf den Hoehen\"",
+		"name": "Grundschule Auf den Hoehen",
 		"phone": "03947/5201",
 		"state": "ST"
 	},
@@ -6540,7 +6540,7 @@
 		"id": "ST-594",
 		"lat": 52.654508,
 		"lon": 11.3879,
-		"name": "Grundschule \"Astrid Lindgren\" Kalbe (Milde)",
+		"name": "Grundschule Astrid Lindgren Kalbe (Milde)",
 		"phone": "039080/2162",
 		"state": "ST"
 	},
@@ -6551,7 +6551,7 @@
 		"id": "ST-595",
 		"lat": 51.956813,
 		"lon": 12.07639,
-		"name": "Grundschule \"Astrid Lindgren\"",
+		"name": "Grundschule Astrid Lindgren",
 		"phone": "03923/2212",
 		"state": "ST"
 	},
@@ -6562,7 +6562,7 @@
 		"id": "ST-596",
 		"lat": 51.391412,
 		"lon": 11.981661,
-		"name": "Grundschule \"Astrid Lindgren\"",
+		"name": "Grundschule Astrid Lindgren",
 		"phone": "03461/794480",
 		"state": "ST"
 	},
@@ -6573,7 +6573,7 @@
 		"id": "ST-597",
 		"lat": 52.196693,
 		"lon": 11.538376,
-		"name": "Grundschule \"Astrid Lindgren\"",
+		"name": "Grundschule Astrid Lindgren",
 		"phone": "039202/6327",
 		"state": "ST"
 	},
@@ -6584,7 +6584,7 @@
 		"id": "ST-598",
 		"lat": 51.878234,
 		"lon": 11.054519,
-		"name": "Grundschule \"Anne Frank\"",
+		"name": "Grundschule Anne Frank",
 		"phone": "03941/442161",
 		"state": "ST"
 	},
@@ -6595,7 +6595,7 @@
 		"id": "ST-599",
 		"lat": 52.131316,
 		"lon": 11.608504,
-		"name": "Grundschule \"Annastrasse\"",
+		"name": "Grundschule Annastrasse",
 		"phone": "0391/7332089",
 		"state": "ST"
 	},
@@ -6606,7 +6606,7 @@
 		"id": "ST-600",
 		"lat": 51.638448,
 		"lon": 12.313925,
-		"name": "Grundschule \"Anhaltsiedlung\"",
+		"name": "Grundschule Anhaltsiedlung",
 		"phone": "03493/23501",
 		"state": "ST"
 	},
@@ -6617,7 +6617,7 @@
 		"id": "ST-601",
 		"lat": 51.772508,
 		"lon": 11.007972,
-		"name": "Grundschule \"An der Teufelsmauer\"",
+		"name": "Grundschule An der Teufelsmauer",
 		"phone": "03947/2805",
 		"state": "ST"
 	},
@@ -6628,7 +6628,7 @@
 		"id": "ST-602",
 		"lat": 51.967846,
 		"lon": 12.078228,
-		"name": "Grundschule \"An der Stadtmauer\"",
+		"name": "Grundschule An der Stadtmauer",
 		"phone": "03923/780042",
 		"state": "ST"
 	},
@@ -6639,7 +6639,7 @@
 		"id": "ST-603",
 		"lat": 52.167101,
 		"lon": 11.636388,
-		"name": "Grundschule \"An der Klosterwuhne\"",
+		"name": "Grundschule An der Klosterwuhne",
 		"phone": "0391/2537902",
 		"state": "ST"
 	},
@@ -6650,7 +6650,7 @@
 		"id": "ST-604",
 		"lat": 51.800373,
 		"lon": 12.183944,
-		"name": "Grundschule \"An der Heide\"",
+		"name": "Grundschule An der Heide",
 		"phone": "0340/517696",
 		"state": "ST"
 	},
@@ -6661,7 +6661,7 @@
 		"id": "ST-605",
 		"lat": 52.03738,
 		"lon": 12.100415,
-		"name": "Grundschule \"An der Burg\"",
+		"name": "Grundschule An der Burg",
 		"phone": "039246/215",
 		"state": "ST"
 	},
@@ -6672,7 +6672,7 @@
 		"id": "ST-606",
 		"lat": 52.0953318,
 		"lon": 11.3131766,
-		"name": "Grundschule \"An der Burg\"",
+		"name": "Grundschule An der Burg",
 		"phone": "039209/2128",
 		"state": "ST"
 	},
@@ -6683,7 +6683,7 @@
 		"id": "ST-607",
 		"lat": 52.430048,
 		"lon": 10.988386,
-		"name": "Grundschule \"An der Aller\"",
+		"name": "Grundschule An der Aller",
 		"phone": "039002/42216",
 		"state": "ST"
 	},
@@ -6694,7 +6694,7 @@
 		"id": "ST-608",
 		"lat": 52.240666,
 		"lon": 11.343842,
-		"name": "Grundschule \"An den Wellenbergen\"",
+		"name": "Grundschule An den Wellenbergen",
 		"phone": "039062/977980",
 		"state": "ST"
 	},
@@ -6705,7 +6705,7 @@
 		"id": "ST-609",
 		"lat": 51.950186,
 		"lon": 11.480603,
-		"name": "Grundschule \"An den Linden\"",
+		"name": "Grundschule An den Linden",
 		"phone": "039268/32508",
 		"state": "ST"
 	},
@@ -6716,7 +6716,7 @@
 		"id": "ST-610",
 		"lat": 51.611629,
 		"lon": 12.269543,
-		"name": "Grundschule \"An den Linden\"",
+		"name": "Grundschule An den Linden",
 		"phone": "03493/88175",
 		"state": "ST"
 	},
@@ -6727,7 +6727,7 @@
 		"id": "ST-611",
 		"lat": 52.164479,
 		"lon": 11.482098,
-		"name": "Grundschule \"Am Wildpark\"",
+		"name": "Grundschule Am Wildpark",
 		"phone": "039204/64197",
 		"state": "ST"
 	},
@@ -6738,7 +6738,7 @@
 		"id": "ST-612",
 		"lat": 52.126485,
 		"lon": 11.605473,
-		"name": "Grundschule \"Am Westring\"",
+		"name": "Grundschule Am Westring",
 		"phone": "0391/5065722",
 		"state": "ST"
 	},
@@ -6749,7 +6749,7 @@
 		"id": "ST-613",
 		"lat": 52.073931,
 		"lon": 11.819566,
-		"name": "Grundschule \"Am Weinberg\"",
+		"name": "Grundschule Am Weinberg",
 		"phone": "039200/50149",
 		"state": "ST"
 	},
@@ -6760,7 +6760,7 @@
 		"id": "ST-614",
 		"lat": 51.431376,
 		"lon": 11.573541,
-		"name": "Grundschule \"Am Weinberg\"",
+		"name": "Grundschule Am Weinberg",
 		"phone": "034776/20530",
 		"state": "ST"
 	},
@@ -6771,7 +6771,7 @@
 		"id": "ST-615",
 		"lat": 52.668791,
 		"lon": 12.070867,
-		"name": "Grundschule \"Am Waeldchen\" Klietz",
+		"name": "Grundschule Am Waeldchen Klietz",
 		"phone": "039327/239",
 		"state": "ST"
 	},
@@ -6782,7 +6782,7 @@
 		"id": "ST-616",
 		"lat": 52.390279,
 		"lon": 11.191083,
-		"name": "Grundschule \"Am Wald\"",
+		"name": "Grundschule Am Wald",
 		"phone": "039059/310",
 		"state": "ST"
 	},
@@ -6793,7 +6793,7 @@
 		"id": "ST-617",
 		"lat": 52.166437,
 		"lon": 11.645115,
-		"name": "Grundschule \"Am Vogelgesang\"",
+		"name": "Grundschule Am Vogelgesang",
 		"phone": "0391/2531347",
 		"state": "ST"
 	},
@@ -6804,7 +6804,7 @@
 		"id": "ST-618",
 		"lat": 52.156247,
 		"lon": 11.629038,
-		"name": "Grundschule \"Am Umfassungsweg\"",
+		"name": "Grundschule Am Umfassungsweg",
 		"phone": "0391/2515320",
 		"state": "ST"
 	},
@@ -6815,7 +6815,7 @@
 		"id": "ST-619",
 		"lat": 52.433786,
 		"lon": 11.819707,
-		"name": "Grundschule \"Am Tanger\" Tangerhuette",
+		"name": "Grundschule Am Tanger Tangerhuette",
 		"phone": "03935/2386",
 		"state": "ST"
 	},
@@ -6826,7 +6826,7 @@
 		"id": "ST-620",
 		"lat": 51.476233,
 		"lon": 11.321517,
-		"name": "Grundschule \"Am Rosarium\"",
+		"name": "Grundschule Am Rosarium",
 		"phone": "03464/578218",
 		"state": "ST"
 	},
@@ -6837,7 +6837,7 @@
 		"id": "ST-621",
 		"lat": 51.801216,
 		"lon": 10.951849,
-		"name": "Grundschule \"Am Regenstein\"",
+		"name": "Grundschule Am Regenstein",
 		"phone": "03944/61583",
 		"state": "ST"
 	},
@@ -6848,7 +6848,7 @@
 		"id": "ST-622",
 		"lat": 52.113962,
 		"lon": 11.671532,
-		"name": "Grundschule \"Am Pechauer Platz\"",
+		"name": "Grundschule Am Pechauer Platz",
 		"phone": "0391/8111128",
 		"state": "ST"
 	},
@@ -6859,7 +6859,7 @@
 		"id": "ST-623",
 		"lat": 52.138879,
 		"lon": 11.496323,
-		"name": "Grundschule \"Am Muehlenberg\"",
+		"name": "Grundschule Am Muehlenberg",
 		"phone": "039204/66630",
 		"state": "ST"
 	},
@@ -6870,7 +6870,7 @@
 		"id": "ST-624",
 		"lat": 51.515228,
 		"lon": 12.095089,
-		"name": "Grundschule \"Am Muehlberg\"",
+		"name": "Grundschule Am Muehlberg",
 		"phone": "034602/50109",
 		"state": "ST"
 	},
@@ -6881,7 +6881,7 @@
 		"id": "ST-625",
 		"lat": 51.712616,
 		"lon": 12.291908,
-		"name": "Grundschule \"Am Markt\"",
+		"name": "Grundschule Am Markt",
 		"phone": "034906/20227",
 		"state": "ST"
 	},
@@ -6892,7 +6892,7 @@
 		"id": "ST-626",
 		"lat": 51.64571,
 		"lon": 11.511031,
-		"name": "Grundschule \"Am Markt\"",
+		"name": "Grundschule Am Markt",
 		"phone": "03476/813391",
 		"state": "ST"
 	},
@@ -6903,7 +6903,7 @@
 		"id": "ST-627",
 		"lat": 51.470002,
 		"lon": 11.96473,
-		"name": "Grundschule \"Am Ludwigsfeld\"",
+		"name": "Grundschule Am Ludwigsfeld",
 		"phone": "0345/1319690",
 		"state": "ST"
 	},
@@ -6914,7 +6914,7 @@
 		"id": "ST-628",
 		"lat": 52.008328,
 		"lon": 11.736002,
-		"name": "Grundschule \"Am Lerchenfeld\"",
+		"name": "Grundschule Am Lerchenfeld",
 		"phone": "03928/4219990",
 		"state": "ST"
 	},
@@ -6925,7 +6925,7 @@
 		"id": "ST-629",
 		"lat": 51.469335,
 		"lon": 11.926294,
-		"name": "Grundschule \"Am Kirchteich\"",
+		"name": "Grundschule Am Kirchteich",
 		"phone": "0345/8059885",
 		"state": "ST"
 	},
@@ -6936,7 +6936,7 @@
 		"id": "ST-630",
 		"lat": 51.901301,
 		"lon": 10.732685,
-		"name": "Grundschule \"Am Kirchplatz\" Veckenstedt",
+		"name": "Grundschule Am Kirchplatz Veckenstedt",
 		"phone": "039451/631840",
 		"state": "ST"
 	},
@@ -6947,7 +6947,7 @@
 		"id": "ST-631",
 		"lat": 52.171485,
 		"lon": 11.61906,
-		"name": "Grundschule \"Am Kannenstieg\"",
+		"name": "Grundschule Am Kannenstieg",
 		"phone": "0391/2445810",
 		"state": "ST"
 	},
@@ -6958,7 +6958,7 @@
 		"id": "ST-632",
 		"lat": 52.087035,
 		"lon": 11.625353,
-		"name": "Grundschule \"Am Hopfengarten\"",
+		"name": "Grundschule Am Hopfengarten",
 		"phone": "0391/6227016",
 		"state": "ST"
 	},
@@ -6969,7 +6969,7 @@
 		"id": "ST-633",
 		"lat": 51.781169,
 		"lon": 11.150383,
-		"name": "Grundschule \"Am Heinrichsplatz\"",
+		"name": "Grundschule Am Heinrichsplatz",
 		"phone": "03946/51362",
 		"state": "ST"
 	},
@@ -6980,7 +6980,7 @@
 		"id": "ST-634",
 		"lat": 52.261368,
 		"lon": 11.572493,
-		"name": "Grundschule \"Am Heiderand\"",
+		"name": "Grundschule Am Heiderand",
 		"phone": "039202/66752",
 		"state": "ST"
 	},
@@ -6991,7 +6991,7 @@
 		"id": "ST-635",
 		"lat": 51.729591,
 		"lon": 11.131427,
-		"name": "Grundschule \"Am Hagenberg\"",
+		"name": "Grundschule Am Hagenberg",
 		"phone": "039485/384",
 		"state": "ST"
 	},
@@ -7002,7 +7002,7 @@
 		"id": "ST-636",
 		"lat": 52.143362,
 		"lon": 11.583657,
-		"name": "Grundschule \"Am Grenzweg\"",
+		"name": "Grundschule Am Grenzweg",
 		"phone": "0391/725270",
 		"state": "ST"
 	},
@@ -7013,7 +7013,7 @@
 		"id": "ST-637",
 		"lat": 52.126495,
 		"lon": 11.616195,
-		"name": "Grundschule \"Am Glacis\"",
+		"name": "Grundschule Am Glacis",
 		"phone": "0391/7332242",
 		"state": "ST"
 	},
@@ -7024,7 +7024,7 @@
 		"id": "ST-638",
 		"lat": 52.187668,
 		"lon": 11.048185,
-		"name": "Grundschule \"Am Ginkgo Patt\"",
+		"name": "Grundschule Am Ginkgo Patt",
 		"phone": "039406/212",
 		"state": "ST"
 	},
@@ -7035,7 +7035,7 @@
 		"id": "ST-639",
 		"lat": 51.333431,
 		"lon": 11.984173,
-		"name": "Grundschule \"Am Geiseltaltor\"",
+		"name": "Grundschule Am Geiseltaltor",
 		"phone": "03461/500003",
 		"state": "ST"
 	},
@@ -7046,7 +7046,7 @@
 		"id": "ST-640",
 		"lat": 52.154223,
 		"lon": 11.591414,
-		"name": "Grundschule \"Am Fliederhof\"",
+		"name": "Grundschule Am Fliederhof",
 		"phone": "0391/7225401",
 		"state": "ST"
 	},
@@ -7057,7 +7057,7 @@
 		"id": "ST-641",
 		"lat": 52.124016,
 		"lon": 11.65382,
-		"name": "Grundschule \"Am Elbdamm\"",
+		"name": "Grundschule Am Elbdamm",
 		"phone": "0391/8344254",
 		"state": "ST"
 	},
@@ -7068,7 +7068,7 @@
 		"id": "ST-642",
 		"lat": 52.826274,
 		"lon": 12.087585,
-		"name": "Grundschule \"Am Eichenwald\"",
+		"name": "Grundschule Am Eichenwald",
 		"phone": "039387/8127",
 		"state": "ST"
 	},
@@ -7079,7 +7079,7 @@
 		"id": "ST-643",
 		"lat": 52.12545,
 		"lon": 11.6659,
-		"name": "Grundschule \"Am Brueckfeld\"",
+		"name": "Grundschule Am Brueckfeld",
 		"phone": "0391/8355799",
 		"state": "ST"
 	},
@@ -7090,7 +7090,7 @@
 		"id": "ST-644",
 		"lat": 51.965964,
 		"lon": 11.127506,
-		"name": "Grundschule \"Am Baumhof\"",
+		"name": "Grundschule Am Baumhof",
 		"phone": "039424/234",
 		"state": "ST"
 	},
@@ -7101,7 +7101,7 @@
 		"id": "ST-645",
 		"lat": 51.832146,
 		"lon": 12.234156,
-		"name": "Grundschule \"Am Akazienwaeldchen\"",
+		"name": "Grundschule Am Akazienwaeldchen",
 		"phone": "0340/2209866",
 		"state": "ST"
 	},
@@ -7112,7 +7112,7 @@
 		"id": "ST-646",
 		"lat": 52.155231,
 		"lon": 11.568809,
-		"name": "Grundschule \"Alt Olvenstedt\"",
+		"name": "Grundschule Alt Olvenstedt",
 		"phone": "0391/7270543",
 		"state": "ST"
 	},
@@ -7123,7 +7123,7 @@
 		"id": "ST-647",
 		"lat": 51.798336,
 		"lon": 12.016088,
-		"name": "Grundschule \"Alfred Wirth\"",
+		"name": "Grundschule Alfred Wirth",
 		"phone": "034973/21251",
 		"state": "ST"
 	},
@@ -7134,7 +7134,7 @@
 		"id": "ST-648",
 		"lat": 51.355651,
 		"lon": 11.982344,
-		"name": "Grundschule \"Albrecht Duerer\"",
+		"name": "Grundschule Albrecht Duerer",
 		"phone": "03461/211743",
 		"state": "ST"
 	},
@@ -7145,7 +7145,7 @@
 		"id": "ST-649",
 		"lat": 51.899268,
 		"lon": 10.658022,
-		"name": "Grundschule \"Albert Schweitzer\"",
+		"name": "Grundschule Albert Schweitzer",
 		"phone": "039452/9216",
 		"state": "ST"
 	},
@@ -7156,7 +7156,7 @@
 		"id": "ST-650",
 		"lat": 51.96667,
 		"lon": 10.91667,
-		"name": "Grundschule \"Albert Klaus\"",
+		"name": "Grundschule Albert Klaus",
 		"phone": "039422/201",
 		"state": "ST"
 	},
@@ -7167,7 +7167,7 @@
 		"id": "ST-651",
 		"lat": 51.200138,
 		"lon": 11.949334,
-		"name": "Grundschule \"Albert Einstein\"",
+		"name": "Grundschule Albert Einstein",
 		"phone": "03443/801178",
 		"state": "ST"
 	},
@@ -7178,7 +7178,7 @@
 		"id": "ST-652",
 		"lat": 52.273885,
 		"lon": 11.84786,
-		"name": "Grundschule \"Albert Einstein\"",
+		"name": "Grundschule Albert Einstein",
 		"phone": "03921/2159",
 		"state": "ST"
 	},
@@ -7189,7 +7189,7 @@
 		"id": "ST-653",
 		"lat": 52.247446,
 		"lon": 11.632073,
-		"name": "Grundschule \"Adolph Diesterweg\"",
+		"name": "Grundschule Adolph Diesterweg",
 		"phone": "039201/21367",
 		"state": "ST"
 	},
@@ -7200,7 +7200,7 @@
 		"id": "ST-654",
 		"lat": 52.417642,
 		"lon": 12.140085,
-		"name": "Grundschule \"Adolph Diesterweg\"",
+		"name": "Grundschule Adolph Diesterweg",
 		"phone": "03933/805264",
 		"state": "ST"
 	},
@@ -7211,7 +7211,7 @@
 		"id": "ST-655",
 		"lat": 51.799873,
 		"lon": 11.736126,
-		"name": "Grundschule \"Adolf Diesterweg\"",
+		"name": "Grundschule Adolf Diesterweg",
 		"phone": "03471/353864",
 		"state": "ST"
 	},
@@ -7222,7 +7222,7 @@
 		"id": "ST-656",
 		"lat": 52.026041,
 		"lon": 11.232335,
-		"name": "Grundschule \"A. S. Puschkin\"",
+		"name": "Grundschule A. S. Puschkin",
 		"phone": "03949/9498169",
 		"state": "ST"
 	},
@@ -7233,7 +7233,7 @@
 		"id": "ST-657",
 		"lat": 51.791016,
 		"lon": 11.747701,
-		"name": "Grundschule  \"Franz Mehring\"",
+		"name": "Grundschule  Franz Mehring",
 		"phone": "03471/311194",
 		"state": "ST"
 	},
@@ -7299,7 +7299,7 @@
 		"id": "ST-663",
 		"lat": 51.501368,
 		"lon": 11.958405,
-		"name": "Giebichenstein-Gymnasium \"Thomas Muentzer\"",
+		"name": "Giebichenstein-Gymnasium Thomas Muentzer",
 		"phone": "0345/530400",
 		"state": "ST"
 	},
@@ -7387,7 +7387,7 @@
 		"id": "ST-671",
 		"lat": 52.102537,
 		"lon": 11.640428,
-		"name": "Gemeinschaftsschule/Sekundarschule \"Heinrich Heine\"",
+		"name": "Gemeinschaftsschule/Sekundarschule Heinrich Heine",
 		"phone": "0391/4015132",
 		"state": "ST"
 	},
@@ -7420,7 +7420,7 @@
 		"id": "ST-674",
 		"lat": 51.47445,
 		"lon": 11.927893,
-		"name": "Gemeinschaftsschule / Sekundarschule \"Kastanienallee\"",
+		"name": "Gemeinschaftsschule / Sekundarschule Kastanienallee",
 		"phone": "0345/8045252",
 		"state": "ST"
 	},
@@ -7442,7 +7442,7 @@
 		"id": "ST-676",
 		"lat": 52.438314,
 		"lon": 11.802621,
-		"name": "Gemeinschaftsschule \"Wilhelm Wundt\"",
+		"name": "Gemeinschaftsschule Wilhelm Wundt",
 		"phone": "03935/926779",
 		"state": "ST"
 	},
@@ -7453,7 +7453,7 @@
 		"id": "ST-677",
 		"lat": 52.124016,
 		"lon": 11.65382,
-		"name": "Gemeinschaftsschule \"Thomas Mann\"",
+		"name": "Gemeinschaftsschule Thomas Mann",
 		"phone": "0391/857639",
 		"state": "ST"
 	},
@@ -7464,7 +7464,7 @@
 		"id": "ST-678",
 		"lat": 52.128792,
 		"lon": 11.582333,
-		"name": "Gemeinschaftsschule \"Oskar Linke\"",
+		"name": "Gemeinschaftsschule Oskar Linke",
 		"phone": "0391/7391012",
 		"state": "ST"
 	},
@@ -7475,7 +7475,7 @@
 		"id": "ST-679",
 		"lat": 52.2476,
 		"lon": 11.623901,
-		"name": "Gemeinschaftsschule \"Gottfried Wilhelm Leibniz\"",
+		"name": "Gemeinschaftsschule Gottfried Wilhelm Leibniz",
 		"phone": "039201/29206",
 		"state": "ST"
 	},
@@ -7486,7 +7486,7 @@
 		"id": "ST-680",
 		"lat": 52.1186,
 		"lon": 11.62929,
-		"name": "Gemeinschaftsschule \"Gottfried Wilhelm Leibniz\"",
+		"name": "Gemeinschaftsschule Gottfried Wilhelm Leibniz",
 		"phone": "0391/5414667",
 		"state": "ST"
 	},
@@ -7497,7 +7497,7 @@
 		"id": "ST-681",
 		"lat": 52.140608,
 		"lon": 11.958005,
-		"name": "Gemeinschaftsschule \"Am Park\" Moeckern",
+		"name": "Gemeinschaftsschule Am Park Moeckern",
 		"phone": "039221/288",
 		"state": "ST"
 	},
@@ -7508,7 +7508,7 @@
 		"id": "ST-682",
 		"lat": 52.091059,
 		"lon": 11.573088,
-		"name": "Gemeinschaftsschule \"Ernst Wille\"",
+		"name": "Gemeinschaftsschule Ernst Wille",
 		"phone": "0391/6345014",
 		"state": "ST"
 	},
@@ -7519,7 +7519,7 @@
 		"id": "ST-683",
 		"lat": 52.152187,
 		"lon": 11.58125,
-		"name": "Gemeinschafts- und Sekundarschule \"Wilhelm Weitling\"",
+		"name": "Gemeinschafts- und Sekundarschule Wilhelm Weitling",
 		"phone": "0391/7226167",
 		"state": "ST"
 	},
@@ -7530,7 +7530,7 @@
 		"id": "ST-684",
 		"lat": 51.729487,
 		"lon": 11.127986,
-		"name": "Gemeinschafts- und Sekundarschule \"Hagenberg\"",
+		"name": "Gemeinschafts- und Sekundarschule Hagenberg",
 		"phone": "039485/520",
 		"state": "ST"
 	},
@@ -7541,7 +7541,7 @@
 		"id": "ST-685",
 		"lat": 51.753115,
 		"lon": 11.462001,
-		"name": "Gemeinschafts- und Sekundarschule \"Adam-Olearius\" Aschersleben",
+		"name": "Gemeinschafts- und Sekundarschule Adam-Olearius Aschersleben",
 		"phone": "03473/913200",
 		"state": "ST"
 	},
@@ -7552,7 +7552,7 @@
 		"id": "ST-686",
 		"lat": 52.847218,
 		"lon": 11.151173,
-		"name": "Ganztagssekundarschule \"Comenius\"",
+		"name": "Ganztagssekundarschule Comenius",
 		"phone": "03901/424472",
 		"state": "ST"
 	},
@@ -7618,7 +7618,7 @@
 		"id": "ST-692",
 		"lat": 52.287561,
 		"lon": 11.674345,
-		"name": "Ganztagsschule \"Werner Seelenbinder\"",
+		"name": "Ganztagsschule Werner Seelenbinder",
 		"phone": "039208/2054",
 		"state": "ST"
 	},
@@ -7629,7 +7629,7 @@
 		"id": "ST-693",
 		"lat": 52.2501,
 		"lon": 11.61539,
-		"name": "Ganztagsschule \"Johannes Gutenberg\" Gemeinschaftsschule",
+		"name": "Ganztagsschule Johannes Gutenberg Gemeinschaftsschule",
 		"phone": "039201/29481",
 		"state": "ST"
 	},
@@ -7640,7 +7640,7 @@
 		"id": "ST-694",
 		"lat": 51.774015,
 		"lon": 12.634904,
-		"name": "Ganztagsschule \"Ernestine Reiske\"",
+		"name": "Ganztagsschule Ernestine Reiske",
 		"phone": "034921/21811",
 		"state": "ST"
 	},
@@ -7651,7 +7651,7 @@
 		"id": "ST-695",
 		"lat": 51.63333,
 		"lon": 11.5,
-		"name": "Ganztagsschule \"Anne Frank\"",
+		"name": "Ganztagsschule Anne Frank",
 		"phone": "03476/812336",
 		"state": "ST"
 	},
@@ -7662,7 +7662,7 @@
 		"id": "ST-696",
 		"lat": 51.765499,
 		"lon": 11.473832,
-		"name": "Ganztagsschule \"Albert Schweitzer\"",
+		"name": "Ganztagsschule Albert Schweitzer",
 		"phone": "03473/914315",
 		"state": "ST"
 	},
@@ -7684,7 +7684,7 @@
 		"id": "ST-698",
 		"lat": 52.626971,
 		"lon": 11.175722,
-		"name": "Ganztags-Sekundarschule \"Dr. Salvador Allende\"",
+		"name": "Ganztags-Sekundarschule Dr. Salvador Allende",
 		"phone": "03909/2697",
 		"state": "ST"
 	},
@@ -8058,7 +8058,7 @@
 		"id": "ST-732",
 		"lat": 50.721775,
 		"lon": 11.342615,
-		"name": "Freie Grundschule \"Maria Montessori\"",
+		"name": "Freie Grundschule Maria Montessori",
 		"phone": "03949/512698",
 		"state": "ST"
 	},
@@ -8069,7 +8069,7 @@
 		"id": "ST-733",
 		"lat": 51.255702,
 		"lon": 12.139944,
-		"name": "Freie Gesamtschule \"Gustav-Adolf\"",
+		"name": "Freie Gesamtschule Gustav-Adolf",
 		"phone": "034444/900081",
 		"state": "ST"
 	},
@@ -8135,7 +8135,7 @@
 		"id": "ST-739",
 		"lat": 52.149892,
 		"lon": 11.591682,
-		"name": "Foerderschule mit Ausgleichsklassen \"Makarenko\"",
+		"name": "Foerderschule mit Ausgleichsklassen Makarenko",
 		"phone": "0391/5432114",
 		"state": "ST"
 	},
@@ -8146,7 +8146,7 @@
 		"id": "ST-740",
 		"lat": 51.440939,
 		"lon": 11.970909,
-		"name": "Foerderschule mit Ausgleichsklassen \"Janusz Korczak\"",
+		"name": "Foerderschule mit Ausgleichsklassen Janusz Korczak",
 		"phone": "0345/7760246",
 		"state": "ST"
 	},
@@ -8157,7 +8157,7 @@
 		"id": "ST-741",
 		"lat": 51.469993,
 		"lon": 11.925812,
-		"name": "Foerderschule mit Ausgleichsklassen \"Christian Gotthilf Salzmann\"",
+		"name": "Foerderschule mit Ausgleichsklassen Christian Gotthilf Salzmann",
 		"phone": "0345/8059304",
 		"state": "ST"
 	},
@@ -8168,7 +8168,7 @@
 		"id": "ST-742",
 		"lat": 52.355506,
 		"lon": 12.081492,
-		"name": "Foerderschule mit Ausgleichsklassen \"Albrecht Duerer\"",
+		"name": "Foerderschule mit Ausgleichsklassen Albrecht Duerer",
 		"phone": "039345/94887",
 		"state": "ST"
 	},
@@ -8245,7 +8245,7 @@
 		"id": "ST-749",
 		"lat": 52.265983,
 		"lon": 11.836623,
-		"name": "Foerderschule (LB) \"Theodor Neubauer\"",
+		"name": "Foerderschule (LB) Theodor Neubauer",
 		"phone": "03921/984827",
 		"state": "ST"
 	},
@@ -8256,7 +8256,7 @@
 		"id": "ST-750",
 		"lat": 52.139529,
 		"lon": 11.609583,
-		"name": "Foerderschule (LB) \"Salzmann\"",
+		"name": "Foerderschule (LB) Salzmann",
 		"phone": "0391/7333559",
 		"state": "ST"
 	},
@@ -8267,7 +8267,7 @@
 		"id": "ST-751",
 		"lat": 52.528677,
 		"lon": 11.402284,
-		"name": "Foerderschule (LB) \"Rosa Luxemburg\"",
+		"name": "Foerderschule (LB) Rosa Luxemburg",
 		"phone": "03907/712101",
 		"state": "ST"
 	},
@@ -8278,7 +8278,7 @@
 		"id": "ST-752",
 		"lat": 51.150834,
 		"lon": 11.798023,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03445/232881",
 		"state": "ST"
 	},
@@ -8289,7 +8289,7 @@
 		"id": "ST-753",
 		"lat": 51.158961,
 		"lon": 12.096808,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "034441/20146",
 		"state": "ST"
 	},
@@ -8300,7 +8300,7 @@
 		"id": "ST-754",
 		"lat": 52.291002,
 		"lon": 11.406314,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03904/2559",
 		"state": "ST"
 	},
@@ -8311,7 +8311,7 @@
 		"id": "ST-755",
 		"lat": 51.467118,
 		"lon": 11.957717,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "0345/1215006",
 		"state": "ST"
 	},
@@ -8322,7 +8322,7 @@
 		"id": "ST-756",
 		"lat": 51.820023,
 		"lon": 12.248603,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "0340/213920",
 		"state": "ST"
 	},
@@ -8333,7 +8333,7 @@
 		"id": "ST-757",
 		"lat": 51.874346,
 		"lon": 12.659911,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03491/481073",
 		"state": "ST"
 	},
@@ -8344,7 +8344,7 @@
 		"id": "ST-758",
 		"lat": 52.596308,
 		"lon": 11.826443,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03931/412013",
 		"state": "ST"
 	},
@@ -8355,7 +8355,7 @@
 		"id": "ST-759",
 		"lat": 51.861729,
 		"lon": 11.558196,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03925/623071",
 		"state": "ST"
 	},
@@ -8366,7 +8366,7 @@
 		"id": "ST-760",
 		"lat": 52.020796,
 		"lon": 11.734053,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03928/403791",
 		"state": "ST"
 	},
@@ -8377,7 +8377,7 @@
 		"id": "ST-761",
 		"lat": 51.460296,
 		"lon": 11.288427,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03464/344456",
 		"state": "ST"
 	},
@@ -8388,7 +8388,7 @@
 		"id": "ST-762",
 		"lat": 51.53279,
 		"lon": 11.552387,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03475/602042",
 		"state": "ST"
 	},
@@ -8399,7 +8399,7 @@
 		"id": "ST-763",
 		"lat": 51.766366,
 		"lon": 10.907103,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03944/36360",
 		"state": "ST"
 	},
@@ -8410,7 +8410,7 @@
 		"id": "ST-764",
 		"lat": 51.2,
 		"lon": 11.96667,
-		"name": "Foerderschule (LB) \"Pestalozzi\"",
+		"name": "Foerderschule (LB) Pestalozzi",
 		"phone": "03443/801004",
 		"state": "ST"
 	},
@@ -8421,7 +8421,7 @@
 		"id": "ST-765",
 		"lat": 51.801315,
 		"lon": 11.729936,
-		"name": "Foerderschule (LB) \"Otto Dorn\"",
+		"name": "Foerderschule (LB) Otto Dorn",
 		"phone": "03471/352030",
 		"state": "ST"
 	},
@@ -8432,7 +8432,7 @@
 		"id": "ST-766",
 		"lat": 51.477148,
 		"lon": 11.941519,
-		"name": "Foerderschule (LB) \"Makarenko\"",
+		"name": "Foerderschule (LB) Makarenko",
 		"phone": "0345/8044306",
 		"state": "ST"
 	},
@@ -8443,7 +8443,7 @@
 		"id": "ST-767",
 		"lat": 51.475001,
 		"lon": 11.909169,
-		"name": "Foerderschule (LB) \"Friedrich Froebel\"",
+		"name": "Foerderschule (LB) Friedrich Froebel",
 		"phone": "0345/8059920",
 		"state": "ST"
 	},
@@ -8454,7 +8454,7 @@
 		"id": "ST-768",
 		"lat": 51.625686,
 		"lon": 12.313565,
-		"name": "Foerderschule (LB) \"Erich Kaestner\"",
+		"name": "Foerderschule (LB) Erich Kaestner",
 		"phone": "03493/23248",
 		"state": "ST"
 	},
@@ -8465,7 +8465,7 @@
 		"id": "ST-769",
 		"lat": 52.106557,
 		"lon": 11.639041,
-		"name": "Foerderschule (LB) \"Erich Kaestner\"",
+		"name": "Foerderschule (LB) Erich Kaestner",
 		"phone": "0391/4042380",
 		"state": "ST"
 	},
@@ -8476,7 +8476,7 @@
 		"id": "ST-770",
 		"lat": 51.749978,
 		"lon": 11.951138,
-		"name": "Foerderschule (LB) \"Dr. Samuel Hahnemann\"",
+		"name": "Foerderschule (LB) Dr. Samuel Hahnemann",
 		"phone": "03496/50250",
 		"state": "ST"
 	},
@@ -8487,7 +8487,7 @@
 		"id": "ST-771",
 		"lat": 51.783859,
 		"lon": 11.141973,
-		"name": "Foerderschule (LB) \"David-Sachs-Schule\"",
+		"name": "Foerderschule (LB) David-Sachs-Schule",
 		"phone": "03946/2015",
 		"state": "ST"
 	},
@@ -8498,7 +8498,7 @@
 		"id": "ST-772",
 		"lat": 52.750601,
 		"lon": 11.767256,
-		"name": "Foerderschule (LB) \"Anne Frank\"",
+		"name": "Foerderschule (LB) Anne Frank",
 		"phone": "03937/82069",
 		"state": "ST"
 	},
@@ -8509,7 +8509,7 @@
 		"id": "ST-773",
 		"lat": 51.731823,
 		"lon": 12.4528,
-		"name": "Foerderschule (LB) \"An der Lindenallee\"",
+		"name": "Foerderschule (LB) An der Lindenallee",
 		"phone": "034953/22840",
 		"state": "ST"
 	},
@@ -8520,7 +8520,7 @@
 		"id": "ST-774",
 		"lat": 51.333579,
 		"lon": 11.979856,
-		"name": "Foerderschule (LB) \"Am Suedpark\"",
+		"name": "Foerderschule (LB) Am Suedpark",
 		"phone": "03461/215045",
 		"state": "ST"
 	},
@@ -8531,7 +8531,7 @@
 		"id": "ST-775",
 		"lat": 51.895289,
 		"lon": 11.067031,
-		"name": "Foerderschule (LB) \"Albert Schweitzer\"",
+		"name": "Foerderschule (LB) Albert Schweitzer",
 		"phone": "03941/603773",
 		"state": "ST"
 	},
@@ -8553,7 +8553,7 @@
 		"id": "ST-777",
 		"lat": 52.105486,
 		"lon": 11.616167,
-		"name": "Foerderschule (KB) \"Fermersleber Weg\"",
+		"name": "Foerderschule (KB) Fermersleber Weg",
 		"phone": "0391/615061",
 		"state": "ST"
 	},
@@ -8641,7 +8641,7 @@
 		"id": "ST-785",
 		"lat": 52.846909,
 		"lon": 11.163121,
-		"name": "Foerderschule (GB) \"Unterm Regenbogen\"",
+		"name": "Foerderschule (GB) Unterm Regenbogen",
 		"phone": "03901/25020",
 		"state": "ST"
 	},
@@ -8652,7 +8652,7 @@
 		"id": "ST-786",
 		"lat": 51.876388,
 		"lon": 12.648557,
-		"name": "Foerderschule (GB) \"Sonnenschein\"",
+		"name": "Foerderschule (GB) Sonnenschein",
 		"phone": "03491/407608",
 		"state": "ST"
 	},
@@ -8663,7 +8663,7 @@
 		"id": "ST-787",
 		"lat": 51.895001,
 		"lon": 11.067079,
-		"name": "Foerderschule (GB) \"Reinhard Lakomy\"",
+		"name": "Foerderschule (GB) Reinhard Lakomy",
 		"phone": "03941/443075",
 		"state": "ST"
 	},
@@ -8674,7 +8674,7 @@
 		"id": "ST-788",
 		"lat": 51.734742,
 		"lon": 12.458294,
-		"name": "Foerderschule (GB) \"Peter Petersen\"",
+		"name": "Foerderschule (GB) Peter Petersen",
 		"phone": "034953/22091",
 		"state": "ST"
 	},
@@ -8685,7 +8685,7 @@
 		"id": "ST-789",
 		"lat": 52.148713,
 		"lon": 11.210269,
-		"name": "Foerderschule (GB) \"Miteinander\"",
+		"name": "Foerderschule (GB) Miteinander",
 		"phone": "039400/3092",
 		"state": "ST"
 	},
@@ -8696,7 +8696,7 @@
 		"id": "ST-790",
 		"lat": 51.832717,
 		"lon": 10.79209,
-		"name": "Foerderschule (GB) \"Liv Ullmann\"",
+		"name": "Foerderschule (GB) Liv Ullmann",
 		"phone": "03943/45515",
 		"state": "ST"
 	},
@@ -8707,7 +8707,7 @@
 		"id": "ST-791",
 		"lat": 51.51889,
 		"lon": 11.545345,
-		"name": "Foerderschule (GB) \"Levana\"",
+		"name": "Foerderschule (GB) Levana",
 		"phone": "03475/696648",
 		"state": "ST"
 	},
@@ -8718,7 +8718,7 @@
 		"id": "ST-792",
 		"lat": 51.784642,
 		"lon": 11.751015,
-		"name": "Foerderschule (GB) \"Lebensweg\"",
+		"name": "Foerderschule (GB) Lebensweg",
 		"phone": "03471/347890",
 		"state": "ST"
 	},
@@ -8729,7 +8729,7 @@
 		"id": "ST-793",
 		"lat": 51.453006,
 		"lon": 11.946344,
-		"name": "Foerderschule (GB) \"Lebensbaum\"",
+		"name": "Foerderschule (GB) Lebensbaum",
 		"phone": "0345/1319790",
 		"state": "ST"
 	},
@@ -8740,7 +8740,7 @@
 		"id": "ST-794",
 		"lat": 51.149323,
 		"lon": 11.823832,
-		"name": "Foerderschule (GB) \"Kaethe Kruse\"",
+		"name": "Foerderschule (GB) Kaethe Kruse",
 		"phone": "03445/773215",
 		"state": "ST"
 	},
@@ -8751,7 +8751,7 @@
 		"id": "ST-795",
 		"lat": 52.523688,
 		"lon": 11.402417,
-		"name": "Foerderschule (GB) \"Karl-Friedrich-Wilhelm-Wander\"",
+		"name": "Foerderschule (GB) Karl-Friedrich-Wilhelm-Wander",
 		"phone": "03907/778432",
 		"state": "ST"
 	},
@@ -8762,7 +8762,7 @@
 		"id": "ST-796",
 		"lat": 51.039504,
 		"lon": 12.15147,
-		"name": "Foerderschule (GB) \"Johann Traugott Weise\"",
+		"name": "Foerderschule (GB) Johann Traugott Weise",
 		"phone": "03441/310204",
 		"state": "ST"
 	},
@@ -8773,7 +8773,7 @@
 		"id": "ST-797",
 		"lat": 52.089815,
 		"lon": 11.607141,
-		"name": "Foerderschule (GB) \"Hugo Kuekelhaus\"",
+		"name": "Foerderschule (GB) Hugo Kuekelhaus",
 		"phone": "0391/614026",
 		"state": "ST"
 	},
@@ -8784,7 +8784,7 @@
 		"id": "ST-798",
 		"lat": 52.617595,
 		"lon": 11.858582,
-		"name": "Foerderschule (GB) \"Helen Keller\"",
+		"name": "Foerderschule (GB) Helen Keller",
 		"phone": "03931/210604",
 		"state": "ST"
 	},
@@ -8795,7 +8795,7 @@
 		"id": "ST-799",
 		"lat": 52.250093,
 		"lon": 11.619731,
-		"name": "Foerderschule (GB) \"Gerhard Schoene\"",
+		"name": "Foerderschule (GB) Gerhard Schoene",
 		"phone": "039201/29246",
 		"state": "ST"
 	},
@@ -8806,7 +8806,7 @@
 		"id": "ST-800",
 		"lat": 51.440183,
 		"lon": 11.961036,
-		"name": "Foerderschule (GB) \"Astrid Lindgren\"",
+		"name": "Foerderschule (GB) Astrid Lindgren",
 		"phone": "0345/7709535",
 		"state": "ST"
 	},
@@ -8817,7 +8817,7 @@
 		"id": "ST-801",
 		"lat": 51.747004,
 		"lon": 11.965063,
-		"name": "Foerderschule (GB) \"Angelika Hartmann\"",
+		"name": "Foerderschule (GB) Angelika Hartmann",
 		"phone": "03496/555858",
 		"state": "ST"
 	},
@@ -8828,7 +8828,7 @@
 		"id": "ST-802",
 		"lat": 51.610677,
 		"lon": 12.304302,
-		"name": "Foerderschule (GB) \"An der Kastanie\"",
+		"name": "Foerderschule (GB) An der Kastanie",
 		"phone": "03493/69035",
 		"state": "ST"
 	},
@@ -8839,7 +8839,7 @@
 		"id": "ST-803",
 		"lat": 52.116319,
 		"lon": 11.658475,
-		"name": "Foerderschule (GB) \"Am Wasserfall\"",
+		"name": "Foerderschule (GB) Am Wasserfall",
 		"phone": "0391/857837",
 		"state": "ST"
 	},
@@ -8850,7 +8850,7 @@
 		"id": "ST-804",
 		"lat": 51.949414,
 		"lon": 11.477879,
-		"name": "Foerderschule (GB) \"Am Park\"",
+		"name": "Foerderschule (GB) Am Park",
 		"phone": "039268/32045",
 		"state": "ST"
 	},
@@ -8861,7 +8861,7 @@
 		"id": "ST-805",
 		"lat": 52.827739,
 		"lon": 12.088743,
-		"name": "Foerderschule (GB) \"Am Lindenweg\"",
+		"name": "Foerderschule (GB) Am Lindenweg",
 		"phone": "039387/7250",
 		"state": "ST"
 	},
@@ -8883,7 +8883,7 @@
 		"id": "ST-807",
 		"lat": 51.290618,
 		"lon": 11.934144,
-		"name": "Foerderschule \"Heinrich Kielhorn\" (GE) Grosskayna",
+		"name": "Foerderschule Heinrich Kielhorn (GE) Grosskayna",
 		"phone": "034633/21830",
 		"state": "ST"
 	},
@@ -8894,7 +8894,7 @@
 		"id": "ST-808",
 		"lat": 51.547051,
 		"lon": 11.966043,
-		"name": "Foerderschule \"Anne Frank\" Gutenberg",
+		"name": "Foerderschule Anne Frank Gutenberg",
 		"phone": "034606/21022",
 		"state": "ST"
 	},
@@ -9125,7 +9125,7 @@
 		"id": "ST-829",
 		"lat": 53.004957,
 		"lon": 11.745601,
-		"name": "Evangelische Gesamtschule \"Philipp Melanchthon\"",
+		"name": "Evangelische Gesamtschule Philipp Melanchthon",
 		"phone": "03491/6286012",
 		"state": "ST"
 	},
@@ -9158,7 +9158,7 @@
 		"id": "ST-832",
 		"lat": 51.793729,
 		"lon": 10.952805,
-		"name": "Europasekundarschule \"August Bebel\"",
+		"name": "Europasekundarschule August Bebel",
 		"phone": "03944/2690",
 		"state": "ST"
 	},
@@ -9180,7 +9180,7 @@
 		"id": "ST-834",
 		"lat": 52.601136,
 		"lon": 11.847533,
-		"name": "Europaschule GS \"Am Stadtsee\"",
+		"name": "Europaschule GS Am Stadtsee",
 		"phone": "03931/490141",
 		"state": "ST"
 	},
@@ -9191,7 +9191,7 @@
 		"id": "ST-835",
 		"lat": 51.625686,
 		"lon": 12.313565,
-		"name": "Europagymnasium \"Walther Rathenau\"",
+		"name": "Europagymnasium Walther Rathenau",
 		"phone": "03493/23679",
 		"state": "ST"
 	},
@@ -9202,7 +9202,7 @@
 		"id": "ST-836",
 		"lat": 51.750328,
 		"lon": 11.051857,
-		"name": "Europagymnasium \"Richard von Weizsaecker\"",
+		"name": "Europagymnasium Richard von Weizsaecker",
 		"phone": "03947/5368",
 		"state": "ST"
 	},
@@ -9620,7 +9620,7 @@
 		"id": "ST-874",
 		"lat": 52.608597,
 		"lon": 11.86568,
-		"name": "Bilinguale Grundschule \"Altmark\"",
+		"name": "Bilinguale Grundschule Altmark",
 		"phone": "03931/4956480",
 		"state": "ST"
 	},
@@ -9697,7 +9697,7 @@
 		"id": "ST-881",
 		"lat": 51.480711,
 		"lon": 11.978303,
-		"name": "Berufsbildende Schulen IV \"Friedrich List\"",
+		"name": "Berufsbildende Schulen IV Friedrich List",
 		"phone": "0345/233210",
 		"state": "ST"
 	},
@@ -9774,7 +9774,7 @@
 		"id": "ST-888",
 		"lat": 51.481254,
 		"lon": 11.9666,
-		"name": "BbS III \"J. C. v. Dreyhaupt\" Halle",
+		"name": "BbS III J. C. v. Dreyhaupt Halle",
 		"phone": "0345/2998910",
 		"state": "ST"
 	},
@@ -9807,7 +9807,7 @@
 		"id": "ST-891",
 		"lat": 51.826218,
 		"lon": 12.211729,
-		"name": "Anhaltisches Berufsschulzentrum \"Hugo Junkers\" Dessau-Rosslau",
+		"name": "Anhaltisches Berufsschulzentrum Hugo Junkers Dessau-Rosslau",
 		"phone": "0340/2042043",
 		"state": "ST"
 	},
@@ -9895,7 +9895,7 @@
 		"id": "ST-899",
 		"lat": 51.974048,
 		"lon": 12.091352,
-		"name": "\"Schule am Heidetor\" - Foerderschule (GB)",
+		"name": "Schule am Heidetor - Foerderschule (GB)",
 		"phone": "03923/6116810",
 		"state": "ST"
 	},
@@ -9906,7 +9906,7 @@
 		"id": "ST-900",
 		"lat": 52.072647,
 		"lon": 12.222247,
-		"name": "\"Heinrich Ernst Stoetzner\"Foerderschule mit Ausgleichsklassen und dem weiteren Foerderschwerpunkt Lernen",
+		"name": "Heinrich Ernst StoetznerFoerderschule mit Ausgleichsklassen und dem weiteren Foerderschwerpunkt Lernen",
 		"phone": "039247/263",
 		"state": "ST"
 	}

@@ -61,21 +61,25 @@ public class HomeController extends HttpServlet {
 
 		if (session != null) {
 
-			if (usersModel.getId() == null ) {
+			if (usersModel.getId() == null) {
 				usersModel = (UsersModel) session.getAttribute("userLogin");
 
 			}
 
-			System.out.println("HomeController usersModel:  "+usersModel);
+			System.out.println("HomeController usersModel:  " + usersModel);
 
-
-			//TODO fix this part
+			// TODO fix this part проблема в тому що не можу отримати школу з сесії і
+			// встановити її в модель вона повертає всі значення нуль
+			// TODO і непрацює пошук школи за айді
 
 			SchoolSearch schoolSearch = new SchoolSearch();
-			String school = schoolSearch.getAllSchoolsByOfficialId(usersModel.getSchoolId()).toString();
+			String school = schoolSearch.getAllSchoolsByOfficialId(usersModel.getSchoolId())
+					.stream()
+					.map(SchoolModel::getName)
+					.findFirst()
+					.orElse("Unknown School");
 
-
-
+			System.out.println("School from HomeController: " + school);
 
 			SchoolModel userSchoolModel = new SchoolModel(school);
 

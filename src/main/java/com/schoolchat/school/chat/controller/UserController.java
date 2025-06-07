@@ -38,7 +38,7 @@ public class UserController extends HttpServlet {
 		// System.out.println("getRegisterPage: "+userCurrentSchoolModel.toString());
 
 		SchoolModel schoolModel = new SchoolModel(
-				userCurrentSchoolModel.getOfficial_id(),
+				userCurrentSchoolModel.getofficial_id(),
 				userCurrentSchoolModel.getId(),
 				userCurrentSchoolModel.getName(),
 				userCurrentSchoolModel.getSchoolType(),

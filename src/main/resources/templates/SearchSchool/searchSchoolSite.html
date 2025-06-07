@@ -203,14 +203,14 @@
 					<div class="noFound"></div>
 
 					<div th:each="school, iterStat : ${schools} " class="json__object">
-
+						<input type="hidden" class="schoolInfo" th:value="${school}">
 						<div class="name" th:text=" ${school.name}"></div>
 						<div class="address" th:text=" ${school.address}"></div>
 
 					</div><!-- /json__object -->
 
 				</div><!-- search_school -->
-				<input id="currentSchool" type="hidden" name="currentSchool" th:value="${schoolData}" />
+				<input id="schoolData" type="hidden" name="schoolData" th:value="${schoolData}" />
 				<!--				<input id="currentSchool" type="hidden" name="currentSchool"-->
 				<!--					   th:value="${schoolData.official_id + ',' + schoolData.id + ',' + schoolData.name + ',' + schoolData.schoolType + ',' + schoolData.address + ',' + schoolData.fullTimeSchool + ',' + schoolData.state + ',' + schoolData.phone + ',' + schoolData.fax + ',' + schoolData.latitude + ',' + schoolData.longitude}"/>-->
 
@@ -243,7 +243,28 @@
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 
 	<script>
+
+
+
 		$(document).ready(function () {
+			class School {
+				constructor({ officialId, id, name, schoolType, address, fullTimeSchool, state, phone, fax, latitude, longitude }) {
+					this.official_id = officialId;
+					this.id = id;
+					this.name = name;
+					this.schoolType = schoolType;
+					this.address = address;
+					this.fullTimeSchool = fullTimeSchool;
+					this.state = state;
+					this.phone = phone;
+					this.fax = fax;
+					this.latitude = latitude;
+					this.longitude = longitude;
+				}
+			}
+
+
+
 			$('#searchForm').submit(function (event) {
 				event.preventDefault(); // Stop normal form submission
 				let searchSchoolRequest = $(this).serialize();
@@ -253,17 +274,61 @@
 					data: searchSchoolRequest,
 					success: function (response) {
 						let parsedResponse = $('<div>').html(response);
-						let schools = parsedResponse.find('.json__object').length;
-						console.log(schools);
+						let schools = parsedResponse.find('.json__object') // Get all elements with class 'json__object'
+							.map(function () {
+								return {
+									schoolInfo: $(this).find('.schoolInfo').val().replace(/(\w+)=/g, '"$1":').replace(/'/g, '"'), // Get the hidden input value
+								};
+							}).get(); // Convert jQuery object to array
+						let schoolsLength = parsedResponse.find('.json__object').length;
+						console.log(schoolsLength);
+						//console.log("Schools found: " + JSON.stringify(schools[1]));
 						//---------------------------------------------------------------------------------------------
 						let arrayID = 0;
 
 
 
-						if (schools > 1) {
+						if (schoolsLength > 1) {
 							arrayID = 1;
 							// alert("Schools found: " + schools.length);
 							//$(".noFound span").remove();
+
+							$(document).on('click', '.json__object', function (e) {
+								//e.stopPropagation();
+								let nameValue = $(this).find('.name').text();
+								$("#searchSchool").val(nameValue);
+								//console.log("Name value: " + nameValue);
+
+							});
+
+							// Keep and update this block:
+							$(document).on('click', '.json__object', function (e) {
+								e.stopPropagation();
+								let index = $(".json__object").index(this);
+
+
+								let currentSchool = JSON.parse(schools[index].schoolInfo); // safely convert string to object
+								let selectedSchool = new School(currentSchool);
+								//console.log("Current school data: " + JSON.stringify(currentSchool));
+
+								//console.log("Current school data: " + currentSchool.schoolInfo);
+								//let schoolObj = currentSchool; // Parse the string back to an object
+								
+								console.log("Parsed school object: ", (selectedSchool));
+								if (currentSchool) {
+									$("#searchSchool").val(parsedResponse.find('.json__object').eq(index).find('.name').text()); // Set input value if needed
+
+
+									$("#schoolData").val(JSON.stringify(selectedSchool)); // Set the hidden input value with the current school data
+									
+
+
+									$('#schoolForm').submit(); // Submit the form with the selected school data
+								} else {
+									console.error("School data not found for index:", index);
+								}
+							});
+
 
 							//TODO: Clear previous results
 							//$("#searchResult").find(".noFound").empty(); // Clear previous "not found" message
@@ -274,7 +339,7 @@
 							$("#searchResult").find(".noFound").empty(); // Clear previous "not found" message
 							$("#searchResult").find(".noFound").html("<span>Your school not found...</span>");
 
-							console.log(schools + " no found");
+							console.log(schoolsLength + " no found");
 						}
 						//---------------------------------------------------------------------------------------------
 

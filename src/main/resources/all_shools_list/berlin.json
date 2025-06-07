@@ -247,7 +247,7 @@
 		"name": "Comenius-Schule",
 		"official_id": "04S07",
 		"phone": "8649950",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -485,7 +485,7 @@
 		"name": "Pestalozzi-Schule",
 		"official_id": "06S01",
 		"phone": "902995760",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -499,7 +499,7 @@
 		"name": "Pestalozzi-Schule",
 		"official_id": "06S01",
 		"phone": "902995760",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -709,7 +709,7 @@
 		"name": "Parzival-Schule",
 		"official_id": "06P07",
 		"phone": "8181970",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -975,7 +975,7 @@
 		"name": "Marianne-Cohn-Schule",
 		"official_id": "07S04",
 		"phone": "9027725-55",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -1325,7 +1325,7 @@
 		"name": "Peter-Frankenfeld-Schule",
 		"official_id": "06S03",
 		"phone": "77206560",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp. Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -1857,7 +1857,7 @@
 		"name": "Adolf-Reichwein-Schule",
 		"official_id": "08S01",
 		"phone": "63225111",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -1871,7 +1871,7 @@
 		"name": "Herman-Nohl-Schule",
 		"official_id": "08S03",
 		"phone": "62008335",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -1885,7 +1885,7 @@
 		"name": "Schule am Zwickauer Damm",
 		"official_id": "08S04",
 		"phone": "6616079",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -1913,7 +1913,7 @@
 		"name": "Schule am Hasenhegerweg",
 		"official_id": "08S05",
 		"phone": "6045066",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -2095,7 +2095,7 @@
 		"name": "Hans-Fallada-Schule",
 		"official_id": "08S06",
 		"phone": "6322506724",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -2109,7 +2109,7 @@
 		"name": "Schule am Bienwaldring",
 		"official_id": "08S07",
 		"phone": "7430100",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -2137,7 +2137,7 @@
 		"name": "Schilling-Schule",
 		"official_id": "08S08",
 		"phone": "6000272",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -3439,7 +3439,7 @@
 		"name": "Steinwald-Schule",
 		"official_id": "07S03",
 		"phone": "9027741-39",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -3677,7 +3677,7 @@
 		"name": "Prignitz-Schule",
 		"official_id": "07S01",
 		"phone": "902776932",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -3873,7 +3873,7 @@
 		"name": "Arno-Fuchs-Schule",
 		"official_id": "04S02",
 		"phone": "902913250",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -4349,7 +4349,7 @@
 		"name": "Temple-Grandin-Schule",
 		"official_id": "02S01",
 		"phone": "293474-231",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -4419,7 +4419,7 @@
 		"name": "Gustav-Meyer-Schule",
 		"official_id": "02S02",
 		"phone": "50586131",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -4545,7 +4545,7 @@
 		"name": "Schule am Senefelderplatz",
 		"official_id": "03S01",
 		"phone": "446890-0",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -4797,7 +4797,7 @@
 		"name": "Helene-Haeusler-Schule",
 		"official_id": "03S03",
 		"phone": "47377641",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -5581,7 +5581,7 @@
 		"name": "Schule am Zille-Park",
 		"official_id": "01S01",
 		"phone": "460617-401",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -5609,7 +5609,7 @@
 		"name": "Nils-Holgersson-Schule",
 		"official_id": "11S12",
 		"phone": "5139676",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -6239,7 +6239,7 @@
 		"name": "Sancta-Maria-Schule der Hedwigschwestern",
 		"official_id": "06P08",
 		"phone": "80303261",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -6253,7 +6253,7 @@
 		"name": "Sancta-Maria-Schule der Hedwigschwestern",
 		"official_id": "06P08",
 		"phone": "80303261",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -6491,7 +6491,7 @@
 		"name": "Lauterbach-Grundschule",
 		"official_id": "12G33",
 		"phone": "4021088",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -6785,7 +6785,7 @@
 		"name": "Schule am Gartenfeld",
 		"official_id": "05S03",
 		"phone": "30398742-0",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -7443,7 +7443,7 @@
 		"name": "Schule am Altglienicker Wasserturm",
 		"official_id": "09S05",
 		"phone": "6728913",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -7807,7 +7807,7 @@
 		"name": "Stoetzner-Schule",
 		"official_id": "12S01",
 		"phone": "4328011",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -7821,7 +7821,7 @@
 		"name": "Lauterbach-Schule",
 		"official_id": "12S03",
 		"phone": "4021089",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -7849,7 +7849,7 @@
 		"name": "Schule am Park",
 		"official_id": "12S04",
 		"phone": "41450-34",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -8129,7 +8129,7 @@
 		"name": "Schule am Pappelhof",
 		"official_id": "10S04",
 		"phone": "54979590",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -9081,7 +9081,7 @@
 		"name": "Schule am Mummelsoll",
 		"official_id": "10S08",
 		"phone": "9114161-340",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -9109,7 +9109,7 @@
 		"name": "Schule am Rosenhain",
 		"official_id": "10S07",
 		"phone": "9989181",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -9655,7 +9655,7 @@
 		"name": "Stephanus-Schule",
 		"official_id": "03P11",
 		"phone": "96249751",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -9795,7 +9795,7 @@
 		"name": "Schule am Birkenhof",
 		"official_id": "03S06",
 		"phone": "474029100",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -9809,7 +9809,7 @@
 		"name": "Schule an der Heide",
 		"official_id": "03S07",
 		"phone": "91699470",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -9823,7 +9823,7 @@
 		"name": "Panke-Schule",
 		"official_id": "03S08",
 		"phone": "476079-20",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -10145,7 +10145,7 @@
 		"name": "Albatros-Schule",
 		"official_id": "09S03",
 		"phone": "5300299-0",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -10257,7 +10257,7 @@
 		"name": "Schule am Fennpfuhl",
 		"official_id": "11S02",
 		"phone": "9720416",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -12161,7 +12161,7 @@
 		"name": "Schule Am Breiten Luch",
 		"official_id": "11S08",
 		"phone": "9295080",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -13701,7 +13701,7 @@
 		"name": "Richard-Keller-Schule",
 		"official_id": "12S02",
 		"phone": "4048933",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -16501,7 +16501,7 @@
 		"name": "August-Hermann-Francke-Schule",
 		"official_id": "05P04",
 		"phone": "33609329",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -16683,7 +16683,7 @@
 		"name": "Finkenkrug-Schule",
 		"official_id": "04S06",
 		"phone": "8277060",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -16949,7 +16949,7 @@
 		"name": "Charlotte-Pfeffer-Schule",
 		"official_id": "01S07",
 		"phone": "246574-0",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -17607,7 +17607,7 @@
 		"name": "6. Schule",
 		"official_id": "09S06",
 		"phone": "5328067",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -17828,7 +17828,7 @@
 		"id": "BE-16874",
 		"lat": 52.494075,
 		"lon": 13.437823,
-		"name": "Schauspielschule \"Der Kreis\" (Fritz-Kirchhoff-Schule)",
+		"name": "Schauspielschule Der Kreis (Fritz-Kirchhoff-Schule)",
 		"official_id": "02E40",
 		"phone": "8225124",
 		"school_type": "Kuenstlerische Schule",
@@ -18013,7 +18013,7 @@
 		"name": "34. Schule (Grundschule)",
 		"official_id": "10G34",
 		"phone": "93668090",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -18377,7 +18377,7 @@
 		"name": "Paul-und-Charlotte-Kniese-Schule (Gemeinschaftsschule)",
 		"official_id": "11K12",
 		"phone": "516597-14",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -18783,7 +18783,7 @@
 		"name": "Schule am Gruenguertel",
 		"official_id": "05S01",
 		"phone": "4372879-10",
-		"school_type": "Foerderschwerp.\"Lernen\"",
+		"school_type": "Foerderschwerp.Lernen",
 		"school_type_entity": "FoeS Lernen",
 		"state": "BE"
 	},
@@ -18993,7 +18993,7 @@
 		"name": "Temple-Grandin-Schule",
 		"official_id": "02S01",
 		"phone": "293474-231",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -19007,7 +19007,7 @@
 		"name": "Comenius-Schule",
 		"official_id": "04S07",
 		"phone": "8649950",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -19021,7 +19021,7 @@
 		"name": "Schule am Stadtrand",
 		"official_id": "05S04",
 		"phone": "308324-6",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},
@@ -19035,7 +19035,7 @@
 		"name": "Paul-und-Charlotte-Kniese-Schule",
 		"official_id": "11S04",
 		"phone": "516597-14",
-		"school_type": "Foerderschwerp.\"Geistige Entwicklung\"",
+		"school_type": "Foerderschwerp.Geistige Entwicklung",
 		"school_type_entity": "FoeS Geistige Entwicklung",
 		"state": "BE"
 	},

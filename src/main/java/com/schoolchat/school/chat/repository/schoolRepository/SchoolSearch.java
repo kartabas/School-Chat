@@ -9,6 +9,7 @@ import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.schoolService.JSON_Schools;
 
 public class SchoolSearch {
+	//TODO зробити так що при пошуку школи для входу в HomeController буде шукати потрібну школу з регіону 
 	JSON_Schools json_schools = new JSON_Schools();
 	List<JSONObject> schools = json_schools.JSON_Schools();
 

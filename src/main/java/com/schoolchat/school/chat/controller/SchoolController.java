@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.model.schoolModels.UserCurrentSchoolModel;
@@ -41,16 +43,15 @@ public class SchoolController extends HttpServlet {
 		if (selectedRegionName == null || selectedRegionName.isEmpty()) {
 
 			selectedRegionName = "bayern";
-			
+
 		}
-		
 
 		SchoolSearch schoolSearch = new SchoolSearch();
-		//System.out.println("region: " + selectedRegionName);
-		//System.out.println("selectedRegionName: " + jsonSchools.getJSON_FILE());
+		// System.out.println("region: " + selectedRegionName);
+		// System.out.println("selectedRegionName: " + jsonSchools.getJSON_FILE());
 
 		session.setAttribute("jsonSchools", selectedRegionName);
-		//model.addAttribute("JSON_file", jsonSchools);
+		// model.addAttribute("JSON_file", jsonSchools);
 
 		model.addAttribute("searchSchoolRequest", new SchoolModel());
 
@@ -62,16 +63,16 @@ public class SchoolController extends HttpServlet {
 			HttpServletRequest request, HttpServletResponse response) {
 
 		HttpSession session = request.getSession();
-		if( session.getAttribute("jsonSchools") == null) {
+		if (session.getAttribute("jsonSchools") == null) {
 			session.setAttribute("jsonSchools", "bayern");
 
 		}
 		System.out.println("Search School Work");
-		
+
 		System.out.println("jsonRegionValue: " + session.getAttribute("jsonSchools"));
 		String jsonRegionValue = (String) session.getAttribute("jsonSchools");
 		JSON_Schools jsonSchools = new JSON_Schools(jsonRegionValue);
-		
+
 		SchoolSearch schoolSearch = new SchoolSearch(jsonSchools.getJSON_List());
 		// SchoolSearch schoolSearch = new SchoolSearch();
 
@@ -80,9 +81,9 @@ public class SchoolController extends HttpServlet {
 		List<SchoolModel> schools = schoolSearch.getAllSchoolsByNameObjeckt(schoolModel.getName());
 
 		model.addAttribute("schools", schools);
-		//System.out.println("Search School: " + schools);
+		// System.out.println("Search School: " + schools);
 		return "SearchSchool/searchSchoolSite";
-		
+
 	}
 
 	@GetMapping("/user/{id}")
@@ -104,18 +105,44 @@ public class SchoolController extends HttpServlet {
 	}
 
 	@PostMapping("/app")
-	public String foundSchoolData(@ModelAttribute("schoolData") UserCurrentSchoolModel userCurrentSchoolModel,
+	public String foundSchoolData(
+			@ModelAttribute("schoolData") String userCurrentSchoolModelData,
 			Model model, RedirectAttributes redirectAttributes, HttpServletRequest request) {
 		HttpSession session = request.getSession();
+		// UserCurrentSchoolModel userCurrentSchoolModel = new UserCurrentSchoolModel();
 		// Save current School in userCurrentSchoolModel
-		userCurrentSchoolModel.setCurrentUserSchool(userCurrentSchoolModel.getCurrentSchool());
+		UserCurrentSchoolModel userCurrentSchoolModel = new UserCurrentSchoolModel();
+		try {
+			ObjectMapper objectMapper = new ObjectMapper();
+			JsonNode jsonNode = objectMapper.readTree(userCurrentSchoolModelData);
+
+			userCurrentSchoolModel.setofficial_id(jsonNode.get("official_id").asText());
+			userCurrentSchoolModel.setId(jsonNode.get("id").asText());
+			userCurrentSchoolModel.setName(jsonNode.get("name").asText());
+			userCurrentSchoolModel.setSchoolType(jsonNode.get("schoolType").asText().isEmpty() ? "Unknown"
+					: jsonNode.get("schoolType").asText());
+			userCurrentSchoolModel.setAddress(jsonNode.get("address").asText());
+			userCurrentSchoolModel.setState(jsonNode.get("state").asText());
+			userCurrentSchoolModel.setPhone(jsonNode.get("phone").asText());
+			userCurrentSchoolModel.setFax(jsonNode.get("fax").asText());
+			userCurrentSchoolModel.setFullTimeSchool(Boolean.valueOf(jsonNode.get("fullTimeSchool").asText().isEmpty() ? "false"
+					: jsonNode.get("fullTimeSchool").asText()));
+			userCurrentSchoolModel.setLatitude(Double.parseDouble(jsonNode.get("latitude").asText()));
+			userCurrentSchoolModel.setLongitude(Double.parseDouble(jsonNode.get("longitude").asText()));
+
+		} catch (Exception e) {
+			e.printStackTrace(); // Handle the exception appropriately
+		}
 
 		redirectAttributes.addFlashAttribute("userCurrentSchoolModel", userCurrentSchoolModel);
+
 		// Return current School
-		// System.out.println(userCurrentSchoolModel.getCurrentSchool());
+		System.out.println(userCurrentSchoolModel.toString());
 
 		// System.out.println("foundSchoolData: "+userCurrentSchoolModel.toString());
-
+		System.out.println();
+		System.out.println("foundSchoolData: " + userCurrentSchoolModel);
+		System.out.println();
 		model.addAttribute("userCurrentSchoolModel", userCurrentSchoolModel);
 		// System.out.println(userCurrentSchoolModel.toString());
 		return "redirect:/register";

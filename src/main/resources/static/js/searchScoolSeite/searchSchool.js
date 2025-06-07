@@ -45,29 +45,8 @@ $(document).ready(function () {
 
 
 
-	$('.json__object').click(function (e) {
-		//e.preventDefault();
-		let nameValue = $(this).find('.name').text();
-		$("#searchSchool").val(nameValue);
 
-	});
 
-	// Keep and update this block:
-	$(".json__object").on("click", function (e) {
-		e.preventDefault();
-		let index = $(".json__object").index(this);
-
-		// Make sure 'schools' is defined and up-to-date
-		let currentSchool = schools[index];
-
-		if (currentSchool) {
-			$("#searchSchool").val(currentSchool.name); // Set input value if needed
-			$('#currentSchool').val(JSON.stringify(currentSchool));
-			$('#schoolForm').submit();
-		} else {
-			console.error("School data not found for index:", index);
-		}
-	});
 
 
 
@@ -140,12 +119,12 @@ $(document).ready(function () {
 	});
 
 	// Close dropdown when clicking outside
-	$(document).on('click', function (event) {
-		if (!$(event.target).closest('.region-selector').length) {
-			$('.dropdown-panel').slideUp(200);
-			$('.dropdown-icon').removeClass('open');
-		}
-	});
+	// $(document).on('click', function (event) {
+	// 	if (!$(event.target).closest('.region-selector').length) {
+	// 		$('.dropdown-panel').slideUp(200);
+	// 		$('.dropdown-icon').removeClass('open');
+	// 	}
+	// });
 
 	// Search region
 	$('.search-input').on('input', function () {
