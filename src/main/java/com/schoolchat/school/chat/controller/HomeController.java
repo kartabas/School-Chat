@@ -68,36 +68,33 @@ public class HomeController extends HttpServlet {
 
 			System.out.println("HomeController usersModel:  " + usersModel);
 
-			// TODO fix this part проблема в тому що не можу отримати школу з сесії і
-			// встановити її в модель вона повертає всі значення нуль
-			// TODO і непрацює пошук школи за айді
-
 			SchoolSearch schoolSearch = new SchoolSearch();
-			String school = schoolSearch.getAllSchoolsByOfficialId(usersModel.getSchoolId())
-					.stream()
-					.map(SchoolModel::getName)
-					.findFirst()
-					.orElse("Unknown School");
+			SchoolModel userSchoolModel = new SchoolModel(
+					schoolSearch.getAllSchoolsByOfficialId(usersModel.getSchoolId()).get(0));
 
-			System.out.println("School from HomeController: " + school);
+			System.out.println();
+			System.out.println("School from HomeController: " + userSchoolModel);
+			System.out.println();
 
-			SchoolModel userSchoolModel = new SchoolModel(school);
-
+			System.out.println();
 			System.out.println("userSchoolModel:" + usersModel);
 			System.out.println("Session ID: " + session.getId());
+			System.out.println();
 
 			model.addAttribute("userLogin", usersModel);
 			model.addAttribute("userCurrentSchoolModel", userSchoolModel);
 
-			session.setAttribute("school", school);
+			// session.setAttribute("school", school);
 			session.setAttribute("userId", usersModel.getId());
 			session.setAttribute("userLogin", usersModel);
 			session.setAttribute("userCurrentSchoolModel", userSchoolModel);
+
 			System.out.println();
 			System.out.println("Session for userLogin: " + session.getAttribute("userLogin"));
 
 			System.out.println("Session for userCurrentSchoolModel: " + session.getAttribute("userCurrentSchoolModel"));
 			System.out.println("Replay COUNT: " + count);
+			System.out.println();
 			return "home";
 		} else {
 			return "redirect:/login";

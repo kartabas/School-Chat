@@ -44,6 +44,21 @@ public class SchoolModel extends UserCurrentSchoolModel {
 
 	}
 
+	public SchoolModel(SchoolModel school) {
+		this.official_id = school.getOfficial_id();
+		this.id = school.getId();
+		this.name = school.getName();
+		this.schoolType = school.getSchoolType();
+		this.schoolTypeEntity = school.getSchoolTypeEntity();
+		this.address = school.getAddress();
+		this.fullTimeSchool = school.getFullTimeSchool();
+		this.state = school.getState();
+		this.phone = school.getPhone();
+		this.fax = school.getFax();
+		this.latitude = school.getLatitude();
+		this.longitude = school.getLongitude();
+	}
+
 	private String extractValue(String text, String key) {
 		String start = key + "='";
 		int startIndex = text.indexOf(start);
@@ -110,6 +125,10 @@ public class SchoolModel extends UserCurrentSchoolModel {
 	}
 
 	public String getSchoolTypeEntity(String schoolTypeEntity) {
+		return this.schoolTypeEntity;
+	}
+
+	public String getSchoolTypeEntity() {
 		return this.schoolTypeEntity;
 	}
 

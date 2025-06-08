@@ -54,7 +54,6 @@ $(document).ready(function () {
 	//-----------------------------------------------------------------------------------------------------------------------
 	// Region selector
 	const regions = [
-		"Alle Bundesländer",
 		"Baden-Württemberg",
 		"Bayern",
 		"Berlin",
@@ -75,7 +74,6 @@ $(document).ready(function () {
 
 
 
-	//TODO bag with region will show bayern
 	//Selected region
 	let selectedRegion;
 	// if (history.state == null) {

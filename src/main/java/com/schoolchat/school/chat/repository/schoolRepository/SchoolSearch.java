@@ -9,7 +9,8 @@ import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.schoolService.JSON_Schools;
 
 public class SchoolSearch {
-	//TODO зробити так що при пошуку школи для входу в HomeController буде шукати потрібну школу з регіону 
+
+	// потрібну школу з регіону
 	JSON_Schools json_schools = new JSON_Schools();
 	List<JSONObject> schools = json_schools.JSON_Schools();
 
@@ -19,11 +20,9 @@ public class SchoolSearch {
 
 	public SchoolSearch(List<JSONObject> schools) {
 		this.schools = schools;
-		//System.out.println("Search School region: " + this.json_schools.getJSON_FILE());
+		// System.out.println("Search School region: " +
+		// this.json_schools.getJSON_FILE());
 	}
-	
-
-	
 
 	public List<JSONObject> getAllSchools() {
 		return schools;
@@ -52,7 +51,65 @@ public class SchoolSearch {
 				inputID.contains("HE") || inputID.contains("MV") || inputID.contains("NRW") || inputID.contains("RP") ||
 				inputID.contains("SL") || inputID.contains("ST") || inputID.contains("SN") || inputID.contains("SH")
 				|| inputID.contains("TH")) {
-			for (JSONObject school : schools) {
+			// Перебираю всі школи і шукаю по веденому id
+			String selectedRegion = "";
+
+			if (inputID.contains("BY")) {
+				selectedRegion = "bayern";
+
+			} else if (inputID.contains("BE")) {
+				selectedRegion = "berlin";
+
+			} else if (inputID.contains("BW")) {
+				selectedRegion = "baden_wuerttemberg";
+
+			} else if (inputID.contains("HH")) {
+				selectedRegion = "hessen";
+
+			} else if (inputID.contains("BB")) {
+				selectedRegion = "brandenburg";
+
+			} else if (inputID.contains("HB")) {
+				selectedRegion = "bremen";
+
+			} else if (inputID.contains("NI")) {
+				selectedRegion = "niedersachsen";
+
+			} else if (inputID.contains("HE")) {
+				selectedRegion = "heidelberg";
+
+			} else if (inputID.contains("MV")) {
+				selectedRegion = "mecklenburg_vorpommern";
+
+			} else if (inputID.contains("NRW")) {
+				selectedRegion = "nordrhein_westfalen";
+
+			} else if (inputID.contains("RP")) {
+				selectedRegion = "rheinland-pfalz";
+
+			} else if (inputID.contains("SL")) {
+				selectedRegion = "saarland";
+
+			} else if (inputID.contains("ST")) {
+				selectedRegion = "sachsen";
+
+			} else if (inputID.contains("SN")) {
+				selectedRegion = "sachsen_anhalt";
+
+			} else if (inputID.contains("SH")) {
+				selectedRegion = "schleswig_holstein";
+
+			} else if (inputID.contains("TH")) {
+				selectedRegion = "thueringen";
+			}
+
+			
+			
+			JSON_Schools json_schoolsSearch = new JSON_Schools(selectedRegion);
+			List<JSONObject>  schoolsSelectedRegion = json_schoolsSearch.JSON_Schools();
+			
+
+			for (JSONObject school : schoolsSelectedRegion) {
 				// Добавляю влястивості до класу SchoolModel
 				String official_id = (String) school.get("official_id");
 				String id = (String) school.get("id");
@@ -85,7 +142,7 @@ public class SchoolSearch {
 					schoolList.add(newSchool);
 				}
 			}
-
+			System.out.println("Search School region: " + schoolList);
 			return schoolList;
 
 		} else {
