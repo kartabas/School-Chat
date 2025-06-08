@@ -7,8 +7,30 @@ $(document).ready(function () {
 			$(this).removeClass("active");
 		}
 	);
+	let input = $("#send_post_elements_img_fileInput")[0] = null;
+	$("#send_post_elements_img_fileInput").on("change", function () {
+		let file = this.files[0];
+		if (file && file.type.startsWith("video/")) {
 
+			// If the file is a video, show an alert and remove the image element
+			alert("Error: Video files are not allowed. Please select an image.");
+			//alert("Error: Video files are not allowed. Please select an image.");
+			file = null; // Reset the file input
+			$(this).val(""); // Clear the file input
+		}
 
+	});
+
+	$(".send_post_elements_images").on("click", "img", function (input) {
+		$(this).remove();
+
+		input.value = "";
+		if (input.files && input.files.length) {
+			// Create a new DataTransfer to clear the FileList
+			const dt = new DataTransfer();
+			input.files = dt.files;
+		}
+	});
 
 
 	$(".triggerIdButton").hover(
