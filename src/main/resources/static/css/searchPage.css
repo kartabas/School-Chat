@@ -313,6 +313,11 @@ body{
         word-wrap: break-word;
         word-break: break-word;
     }
+
+	 .region-selector{
+		top: 0px !important;
+	 }
+
 }
 
  @media  screen and  (min-width: 350px) and (max-width:765px) {
@@ -324,12 +329,22 @@ body{
         word-wrap: break-word;
         word-break: break-word;
     }
+
+	 .region-selector{
+		top: 0px !important;
+	 }
+
 }
 
 @media  screen and  (min-width: 768px) and (max-width:830px) {
     .footer__middle__block{
         width:auto;
     }
+
+	 .region-selector{
+		top: 0px !important;
+	 }
+
 
 }
 
