@@ -7,7 +7,11 @@ $(document).ready(function () {
 			$(this).removeClass("active");
 		}
 	);
-	let input = $("#send_post_elements_img_fileInput")[0] = null;
+
+
+
+
+
 	$("#send_post_elements_img_fileInput").on("change", function () {
 		let file = this.files[0];
 		if (file && file.type.startsWith("video/")) {
@@ -19,18 +23,18 @@ $(document).ready(function () {
 			$(this).val(""); // Clear the file input
 		}
 
-	});
+		if ($(".send_post_elements_images").find("img").length >= 1) {
+			alert("You can only upload one image at a time.");
+			// Reset the file input if an image already exists
+			$(this).val("");
+			return; // Exit the function if an image already exists
 
-	$(".send_post_elements_images").on("click", "img", function (input) {
-		$(this).remove();
 
-		input.value = "";
-		if (input.files && input.files.length) {
-			// Create a new DataTransfer to clear the FileList
-			const dt = new DataTransfer();
-			input.files = dt.files;
 		}
+
 	});
+
+
 
 
 	$(".triggerIdButton").hover(

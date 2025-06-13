@@ -73,7 +73,7 @@ $(document).ready(function () {
 			headers: {
 				'Content-Type': 'application/json',
 			},
-			body:  JSON.stringify(dataToSend),
+			body: JSON.stringify(dataToSend),
 		})
 			.then(response => response.json())
 			.then(data => {
@@ -186,8 +186,27 @@ $(document).ready(function () {
 				const img = document.createElement('img');
 				img.src = URL.createObjectURL(i);
 				$(img).appendTo(".send_post_elements_images");
+				$(img).css({
+					'width': '100%',
+					'height': '100%',
+					'maxWidth': '450px',
+					'maxHeight': '450px'
+
+				});
 			});
 		}
+		$(".send_post_elements_images img").on('click', function () {
+
+
+
+
+			const index = $(this).data('index');
+			mysendImages.splice(index, 1);
+			$(this).remove();
+		});
+
+		document.getElementById('send_post_elements_img_fileInput').value = ''; // Reset input
+
 	});
 
 

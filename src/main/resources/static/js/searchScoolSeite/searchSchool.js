@@ -116,13 +116,13 @@ $(document).ready(function () {
 		$('.dropdown-icon').toggleClass('open');
 	});
 
-	// Close dropdown when clicking outside
-	// $(document).on('click', function (event) {
-	// 	if (!$(event.target).closest('.region-selector').length) {
-	// 		$('.dropdown-panel').slideUp(200);
-	// 		$('.dropdown-icon').removeClass('open');
-	// 	}
-	// });
+	//Close dropdown when clicking outside
+	$(document).on('click', function (event) {
+		if (!$(event.target).closest('.region-selector').length) {
+			$('.dropdown-panel').slideUp(200);
+			$('.dropdown-icon').removeClass('open');
+		}
+	});
 
 	// Search region
 	$('.search-input').on('input', function () {
