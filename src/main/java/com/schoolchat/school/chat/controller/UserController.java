@@ -65,6 +65,17 @@ public class UserController extends HttpServlet {
 
 		model.addAttribute("registerRequest", usersModel);
 
+		if (session.getAttribute("userCurrentSchoolModel") != null) {
+			userCurrentSchoolModel = (UserCurrentSchoolModel) session.getAttribute("userCurrentSchoolModel");
+		} else {
+			userCurrentSchoolModel = new UserCurrentSchoolModel();
+		}
+
+		System.out.println();
+		System.out.println();
+		System.out.println("getRegisterPage: " + userCurrentSchoolModel.toString());
+		System.out.println();
+
 		return "singUp";
 	}
 
