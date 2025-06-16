@@ -33,40 +33,41 @@
 					class="register-form" id="register">
 
 					<h2 class="form-title">Register to </h2>
-					<h5 class="school__name" th:text="${userCurrentSchoolModel.name}"  ></h5>
+					<h5 class="school__name" th:text="${userCurrentSchoolModel.name}"></h5>
 					<div class="form__message  "></div>
 
-<!--					Save current School id and request in usersModel -->
-					<input type="hidden" id="schoolId" th:value="${userCurrentSchoolModel.id}" th:field="*{schoolId}" >
+					<!--					Save current School id and request in usersModel -->
+					<input type="hidden" id="schoolId" th:value="${userCurrentSchoolModel.id}" th:field="*{schoolId}">
 
 
 					<div class="user-nickname ">
 						<input type="text" id="username" th:field="*{login}" autofocus placeholder="Your nickname"
-							class="form__input " required>
+							class="form__input " required pattern="[A-Za-z0-9_.]+">
 
 						<div class="form__input-error-message  "></div>
-
+						<div class="form__input-error-message-username  "></div>
 					</div>
 
 
 
 					<div class="user-email">
 
-						<input type="email" id="email" th:field="*{email}" autofocus placeholder="Email" class="form__input" required>
+						<input type="email" id="email" th:field="*{email}" autofocus placeholder="Email" class="form__input"
+							required>
 
 					</div>
 
 					<div class="user-password">
-						<input type="password"  id="password"
-							th:field="*{password}" placeholder="Password" class="form__input"  required>
+						<input type="password" id="password" th:field="*{password}" placeholder="Password" class="form__input"
+							required>
 
 						<div class="form__input-error-message "></div>
 					</div>
 
 					<div class="user-confirm-password">
-						<input type="password" 
-							id="confirm-password" placeholder="Confirm Password" class="form__input" required >
-					
+						<input type="password" id="confirm-password" placeholder="Confirm Password" class="form__input"
+							required>
+
 
 						<div class="form__input-error-message "></div>
 
@@ -74,7 +75,7 @@
 
 
 					<div class="reg-submit">
-						<input type="submit" value="Register"  name="submit" id="reg-form-submit">
+						<input type="submit" value="Register" name="submit" id="reg-form-submit">
 
 					</div>
 
@@ -93,10 +94,49 @@
 		</div><!-- /main-->
 	</div><!-- /main-page-->
 
+	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 	<script src="../../js/validationRegPage/validationRegLoginPage.js"></script>
 	<!-- <script src="../static/js/validationRegPage/validationRegLoginPage.js"></script>   for vs code-->
 	<!-- <script src="../../js/validationRegPage/validationRegLoginPage.js"></script>   for java-->
+	<script>
+		$(document).ready(function () {
 
+
+
+
+			let previousWords = [];
+
+			$('#username').on('input', function () {
+				$(this).val($(this).val().replace(/[^A-Za-z0-9_.]/g, ''));
+
+				const username = $(this).val();
+				//console.log("Input text:", username);
+
+				$.ajax({
+					url: '/checkUsername' + '?username=' + encodeURIComponent(username),
+					type: 'POST',
+					contentType: 'application/json',
+					data: username,
+					success: function (response) {
+						if (response) {
+							$('.form__input-error-message-username').text('Username is available').css('color', 'green');
+							$("#reg-form-submit").prop('disabled', false);
+						} else {
+							$('.form__input-error-message-username').text('Username is already taken').css('color', 'red');
+							$("#reg-form-submit").prop('disabled', true);
+						}
+					},
+					error: function () {
+						$('.form__input-error-message-username').text('Error checking username').css('color', 'red');
+					}
+				})
+
+			});
+		});
+
+
+
+	</script>
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 </body>
 

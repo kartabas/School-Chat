@@ -49,6 +49,15 @@ public class UsersService {
     }
 
 
+	 public boolean checkUsername(String username) {
+		if (usersRepository.findFirstByLogin(username).isPresent()) {
+			return false;
+		}
+		return true;
+		
+	 }
+
+
 //    public List<UsersModel> getUserbyId(Long id){
 //        return (List<UsersModel>) usersRepository.getReferenceById(id);
 //    }
