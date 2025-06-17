@@ -67,7 +67,7 @@ public class PostController {
 	// return post;
 	// }
 
-	// TODO: Update post make to end
+
 	@PutMapping("/updatepost/{id}")
 	public String updatePostData(@PathVariable Integer id, @RequestBody PostModel postModel, HttpServletRequest request,
 			HttpServletResponse response) {
@@ -92,7 +92,6 @@ public class PostController {
 
 
 
-	//TODO: Delete post test
 	@DeleteMapping("/deletepost/{id}")
 	@ResponseBody
 	public String deletePost(@PathVariable Integer id) {

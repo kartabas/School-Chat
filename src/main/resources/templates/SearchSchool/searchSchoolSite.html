@@ -9,6 +9,136 @@
 	<!-- <link rel="stylesheet" type="text/css" href="../../static/css/searchPage.css"> -->
 	<title>Search School</title>
 
+
+	<style>
+		.region-selector {
+			max-width: 400px;
+			margin: 0 auto;
+			position: relative;
+			top: 100px;
+		}
+
+		.region-selector-header {
+			background-color: white;
+			border: 1px solid #d1d5db;
+			border-radius: 8px;
+			padding: 12px 16px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			cursor: pointer;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+			transition: all 0.2s;
+		}
+
+		.region-selector-header:hover {
+			border-color: #9ca3af;
+		}
+
+		.selected-region {
+			font-size: 15px;
+			color: #111827;
+		}
+
+		.placeholder {
+			color: #6b7280;
+		}
+
+		.dropdown-icon {
+			transition: transform 0.3s;
+		}
+
+		.dropdown-icon.open {
+			transform: rotate(180deg);
+		}
+
+		.dropdown-panel {
+			position: absolute;
+			top: calc(100% + 4px);
+			left: 0;
+			right: 0;
+			background-color: white;
+			border-radius: 8px;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+			z-index: 10;
+			overflow: hidden;
+			display: none;
+		}
+
+		.search-container {
+			padding: 12px;
+			border-bottom: 1px solid #e5e7eb;
+			position: relative;
+		}
+
+		.search-input {
+			width: 100%;
+			padding: 8px 32px 8px 12px;
+			border: 1px solid #d1d5db;
+			border-radius: 6px;
+			font-size: 14px;
+		}
+
+		.search-input:focus {
+			outline: none;
+			border-color: #3b82f6;
+			box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+		}
+
+		.search-icon {
+			position: absolute;
+			right: 24px;
+			top: 20px;
+			color: #6b7280;
+		}
+
+		.regions-list {
+			max-height: 250px;
+			overflow-y: auto;
+		}
+
+		.region-item {
+			padding: 10px 16px;
+			cursor: pointer;
+			transition: background-color 0.2s;
+		}
+
+		.region-item:hover {
+			background-color: #f3f4f6;
+		}
+
+		.region-item.selected {
+			background-color: #eff6ff;
+			color: #2563eb;
+			font-weight: 500;
+		}
+
+		.no-results {
+			padding: 16px;
+			text-align: center;
+			color: #6b7280;
+			font-style: italic;
+			display: none;
+		}
+
+		/* Стилизация скролла */
+		.regions-list::-webkit-scrollbar {
+			width: 4px;
+		}
+
+		.regions-list::-webkit-scrollbar-track {
+			background: #f1f1f1;
+		}
+
+		.regions-list::-webkit-scrollbar-thumb {
+			background: #d1d5db;
+			border-radius: 2px;
+		}
+
+		.regions-list::-webkit-scrollbar-thumb:hover {
+			background: #9ca3af;
+		}
+	</style>
 </head>
 
 <body>
@@ -17,8 +147,39 @@
 		<div class="logo">Welcome to Student Chat</div>
 	</div>
 
+	<div class="region-selector">
+		<div class="region-selector-header" id="region-selector-toggle">
+			<div class="selected-region placeholder ">Select a region</div>
+			<svg class="dropdown-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+				stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<polyline points="6 9 12 15 18 9"></polyline>
+			</svg>
+		</div>
+
+		<div class="dropdown-panel">
+			<div class="search-container">
+				<input type="text" class="search-input" placeholder="Search for a region...">
+				<svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+					stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<circle cx="11" cy="11" r="8"></circle>
+					<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+				</svg>
+			</div>
+
+			<div class="regions-list">
+
+			</div>
+
+			<div class="no-results">
+				No regions found
+			</div>
+		</div>
+	</div>
+
 
 	<div class="main">
+
+
 
 		<div class="search-wrapper">
 			<div class="select__search">
@@ -27,11 +188,11 @@
 					autocomplete="off">
 
 					<input id="searchSchool" class="searchSchool" type="text"
-						placeholder="Search school by name or postal code or city" th:field="*{name}" autocomplete="off"
+						placeholder="Search school by name or postal code or city" th:field="*{name}" autocomplete="on"
 						required>
 
-					<button class="searchButton" id="searchButton" type="submit"><img src="../../fotos/submit.png"
-							alt="submit"></button>
+					<button class="searchButton" id="searchButton"><img src="../../fotos/submit.png" alt="submit"
+							type="submit"></button>
 
 				</form>
 
@@ -42,14 +203,14 @@
 					<div class="noFound"></div>
 
 					<div th:each="school, iterStat : ${schools} " class="json__object">
-
+						<input type="hidden" class="schoolInfo" th:value="${school}">
 						<div class="name" th:text=" ${school.name}"></div>
 						<div class="address" th:text=" ${school.address}"></div>
 
 					</div><!-- /json__object -->
 
 				</div><!-- search_school -->
-				<input id="currentSchool" type="hidden" name="currentSchool" th:value="${schoolData}" />
+				<input id="schoolData" type="hidden" name="schoolData" th:value="${schoolData}" />
 				<!--				<input id="currentSchool" type="hidden" name="currentSchool"-->
 				<!--					   th:value="${schoolData.official_id + ',' + schoolData.id + ',' + schoolData.name + ',' + schoolData.schoolType + ',' + schoolData.address + ',' + schoolData.fullTimeSchool + ',' + schoolData.state + ',' + schoolData.phone + ',' + schoolData.fax + ',' + schoolData.latitude + ',' + schoolData.longitude}"/>-->
 
@@ -81,11 +242,137 @@
 
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 
-	<script th:inline="javascript">
+	<script>
+
+
+
+		$(document).ready(function () {
+			class School {
+				constructor({ officialId, id, name, schoolType, address, fullTimeSchool, state, phone, fax, latitude, longitude }) {
+					this.official_id = officialId;
+					this.id = id;
+					this.name = name;
+					this.schoolType = schoolType;
+					this.address = address;
+					this.fullTimeSchool = fullTimeSchool;
+					this.state = state;
+					this.phone = phone;
+					this.fax = fax;
+					this.latitude = latitude;
+					this.longitude = longitude;
+				}
+			}
+
+
+
+			$('#searchForm').submit(function (event) {
+				event.preventDefault(); // Stop normal form submission
+				let searchSchoolRequest = $(this).serialize();
+				$.ajax({
+					url: "http://localhost:8080/",
+					type: 'POST',
+					data: searchSchoolRequest,
+					success: function (response) {
+						let parsedResponse = $('<div>').html(response);
+						let schools = parsedResponse.find('.json__object') // Get all elements with class 'json__object'
+							.map(function () {
+								return {
+									schoolInfo: $(this).find('.schoolInfo').val().replace(/(\w+)=/g, '"$1":').replace(/'/g, '"'), // Get the hidden input value
+								};
+							}).get(); // Convert jQuery object to array
+						let schoolsLength = parsedResponse.find('.json__object').length;
+						console.log(schoolsLength);
+						//console.log("Schools found: " + JSON.stringify(schools[1]));
+						//---------------------------------------------------------------------------------------------
+						let arrayID = 0;
+
+
+
+						if (schoolsLength > 0) {
+							arrayID = 1;
+							// alert("Schools found: " + schools.length);
+							//$(".noFound span").remove();
+
+							$(document).on('click', '.json__object', function (e) {
+								//e.stopPropagation();
+								let nameValue = $(this).find('.name').text();
+								$("#searchSchool").val(nameValue);
+								//console.log("Name value: " + nameValue);
+
+							});
+
+							// Keep and update this block:
+							$(document).on('click', '.json__object', function (e) {
+								e.stopPropagation();
+								let index = $(".json__object").index(this);
+
+
+								let currentSchool = JSON.parse(schools[index].schoolInfo); // safely convert string to object
+								let selectedSchool = new School(currentSchool);
+								//console.log("Current school data: " + JSON.stringify(currentSchool));
+
+								//console.log("Current school data: " + currentSchool.schoolInfo);
+								//let schoolObj = currentSchool; // Parse the string back to an object
+								
+								console.log("Parsed school object: ", (selectedSchool));
+								if (currentSchool) {
+									$("#searchSchool").val(parsedResponse.find('.json__object').eq(index).find('.name').text()); // Set input value if needed
+
+
+									$("#schoolData").val(JSON.stringify(selectedSchool)); // Set the hidden input value with the current school data
+									
+
+
+									$('#schoolForm').submit(); // Submit the form with the selected school data
+								} else {
+									console.error("School data not found for index:", index);
+								}
+							});
+
+
+							//TODO: Clear previous results
+							//$("#searchResult").find(".noFound").empty(); // Clear previous "not found" message
+							//console.log(schools + " found");
+						} else {
+							arrayID = 0;
+							$(".search-wrapper").addClass("error");
+							$("#searchResult").find(".noFound").empty(); // Clear previous "not found" message
+							$("#searchResult").find(".noFound").html("<span>Your school not found...</span>");
+
+							console.log(schoolsLength + " no found");
+						}
+						//---------------------------------------------------------------------------------------------
+
+
+
+
+						let searchResult = parsedResponse.find('#searchResult');
+
+
+						// Update only #searchResult on the current page
+						$('#searchResult').empty(); // Clear previous results
+						$('#searchResult').html(searchResult.html());
+
+						// Optionally, clear input field
+						//$("#searchSchool").val('');
+
+						//console.log(searchResult.html());
+						$("#schoolForm").css("display", "block"); // Show the form with search results
+					},
+					error: function (xhr, status, error) {
+						alert("An error occurred: " + error);
+					}
+				});
+			});
+
+		});
+	</script>
+	<!-- <script th:inline="javascript">
 		/*<![CDATA[*/
 		let arrayID = 0;
-		let schools = [[${ schools }]];
+		let schools =  /*[[${schools}]]*/[];
 
+		console.log("schools: " + schools);
 
 		if (schools.length > 0) {
 			arrayID = 1;
@@ -93,7 +380,7 @@
 			// $(".noFound span").remove();
 
 
-			console.log(schools + " found");
+			//console.log(schools + " found");
 		} else {
 			arrayID = 0;
 			$(".search-wrapper").addClass("error");
@@ -103,7 +390,8 @@
 
 
 		/*]]>*/
-	</script>
+	</script> -->
+
 
 	<script src="../../js/searchScoolSeite/searchSchool.js"></script>
 	<script src="../../js/searchScoolSeite/searchSchoolSettings.js"></script>

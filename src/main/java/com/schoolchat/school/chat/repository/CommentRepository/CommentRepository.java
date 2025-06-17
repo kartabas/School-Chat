@@ -16,7 +16,7 @@ public interface CommentRepository extends JpaRepository<CommentModel, Integer> 
 
 	Optional<CommentModel> findByCommentIdAndUsersModel(Integer commentId, UsersModel usersModel);
 
-	List<CommentModel> findByPostId(Long postId);
+	List<CommentModel> findByPostId(Integer postId);
 
 	CommentModel deleteByCommentId(Long commentId);
 

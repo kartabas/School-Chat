@@ -66,27 +66,35 @@ public class HomeController extends HttpServlet {
 
 			}
 
-			System.out.println(usersModel);
+			System.out.println("HomeController usersModel:  " + usersModel);
 
 			SchoolSearch schoolSearch = new SchoolSearch();
-			String school = schoolSearch.getAllSchoolsByOfficialId(usersModel.getSchoolId()).toString();
-			SchoolModel userSchoolModel = new SchoolModel(school);
+			SchoolModel userSchoolModel = new SchoolModel(
+					schoolSearch.getAllSchoolsByOfficialId(usersModel.getSchoolId()).get(0));
 
+			System.out.println();
+			System.out.println("School from HomeController: " + userSchoolModel);
+			System.out.println();
+
+			System.out.println();
 			System.out.println("userSchoolModel:" + usersModel);
 			System.out.println("Session ID: " + session.getId());
+			System.out.println();
 
 			model.addAttribute("userLogin", usersModel);
 			model.addAttribute("userCurrentSchoolModel", userSchoolModel);
 
-			session.setAttribute("school", school);
+			// session.setAttribute("school", school);
 			session.setAttribute("userId", usersModel.getId());
 			session.setAttribute("userLogin", usersModel);
 			session.setAttribute("userCurrentSchoolModel", userSchoolModel);
+
 			System.out.println();
 			System.out.println("Session for userLogin: " + session.getAttribute("userLogin"));
 
 			System.out.println("Session for userCurrentSchoolModel: " + session.getAttribute("userCurrentSchoolModel"));
 			System.out.println("Replay COUNT: " + count);
+			System.out.println();
 			return "home";
 		} else {
 			return "redirect:/login";

@@ -11,6 +11,32 @@ $(document).ready(function () {
 
 
 
+
+	$("#send_post_elements_img_fileInput").on("change", function () {
+		let file = this.files[0];
+		if (file && file.type.startsWith("video/")) {
+
+			// If the file is a video, show an alert and remove the image element
+			alert("Error: Video files are not allowed. Please select an image.");
+			//alert("Error: Video files are not allowed. Please select an image.");
+			file = null; // Reset the file input
+			$(this).val(""); // Clear the file input
+		}
+
+		if ($(".send_post_elements_images").find("img").length >= 1) {
+			alert("You can only upload one image at a time.");
+			// Reset the file input if an image already exists
+			$(this).val("");
+			return; // Exit the function if an image already exists
+
+
+		}
+
+	});
+
+
+
+
 	$(".triggerIdButton").hover(
 		function () {
 			$(this).addClass("btn-primary");

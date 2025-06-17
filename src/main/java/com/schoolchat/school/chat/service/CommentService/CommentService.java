@@ -57,7 +57,7 @@ public class CommentService {
 		}
 	}
 
-	public List<CommentModel> getListCommentsUnderPost(Long postId) {
+	public List<CommentModel> getListCommentsUnderPost(Integer postId) {
 		return commentRepository.findByPostId(postId);
 	}
 

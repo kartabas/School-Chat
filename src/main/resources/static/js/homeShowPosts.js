@@ -1,6 +1,7 @@
 const postsApiUrl = 'http://localhost:8080/home/allpostsperschool';
 const usersApiUrl = 'http://localhost:8080/home/alluserposts/';
 const getProfileData = 'http://localhost:8080/home/profileinfo/';
+const getCountCommentsHome = 'http://localhost:8080/home/comment/postcountcomments/';
 
 async function getUserNickname(userId) {
 	try {
@@ -90,7 +91,12 @@ $(document).ready(function () {
 			  <div class="under__posts__elements">
 					 <ul class="nav justify-content-let">
 							 <li class="nav-item me-4">
-									<button class="nav-link showCommentsBtn" ><img src="../../fotos/profile/Comment.png" alt="icon"><span class="commentCount">0</span></button>
+									<button class="nav-link btn  showCommentsBtn"  ><img src="../../../fotos/profile/Comment.png" alt="icon"><span class="commentCount" id="changeCommentCount">${await fetch(getCountCommentsHome + post.postId)
+									.then(response => response.json())
+									.then(data => {
+										//console.log(data);
+										return data;
+									})}</span></button>
 							 </li>
 							 <li class="nav-item me-4">
 									<button class="nav-link" id="defaultLike"><img src="../../fotos/profile/DefaultLike.png" alt="icon" class="defaultLikeImg"><span>0</span></button>

@@ -1,204 +1,212 @@
 package com.schoolchat.school.chat.model.schoolModels;
 
-import jakarta.persistence.*;
+public class SchoolModel extends UserCurrentSchoolModel {
 
+	// private String global_id;
 
-import java.nio.charset.StandardCharsets;
+	private String official_id;
 
-import static org.hibernate.internal.util.config.ConfigurationHelper.extractValue;
+	private String id;
 
+	private String name;
 
-public class SchoolModel extends  UserCurrentSchoolModel {
+	private String schoolType;
 
+	private String schoolTypeEntity;
 
-    //private String global_id;
+	private String address;
 
+	private Boolean fullTimeSchool;
 
-    private String official_id;
+	private String state;
 
-    private String id;
+	private String phone;
 
-    private String name;
+	private String fax;
 
-    private String schoolType;
+	private double latitude;
 
-    private String schoolTypeEntity;
+	private double longitude;
 
-    private String address ;
+	public SchoolModel() {
+		// Default constructor
+	}
 
-    private Boolean fullTimeSchool;
+	public SchoolModel(String inputSchool) {
 
-    private String state;
+		this.official_id = extractValue(inputSchool, "officialId");
+		this.id = extractValue(inputSchool, "id");
+		this.name = extractValue(inputSchool, "name");
+		this.address = extractValue(inputSchool, "address");
+		this.state = extractValue(inputSchool, "state");
+		this.phone = extractValue(inputSchool, "phone");
+		this.fax = extractValue(inputSchool, "fax");
 
-    private String phone;
+	}
 
-    private  String fax;
+	public SchoolModel(SchoolModel school) {
+		this.official_id = school.getOfficial_id();
+		this.id = school.getId();
+		this.name = school.getName();
+		this.schoolType = school.getSchoolType();
+		this.schoolTypeEntity = school.getSchoolTypeEntity();
+		this.address = school.getAddress();
+		this.fullTimeSchool = school.getFullTimeSchool();
+		this.state = school.getState();
+		this.phone = school.getPhone();
+		this.fax = school.getFax();
+		this.latitude = school.getLatitude();
+		this.longitude = school.getLongitude();
+	}
 
-    private double latitude;
+	private String extractValue(String text, String key) {
+		String start = key + "='";
+		int startIndex = text.indexOf(start);
+		if (startIndex == -1) {
+			System.err.println("Key not found: " + key);
+			return null;
+		}
+		startIndex += start.length();
+		int endIndex = text.indexOf("'", startIndex);
+		if (endIndex == -1) {
+			System.err.println("No closing quote for key: " + key);
+			return null;
+		}
+		return text.substring(startIndex, endIndex);
+	}
 
-    private double longitude;
+	public SchoolModel(String officialId, String id, String name, String schoolType, String address,
+			Boolean fullTimeSchool, String state, String phone, String fax,
+			double latitude, double longitude) {
 
+		this.official_id = officialId;
+		this.id = id;
+		this.name = name;
+		this.schoolType = schoolType;
+		this.address = address;
+		this.fullTimeSchool = fullTimeSchool;
+		this.state = state;
+		this.phone = phone;
+		this.fax = fax;
+		this.latitude = latitude;
+		this.longitude = longitude;
+	}
 
+	public String getOfficial_id() {
+		return official_id;
+	}
 
-    public SchoolModel() {
-        // Default constructor
-    }
+	public void setOfficial_id(String official_id) {
+		this.official_id = official_id;
+	}
 
-    public SchoolModel(String inputSchool) {
+	public String getId() {
+		return id;
+	}
 
-        this.official_id = extractValue(inputSchool, "officialId");
-        this.id =extractValue(inputSchool, "id");
-        this.name = extractValue(inputSchool, "name");
-        this.address = extractValue(inputSchool, "address");
-        this.state =extractValue(inputSchool, "state");
-        this.phone = extractValue(inputSchool, "phone");
-        this.fax =extractValue(inputSchool, "fax");
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    }
+	public String getName() {
+		return name;
+	}
 
-    private String extractValue(String text, String key) {
-        String start = key + "='";
-        int startIndex = text.indexOf(start) + start.length();
-        int endIndex = text.indexOf("'", startIndex);
-        return text.substring(startIndex, endIndex);
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
+	public String getSchoolType() {
+		return schoolType;
+	}
 
+	public void setSchoolType(String schoolType) {
+		this.schoolType = schoolType;
+	}
 
+	public String getSchoolTypeEntity(String schoolTypeEntity) {
+		return this.schoolTypeEntity;
+	}
 
-    public SchoolModel(String officialId, String id, String name, String schoolType, String address,
-                  Boolean fullTimeSchool, String state, String phone, String fax,
-                  double latitude, double longitude) {
+	public String getSchoolTypeEntity() {
+		return this.schoolTypeEntity;
+	}
 
-        this.official_id = officialId;
-        this.id = id;
-        this.name = name;
-        this.schoolType = schoolType;
-        this.address = address;
-        this.fullTimeSchool = fullTimeSchool;
-        this.state = state;
-        this.phone = phone;
-        this.fax = fax;
-        this.latitude = latitude;
-        this.longitude = longitude;
-    }
+	public void setSchoolTypeEntity(String schoolTypeEntity) {
+		this.schoolTypeEntity = schoolTypeEntity;
+	}
 
+	public String getAddress() {
+		return address;
+	}
 
-    public String getOfficial_id() {
-        return official_id;
-    }
+	public void setAddress(String address) {
+		this.address = address;
+	}
 
-    public void setOfficial_id(String official_id) {
-        this.official_id = official_id;
-    }
+	public Boolean getFullTimeSchool() {
+		return fullTimeSchool;
+	}
 
-    public String getId() {
-        return id;
-    }
+	public void setFullTimeSchool(Boolean fullTimeSchool) {
+		this.fullTimeSchool = fullTimeSchool;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public String getState() {
+		return state;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public void setState(String state) {
+		this.state = state;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public String getPhone() {
+		return phone;
+	}
 
-    public String getSchoolType() {
-        return schoolType;
-    }
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
 
-    public void setSchoolType(String schoolType) {
-        this.schoolType = schoolType;
-    }
+	public String getFax() {
+		return fax;
+	}
 
-    public String getSchoolTypeEntity(String schoolTypeEntity) {
-        return this.schoolTypeEntity;
-    }
+	public void setFax(String fax) {
+		this.fax = fax;
+	}
 
-    public void setSchoolTypeEntity(String schoolTypeEntity) {
-        this.schoolTypeEntity = schoolTypeEntity;
-    }
+	public double getLatitude() {
+		return latitude;
+	}
 
-    public String getAddress() {
-        return address;
-    }
+	public void setLatitude(double latitude) {
+		this.latitude = latitude;
+	}
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
+	public double getLongitude() {
+		return longitude;
+	}
 
-    public Boolean getFullTimeSchool() {
-        return fullTimeSchool;
-    }
+	public void setLongitude(double longitude) {
+		this.longitude = longitude;
+	}
 
-    public void setFullTimeSchool(Boolean fullTimeSchool) {
-        this.fullTimeSchool = fullTimeSchool;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public void setState(String state) {
-        this.state = state;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getFax() {
-        return fax;
-    }
-
-    public void setFax(String fax) {
-        this.fax = fax;
-    }
-
-    public double getLatitude() {
-        return latitude;
-    }
-
-    public void setLatitude(double latitude) {
-        this.latitude = latitude;
-    }
-
-    public double getLongitude() {
-        return longitude;
-    }
-
-    public void setLongitude(double longitude) {
-        this.longitude = longitude;
-    }
-
-
-
-@Override
-public String toString() {
-    return "{" +
-            "officialId='" + official_id + '\'' +
-            ", id='" + id + '\'' +
-            ", name='" + name + '\'' +
-            ", schoolType='" + schoolType + '\'' +
-            ", address='" + address + '\'' +
-            ", fullTimeSchool='" + fullTimeSchool + '\'' +
-            ", state='" + state + '\'' +
-            ", phone='" + phone + '\'' +
-            ", fax='" + fax + '\'' +
-            ", latitude=" + latitude +
-            ", longitude=" + longitude +
-            '}';
-}
-
-
+	@Override
+	public String toString() {
+		return "{" +
+				"officialId='" + official_id + '\'' +
+				", id='" + id + '\'' +
+				", name='" + name + '\'' +
+				", schoolType='" + schoolType + '\'' +
+				", address='" + address + '\'' +
+				", fullTimeSchool='" + fullTimeSchool + '\'' +
+				", state='" + state + '\'' +
+				", phone='" + phone + '\'' +
+				", fax='" + fax + '\'' +
+				", latitude=" + latitude +
+				", longitude=" + longitude +
+				'}';
+	}
 
 }

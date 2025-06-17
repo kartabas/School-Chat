@@ -7,14 +7,19 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import com.schoolchat.school.chat.model.UsersModel;
+import com.schoolchat.school.chat.model.CommentModels.CommentModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.repository.homeRepository.PostRepository;
+import com.schoolchat.school.chat.service.CommentService.CommentService;
 
 @Service
 public class PostService {
 
 	@Autowired
 	private PostRepository postRepository;
+
+	@Autowired
+	private CommentService commentService;
 
 	public PostService() {
 		this.postRepository = postRepository;
@@ -96,5 +101,21 @@ public class PostService {
 		return postRepository.save(postModel);
 
 	}
+
+
+
+
+// Get the count of comments under a post
+	public int getCountCommentUnderPost(Integer postId) {
+		
+		List<CommentModel> commentList = commentService.getListCommentsUnderPost(postId);
+		if (commentList == null) {
+			return 0;
+		}
+		return commentList.size();
+	}
+
+
+
 
 }

@@ -16,11 +16,11 @@ $(document).ready(function () {
 		let postId = $(this).closest(".post__box").find(".postId").val();
 		let postBox = $(this).closest(".post__box");
 
-		commentCount = $(this).closest(".post__box").find(".comment__box .container .comment-section .comments-list ").find(".comment-box").length;
-		$(this).closest(".post__box").find(".commentCount").text(commentCount);
+		//commentCount = $(this).closest(".post__box").find(".comment__box .container .comment-section .comments-list ").find(".comment-box").length;
+		//$(this).closest(".post__box").find(".commentCount").text(commentCount);
 
 
-		let clickCount = postBox.data("clickCommentPanelCount") || 0;
+		let clickCount = postBox.data("clickCommentPanelCount") || 0; // Initialize clickCount if not already set
 		clickCount++;
 
 		if (clickCount > 1) {
@@ -37,17 +37,18 @@ $(document).ready(function () {
 						postBox.find(".comments-list").append('<h1 class="text-center" style=" color: white;">No comments yet</h1>');
 					}
 
-					data.forEach(comment => {
+					$(data).each(comment => {
+						//console.log(data[comment].profileModel.profileImage);
 						postBox.find(".comments-list").append(`
-							<div class="comment-box" id="${comment.commentId}">
+							<div class="comment-box" id="${data[comment].commentId}">
 								<div class="d-flex gap-3">
-									<img src="${comment.profileModel.profileImage}" alt="User Avatar" class="user-avatar">
+									<img src="${data[comment].profileModel.profileImage}" alt="User Avatar" class="user-avatar">
 									<div class="flex-grow-1">
 											<div class="d-flex justify-content-between align-items-center mb-2">
-												<h6 class="mb-0">${comment.profileModel.usersModel.login}</h6>
-												<span class="comment-time">${comment.commentTime}</span>
+												<h6 class="mb-0">${data[comment].profileModel.usersModel.login}</h6>
+												<span class="comment-time">${data[comment].commentTime}</span>
 											</div>
-											<p class="mb-2 comment__meassage" >${comment.commentMessage}</p>
+											<p class="mb-2 comment__message" >${data[comment].commentMessage}</p>
 									</div>
 								</div>
 							</div>`);
@@ -73,6 +74,7 @@ $(document).ready(function () {
 
 
 	$(document).on("click", ".comment__box__button", function () {
+		
 		let commentArray = [];
 		let postBox = $(this).closest(".post__box");
 		let postId = postBox.find(".postId").val();
@@ -80,8 +82,13 @@ $(document).ready(function () {
 		let commentText = $(this).closest(".comment__box").find(".comment__box__input__text").val();
 		console.log("commentText: " + commentText);
 
-		commentArray.push(postId);
 
+		postBox.find(".comments-list").empty();
+		console.log("text-center  was removed");
+
+		
+		commentArray.push(postId);
+		
 		fetch(profileAccountInfo + usersModel.id)
 			.then(response => response.json())
 			.then(async data => {
@@ -124,7 +131,7 @@ $(document).ready(function () {
 						});
 
 
-					$(this).closest(".post__box").find(".commentCount").text(++commentCount);
+
 					postId = $(this).closest(".post__box").find(".postId").val();
 
 
@@ -137,14 +144,18 @@ $(document).ready(function () {
 											<h6 class="mb-0">${commentArray[1].usersModel.login}</h6>
 											<span class="comment-time">${commentArray[3]}</span>
 										</div>
-										<p class="mb-2 comment__meassage" >${commentArray[2]}</p>
+										<p class="mb-2 comment__message" >${commentArray[2]}</p>
 								</div>
 							</div>
 						</div>
-		
+						
 					  `);
+					
+					$(this).closest(".post__box").find("#changeCommentCount").html($(this).closest(".comment__box").find(".container .comment-section .comments-list ").find(".comment-box").length);
 					$(this).closest(".comment__box").find(".comment__box__input__text").val(" ");
+
 				}
+
 				console.log(commentArray);
 			})
 			.catch(error => console.error('Error fetching data:', error));
