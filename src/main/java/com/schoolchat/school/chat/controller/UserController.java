@@ -11,6 +11,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.model.schoolModels.UserCurrentSchoolModel;
+import com.schoolchat.school.chat.security.BCryptHashing;
 import com.schoolchat.school.chat.service.UsersService;
 
 import jakarta.servlet.http.HttpServlet;
@@ -90,6 +91,10 @@ public class UserController extends HttpServlet {
 	@PostMapping("/register")
 	public String register(@ModelAttribute UserCurrentSchoolModel userCurrentSchoolModel, UsersModel usersModel,
 			Model model) {
+
+		System.out.println();
+		System.out.println("Password was hashing : " + BCryptHashing.hashPassword(usersModel.getPassword()));
+		System.out.println();
 
 		UsersModel registeredUser = usersService.registerUser(usersModel.getLogin(), usersModel.getPassword(),
 				usersModel.getEmail(), usersModel.getSchoolId());

@@ -24,9 +24,9 @@ public class CheckUsernameRegPage {
 		System.out.println("Checking username: " + username);
 		boolean isAvailable = usersService.checkUsername(username);
 		if (isAvailable) {
-			System.out.println("Username is available.");
+			//System.out.println("Username is available.");
 		} else {
-			System.out.println("Username is already taken.");
+			//System.out.println("Username is already taken.");
 		}
 		return isAvailable;
 	}
