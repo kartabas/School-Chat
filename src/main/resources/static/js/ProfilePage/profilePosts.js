@@ -3,6 +3,7 @@
 const postsApiUrl = 'http://localhost:8080/profile/usersposts';
 const usersApiUrl = 'http://localhost:8080/profile/userinfo/';
 const getCountComments = 'http://localhost:8080/profile/comment/postcountcomments/';
+const getLikeCountPerPosts = 'http://localhost:8080/profile/like/get/';
 
 async function getUserNickname(userId) {
 	try {
@@ -70,16 +71,21 @@ $(document).ready(function () {
 			  <div class="under__posts__elements">
 					 <ul class="nav justify-content-let">
 							 <li class="nav-item me-4">
-									<button class="nav-link btn  showCommentsBtn"  ><img src="../../../fotos/profile/Comment.png" alt="icon"><span class="commentCount" id="changeCommentCount">${
-										await fetch(getCountComments + post.postId)
-										.then(response => response.json())
-										.then(data => {
-											//console.log(data);
-											return data;
-										})}</span></button>
+									<button class="nav-link btn  showCommentsBtn"  ><img src="../../../fotos/profile/Comment.png" alt="icon"><span class="commentCount" id="changeCommentCount">${await fetch(getCountComments + post.postId)
+				.then(response => response.json())
+				.then(data => {
+					//console.log(data);
+					return data;
+				})}</span></button>
 										</li>
 							 <li class="nav-item me-4">
-									<button class="nav-link" id="defaultLike"><img src="../../../fotos/profile/DefaultLike.png" alt="icon" class="defaultLikeImg"><span>0</span></button>
+									<button class="nav-link" id="defaultLike"><img src="../../../fotos/profile/DefaultLike.png" alt="icon" class="defaultLikeImg"><span class="likeCount">${await fetch(getLikeCountPerPosts+ post.postId)
+				.then(response => response.json())
+				.then(data => {
+					//console.log(data);
+					return data;
+				})}</span></button>
+									
 							 </li>
 							 <li class="nav-item me-6">
 									<button class="nav-link" ><img src="../../../fotos/profile/Share.png" alt="icon"></button>

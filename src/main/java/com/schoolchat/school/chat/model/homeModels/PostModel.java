@@ -1,6 +1,5 @@
 package com.schoolchat.school.chat.model.homeModels;
 
-import com.mysql.cj.jdbc.Blob;
 import com.schoolchat.school.chat.model.UsersModel;
 
 import jakarta.persistence.Column;
@@ -9,10 +8,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
 @Entity
@@ -40,14 +36,22 @@ public class PostModel {
 	@Column(name = "send_time")
 	String sendTime;
 
-
 	@Column(name = "post_image", columnDefinition = "TEXT")
-	String  postImage;
+	String postImage;
 
+	@Column(name = "like_count")
+	Long likeCount;
 
+	public Long getLikeCount() {
+		if (likeCount == null) {
+			likeCount = 0L; // Initialize to 0 if null
+		}
+		return likeCount;
+	}
 
-
-
+	public void setLikeCount(Long likeCount) {
+		this.likeCount = likeCount;
+	}
 
 	public String getPostImage() {
 		return postImage;
@@ -96,9 +100,6 @@ public class PostModel {
 	public String getSendTime() {
 		return sendTime;
 	}
-
-
-
 
 	public String toString() {
 		return "PostModel [postId=" + postId + ", schoolId=" + schoolId + ", usersModel=" + usersModel

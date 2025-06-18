@@ -102,12 +102,9 @@ public class PostService {
 
 	}
 
-
-
-
-// Get the count of comments under a post
+	// Get the count of comments under a post
 	public int getCountCommentUnderPost(Integer postId) {
-		
+
 		List<CommentModel> commentList = commentService.getListCommentsUnderPost(postId);
 		if (commentList == null) {
 			return 0;
@@ -115,7 +112,59 @@ public class PostService {
 		return commentList.size();
 	}
 
+	// Like Post
+	public boolean likePost(Integer postId) {
+		try {
+			PostModel post = postRepository.findById(postId).orElse(null);
+			if (post != null) {
+				post.setLikeCount(post.getLikeCount() + 1);
+				postRepository.save(post);
+				return true;
+			} else {
+				System.err.println("Post not found with ID: " + postId);
+				return false;
 
+			}
 
+		} catch (Exception e) {
+			System.err.println("Error liking post: " + e.getMessage());
+			return false;
+
+		}
+
+	}
+
+	// Unlike Post
+	public boolean unlikePost(Integer postId) {
+		try {
+			PostModel post = postRepository.findById(postId).orElse(null);
+			if (post != null) {
+				if (post.getLikeCount() != null && post.getLikeCount() > 0) {
+					post.setLikeCount(post.getLikeCount() - 1);
+				} else {
+					System.err.println("Cannot unlike post, like count is already zero.");
+					return false;
+				}
+				postRepository.save(post);
+				return true;
+			} else {
+				System.err.println("Post not found with ID: " + postId);
+				return false;
+			}
+		} catch (Exception e) {
+			System.err.println("Error unliking post: " + e.getMessage());
+			return false;
+		}
+	}
+
+	public Long getLikeCount(Integer postId) {
+		PostModel post = postRepository.findById(postId).orElse(null);
+		if (post != null) {
+			return (long) (post.getLikeCount() != null ? post.getLikeCount() : 0);
+		} else {
+			System.err.println("Post not found with ID: " + postId);
+			return 0L;
+		}
+	}
 
 }

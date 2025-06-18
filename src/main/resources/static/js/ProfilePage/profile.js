@@ -1,3 +1,7 @@
+const likeCountAPI = "http://localhost:8080/profile/like/";
+
+
+
 $(document).ready(function () {
 	$(".nav-link").hover(
 		function () {
@@ -18,33 +22,62 @@ $(document).ready(function () {
 		}
 	);
 
+	// $(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
+	// $(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
 
+	$(document).on("click", "#defaultLike", function () {
+		const $likeBtn = $(this);
+		const $likeImg = $(".defaultLikeImg", this);
+		const $likeCount = $(".likeCount", this);
+		const postIdData = $likeBtn.closest(".post__box").find(".postId").val();
+		const isLiked = $likeBtn.attr("data-liked") === "true";
 
-	$(document).on('click', '#defaultLike', function () {
-		if ($(this).data('clickCountLike') === undefined) {
-			$(this).data('clickCountLike', 0);
-		}
+		if (!isLiked) {
+			$likeImg.attr("src", "../../../fotos/profile/SelectedLike.png");
+			$likeCount.text(function (i, text) {
+				return parseInt(text) + 1;
+			});
 
-		let clickCountLike = $(this).data('clickCountLike');
+			$.ajax({
+				url: likeCountAPI + postIdData,
+				type: 'POST',
+				data: {
+					postId: postIdData
+				},
+				success: function (response) {
+					console.log("Liked successfully:", response);
+					$likeCount.text(response);
+				},
+				error: function (xhr, status, error) {
+					console.error("Error liking post:", error);
+				}
+			});
 
-		
-		if (clickCountLike < 1) {
-
-			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
-			clickCountLike = 1;
-			$("#defaultLike span",this).html($("#defaultLike span",this).val() + clickCountLike);
+			$likeBtn.attr("data-liked", "true");
 		} else {
+			$likeImg.attr("src", "../../../fotos/profile/defaultLike.png");
+			$likeCount.text(function (i, text) {
+				return parseInt(text) - 1;
+			});
 
-			$(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
-			clickCountLike = 0;
-			$("#defaultLike span",this).html($("#defaultLike span",this).val() - clickCountLike);
+			$.ajax({
+				url: likeCountAPI + postIdData,
+				type: 'DELETE',
+				data: {
+					postId: postIdData
+				},
+				success: function (response) {
+					console.log("Unliked successfully:", response);
+					$likeCount.text(response);
+				},
+				error: function (xhr, status, error) {
+					console.error("Error unliking post:", error);
+				}
+			});
+
+			$likeBtn.attr("data-liked", "false");
 		}
-
-
-		$(this).data('clickCountLike', clickCountLike);
-		console.log("Click count after: " + clickCountLike);
 	});
-
 
 
 
