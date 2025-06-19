@@ -10,7 +10,8 @@ import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.CommentModels.CommentModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.repository.homeRepository.PostRepository;
-import com.schoolchat.school.chat.service.CommentService.CommentService;
+import com.schoolchat.school.chat.service.commentService.CommentService;
+import com.schoolchat.school.chat.service.likesService.LikeService;
 
 @Service
 public class PostService {
@@ -20,6 +21,9 @@ public class PostService {
 
 	@Autowired
 	private CommentService commentService;
+
+	@Autowired
+	private LikeService likeService;
 
 	public PostService() {
 		this.postRepository = postRepository;
@@ -117,6 +121,7 @@ public class PostService {
 		try {
 			PostModel post = postRepository.findById(postId).orElse(null);
 			if (post != null) {
+				likeService.saveLikeUnderPost(postId, post.getUsersModel());
 				post.setLikeCount(post.getLikeCount() + 1);
 				postRepository.save(post);
 				return true;
@@ -140,6 +145,7 @@ public class PostService {
 			PostModel post = postRepository.findById(postId).orElse(null);
 			if (post != null) {
 				if (post.getLikeCount() != null && post.getLikeCount() > 0) {
+					likeService.deleteLikeUnderPost(postId, post.getUsersModel());
 					post.setLikeCount(post.getLikeCount() - 1);
 				} else {
 					System.err.println("Cannot unlike post, like count is already zero.");
@@ -164,6 +170,15 @@ public class PostService {
 		} else {
 			System.err.println("Post not found with ID: " + postId);
 			return 0L;
+		}
+	}
+
+	public boolean isPostLiked(Integer postId, Integer userId) {
+		try {
+			return likeService.isPostLikedByUser(postId, userId);
+		} catch (Exception e) {
+			System.err.println("Error checking if post is liked: " + e.getMessage());
+			return false;
 		}
 	}
 

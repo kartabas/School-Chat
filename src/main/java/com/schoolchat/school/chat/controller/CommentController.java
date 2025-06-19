@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.CommentModels.CommentModel;
 import com.schoolchat.school.chat.repository.CommentRepository.CommentRepository;
-import com.schoolchat.school.chat.service.CommentService.CommentService;
+import com.schoolchat.school.chat.service.commentService.CommentService;
 import com.schoolchat.school.chat.service.homeService.PostService;
 
 import jakarta.servlet.http.HttpServlet;

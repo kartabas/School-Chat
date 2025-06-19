@@ -22,6 +22,13 @@ $(document).ready(function () {
 		}
 	);
 
+
+
+
+
+
+
+
 	// $(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
 	// $(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
 
@@ -30,13 +37,16 @@ $(document).ready(function () {
 		const $likeImg = $(".defaultLikeImg", this);
 		const $likeCount = $(".likeCount", this);
 		const postIdData = $likeBtn.closest(".post__box").find(".postId").val();
-		const isLiked = $likeBtn.attr("data-liked") === "true";
+		let isLiked = $likeBtn.attr("data-liked") === "true";
 
 		if (!isLiked) {
 			$likeImg.attr("src", "../../../fotos/profile/SelectedLike.png");
 			$likeCount.text(function (i, text) {
 				return parseInt(text) + 1;
 			});
+
+
+
 
 			$.ajax({
 				url: likeCountAPI + postIdData,
@@ -54,6 +64,7 @@ $(document).ready(function () {
 			});
 
 			$likeBtn.attr("data-liked", "true");
+
 		} else {
 			$likeImg.attr("src", "../../../fotos/profile/defaultLike.png");
 			$likeCount.text(function (i, text) {
@@ -78,6 +89,11 @@ $(document).ready(function () {
 			$likeBtn.attr("data-liked", "false");
 		}
 	});
+
+
+
+
+
 
 
 

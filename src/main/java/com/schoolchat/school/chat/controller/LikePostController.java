@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.schoolchat.school.chat.service.homeService.PostService;
+import com.schoolchat.school.chat.service.likesService.LikeService;
 
 import jakarta.servlet.http.HttpServlet;
 
@@ -20,6 +21,9 @@ public class LikePostController extends HttpServlet {
 
 	@Autowired
 	private PostService postService;
+
+	@Autowired
+	private LikeService likeService;
 
 	public LikePostController(PostService postService) {
 		this.postService = postService;
@@ -50,6 +54,17 @@ public class LikePostController extends HttpServlet {
 	public Long getLikesCount(@PathVariable Integer postId) {
 		Long likesCount = postService.getLikeCount(postId);
 		return likesCount;
+	}
+
+	@GetMapping("/liked")
+	@ResponseBody
+	public String isPostLiked(@RequestParam Integer postId,
+			@RequestParam Integer userId) {
+		if (postService.isPostLiked(postId, userId)) {
+			return "../../../fotos/profile/SelectedLike.png";
+		} else {
+			return "../../../fotos/profile/defaultLike.png";
+		}
 	}
 
 }

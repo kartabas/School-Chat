@@ -4,6 +4,8 @@ const postsApiUrl = 'http://localhost:8080/profile/usersposts';
 const usersApiUrl = 'http://localhost:8080/profile/userinfo/';
 const getCountComments = 'http://localhost:8080/profile/comment/postcountcomments/';
 const getLikeCountPerPosts = 'http://localhost:8080/profile/like/get/';
+const isLikedPostAPI = "http://localhost:8080/profile/like/liked";
+
 
 async function getUserNickname(userId) {
 	try {
@@ -17,6 +19,33 @@ async function getUserNickname(userId) {
 		return null;
 	}
 }
+
+function getLikedPost(postId, userId, imgElement) {
+	$.ajax({
+		url: isLikedPostAPI,
+		type: 'GET',
+		data: {
+			postId: postId,
+			userId: userId
+		},
+		success: function (data) {
+			console.log(postId + " → returned image URL:", data);
+			if (data == "../../../fotos/profile/SelectedLike.png") {
+				$(imgElement).closest("#defaultLike").attr("data-liked", "true");
+			} else {
+				$(imgElement).closest("#defaultLike").attr("data-liked", "false");
+			}
+
+
+
+			$(imgElement).attr("src", data);
+		},
+		error: function (jqXHR, textStatus, errorThrown) {
+			console.error('Error fetching like icon:', textStatus, errorThrown);
+		}
+	});
+}
+
 
 
 $(document).ready(function () {
@@ -79,7 +108,7 @@ $(document).ready(function () {
 				})}</span></button>
 										</li>
 							 <li class="nav-item me-4">
-									<button class="nav-link" id="defaultLike"><img src="../../../fotos/profile/DefaultLike.png" alt="icon" class="defaultLikeImg"><span class="likeCount">${await fetch(getLikeCountPerPosts+ post.postId)
+									<button class="nav-link" id="defaultLike"><img   alt="icon" class="defaultLikeImg" data-postid="${post.postId}" data-userid="${post.usersModel}"><span class="likeCount">${await fetch(getLikeCountPerPosts + post.postId)
 				.then(response => response.json())
 				.then(data => {
 					//console.log(data);
@@ -123,6 +152,10 @@ $(document).ready(function () {
 		</div><!-- post__box -->
 		`;
 		$(".posts__container").prepend(newPostBlock);
+		const lastInsertedImg = $(".posts__container .defaultLikeImg").first();
+		const postId = lastInsertedImg.data('postid');
+		const userId = lastInsertedImg.data('userid');
+		getLikedPost(postId, userId, lastInsertedImg);
 
 	}
 
@@ -155,6 +188,8 @@ $(document).ready(function () {
 
 		})
 		.catch(error => console.error('Error fetching data:', error));
+
+
 
 
 
