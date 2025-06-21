@@ -25,6 +25,7 @@ import com.schoolchat.school.chat.service.UsersService;
 import com.schoolchat.school.chat.service.homeService.PostService;
 import com.schoolchat.school.chat.service.homeService.ProfileService;
 import com.schoolchat.school.chat.service.homeService.SchoolPostService;
+import com.schoolchat.school.chat.service.likesService.LikeService;
 
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -49,6 +50,9 @@ public class ProfilController extends HttpServlet {
 
 	@Autowired
 	private SchoolPostService schoolPostService;
+
+	@Autowired
+	LikeService likeService;
 
 	public ProfilController(UsersService usersService) {
 		this.usersService = usersService;
@@ -190,6 +194,8 @@ public class ProfilController extends HttpServlet {
 
 		SchoolPostsModel schoolPostsModel = schoolPostService.getPostByPostModel(postModel);
 		schoolPostService.deleteBySchoolPostId(schoolPostsModel.getSchoolPostId());
+
+		likeService.deletePerPostId(id);
 
 		postService.deleteByPostId(postModel.getPostId());
 		System.out.println("Post was deleted: " + postModel.getPostId());

@@ -16,7 +16,7 @@ public class LikesModel {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long likeId;
 
-	@Column(name = "post_id", unique = true)
+	@Column(name = "post_id")
 	private Integer postId;
 
 	@Column(name = "user_id")

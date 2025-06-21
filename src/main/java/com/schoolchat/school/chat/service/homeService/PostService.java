@@ -117,11 +117,12 @@ public class PostService {
 	}
 
 	// Like Post
-	public boolean likePost(Integer postId) {
+	public boolean likePost(Integer postId , Integer userId) {
 		try {
 			PostModel post = postRepository.findById(postId).orElse(null);
 			if (post != null) {
-				likeService.saveLikeUnderPost(postId, post.getUsersModel());
+				
+				likeService.saveLikeUnderPost(postId, userId);
 				post.setLikeCount(post.getLikeCount() + 1);
 				postRepository.save(post);
 				return true;
@@ -140,12 +141,12 @@ public class PostService {
 	}
 
 	// Unlike Post
-	public boolean unlikePost(Integer postId) {
+	public boolean unlikePost(Integer postId , Integer userId) {
 		try {
 			PostModel post = postRepository.findById(postId).orElse(null);
 			if (post != null) {
 				if (post.getLikeCount() != null && post.getLikeCount() > 0) {
-					likeService.deleteLikeUnderPost(postId, post.getUsersModel());
+					likeService.deleteLikeUnderPost(postId, userId);
 					post.setLikeCount(post.getLikeCount() - 1);
 				} else {
 					System.err.println("Cannot unlike post, like count is already zero.");

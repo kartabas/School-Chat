@@ -1,5 +1,7 @@
 package com.schoolchat.school.chat.service.likesService;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -31,6 +33,15 @@ public class LikeService {
 		LikesModel likesModel = likeRepository.findByPostIdAndUserId(postId, userId);
 		if (likesModel != null) {
 			likeRepository.delete(likesModel);
+			return likesModel;
+		}
+		return null;
+	}
+
+	public List<LikesModel> deletePerPostId(Integer postId) {
+		List<LikesModel> likesModel = likeRepository.findByPostId(postId);
+		if (likesModel != null) {
+			likeRepository.deleteAll(likesModel);
 			return likesModel;
 		}
 		return null;
