@@ -63,11 +63,20 @@ public class UserController extends HttpServlet {
 			model.addAttribute("userCurrentSchoolModel", session.getAttribute("userCurrentSchoolModel"));
 			usersModel.setSchoolId((String) session.getAttribute("UserCurrentID"));
 		}
-
+		usersModel.setEmail((String) session.getAttribute("oauthEmail"));
 		model.addAttribute("registerRequest", usersModel);
 
 		if (session.getAttribute("userCurrentSchoolModel") != null) {
 			userCurrentSchoolModel = (UserCurrentSchoolModel) session.getAttribute("userCurrentSchoolModel");
+			// if (session.getAttribute("oauthEmail") != null) {
+			// model.addAttribute("oauthEmail", session.getAttribute("oauthEmail"));
+			// } else {
+			// model.addAttribute("oauthEmail", "");
+			// }
+			// System.out.println();
+			// System.out.println("oauthEmail on register : " +
+			// session.getAttribute("oauthEmail"));
+			// System.out.println();
 		} else {
 			userCurrentSchoolModel = new UserCurrentSchoolModel();
 		}
@@ -81,9 +90,11 @@ public class UserController extends HttpServlet {
 	}
 
 	@GetMapping("/login")
-	public String getLoginPage(Model model) {
-
-		model.addAttribute("loginRequest", new UsersModel());
+	public String getLoginPage(Model model, HttpServletRequest request) {
+		HttpSession session = request.getSession();
+		UsersModel usersModel = new UsersModel();
+		usersModel.setLogin((String) session.getAttribute("oauthLoginGithub"));
+		model.addAttribute("loginRequest", usersModel);
 
 		return "Login";
 	}

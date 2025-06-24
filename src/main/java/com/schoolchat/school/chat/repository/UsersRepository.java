@@ -1,20 +1,21 @@
 package com.schoolchat.school.chat.repository;
 
-import com.schoolchat.school.chat.model.UsersModel;
-import org.springframework.data.jpa.repository.JpaRepository;
-
 import java.util.Optional;
 
-public interface UsersRepository  extends JpaRepository<UsersModel,Integer> {
-    Optional<UsersModel> findByLoginAndPassword(String login,String password);
+import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.schoolchat.school.chat.model.UsersModel;
 
+public interface UsersRepository extends JpaRepository<UsersModel, Integer> {
+	Optional<UsersModel> findByLoginAndPassword(String login, String password);
 
+	Optional<UsersModel> findFirstByLogin(String login);
 
-    Optional<UsersModel> findFirstByLogin(String login);
-    Optional<UsersModel> findById(long id);
+	Optional<UsersModel> findById(long id);
 
-    Optional<UsersModel> findAllById(Integer id);
+	Optional<UsersModel> findAllById(Integer id);
 
-    Optional<UsersModel> readAllById(int i);
+	Optional<UsersModel> readAllById(Integer id);
+
+	Optional<UsersModel> findByEmail(String email);
 }
