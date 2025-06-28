@@ -27,7 +27,8 @@ public class SecurityConfig {
 				.authorizeHttpRequests(auth -> {
 					auth
 
-							.requestMatchers("/", "/login", "/app", "/register", "/home", "/profile", "/css/**", "/js/**",
+							.requestMatchers("/", "/react-frontend", "/react-frontend/**", "/login", "/app", "/register",
+									"/home", "/profile", "/react-frontend/**", "/css/**", "/js/**",
 									"/fotos/**", "/error")
 							.permitAll()
 							.anyRequest().authenticated();
