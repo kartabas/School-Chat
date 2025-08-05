@@ -28,23 +28,23 @@ public class SecurityConfig {
 					auth
 
 							.requestMatchers("/", "/react-frontend", "/react-frontend/**", "/login", "/app", "/register",
-									"/home", "/profile", "/react-frontend/**", "/css/**", "/js/**",
+									"/home", "/profile" , "/home/**" , "/profile/**", "/react-frontend/**", "/css/**", "/js/**",
 									"/fotos/**", "/error")
 							.permitAll()
 							.anyRequest().authenticated();
 				})
-				.oauth2Login(oauth2 -> oauth2
-						.loginPage("/register")
-						.defaultSuccessUrl("/register", true)
-						.userInfoEndpoint(userInfo -> userInfo
-								.userService(customOAuth2UserService))
-						.failureUrl("/error"))
-				.oauth2Login(oauth2 -> oauth2
-						.loginPage("/login")
-						.defaultSuccessUrl("/login", true)
-						.userInfoEndpoint(userInfo -> userInfo
-								.userService(customOAuth2UserService))
-						.failureUrl("/error"))
+				// .oauth2Login(oauth2 -> oauth2
+				// .loginPage("/register")
+				// .defaultSuccessUrl("/register", true)
+				// .userInfoEndpoint(userInfo -> userInfo
+				// .userService(customOAuth2UserService))
+				// .failureUrl("/error"))
+				// .oauth2Login(oauth2 -> oauth2
+				// .loginPage("/login")
+				// .defaultSuccessUrl("/login", true)
+				// .userInfoEndpoint(userInfo -> userInfo
+				// .userService(customOAuth2UserService))
+				// .failureUrl("/error"))
 				.build();
 
 	}
