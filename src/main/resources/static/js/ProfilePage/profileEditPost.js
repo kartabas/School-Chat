@@ -1,4 +1,4 @@
-const updatePost = 'http://localhost:8080/profile/updatepost/';
+const updatePost = 'https://localhost:8080/profile/updatepost/';
 
 $(document).ready(function () {
 	let isClicked = false;

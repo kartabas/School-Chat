@@ -1,4 +1,4 @@
-const getHomeData = 'http://localhost:8080/home/profileinfo/';
+const getHomeData = 'https://localhost:8080/home/profileinfo/';
 
 
 
