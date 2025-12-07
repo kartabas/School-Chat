@@ -1,4 +1,8 @@
 
+
+//window.API_URL = "${app.api.url}";
+
+
 let countClick = 0;
 $(document).ready(function () {
 
@@ -40,14 +44,6 @@ $(document).ready(function () {
 
 
 	});
-
-
-
-
-
-
-
-
 
 
 
@@ -167,7 +163,9 @@ $(document).ready(function () {
 
 		let selectedRegionNameValue = selectedRegion.toLowerCase().replace(/-/g, "_").replace(/ü/g, "ue").replace(/ö/g, "oe").replace(/ä/g, "ae");
 		$.ajax({
-			url: 'https://www.studentchat.me/',
+			url: `${window.API_URL}/`,
+			//url: 'https://localhost:8080/',
+			//url: `${API_BASE_URL}/`,
 			type: 'GET',
 			data: {
 				region: selectedRegionNameValue
