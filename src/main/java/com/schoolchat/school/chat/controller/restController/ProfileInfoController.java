@@ -1,0 +1,28 @@
+package com.schoolchat.school.chat.controller.restController;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.schoolchat.school.chat.model.homeModels.ProfileModel;
+import com.schoolchat.school.chat.service.homeService.ProfileService;
+
+@RestController
+@RequestMapping("/profile")
+public class ProfileInfoController {
+
+	@Autowired
+	private ProfileService profileService;
+
+	public ProfileInfoController(ProfileService profileService) {
+		this.profileService = profileService;
+	}
+
+
+
+
+
+}

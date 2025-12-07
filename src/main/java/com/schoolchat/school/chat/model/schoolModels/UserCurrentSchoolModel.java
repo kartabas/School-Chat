@@ -1,9 +1,9 @@
-package com.schoolchat.school.chat.model;
+package com.schoolchat.school.chat.model.schoolModels;
 
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.schoolchat.school.chat.Schools.SchoolModel;
+
 import org.springframework.scheduling.annotation.Scheduled;
 
 public class UserCurrentSchoolModel  {
@@ -51,11 +51,11 @@ public class UserCurrentSchoolModel  {
 
 
 
-    public String getOfficial_id() {
+    public String getofficial_id() {
         return official_id;
     }
 
-    public void setOfficial_id(String official_id) {
+    public void setofficial_id(String official_id) {
         this.official_id = official_id;
     }
 
@@ -123,30 +123,7 @@ public class UserCurrentSchoolModel  {
         this.currentSchool = currentSchool;
     }
 
-    public void setCurrentUserSchool(String currentSchool) {
-        try {
-            ObjectMapper objectMapper = new ObjectMapper();
-            JsonNode jsonNode = objectMapper.readTree(currentSchool);
 
-            this.official_id = jsonNode.get("official_id").asText();
-            this.id = jsonNode.get("id").asText();
-            this.name = jsonNode.get("name").asText();
-            this.schoolType = jsonNode.get("schoolType").asText();
-            this.address = jsonNode.get("address").asText();
-            this.state = jsonNode.get("state").asText();
-            this.phone = jsonNode.get("phone").asText();
-            this.fax = jsonNode.get("fax").asText();
-            this.fullTimeSchool = Boolean.valueOf(jsonNode.get("fullTimeSchool").asText());
-            this.latitude = Double.parseDouble(jsonNode.get("latitude").asText());;
-            this.longitude= Double.parseDouble(jsonNode.get("longitude").asText());;
-
-
-
-        } catch (Exception e) {
-            e.printStackTrace(); // Handle the exception appropriately
-        }
-
-    }
 
 
 

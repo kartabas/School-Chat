@@ -1,15 +1,5 @@
 package com.schoolchat.school.chat.controller;
 
-
-import com.schoolchat.school.chat.Schools.SchoolModel;
-import com.schoolchat.school.chat.model.UserCurrentSchoolModel;
-import com.schoolchat.school.chat.model.UsersModel;
-import com.schoolchat.school.chat.service.UsersService;
-
-
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,124 +8,144 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import com.schoolchat.school.chat.model.UsersModel;
+import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
+import com.schoolchat.school.chat.model.schoolModels.UserCurrentSchoolModel;
+import com.schoolchat.school.chat.security.BCryptHashing;
+import com.schoolchat.school.chat.service.UsersService;
+
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class UserController extends HttpServlet {
 
-    @Autowired
-    private UsersService usersService;
+	@Autowired
+	private UsersService usersService;
 
+	public UserController(UsersService usersService) {
+		this.usersService = usersService;
+	}
 
-    public UserController(UsersService usersService) {
-        this.usersService = usersService;
-    }
+	@GetMapping("/register")
+	public String getRegisterPage(Model model, UserCurrentSchoolModel userCurrentSchoolModel,
+			HttpServletRequest request) {
+		HttpSession session = request.getSession();
+		UsersModel usersModel = new UsersModel();
 
+		// usersModel.setCurrentSchoolData(userCurrentSchoolModel);
 
-    @GetMapping("/register")
-    public String getRegisterPage( Model model ,UserCurrentSchoolModel userCurrentSchoolModel, HttpServletRequest request ){
-        HttpSession session = request.getSession();
-        UsersModel usersModel = new UsersModel();
+		// System.out.println("getRegisterPage: "+userCurrentSchoolModel.toString());
 
+		SchoolModel schoolModel = new SchoolModel(
+				userCurrentSchoolModel.getofficial_id(),
+				userCurrentSchoolModel.getId(),
+				userCurrentSchoolModel.getName(),
+				userCurrentSchoolModel.getSchoolType(),
+				userCurrentSchoolModel.getAddress(),
+				userCurrentSchoolModel.getFullTimeSchool(),
+				userCurrentSchoolModel.getState(),
+				userCurrentSchoolModel.getPhone(),
+				userCurrentSchoolModel.getFax(),
+				userCurrentSchoolModel.getLatitude(),
+				userCurrentSchoolModel.getLongitude());
 
-       // usersModel.setCurrentSchoolData(userCurrentSchoolModel);
+		if (userCurrentSchoolModel.getId() != null) {
+			session.setAttribute("userCurrentSchoolModel", userCurrentSchoolModel);
+			model.addAttribute("userCurrentSchoolModel", userCurrentSchoolModel);
 
-       // System.out.println("getRegisterPage: "+userCurrentSchoolModel.toString());
+			usersModel.setSchoolId(userCurrentSchoolModel.getId());
+			session.setAttribute("UserCurrentID", userCurrentSchoolModel.getId());
+			System.out.println(schoolModel.toString());
 
-        SchoolModel schoolModel = new SchoolModel(
-                userCurrentSchoolModel.getOfficial_id(),
-                userCurrentSchoolModel.getId(),
-                userCurrentSchoolModel.getName(),
-                userCurrentSchoolModel.getSchoolType(),
-                userCurrentSchoolModel.getAddress(),
-                userCurrentSchoolModel.getFullTimeSchool(),
-                userCurrentSchoolModel.getState(),
-                userCurrentSchoolModel.getPhone(),
-                userCurrentSchoolModel.getFax(),
-                userCurrentSchoolModel.getLatitude(),
-                userCurrentSchoolModel.getLongitude()
-        );
+		} else {
+			model.addAttribute("userCurrentSchoolModel", session.getAttribute("userCurrentSchoolModel"));
+			usersModel.setSchoolId((String) session.getAttribute("UserCurrentID"));
+		}
+		usersModel.setEmail((String) session.getAttribute("oauthEmail"));
+		model.addAttribute("registerRequest", usersModel);
 
+		if (session.getAttribute("userCurrentSchoolModel") != null) {
+			userCurrentSchoolModel = (UserCurrentSchoolModel) session.getAttribute("userCurrentSchoolModel");
+			// if (session.getAttribute("oauthEmail") != null) {
+			// model.addAttribute("oauthEmail", session.getAttribute("oauthEmail"));
+			// } else {
+			// model.addAttribute("oauthEmail", "");
+			// }
+			// System.out.println();
+			// System.out.println("oauthEmail on register : " +
+			// session.getAttribute("oauthEmail"));
+			// System.out.println();
+		} else {
+			userCurrentSchoolModel = new UserCurrentSchoolModel();
+		}
 
+		System.out.println();
+		System.out.println();
+		System.out.println("getRegisterPage: " + userCurrentSchoolModel.toString());
+		System.out.println();
 
-        if(userCurrentSchoolModel.getId() != null){
-            session.setAttribute("userCurrentSchoolModel",userCurrentSchoolModel);
-            model.addAttribute("userCurrentSchoolModel",userCurrentSchoolModel);
+		return "singUp";
+	}
 
-            usersModel.setSchoolId(userCurrentSchoolModel.getId());
-            session.setAttribute("UserCurrentID",userCurrentSchoolModel.getId());
-            System.out.println(schoolModel.toString());
+	@GetMapping("/login")
+	public String getLoginPage(Model model, HttpServletRequest request) {
+		HttpSession session = request.getSession();
+		UsersModel usersModel = new UsersModel();
+		usersModel.setLogin((String) session.getAttribute("oauthLoginGithub"));
+		model.addAttribute("loginRequest", usersModel);
 
-        }else{
-            model.addAttribute("userCurrentSchoolModel",session.getAttribute("userCurrentSchoolModel"));
-            usersModel.setSchoolId((String) session.getAttribute("UserCurrentID"));
-        }
+		return "Login";
+	}
 
+	@PostMapping("/register")
+	public String register(@ModelAttribute UserCurrentSchoolModel userCurrentSchoolModel, UsersModel usersModel,
+			Model model) {
 
-        model.addAttribute("registerRequest",usersModel);
+		System.out.println();
+		System.out.println("Password was hashing : " + BCryptHashing.hashPassword(usersModel.getPassword()));
+		System.out.println();
 
-        return "singUp";
-    }
+		UsersModel registeredUser = usersService.registerUser(usersModel.getLogin(), usersModel.getPassword(),
+				usersModel.getEmail(), usersModel.getSchoolId());
 
+		return registeredUser == null ? "error_page" : "redirect:/login";
+	}
 
+	@PostMapping("/login")
+	public String login(@ModelAttribute("usersModel") UsersModel usersModel, RedirectAttributes redirectAttributes,
+			Model model) {
 
+		UsersModel authenticated = usersService.authenticate(usersModel.getLogin(), usersModel.getPassword());
 
-    @GetMapping("/login")
-    public String getLoginPage(Model model ){
+		if (authenticated != null) {
 
-        model.addAttribute("loginRequest",new UsersModel());
+			redirectAttributes.addFlashAttribute("userLogin", authenticated);
+			return "redirect:/home";
+		} else {
+			System.out.println("Authentication failed");
+			return "error_page";
+		}
+	}
 
-        return "Login";
-    }
-
-
-
-
-    @PostMapping("/register")
-    public String register(@ModelAttribute  UserCurrentSchoolModel userCurrentSchoolModel ,UsersModel usersModel, Model model ){
-
-
-        UsersModel registeredUser= usersService.registerUser(usersModel.getLogin(), usersModel.getPassword(), usersModel.getEmail() ,usersModel.getSchoolId());
-
-        return registeredUser == null ? "error_page" : "redirect:/login";
-    }
-
-
-    @PostMapping("/login")
-    public String login(@ModelAttribute("usersModel") UsersModel usersModel ,RedirectAttributes redirectAttributes , Model model) {
-
-
-        UsersModel authenticated = usersService.authenticate(usersModel.getLogin(), usersModel.getPassword());
-
-        if (authenticated != null) {
-
-            redirectAttributes.addFlashAttribute("userLogin", authenticated);
-            return "redirect:home";
-        } else {
-            System.out.println("Authentication failed");
-            return "error_page";
-        }
-    }
-
-
-
-//old login post  api
-    //    @PostMapping("/login")
-//    public String login(@ModelAttribute UsersModel usersModel, Model model) {
-//
-//
-//        UsersModel authenticated = usersService.authenticate(usersModel.getLogin(), usersModel.getPassword());
-//
-//        if (authenticated != null) {
-//
-//            //return "redirect:/home";
-//            model.addAttribute("userLogin",authenticated);
-//            return "personal_page";
-//        } else {
-//            System.out.println("Authentication failed");
-//            return "error_page";
-//        }
-//    }
-
+	// old login post api
+	// @PostMapping("/login")
+	// public String login(@ModelAttribute UsersModel usersModel, Model model) {
+	//
+	//
+	// UsersModel authenticated = usersService.authenticate(usersModel.getLogin(),
+	// usersModel.getPassword());
+	//
+	// if (authenticated != null) {
+	//
+	// //return "redirect:/home";
+	// model.addAttribute("userLogin",authenticated);
+	// return "personal_page";
+	// } else {
+	// System.out.println("Authentication failed");
+	// return "error_page";
+	// }
+	// }
 
 }
-

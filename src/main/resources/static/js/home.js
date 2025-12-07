@@ -1,3 +1,8 @@
+const likeCountAPIonHomePage = "https://localhost:8080/home/like/";
+
+
+
+
 $(document).ready(function () {
 	$(".nav-link").hover(
 		function () {
@@ -7,6 +12,32 @@ $(document).ready(function () {
 			$(this).removeClass("active");
 		}
 	);
+
+
+
+
+
+	$("#send_post_elements_img_fileInput").on("change", function () {
+		let file = this.files[0];
+		if (file && file.type.startsWith("video/")) {
+
+			// If the file is a video, show an alert and remove the image element
+			alert("Error: Video files are not allowed. Please select an image.");
+			//alert("Error: Video files are not allowed. Please select an image.");
+			file = null; // Reset the file input
+			$(this).val(""); // Clear the file input
+		}
+
+		if ($(".send_post_elements_images").find("img").length >= 1) {
+			alert("You can only upload one image at a time.");
+			// Reset the file input if an image already exists
+			$(this).val("");
+			return; // Exit the function if an image already exists
+
+
+		}
+
+	});
 
 
 
@@ -23,46 +54,70 @@ $(document).ready(function () {
 
 
 
-	let clickCountLike = 0;
 
-	$(".defaultLike", this).click(function () {
+	//-------------------------------Like-----------------------------
+	// $(".defaultLikeImg", this).attr("src", "../../../fotos/profile/SelectedLike.png");
+	// $(".defaultLikeImg", this).attr("src", "../../../fotos/profile/defaultLike.png");
 
-		if (clickCountLike < 1) {
-			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/SelectedLike.png");
-																
-			console.log("Click", clickCountLike);
+	$(document).on("click", "#defaultLike", function () {
+		const $likeBtn = $(this);
+		const $likeImg = $(".defaultLikeImg", this);
+		const $likeCount = $(".likeCount", this);
+		const postIdData = $likeBtn.closest(".post__box").find(".postId").val();
+		let isLiked = $likeBtn.attr("data-liked") === "true";
 
-			clickCountLike++;
+		if (!isLiked) {
+			$likeImg.attr("src", "../../../fotos/profile/SelectedLike.png");
+			$likeCount.text(function (i, text) {
+				return parseInt(text) + 1;
+			});
+
+
+
+
+			$.ajax({
+				url: likeCountAPIonHomePage + postIdData,
+				type: 'POST',
+				data: {
+					postId: postIdData
+				},
+				success: function (response) {
+					console.log("Liked successfully:", response);
+					$likeCount.text(response);
+				},
+				error: function (xhr, status, error) {
+					console.error("Error liking post:", error);
+				}
+			});
+
+			$likeBtn.attr("data-liked", "true");
+
 		} else {
-			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/defaultLike.png");
-			console.log("Click ", clickCountLike);
+			$likeImg.attr("src", "../../../fotos/profile/defaultLike.png");
+			$likeCount.text(function (i, text) {
+				return parseInt(text) - 1;
+			});
 
-			clickCountLike = 0;
+			$.ajax({
+				url: likeCountAPIonHomePage + postIdData,
+				type: 'DELETE',
+				data: {
+					postId: postIdData
+				},
+				success: function (response) {
+					console.log("Unliked successfully:", response);
+					$likeCount.text(response);
+				},
+				error: function (xhr, status, error) {
+					console.error("Error unliking post:", error);
+				}
+			});
+
+			$likeBtn.attr("data-liked", "false");
 		}
 	});
 
-	$(".defaultLike").each(function () {
-
-		$(this).data("clickCountLike", 0);
-	});
-
-	$(".defaultLike").click(function () {
-
-		let clickCountLike = $(this).data("clickCountLike");
-		console.log($(this).data("clickCountLike"));
-
-		if (clickCountLike < 1) {
-			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/SelectedLike.png");
-			$(this).css("color", "red");
-			clickCountLike = 1;
-		} else {
-			$(".defaultLikeImg", this).attr("src", "../../fotos/profile/defaultLike.png");
-			$(this).css("color", "black");
-			clickCountLike = 0;
-		}
-
-		$(this).data("clickCountLike", clickCountLike);
-	});
+	//-------------------------------Like-----------------------------
 
 
 	$('#sent_post_meassageInput').on('input', function () {
@@ -115,5 +170,13 @@ $(document).ready(function () {
 
 	});
 
+
+	$("#send_post_meassageInput").each(function () {
+		this.style.height = this.scrollHeight + "px";
+		this.style.overflowY = "hidden";
+	}).on("input", function () {
+		this.style.height = "auto";
+		this.style.height = this.scrollHeight + "px";
+	});
 
 });

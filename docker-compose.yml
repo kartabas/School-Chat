@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  app:
+    image: springboot-app:latest   # your Spring Boot Docker image
+    build:
+      context: .                   # assumes Dockerfile is in the same directory
+    ports:
+      - "8080:8080"                # map host port to container port
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/postgres
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: admin
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15             # official PostgreSQL image
+    ports:
+      - "5432:5432"                # expose DB port
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+    volumes:
+      - pgdata:/var/lib/postgresql/data  # persistent data
+
+volumes:
+  pgdata:

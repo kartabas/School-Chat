@@ -30,81 +30,85 @@ function clearInputError(inputElement) {
 
 
 
-	const registerForm = document.querySelector("#register");
+const registerForm = document.querySelector("#register");
 
 
-	//---------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------
 
 
-	registerForm.addEventListener("submit", e => {
+registerForm.addEventListener("submit", e => {
 
 
-		const inputPasswordValue = document.querySelector("#password").value;
-		const inputPassword = document.querySelector("#password");
+	const inputPasswordValue = document.querySelector("#password").value;
+	const inputPassword = document.querySelector("#password");
 
-		const inputPasswordConfirmValue = document.querySelector("#confirm-password").value;
-		const inputPasswordConfirm = document.querySelector("#confirm-password");
-
-
-
-		//Validation for Password
+	const inputPasswordConfirmValue = document.querySelector("#confirm-password").value;
+	const inputPasswordConfirm = document.querySelector("#confirm-password");
 
 
 
+	//Validation for Password
 
-		if (inputPasswordConfirmValue != inputPasswordValue) {
 
-			setInputError(inputPasswordConfirm, "Incorrect confirm-password!");
-			e.preventDefault();
 
-		} else {
-			clearInputError(inputPasswordConfirm);
 
+	if (inputPasswordConfirmValue != inputPasswordValue) {
+
+		setInputError(inputPasswordConfirm, "Incorrect confirm-password!");
+		e.preventDefault();
+
+	} else {
+		clearInputError(inputPasswordConfirm);
+
+	}
+
+	//Min 1 special character.
+	const arrayOfSp = ["!", "@", "#", "$", "%", "&", "_", "-"];
+	let specialCharacterCheck = false;
+
+
+	const special = (c) => {
+		return arrayOfSp.find(item => item === c)
+	}
+
+	for (let i = 0; i < inputPasswordValue.length; i++) {
+		const isPresent = special(inputPasswordValue[i]);
+		if (isPresent) {
+			specialCharacterCheck = true;
+			break;
 		}
-
-		//Min 1 special character.
-		const arrayOfSp = ["!", "@", "#", "$", "%", "&", "_", "-"];
-		let specialCharacterCheck = false;
-
-
-		const special = (c) => {
-			return arrayOfSp.find(item => item === c)
-		}
-
-		for (let i = 0; i < inputPasswordValue.length; i++) {
-			const isPresent = special(inputPasswordValue[i]);
-			if (isPresent) {
-				specialCharacterCheck = true;
-				break;
-			}
-		}
+	}
 
 
 
 
 
-		//Min 1 special character.
-		if (specialCharacterCheck != true) {
-			setInputError(inputPassword, "Min 1 special character");
-			e.preventDefault();
+	//Min 1 special character.
+	if (specialCharacterCheck != true) {
+		setInputError(inputPassword, "Min 1 special character");
+		e.preventDefault();
 
-		} else if (inputPasswordValue.length < 8) {
-			setInputError(inputPassword, "Min 8 characters or more");
-			e.preventDefault();
+	} else if (inputPasswordValue.length < 8) {
+		setInputError(inputPassword, "Min 8 characters or more");
+		e.preventDefault();
 
-		} else {
-			clearInputError(inputPassword);
+	} else {
+		clearInputError(inputPassword);
 
-		}
-
-
-		//----------------------------------------------------------------------
+	}
 
 
+	//----------------------------------------------------------------------
 
 
 
-	});
+
+
+});
+
+
+
+
 
 
 
