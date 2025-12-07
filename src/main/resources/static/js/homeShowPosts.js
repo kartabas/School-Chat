@@ -1,9 +1,9 @@
-const postsApiUrl = 'https://localhost:8080/home/allpostsperschool';
-const usersApiUrl = 'https://localhost:8080/home/alluserposts/';
-const getProfileData = 'https://localhost:8080/home/profileinfo/';
-const getCountCommentsHome = 'https://localhost:8080/home/comment/postcountcomments/';
-const getLikeCountPerPostsOnHomePage = 'https://localhost:8080/home/like/get/';
-const isLikedPostOnHomePageAPI = "https://localhost:8080/home/like/liked";
+const postsApiUrl = 'https://www.studentchat.me/home/allpostsperschool';
+const usersApiUrl = 'https://www.studentchat.me/home/alluserposts/';
+const getProfileData = 'https://www.studentchat.me/home/profileinfo/';
+const getCountCommentsHome = 'https://www.studentchat.me/home/comment/postcountcomments/';
+const getLikeCountPerPostsOnHomePage = 'https://www.studentchat.me/home/like/get/';
+const isLikedPostOnHomePageAPI = "https://www.studentchat.me/home/like/liked";
 
 async function getUserNickname(userId) {
 	try {

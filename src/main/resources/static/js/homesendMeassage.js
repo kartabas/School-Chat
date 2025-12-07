@@ -1,4 +1,4 @@
-const postSendPost = 'https://localhost:8080/home/savepost';
+const postSendPost = 'https://www.studentchat.me/home/savepost';
 
 
 $(document).ready(function () {

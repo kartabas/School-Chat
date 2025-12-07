@@ -46,6 +46,8 @@ docker-compose up --build
 docker-compose down
 
 
+ssh root@164.92.225.182 
+
 
 //Database connect
 localhost

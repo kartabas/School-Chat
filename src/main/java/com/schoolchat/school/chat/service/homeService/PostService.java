@@ -10,7 +10,7 @@ import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.CommentModels.CommentModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.repository.homeRepository.PostRepository;
-import com.schoolchat.school.chat.service.commentService.CommentService;
+import com.schoolchat.school.chat.service.CommentService.CommentService;
 import com.schoolchat.school.chat.service.likesService.LikeService;
 
 @Service
@@ -117,11 +117,11 @@ public class PostService {
 	}
 
 	// Like Post
-	public boolean likePost(Integer postId , Integer userId) {
+	public boolean likePost(Integer postId, Integer userId) {
 		try {
 			PostModel post = postRepository.findById(postId).orElse(null);
 			if (post != null) {
-				
+
 				likeService.saveLikeUnderPost(postId, userId);
 				post.setLikeCount(post.getLikeCount() + 1);
 				postRepository.save(post);
@@ -141,7 +141,7 @@ public class PostService {
 	}
 
 	// Unlike Post
-	public boolean unlikePost(Integer postId , Integer userId) {
+	public boolean unlikePost(Integer postId, Integer userId) {
 		try {
 			PostModel post = postRepository.findById(postId).orElse(null);
 			if (post != null) {

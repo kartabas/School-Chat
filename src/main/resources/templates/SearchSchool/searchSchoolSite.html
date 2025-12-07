@@ -272,7 +272,7 @@
 				event.preventDefault(); // Stop normal form submission
 				let searchSchoolRequest = $(this).serialize();
 				$.ajax({
-					url: "https://localhost:8080/",
+					url: "https://www.studentchat.me/",
 					type: 'POST',
 					data: searchSchoolRequest,
 					success: function (response) {

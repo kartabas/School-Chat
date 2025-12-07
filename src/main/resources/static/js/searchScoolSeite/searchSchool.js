@@ -167,7 +167,7 @@ $(document).ready(function () {
 
 		let selectedRegionNameValue = selectedRegion.toLowerCase().replace(/-/g, "_").replace(/ü/g, "ue").replace(/ö/g, "oe").replace(/ä/g, "ae");
 		$.ajax({
-			url: 'https://localhost:8080/',
+			url: 'https://www.studentchat.me/',
 			type: 'GET',
 			data: {
 				region: selectedRegionNameValue

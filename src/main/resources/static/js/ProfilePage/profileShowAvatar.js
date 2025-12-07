@@ -1,4 +1,4 @@
-const getProfileDataAvatar = 'https://localhost:8080/profile/';
+const getProfileDataAvatar = 'https://www.studentchat.me/profile/';
 
 
 

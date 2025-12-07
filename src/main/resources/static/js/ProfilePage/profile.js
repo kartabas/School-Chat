@@ -1,4 +1,4 @@
-const likeCountAPI = "https://localhost:8080/profile/like/";
+const likeCountAPI = "https://www.studentchat.me/profile/like/";
 
 
 
