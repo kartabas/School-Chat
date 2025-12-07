@@ -22,9 +22,6 @@ public class SchoolPostsModel {
 
 
 
-
-
-
 	@ManyToOne
 	@JoinColumn(name = "fk_post_id")
 	PostModel postModel;
