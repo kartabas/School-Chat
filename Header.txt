@@ -27,14 +27,23 @@ git pull origin master
 git merge test
 git push origin master
 
-//Docker start Console from image
-docker inspect school-chat-redis-1
+//Create .jar file
+mvn clean package
+
+//Delete all completed container 
+docker container prune
+
+//Update image
+docker build -t springboot-app .
+
+
 
 //Start and build app
 docker-compose up --build
 
-//Download  image from Docker Hub
-docker push kartabas/myapp:tagname
+
+//Stop docker compose
+docker-compose down
 
 
 
@@ -49,3 +58,7 @@ admin
 
 //custom shadow box
 // https://www.cssmatic.com/box-shadow
+
+//for start react 
+//Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (Powershell)
+//npm start

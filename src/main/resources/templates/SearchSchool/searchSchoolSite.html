@@ -232,6 +232,9 @@
 					<div class="footer__block__login__text">
 						<p>Have an Account? <a href="/login">Login Here</a></p>
 					</div>
+					<button onclick="window.location.href='http://localhost:3000/settings'">
+						Go to React App
+					</button>
 				</div>
 			</div>
 
@@ -313,14 +316,14 @@
 
 								//console.log("Current school data: " + currentSchool.schoolInfo);
 								//let schoolObj = currentSchool; // Parse the string back to an object
-								
+
 								console.log("Parsed school object: ", (selectedSchool));
 								if (currentSchool) {
 									$("#searchSchool").val(parsedResponse.find('.json__object').eq(index).find('.name').text()); // Set input value if needed
 
 
 									$("#schoolData").val(JSON.stringify(selectedSchool)); // Set the hidden input value with the current school data
-									
+
 
 
 									$('#schoolForm').submit(); // Submit the form with the selected school data

@@ -1,4 +1,4 @@
-package com.schoolchat.school.chat.service.CommentService;
+package com.schoolchat.school.chat.service.commentService;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,7 +16,7 @@ import com.schoolchat.school.chat.repository.CommentRepository.CommentRepository
 public class CommentService {
 
 	@Autowired
-	CommentRepository commentRepository;
+	private CommentRepository commentRepository;
 
 	public CommentService() {
 		this.commentRepository = commentRepository;

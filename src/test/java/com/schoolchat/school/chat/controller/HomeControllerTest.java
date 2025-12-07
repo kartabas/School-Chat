@@ -7,4 +7,17 @@ public class HomeControllerTest {
 	void testGetHomePage() {
 
 	}
+
+	@Test
+	void testGetAboutPage() {
+
+	}
+	@Test
+	void testGetContactPage() {
+
+	}
+	@Test
+	void testGetPrivacyPolicyPage() {
+
+	}
 }

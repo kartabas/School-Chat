@@ -10,7 +10,8 @@ import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.CommentModels.CommentModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.repository.homeRepository.PostRepository;
-import com.schoolchat.school.chat.service.CommentService.CommentService;
+import com.schoolchat.school.chat.service.commentService.CommentService;
+import com.schoolchat.school.chat.service.likesService.LikeService;
 
 @Service
 public class PostService {
@@ -20,6 +21,9 @@ public class PostService {
 
 	@Autowired
 	private CommentService commentService;
+
+	@Autowired
+	private LikeService likeService;
 
 	public PostService() {
 		this.postRepository = postRepository;
@@ -102,12 +106,9 @@ public class PostService {
 
 	}
 
-
-
-
-// Get the count of comments under a post
+	// Get the count of comments under a post
 	public int getCountCommentUnderPost(Integer postId) {
-		
+
 		List<CommentModel> commentList = commentService.getListCommentsUnderPost(postId);
 		if (commentList == null) {
 			return 0;
@@ -115,7 +116,71 @@ public class PostService {
 		return commentList.size();
 	}
 
+	// Like Post
+	public boolean likePost(Integer postId , Integer userId) {
+		try {
+			PostModel post = postRepository.findById(postId).orElse(null);
+			if (post != null) {
+				
+				likeService.saveLikeUnderPost(postId, userId);
+				post.setLikeCount(post.getLikeCount() + 1);
+				postRepository.save(post);
+				return true;
+			} else {
+				System.err.println("Post not found with ID: " + postId);
+				return false;
 
+			}
 
+		} catch (Exception e) {
+			System.err.println("Error liking post: " + e.getMessage());
+			return false;
+
+		}
+
+	}
+
+	// Unlike Post
+	public boolean unlikePost(Integer postId , Integer userId) {
+		try {
+			PostModel post = postRepository.findById(postId).orElse(null);
+			if (post != null) {
+				if (post.getLikeCount() != null && post.getLikeCount() > 0) {
+					likeService.deleteLikeUnderPost(postId, userId);
+					post.setLikeCount(post.getLikeCount() - 1);
+				} else {
+					System.err.println("Cannot unlike post, like count is already zero.");
+					return false;
+				}
+				postRepository.save(post);
+				return true;
+			} else {
+				System.err.println("Post not found with ID: " + postId);
+				return false;
+			}
+		} catch (Exception e) {
+			System.err.println("Error unliking post: " + e.getMessage());
+			return false;
+		}
+	}
+
+	public Long getLikeCount(Integer postId) {
+		PostModel post = postRepository.findById(postId).orElse(null);
+		if (post != null) {
+			return (long) (post.getLikeCount() != null ? post.getLikeCount() : 0);
+		} else {
+			System.err.println("Post not found with ID: " + postId);
+			return 0L;
+		}
+	}
+
+	public boolean isPostLiked(Integer postId, Integer userId) {
+		try {
+			return likeService.isPostLikedByUser(postId, userId);
+		} catch (Exception e) {
+			System.err.println("Error checking if post is liked: " + e.getMessage());
+			return false;
+		}
+	}
 
 }

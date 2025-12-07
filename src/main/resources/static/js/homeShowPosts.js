@@ -2,6 +2,8 @@ const postsApiUrl = 'http://localhost:8080/home/allpostsperschool';
 const usersApiUrl = 'http://localhost:8080/home/alluserposts/';
 const getProfileData = 'http://localhost:8080/home/profileinfo/';
 const getCountCommentsHome = 'http://localhost:8080/home/comment/postcountcomments/';
+const getLikeCountPerPostsOnHomePage = 'http://localhost:8080/home/like/get/';
+const isLikedPostOnHomePageAPI = "http://localhost:8080/home/like/liked";
 
 async function getUserNickname(userId) {
 	try {
@@ -15,6 +17,36 @@ async function getUserNickname(userId) {
 		return null;
 	}
 }
+
+
+function getLikedPostOnHomePage(postId, userId, imgElement) {
+	$.ajax({
+		url: isLikedPostOnHomePageAPI,
+		type: 'GET',
+		data: {
+			postId: postId,
+			userId: userId
+		},
+		success: function (data) {
+			console.log(postId + " → returned image URL:", data);
+			if (data == "../../../fotos/profile/SelectedLike.png") {
+				$(imgElement).closest("#defaultLike").attr("data-liked", "true");
+			} else {
+				$(imgElement).closest("#defaultLike").attr("data-liked", "false");
+			}
+
+
+
+			$(imgElement).attr("src", data);
+		},
+		error: function (jqXHR, textStatus, errorThrown) {
+			console.error('Error fetching like icon:', textStatus, errorThrown);
+		}
+	});
+}
+
+
+
 
 async function getProfileAvatar(userId) {
 
@@ -92,14 +124,19 @@ $(document).ready(function () {
 					 <ul class="nav justify-content-let">
 							 <li class="nav-item me-4">
 									<button class="nav-link btn  showCommentsBtn"  ><img src="../../../fotos/profile/Comment.png" alt="icon"><span class="commentCount" id="changeCommentCount">${await fetch(getCountCommentsHome + post.postId)
-									.then(response => response.json())
-									.then(data => {
-										//console.log(data);
-										return data;
-									})}</span></button>
+				.then(response => response.json())
+				.then(data => {
+					//console.log(data);
+					return data;
+				})}</span></button>
 							 </li>
 							 <li class="nav-item me-4">
-									<button class="nav-link" id="defaultLike"><img src="../../fotos/profile/DefaultLike.png" alt="icon" class="defaultLikeImg"><span>0</span></button>
+									<button class="nav-link" id="defaultLike"><img    alt="icon" class="defaultLikeImg" data-postid="${post.postId}" data-userid="${usersModel.id}"><span class="likeCount">${await fetch(getLikeCountPerPostsOnHomePage + post.postId)
+				.then(response => response.json())
+				.then(data => {
+					//console.log(data);
+					return data;
+				})}</span></button>
 							 </li>
 							 <li class="nav-item me-6">
 									<button class="nav-link" ><img src="../../fotos/profile/Share.png" alt="icon"></button>
@@ -135,7 +172,13 @@ $(document).ready(function () {
 
 
 		// $(".main__posts__container").prepend(newPostBlock);
-		$(".main__posts__container").append(newPostBlock);
+		$(".main__posts__container").prepend(newPostBlock);
+		const lastInsertedImg = $(".main__posts__container .defaultLikeImg").first();
+		const postId = lastInsertedImg.data('postid');
+		const userId = lastInsertedImg.data('userid');
+		getLikedPostOnHomePage(postId, userId, lastInsertedImg);
+
+
 
 
 	}

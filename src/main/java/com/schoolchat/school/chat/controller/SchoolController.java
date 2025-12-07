@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -34,6 +35,11 @@ public class SchoolController extends HttpServlet {
 	private UsersModel usersModel;
 	@Autowired
 	private UsersService usersService;
+
+	@GetMapping({ "/react-frontend", "/react-frontend/**" })
+	public String forwardReact() {
+		return "react-frontend/public/index.html"; // ✅ correct
+	}
 
 	@GetMapping("/")
 	public String searchSchoolByName(@ModelAttribute("region") String selectedRegionName, Model model,
@@ -125,8 +131,9 @@ public class SchoolController extends HttpServlet {
 			userCurrentSchoolModel.setState(jsonNode.get("state").asText());
 			userCurrentSchoolModel.setPhone(jsonNode.get("phone").asText());
 			userCurrentSchoolModel.setFax(jsonNode.get("fax").asText());
-			userCurrentSchoolModel.setFullTimeSchool(Boolean.valueOf(jsonNode.get("fullTimeSchool").asText().isEmpty() ? "false"
-					: jsonNode.get("fullTimeSchool").asText()));
+			userCurrentSchoolModel
+					.setFullTimeSchool(Boolean.valueOf(jsonNode.get("fullTimeSchool").asText().isEmpty() ? "false"
+							: jsonNode.get("fullTimeSchool").asText()));
 			userCurrentSchoolModel.setLatitude(Double.parseDouble(jsonNode.get("latitude").asText()));
 			userCurrentSchoolModel.setLongitude(Double.parseDouble(jsonNode.get("longitude").asText()));
 
