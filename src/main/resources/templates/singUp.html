@@ -116,7 +116,7 @@
 				//console.log("Input text:", username);
 
 				$.ajax({
-					url: '/checkUsername' + '?username=' + encodeURIComponent(username),
+					url: 'https://www.studentchat.me/checkUsername' + '?username=' + encodeURIComponent(username),
 					type: 'POST',
 					contentType: 'application/json',
 					data: username,

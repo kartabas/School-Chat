@@ -28,7 +28,8 @@ git merge test
 git push origin master
 
 //Create .jar file
-mvn clean package
+mvn clean package -DskipTests
+mvn install -DskipTests
 
 //Delete all completed container 
 docker container prune
@@ -47,6 +48,7 @@ docker-compose down
 
 
 ssh root@164.92.225.182 
+
 
 
 //Database connect
