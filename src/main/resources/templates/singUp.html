@@ -96,6 +96,7 @@
 
 		</div><!-- /main-->
 	</div><!-- /main-page-->
+	<script src="../../js/scripts.js"></script>
 	<!-- <script src="../../js/scripts.js"></script>-->
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 	<script src="../../js/validationRegPage/validationRegLoginPage.js"></script>
@@ -116,12 +117,8 @@
 				//console.log("Input text:", username);
 
 				$.ajax({
-					//url: 'https://www.studentchat.me/checkUsername' + '?username=' + encodeURIComponent(username),
-					url: `/checkUsername ` + '?username=' + encodeURIComponent(username),
-
-					type: 'POST',
-					contentType: 'application/json',
-					data: username,
+					url: '/checkUsername?username=' + encodeURIComponent(username),
+					type: 'GET',
 					success: function (response) {
 						if (response) {
 							$('.form__input-error-message-username').text('Username is available').css('color', 'green');
@@ -135,7 +132,8 @@
 						$('.form__input-error-message-username').text('Error checking username').css('color', 'red');
 						$("#reg-form-submit").prop('disabled', true);
 					}
-				})
+				});
+
 
 			});
 		});

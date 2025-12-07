@@ -1,3 +1,3 @@
 
-//window.API_URL = "${app.api.url}";
+window.API_URL = "${app.api.url}";
 
