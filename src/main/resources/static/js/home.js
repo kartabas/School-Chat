@@ -1,4 +1,4 @@
-const likeCountAPIonHomePage = "http://localhost:8080/home/like/";
+const likeCountAPIonHomePage = "https://localhost:8080/home/like/";
 
 
 

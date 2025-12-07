@@ -1,4 +1,4 @@
-const deletePost = 'http://localhost:8080/profile/deletepost/';
+const deletePost = 'https://localhost:8080/profile/deletepost/';
 
 $(document).ready(function () {
 

@@ -1,5 +1,5 @@
-const editProfileAPI = 'http://localhost:8080/profile/updateprofile';
-const getProfileData = 'http://localhost:8080/profile/';
+const editProfileAPI = 'https://localhost:8080/profile/updateprofile';
+const getProfileData = 'https://localhost:8080/profile/';
 
 
 

@@ -54,7 +54,19 @@ admin
 5432
 
 
+//connect to database from container 
+docker exec -it c9cec7daadac psql -U postgres
 
+\l
+
+\c postgres
+
+\dt
+
+SELECT * FROM your_table_name;
+
+
+//-------------------------------------
 
 //custom shadow box
 // https://www.cssmatic.com/box-shadow

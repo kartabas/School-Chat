@@ -1,10 +1,10 @@
 
 // console.log("userNickname2: " + userNickname);
-const postsApiUrl = 'http://localhost:8080/profile/usersposts';
-const usersApiUrl = 'http://localhost:8080/profile/userinfo/';
-const getCountComments = 'http://localhost:8080/profile/comment/postcountcomments/';
-const getLikeCountPerPosts = 'http://localhost:8080/profile/like/get/';
-const isLikedPostAPI = "http://localhost:8080/profile/like/liked";
+const postsApiUrl = 'https://localhost:8080/profile/usersposts';
+const usersApiUrl = 'https://localhost:8080/profile/userinfo/';
+const getCountComments = 'https://localhost:8080/profile/comment/postcountcomments/';
+const getLikeCountPerPosts = 'https://localhost:8080/profile/like/get/';
+const isLikedPostAPI = "https://localhost:8080/profile/like/liked";
 
 
 async function getUserNickname(userId) {

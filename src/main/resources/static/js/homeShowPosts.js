@@ -1,9 +1,9 @@
-const postsApiUrl = 'http://localhost:8080/home/allpostsperschool';
-const usersApiUrl = 'http://localhost:8080/home/alluserposts/';
-const getProfileData = 'http://localhost:8080/home/profileinfo/';
-const getCountCommentsHome = 'http://localhost:8080/home/comment/postcountcomments/';
-const getLikeCountPerPostsOnHomePage = 'http://localhost:8080/home/like/get/';
-const isLikedPostOnHomePageAPI = "http://localhost:8080/home/like/liked";
+const postsApiUrl = 'https://localhost:8080/home/allpostsperschool';
+const usersApiUrl = 'https://localhost:8080/home/alluserposts/';
+const getProfileData = 'https://localhost:8080/home/profileinfo/';
+const getCountCommentsHome = 'https://localhost:8080/home/comment/postcountcomments/';
+const getLikeCountPerPostsOnHomePage = 'https://localhost:8080/home/like/get/';
+const isLikedPostOnHomePageAPI = "https://localhost:8080/home/like/liked";
 
 async function getUserNickname(userId) {
 	try {
