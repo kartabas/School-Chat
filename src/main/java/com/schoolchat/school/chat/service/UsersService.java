@@ -56,13 +56,10 @@ public class UsersService {
 		return usersRepository.findById(id).orElse(null);
 	}
 
-	public boolean checkUsername(String username) {
-		if (usersRepository.findFirstByLogin(username).isPresent()) {
-			return false;
-		}
-		return true;
+public boolean checkUsername(String username) {
+	return usersRepository.findFirstByLogin(username).isEmpty();
+}
 
-	}
 
 	// public List<UsersModel> getUserbyId(Long id){
 	// return (List<UsersModel>) usersRepository.getReferenceById(id);

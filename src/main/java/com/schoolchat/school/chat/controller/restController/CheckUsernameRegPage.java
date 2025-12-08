@@ -18,17 +18,12 @@ public class CheckUsernameRegPage {
 		this.usersService = usersService;
 	}
 
-	@PostMapping("/checkUsername")
-	@ResponseBody
-	public boolean checkUsername(@RequestParam( value = "username") String username) {
-		System.out.println("Checking username: " + username);
-		boolean isAvailable = usersService.checkUsername(username);
-		if (isAvailable) {
-			//System.out.println("Username is available.");
-		} else {
-			//System.out.println("Username is already taken.");
-		}
-		return isAvailable;
-	}
+@PostMapping("/checkUsername")
+@ResponseBody
+public boolean checkUsername(@RequestParam("username") String username) {
+
+	return usersService.checkUsername(username);
+	
+}
 
 }

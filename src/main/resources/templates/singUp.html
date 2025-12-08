@@ -133,11 +133,8 @@
 							$("#reg-form-submit").prop('disabled', true);
 						}
 					},
-					error: function () {
-						$('.form__input-error-message-username')
-							.text('Error checking username')
-							.css('color', 'red');
-						$("#reg-form-submit").prop('disabled', true);
+					error: function (xhr, status, error) {
+						console.error('Error checking username availability:', error);
 					}
 				});
 
