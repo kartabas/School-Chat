@@ -30,6 +30,7 @@ function getLikedPostOnHomePage(postId, userId, imgElement) {
 		},
 		success: function (data) {
 			console.log(postId + " → returned image URL:", data);
+			//fix error with defaulKile.png
 			if (data == "../../../fotos/profile/SelectedLike.png") {
 				$(imgElement).closest("#defaultLike").attr("data-liked", "true");
 			} else {
