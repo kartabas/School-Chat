@@ -96,8 +96,7 @@
 
 		</div><!-- /main-->
 	</div><!-- /main-page-->
-	<script src="../../js/scripts.js"></script>
-	<!-- <script src="../../js/scripts.js"></script>-->
+
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 	<script src="../../js/validationRegPage/validationRegLoginPage.js"></script>
 	<!-- <script src="../static/js/validationRegPage/validationRegLoginPage.js"></script>   for vs code-->
@@ -117,28 +116,24 @@
 				//console.log("Input text:", username);
 
 				$.ajax({
+
 					url: '/checkUsername',
 					type: 'POST',
-					data: { username: username }, // sending as form param
+					data: { username: username },
 					success: function (response) {
 						if (response) {
-							$('.form__input-error-message-username')
-								.text('Username is available')
-								.css('color', 'green');
+							$('.form__input-error-message-username').text('Username is available').css('color', 'green');
 							$("#reg-form-submit").prop('disabled', false);
 						} else {
-							$('.form__input-error-message-username')
-								.text('Username is already taken')
-								.css('color', 'red');
+							$('.form__input-error-message-username').text('Username is already taken').css('color', 'red');
 							$("#reg-form-submit").prop('disabled', true);
 						}
 					},
-					error: function (xhr, status, error) {
-						console.error('Error checking username availability:', error);
+					error: function () {
+						$('.form__input-error-message-username').text('Error checking username').css('color', 'red');
+						$("#reg-form-submit").prop('disabled', true);
 					}
-				});
-
-
+				})
 
 			});
 		});
