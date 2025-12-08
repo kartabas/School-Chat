@@ -15,31 +15,33 @@ public class SecurityConfig {
     @Autowired
     private CustomOAuth2UserService customOAuth2UserService;
 
-@Bean
-public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers(
                         "/", "/login", "/register",
-                        "/checkUsername", 
+                        "/checkUsername",   // 👈 ADD THIS
                         "/react-frontend/**",
                         "/home/**", "/profile/**",
                         "/css/**", "/js/**", "/fotos/**",
                         "/error"
                 ).permitAll()
                 .anyRequest().authenticated()
-            )
-            .oauth2Login(oauth2 -> oauth2
-                .loginPage("/login")
-                .defaultSuccessUrl("/login", true)
-                .userInfoEndpoint(userInfo -> userInfo
-                    .userService(customOAuth2UserService))
-                .failureUrl("/error")
             );
+            // .oauth2Login(oauth2 -> oauth2
+            //     .loginPage("/login")
+            //     .defaultSuccessUrl("/login", true)
+            //     .userInfoEndpoint(userInfo -> userInfo
+            //         .userService(customOAuth2UserService))
+            //     .failureUrl("/error")
+            // );
 
         return http.build();
-}
+    }
+
+
 
 	@Bean
 	public org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder passwordEncoder() {
