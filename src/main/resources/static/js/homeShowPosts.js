@@ -1,10 +1,10 @@
 //const postsApiUrl = 'https://www.studentchat.me/home/allpostsperschool';
 const postsApiUrl = '/home/allpostsperschool';
-const usersApiUrl = 'https://www.studentchat.me/home/alluserposts/';
-const getProfileData = 'https://www.studentchat.me/home/profileinfo/';
-const getCountCommentsHome = 'https://www.studentchat.me/home/comment/postcountcomments/';
-const getLikeCountPerPostsOnHomePage = 'https://www.studentchat.me/home/like/get/';
-const isLikedPostOnHomePageAPI = "https://www.studentchat.me/home/like/liked";
+const usersApiUrl = '/home/alluserposts/';
+const getProfileData = '/home/profileinfo/';
+const getCountCommentsHome = '/home/comment/postcountcomments/';
+const getLikeCountPerPostsOnHomePage = '/home/like/get/';
+const isLikedPostOnHomePageAPI = "/home/like/liked";
 
 async function getUserNickname(userId) {
 	try {

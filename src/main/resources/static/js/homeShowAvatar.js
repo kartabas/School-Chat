@@ -1,4 +1,4 @@
-const getHomeData = 'https://www.studentchat.me/home/profileinfo/';
+const getHomeData = '/home/profileinfo/';
 
 
 

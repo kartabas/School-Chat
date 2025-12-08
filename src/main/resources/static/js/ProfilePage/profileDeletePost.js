@@ -1,4 +1,4 @@
-const deletePost = 'https://www.studentchat.me/profile/deletepost/';
+const deletePost = '/profile/deletepost/';
 
 $(document).ready(function () {
 

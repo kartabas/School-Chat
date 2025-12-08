@@ -1,10 +1,10 @@
 
 // console.log("userNickname2: " + userNickname);
-const postsApiUrl = 'https://www.studentchat.me/profile/usersposts';
-const usersApiUrl = 'https://www.studentchat.me/profile/userinfo/';
-const getCountComments = 'https://www.studentchat.me/profile/comment/postcountcomments/';
-const getLikeCountPerPosts = 'https://www.studentchat.me/profile/like/get/';
-const isLikedPostAPI = "https://www.studentchat.me/profile/like/liked";
+const postsApiUrl = '/profile/usersposts';
+const usersApiUrl = '/profile/userinfo/';
+const getCountComments = '/profile/comment/postcountcomments/';
+const getLikeCountPerPosts = '/profile/like/get/';
+const isLikedPostAPI = "/profile/like/liked";
 
 
 async function getUserNickname(userId) {
