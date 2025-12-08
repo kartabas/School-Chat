@@ -1,5 +1,6 @@
-const likeCountAPIonHomePage = "https://www.studentchat.me/home/like/";
-
+//const likeCountAPIonHomePage = "https://www.studentchat.me/home/like/";
+//const likeCountAPIonHomePage = "https://localhost:8080/home/like/";
+const likeCountAPIonHomePage = "/home/like/";
 
 
 

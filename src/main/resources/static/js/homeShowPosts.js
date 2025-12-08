@@ -1,3 +1,4 @@
+//const postsApiUrl = 'https://www.studentchat.me/home/allpostsperschool';
 const postsApiUrl = 'https://www.studentchat.me/home/allpostsperschool';
 const usersApiUrl = 'https://www.studentchat.me/home/alluserposts/';
 const getProfileData = 'https://www.studentchat.me/home/profileinfo/';
