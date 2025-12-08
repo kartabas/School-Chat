@@ -1,5 +1,5 @@
 //const postsApiUrl = 'https://www.studentchat.me/home/allpostsperschool';
-const postsApiUrl = 'https://www.studentchat.me/home/allpostsperschool';
+const postsApiUrl = '/home/allpostsperschool';
 const usersApiUrl = 'https://www.studentchat.me/home/alluserposts/';
 const getProfileData = 'https://www.studentchat.me/home/profileinfo/';
 const getCountCommentsHome = 'https://www.studentchat.me/home/comment/postcountcomments/';
