@@ -66,7 +66,7 @@ $(document).ready(function () {
 			$likeBtn.attr("data-liked", "true");
 
 		} else {
-			$likeImg.attr("src", "../../../fotos/profile/defaultLike.png");
+			$likeImg.attr("src", "../../../fotos/profile/DefaultLike.png");
 			$likeCount.text(function (i, text) {
 				return parseInt(text) - 1;
 			});
