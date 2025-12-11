@@ -5,47 +5,90 @@
 	<meta charset="UTF-8">
 	<link rel="icon" href="data:;base64,iVBORwOKGO=" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../../css/searchPage.css">
-	<!-- <link rel="stylesheet" type="text/css" href="../../static/css/searchPage.css"> -->
-	<title>Search School</title>
-
-
+	<title>Smart School Search</title>
 	<style>
-		.region-selector {
-			max-width: 400px;
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.header {
+			background: rgba(255, 255, 255, 0.95);
+			padding: 1.5rem 2rem;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+			backdrop-filter: blur(10px);
+		}
+
+		.logo {
+			font-size: 1.75rem;
+			font-weight: 700;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+		}
+
+		.main {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 3rem 1rem;
+			max-width: 800px;
 			margin: 0 auto;
+			width: 100%;
+		}
+
+		/* Region Selector */
+		.region-selector {
+			width: 100%;
+			max-width: 500px;
+			margin-bottom: 2rem;
 			position: relative;
-			top: 100px;
 		}
 
 		.region-selector-header {
-			background-color: white;
-			border: 1px solid #d1d5db;
-			border-radius: 8px;
-			padding: 12px 16px;
+			background: white;
+			border: 2px solid transparent;
+			border-radius: 12px;
+			padding: 1rem 1.25rem;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 			cursor: pointer;
-			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-			transition: all 0.2s;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+			transition: all 0.3s ease;
 		}
 
 		.region-selector-header:hover {
-			border-color: #9ca3af;
+			transform: translateY(-2px);
+			box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+			border-color: #667eea;
 		}
 
 		.selected-region {
-			font-size: 15px;
+			font-size: 1rem;
 			color: #111827;
+			font-weight: 500;
 		}
 
 		.placeholder {
 			color: #6b7280;
+			font-weight: 400;
 		}
 
 		.dropdown-icon {
-			transition: transform 0.3s;
+			transition: transform 0.3s ease;
+			color: #667eea;
 		}
 
 		.dropdown-icon.open {
@@ -54,174 +97,561 @@
 
 		.dropdown-panel {
 			position: absolute;
-			top: calc(100% + 4px);
+			top: calc(100% + 8px);
 			left: 0;
 			right: 0;
-			background-color: white;
-			border-radius: 8px;
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-			z-index: 10;
+			background: white;
+			border-radius: 12px;
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+			z-index: 100;
 			overflow: hidden;
 			display: none;
 		}
 
 		.search-container {
-			padding: 12px;
+			padding: 1rem;
 			border-bottom: 1px solid #e5e7eb;
 			position: relative;
 		}
 
 		.search-input {
 			width: 100%;
-			padding: 8px 32px 8px 12px;
-			border: 1px solid #d1d5db;
-			border-radius: 6px;
-			font-size: 14px;
+			padding: 0.75rem 2.5rem 0.75rem 1rem;
+			border: 2px solid #e5e7eb;
+			border-radius: 8px;
+			font-size: 0.95rem;
+			transition: all 0.2s;
 		}
 
 		.search-input:focus {
 			outline: none;
-			border-color: #3b82f6;
-			box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+			border-color: #667eea;
+			box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 		}
 
 		.search-icon {
 			position: absolute;
-			right: 24px;
-			top: 20px;
+			right: 1.75rem;
+			top: 50%;
+			transform: translateY(-50%);
 			color: #6b7280;
+			pointer-events: none;
 		}
 
 		.regions-list {
-			max-height: 250px;
+			max-height: 300px;
 			overflow-y: auto;
 		}
 
 		.region-item {
-			padding: 10px 16px;
+			padding: 0.875rem 1.25rem;
 			cursor: pointer;
-			transition: background-color 0.2s;
+			transition: all 0.2s;
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
 		}
 
 		.region-item:hover {
-			background-color: #f3f4f6;
+			background: #f3f4f6;
 		}
 
 		.region-item.selected {
-			background-color: #eff6ff;
+			background: linear-gradient(90deg, #eff6ff 0%, #dbeafe 100%);
 			color: #2563eb;
-			font-weight: 500;
+			font-weight: 600;
+			border-left: 3px solid #2563eb;
 		}
 
 		.no-results {
-			padding: 16px;
+			padding: 2rem;
 			text-align: center;
 			color: #6b7280;
 			font-style: italic;
 			display: none;
 		}
 
-		/* Стилизация скролла */
-		.regions-list::-webkit-scrollbar {
-			width: 4px;
+		/* Search Wrapper */
+		.search-wrapper {
+			width: 100%;
+			max-width: 600px;
+			background: white;
+			border-radius: 16px;
+			padding: 2rem;
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+			transition: all 0.3s ease;
 		}
 
-		.regions-list::-webkit-scrollbar-track {
+		.search-wrapper.error {
+			animation: shake 0.5s;
+			border: 2px solid #ef4444;
+		}
+
+		@keyframes shake {
+
+			0%,
+			100% {
+				transform: translateX(0);
+			}
+
+			25% {
+				transform: translateX(-10px);
+			}
+
+			75% {
+				transform: translateX(10px);
+			}
+		}
+
+		.select__search {
+			position: relative;
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+		}
+
+		.search__img {
+			position: absolute;
+			left: 1rem;
+			z-index: 1;
+			opacity: 0.5;
+		}
+
+		.search__img svg {
+			width: 20px;
+			height: 20px;
+		}
+
+		.searchSchool {
+			width: 100%;
+			padding: 1rem 3.5rem 1rem 3rem;
+			border: 2px solid #e5e7eb;
+			border-radius: 12px;
+			font-size: 1rem;
+			transition: all 0.3s;
+		}
+
+		.searchSchool:focus {
+			outline: none;
+			border-color: #667eea;
+			box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+		}
+
+		.searchButton {
+			position: absolute;
+			right: 0.5rem;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			border: none;
+			border-radius: 8px;
+			padding: 0.75rem 1.25rem;
+			cursor: pointer;
+			transition: all 0.3s;
+		}
+
+		.searchButton:hover {
+			transform: scale(1.05);
+			box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+		}
+
+		.searchButton:active {
+			transform: scale(0.98);
+		}
+
+		.searchButton svg {
+			filter: brightness(0) invert(1);
+		}
+
+		/* Search Results */
+		.search_school {
+			margin-top: 1.5rem;
+			max-height: 400px;
+			overflow-y: auto;
+			display: none;
+		}
+
+		.noFound {
+			text-align: center;
+			padding: 2rem;
+			color: #ef4444;
+			font-weight: 500;
+			animation: fadeIn 0.3s;
+		}
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+				transform: translateY(-10px);
+			}
+
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		.json__object {
+			padding: 1rem;
+			margin-bottom: 0.75rem;
+			border: 2px solid #e5e7eb;
+			border-radius: 12px;
+			cursor: pointer;
+			transition: all 0.3s;
+			background: white;
+			animation: slideIn 0.3s ease-out forwards;
+			opacity: 0;
+		}
+
+		@keyframes slideIn {
+			from {
+				opacity: 0;
+				transform: translateX(-20px);
+			}
+
+			to {
+				opacity: 1;
+				transform: translateX(0);
+			}
+		}
+
+		.json__object:nth-child(1) {
+			animation-delay: 0.05s;
+		}
+
+		.json__object:nth-child(2) {
+			animation-delay: 0.1s;
+		}
+
+		.json__object:nth-child(3) {
+			animation-delay: 0.15s;
+		}
+
+		.json__object:nth-child(4) {
+			animation-delay: 0.2s;
+		}
+
+		.json__object:nth-child(5) {
+			animation-delay: 0.25s;
+		}
+
+		.json__object:hover {
+			border-color: #667eea;
+			transform: translateX(5px);
+			box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+		}
+
+		.json__object.selected {
+			border-color: #667eea;
+			background: linear-gradient(90deg, #f0f4ff 0%, #e8eeff 100%);
+		}
+
+		.schoolInfo {
+			display: none;
+		}
+
+		.name {
+			font-weight: 600;
+			color: #111827;
+			margin-bottom: 0.5rem;
+			font-size: 1.05rem;
+		}
+
+		.address {
+			color: #6b7280;
+			font-size: 0.9rem;
+		}
+
+		/* Loading Spinner */
+		.loading {
+			display: none;
+			text-align: center;
+			padding: 1rem;
+		}
+
+		.spinner {
+			border: 3px solid #f3f4f6;
+			border-top: 3px solid #667eea;
+			border-radius: 50%;
+			width: 40px;
+			height: 40px;
+			animation: spin 1s linear infinite;
+			margin: 0 auto;
+		}
+
+		@keyframes spin {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+		/* Stats bar */
+		.stats-bar {
+			display: flex;
+			justify-content: space-between;
+			padding: 0.75rem;
+			background: #f9fafb;
+			border-radius: 8px;
+			margin-bottom: 1rem;
+			font-size: 0.875rem;
+			color: #6b7280;
+		}
+
+		.stat-item {
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+		}
+
+		.stat-value {
+			font-weight: 600;
+			color: #667eea;
+		}
+
+		/* Footer */
+		.footer {
+			background: rgba(255, 255, 255, 0.95);
+			padding: 2rem;
+			text-align: center;
+			backdrop-filter: blur(10px);
+		}
+
+		.footer__middle__block {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+			align-items: center;
+		}
+
+		.footer__block__or {
+			color: #6b7280;
+			font-weight: 600;
+		}
+
+		.footer__block__login {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+			align-items: center;
+		}
+
+		.footer__block__login a {
+			color: #667eea;
+			text-decoration: none;
+			font-weight: 600;
+			transition: all 0.2s;
+		}
+
+		.footer__block__login a:hover {
+			color: #764ba2;
+		}
+
+		.footer__block__login button {
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			color: white;
+			border: none;
+			padding: 0.75rem 2rem;
+			border-radius: 8px;
+			cursor: pointer;
+			font-weight: 600;
+			transition: all 0.3s;
+		}
+
+		.footer__block__login button:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+		}
+
+		/* Recent Searches */
+		.recent-searches {
+			margin-top: 1.5rem;
+			padding-top: 1.5rem;
+			border-top: 1px solid #e5e7eb;
+		}
+
+		.recent-searches-title {
+			font-size: 0.875rem;
+			color: #6b7280;
+			margin-bottom: 0.75rem;
+			font-weight: 600;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.recent-item {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0.5rem 1rem;
+			background: #f3f4f6;
+			border-radius: 20px;
+			margin: 0.25rem;
+			cursor: pointer;
+			font-size: 0.875rem;
+			transition: all 0.2s;
+		}
+
+		.recent-item:hover {
+			background: #667eea;
+			color: white;
+			transform: scale(1.05);
+		}
+
+		.clear-recent {
+			color: #ef4444;
+			cursor: pointer;
+			font-size: 0.75rem;
+			text-decoration: underline;
+		}
+
+		.clear-recent:hover {
+			color: #dc2626;
+		}
+
+		/* Scrollbar */
+		.regions-list::-webkit-scrollbar,
+		.search_school::-webkit-scrollbar {
+			width: 6px;
+		}
+
+		.regions-list::-webkit-scrollbar-track,
+		.search_school::-webkit-scrollbar-track {
 			background: #f1f1f1;
+			border-radius: 3px;
 		}
 
-		.regions-list::-webkit-scrollbar-thumb {
+		.regions-list::-webkit-scrollbar-thumb,
+		.search_school::-webkit-scrollbar-thumb {
 			background: #d1d5db;
-			border-radius: 2px;
+			border-radius: 3px;
 		}
 
-		.regions-list::-webkit-scrollbar-thumb:hover {
+		.regions-list::-webkit-scrollbar-thumb:hover,
+		.search_school::-webkit-scrollbar-thumb:hover {
 			background: #9ca3af;
+		}
+
+		@media (max-width: 640px) {
+			.main {
+				padding: 2rem 1rem;
+			}
+
+			.search-wrapper {
+				padding: 1.5rem;
+			}
+
+			.logo {
+				font-size: 1.25rem;
+			}
+
+			.stats-bar {
+				flex-direction: column;
+				gap: 0.5rem;
+			}
 		}
 	</style>
 </head>
 
 <body>
-
 	<div class="header">
-		<div class="logo">Welcome to Student Chat</div>
+		<div class="logo">🎓 Welcome to Student Chat</div>
 	</div>
 
-	<div class="region-selector">
-		<div class="region-selector-header" id="region-selector-toggle">
-			<div class="selected-region placeholder ">Select a region</div>
-			<svg class="dropdown-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-				stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-				<polyline points="6 9 12 15 18 9"></polyline>
-			</svg>
-		</div>
-
-		<div class="dropdown-panel">
-			<div class="search-container">
-				<input type="text" class="search-input" placeholder="Search for a region...">
-				<svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-					stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-					<circle cx="11" cy="11" r="8"></circle>
-					<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+	<div class="main">
+		<!-- Region Selector -->
+		<div class="region-selector">
+			<div class="region-selector-header" id="region-selector-toggle">
+				<div class="selected-region placeholder">Select a region</div>
+				<svg class="dropdown-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+					stroke-width="2">
+					<polyline points="6 9 12 15 18 9"></polyline>
 				</svg>
 			</div>
 
-			<div class="regions-list">
+			<div class="dropdown-panel" id="dropdown-panel">
+				<div class="search-container">
+					<input type="text" class="search-input" placeholder="Search for a region...">
+					<svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+						stroke-width="2">
+						<circle cx="11" cy="11" r="8"></circle>
+						<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+					</svg>
+				</div>
 
-			</div>
-
-			<div class="no-results">
-				No regions found
+				<div class="regions-list"></div>
+				<div class="no-results">No regions found</div>
 			</div>
 		</div>
-	</div>
 
-
-	<div class="main">
-
-
-
+		<!-- Search Wrapper -->
 		<div class="search-wrapper">
 			<div class="select__search">
-				<div class="search__img"><img src="../../fotos/search.svg" alt="search"></div>
+				<div class="search__img">
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+						<circle cx="11" cy="11" r="8"></circle>
+						<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+					</svg>
+				</div>
 				<form id="searchForm" action="/" th:action="@{/}" th:object="${searchSchoolRequest}" method="post"
 					autocomplete="off">
-
-					<input id="searchSchool" class="searchSchool" type="text"
-						placeholder="Search school by name or postal code or city" th:field="*{name}" autocomplete="on"
-						required>
-
-					<button class="searchButton" id="searchButton"><img src="../../fotos/submit.png" alt="submit"
-							type="submit"></button>
-
+					<input id="searchSchool" class="searchSchool" type="text" th:field="*{name}"
+						placeholder="Search school by name, postal code, or city" required>
+					<button class="searchButton" id="searchButton" type="submit">
+						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+							<polyline points="9 18 15 12 9 6"></polyline>
+						</svg>
+					</button>
 				</form>
+			</div>
 
-			</div><!-- /select__search -->
+			<!-- Stats Bar -->
+			<div class="stats-bar" id="stats-bar" style="display: none;">
+				<div class="stat-item">
+					<span>📍 Region:</span>
+					<span class="stat-value" id="current-region">None</span>
+				</div>
+				<div class="stat-item">
+					<span>🔍 Results:</span>
+					<span class="stat-value" id="results-count">0</span>
+				</div>
+			</div>
 
+			<!-- Loading -->
+			<div class="loading" id="loading">
+				<div class="spinner"></div>
+				<p style="margin-top: 1rem; color: #6b7280;">Searching schools...</p>
+			</div>
+
+			<!-- Search Results (Thymeleaf rendered) -->
 			<form id="schoolForm" action="/app" th:action="@{/app}" method="post" th:object="${schoolData}">
 				<div id="searchResult" class="search_school">
 					<div class="noFound"></div>
 
-					<div th:each="school, iterStat : ${schools} " class="json__object">
+					<div th:each="school, iterStat : ${schools}" class="json__object">
 						<input type="hidden" class="schoolInfo" th:value="${school}">
-						<div class="name" th:text=" ${school.name}"></div>
-						<div class="address" th:text=" ${school.address}"></div>
+						<div class="name" th:text="${school.name}"></div>
+						<div class="address" th:text="${school.address}"></div>
+					</div>
+				</div>
 
-					</div><!-- /json__object -->
-
-				</div><!-- search_school -->
 				<input id="schoolData" type="hidden" name="schoolData" th:value="${schoolData}" />
-				<!--				<input id="currentSchool" type="hidden" name="currentSchool"-->
-				<!--					   th:value="${schoolData.official_id + ',' + schoolData.id + ',' + schoolData.name + ',' + schoolData.schoolType + ',' + schoolData.address + ',' + schoolData.fullTimeSchool + ',' + schoolData.state + ',' + schoolData.phone + ',' + schoolData.fax + ',' + schoolData.latitude + ',' + schoolData.longitude}"/>-->
-
 			</form>
 
-		</div><!-- /search-wrapper -->
+			<!-- Recent Searches -->
+			<div class="recent-searches" id="recent-searches" style="display: none;">
+				<div class="recent-searches-title">
+					<span>🕒 Recent Searches</span>
+					<span class="clear-recent" id="clear-recent">Clear all</span>
+				</div>
+				<div id="recent-items"></div>
+			</div>
+		</div>
+	</div>
 
-
-	</div><!-- /main -->
-
-
+	<!-- Footer -->
 	<div class="footer">
 		<div class="footer__middle__block">
 			<div class="footer__block__or">
@@ -233,176 +663,12 @@
 						<p>Have an Account? <a href="/login">Login Here</a></p>
 					</div>
 					<button onclick="window.location.href='http://localhost:3000/settings'">
-						Go to React App
+						Go to React App →
 					</button>
 				</div>
 			</div>
-
 		</div>
 	</div>
 
-
-
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
-
-	<script>
-
-
-
-		$(document).ready(function () {
-			class School {
-				constructor({ officialId, id, name, schoolType, address, fullTimeSchool, state, phone, fax, latitude, longitude }) {
-					this.official_id = officialId;
-					this.id = id;
-					this.name = name;
-					this.schoolType = schoolType;
-					this.address = address;
-					this.fullTimeSchool = fullTimeSchool;
-					this.state = state;
-					this.phone = phone;
-					this.fax = fax;
-					this.latitude = latitude;
-					this.longitude = longitude;
-				}
-			}
-
-
-
-			$('#searchForm').submit(function (event) {
-				event.preventDefault(); // Stop normal form submission
-				let searchSchoolRequest = $(this).serialize();
-				$.ajax({
-					url: "https://www.studentchat.me/",
-					type: 'POST',
-					data: searchSchoolRequest,
-					success: function (response) {
-						let parsedResponse = $('<div>').html(response);
-						let schools = parsedResponse.find('.json__object') // Get all elements with class 'json__object'
-							.map(function () {
-								return {
-									schoolInfo: $(this).find('.schoolInfo').val().replace(/(\w+)=/g, '"$1":').replace(/'/g, '"'), // Get the hidden input value
-								};
-							}).get(); // Convert jQuery object to array
-						let schoolsLength = parsedResponse.find('.json__object').length;
-						console.log(schoolsLength);
-						//console.log("Schools found: " + JSON.stringify(schools[1]));
-						//---------------------------------------------------------------------------------------------
-						let arrayID = 0;
-
-
-
-						if (schoolsLength > 0) {
-							arrayID = 1;
-							// alert("Schools found: " + schools.length);
-							//$(".noFound span").remove();
-
-							$(document).on('click', '.json__object', function (e) {
-								//e.stopPropagation();
-								let nameValue = $(this).find('.name').text();
-								$("#searchSchool").val(nameValue);
-								//console.log("Name value: " + nameValue);
-
-							});
-
-							// Keep and update this block:
-							$(document).on('click', '.json__object', function (e) {
-								e.stopPropagation();
-								let index = $(".json__object").index(this);
-
-
-								let currentSchool = JSON.parse(schools[index].schoolInfo); // safely convert string to object
-								let selectedSchool = new School(currentSchool);
-								//console.log("Current school data: " + JSON.stringify(currentSchool));
-
-								//console.log("Current school data: " + currentSchool.schoolInfo);
-								//let schoolObj = currentSchool; // Parse the string back to an object
-
-								console.log("Parsed school object: ", (selectedSchool));
-								if (currentSchool) {
-									$("#searchSchool").val(parsedResponse.find('.json__object').eq(index).find('.name').text()); // Set input value if needed
-
-
-									$("#schoolData").val(JSON.stringify(selectedSchool)); // Set the hidden input value with the current school data
-
-
-
-									$('#schoolForm').submit(); // Submit the form with the selected school data
-								} else {
-									console.error("School data not found for index:", index);
-								}
-							});
-
-
-							//TODO: Clear previous results
-							//$("#searchResult").find(".noFound").empty(); // Clear previous "not found" message
-							//console.log(schools + " found");
-						} else {
-							arrayID = 0;
-							$(".search-wrapper").addClass("error");
-							$("#searchResult").find(".noFound").empty(); // Clear previous "not found" message
-							$("#searchResult").find(".noFound").html("<span>Your school not found...</span>");
-
-							console.log(schoolsLength + " no found");
-						}
-						//---------------------------------------------------------------------------------------------
-
-
-
-
-						let searchResult = parsedResponse.find('#searchResult');
-
-
-						// Update only #searchResult on the current page
-						$('#searchResult').empty(); // Clear previous results
-						$('#searchResult').html(searchResult.html());
-
-						// Optionally, clear input field
-						//$("#searchSchool").val('');
-
-						//console.log(searchResult.html());
-						$("#schoolForm").css("display", "block"); // Show the form with search results
-					},
-					error: function (xhr, status, error) {
-						alert("An error occurred: " + error);
-					}
-				});
-			});
-
-		});
-	</script>
-	<!-- <script th:inline="javascript">
-		/*<![CDATA[*/
-		let arrayID = 0;
-		let schools =  /*[[${schools}]]*/[];
-
-		console.log("schools: " + schools);
-
-		if (schools.length > 0) {
-			arrayID = 1;
-			// alert("Schools found: " + schools.length);
-			// $(".noFound span").remove();
-
-
-			//console.log(schools + " found");
-		} else {
-			arrayID = 0;
-			$(".search-wrapper").addClass("error");
-			$(".noFound").html("<span>Your school not found...</span>");
-			console.log(schools + " no found");
-		}
-
-
-		/*]]>*/
-	</script> -->
-
-
-	<script src="../../js/searchScoolSeite/searchSchool.js"></script>
-	<script src="../../js/searchScoolSeite/searchSchoolSettings.js"></script>
-
-
-
-	<noscript>You need to enable JavaScript to run this app.</noscript>
-
-</body>
-
-</html>
+	<script th:inline="javascript" src="../../js/searchSchoolSite/searchSchool.js"></script>
