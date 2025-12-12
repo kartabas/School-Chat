@@ -223,6 +223,9 @@
 
         /* Responsive input sizing */
         @media (min-width: 641px) {
+				.searchButton {
+					right: -1.3rem;
+				}
             .searchSchool {
                 width: 40ch; /* 40 characters width on desktop */
             }
@@ -230,7 +233,7 @@
 
         @media (max-width: 640px) {
             .searchSchool {
-                width: 100%; /* Full width on mobile */
+                width: 15rem;
                 font-size: 16px; /* Prevents zoom on iOS */
             }
         }
@@ -239,7 +242,9 @@
 
         .searchButton {
             position: absolute;
-            right: 0.5rem;
+         	/*right: -1.3rem;*/
+				right: 4.7rem;
+    			top: 0.15rem;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border: none;
             border-radius: 8px;
@@ -698,6 +703,9 @@
 
 		  		/* Mobile optimization */
 		@media (max-width: 480px) {
+			.searchButton {
+					right: 0.7rem;
+				}
 			.header {
 				padding: 0.5rem 0.75rem;
 				flex-direction: column;
@@ -721,13 +729,17 @@
 				text-align: center;
 				position: relative;
 				top: -0.75rem;
-				left: 18rem;
+				left: 19rem;
 				width: 7rem;
 			}
 		}
 
 		/* Very small screens */
 		@media (max-width: 380px) {
+			.searchButton {
+					right: -1.3rem;
+			}
+
 			.logo {
 				font-size: 0.9rem;
 			}
@@ -736,7 +748,7 @@
 				padding: 0.35rem 0.85rem;
 				font-size: 0.8rem;
 				position: relative;
-				left: 16rem;
+				left: 18rem;
 
 			}
 		}
