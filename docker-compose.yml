@@ -6,7 +6,7 @@ services:
     build:
       context: .                   # assumes Dockerfile is in the same directory
     ports:
-      - "8080:8080"                # map host port to container port
+      - "127.0.0.1:8080:8080"               # map host port to container port
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/postgres
       SPRING_DATASOURCE_USERNAME: postgres
