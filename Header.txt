@@ -80,3 +80,29 @@ SELECT * FROM your_table_name;
 //for start react 
 //Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (Powershell)
 //npm start
+
+//---------------------------------------------Nginx-------------------------------------------------
+//show logs on the server 
+sudo nano /etc/nginx/nginx.conf
+
+log_format device_log '$remote_addr "$http_user_agent"';
+
+access_log /var/log/nginx/device.log device_log;
+
+sudo systemctl reload nginx
+
+sudo tail -f /var/log/nginx/device.log
+
+//For example
+//203.0.113.45 "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1"
+
+//---------------------------------------------Nginx-------------------------------------------------
+
+
+
+
+
+
+
+
+
