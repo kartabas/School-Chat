@@ -15,7 +15,7 @@
 		<div class="logo">🎓 Welcome to Student Chat</div>
 
 		<div class="cta-section" style="position: absolute; right: 2rem; top: 0.25rem;">
-			<a href="/login" class="cta-button">Login Here</a>
+			<a href="/login" class="cta-button">Login</a>
 		</div>
 	</div>
 
@@ -56,8 +56,8 @@
 				</div>
 				<form id="searchForm" action="/" th:action="@{/}" th:object="${searchSchoolRequest}" method="post"
 					autocomplete="off">
-					<input id="searchSchool" class="searchSchool" type="text" th:field="*{name}" placeholder="Search school name..."
-						required>
+					<input id="searchSchool" class="searchSchool" type="text" th:field="*{name}"
+						placeholder="Search school name..." required>
 					<button class="searchButton" id="searchButton" type="submit">
 						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
 							<polyline points="9 18 15 12 9 6"></polyline>
