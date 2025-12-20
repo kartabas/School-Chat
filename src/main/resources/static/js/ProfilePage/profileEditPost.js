@@ -1,4 +1,4 @@
-const updatePost = 'https://www.studentchat.me/profile/updatepost/';
+const updatePost = '/profile/updatepost/';
 
 $(document).ready(function () {
 	let isClicked = false;

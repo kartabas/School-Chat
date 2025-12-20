@@ -1,4 +1,4 @@
-const getProfileUserData = 'https://www.studentchat.me/profile/' ;
+const getProfileUserData = '/profile/' ;
 
 
 fetch(getProfileUserData+usersModel.id)

@@ -1,4 +1,4 @@
-const postSendPost = 'https://www.studentchat.me/home/savepost';
+const postSendPost = '/home/savepost';
 
 
 $(document).ready(function () {

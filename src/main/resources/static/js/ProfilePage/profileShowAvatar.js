@@ -1,4 +1,4 @@
-const getProfileDataAvatar = 'https://www.studentchat.me/profile/';
+const getProfileDataAvatar = '/profile/';
 
 
 

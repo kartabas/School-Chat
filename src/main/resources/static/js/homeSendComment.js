@@ -1,9 +1,9 @@
-const allCommentsUnderPost = "https://www.studentchat.me/home/comment/postcomments/"; // Must post ID be added to the end of the URL
+const allCommentsUnderPost = "/home/comment/postcomments/"; // Must post ID be added to the end of the URL
 
-const saveCommentUnderPost = "https://www.studentchat.me/home/comment/savecomment";
-const profileAccountInfo = "https://www.studentchat.me/profile/"; // Must user ID be added to the end of the URL
+const saveCommentUnderPost = "/home/comment/savecomment";
+const profileAccountInfo = "/profile/"; // Must user ID be added to the end of the URL
 
-const deleteCemmentUnderPost = "https://www.studentchat.me/home/comment/delete/"; // Must comment ID be added to the end of the URL
+const deleteCemmentUnderPost = "/home/comment/delete/"; // Must comment ID be added to the end of the URL
 
 let clickCommentPanelCount = 0;
 let commentCount;

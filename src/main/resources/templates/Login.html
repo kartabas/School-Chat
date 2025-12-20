@@ -2,109 +2,142 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
+	<title>Login Page</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="../../css/login.css">
+
+
+
 	<!--<link rel="stylesheet" type="text/css" href="../../css/login.css">  for java-->
 	<!-- <link rel="stylesheet" type="text/css" href="../static/css/login.css">  for vs code-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-	<title>Login Page</title>
+
 </head>
 
-<body>
 
+
+<body>
 	<div class="main-page">
 		<div class="main">
 			<div class="header-text">
-				<h2 class="header-title">School Chat</h2>
-				<!--				<h5 th:text="${userCurrentSchoolModel.name}" ></h5>-->
+				<h2 class="header-title">Student Chat</h2>
 			</div>
 
-
-			<div class="login-form-page ">
-
-
-
-
-				<form method="post" action="/login" th:action="@{/login}" th:object="${loginRequest}" class="login-form "
+			<div class="login-form-page">
+				<form method="post" action="/login" th:action="@{/login}" th:object="${loginRequest}" class="login-form"
 					id="login">
 
 					<h2 class="form-title">Login</h2>
 
-					<div class="form__message "></div>
+					<div class="form__message"></div>
 
 					<div class="user-nickname">
 						<input type="text" id="username" th:field="*{login}" autofocus placeholder="Your nickname"
-							class="form__input " required>
-
-						<div class="form__input-error-message "></div>
-
+							class="form__input" required>
+						<div class="form__input-error-message"></div>
 					</div>
-
-
 
 					<div class="user-password">
-						<input type="password" id="password" autofocus placeholder="Password" th:field="*{password}"
-							class="form__input " required>
-						<!--						pattern=pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"-->
-						<div class="form__input-error-message "></div>
-
+						<input type="password" id="password" placeholder="Password" th:field="*{password}" class="form__input"
+							required>
+						<button type="button" class="toggle-password" id="togglePassword"
+							aria-label="Toggle password visibility">
+							<svg id="eyeIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+							</svg>
+							<svg id="eyeOffIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								stroke="currentColor" style="display: none;">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
+							</svg>
+						</button>
+						<div class="form__input-error-message"></div>
 					</div>
-
-
-
-
 
 					<div class="login-submit">
 						<input type="submit" value="Login" id="login-form-submit">
-
 					</div>
 
-
-
-
-
 					<div class="footer-text">
-
 						<div class="container unauthenticated">
 							<!-- <a th:href="@{/oauth2/authorization/github}"
-								style="text-decoration: none; font-family: helvetica; font-weight: bold; color: #ddd; background-color: black; height: 30px; display: inline-block; padding: 1px 12px 0 0; border-radius: 5px; margin-bottom: 10px;">
-								<svg xmlns="http://www.w3.org/2000/svg" aria-label="GitHub" role="img" viewBox="0 0 512 512"
-									style=" width: 30px; vertical-align: middle; border-right:0.5px solid #aaa;">
-									<rect width="512" height="512" rx="15%" fill="#1B1817" />
-									<path fill="#fff"
-										d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z" />
-								</svg>
-								<span style="padding-left: 5px;">Log in with GitHub</span>
-							</a> -->
+                                style="text-decoration: none; font-family: helvetica; font-weight: bold; color: #ddd; background-color: black; height: 30px; display: inline-block; padding: 1px 12px 0 0; border-radius: 5px; margin-bottom: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-label="GitHub" role="img" viewBox="0 0 512 512"
+                                    style=" width: 30px; vertical-align: middle; border-right:0.5px solid #aaa;">
+                                    <rect width="512" height="512" rx="15%" fill="#1B1817" />
+                                    <path fill="#fff"
+                                        d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z" />
+                                </svg>
+                                <span style="padding-left: 5px;">Log in with GitHub</span>
+                            </a> -->
 							<!-- With GitHub: <a th:href="@{/oauth2/authorization/github}">click here</a> -->
 						</div>
 						<!-- <div class="container unauthenticated">
-							With Google: <a th:href="@{/oauth2/authorization/google}">click here</a>
-						</div> -->
+                            With Google: <a th:href="@{/oauth2/authorization/google}">click here</a>
+                        </div> -->
 
-						<p>Haven't an Account? <a href="/">Sing Up Here</a> </p>
+						<p>Haven't an Account? <a href="/">Sing Up Here</a></p>
 
+						<div class="footer-bottom">
+							<div class="copyright">
+								© 2024 Student Chat. All rights reserved.
+							</div>
+							<div class="footer-bottom-links">
+								<a href="/privacy">Privacy Policy</a>
+								<a href="/terms">Terms of Service</a>
+								<a href="/cookies">Cookie Policy</a>
+								<a href="/accessibility">Accessibility</a>
+								<a href="/sitemap">Sitemap</a>
+							</div>
+						</div>
 					</div>
 				</form>
-
-
-
-			</div><!-- /login-form-page-->
-
-		</div><!-- /main-->
-	</div><!-- /main-page-->
-
+			</div>
+		</div>
+	</div>
 
 	<script src="../../js/validationRegPage/validationRegLoginPage.js"></script>
+	<script>
+		// Toggle password visibility
+		const togglePassword = document.getElementById('togglePassword');
+		const passwordInput = document.getElementById('password');
+		const eyeIcon = document.getElementById('eyeIcon');
+		const eyeOffIcon = document.getElementById('eyeOffIcon');
 
-	<!-- <script src="../static/js/validationRegPage/validationRegLoginPage.js"></script>   for vs code-->
-	<!--	 <script src="../../js/validationRegPage/validationRegLoginPage.js"></script>   for java-->
+		togglePassword.addEventListener('click', function () {
+			const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+			passwordInput.setAttribute('type', type);
+
+			// Toggle icons
+			if (type === 'text') {
+				eyeIcon.style.display = 'none';
+				eyeOffIcon.style.display = 'block';
+			} else {
+				eyeIcon.style.display = 'block';
+				eyeOffIcon.style.display = 'none';
+			}
+		});
+	</script>
 	<noscript>You need to enable JavaScript to run this app.</noscript>
+
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L83GTYWR79"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L83GTYWR79');
+</script>
 </body>
 
 </html>

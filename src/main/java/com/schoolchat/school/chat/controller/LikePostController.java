@@ -87,14 +87,14 @@ public class LikePostController extends HttpServlet {
 				if (postService.isPostLiked(postId, userId)) {
 					return "../../../fotos/profile/SelectedLike.png";
 				} else {
-					return "../../../fotos/profile/defaultLike.png";
+					return "../../../fotos/profile/DefaultLike.png";
 				}
 			} else {
-				return "../../../fotos/profile/defaultLike.png";
+				return "../../../fotos/profile/DefaultLike.png";
 			}
 
 		} else {
-			return "../../../fotos/profile/defaultLike.png";
+			return "../../../fotos/profile/DefaultLike.png";
 		}
 
 	}

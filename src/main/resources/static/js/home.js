@@ -1,5 +1,6 @@
-const likeCountAPIonHomePage = "https://www.studentchat.me/home/like/";
-
+//const likeCountAPIonHomePage = "https://www.studentchat.me/home/like/";
+//const likeCountAPIonHomePage = "https://localhost:8080/home/like/";
+const likeCountAPIonHomePage = "/home/like/";
 
 
 
@@ -93,7 +94,7 @@ $(document).ready(function () {
 			$likeBtn.attr("data-liked", "true");
 
 		} else {
-			$likeImg.attr("src", "../../../fotos/profile/defaultLike.png");
+			$likeImg.attr("src", "../../../fotos/profile/DefaultLike.png");
 			$likeCount.text(function (i, text) {
 				return parseInt(text) - 1;
 			});

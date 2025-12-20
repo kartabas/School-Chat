@@ -27,7 +27,7 @@ public class SecurityConfig {
 					auth
 
 							.requestMatchers("/", "/react-frontend", "/react-frontend/**", "/login",
-									"/app", "/register",
+									"/app", "/register", "/checkUsername",
 									"/home", "/profile", "/home/**", "/profile/**", "/react-frontend/**",
 									"/css/**", "/js/**",
 									"/fotos/**", "/error")
