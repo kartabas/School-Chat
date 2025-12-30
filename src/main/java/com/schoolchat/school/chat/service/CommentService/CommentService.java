@@ -1,4 +1,4 @@
-package com.schoolchat.school.chat.service.CommentService;
+package com.schoolchat.school.chat.service.commentService;
 
 import java.util.List;
 
@@ -36,6 +36,7 @@ public class CommentService {
 		}
 
 		try {
+			System.out.println("saveComment: " + message);
 			CommentModel commentModel = new CommentModel();
 
 			commentModel.setPostId(postId);

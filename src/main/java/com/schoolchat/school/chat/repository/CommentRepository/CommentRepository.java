@@ -20,5 +20,6 @@ public interface CommentRepository extends JpaRepository<CommentModel, Integer> 
 
 	CommentModel deleteByCommentId(Long commentId);
 
+	CommentModel save(CommentModel commentModel);
 
 }

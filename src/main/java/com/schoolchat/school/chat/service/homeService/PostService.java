@@ -10,7 +10,7 @@ import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.CommentModels.CommentModel;
 import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.repository.homeRepository.PostRepository;
-import com.schoolchat.school.chat.service.CommentService.CommentService;
+import com.schoolchat.school.chat.service.commentService.CommentService;
 import com.schoolchat.school.chat.service.likesService.LikeService;
 
 @Service

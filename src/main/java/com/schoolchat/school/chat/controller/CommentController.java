@@ -3,6 +3,7 @@ package com.schoolchat.school.chat.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -16,7 +17,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.CommentModels.CommentModel;
 import com.schoolchat.school.chat.repository.CommentRepository.CommentRepository;
-import com.schoolchat.school.chat.service.CommentService.CommentService;
+import com.schoolchat.school.chat.service.UsersService;
+import com.schoolchat.school.chat.service.commentService.CommentService;
 import com.schoolchat.school.chat.service.homeService.PostService;
 
 import jakarta.servlet.http.HttpServlet;
@@ -29,6 +31,9 @@ import jakarta.servlet.http.HttpSession;
 public class CommentController extends HttpServlet {
 	@Autowired
 	private CommentService commentService;
+
+	@Autowired
+	private UsersService usersService;
 
 	@Autowired
 	private PostService postService;
@@ -74,20 +79,26 @@ public class CommentController extends HttpServlet {
 		return 0;
 	}
 
+
 	@PostMapping("/savecomment")
 	public ResponseEntity<?> saveComment(@RequestBody CommentModel sendComment, HttpServletRequest request,
 			HttpServletResponse response) {
-		System.out.println("saveComment: " + sendComment.getCommentMessage());
 
 		HttpSession session = request.getSession();
 		if (session != null) {
-			UsersModel userId = (UsersModel) session.getAttribute("userLogin");
-			commentService.saveUserComment(sendComment.getPostId(), userId,
+
+			UsersModel user = (UsersModel) session.getAttribute("userLogin");
+			if (user == null) {
+				return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+			}
+			commentService.saveUserComment(sendComment.getPostId(),
+					user,
 					sendComment.getProfileModel(),
 					sendComment.getCommentMessage(), sendComment.getCommentTime());
 			return ResponseEntity.ok().build();
 
 		} else {
+			System.out.println("dont saveComment: " + sendComment.getCommentMessage());
 			return ResponseEntity.badRequest().build();
 		}
 

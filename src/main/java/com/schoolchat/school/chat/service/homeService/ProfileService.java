@@ -25,6 +25,10 @@ public class ProfileService {
 		return profileRepository.findByUsersModel(usersModel);
 	}
 
+	public ProfileModel getProfileByUserId(Integer usersModelId) {
+		return profileRepository.findByUsersModelId(usersModelId);
+	}
+
 	public ProfileModel savProfileModel(ProfileModel profileModel) {
 		return profileRepository.save(profileModel);
 	}

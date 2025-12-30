@@ -156,7 +156,7 @@ $(document).ready(function () {
 										<!-- New Comment Form -->
 										<div class="mb-4">
 												<div class="d-flex gap-3">
-													<img src="${userAvatar}" alt="User Avatar" class="user-avatar">
+													<img src="${userAvatar == null ? "../../fotos/profile/userIcon.png" : userAvatar}" alt="User Avatar" class="user-avatar">
 													<div class="flex-grow-1">
 														<textarea class="form-control comment-input comment__box__input__text" rows="1" placeholder="Write a comment..."></textarea>
 														<div class="mt-3 text-end">

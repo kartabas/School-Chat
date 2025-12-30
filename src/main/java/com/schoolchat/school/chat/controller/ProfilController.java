@@ -168,11 +168,11 @@ public class ProfilController extends HttpServlet {
 			HttpServletResponse response) {
 		HttpSession session = request.getSession();
 		if (session != null) {
-			UsersModel usersModel = usersService.getUser(id);
-			ProfileModel profileModel = profileService.getProfileByUserIModel(usersModel);
+			// UsersModel usersModel = usersService.getUser(id);
+			ProfileModel profileModel = profileService.getProfileByUserId(id);
 			if (profileModel == null) {
 				return new ProfileModel("../../../fotos/profile/userIcon.png",
-						"../../../fotos/profile/web-application.png", " ");
+						"../../../fotos/profile/web-application.png", " ", usersService.getUser(id));
 			} else {
 				return profileModel;
 			}

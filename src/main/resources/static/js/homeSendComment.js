@@ -33,7 +33,7 @@ $(document).ready(function () {
 				.then(response => response.json())
 				.then(data => {
 					console.log(data);
-					
+
 					if (data.length == 0) {
 						postBox.find(".comments-list").append('<h1 class="text-center" style=" color: white;">No comments yet</h1>');
 					}
@@ -43,7 +43,7 @@ $(document).ready(function () {
 						postBox.find(".comments-list").append(`
 							<div class="comment-box" id="${data[comment].commentId}">
 								<div class="d-flex gap-3">
-									<img src="${data[comment].profileModel.profileImage}" alt="User Avatar" class="user-avatar">
+									<img src="${data[comment].profileModel.profileImage} " alt="User Avatar" class="user-avatar">
 									<div class="flex-grow-1">
 											<div class="d-flex justify-content-between align-items-center mb-2">
 												<h6 class="mb-0">${data[comment].profileModel.usersModel.login}</h6>
@@ -53,10 +53,10 @@ $(document).ready(function () {
 									</div>
 								</div>
 							</div>`);
+
 					})
 				})
 				.catch(error => console.error('Error fetching data:', error));
-
 
 			postBox.find(".comment__box").css("display", "block");
 
@@ -82,7 +82,7 @@ $(document).ready(function () {
 		let commentText = $(this).closest(".comment__box").find(".comment__box__input__text").val();
 		console.log("commentText: " + commentText);
 
-		postBox.find(".comments-list").empty();
+		//postBox.find(".comments-list").empty();
 		console.log("text-center  was removed");
 
 		commentArray.push(postId);
@@ -110,33 +110,34 @@ $(document).ready(function () {
 						profileModel: commentArray[1],
 						commentMessage: commentArray[2],
 						commentTime: commentArray[3],
-						userId: commentArray[1].usersModel.id
+						usersModel: commentArray[1].usersModel
+
 					};
 
 					fetch(saveCommentUnderPost, {
 						method: 'POST',
-						headers: {
-							'Content-Type': 'application/json',
-						},
+						headers: { 'Content-Type': 'application/json' },
 						body: JSON.stringify(dataToSaveComment),
 					})
-						.then(response => response.text()) // Read response as text first
-						.then(data => {
-							console.log('Success:', data);
+						.then(res => {
+							if (!res.ok) throw new Error(res.status);
+							return res.text();
 						})
-						.catch((error) => {
-							console.error('Error:', error);
-						});
+						.then(data => console.log("Saved:", data))
+						.catch(err => console.error("Failed:", err));
+
 
 
 
 					postId = $(this).closest(".post__box").find(".postId").val();
 
 
-					$(this).closest(".post__box").find(".comments-list").append(`
+					//console.log("User ID in commentArray: " + userId);
+
+					$(this).closest(".post__box").find(".comments-list:last").append(`
 						<div class="comment-box">
 							<div class="d-flex gap-3">
-								<img src="${commentArray[1].profileImage}" alt="User Avatar" class="user-avatar">
+								<img src="${commentArray[1].profileImage} " alt="User Avatar" class="user-avatar">
 								<div class="flex-grow-1">
 										<div class="d-flex justify-content-between align-items-center mb-2">
 											<h6 class="mb-0">${commentArray[1].usersModel.login}</h6>
@@ -146,8 +147,11 @@ $(document).ready(function () {
 								</div>
 							</div>
 						</div>
-						
-					  `);
+					`);
+
+
+
+
 					$(this).closest(".post__box").find("#changeCommentCount").html($(this).closest(".comment__box").find(".container .comment-section .comments-list ").find(".comment-box").length);
 					$(this).closest(".comment__box").find(".comment__box__input__text").val(" ");
 
@@ -156,7 +160,7 @@ $(document).ready(function () {
 				console.log(commentArray);
 			})
 			.catch(error => console.error('Error fetching data:', error));
-
+			
 
 	});
 

@@ -1,9 +1,6 @@
 package com.schoolchat.school.chat.model.CommentModels;
 
-import org.hibernate.annotations.ManyToAny;
-
 import com.schoolchat.school.chat.model.UsersModel;
-import com.schoolchat.school.chat.model.homeModels.PostModel;
 import com.schoolchat.school.chat.model.homeModels.ProfileModel;
 
 import jakarta.persistence.Column;
@@ -13,14 +10,11 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "comments_table")
 public class CommentModel {
-
 
 	@Column(name = "comment_id")
 	@Id
@@ -29,7 +23,6 @@ public class CommentModel {
 
 	@Column(name = "post_id")
 	Long postId;
-
 
 	@ManyToOne
 	@JoinColumn(name = "fk_user_id")
@@ -73,8 +66,8 @@ public class CommentModel {
 		this.postId = postId;
 	}
 
-	public Integer getUsersModel() {
-		return usersModel.getId();
+	public UsersModel getUsersModel() {
+		return usersModel;
 	}
 
 	public void setUsersModel(UsersModel userId) {

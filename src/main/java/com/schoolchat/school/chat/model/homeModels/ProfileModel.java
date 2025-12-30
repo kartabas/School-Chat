@@ -38,10 +38,11 @@ public class ProfileModel {
 	}
 
 	public ProfileModel(String profileImage, String profileBackground,
-			String profileBiography) {
+			String profileBiography, UsersModel usersModel) {
 		this.profileImage = profileImage;
 		this.profileBackground = profileBackground;
 		this.profileBiography = profileBiography;
+		this.usersModel = usersModel;
 	}
 
 	public void setProfileId(Integer profileId) {

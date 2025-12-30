@@ -7,19 +7,14 @@ import org.springframework.stereotype.Repository;
 
 import com.schoolchat.school.chat.model.UsersModel;
 import com.schoolchat.school.chat.model.homeModels.ProfileModel;
+
 @Repository
 public interface ProfileRepository extends JpaRepository<ProfileModel, Integer> {
-	
-
 
 	Optional<ProfileModel> findByProfileId(Integer profileId);
 
 	ProfileModel findByUsersModel(UsersModel usersModel);
 
-	
-
-	
-	
-	
+	ProfileModel findByUsersModelId(Integer usersModelId);
 
 }
