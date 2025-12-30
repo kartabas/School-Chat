@@ -9,10 +9,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.schoolchat.school.chat.model.UsersModel;
+import com.schoolchat.school.chat.model.homeModels.ProfileModel;
 import com.schoolchat.school.chat.model.schoolModels.SchoolModel;
 import com.schoolchat.school.chat.model.schoolModels.UserCurrentSchoolModel;
 import com.schoolchat.school.chat.security.BCryptHashing;
 import com.schoolchat.school.chat.service.UsersService;
+import com.schoolchat.school.chat.service.homeService.ProfileService;
 
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -23,6 +25,9 @@ public class UserController extends HttpServlet {
 
 	@Autowired
 	private UsersService usersService;
+
+	@Autowired
+	private ProfileService profileService;
 
 	public UserController(UsersService usersService) {
 		this.usersService = usersService;
@@ -109,6 +114,14 @@ public class UserController extends HttpServlet {
 
 		UsersModel registeredUser = usersService.registerUser(usersModel.getLogin(), usersModel.getPassword(),
 				usersModel.getEmail(), usersModel.getSchoolId());
+
+		if (profileService.getProfileByUserId(registeredUser.getId()) == null) {
+			ProfileModel profileModel = new ProfileModel("../../../fotos/profile/userIcon.png",
+					"../../../fotos/profile/web-application.png", " ", registeredUser);
+
+			profileService.savProfileModel(profileModel);
+
+		}
 
 		return registeredUser == null ? "error_page" : "redirect:/login";
 	}

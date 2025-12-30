@@ -95,6 +95,16 @@ public class HomeController extends HttpServlet {
 			System.out.println("Session for userCurrentSchoolModel: " + session.getAttribute("userCurrentSchoolModel"));
 			System.out.println("Replay COUNT: " + count);
 			System.out.println();
+
+			
+			// ProfileModel profileModel = new ProfileModel();
+			// profileModel = profileService.getProfileByUserIModel(usersModel);
+			// if (profileModel != null) {
+			// model.addAttribute("profileModel", profileModel);
+			// } else {
+			// model.addAttribute("profileModel", new ProfileModel());
+			// }
+
 			return "home";
 		} else {
 			return "redirect:/login";
