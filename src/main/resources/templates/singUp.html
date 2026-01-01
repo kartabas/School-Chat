@@ -42,7 +42,7 @@
 
 					<div class="user-nickname ">
 						<input type="text" id="username" th:field="*{login}" autofocus placeholder="Your nickname"
-							class="form__input " required pattern="[A-Za-z0-9_.]+">
+							class="form__input " required>
 
 						<div class="form__input-error-message  "></div>
 						<div class="form__input-error-message-username  "></div>
@@ -104,21 +104,58 @@
 	<script>
 		$(document).ready(function () {
 
-
-
-
-			let previousWords = [];
+			const forbiddenUsernames = ['admin', 'root', 'test']; // usernames that are not allowed
 
 			$('#username').on('input', function () {
-				$(this).val($(this).val().replace(/[^A-Za-z0-9_.]/g, ''));
+				let username = $(this).val();
 
-				const username = $(this).val();
-				//console.log("Input text:", username);
+				// Allowed characters: letters, numbers, dot, hyphen, underscore
+				username = username.replace(/[^A-Za-z0-9._-]/g, '');
+				$(this).val(username);
 
+				const lowerUsername = username.toLowerCase();
+
+				// Check 1: forbidden usernames
+				if (forbiddenUsernames.includes(lowerUsername)) {
+					$('.form__input-error-message-username')
+						.text('This nickname is not allowed')
+						.css('color', 'red');
+					$("#reg-form-submit").prop('disabled', true);
+					return;
+				}
+
+				// Check 2: minimum 3 characters
+				if (username.length < 3) {
+					$('.form__input-error-message-username')
+						.text('Nickname must be at least 3 characters')
+						.css('color', 'red');
+					$("#reg-form-submit").prop('disabled', true);
+					return;
+				}
+
+				// Check 3: cannot be only special characters
+				if (/^[._-]+$/.test(username)) {
+					$('.form__input-error-message-username')
+						.text('Invalid nickname')
+						.css('color', 'red');
+					$("#reg-form-submit").prop('disabled', true);
+					return;
+				}
+
+				// Check 4: cannot start or end with dot, hyphen, or underscore
+				if (/^[._-]|[._-]$/.test(username)) {
+					$('.form__input-error-message-username')
+						.text('Nickname cannot start or end with . - _')
+						.css('color', 'red');
+					$("#reg-form-submit").prop('disabled', true);
+					return;
+				}
+
+				// AJAX: check if username is available
 				$.ajax({
 					url: '/checkUsername',
 					type: 'POST',
-					data: { username: username }, // sending as form param
+					data: { username: username },
 					success: function (response) {
 						if (response) {
 							$('.form__input-error-message-username')
@@ -140,15 +177,10 @@
 					}
 				});
 
-
 			});
+
 		});
-
-
-
 	</script>
-
-
 
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 </body>
