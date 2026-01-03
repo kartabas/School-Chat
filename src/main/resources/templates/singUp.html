@@ -6,101 +6,103 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<title>Register Page</title>
 	<link rel="stylesheet" type="text/css" href="../../css/singUp.css">
-
-	<!--	<link rel="stylesheet" type="text/css" href="../../css/singUp.css">  for java-->
-	<!-- <link rel="stylesheet" type="text/css" href="../static/css/singUp.css">  for vs code -->
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-
 	<div class="main-page">
 		<div class="main">
-
 			<div class="header-text">
 				<h2 class="header-title">School Chat</h2>
-
 			</div>
 
-
 			<div class="reg-form">
-
 				<form method="post" action="/register" th:action="@{/register}" th:object="${registerRequest}"
 					class="register-form" id="register">
 
-					<h2 class="form-title">Register to </h2>
+					<h2 class="form-title">Create Account</h2>
 					<h5 class="school__name" th:text="${userCurrentSchoolModel.name}"></h5>
-					<div class="form__message  "></div>
+					<div class="form__message"></div>
 
-					<!--					Save current School id and request in usersModel -->
 					<input type="hidden" id="schoolId" th:value="${userCurrentSchoolModel.id}" th:field="*{schoolId}">
 
-
-					<div class="user-nickname ">
-						<input type="text" id="username" th:field="*{login}" autofocus placeholder="Your nickname"
-							class="form__input " required>
-
-						<div class="form__input-error-message  "></div>
-						<div class="form__input-error-message-username  "></div>
+					<div class="user-nickname">
+						<input type="text" id="username" th:field="*{login}" autofocus placeholder="Choose a nickname"
+							class="form__input" required>
+						<div class="form__input-error-message"></div>
+						<div class="form__input-error-message-username"></div>
 					</div>
 
-
-
 					<div class="user-email">
-
-						<input type="email" id="email" th:field="*{email}" autofocus placeholder="Email" class="form__input"
+						<input type="email" id="email" th:field="*{email}" placeholder="Email address" class="form__input"
 							required>
-
 					</div>
 
 					<div class="user-password">
-						<input type="password" id="password" th:field="*{password}" placeholder="Password" class="form__input"
-							required>
-
-						<div class="form__input-error-message "></div>
+						<input type="password" id="password" th:field="*{password}" placeholder="Create password"
+							class="form__input" required>
+						<button type="button" class="password-toggle" aria-label="Toggle password visibility">
+							<svg class="eye-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
+								</path>
+							</svg>
+							<svg class="eye-off-icon" style="display: none;" fill="none" stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21">
+								</path>
+							</svg>
+						</button>
+						<div class="password-strength">
+							<div class="password-strength-bar"></div>
+						</div>
+						<div class="form__input-error-message"></div>
 					</div>
 
 					<div class="user-confirm-password">
-						<input type="password" id="confirm-password" placeholder="Confirm Password" class="form__input"
+						<input type="password" id="confirm-password" placeholder="Confirm password" class="form__input"
 							required>
-
-
-						<div class="form__input-error-message "></div>
-
+						<button type="button" class="password-toggle" aria-label="Toggle password visibility">
+							<svg class="eye-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
+								</path>
+							</svg>
+							<svg class="eye-off-icon" style="display: none;" fill="none" stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21">
+								</path>
+							</svg>
+						</button>
+						<div class="form__input-error-message"></div>
 					</div>
-					<!-- <div class="container unauthenticated">
-						With GitHub: <a th:href="@{/oauth2/authorization/github}">click here</a>
-						With Google: <a th:href="@{/oauth2/authorization/google}">click here</a>
-					</div> -->
 
 					<div class="reg-submit">
-						<input type="submit" value="Register" name="submit" id="reg-form-submit">
-
+						<input type="submit" value="Create Account" name="submit" id="reg-form-submit">
 					</div>
-
 
 					<div class="footer-text">
-						<p style="margin-bottom:4px;">Have an Account? <a href="/login">Login Here</a></p>
-						<p>Back to search school --> <a href="/">Search School</a></p>
+						<p>Already have an account? <a href="/login">Sign in</a></p>
+						<p>Back to <a href="/">Search School</a></p>
 					</div>
-
 				</form>
-
-
-
-			</div><!-- /reg-form-->
-
-		</div><!-- /main-->
-	</div><!-- /main-page-->
+			</div>
+		</div>
+	</div>
 
 	<script src="../../js/Bibliothek/jquery-3.7.1.min.js"></script>
 	<script src="../../js/validationRegPage/validationRegLoginPage.js"></script>
-	<!-- <script src="../static/js/validationRegPage/validationRegLoginPage.js"></script>   for vs code-->
-	<!-- <script src="../../js/validationRegPage/validationRegLoginPage.js"></script>   for java-->
 	<script>
 		$(document).ready(function () {
 
@@ -177,6 +179,53 @@
 					}
 				});
 
+			});
+
+			// Password strength indicator
+			$('#password').on('input', function () {
+				const password = $(this).val();
+				const strengthBar = $('.password-strength-bar');
+				const strengthContainer = $('.password-strength');
+
+				if (password.length === 0) {
+					strengthContainer.removeClass('active');
+					return;
+				}
+
+				strengthContainer.addClass('active');
+
+				let strength = 0;
+				if (password.length >= 8) strength++;
+				if (/[a-z]/.test(password) && /[A-Z]/.test(password)) strength++;
+				if (/\d/.test(password)) strength++;
+				if (/[^a-zA-Z0-9]/.test(password)) strength++;
+
+				strengthBar.removeClass('weak medium strong');
+				if (strength <= 2) {
+					strengthBar.addClass('weak');
+				} else if (strength === 3) {
+					strengthBar.addClass('medium');
+				} else {
+					strengthBar.addClass('strong');
+				}
+			});
+
+			// Toggle password visibility
+			$('.password-toggle').on('click', function () {
+				const button = $(this);
+				const input = button.siblings('input');
+				const eyeIcon = button.find('.eye-icon');
+				const eyeOffIcon = button.find('.eye-off-icon');
+
+				if (input.attr('type') === 'password') {
+					input.attr('type', 'text');
+					eyeIcon.hide();
+					eyeOffIcon.show();
+				} else {
+					input.attr('type', 'password');
+					eyeIcon.show();
+					eyeOffIcon.hide();
+				}
 			});
 
 		});
