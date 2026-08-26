@@ -17,13 +17,16 @@ The application is implemented as a Spring Boot monolith with server-rendered Th
 		- [School Data](#school-data)
 		- [Inspect the Database](#inspect-the-database)
 	- [Project Structure](#project-structure)
+	- [**Deployment Scripts**](#deployment-scripts)
+		- [**Dockerfile**](#dockerfile)
+		- [**Docker Compose**](#docker-compose)
+		- [**Automated Deployment**](#automated-deployment)
 	- [Prerequisites](#prerequisites)
 	- [Run with Docker Compose](#run-with-docker-compose)
 		- [Compose Database Settings](#compose-database-settings)
 	- [Run Locally with Maven](#run-locally-with-maven)
 	- [Configuration](#configuration)
 	- [Verify the Deployment](#verify-the-deployment)
-	- [Deployment Script](#deployment-script)
 	- [Screenshots](#screenshots)
 	- [Troubleshooting](#troubleshooting)
 		- [Port 8080 is already in use](#port-8080-is-already-in-use)
@@ -139,6 +142,49 @@ src/main/resources/
 ├── all_shools_list/         Regional school JSON data
 └── application.properties  Default application configuration
 ```
+
+## **Deployment Scripts**
+
+The project includes Docker configuration and a deployment script for building and starting the application.
+
+### **Dockerfile**
+
+The `Dockerfile` runs the packaged Spring Boot JAR with Eclipse Temurin Java 17 and exposes port `8080`.
+
+### **Docker Compose**
+
+`docker-compose.yml` starts the application and PostgreSQL together:
+
+```bash
+./mvnw clean package -DskipTests
+docker compose up --build -d
+```
+
+### **Automated Deployment**
+
+`deploy.sh` automates the server deployment process:
+
+```bash
+cd /home/sasha/app/School-Chat
+chmod +x deploy.sh
+./deploy.sh
+```
+
+The script:
+
+- **Stops** the running Docker Compose services.
+- **Pulls** the latest code with `git pull`.
+- **Builds** the application with Maven.
+- **Creates** a new Docker image.
+- **Starts** the application and database in detached mode.
+
+Before using the script on a server:
+
+- Update the hard-coded project path if the checkout is elsewhere.
+- Confirm that `mvn` is installed, or change the script to use `./mvnw`.
+- Review the database credentials in `docker-compose.yml`.
+- Configure a reverse proxy and HTTPS for public access.
+- Decide whether skipping tests with `-DskipTests` is appropriate for the release process.
 
 ## Prerequisites
 
@@ -258,24 +304,6 @@ Then open `/` in a browser and verify this sequence:
 5. `/home` loads the school feed.
 
 Spring Boot Actuator is included as a dependency, but no actuator exposure policy is defined in the current properties file. Configure and protect health endpoints before using them for external monitoring.
-
-## Deployment Script
-
-`deploy.sh` automates a server deployment:
-
-```bash
-cd /home/sasha/app/School-Chat
-chmod +x deploy.sh
-./deploy.sh
-```
-
-The script stops Compose services, runs `git pull`, builds the application with Maven, rebuilds the Docker image, and starts the services in detached mode. Before using it on a server:
-
-- Update the hard-coded project path if the checkout is elsewhere.
-- Confirm that `mvn` is installed, or change the script to use `./mvnw`.
-- Review the database credentials in `docker-compose.yml`.
-- Configure a reverse proxy and HTTPS for public access.
-- Decide whether skipping tests with `-DskipTests` is appropriate for the release process.
 
 ## Screenshots
 
