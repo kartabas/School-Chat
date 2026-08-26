@@ -165,7 +165,7 @@ docker compose up --build -d
 `deploy.sh` automates the server deployment process:
 
 ```bash
-cd /home/sasha/app/School-Chat
+cd ~/app/School-Chat
 chmod +x deploy.sh
 ./deploy.sh
 ```
@@ -204,7 +204,7 @@ For local Maven development:
 This is the recommended way to start the complete application locally. Compose starts both the Spring Boot application and PostgreSQL, and stores database data in the named `pgdata` volume.
 
 ```bash
-cd /home/sasha/app/School-Chat
+cd ~/app/School-Chat
 ./mvnw clean package -DskipTests
 docker compose up --build -d
 ```
@@ -248,7 +248,7 @@ These values are suitable for local development only. Change them before exposin
 Start PostgreSQL separately, then make sure the database and credentials match `application.properties`:
 
 ```bash
-cd /home/sasha/app/School-Chat
+cd ~/app/School-Chat
 ./mvnw spring-boot:run
 ```
 
@@ -307,16 +307,49 @@ Spring Boot Actuator is included as a dependency, but no actuator exposure polic
 
 ## Screenshots
 
-Screenshots can be added here after deployment. Store them in a repository directory such as `docs/screenshots/` and replace the placeholders below.
+The application can be documented with a complete screenshot gallery. Store screenshots in `docs/screenshots/` and use descriptive, numbered filenames so the images remain easy to manage as the gallery grows.
 
 ```markdown
-![School search page](docs/screenshots/school-search.png)
-![Registration page](docs/screenshots/registration.png)
-![School feed](docs/screenshots/school-feed.png)
-![User profile](docs/screenshots/profile.png)
+## Screenshots
+
+### 01. School Search
+![School search page](docs/screenshots/01-school-search.png)
+
+### 02. Region Selection
+![Region selection](docs/screenshots/02-region-selection.png)
+
+### 03. Search Results
+![School search results](docs/screenshots/03-search-results.png)
+
+### 04. Registration
+![Registration page](docs/screenshots/04-registration.png)
+
+### 05. Login
+![Login page](docs/screenshots/05-login.png)
+
+### 06. Main Chat
+![Main chat](docs/screenshots/06-main-chat.png)
+
+### 07. Create Post
+![Create post form](docs/screenshots/07-create-post.png)
+
+### 08. Post With Image
+![Post with image](docs/screenshots/08-post-with-image.png)
+
+### 09. Comments and Likes
+![Comments and likes](docs/screenshots/09-comments-and-likes.png)
+
+### 10. User Profile
+![User profile](docs/screenshots/10-user-profile.png)
+
+### 11. Edit Profile
+![Edit profile](docs/screenshots/11-edit-profile.png)
+
+### 12. Responsive Mobile View
+![Responsive mobile view](docs/screenshots/12-mobile-view.png)
 ```
 
-Suggested screenshots are the school search, registration, login, school feed, and profile pages. Avoid including real email addresses, passwords, private messages, or other personal data.
+Add more entries by continuing the numbering pattern. Keep screenshots in PNG or JPG format and use alt text that clearly describes each screen. Avoid including real email addresses, passwords, private messages, or other personal data.
 
 ## Troubleshooting
 
