@@ -1,4 +1,4 @@
-# School Chat
+# School/College Chat
 
 School Chat is a school-focused social platform for students and members of a school community. Visitors can search for schools in German federal states, select a school, create an account, and join conversations with multiple people from their school community. It supports social interaction as well as communication and collaboration for school work.
 
@@ -6,7 +6,7 @@ The application is implemented as a Spring Boot monolith with server-rendered Th
 
 ## Contents
 
-- [School Chat](#school-chat)
+- [School/College Chat](#schoolcollege-chat)
 	- [Contents](#contents)
 	- [Product Overview](#product-overview)
 	- [Main User Flows](#main-user-flows)
