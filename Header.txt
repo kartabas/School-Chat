@@ -1,26 +1,21 @@
 								School Chat
 
-Це шкільний чат в якому можна підключити свій клас, і переписуватись з іншими учнями школи .
-Є режим глобального чата самої школи ,і також анонімний але в місяць прийдеться платити 5 євро в рік 48 євро підписки.
-Є свій профіль зі досяжностями ,і рейтинг класів які самі активні , і також хтось може постити новини на сайті для цієї школи .
-
--використовувати мемні гифки для валідації
+This is a school chat where you can add your class and chat with other students at the school. 
 
 
-Відкатити історію комітів на git
 
 Commands:
-// Історія комітів
+//Comits history
 git hist
 
-// Откат кода на github repository
+// Reset code on github repository
 git push -f origin  9756c39:main
 
-// Откат кода на localhost
+// Reset code on  localhost
 git reset --hard 9756c39
 
 
-//Слить branch з main
+//Merge branch with main
 
 git checkout master
 git pull origin master
@@ -49,7 +44,6 @@ docker-compose up -d
 docker-compose down
 
 
-ssh root@164.92.225.182 
 
 
 
@@ -94,7 +88,7 @@ sudo systemctl reload nginx
 sudo tail -f /var/log/nginx/device.log
 
 //For example
-//203.0.113.45 "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1"
+// a.b.c.d "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1"
 
 //---------------------------------------------Nginx-------------------------------------------------
 

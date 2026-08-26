@@ -19,7 +19,7 @@ echo "=================================="
 # Step 1: Stop running containers
 echo ""
 echo "[1/5] Stopping Docker containers..."
-docker-compose down
+docker compose down
 echo "✓ Containers stopped"
 
 # Step 2: Pull latest code from git
@@ -43,7 +43,7 @@ echo "✓ Docker image built"
 # Step 5: Start containers
 echo ""
 echo "[5/5] Starting Docker containers..."
-docker-compose up -d
+docker compose up -d
 echo "✓ Containers started"
 
 echo ""
@@ -63,4 +63,4 @@ echo "Total execution time: ${MINUTES} minutes ${SECONDS} seconds"
 # Show running containers
 echo ""
 echo "Running containers:"
-docker-compose ps
+docker compose ps
