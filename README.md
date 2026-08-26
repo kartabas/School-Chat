@@ -1,6 +1,6 @@
 # School Chat
 
-School Chat is a school-focused social platform for students and members of a school community. Visitors can search for schools in German federal states, select a school, create an account, and join a school-specific conversation space.
+School Chat is a school-focused social platform for students and members of a school community. Visitors can search for schools in German federal states, select a school, create an account, and join conversations with multiple people from their school community. It supports social interaction as well as communication and collaboration for school work.
 
 The application is implemented as a Spring Boot monolith with server-rendered Thymeleaf pages, JavaScript enhancements, and PostgreSQL persistence.
 
@@ -28,6 +28,9 @@ The application is implemented as a Spring Boot monolith with server-rendered Th
 	- [Configuration](#configuration)
 	- [Verify the Deployment](#verify-the-deployment)
 	- [Screenshots](#screenshots)
+		- [School Discovery and Account Setup](#school-discovery-and-account-setup)
+		- [Community Chat and Collaboration](#community-chat-and-collaboration)
+		- [Profiles](#profiles)
 	- [Troubleshooting](#troubleshooting)
 		- [Port 8080 is already in use](#port-8080-is-already-in-use)
 		- [The application cannot connect to PostgreSQL](#the-application-cannot-connect-to-postgresql)
@@ -47,6 +50,8 @@ School Chat combines school discovery with a community feed:
 - View the school feed and publish text posts.
 - Add images to posts where supported by the interface.
 - Comment on posts and interact with likes.
+- Chat and exchange ideas with multiple people in the school community.
+- Communicate about school work and collaborate with other students.
 - View a personal profile and manage profile content.
 - Update profile biography, avatar, and background image.
 - Browse school data sourced from JSON files in `src/main/resources/all_shools_list`.
@@ -58,8 +63,9 @@ The public entry point is `http://localhost:8080/` after the application starts.
 1. **Find a school**: open the home page, choose a region, and search by school name.
 2. **Join a school community**: select a result and continue to registration.
 3. **Create an account**: provide a nickname, email address, and password. The registration page checks nickname availability.
-4. **Use the school feed**: log in to view the selected school's posts and publish new content.
-5. **Manage a profile**: open `/profile` to view user posts and update profile information.
+4. **Use the school feed**: log in to view the selected school's posts, communicate with multiple people, and publish new content.
+5. **Work together**: use the community conversations to discuss assignments, school work, and shared ideas.
+6. **Manage a profile**: open `/profile` to view user posts and update profile information.
 
 ## Technology Stack
 
@@ -307,49 +313,31 @@ Spring Boot Actuator is included as a dependency, but no actuator exposure polic
 
 ## Screenshots
 
-The application can be documented with a complete screenshot gallery. Store screenshots in `docs/screenshots/` and use descriptive, numbered filenames so the images remain easy to manage as the gallery grows.
+The following screenshots show the main user flows and community features:
 
-```markdown
-## Screenshots
+### School Discovery and Account Setup
 
-### 01. School Search
-![School search page](docs/screenshots/01-school-search.png)
+![School Chat home page](app-screenshots/home-page.png)
+![School search](app-screenshots/school-search.png)
+![Search bar](app-screenshots/search-bar.png)
+![Login page](app-screenshots/login.png)
+![Registration page](app-screenshots/register.png)
 
-### 02. Region Selection
-![Region selection](docs/screenshots/02-region-selection.png)
+### Community Chat and Collaboration
 
-### 03. Search Results
-![School search results](docs/screenshots/03-search-results.png)
+![Main page](app-screenshots/main-page.png)
+![Home page with a post](app-screenshots/home-page-with-post.png)
+![Post comment](app-screenshots/post-comment.png)
+![Posted comment](app-screenshots/posted-comment-in-post.png)
+![Changed post data](app-screenshots/change-post-data.png)
+![Sidebar](app-screenshots/side-bar.png)
 
-### 04. Registration
-![Registration page](docs/screenshots/04-registration.png)
+### Profiles
 
-### 05. Login
-![Login page](docs/screenshots/05-login.png)
-
-### 06. Main Chat
-![Main chat](docs/screenshots/06-main-chat.png)
-
-### 07. Create Post
-![Create post form](docs/screenshots/07-create-post.png)
-
-### 08. Post With Image
-![Post with image](docs/screenshots/08-post-with-image.png)
-
-### 09. Comments and Likes
-![Comments and likes](docs/screenshots/09-comments-and-likes.png)
-
-### 10. User Profile
-![User profile](docs/screenshots/10-user-profile.png)
-
-### 11. Edit Profile
-![Edit profile](docs/screenshots/11-edit-profile.png)
-
-### 12. Responsive Mobile View
-![Responsive mobile view](docs/screenshots/12-mobile-view.png)
-```
-
-Add more entries by continuing the numbering pattern. Keep screenshots in PNG or JPG format and use alt text that clearly describes each screen. Avoid including real email addresses, passwords, private messages, or other personal data.
+![Profile page](app-screenshots/profile-page.png)
+![Changed profile](app-screenshots/changed-profile.png)
+![Profile settings](app-screenshots/profile-settings.png)
+![Delete or edit a post from the profile page](app-screenshots/delete-edit-post-in-profile-page.png)
 
 ## Troubleshooting
 
@@ -385,7 +373,7 @@ Confirm that the selected school data is present in the regional JSON files and 
 
 ## License
 
-No license is currently specified in this repository.
+This project is licensed under the [MIT License](LICENSE). Copyright (c) 2026 kartabas.
 
 
 
